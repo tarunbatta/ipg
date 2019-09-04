@@ -29,11 +29,11 @@
             deviceScaleFactor: 1,
         });
 
-        await helper.deleteContentsOfFolder('./questions');
-        await page.waitFor(timeout);
         await getProblems();
         await page.waitFor(timeout);
         config.writeFile('questions.json', JSON.stringify(questions));
+        await page.waitFor(timeout);
+        await helper.deleteContentsOfFolder('./questions');
         await page.waitFor(timeout);
         await scrapeData();
         await page.waitFor(timeout);
