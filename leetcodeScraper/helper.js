@@ -30,5 +30,25 @@
         });
     };
 
+    config.writeFile = function (fileName, data, isOverride) {
+        fs.exists(fileName, function (exists) {
+            if (exists) {
+                if (isOverride) {
+                    fs.appendFile(fileName, data, function (err) {
+                        if (err) throw err;
+                    });
+                } else {
+                    fs.writeFile(fileName, data, (err) => {
+                        if (err) throw err;
+                    });
+                }
+            } else {
+                fs.writeFile(fileName, data, (err) => {
+                    if (err) throw err;
+                });
+            }
+        });
+    };
+
     module.exports = helper;
 }());

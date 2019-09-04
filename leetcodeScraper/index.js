@@ -29,47 +29,65 @@
             deviceScaleFactor: 1,
         });
 
+        await helper.deleteContentsOfFolder('./questions');
+        await page.waitFor(timeout);
+        await getProblems();
+        await page.waitFor(timeout);
+        config.writeFile('questions.json', JSON.stringify(questions));
+        await page.waitFor(timeout);
         await scrapeData();
         await page.waitFor(timeout);
-
-        // await helper.deleteContentsOfFolder('questions');
-        // await page.waitFor(timeout);
 
         await browser.close();
     };
 
     const scrapeData = async () => {
-        // await getProblems();
+        for (let i = 0; i < questions.length; i++) {
+            const question = questions[i];
 
-        // for (let i = 0; i < questions.length; i++) {
-        //     const question = questions[i];
+            await page.goto(question.url, {
+                waitUntil: ['load', 'domcontentloaded'],
+            });
 
-        let question = {
-            number: '1',
-            title: 'Two Sum',
-            url: 'https://leetcode.com/problems/two-sum/',
-            difficulty: 'Easy',
-            question: null,
-            code: null,
-        };
+            await page.waitFor(timeout * 3);
+            const bodyHTML = await page.evaluate(() => document.body.innerHTML);
+            const $ = cheerio.load(bodyHTML);
+            await page.waitFor(timeout);
 
-        await page.goto(question.url, {
-            waitUntil: ['load', 'domcontentloaded'],
-        });
-        const bodyHTML = await page.evaluate(() => document.body.innerHTML);
-        const $ = cheerio.load(bodyHTML);
+            if (i == 0) {
+                await page.click('div.ant-select-selection');
+                await page.waitFor(timeout);
+                await page.click('li[data-cy="lang-select-C#"]');
+                await page.waitFor(timeout);
+            }
 
-        console.log($('div.content__u3I1 question-content__JfgR'));
-        console.log($('div.content__u3I1 question-content__JfgR').text());
+            question.question = $('div.question-content__JfgR > div').html();
 
+            if (question.question != null && question.question.length > 0) {
+                question.question = question.question.replace(/<[^>]+>/g, '');
+            }
 
-        // }
+            $('div.CodeMirror-code div').each(function (index, element) {
+                question.code += $(element).find('pre').text();
+            });
+
+            config.writeFile(config.questionsFolderPath + question.number + '.json', JSON.stringify(question));
+            await page.waitFor(timeout);
+        }
     };
 
     const getProblems = async () => {
         await page.goto(config.problemsUrl, {
             waitUntil: ['load', 'domcontentloaded'],
         });
+
+        await page.waitFor(timeout);
+        const option = (await page.$x(
+            '//select/option[text() = "all"]'
+        ))[0];
+        const value = await (await option.getProperty('value')).jsonValue();
+        await page.select('select.form-control', value);
+        await page.waitFor(timeout);
 
         const bodyHTML = await page.evaluate(() => document.body.innerHTML);
         const $ = cheerio.load(bodyHTML);
@@ -81,8 +99,6 @@
                     title: $(element).find('td:nth-child(3) > div > a').text(),
                     url: config.siteUrl + $(element).find('td:nth-child(3) > div > a').attr('href'),
                     difficulty: $(element).find('td:nth-child(6) > span').text(),
-                    question: null,
-                    code: null,
                 });
             }
         );
