@@ -1,0 +1,35 @@
+{
+    "Algo": {
+        "prefix": "algo",
+        "body": [
+            "using System;\n",
+            "namespace TechByTarun.InterviewPreperationGuide.Core {",
+            "\tpublic class Solution {",
+            "\t\tpublic static void Init () {\n",
+            "\t\t}\n",
+            "\t\tpublic static void Method () {\n",
+            "\t\t}",
+            "\t}",
+            "}"
+        ],
+        "description": "Algo"
+    },
+    "LeetCode": {
+        "prefix": "leetcode",
+        "body": [
+            "// Url: ${1:LeetCodeUrl}\n",
+            "/*",
+            "${2:ProblemStatement}",
+            "*/\n",
+            "using System;\n",
+            "namespace TechByTarun.InterviewPreperationGuide.Core.LeetCode.Solution$TM_FILENAME {",
+            "\tpublic class Solution {",
+            "\t\tpublic void Init () {\n",
+            "\t\t}\n",
+            "\t\t${3://Method}",
+            "\t}",
+            "}"
+        ],
+        "description": "LeetCode"
+    }
+}
