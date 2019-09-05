@@ -38,42 +38,50 @@ Note:
 using System;
 using System.Collections;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution840 {
-    public class Solution {
-        public void Init () {
-            Console.WriteLine (NumMagicSquaresInside (new int[][] {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution840
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            Console.WriteLine(NumMagicSquaresInside(new int[][] {
                 new int[] { 4, 3, 8, 4 },
                     new int[] { 9, 5, 1, 9 },
                     new int[] { 2, 7, 6, 2 }
             }));
 
-            Console.WriteLine (NumMagicSquaresInside (new int[][] {
+            Console.WriteLine(NumMagicSquaresInside(new int[][] {
                 new int[] { 8 }
             }));
 
-            Console.WriteLine (NumMagicSquaresInside (new int[][] {
+            Console.WriteLine(NumMagicSquaresInside(new int[][] {
                 new int[] { 2, 7, 6 },
                     new int[] { 1, 5, 9 },
                     new int[] { 4, 3, 8 }
             }));
 
-            Console.WriteLine (NumMagicSquaresInside (new int[][] {
+            Console.WriteLine(NumMagicSquaresInside(new int[][] {
                 new int[] { 5, 5, 5 },
                     new int[] { 5, 5, 5 },
                     new int[] { 5, 5, 5 }
             }));
         }
 
-        public int NumMagicSquaresInside (int[][] grid) {
+        public int NumMagicSquaresInside(int[][] grid)
+        {
             int result = 0;
 
-            if (grid == null || grid.Length < 3 || grid[0].Length < 3) {
+            if (grid == null || grid.Length < 3 || grid[0].Length < 3)
+            {
                 return result;
             }
 
-            for (int i = 0; i < grid.Length - 2; i++) {
-                for (int j = 0; j < grid[0].Length - 2; j++) {
-                    if (IsMagicSquare (grid, i, j)) {
+            for (int i = 0; i < grid.Length - 2; i++)
+            {
+                for (int j = 0; j < grid[0].Length - 2; j++)
+                {
+                    if (IsMagicSquare(grid, i, j))
+                    {
                         result++;
                     }
                 }
@@ -82,19 +90,23 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution840 {
             return result;
         }
 
-        public bool IsMagicSquare (int[][] grid, int i, int j) {
+        public bool IsMagicSquare(int[][] grid, int i, int j)
+        {
             bool result = false;
-            Hashtable hash = new Hashtable ();
+            Hashtable hash = new Hashtable();
 
-            for (int x = 0; x < 3; x++) {
-                for (int y = 0; y < 3; y++) {
+            for (int x = 0; x < 3; x++)
+            {
+                for (int y = 0; y < 3; y++)
+                {
                     int t = grid[i + x][j + y];
 
-                    if (hash.ContainsKey (t) || t < 1 || t > 9) {
+                    if (hash.ContainsKey(t) || t < 1 || t > 9)
+                    {
                         return false;
                     }
 
-                    hash.Add (t, 1);
+                    hash.Add(t, 1);
                 }
             }
 
@@ -107,7 +119,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution840 {
             int diag1 = grid[i][j] + grid[i + 1][j + 1] + grid[i + 2][j + 2];
             int diag2 = grid[i][j + 2] + grid[i + 1][j + 1] + grid[i + 2][j];
 
-            if ((row1 == row2) && (row1 == row3) && (col1 == col2) && (col1 == col3) && (diag1 == diag2) && (row1 == col1) && (col1 == diag1)) {
+            if ((row1 == row2) && (row1 == row3) && (col1 == col2) && (col1 == col3) && (diag1 == diag2) && (row1 == col1) && (col1 == diag1))
+            {
                 result = true;
             }
 

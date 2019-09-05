@@ -23,28 +23,35 @@ Explanation: The array represents the integer 4321.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution66 {
-    public class Solution {
-        public void Init () {
-            Console.WriteLine (PlusOne (new int[] { 1, 2, 3 }));
-            Console.WriteLine (PlusOne (new int[] { 4, 3, 2, 1 }));
+namespace InterviewPreperationGuide.Core.LeetCode.Solution66
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            Console.WriteLine(PlusOne(new int[] { 1, 2, 3 }));
+            Console.WriteLine(PlusOne(new int[] { 4, 3, 2, 1 }));
         }
 
-        public int[] PlusOne (int[] digits) {
+        public int[] PlusOne(int[] digits)
+        {
             int carry = 1;
 
-            for (int i = digits.Length - 1; i >= 0; i--) {
+            for (int i = digits.Length - 1; i >= 0; i--)
+            {
                 int temp = carry + digits[i];
                 int num = temp % 10;
                 carry = temp / 10;
                 digits[i] = num;
             }
 
-            if (carry == 1) {
+            if (carry == 1)
+            {
                 int[] result = new int[digits.Length + 1];
                 result[0] = 1;
 
-                for (int i = 0; i < digits.Length; i++) {
+                for (int i = 0; i < digits.Length; i++)
+                {
                     result[i + 1] = digits[i];
                 }
 

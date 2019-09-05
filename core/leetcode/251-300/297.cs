@@ -29,61 +29,76 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution297 {
-    public class Solution {
-        public void Init () {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution297
+{
+    public class Solution
+    {
+        public void Init()
+        {
             TreeNode root = null;
 
-            Codec codec = new Codec ();
-            codec.deserialize (codec.serialize (root));
+            Codec codec = new Codec();
+            codec.deserialize(codec.serialize(root));
         }
     }
 
-    public class TreeNode {
+    public class TreeNode
+    {
         public int val;
         public TreeNode left;
         public TreeNode right;
-        public TreeNode (int x) { val = x; }
+        public TreeNode(int x) { val = x; }
     }
 
-    public class Codec {
+    public class Codec
+    {
         private String spliter = ",";
         private String NN = "X";
 
         // Encodes a tree to a single string.
-        public String serialize (TreeNode root) {
-            StringBuilder sb = new StringBuilder ();
-            buildString (root, sb);
-            return sb.ToString ();
+        public String serialize(TreeNode root)
+        {
+            StringBuilder sb = new StringBuilder();
+            buildString(root, sb);
+            return sb.ToString();
         }
 
         // Decodes your encoded data to tree.
-        public TreeNode deserialize (String data) {
-            List<String> nodes = new List<String> ();
-            nodes.AddRange (data.Split (spliter));
-            return buildTree (nodes);
+        public TreeNode deserialize(String data)
+        {
+            List<String> nodes = new List<String>();
+            nodes.AddRange(data.Split(spliter));
+            return buildTree(nodes);
         }
 
-        private void buildString (TreeNode node, StringBuilder sb) {
-            if (node == null) {
-                sb.Append (NN).Append (spliter);
-            } else {
-                sb.Append (node.val).Append (spliter);
-                buildString (node.left, sb);
-                buildString (node.right, sb);
+        private void buildString(TreeNode node, StringBuilder sb)
+        {
+            if (node == null)
+            {
+                sb.Append(NN).Append(spliter);
+            }
+            else
+            {
+                sb.Append(node.val).Append(spliter);
+                buildString(node.left, sb);
+                buildString(node.right, sb);
             }
         }
 
-        private TreeNode buildTree (List<String> nodes) {
+        private TreeNode buildTree(List<String> nodes)
+        {
             String val = nodes[0];
-            nodes.RemoveAt (0);
+            nodes.RemoveAt(0);
 
-            if (val == NN) {
+            if (val == NN)
+            {
                 return null;
-            } else {
-                TreeNode node = new TreeNode (Convert.ToInt32 (val));
-                node.left = buildTree (nodes);
-                node.right = buildTree (nodes);
+            }
+            else
+            {
+                TreeNode node = new TreeNode(Convert.ToInt32(val));
+                node.left = buildTree(nodes);
+                node.right = buildTree(nodes);
                 return node;
             }
         }

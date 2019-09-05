@@ -25,36 +25,47 @@ The characters in J are distinct.
 using System;
 using System.Collections;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution771 {
-    public class Solution {
-        public void Init () {
-            Console.WriteLine (NumJewelsInStones (null, null));
-            Console.WriteLine (NumJewelsInStones (null, "aAAbbbb"));
-            Console.WriteLine (NumJewelsInStones ("aA", null));
-            Console.WriteLine (NumJewelsInStones ("aA", "aAAbbbb"));
-            Console.WriteLine (NumJewelsInStones ("z", "ZZ"));
+namespace InterviewPreperationGuide.Core.LeetCode.Solution771
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            Console.WriteLine(NumJewelsInStones(null, null));
+            Console.WriteLine(NumJewelsInStones(null, "aAAbbbb"));
+            Console.WriteLine(NumJewelsInStones("aA", null));
+            Console.WriteLine(NumJewelsInStones("aA", "aAAbbbb"));
+            Console.WriteLine(NumJewelsInStones("z", "ZZ"));
         }
 
-        public int NumJewelsInStones (string J, string S) {
+        public int NumJewelsInStones(string J, string S)
+        {
             int result = 0;
 
-            if (string.IsNullOrEmpty (S) || string.IsNullOrEmpty (J)) {
+            if (string.IsNullOrEmpty(S) || string.IsNullOrEmpty(J))
+            {
                 return result;
             }
 
-            Hashtable hash = new Hashtable ();
+            Hashtable hash = new Hashtable();
 
-            for (int i = 0; i < S.Length; i++) {
-                if (!hash.ContainsKey (S[i])) {
-                    hash.Add (S[i], 1);
-                } else {
-                    hash[S[i]] = (int) hash[S[i]] + 1;
+            for (int i = 0; i < S.Length; i++)
+            {
+                if (!hash.ContainsKey(S[i]))
+                {
+                    hash.Add(S[i], 1);
+                }
+                else
+                {
+                    hash[S[i]] = (int)hash[S[i]] + 1;
                 }
             }
 
-            for (int i = 0; i < J.Length; i++) {
-                if (hash.ContainsKey (J[i])) {
-                    result += (int) hash[J[i]];
+            for (int i = 0; i < J.Length; i++)
+            {
+                if (hash.ContainsKey(J[i]))
+                {
+                    result += (int)hash[J[i]];
                 }
             }
 

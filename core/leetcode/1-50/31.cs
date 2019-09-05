@@ -19,50 +19,61 @@ Here are some examples. Inputs are in the left-hand column and its corresponding
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution31 {
-    public class Solution {
-        public void Init () {
-            NextPermutation (null);
-            NextPermutation (new int[] { 1, 2, 3 });
-            NextPermutation (new int[] { 3, 2, 1 });
-            NextPermutation (new int[] { 1, 1, 5 });
+namespace InterviewPreperationGuide.Core.LeetCode.Solution31
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            NextPermutation(null);
+            NextPermutation(new int[] { 1, 2, 3 });
+            NextPermutation(new int[] { 3, 2, 1 });
+            NextPermutation(new int[] { 1, 1, 5 });
         }
 
-        public void NextPermutation (int[] nums) {
-            if (nums == null || nums.Length == 0) {
+        public void NextPermutation(int[] nums)
+        {
+            if (nums == null || nums.Length == 0)
+            {
                 return;
             };
 
             int i = nums.Length - 2;
 
-            while (i >= 0 && nums[i + 1] <= nums[i]) {
+            while (i >= 0 && nums[i + 1] <= nums[i])
+            {
                 i--;
             }
 
-            if (i >= 0) {
+            if (i >= 0)
+            {
                 int j = nums.Length - 1;
 
-                while (j >= 0 && nums[j] <= nums[i]) {
+                while (j >= 0 && nums[j] <= nums[i])
+                {
                     j--;
                 }
 
-                Swap (nums, i, j);
+                Swap(nums, i, j);
             }
 
-            Reverse (nums, i + 1);
+            Reverse(nums, i + 1);
         }
 
-        private void Reverse (int[] nums, int start) {
+        private void Reverse(int[] nums, int start)
+        {
             int i = start;
             int j = nums.Length - 1;
 
-            while (i < j) {
-                Swap (nums, i, j);
+            while (i < j)
+            {
+                Swap(nums, i, j);
                 i++;
                 j--;
             }
         }
-        private void Swap (int[] nums, int i, int j) {
+        private void Swap(int[] nums, int i, int j)
+        {
             int temp = nums[i];
             nums[i] = nums[j];
             nums[j] = temp;
