@@ -22,14 +22,18 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution404
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
 
-        public int SumOfLeftLeaves(TreeNode root) {
+        }
+
+        public int SumOfLeftLeaves(TreeNode root)
+        {
             return 0;
-         }
+        }
     }
 
-        public class TreeNode
+    public class TreeNode
     {
         public int val;
         public TreeNode left;

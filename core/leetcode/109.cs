@@ -27,7 +27,10 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution109
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
+
+        }
 
         public TreeNode SortedListToBST(ListNode head)
         {

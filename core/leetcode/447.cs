@@ -29,7 +29,10 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution447
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
+
+        }
 
         public int NumberOfBoomerangs(int[][] points) { }
     }

@@ -44,8 +44,14 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution985
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
 
-        public int[] SumEvenAfterQueries(int[] A, int[][] queries) { }
+        }
+
+        public int[] SumEvenAfterQueries(int[] A, int[][] queries)
+        {
+            return null;
+        }
     }
 }

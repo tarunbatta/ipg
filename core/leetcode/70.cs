@@ -35,9 +35,13 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution70
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
 
-        public int ClimbStairs(int n) { 
+        }
+
+        public int ClimbStairs(int n)
+        {
             return 0;
         }
     }

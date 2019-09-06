@@ -37,7 +37,10 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution1145
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
+
+        }
 
         public bool BtreeGameWinningMove(TreeNode root, int n, int x)
         {

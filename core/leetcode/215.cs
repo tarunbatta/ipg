@@ -27,8 +27,14 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution215
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
 
-        public int FindKthLargest(int[] nums, int k) { }
+        }
+
+        public int FindKthLargest(int[] nums, int k)
+        {
+            return 0;
+        }
     }
 }

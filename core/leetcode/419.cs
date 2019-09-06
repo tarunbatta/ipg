@@ -35,7 +35,10 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution419
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
+
+        }
 
         public int CountBattleships(char[][] board) { }
     }

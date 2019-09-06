@@ -30,8 +30,14 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution213
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
 
-        public int Rob(int[] nums) { }
+        }
+
+        public int Rob(int[] nums)
+        {
+            return 0;
+        }
     }
 }

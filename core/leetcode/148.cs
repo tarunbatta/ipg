@@ -24,11 +24,14 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution148
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
+
+        }
 
         public ListNode SortList(ListNode head)
         {
-            returnnull;
+            return null;
         }
     }
 

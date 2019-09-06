@@ -36,7 +36,10 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution907
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
+
+        }
 
         public int SumSubarrayMins(int[] A) { }
     }

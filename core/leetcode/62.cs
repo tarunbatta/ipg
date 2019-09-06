@@ -38,9 +38,13 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution62
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
 
-        public int UniquePaths(int m, int n) { 
+        }
+
+        public int UniquePaths(int m, int n)
+        {
             return 0;
         }
     }

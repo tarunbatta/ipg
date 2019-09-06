@@ -35,13 +35,20 @@ Output: []
 */
 
 using System;
+using System.Collections.Generic;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution282
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
 
-        public IList<string> AddOperators(string num, int target) { }
+        }
+
+        public IList<string> AddOperators(string num, int target)
+        {
+            return null;
+        }
     }
 }

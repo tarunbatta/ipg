@@ -52,8 +52,14 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution127
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
 
-        public int LadderLength(string beginWord, string endWord, IList<string> wordList) { }
+        }
+
+        public int LadderLength(string beginWord, string endWord, IList<string> wordList)
+        {
+            return 0;
+        }
     }
 }

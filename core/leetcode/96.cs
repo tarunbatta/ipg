@@ -26,10 +26,14 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution96
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
 
-        public int NumTrees(int n) {
+        }
+
+        public int NumTrees(int n)
+        {
             return 0;
-         }
+        }
     }
 }

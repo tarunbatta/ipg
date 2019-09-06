@@ -41,7 +41,10 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution501
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
+
+        }
 
         public int[] FindMode(TreeNode root)
         {

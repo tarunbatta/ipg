@@ -38,7 +38,10 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution35
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
+
+        }
 
         public int SearchInsert(int[] nums, int target)
         {

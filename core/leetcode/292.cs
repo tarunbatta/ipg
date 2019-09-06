@@ -23,8 +23,14 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution292
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
 
-        public bool CanWinNim(int n) { }
+        }
+
+        public bool CanWinNim(int n)
+        {
+            return false;
+        }
     }
 }

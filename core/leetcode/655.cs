@@ -69,14 +69,18 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution655
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
 
-        public IList<IList<string>> PrintTree(TreeNode root) { 
+        }
+
+        public IList<IList<string>> PrintTree(TreeNode root)
+        {
             return null;
         }
     }
 
-        public class TreeNode
+    public class TreeNode
     {
         public int val;
         public TreeNode left;

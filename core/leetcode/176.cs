@@ -11,5 +11,5 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution176
 {
-# Write your MySQL query statement below
+    // # Write your MySQL query statement below
 }

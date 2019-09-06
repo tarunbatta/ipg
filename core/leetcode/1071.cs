@@ -44,7 +44,10 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution1071
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
+
+        }
 
         public string GcdOfStrings(string str1, string str2) { }
     }

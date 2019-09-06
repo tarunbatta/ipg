@@ -26,8 +26,14 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution179
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
 
-        public string LargestNumber(int[] nums) { }
+        }
+
+        public string LargestNumber(int[] nums)
+        {
+            return null;
+        }
     }
 }

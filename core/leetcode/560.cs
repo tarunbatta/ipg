@@ -24,7 +24,10 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution560
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
+
+        }
 
         public int SubarraySum(int[] nums, int k) { }
     }

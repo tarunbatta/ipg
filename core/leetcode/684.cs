@@ -47,7 +47,10 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution684
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
+
+        }
 
         public int[] FindRedundantConnection(int[][] edges) { }
     }

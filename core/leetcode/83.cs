@@ -24,7 +24,10 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution83
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
+
+        }
 
         public ListNode DeleteDuplicates(ListNode head)
         {

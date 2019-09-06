@@ -33,7 +33,10 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution812
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
+
+        }
 
         public double LargestTriangleArea(int[][] points) { }
     }

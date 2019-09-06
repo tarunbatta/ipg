@@ -30,12 +30,16 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution112
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
 
-        public bool HasPathSum(TreeNode root, int sum) {
+        }
+
+        public bool HasPathSum(TreeNode root, int sum)
+        {
 
             return false;
-         }
+        }
     }
 
     public class TreeNode

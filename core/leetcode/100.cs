@@ -47,8 +47,9 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution100
 {
     public class Solution
     {
-        public void Init() { 
-            
+        public void Init()
+        {
+
         }
 
         public bool IsSameTree(TreeNode p, TreeNode q)

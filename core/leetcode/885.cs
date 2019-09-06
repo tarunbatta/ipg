@@ -55,7 +55,10 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution885
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
+
+        }
 
         public int[][] SpiralMatrixIII(int R, int C, int r0, int c0) { }
     }

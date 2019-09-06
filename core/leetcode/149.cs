@@ -44,8 +44,14 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution149
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
 
-        public int MaxPoints(int[][] points) { }
+        }
+
+        public int MaxPoints(int[][] points)
+        {
+            return 0;
+        }
     }
 }

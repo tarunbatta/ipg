@@ -28,7 +28,10 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution17
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
+
+        }
 
         public IList<string> LetterCombinations(string digits)
         {

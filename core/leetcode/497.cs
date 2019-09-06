@@ -55,7 +55,10 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution497
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
+
+        }
 
 ​    public Solution(int[][] rects) { }
         public int[] Pick() { }

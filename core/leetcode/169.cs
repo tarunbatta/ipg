@@ -25,8 +25,14 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution169
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
 
-        public int MajorityElement(int[] nums) { }
+        }
+
+        public int MajorityElement(int[] nums)
+        {
+            return 0;
+        }
     }
 }

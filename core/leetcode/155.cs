@@ -34,10 +34,21 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution155
 {
+    public class Solution
+    {
+        public void Init()
+        {
+            MinStack obj = new MinStack();
+            obj.Push(1);
+            obj.Pop();
+            int param_3 = obj.Top();
+            int param_4 = obj.GetMin();
+        }
+    }
+
     public class MinStack
-    {​   
-	 /** initialize your data structure here. */    
-		public MinStack()
+    {
+        public MinStack()
         {
 
         }
@@ -54,16 +65,12 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution155
 
         public int Top()
         {
-
+            return 0;
         }
 
         public int GetMin()
         {
-
+            return 0;
         }
     }​
-
-
-    /** * Your MinStack object will be instantiated and called as such: * MinStack obj = new MinStack(); * obj.Push(x); * obj.Pop(); * int param_3 = obj.Top(); * int param_4 = obj.GetMin(); *
-}*/
 }

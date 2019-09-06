@@ -36,8 +36,14 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution205
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
 
-        public bool IsIsomorphic(string s, string t) { }
+        }
+
+        public bool IsIsomorphic(string s, string t)
+        {
+            return false;
+        }
     }
 }

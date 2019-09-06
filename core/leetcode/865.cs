@@ -44,7 +44,10 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution865
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
+
+        }
 
         public TreeNode SubtreeWithAllDeepest(TreeNode root)
         {

@@ -37,7 +37,10 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution689
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
+
+        }
 
         public int[] MaxSumOfThreeSubarrays(int[] nums, int k) { }
     }

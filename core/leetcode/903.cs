@@ -49,7 +49,10 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution903
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
+
+        }
 
         public int NumPermsDISequence(string S) { }
     }

@@ -45,9 +45,13 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution98
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
 
-        public bool IsValidBST(TreeNode root) { 
+        }
+
+        public bool IsValidBST(TreeNode root)
+        {
             return false;
         }
     }

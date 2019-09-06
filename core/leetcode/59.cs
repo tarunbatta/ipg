@@ -23,9 +23,13 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution59
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
 
-        public int[][] GenerateMatrix(int n) { 
+        }
+
+        public int[][] GenerateMatrix(int n)
+        {
             return null;
         }
     }

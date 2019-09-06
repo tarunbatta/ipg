@@ -43,7 +43,10 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution847
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
+
+        }
 
         public int ShortestPathLength(int[][] graph) { }
     }

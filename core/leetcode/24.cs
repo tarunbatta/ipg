@@ -21,7 +21,10 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution24
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
+
+        }
 
         public ListNode SwapPairs(ListNode head)
         {
@@ -29,7 +32,7 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution24
         }
     }
 
-     public class ListNode
+    public class ListNode
     {
         public int val;
         public ListNode next;

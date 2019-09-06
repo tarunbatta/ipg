@@ -43,9 +43,13 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution65
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
 
-        public bool IsNumber(string s) { 
+        }
+
+        public bool IsNumber(string s)
+        {
             return false;
         }
     }

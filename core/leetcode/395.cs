@@ -34,7 +34,10 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution395
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
+
+        }
 
         public int LongestSubstring(string s, int k) { }
     }

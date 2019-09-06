@@ -36,7 +36,10 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution138
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
+
+        }
 
         public Node CopyRandomList(Node head)
         {
@@ -57,9 +60,9 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution138
 
         public Node(int _val, Node _next, Node _random)
         {
-            val = _val; 
+            val = _val;
             next = _next;
-             random = _random;
+            random = _random;
         }
     }
 }

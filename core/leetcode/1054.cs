@@ -42,7 +42,10 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution1054
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
+
+        }
 
         public int[] RearrangeBarcodes(int[] barcodes) { }
     }

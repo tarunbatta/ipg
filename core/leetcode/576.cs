@@ -40,7 +40,10 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution576
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
+
+        }
 
         public int FindPaths(int m, int n, int N, int i, int j) { }
     }

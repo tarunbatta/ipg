@@ -49,7 +49,10 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution424
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
+
+        }
 
         public int CharacterReplacement(string s, int k) { }
     }

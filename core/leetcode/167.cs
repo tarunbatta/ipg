@@ -28,8 +28,14 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution167
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
 
-        public int[] TwoSum(int[] numbers, int target) { }
+        }
+
+        public int[] TwoSum(int[] numbers, int target)
+        {
+            return null;
+        }
     }
 }

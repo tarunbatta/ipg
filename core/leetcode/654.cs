@@ -41,14 +41,18 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution654
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
 
-        public TreeNode ConstructMaximumBinaryTree(int[] nums) { 
-          return null;
+        }
+
+        public TreeNode ConstructMaximumBinaryTree(int[] nums)
+        {
+            return null;
         }
     }
 
-        public class TreeNode
+    public class TreeNode
     {
         public int val;
         public TreeNode left;

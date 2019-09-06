@@ -30,7 +30,10 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution399
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
+
+        }
 
         public double[] CalcEquation(IList<IList<string>> equations, double[] values, IList<IList<string>> queries) { }
     }

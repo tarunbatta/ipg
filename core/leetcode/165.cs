@@ -50,8 +50,14 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution165
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
 
-        public int CompareVersion(string version1, string version2) { }
+        }
+
+        public int CompareVersion(string version1, string version2)
+        {
+            return 0;
+        }
     }
 }

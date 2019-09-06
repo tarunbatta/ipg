@@ -32,8 +32,14 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution188
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
 
-        public int MaxProfit(int k, int[] prices) { }
+        }
+
+        public int MaxProfit(int k, int[] prices)
+        {
+            return 0;
+        }
     }
 }

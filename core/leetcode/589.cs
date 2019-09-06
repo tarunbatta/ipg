@@ -30,11 +30,15 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution589
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
 
-        public IList<int> Preorder(Node root) {
+        }
+
+        public IList<int> Preorder(Node root)
+        {
             return null;
-         }
+        }
     }
 
     public class Node

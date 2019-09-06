@@ -59,8 +59,14 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution134
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
 
-        public int CanCompleteCircuit(int[] gas, int[] cost) { }
+        }
+
+        public int CanCompleteCircuit(int[] gas, int[] cost)
+        {
+            return 0;
+        }
     }
 }

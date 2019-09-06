@@ -25,7 +25,10 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution319
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
+
+        }
 
         public int BulbSwitch(int n) { }
     }

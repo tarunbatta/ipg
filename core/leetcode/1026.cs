@@ -40,7 +40,10 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution1026
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
+
+        }
 
         public int MaxAncestorDiff(TreeNode root)
         {

@@ -29,10 +29,14 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution90
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
 
-        public IList<IList<int>> SubsetsWithDup(int[] nums) { 
-          return null;
+        }
+
+        public IList<IList<int>> SubsetsWithDup(int[] nums)
+        {
+            return null;
         }
     }
 }

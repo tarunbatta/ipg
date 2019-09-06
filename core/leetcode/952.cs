@@ -55,7 +55,10 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution952
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
+
+        }
 
         public int LargestComponentSize(int[] A) { }
     }

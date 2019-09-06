@@ -37,7 +37,10 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution1073
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
+
+        }
 
         public int[] AddNegabinary(int[] arr1, int[] arr2) { }
     }

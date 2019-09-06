@@ -53,7 +53,10 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution1009
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
+
+        }
 
         public int BitwiseComplement(int N) { }
     }

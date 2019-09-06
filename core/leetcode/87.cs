@@ -65,9 +65,13 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution87
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
 
-        public bool IsScramble(string s1, string s2) { 
+        }
+
+        public bool IsScramble(string s1, string s2)
+        {
             return false;
         }
     }

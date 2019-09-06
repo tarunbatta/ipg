@@ -31,7 +31,10 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution540
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
+
+        }
 
         public int SingleNonDuplicate(int[] nums) { }
     }

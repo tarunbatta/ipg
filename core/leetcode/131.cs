@@ -19,13 +19,20 @@ Output:
 */
 
 using System;
+using System.Collections.Generic;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution131
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
 
-        public IList<IList<string>> Partition(string s) { }
+        }
+
+        public IList<IList<string>> Partition(string s)
+        {
+            return null;
+        }
     }
 }

@@ -24,7 +24,10 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution442
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
+
+        }
 
         public IList<int> FindDuplicates(int[] nums) { }
     }

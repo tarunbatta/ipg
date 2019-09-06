@@ -36,8 +36,13 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution1163
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
 
-        public string LastSubstring(string s) { }
+        }
+
+        public string LastSubstring(string s) { 
+            return null;
+        }
     }
 }

@@ -24,7 +24,10 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution316
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
+
+        }
 
         public string RemoveDuplicateLetters(string s) { }
     }

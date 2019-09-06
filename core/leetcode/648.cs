@@ -38,7 +38,10 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution648
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
+
+        }
 
         public string ReplaceWords(IList<string> dict, string sentence) { }
     }

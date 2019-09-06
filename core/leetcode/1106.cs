@@ -56,8 +56,12 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution1106
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
 
-        public bool ParseBoolExpr(string expression) { }
+        }
+
+        public bool ParseBoolExpr(string expression) { 
+               return false;}
     }
 }

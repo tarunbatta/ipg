@@ -29,7 +29,10 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution611
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
+
+        }
 
         public int TriangleNumber(int[] nums) { }
     }

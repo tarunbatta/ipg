@@ -51,8 +51,14 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution151
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
 
-        public string ReverseWords(string s) { }
+        }
+
+        public string ReverseWords(string s)
+        {
+            return null;
+        }
     }
 }

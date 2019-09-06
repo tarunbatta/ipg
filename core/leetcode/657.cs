@@ -32,7 +32,10 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution657
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
+
+        }
 
         public bool JudgeCircle(string moves) { }
     }

@@ -44,7 +44,10 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution819
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
+
+        }
 
         public string MostCommonWord(string paragraph, string[] banned) { }
     }

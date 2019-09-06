@@ -57,9 +57,13 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution71
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
 
-        public string SimplifyPath(string path) { 
+        }
+
+        public string SimplifyPath(string path)
+        {
             return null;
         }
     }

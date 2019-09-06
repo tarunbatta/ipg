@@ -46,7 +46,10 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution129
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
+
+        }
 
         public int SumNumbers(TreeNode root)
         {

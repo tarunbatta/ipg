@@ -43,16 +43,18 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution237
 {
     public class Solution
     {
-        public void Init() {
+        public void Init()
+        {
 
-         }
+        }
 
-        public void DeleteNode(ListNode node) { 
+        public void DeleteNode(ListNode node)
+        {
 
         }
     }
 
-     public class ListNode
+    public class ListNode
     {
         public int val;
         public ListNode next;

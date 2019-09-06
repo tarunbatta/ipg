@@ -46,7 +46,10 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution945
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
+
+        }
 
         public int MinIncrementForUnique(int[] A) { }
     }

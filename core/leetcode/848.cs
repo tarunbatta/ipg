@@ -38,7 +38,10 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution848
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
+
+        }
 
         public string ShiftingLetters(string S, int[] shifts) { }
     }

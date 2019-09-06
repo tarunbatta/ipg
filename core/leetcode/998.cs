@@ -67,7 +67,10 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution998
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
+
+        }
 
         public TreeNode InsertIntoMaxTree(TreeNode root, int val)
         {

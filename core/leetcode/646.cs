@@ -34,7 +34,10 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution646
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
+
+        }
 
         public int FindLongestChain(int[][] pairs) { }
     }

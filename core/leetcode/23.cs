@@ -23,7 +23,10 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution23
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
+
+        }
 
         public ListNode MergeKLists(ListNode[] lists)
         {
@@ -31,7 +34,7 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution23
         }
     }
 
-     public class ListNode
+    public class ListNode
     {
         public int val;
         public ListNode next;

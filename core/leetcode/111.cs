@@ -29,7 +29,10 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution111
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
+
+        }
 
         public int MinDepth(TreeNode root)
         {

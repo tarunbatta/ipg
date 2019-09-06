@@ -36,14 +36,18 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution226
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
 
-        public TreeNode InvertTree(TreeNode root) { 
-          return null;
+        }
+
+        public TreeNode InvertTree(TreeNode root)
+        {
+            return null;
         }
     }
 
-        public class TreeNode
+    public class TreeNode
     {
         public int val;
         public TreeNode left;

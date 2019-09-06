@@ -34,8 +34,14 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution164
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
 
-        public int MaximumGap(int[] nums) { }
+        }
+
+        public int MaximumGap(int[] nums)
+        {
+            return 0;
+        }
     }
 }

@@ -75,7 +75,10 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution997
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
+
+        }
 
         public int FindJudge(int N, int[][] trust) { }
     }

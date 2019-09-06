@@ -35,7 +35,10 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution330
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
+
+        }
 
         public int MinPatches(int[] nums, int n) { }
     }

@@ -58,7 +58,10 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution160
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
+
+        }
 
         public ListNode GetIntersectionNode(ListNode headA, ListNode headB)
         {

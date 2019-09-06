@@ -34,7 +34,10 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution95
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
+
+        }
 
         public IList<TreeNode> GenerateTrees(int n)
         {

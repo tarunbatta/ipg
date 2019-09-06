@@ -63,7 +63,10 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution741
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
+
+        }
 
         public int CherryPickup(int[][] grid) { }
     }

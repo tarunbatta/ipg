@@ -58,7 +58,10 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution935
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
+
+        }
 
         public int KnightDialer(int N) { }
     }

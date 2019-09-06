@@ -25,5 +25,19 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution278
 {
-/* The isBadVersion API is defined in the parent class VersionControl.      bool IsBadVersion(int version); */​public class Solution : VersionControl { public int FirstBadVersion(int n) { } }
+    public class Solution : VersionControl
+    {
+        public int FirstBadVersion(int n)
+        {
+            return 0;
+        }
+    }
+
+    public class VersionControl
+    {
+        public bool IsBadVersion(int version)
+        {
+            return false;
+        }
+    }
 }

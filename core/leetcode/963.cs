@@ -70,8 +70,13 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution963
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
 
-        public double MinAreaFreeRect(int[][] points) { }
+        }
+
+        public double MinAreaFreeRect(int[][] points) { 
+              return 0;
+        }
     }
 }

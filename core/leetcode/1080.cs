@@ -58,11 +58,15 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution1080
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
 
-        public TreeNode SufficientSubset(TreeNode root, int limit) {
+        }
+
+        public TreeNode SufficientSubset(TreeNode root, int limit)
+        {
             return null;
-         }
+        }
     }
 
     public class TreeNode

@@ -49,7 +49,10 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution724
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
+
+        }
 
         public int PivotIndex(int[] nums) { }
     }

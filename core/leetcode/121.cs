@@ -31,10 +31,14 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution121
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
 
-        public int MaxProfit(int[] prices) {
+        }
+
+        public int MaxProfit(int[] prices)
+        {
             return 0;
-         }
+        }
     }
 }

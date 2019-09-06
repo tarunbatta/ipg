@@ -26,7 +26,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution234
 {
     public class Solution
     {
-        public void Init() { 
+        public void Init()
+        {
 
         }
 

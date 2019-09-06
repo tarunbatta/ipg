@@ -42,7 +42,10 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution808
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
+
+        }
 
         public double SoupServings(int N) { }
     }

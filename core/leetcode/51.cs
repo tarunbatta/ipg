@@ -36,9 +36,13 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution51
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
 
-        public IList<IList<string>> SolveNQueens(int n) { 
+        }
+
+        public IList<IList<string>> SolveNQueens(int n)
+        {
             return null;
         }
     }

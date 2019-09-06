@@ -28,8 +28,14 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution268
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
 
-        public int MissingNumber(int[] nums) { }
+        }
+
+        public int MissingNumber(int[] nums)
+        {
+            return 0;
+        }
     }
 }

@@ -36,7 +36,10 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution113
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
+
+        }
 
         public IList<IList<int>> PathSum(TreeNode root, int sum)
         {

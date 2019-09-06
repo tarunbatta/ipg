@@ -41,7 +41,10 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution1048
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
+
+        }
 
         public int LongestStrChain(string[] words) { }
     }

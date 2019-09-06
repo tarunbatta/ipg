@@ -53,7 +53,10 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution659
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
+
+        }
 
         public bool IsPossible(int[] nums) { }
     }

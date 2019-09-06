@@ -32,7 +32,10 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution107
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
+
+        }
 
         public IList<IList<int>> LevelOrderBottom(TreeNode root)
         {

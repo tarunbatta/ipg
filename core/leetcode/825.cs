@@ -55,7 +55,10 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution825
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
+
+        }
 
         public int NumFriendRequests(int[] ages) { }
     }

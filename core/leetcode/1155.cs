@@ -64,8 +64,13 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution1155
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
 
-        public int NumRollsToTarget(int d, int f, int target) { }
+        }
+
+        public int NumRollsToTarget(int d, int f, int target) { 
+               return 0;
+        }
     }
 }

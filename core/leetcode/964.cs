@@ -65,8 +65,13 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution964
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
 
-        public int LeastOpsExpressTarget(int x, int target) { }
+        }
+
+        public int LeastOpsExpressTarget(int x, int target) {
+			  return 0;
+		 }
     }
 }

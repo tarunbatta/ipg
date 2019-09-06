@@ -21,7 +21,10 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution357
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
+
+        }
 
         public int CountNumbersWithUniqueDigits(int n) { }
     }

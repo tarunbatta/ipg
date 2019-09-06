@@ -37,7 +37,10 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution464
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
+
+        }
 
         public bool CanIWin(int maxChoosableInteger, int desiredTotal) { }
     }

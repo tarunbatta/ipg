@@ -25,9 +25,13 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution67
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
 
-        public string AddBinary(string a, string b) { 
+        }
+
+        public string AddBinary(string a, string b)
+        {
             return null;
         }
     }

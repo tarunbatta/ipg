@@ -39,7 +39,10 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution822
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
+
+        }
 
         public int Flipgame(int[] fronts, int[] backs) { }
     }

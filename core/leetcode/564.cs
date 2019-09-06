@@ -26,7 +26,10 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution564
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
+
+        }
 
         public string NearestPalindromic(string n) { }
     }

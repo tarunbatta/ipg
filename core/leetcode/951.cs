@@ -39,8 +39,9 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution951
 {
     public class Solution
     {
-        public void Init() { 
-            
+        public void Init()
+        {
+
         }
 
         public bool FlipEquiv(TreeNode root1, TreeNode root2)

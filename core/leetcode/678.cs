@@ -43,7 +43,10 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution678
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
+
+        }
 
         public bool CheckValidString(string s) { }
     }

@@ -39,7 +39,10 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution405
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
+
+        }
 
         public string ToHex(int num) { }
     }

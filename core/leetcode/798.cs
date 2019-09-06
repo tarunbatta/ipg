@@ -46,7 +46,10 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution798
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
+
+        }
 
         public int BestRotation(int[] A) { }
     }

@@ -29,9 +29,13 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution119
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
 
-        public IList<int> GetRow(int rowIndex) { 
+        }
+
+        public IList<int> GetRow(int rowIndex)
+        {
             return null;
         }
     }

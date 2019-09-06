@@ -43,7 +43,10 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution482
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
+
+        }
 
         public string LicenseKeyFormatting(string S, int K) { }
     }

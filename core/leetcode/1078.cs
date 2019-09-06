@@ -40,7 +40,10 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution1078
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
+
+        }
 
         public string[] FindOcurrences(string text, string first, string second) { }
     }

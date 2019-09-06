@@ -34,7 +34,10 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution718
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
+
+        }
 
         public int FindLength(int[] A, int[] B) { }
     }

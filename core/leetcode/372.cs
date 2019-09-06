@@ -26,7 +26,10 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution372
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
+
+        }
 
         public int SuperPow(int a, int[] b) { }
     }

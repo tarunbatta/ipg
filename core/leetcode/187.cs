@@ -16,13 +16,20 @@ Output: [&quot;AAAAACCCCC&quot;, &quot;CCCCCAAAAA&quot;]
 */
 
 using System;
+using System.Collections.Generic;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution187
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
 
-        public IList<string> FindRepeatedDnaSequences(string s) { }
+        }
+
+        public IList<string> FindRepeatedDnaSequences(string s)
+        {
+            return null;
+        }
     }
 }

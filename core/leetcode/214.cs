@@ -24,8 +24,14 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution214
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
 
-        public string ShortestPalindrome(string s) { }
+        }
+
+        public string ShortestPalindrome(string s)
+        {
+            return null;
+        }
     }
 }

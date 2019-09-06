@@ -73,7 +73,10 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution904
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
+
+        }
 
         public int TotalFruit(int[] tree) { }
     }

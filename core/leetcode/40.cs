@@ -44,7 +44,10 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution40
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
+
+        }
 
         public IList<IList<int>> CombinationSum2(int[] candidates, int target)
         {

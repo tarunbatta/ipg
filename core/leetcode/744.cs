@@ -55,7 +55,10 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution744
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
+
+        }
 
         public char NextGreatestLetter(char[] letters, char target) { }
     }

@@ -55,7 +55,10 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution609
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
+
+        }
 
         public IList<IList<string>> FindDuplicate(string[] paths) { }
     }

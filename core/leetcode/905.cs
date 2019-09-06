@@ -33,7 +33,10 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution905
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
+
+        }
 
         public int[] SortArrayByParity(int[] A) { }
     }

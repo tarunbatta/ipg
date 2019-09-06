@@ -32,11 +32,13 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution1008
 {
     public class Solution
     {
-        public void Init() { 
+        public void Init()
+        {
 
         }
 
-        public TreeNode BstFromPreorder(int[] preorder) { 
+        public TreeNode BstFromPreorder(int[] preorder)
+        {
             return null;
         }
     }

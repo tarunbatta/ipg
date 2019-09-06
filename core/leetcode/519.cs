@@ -43,7 +43,10 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution519
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
+
+        }
 
 ​    public Solution(int n_rows, int n_cols) { }
         public int[] Flip() { }

@@ -39,7 +39,10 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution965
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
+
+        }
 
         public bool IsUnivalTree(TreeNode root)
         {

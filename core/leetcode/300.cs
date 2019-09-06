@@ -28,8 +28,14 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution300
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
 
-        public int LengthOfLIS(int[] nums) { }
+        }
+
+        public int LengthOfLIS(int[] nums)
+        {
+            return 0;
+        }
     }
 }

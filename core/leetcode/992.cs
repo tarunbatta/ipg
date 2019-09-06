@@ -42,7 +42,10 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution992
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
+
+        }
 
         public int SubarraysWithKDistinct(int[] A, int K) { }
     }

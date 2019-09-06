@@ -38,7 +38,10 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution704
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
+
+        }
 
         public int Search(int[] nums, int target) { }
     }

@@ -32,7 +32,10 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution61
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
+
+        }
 
         public ListNode RotateRight(ListNode head, int k)
         {

@@ -51,7 +51,10 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution953
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
+
+        }
 
         public bool IsAlienSorted(string[] words, string order) { }
     }

@@ -51,7 +51,10 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution1123
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
+
+        }
 
         public TreeNode LcaDeepestLeaves(TreeNode root)
         {

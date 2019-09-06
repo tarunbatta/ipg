@@ -18,7 +18,10 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution203
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
+
+        }
 
         public ListNode RemoveElements(ListNode head, int val)
         {

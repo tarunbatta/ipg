@@ -62,7 +62,10 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution971
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
+
+        }
 
         public IList<int> FlipMatchVoyage(TreeNode root, int[] voyage)
         {

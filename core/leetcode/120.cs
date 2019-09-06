@@ -30,9 +30,13 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution120
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
 
-        public int MinimumTotal(IList<IList<int>> triangle) { 
+        }
+
+        public int MinimumTotal(IList<IList<int>> triangle)
+        {
             return null;
         }
     }

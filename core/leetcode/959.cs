@@ -107,8 +107,14 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution959
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
 
-        public int RegionsBySlashes(string[] grid) { }
+        }
+
+        public int RegionsBySlashes(string[] grid)
+        {
+            return 0;
+        }
     }
 }

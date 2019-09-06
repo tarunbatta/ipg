@@ -63,7 +63,10 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution1024
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
+
+        }
 
         public int VideoStitching(int[][] clips, int T) { }
     }

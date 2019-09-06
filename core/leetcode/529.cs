@@ -80,7 +80,10 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution529
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
+
+        }
 
         public char[][] UpdateBoard(char[][] board, int[] click) { }
     }

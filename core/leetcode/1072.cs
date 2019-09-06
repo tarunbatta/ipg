@@ -54,7 +54,10 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution1072
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
+
+        }
 
         public int MaxEqualRowsAfterFlips(int[][] matrix) { }
     }

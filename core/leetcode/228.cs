@@ -21,13 +21,20 @@ Explanation: 2,3,4 form a continuous range;&#xA0;8,9 form a continuous range.
 */
 
 using System;
+using System.Collections.Generic;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution228
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
 
-        public IList<string> SummaryRanges(int[] nums) { }
+        }
+
+        public IList<string> SummaryRanges(int[] nums)
+        {
+            return null;
+        }
     }
 }

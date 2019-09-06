@@ -65,7 +65,10 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution987
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
+
+        }
 
         public IList<IList<int>> VerticalTraversal(TreeNode root)
         {

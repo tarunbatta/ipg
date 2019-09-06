@@ -29,7 +29,10 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution324
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
+
+        }
 
         public void WiggleSort(int[] nums) { }
     }

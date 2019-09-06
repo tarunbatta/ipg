@@ -25,14 +25,18 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution515
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
 
-        public IList<int> LargestValues(TreeNode root) {
+        }
+
+        public IList<int> LargestValues(TreeNode root)
+        {
             return null;
-         }
+        }
     }
 
-        public class TreeNode
+    public class TreeNode
     {
         public int val;
         public TreeNode left;

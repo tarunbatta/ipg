@@ -45,7 +45,10 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution653
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
+
+        }
 
         public bool FindTarget(TreeNode root, int k)
         {

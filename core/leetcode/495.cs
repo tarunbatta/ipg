@@ -49,7 +49,10 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution495
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
+
+        }
 
         public int FindPoisonedDuration(int[] timeSeries, int duration) { }
     }

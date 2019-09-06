@@ -38,9 +38,13 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution124
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
 
-        public int MaxPathSum(TreeNode root) { 
+        }
+
+        public int MaxPathSum(TreeNode root)
+        {
             return 0;
         }
     }

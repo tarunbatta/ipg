@@ -36,5 +36,5 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution195
 {
-# Read from the file file.txt and output the tenth line to stdout.
+    // # Read from the file file.txt and output the tenth line to stdout.
 }

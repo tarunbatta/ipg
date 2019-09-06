@@ -28,7 +28,10 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution384
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
+
+        }
 
 ​    public Solution(int[] nums) { }        /** Resets the array to its original configuration and return it. */
         public int[] Reset() { }        /** Returns a random shuffling of the array. */

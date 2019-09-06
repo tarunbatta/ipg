@@ -46,8 +46,12 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution1138
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
 
-        public string AlphabetBoardPath(string target) { }
+        }
+
+        public string AlphabetBoardPath(string target) {
+               return null; }
     }
 }

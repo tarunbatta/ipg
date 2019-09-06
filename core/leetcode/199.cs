@@ -26,7 +26,10 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution199
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
+
+        }
 
         public IList<int> RightSideView(TreeNode root)
         {

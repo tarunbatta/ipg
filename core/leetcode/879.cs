@@ -58,7 +58,10 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution879
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
+
+        }
 
         public int ProfitableSchemes(int G, int P, int[] group, int[] profit) { }
     }

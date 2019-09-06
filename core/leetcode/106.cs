@@ -29,7 +29,10 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution106
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
+
+        }
 
         public TreeNode BuildTree(int[] inorder, int[] postorder)
         {

@@ -34,7 +34,10 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution332
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
+
+        }
 
         public IList<string> FindItinerary(IList<IList<string>> tickets) { }
     }

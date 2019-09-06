@@ -30,7 +30,10 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution472
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
+
+        }
 
         public IList<string> FindAllConcatenatedWordsInADict(string[] words) { }
     }

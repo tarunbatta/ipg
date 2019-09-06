@@ -37,7 +37,10 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution467
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
+
+        }
 
         public int FindSubstringInWraproundString(string p) { }
     }

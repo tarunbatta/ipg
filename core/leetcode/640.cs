@@ -52,7 +52,10 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution640
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
+
+        }
 
         public string SolveEquation(string equation) { }
     }

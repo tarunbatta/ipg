@@ -30,7 +30,10 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution645
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
+
+        }
 
         public int[] FindErrorNums(int[] nums) { }
     }

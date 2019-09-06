@@ -52,7 +52,10 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution816
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
+
+        }
 
         public IList<string> AmbiguousCoordinates(string S) { }
     }

@@ -47,7 +47,10 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution753
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
+
+        }
 
         public string CrackSafe(int n, int k) { }
     }

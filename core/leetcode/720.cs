@@ -36,7 +36,10 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution720
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
+
+        }
 
         public string LongestWord(string[] words) { }
     }

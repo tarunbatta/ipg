@@ -41,8 +41,13 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution967
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
 
-        public int[] NumsSameConsecDiff(int N, int K) { }
+        }
+
+        public int[] NumsSameConsecDiff(int N, int K) { 
+              return null;
+        }
     }
 }

@@ -29,7 +29,10 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution18
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
+
+        }
 
         public IList<IList<int>> FourSum(int[] nums, int target)
         {

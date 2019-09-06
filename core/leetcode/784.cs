@@ -30,7 +30,10 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution784
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
+
+        }
 
         public IList<string> LetterCasePermutation(string S) { }
     }

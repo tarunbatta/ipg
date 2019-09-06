@@ -36,7 +36,10 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution700
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
+
+        }
 
         public TreeNode SearchBST(TreeNode root, int val)
         {

@@ -38,9 +38,13 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution63
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
 
-        public int UniquePathsWithObstacles(int[][] obstacleGrid) { 
+        }
+
+        public int UniquePathsWithObstacles(int[][] obstacleGrid)
+        {
             return 0;
         }
     }

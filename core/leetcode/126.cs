@@ -48,13 +48,20 @@ Explanation:&#xA0;The endWord &quot;cog&quot; is not in wordList, therefore no p
 */
 
 using System;
+using System.Collections.Generic;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution126
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
 
-        public IList<IList<string>> FindLadders(string beginWord, string endWord, IList<string> wordList) { }
+        }
+
+        public IList<IList<string>> FindLadders(string beginWord, string endWord, IList<string> wordList)
+        {
+            return null;
+        }
     }
 }

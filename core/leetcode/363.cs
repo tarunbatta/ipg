@@ -26,7 +26,10 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution363
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
+
+        }
 
         public int MaxSumSubmatrix(int[][] matrix, int k) { }
     }

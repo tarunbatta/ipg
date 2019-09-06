@@ -59,7 +59,10 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution993
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
+
+        }
 
         public bool IsCousins(TreeNode root, int x, int y)
         {

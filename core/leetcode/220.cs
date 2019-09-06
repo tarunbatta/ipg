@@ -33,8 +33,14 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution220
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
 
-        public bool ContainsNearbyAlmostDuplicate(int[] nums, int k, int t) { }
+        }
+
+        public bool ContainsNearbyAlmostDuplicate(int[] nums, int k, int t)
+        {
+            return false;
+        }
     }
 }

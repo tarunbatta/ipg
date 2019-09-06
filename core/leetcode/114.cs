@@ -36,7 +36,10 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution114
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
+
+        }
 
         public void Flatten(TreeNode root) { }
     }

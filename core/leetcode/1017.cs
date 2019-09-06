@@ -48,7 +48,10 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution1017
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
+
+        }
 
         public string BaseNeg2(int N) { }
     }

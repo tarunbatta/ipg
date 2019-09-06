@@ -41,7 +41,10 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution949
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
+
+        }
 
         public string LargestTimeFromDigits(int[] A) { }
     }

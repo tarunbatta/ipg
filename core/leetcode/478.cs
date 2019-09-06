@@ -44,7 +44,10 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution478
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
+
+        }
 
 ​    public Solution(double radius, double x_center, double y_center) { }
         public double[] RandPoint() { }

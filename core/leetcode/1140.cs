@@ -36,8 +36,12 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution1140
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
 
-        public int StoneGameII(int[] piles) { }
+        }
+
+        public int StoneGameII(int[] piles) { 
+               return 0;}
     }
 }

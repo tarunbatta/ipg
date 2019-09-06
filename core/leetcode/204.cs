@@ -19,8 +19,14 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution204
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
 
-        public int CountPrimes(int n) { }
+        }
+
+        public int CountPrimes(int n)
+        {
+            return 0;
+        }
     }
 }

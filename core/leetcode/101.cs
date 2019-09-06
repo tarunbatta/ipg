@@ -38,7 +38,10 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution101
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
+
+        }
 
         public bool IsSymmetric(TreeNode root)
         {

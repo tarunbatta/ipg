@@ -35,8 +35,14 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution299
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
 
-        public string GetHint(string secret, string guess) { }
+        }
+
+        public string GetHint(string secret, string guess)
+        {
+            return null;
+        }
     }
 }

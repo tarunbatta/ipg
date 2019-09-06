@@ -49,14 +49,18 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution687
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
 
-        public int LongestUnivaluePath(TreeNode root) { 
+        }
+
+        public int LongestUnivaluePath(TreeNode root)
+        {
             return 0;
         }
     }
 
-        public class TreeNode
+    public class TreeNode
     {
         public int val;
         public TreeNode left;

@@ -49,7 +49,10 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution841
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
+
+        }
 
         public bool CanVisitAllRooms(IList<IList<int>> rooms) { }
     }

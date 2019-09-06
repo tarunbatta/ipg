@@ -27,7 +27,10 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution398
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
+
+        }
 
 ​    public Solution(int[] nums) { }
         public int Pick(int target) { }

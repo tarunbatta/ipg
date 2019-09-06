@@ -31,7 +31,10 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution461
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
+
+        }
 
         public int HammingDistance(int x, int y) { }
     }

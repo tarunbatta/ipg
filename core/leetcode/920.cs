@@ -57,7 +57,10 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution920
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
+
+        }
 
         public int NumMusicPlaylists(int N, int L, int K) { }
     }

@@ -43,7 +43,10 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution407
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
+
+        }
 
         public int TrapRainWater(int[][] heightMap) { }
     }

@@ -70,7 +70,10 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution623
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
+
+        }
 
         public TreeNode AddOneRow(TreeNode root, int v, int d)
         {

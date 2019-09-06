@@ -39,7 +39,10 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution455
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
+
+        }
 
         public int FindContentChildren(int[] g, int[] s) { }
     }

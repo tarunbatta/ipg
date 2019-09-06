@@ -33,13 +33,18 @@ Constraints:
 */
 
 using System;
+using System.Collections.Generic;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution1104
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
 
-        public IList<int> PathInZigZagTree(int label) { }
+        }
+
+        public IList<int> PathInZigZagTree(int label) {
+               return null; }
     }
 }

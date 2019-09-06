@@ -37,7 +37,10 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution617
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
+
+        }
 
         public TreeNode MergeTrees(TreeNode t1, TreeNode t2)
         {

@@ -34,13 +34,20 @@ Constraints:
 */
 
 using System;
+using System.Collections.Generic;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution1125
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
 
-        public int[] SmallestSufficientTeam(string[] req_skills, IList<IList<string>> people) { }
+        }
+
+        public int[] SmallestSufficientTeam(string[] req_skills, IList<IList<string>> people)
+        {
+            return null;
+        }
     }
 }

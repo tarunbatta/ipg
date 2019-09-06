@@ -68,7 +68,10 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution990
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
+
+        }
 
         public bool EquationsPossible(string[] equations) { }
     }

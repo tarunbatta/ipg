@@ -46,7 +46,10 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution475
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
+
+        }
 
         public int FindRadius(int[] houses, int[] heaters) { }
     }

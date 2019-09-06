@@ -40,7 +40,10 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution441
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
+
+        }
 
         public int ArrangeCoins(int n) { }
     }

@@ -33,7 +33,10 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution765
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
+
+        }
 
         public int MinSwapsCouples(int[] row) { }
     }

@@ -38,7 +38,10 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution524
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
+
+        }
 
         public string FindLongestWord(string s, IList<string> d) { }
     }

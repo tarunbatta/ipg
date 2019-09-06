@@ -34,7 +34,10 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution834
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
+
+        }
 
         public int[] SumOfDistancesInTree(int N, int[][] edges) { }
     }

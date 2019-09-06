@@ -27,7 +27,10 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution77
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
+
+        }
 
         public IList<IList<int>> Combine(int n, int k)
         {

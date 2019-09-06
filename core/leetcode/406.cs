@@ -28,7 +28,10 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution406
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
+
+        }
 
         public int[][] ReconstructQueue(int[][] people) { }
     }

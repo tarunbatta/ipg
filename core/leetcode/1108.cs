@@ -29,8 +29,12 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution1108
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
 
-        public string DefangIPaddr(string address) { }
+        }
+
+        public string DefangIPaddr(string address) {
+               return null; }
     }
 }

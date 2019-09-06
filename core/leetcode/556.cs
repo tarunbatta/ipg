@@ -29,7 +29,10 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution556
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
+
+        }
 
         public int NextGreaterElement(int n) { }
     }

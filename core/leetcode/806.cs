@@ -50,7 +50,10 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution806
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
+
+        }
 
         public int[] NumberOfLines(int[] widths, string S) { }
     }

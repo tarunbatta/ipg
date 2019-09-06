@@ -55,7 +55,7 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution1171
         }
     }
 
-      public class ListNode
+    public class ListNode
     {
         public int val;
         public ListNode next;

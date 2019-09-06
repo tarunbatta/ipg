@@ -54,7 +54,10 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution866
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
+
+        }
 
         public int PrimePalindrome(int N) { }
     }

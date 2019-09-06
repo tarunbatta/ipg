@@ -17,7 +17,10 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution386
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
+
+        }
 
         public IList<int> LexicalOrder(int n) { }
     }

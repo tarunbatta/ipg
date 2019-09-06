@@ -45,7 +45,10 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution671
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
+
+        }
 
         public int FindSecondMinimumValue(TreeNode root)
         {

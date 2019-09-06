@@ -62,7 +62,10 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution649
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
+
+        }
 
         public string PredictPartyVictory(string senate) { }
     }

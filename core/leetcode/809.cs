@@ -44,7 +44,10 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution809
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
+
+        }
 
         public int ExpressiveWords(string S, string[] words) { }
     }

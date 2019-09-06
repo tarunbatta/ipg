@@ -40,7 +40,10 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution870
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
+
+        }
 
         public int[] AdvantageCount(int[] A, int[] B) { }
     }

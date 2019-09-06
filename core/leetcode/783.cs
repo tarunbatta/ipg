@@ -37,7 +37,10 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution783
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
+
+        }
 
         public int MinDiffInBST(TreeNode root)
         {

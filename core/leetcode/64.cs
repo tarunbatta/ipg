@@ -26,10 +26,14 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution64
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
 
-        public int MinPathSum(int[][] grid) { 
-          return 0;
+        }
+
+        public int MinPathSum(int[][] grid)
+        {
+            return 0;
         }
     }
 }

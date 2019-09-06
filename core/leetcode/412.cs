@@ -37,7 +37,10 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution412
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
+
+        }
 
         public IList<string> FizzBuzz(int n) { }
     }

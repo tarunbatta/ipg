@@ -56,7 +56,10 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution1039
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
+
+        }
 
         public int MinScoreTriangulation(int[] A) { }
     }

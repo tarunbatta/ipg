@@ -45,7 +45,10 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution943
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
+
+        }
 
         public string ShortestSuperstring(string[] A) { }
     }

@@ -32,7 +32,10 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution25
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
+
+        }
 
         public ListNode ReverseKGroup(ListNode head, int k)
         {
@@ -40,7 +43,7 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution25
         }
     }
 
-     public class ListNode
+    public class ListNode
     {
         public int val;
         public ListNode next;

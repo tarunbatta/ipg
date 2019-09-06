@@ -47,7 +47,10 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution1038
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
+
+        }
 
         public TreeNode BstToGst(TreeNode root)
         {

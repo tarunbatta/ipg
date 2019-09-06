@@ -59,7 +59,10 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution859
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
+
+        }
 
         public bool BuddyStrings(string A, string B) { }
     }

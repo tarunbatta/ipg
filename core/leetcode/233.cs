@@ -19,8 +19,14 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution233
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
 
-        public int CountDigitOne(int n) { }
+        }
+
+        public int CountDigitOne(int n)
+        {
+            return 0;
+        }
     }
 }

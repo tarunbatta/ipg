@@ -59,7 +59,10 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution766
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
+
+        }
 
         public bool IsToeplitzMatrix(int[][] matrix) { }
     }

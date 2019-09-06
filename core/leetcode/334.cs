@@ -33,7 +33,10 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution334
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
+
+        }
 
         public bool IncreasingTriplet(int[] nums) { }
     }

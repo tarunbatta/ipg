@@ -29,5 +29,5 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution193
 {
-# Read from the file file.txt and output all valid phone numbers to stdout.
+    // # Read from the file file.txt and output all valid phone numbers to stdout.
 }

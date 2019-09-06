@@ -51,8 +51,13 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution962
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
 
-        public int MaxWidthRamp(int[] A) { }
+        }
+
+        public int MaxWidthRamp(int[] A) {
+              return 0;
+         }
     }
 }

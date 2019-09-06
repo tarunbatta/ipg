@@ -34,10 +34,14 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution54
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
 
-        public IList<int> SpiralOrder(int[][] matrix) {
-          return null;
-         }
+        }
+
+        public IList<int> SpiralOrder(int[][] matrix)
+        {
+            return null;
+        }
     }
 }

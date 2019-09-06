@@ -20,13 +20,20 @@ Output: [1,2]
 */
 
 using System;
+using System.Collections.Generic;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution229
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
 
-        public IList<int> MajorityElement(int[] nums) { }
+        }
+
+        public IList<int> MajorityElement(int[] nums)
+        {
+            return null;
+        }
     }
 }

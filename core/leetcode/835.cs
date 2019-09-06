@@ -36,7 +36,10 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution835
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
+
+        }
 
         public int LargestOverlap(int[][] A, int[][] B) { }
     }

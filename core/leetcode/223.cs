@@ -26,8 +26,14 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution223
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
 
-        public int ComputeArea(int A, int B, int C, int D, int E, int F, int G, int H) { }
+        }
+
+        public int ComputeArea(int A, int B, int C, int D, int E, int F, int G, int H)
+        {
+            return 0;
+        }
     }
 }

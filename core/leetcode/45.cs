@@ -28,7 +28,10 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution45
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
+
+        }
 
         public int Jump(int[] nums)
         {

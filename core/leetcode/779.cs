@@ -41,7 +41,10 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution779
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
+
+        }
 
         public int KthGrammar(int N, int K) { }
     }

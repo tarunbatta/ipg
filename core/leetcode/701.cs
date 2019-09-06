@@ -45,7 +45,10 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution701
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
+
+        }
 
         public TreeNode InsertIntoBST(TreeNode root, int val)
         {

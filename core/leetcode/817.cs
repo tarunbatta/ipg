@@ -45,7 +45,10 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution817
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
+
+        }
 
         public int NumComponents(ListNode head, int[] G)
         {

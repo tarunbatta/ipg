@@ -28,7 +28,10 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution821
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
+
+        }
 
         public int[] ShortestToChar(string S, char C) { }
     }

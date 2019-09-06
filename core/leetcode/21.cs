@@ -17,7 +17,10 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution21
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
+
+        }
 
         public ListNode MergeTwoLists(ListNode l1, ListNode l2)
         {

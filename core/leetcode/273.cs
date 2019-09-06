@@ -35,8 +35,14 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution273
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
 
-        public string NumberToWords(int num) { }
+        }
+
+        public string NumberToWords(int num)
+        {
+            return null;
+        }
     }
 }

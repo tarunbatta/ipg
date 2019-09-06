@@ -36,7 +36,10 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution810
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
+
+        }
 
         public bool XorGame(int[] nums) { }
     }

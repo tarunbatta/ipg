@@ -22,7 +22,10 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution557
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
+
+        }
 
         public string ReverseWords(string s) { }
     }

@@ -45,14 +45,18 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution513
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
 
-        public int FindBottomLeftValue(TreeNode root) { 
-          return 0;
+        }
+
+        public int FindBottomLeftValue(TreeNode root)
+        {
+            return 0;
         }
     }
 
-        public class TreeNode
+    public class TreeNode
     {
         public int val;
         public TreeNode left;

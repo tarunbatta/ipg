@@ -43,7 +43,10 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution496
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
+
+        }
 
         public int[] NextGreaterElement(int[] nums1, int[] nums2) { }
     }

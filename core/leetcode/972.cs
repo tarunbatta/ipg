@@ -66,8 +66,13 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution972
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
 
-        public bool IsRationalEqual(string S, string T) { }
+        }
+
+        public bool IsRationalEqual(string S, string T) {
+			return false;
+		 }
     }
 }

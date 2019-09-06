@@ -35,7 +35,10 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution836
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
+
+        }
 
         public bool IsRectangleOverlap(int[] rec1, int[] rec2) { }
     }

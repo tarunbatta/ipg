@@ -33,7 +33,10 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution889
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
+
+        }
 
         public TreeNode ConstructFromPrePost(int[] pre, int[] post)
         {

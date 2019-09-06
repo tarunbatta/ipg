@@ -69,7 +69,10 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution916
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
+
+        }
 
         public IList<string> WordSubsets(string[] A, string[] B) { }
     }

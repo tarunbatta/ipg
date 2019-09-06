@@ -46,7 +46,10 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution864
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
+
+        }
 
         public int ShortestPathAllKeys(string[] grid) { }
     }

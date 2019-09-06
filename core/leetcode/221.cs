@@ -24,8 +24,14 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution221
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
 
-        public int MaximalSquare(char[][] matrix) { }
+        }
+
+        public int MaximalSquare(char[][] matrix)
+        {
+            return 0;
+        }
     }
 }

@@ -51,8 +51,12 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution1103
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
 
-        public int[] DistributeCandies(int candies, int num_people) { }
+        }
+
+        public int[] DistributeCandies(int candies, int num_people) {
+               return null; }
     }
 }

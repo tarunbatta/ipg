@@ -30,8 +30,14 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution153
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
 
-        public int FindMin(int[] nums) { }
+        }
+
+        public int FindMin(int[] nums)
+        {
+            return 0;
+        }
     }
 }

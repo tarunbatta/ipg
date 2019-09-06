@@ -34,7 +34,10 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution801
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
+
+        }
 
         public int MinSwap(int[] A, int[] B) { }
     }

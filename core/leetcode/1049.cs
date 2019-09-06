@@ -43,7 +43,10 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution1049
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
+
+        }
 
         public int LastStoneWeightII(int[] stones) { }
     }

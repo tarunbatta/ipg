@@ -63,7 +63,10 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution1033
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
+
+        }
 
         public int[] NumMovesStones(int a, int b, int c) { }
     }

@@ -35,8 +35,14 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution240
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
 
-        public bool SearchMatrix(int[,] matrix, int target) { }
+        }
+
+        public bool SearchMatrix(int[,] matrix, int target)
+        {
+            return false;
+        }
     }
 }

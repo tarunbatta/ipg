@@ -39,7 +39,10 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution937
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
+
+        }
 
         public string[] ReorderLogFiles(string[] logs) { }
     }

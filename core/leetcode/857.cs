@@ -53,7 +53,10 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution857
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
+
+        }
 
         public double MincostToHireWorkers(int[] quality, int[] wage, int K) { }
     }

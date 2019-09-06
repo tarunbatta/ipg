@@ -33,7 +33,10 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution328
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
+
+        }
 
         public ListNode OddEvenList(ListNode head)
         {

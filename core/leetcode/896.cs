@@ -65,7 +65,10 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution896
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
+
+        }
 
         public bool IsMonotonic(int[] A) { }
     }

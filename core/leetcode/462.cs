@@ -27,7 +27,10 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution462
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
+
+        }
 
         public int MinMoves2(int[] nums) { }
     }

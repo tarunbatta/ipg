@@ -59,7 +59,10 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution898
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
+
+        }
 
         public int SubarrayBitwiseORs(int[] A) { }
     }

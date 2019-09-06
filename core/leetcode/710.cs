@@ -59,7 +59,10 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution710
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
+
+        }
 
 ​    public Solution(int N, int[] blacklist)
         {

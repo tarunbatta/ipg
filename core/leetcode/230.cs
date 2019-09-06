@@ -42,7 +42,10 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution230
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
+
+        }
 
         public int KthSmallest(TreeNode root, int k)
         {

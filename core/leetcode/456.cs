@@ -41,7 +41,10 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution456
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
+
+        }
 
         public bool Find132pattern(int[] nums) { }
     }

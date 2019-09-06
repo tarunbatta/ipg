@@ -36,7 +36,10 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution712
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
+
+        }
 
         public int MinimumDeleteSum(string s1, string s2) { }
     }

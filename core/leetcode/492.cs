@@ -32,7 +32,10 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution492
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
+
+        }
 
         public int[] ConstructRectangle(int area) { }
     }

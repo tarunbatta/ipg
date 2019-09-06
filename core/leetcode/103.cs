@@ -32,7 +32,10 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution103
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
+
+        }
 
         public IList<IList<int>> ZigzagLevelOrder(TreeNode root)
         {

@@ -35,7 +35,10 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution1016
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
+
+        }
 
         public bool QueryString(string S, int N) { }
     }

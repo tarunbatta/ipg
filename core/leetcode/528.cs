@@ -42,7 +42,10 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution528
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
+
+        }
 
 ​    public Solution(int[] w) { }
         public int PickIndex() { }

@@ -28,7 +28,10 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution144
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
+
+        }
 
         public IList<int> PreorderTraversal(TreeNode root)
         {

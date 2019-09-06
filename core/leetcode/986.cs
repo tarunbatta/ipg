@@ -41,8 +41,13 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution986
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
 
-        public int[][] IntervalIntersection(int[][] A, int[][] B) { }
+        }
+
+        public int[][] IntervalIntersection(int[][] A, int[][] B) {
+            return null;
+         }
     }
 }

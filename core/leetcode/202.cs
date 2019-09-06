@@ -25,8 +25,14 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution202
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
 
-        public bool IsHappy(int n) { }
+        }
+
+        public bool IsHappy(int n)
+        {
+            return false;
+        }
     }
 }

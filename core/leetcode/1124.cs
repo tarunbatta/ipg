@@ -34,8 +34,12 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution1124
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
 
-        public int LongestWPI(int[] hours) { }
+        }
+
+        public int LongestWPI(int[] hours) { 
+               return 0;}
     }
 }

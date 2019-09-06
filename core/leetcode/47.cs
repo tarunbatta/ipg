@@ -24,7 +24,10 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution47
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
+
+        }
 
         public IList<IList<int>> PermuteUnique(int[] nums)
         {

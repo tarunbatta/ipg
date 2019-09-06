@@ -28,7 +28,10 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution763
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
+
+        }
 
         public IList<int> PartitionLabels(string S) { }
     }
