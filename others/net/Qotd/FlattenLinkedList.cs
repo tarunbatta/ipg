@@ -1,6 +1,7 @@
 ﻿using System;
 
-namespace TechByTarun.InterviewPreperationGuide.App.Qotd {
+namespace TechByTarun.InterviewPreperationGuide.App.Qotd
+{
     /// <summary>
     /// Flatten a Linked List
     ///
@@ -20,39 +21,47 @@ namespace TechByTarun.InterviewPreperationGuide.App.Qotd {
     ///
     /// Follow up : Find the solution that can do the operation in-place without external storage.
     /// </summary>
-    public class FlattenLinkedList {
-        public static void Init (string[] args) {
-            ListChildNode root = new ListChildNode (1);
-            root.next = new ListChildNode (2);
-            root.next.child = new ListChildNode (5);
-            root.next.child.next = new ListChildNode (6);
-            root.next.child.child = new ListChildNode (8);
-            root.next.next = new ListChildNode (3);
-            root.next.next.next = new ListChildNode (4);
-            root.next.next.next.child = new ListChildNode (7);
-            root.next.next.next.child.child = new ListChildNode (9);
+    public class FlattenLinkedList
+    {
+        public static void Init(string[] args)
+        {
+            ListChildNode root = new ListChildNode(1);
+            root.next = new ListChildNode(2);
+            root.next.child = new ListChildNode(5);
+            root.next.child.next = new ListChildNode(6);
+            root.next.child.child = new ListChildNode(8);
+            root.next.next = new ListChildNode(3);
+            root.next.next.next = new ListChildNode(4);
+            root.next.next.next.child = new ListChildNode(7);
+            root.next.next.next.child.child = new ListChildNode(9);
 
-            Console.WriteLine (PrintListChildNode (FlattenALinkedList (root)));
+            Console.WriteLine(PrintListChildNode(FlattenALinkedList(root)));
         }
 
-        public static ListChildNode FlattenALinkedList (ListChildNode node) {
-            if (node == null) {
+        public static ListChildNode FlattenALinkedList(ListChildNode node)
+        {
+            if (node == null)
+            {
                 return null;
             }
 
             ListChildNode head = node;
             ListChildNode tail = node;
 
-            while (tail.next != null) {
+            while (tail.next != null)
+            {
                 tail = tail.next;
             }
 
-            while (node != tail) {
-                if (node.child != null) {
+            while (node != tail)
+            {
+                if (node.child != null)
+                {
                     tail.next = node.child;
 
                     ListChildNode temp = node.child;
-                    while (temp.next != null) {
+                    while (temp.next != null)
+                    {
                         temp = temp.next;
                     }
                     tail = temp;
@@ -64,13 +73,18 @@ namespace TechByTarun.InterviewPreperationGuide.App.Qotd {
             return head;
         }
 
-        private static string PrintListChildNode (ListChildNode node) {
+        private static string PrintListChildNode(ListChildNode node)
+        {
             string result = string.Empty;
 
-            while (node != null) {
-                if (string.IsNullOrEmpty (result)) {
-                    result = Convert.ToString (node.val);
-                } else {
+            while (node != null)
+            {
+                if (string.IsNullOrEmpty(result))
+                {
+                    result = Convert.ToString(node.val);
+                }
+                else
+                {
                     result = result + "," + node.val;
                 }
 

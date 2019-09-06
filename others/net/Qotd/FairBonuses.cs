@@ -1,7 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace TechByTarun.InterviewPreperationGuide.App.Qotd {
+namespace TechByTarun.InterviewPreperationGuide.App.Qotd
+{
     /// <summary>
     /// Fair Bonuses:
     /// You manage a team of developers and you have to give concert tickets as a bonus to the developers.
@@ -17,8 +18,10 @@ namespace TechByTarun.InterviewPreperationGuide.App.Qotd {
     /// then Andy and David should receive 1 ticket each, Bob should receive 2 tickets,
     /// and Charlie should receive 3 tickets, for a total of 7 tickets.
     /// </summary>
-    public class FairBonuses {
-        public static void Init (string[] args) {
+    public class FairBonuses
+    {
+        public static void Init(string[] args)
+        {
             /*
 			Tickets: null
 			Total: 0
@@ -46,52 +49,65 @@ namespace TechByTarun.InterviewPreperationGuide.App.Qotd {
 			Total: 18
 			*/
 
-            GetTotalTickets (null);
-            Program.PrintLine ();
-            GetTotalTickets (new int[] { 300, 400, 500, 200 });
-            Program.PrintLine ();
-            GetTotalTickets (new int[] { 11, 10, 10, 10, 15, 18, 18, 18 });
-            Program.PrintLine ();
-            GetTotalTickets (new int[] { 10, 9, 8, 7, 6, 5, 9, 4, 3, 2, 1 });
-            Program.PrintLine ();
-            GetTotalTickets (new int[] { 1000, 900, 800, 700, 600, 500, 400, 300, 200, 100, 50 });
-            Program.PrintLine ();
-            GetTotalTickets (new int[] { 800, 700, 600, 1000, 500, 400, 2000, 200, 3000 });
-            Program.PrintLine ();
-            GetTotalTickets (new int[] { 1000, 900, 800, 700, 500, 600, 700, 800 });
-            Program.PrintLine ();
-            GetTotalTickets (new int[] { 11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1 });
-            Program.PrintLine ();
-            GetTotalTickets (new int[] { 3, 2, 1, 3, 2, 1, 2, 1, 2 });
-            Program.PrintLine ();
-            GetTotalTickets (new int[] { 5, 4, 3, 2, 1, 2, 3, 4 });
-            Program.PrintLine ();
-            GetTotalTickets (new int[] { 1, 1, 1, 1, 1, 1 });
-            Program.PrintLine ();
-            GetTotalTickets (new int[] { 100, 50, 200, 200, 200, 10, 20, 200, 100, 100, 100 });
+            GetTotalTickets(null);
+            Program.PrintLine();
+            GetTotalTickets(new int[] { 300, 400, 500, 200 });
+            Program.PrintLine();
+            GetTotalTickets(new int[] { 11, 10, 10, 10, 15, 18, 18, 18 });
+            Program.PrintLine();
+            GetTotalTickets(new int[] { 10, 9, 8, 7, 6, 5, 9, 4, 3, 2, 1 });
+            Program.PrintLine();
+            GetTotalTickets(new int[] { 1000, 900, 800, 700, 600, 500, 400, 300, 200, 100, 50 });
+            Program.PrintLine();
+            GetTotalTickets(new int[] { 800, 700, 600, 1000, 500, 400, 2000, 200, 3000 });
+            Program.PrintLine();
+            GetTotalTickets(new int[] { 1000, 900, 800, 700, 500, 600, 700, 800 });
+            Program.PrintLine();
+            GetTotalTickets(new int[] { 11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1 });
+            Program.PrintLine();
+            GetTotalTickets(new int[] { 3, 2, 1, 3, 2, 1, 2, 1, 2 });
+            Program.PrintLine();
+            GetTotalTickets(new int[] { 5, 4, 3, 2, 1, 2, 3, 4 });
+            Program.PrintLine();
+            GetTotalTickets(new int[] { 1, 1, 1, 1, 1, 1 });
+            Program.PrintLine();
+            GetTotalTickets(new int[] { 100, 50, 200, 200, 200, 10, 20, 200, 100, 100, 100 });
         }
 
-        private static void GetTotalTickets (int[] arr) {
+        private static void GetTotalTickets(int[] arr)
+        {
             int result = 0;
             int defaultTicket = 1;
 
-            if (arr != null && arr.Length > 0) {
-                Dictionary<int, int> dict = new Dictionary<int, int> ();
-                for (int i = 0; i < arr.Length; i++) {
-                    dict.Add (i, defaultTicket);
+            if (arr != null && arr.Length > 0)
+            {
+                Dictionary<int, int> dict = new Dictionary<int, int>();
+                for (int i = 0; i < arr.Length; i++)
+                {
+                    dict.Add(i, defaultTicket);
                 }
 
-                for (int i = 1; i < arr.Length; i++) {
-                    if (arr[i] > arr[i - 1]) {
+                for (int i = 1; i < arr.Length; i++)
+                {
+                    if (arr[i] > arr[i - 1])
+                    {
                         dict[i] = dict[i - 1] + 1;
-                    } else if (arr[i] == arr[i - 1]) {
+                    }
+                    else if (arr[i] == arr[i - 1])
+                    {
                         dict[i] = dict[i - 1];
-                    } else {
+                    }
+                    else
+                    {
                         int j = i;
-                        while (j - 1 >= 0 && arr[j - 1] >= arr[j] && dict[j - 1] <= dict[j]) {
-                            if (arr[j - 1] == arr[j]) {
+                        while (j - 1 >= 0 && arr[j - 1] >= arr[j] && dict[j - 1] <= dict[j])
+                        {
+                            if (arr[j - 1] == arr[j])
+                            {
                                 dict[j - 1] = dict[j];
-                            } else {
+                            }
+                            else
+                            {
                                 dict[j - 1] = dict[j] + 1;
                             }
 
@@ -100,12 +116,13 @@ namespace TechByTarun.InterviewPreperationGuide.App.Qotd {
                     }
                 }
 
-                foreach (var item in dict) {
+                foreach (var item in dict)
+                {
                     result += item.Value;
                 }
             }
 
-            Console.WriteLine ("Total Number of Tickets: " + result);
+            Console.WriteLine("Total Number of Tickets: " + result);
         }
     }
 }

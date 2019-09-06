@@ -1,6 +1,7 @@
 ﻿using System;
 
-namespace TechByTarun.InterviewPreperationGuide.App.Qotd {
+namespace TechByTarun.InterviewPreperationGuide.App.Qotd
+{
     /// <summary>
     /// The Great Plains
     ///
@@ -32,59 +33,74 @@ namespace TechByTarun.InterviewPreperationGuide.App.Qotd {
     ///
     /// Use least space, least time.
     /// </summary>
-    public class TheGreatPlains {
-        public static void Init () {
-            Console.WriteLine (CalculateWaterInArea (null));
-            Console.WriteLine (CalculateWaterInArea (new int[3, 3] { { 3, 3, 3 }, { 3, 1, 3 }, { 3, 3, 3 } }));
-            Console.WriteLine (CalculateWaterInArea (new int[3, 4] { { 3, 3, 3, 3 }, { 3, 1, 2, 3 }, { 3, 3, 3, 3 } }));
-            Console.WriteLine (CalculateWaterInArea (new int[5, 5] { { 3, 3, 3, 3, 3 }, { 3, 2, 2, 2, 3 }, { 3, 2, 1, 2, 3 }, { 3, 2, 2, 2, 3 }, { 3, 3, 3, 3, 3 } }));
-            Console.WriteLine (CalculateWaterInArea (new int[4, 4] { { 3, 3, 3, 3 }, { 3, 2, 1, 1 }, { 3, 1, 3, 1 }, { 4, 5, 3, 6 } }));
+    public class TheGreatPlains
+    {
+        public static void Init()
+        {
+            Console.WriteLine(CalculateWaterInArea(null));
+            Console.WriteLine(CalculateWaterInArea(new int[3, 3] { { 3, 3, 3 }, { 3, 1, 3 }, { 3, 3, 3 } }));
+            Console.WriteLine(CalculateWaterInArea(new int[3, 4] { { 3, 3, 3, 3 }, { 3, 1, 2, 3 }, { 3, 3, 3, 3 } }));
+            Console.WriteLine(CalculateWaterInArea(new int[5, 5] { { 3, 3, 3, 3, 3 }, { 3, 2, 2, 2, 3 }, { 3, 2, 1, 2, 3 }, { 3, 2, 2, 2, 3 }, { 3, 3, 3, 3, 3 } }));
+            Console.WriteLine(CalculateWaterInArea(new int[4, 4] { { 3, 3, 3, 3 }, { 3, 2, 1, 1 }, { 3, 1, 3, 1 }, { 4, 5, 3, 6 } }));
         }
 
-        public static int CalculateWaterInArea (int[, ] area) {
+        public static int CalculateWaterInArea(int[,] area)
+        {
             int result = 0;
 
-            if (area != null) {
-                int rows = area.GetLength (0);
-                int cols = area.GetLength (1);
+            if (area != null)
+            {
+                int rows = area.GetLength(0);
+                int cols = area.GetLength(1);
 
-                if (rows > 2 && cols > 2) {
-                    int[, ] la = (int[, ]) area.Clone ();
-                    for (int i = 0; i < rows; i++) {
-                        for (int j = 0; j < rows; j++) {
+                if (rows > 2 && cols > 2)
+                {
+                    int[,] la = (int[,])area.Clone();
+                    for (int i = 0; i < rows; i++)
+                    {
+                        for (int j = 0; j < rows; j++)
+                        {
                             la[i, j] = area[i, 0] - la[i, j];
                         }
                     }
 
-                    int[, ] ta = (int[, ]) area.Clone ();
-                    for (int i = 0; i < rows; i++) {
-                        for (int j = 0; j < rows; j++) {
+                    int[,] ta = (int[,])area.Clone();
+                    for (int i = 0; i < rows; i++)
+                    {
+                        for (int j = 0; j < rows; j++)
+                        {
                             ta[i, j] = area[0, j] - ta[i, j];
                         }
                     }
 
-                    int[, ] ra = (int[, ]) area.Clone ();
-                    for (int i = 0; i < rows; i++) {
-                        for (int j = 0; j < rows; j++) {
+                    int[,] ra = (int[,])area.Clone();
+                    for (int i = 0; i < rows; i++)
+                    {
+                        for (int j = 0; j < rows; j++)
+                        {
                             ra[i, j] = area[i, cols - 1] - ra[i, j];
                         }
                     }
 
-                    int[, ] ba = (int[, ]) area.Clone ();
-                    for (int i = 0; i < rows; i++) {
-                        for (int j = 0; j < rows; j++) {
+                    int[,] ba = (int[,])area.Clone();
+                    for (int i = 0; i < rows; i++)
+                    {
+                        for (int j = 0; j < rows; j++)
+                        {
                             ba[i, j] = area[rows - 1, j] - ba[i, j];
                         }
                     }
 
-                    for (int i = 0; i < rows; i++) {
-                        for (int j = 0; j < rows; j++) {
+                    for (int i = 0; i < rows; i++)
+                    {
+                        for (int j = 0; j < rows; j++)
+                        {
                             int left = (la[i, j] < 0 ? 0 : la[i, j]);
                             int top = (ta[i, j] < 0 ? 0 : ta[i, j]);
                             int right = (ra[i, j] < 0 ? 0 : ra[i, j]);
                             int bottom = (ba[i, j] < 0 ? 0 : ba[i, j]);
 
-                            result += Math.Min (Math.Min (left, top), Math.Min (right, bottom));
+                            result += Math.Min(Math.Min(left, top), Math.Min(right, bottom));
                         }
                     }
                 }

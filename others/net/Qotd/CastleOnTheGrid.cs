@@ -1,7 +1,8 @@
 ﻿using System;
 using System.Collections;
 
-namespace TechByTarun.InterviewPreperationGuide.App.Qotd {
+namespace TechByTarun.InterviewPreperationGuide.App.Qotd
+{
     /// <summary>
     /// Castle on the Grid
     /// You are given a grid with both sides equal to N. Rows and columns are numbered from 0 to N-1.
@@ -39,8 +40,10 @@ namespace TechByTarun.InterviewPreperationGuide.App.Qotd {
     /// Here is a path that one could follow in order to reach the destination in  steps:
     /// (0,0) -> (2,0) -> (2,2) -> (0,2)
     /// </summary>
-    public class CastleOnTheGrid {
-        public static void Init (string[] args) {
+    public class CastleOnTheGrid
+    {
+        public static void Init(string[] args)
+        {
             //args = new string[5];
             //args[0] = "3";
             //args[1] = ".X.";
@@ -100,100 +103,128 @@ namespace TechByTarun.InterviewPreperationGuide.App.Qotd {
             args[40] = ".X..X....X.X......XX....................";
             args[41] = "34 28 16 8";
 
-            int matrixLength = Convert.ToInt32 (args[0]);
+            int matrixLength = Convert.ToInt32(args[0]);
 
-            string[, ] matrix = new string[matrixLength, matrixLength];
+            string[,] matrix = new string[matrixLength, matrixLength];
 
-            for (int i = 1; i <= matrixLength; i++) {
-                char[] matrixInputs = args[i].ToCharArray ();
+            for (int i = 1; i <= matrixLength; i++)
+            {
+                char[] matrixInputs = args[i].ToCharArray();
 
-                for (int j = 0; j < matrixLength; j++) {
-                    matrix[i - 1, j] = Convert.ToString (matrixInputs[j]);
+                for (int j = 0; j < matrixLength; j++)
+                {
+                    matrix[i - 1, j] = Convert.ToString(matrixInputs[j]);
                 }
             }
 
-            string[] coordinates = args[matrixLength + 1].Split (' ');
-            int a = Convert.ToInt32 (coordinates[0]);
-            int b = Convert.ToInt32 (coordinates[1]);
-            int c = Convert.ToInt32 (coordinates[2]);
-            int d = Convert.ToInt32 (coordinates[3]);
+            string[] coordinates = args[matrixLength + 1].Split(' ');
+            int a = Convert.ToInt32(coordinates[0]);
+            int b = Convert.ToInt32(coordinates[1]);
+            int c = Convert.ToInt32(coordinates[2]);
+            int d = Convert.ToInt32(coordinates[3]);
 
-            Console.WriteLine (GetMinCastleToDestinationMoves (matrix, matrixLength, a, b, c, d));
+            Console.WriteLine(GetMinCastleToDestinationMoves(matrix, matrixLength, a, b, c, d));
         }
 
-        public static int GetMinCastleToDestinationMoves (string[, ] matrix, int matrixLength, int a, int b, int c, int d) {
-            if (matrix == null || (matrix != null && matrix.Length == 0)) {
+        public static int GetMinCastleToDestinationMoves(string[,] matrix, int matrixLength, int a, int b, int c, int d)
+        {
+            if (matrix == null || (matrix != null && matrix.Length == 0))
+            {
                 return 0;
             }
 
-            int[, ] cost = new int[matrixLength, matrixLength];
-            for (int i = 0; i < matrixLength; i++) {
-                for (int j = 0; j < matrixLength; j++) {
+            int[,] cost = new int[matrixLength, matrixLength];
+            for (int i = 0; i < matrixLength; i++)
+            {
+                for (int j = 0; j < matrixLength; j++)
+                {
                     cost[i, j] = Int32.MaxValue;
                 }
             }
 
-            Point start = new Point (a, b);
+            Point start = new Point(a, b);
 
-            Queue q = new Queue ();
-            q.Enqueue (start);
+            Queue q = new Queue();
+            q.Enqueue(start);
             cost[a, b] = 0;
 
-            while (q.Count > 0) {
-                Point node = (Point) q.Dequeue ();
+            while (q.Count > 0)
+            {
+                Point node = (Point)q.Dequeue();
 
-                if (node.row == c && node.col == d) {
+                if (node.row == c && node.col == d)
+                {
                     break;
                 }
 
-                for (int i = node.row; i >= 0; i--) {
-                    Point top = new Point (i, node.col);
+                for (int i = node.row; i >= 0; i--)
+                {
+                    Point top = new Point(i, node.col);
 
-                    if (matrix[top.row, top.col] == "X") {
+                    if (matrix[top.row, top.col] == "X")
+                    {
                         break;
-                    } else {
-                        if (cost[top.row, top.col] == Int32.MaxValue) {
-                            cost[top.row, top.col] = Math.Min (cost[top.row, top.col], cost[node.row, node.col] + 1);
-                            q.Enqueue (top);
+                    }
+                    else
+                    {
+                        if (cost[top.row, top.col] == Int32.MaxValue)
+                        {
+                            cost[top.row, top.col] = Math.Min(cost[top.row, top.col], cost[node.row, node.col] + 1);
+                            q.Enqueue(top);
                         }
                     }
                 }
 
-                for (int i = node.col; i < matrixLength; i++) {
-                    Point right = new Point (node.row, i);
+                for (int i = node.col; i < matrixLength; i++)
+                {
+                    Point right = new Point(node.row, i);
 
-                    if (matrix[right.row, right.col] == "X") {
+                    if (matrix[right.row, right.col] == "X")
+                    {
                         break;
-                    } else {
-                        if (cost[right.row, right.col] == Int32.MaxValue) {
-                            cost[right.row, right.col] = Math.Min (cost[right.row, right.col], cost[node.row, node.col] + 1);
-                            q.Enqueue (right);
+                    }
+                    else
+                    {
+                        if (cost[right.row, right.col] == Int32.MaxValue)
+                        {
+                            cost[right.row, right.col] = Math.Min(cost[right.row, right.col], cost[node.row, node.col] + 1);
+                            q.Enqueue(right);
                         }
                     }
                 }
 
-                for (int i = node.row; i < matrixLength; i++) {
-                    Point bottom = new Point (i, node.col);
+                for (int i = node.row; i < matrixLength; i++)
+                {
+                    Point bottom = new Point(i, node.col);
 
-                    if (matrix[bottom.row, bottom.col] == "X") {
+                    if (matrix[bottom.row, bottom.col] == "X")
+                    {
                         break;
-                    } else {
-                        if (cost[bottom.row, bottom.col] == Int32.MaxValue) {
-                            cost[bottom.row, bottom.col] = Math.Min (cost[bottom.row, bottom.col], cost[node.row, node.col] + 1);
-                            q.Enqueue (bottom);
+                    }
+                    else
+                    {
+                        if (cost[bottom.row, bottom.col] == Int32.MaxValue)
+                        {
+                            cost[bottom.row, bottom.col] = Math.Min(cost[bottom.row, bottom.col], cost[node.row, node.col] + 1);
+                            q.Enqueue(bottom);
                         }
                     }
                 }
 
-                for (int i = node.col; i >= 0; i--) {
-                    Point left = new Point (node.row, i);
+                for (int i = node.col; i >= 0; i--)
+                {
+                    Point left = new Point(node.row, i);
 
-                    if (matrix[left.row, left.col] == "X") {
+                    if (matrix[left.row, left.col] == "X")
+                    {
                         break;
-                    } else {
-                        if (cost[left.row, left.col] == Int32.MaxValue) {
-                            cost[left.row, left.col] = Math.Min (cost[left.row, left.col], cost[node.row, node.col] + 1);
-                            q.Enqueue (left);
+                    }
+                    else
+                    {
+                        if (cost[left.row, left.col] == Int32.MaxValue)
+                        {
+                            cost[left.row, left.col] = Math.Min(cost[left.row, left.col], cost[node.row, node.col] + 1);
+                            q.Enqueue(left);
                         }
                     }
                 }
@@ -203,11 +234,13 @@ namespace TechByTarun.InterviewPreperationGuide.App.Qotd {
         }
     }
 
-    public class Point {
+    public class Point
+    {
         public int row { get; set; }
         public int col { get; set; }
 
-        public Point (int row, int col) {
+        public Point(int row, int col)
+        {
             this.row = row;
             this.col = col;
         }

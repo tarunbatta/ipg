@@ -1,7 +1,8 @@
 ﻿using System;
 using System.Text;
 
-namespace TechByTarun.InterviewPreperationGuide.App.Algorithms {
+namespace TechByTarun.InterviewPreperationGuide.App.Algorithms
+{
     /// <summary>
     /// De Bruijn Sequence (https://en.wikipedia.org/wiki/De_Bruijn_sequence)
     ///
@@ -23,41 +24,49 @@ namespace TechByTarun.InterviewPreperationGuide.App.Algorithms {
     /// DeBruijn 6
     /// 0000001111110111100111010111000110110100110010110000101010001001
     /// </summary>
-    public class DeBruijnSequence {
-        public static void Init (string[] args) {
-            BuildDeBruijnSequence (3);
-            Program.PrintLine ();
-            BuildDeBruijnSequence (4);
-            Program.PrintLine ();
-            BuildDeBruijnSequence (5);
-            Program.PrintLine ();
-            BuildDeBruijnSequence (6);
+    public class DeBruijnSequence
+    {
+        public static void Init(string[] args)
+        {
+            BuildDeBruijnSequence(3);
+            Program.PrintLine();
+            BuildDeBruijnSequence(4);
+            Program.PrintLine();
+            BuildDeBruijnSequence(5);
+            Program.PrintLine();
+            BuildDeBruijnSequence(6);
         }
 
-        private static string BuildDeBruijnSequence (int n) {
-            StringBuilder result = new StringBuilder ();
+        private static string BuildDeBruijnSequence(int n)
+        {
+            StringBuilder result = new StringBuilder();
 
-            for (int i = 0; i < n; i++) {
-                result.Append ("0");
+            for (int i = 0; i < n; i++)
+            {
+                result.Append("0");
             }
 
             int counter = 1;
 
-            while (counter < (1 << n)) {
-                string current = Convert.ToString (counter, 2);
+            while (counter < (1 << n))
+            {
+                string current = Convert.ToString(counter, 2);
 
-                if (result.ToString ().IndexOf (current) > 0) {
-                    result.Append ("0");
-                } else {
-                    result.Append ("1");
+                if (result.ToString().IndexOf(current) > 0)
+                {
+                    result.Append("0");
+                }
+                else
+                {
+                    result.Append("1");
                 }
 
                 counter++;
             }
 
-            Console.WriteLine ("De Bruijn Sequence of order " + n + " is : " + result.ToString () + " (" + result.ToString ().Length + ")");
+            Console.WriteLine("De Bruijn Sequence of order " + n + " is : " + result.ToString() + " (" + result.ToString().Length + ")");
 
-            return result.ToString ();
+            return result.ToString();
         }
     }
 }

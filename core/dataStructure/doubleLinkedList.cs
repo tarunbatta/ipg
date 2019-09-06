@@ -1,54 +1,67 @@
 using System;
 
-namespace InterviewPreperationGuide.Core.DataStructure.DoubleLinkedList {
-    public class Node {
+namespace InterviewPreperationGuide.Core.DataStructure.DoubleLinkedList
+{
+    public class Node
+    {
         public object data;
         public Node prev;
         public Node next;
 
-        public Node () {
+        public Node()
+        {
             this.data = null;
             this.prev = null;
             this.next = null;
         }
 
-        public Node (object item) {
+        public Node(object item)
+        {
             this.data = item;
             this.prev = null;
             this.next = null;
         }
     }
 
-    public class DoubleLinkedList {
+    public class DoubleLinkedList
+    {
         public Node head;
 
-        public DoubleLinkedList () {
+        public DoubleLinkedList()
+        {
             this.head = null;
         }
 
-        public void Display () {
+        public void Display()
+        {
             Node current = head;
 
-            while (current.next != null) {
-                Console.WriteLine (current.data.ToString ());
+            while (current.next != null)
+            {
+                Console.WriteLine(current.data.ToString());
                 current = current.next;
             }
         }
 
-        public void DisplayReverse () {
-            Node current = FindLast ();
+        public void DisplayReverse()
+        {
+            Node current = FindLast();
 
-            while (current.prev != null) {
-                Console.WriteLine (current.data.ToString ());
+            while (current.prev != null)
+            {
+                Console.WriteLine(current.data.ToString());
                 current = current.prev;
             }
         }
 
-        public Node Find (object item) {
+        public Node Find(object item)
+        {
             Node current = head;
 
-            while (current.next != null) {
-                if (current.data == item) {
+            while (current.next != null)
+            {
+                if (current.data == item)
+                {
                     return current;
                 }
 
@@ -58,45 +71,54 @@ namespace InterviewPreperationGuide.Core.DataStructure.DoubleLinkedList {
             return null;
         }
 
-        public Node FindLast () {
+        public Node FindLast()
+        {
             Node current = head;
 
-            if (current.next != null) {
+            if (current.next != null)
+            {
                 current = current.next;
             }
 
             return current;
         }
 
-        public void Insert (object item, Node after) {
-            Node newNode = new Node (item);
-            Node current = Find (after.data);
+        public void Insert(object item, Node after)
+        {
+            Node newNode = new Node(item);
+            Node current = Find(after.data);
 
-            if (current != null) {
+            if (current != null)
+            {
                 newNode.prev = current;
                 newNode.next = current.next;
                 current.next = newNode;
             }
         }
 
-        public Node Previous (object item) {
+        public Node Previous(object item)
+        {
             Node current = head;
 
-            while (current.next != null && current.next.data != item) {
+            while (current.next != null && current.next.data != item)
+            {
                 current = current.next;
             }
 
-            if (current == head) {
+            if (current == head)
+            {
                 current = null;
             }
 
             return current;
         }
 
-        public void Remove (object item) {
-            Node current = Find (item);
+        public void Remove(object item)
+        {
+            Node current = Find(item);
 
-            if (current != null) {
+            if (current != null)
+            {
                 current.prev.next = current.next;
                 current.next.prev = current.prev;
                 current.prev = null;
