@@ -28,6 +28,9 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution152
     {
         public void Init() { }
 
-        public int MaxProduct(int[] nums) { }
+        public int MaxProduct(int[] nums)
+        {
+            return 0;
+        }
     }
 }

@@ -26,6 +26,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution53
     {
         public void Init() { }
 
-        public int MaxSubArray(int[] nums) { }
+        public int MaxSubArray(int[] nums) {
+            return 0;
+         }
     }
 }

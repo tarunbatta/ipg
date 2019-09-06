@@ -41,6 +41,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution123
     {
         public void Init() { }
 
-        public int MaxProfit(int[] prices) { }
+        public int MaxProfit(int[] prices) { 
+            return 0;
+        }
     }
 }

@@ -67,6 +67,7 @@ Output:
 */
 
 using System;
+using System.Collections.Generic;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution68
 {
@@ -74,6 +75,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution68
     {
         public void Init() { }
 
-        public IList<string> FullJustify(string[] words, int maxWidth) { }
+        public IList<string> FullJustify(string[] words, int maxWidth) { 
+          return null;
+        }
     }
 }

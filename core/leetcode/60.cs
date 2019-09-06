@@ -46,6 +46,9 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution60
     {
         public void Init() { }
 
-        public string GetPermutation(int n, int k) { }
+        public string GetPermutation(int n, int k)
+        {
+            return null;
+        }
     }
 }

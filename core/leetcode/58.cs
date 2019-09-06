@@ -27,6 +27,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution58
     {
         public void Init() { }
 
-        public int LengthOfLastWord(string s) { }
+        public int LengthOfLastWord(string s) {
+            return 0;
+         }
     }
 }

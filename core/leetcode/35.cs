@@ -40,6 +40,9 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution35
     {
         public void Init() { }
 
-        public int SearchInsert(int[] nums, int target) { }
+        public int SearchInsert(int[] nums, int target)
+        {
+            return 0;
+        }
     }
 }

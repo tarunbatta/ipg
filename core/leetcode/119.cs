@@ -23,6 +23,7 @@ Could you optimize your algorithm to use only O(k) extra space?
 */
 
 using System;
+using System.Collections.Generic;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution119
 {
@@ -30,6 +31,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution119
     {
         public void Init() { }
 
-        public IList<int> GetRow(int rowIndex) { }
+        public IList<int> GetRow(int rowIndex) { 
+            return null;
+        }
     }
 }

@@ -61,8 +61,14 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution1176
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
 
-        public int DietPlanPerformance(int[] calories, int k, int lower, int upper) { }
+        }
+
+        public int DietPlanPerformance(int[] calories, int k, int lower, int upper)
+        {
+            retrun 0;
+        }
     }
 }

@@ -28,6 +28,7 @@ Output: [1,2,3,4,8,12,11,10,9,5,6,7]
 */
 
 using System;
+using System.Collections.Generic;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution54
 {
@@ -35,6 +36,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution54
     {
         public void Init() { }
 
-        public IList<int> SpiralOrder(int[][] matrix) { }
+        public IList<int> SpiralOrder(int[][] matrix) {
+          return null;
+         }
     }
 }

@@ -41,11 +41,25 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution237
 {
-    /** * Definition for singly-linked list. * public class ListNode { *     public int val; *     public ListNode next; *     public ListNode(int x) { val = x; } * } */
     public class Solution
     {
-        public void Init() { }
+        public void Init() {
 
-        public void DeleteNode(ListNode node) { }
+         }
+
+        public void DeleteNode(ListNode node) { 
+
+        }
+    }
+
+     public class ListNode
+    {
+        public int val;
+        public ListNode next;
+
+        public ListNode(int x)
+        {
+            val = x;
+        }
     }
 }

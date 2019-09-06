@@ -38,13 +38,20 @@ Constraints:
 */
 
 using System;
+using System.Collections.Generic;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution1177
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
 
-        public IList<bool> CanMakePaliQueries(string s, int[][] queries) { }
+        }
+
+        public IList<bool> CanMakePaliQueries(string s, int[][] queries)
+        {
+            return null;
+        }
     }
 }

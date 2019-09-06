@@ -25,12 +25,35 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution382
 {
-    /** * Definition for singly-linked list. * public class ListNode { *     public int val; *     public ListNode next; *     public ListNode(int x) { val = x; } * } */
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
+            Solution obj = new Solution(null);
+            int param_1 = obj.GetRandom();
+        }
 
-​    /** @param head The linked list's head.        Note that the head is guaranteed to be not null, so it contains at least one node. */    public Solution(ListNode head) { }        /** Returns a random node's value. */
-        public int GetRandom() { }
-    }​/** * Your Solution object will be instantiated and called as such: * Solution obj = new Solution(head); * int param_1 = obj.GetRandom(); *
+        // @param head The linked list's head. Note that the head is guaranteed to be not null, so it contains at least one node.
+        public Solution(ListNode head)
+        {
+
+        }
+
+        // Returns a random node's value.
+        public int GetRandom()
+        {
+            return 0;
+        }
+    }​
+
+    public class ListNode
+    {
+        public int val;
+        public ListNode next;
+
+        public ListNode(int x)
+        {
+            val = x;
+        }
+    }
 }

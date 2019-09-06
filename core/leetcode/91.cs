@@ -36,6 +36,9 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution91
     {
         public void Init() { }
 
-        public int NumDecodings(string s) { }
+        public int NumDecodings(string s)
+        {
+            return 0;
+        }
     }
 }

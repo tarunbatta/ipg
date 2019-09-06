@@ -33,6 +33,9 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution55
     {
         public void Init() { }
 
-        public bool CanJump(int[] nums) { }
+        public bool CanJump(int[] nums)
+        {
+            return false;
+        }
     }
 }

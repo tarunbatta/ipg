@@ -45,11 +45,25 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution1038
 {
-    /** * Definition for a binary tree node. * public class TreeNode { *     public int val; *     public TreeNode left; *     public TreeNode right; *     public TreeNode(int x) { val = x; } * } */
     public class Solution
     {
         public void Init() { }
 
-        public TreeNode BstToGst(TreeNode root) { }
+        public TreeNode BstToGst(TreeNode root)
+        {
+            return null;
+        }
+    }
+
+    public class TreeNode
+    {
+        public int val;
+        public TreeNode left;
+        public TreeNode right;
+
+        public TreeNode(int x)
+        {
+            val = x;
+        }
     }
 }

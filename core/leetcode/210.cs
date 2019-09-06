@@ -42,6 +42,9 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution210
     {
         public void Init() { }
 
-        public int[] FindOrder(int numCourses, int[][] prerequisites) { }
+        public int[] FindOrder(int numCourses, int[][] prerequisites)
+        {
+            return null;
+        }
     }
 }

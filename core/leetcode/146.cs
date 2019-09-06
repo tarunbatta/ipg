@@ -16,7 +16,7 @@ Could you do both operations in O(1) time complexity?
 
 Example:
 
-LRUCache cache = new LRUCache( 2 /* capacity */ );
+LRUCache cache = new LRUCache(2);
 
 cache.put(1, 1);
 cache.put(2, 2);
@@ -36,5 +36,31 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution146
 {
-    public class LRUCache {​    public LRUCache(int capacity) { } public int Get(int key) { } public void Put(int key, int value) { } }​/** * Your LRUCache object will be instantiated and called as such: * LRUCache obj = new LRUCache(capacity); * int param_1 = obj.Get(key); * obj.Put(key,value); *
+    public class Solution
+    {
+        public void Init()
+        {
+            // LRUCache obj = new LRUCache(capacity);
+            // int param_1 = obj.Get(key);
+            // obj.Put(key, value);
+        }
+    }
+
+    public class LRUCache
+    {​    
+        public LRUCache(int capacity)
+        {
+
+        }
+
+        public int Get(int key)
+        {
+            return 0;
+        }
+
+        public void Put(int key, int value)
+        {
+
+        }
+    }​
 }

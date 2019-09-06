@@ -24,6 +24,7 @@ Note:
 */
 
 using System;
+using System.Collections.Generic;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution49
 {
@@ -31,6 +32,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution49
     {
         public void Init() { }
 
-        public IList<IList<string>> GroupAnagrams(string[] strs) { }
+        public IList<IList<string>> GroupAnagrams(string[] strs) { 
+          return null;
+        }
     }
 }

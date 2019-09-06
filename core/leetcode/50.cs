@@ -40,6 +40,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution50
     {
         public void Init() { }
 
-        public double MyPow(double x, int n) { }
+        public double MyPow(double x, int n) { 
+            return 0;
+        }
     }
 }

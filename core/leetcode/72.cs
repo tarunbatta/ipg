@@ -44,6 +44,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution72
     {
         public void Init() { }
 
-        public int MinDistance(string word1, string word2) { }
+        public int MinDistance(string word1, string word2) { 
+            return 0;
+        }
     }
 }

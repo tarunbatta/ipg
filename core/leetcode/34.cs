@@ -29,6 +29,9 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution34
     {
         public void Init() { }
 
-        public int[] SearchRange(int[] nums, int target) { }
+        public int[] SearchRange(int[] nums, int target)
+        {
+            return null;
+        }
     }
 }

@@ -23,6 +23,7 @@ Output:
 */
 
 using System;
+using System.Collections.Generic;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution90
 {
@@ -30,6 +31,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution90
     {
         public void Init() { }
 
-        public IList<IList<int>> SubsetsWithDup(int[] nums) { }
+        public IList<IList<int>> SubsetsWithDup(int[] nums) { 
+          return null;
+        }
     }
 }

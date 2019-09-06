@@ -28,5 +28,5 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution177
 {
-    CREATE FUNCTION getNthHighestSalary(N INT) RETURNS INTBEGIN RETURN(      # Write your MySQL query statement below.        );EN
+    // CREATE FUNCTION getNthHighestSalary(N INT) RETURNS INTBEGIN RETURN(      # Write your MySQL query statement below.        );EN
 }

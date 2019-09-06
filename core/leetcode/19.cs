@@ -26,7 +26,6 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution19
 {
-    /** * Definition for singly-linked list. * public class ListNode { *     public int val; *     public ListNode next; *     public ListNode(int x) { val = x; } * } */
     public class Solution
     {
         public void Init()
@@ -37,6 +36,17 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution19
         public ListNode RemoveNthFromEnd(ListNode head, int n)
         {
             return null;
+        }
+    }
+
+    public class ListNode
+    {
+        public int val;
+        public ListNode next;
+
+        public ListNode(int x)
+        {
+            val = x;
         }
     }
 }

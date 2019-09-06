@@ -54,6 +54,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution115
     {
         public void Init() { }
 
-        public int NumDistinct(string s, string t) { }
+        public int NumDistinct(string s, string t) { 
+            return 0;
+        }
     }
 }

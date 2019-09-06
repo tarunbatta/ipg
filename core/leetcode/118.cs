@@ -23,6 +23,7 @@ Output:
 */
 
 using System;
+using System.Collections.Generic;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution118
 {
@@ -30,6 +31,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution118
     {
         public void Init() { }
 
-        public IList<IList<int>> Generate(int numRows) { }
+        public IList<IList<int>> Generate(int numRows) { 
+            return null;
+        }
     }
 }

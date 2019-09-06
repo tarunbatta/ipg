@@ -38,6 +38,7 @@ A solution set is:
 */
 
 using System;
+using System.Collections.Generic;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution40
 {
@@ -45,6 +46,9 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution40
     {
         public void Init() { }
 
-        public IList<IList<int>> CombinationSum2(int[] candidates, int target) { }
+        public IList<IList<int>> CombinationSum2(int[] candidates, int target)
+        {
+            return null;
+        }
     }
 }

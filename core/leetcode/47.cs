@@ -18,6 +18,7 @@ Output:
 */
 
 using System;
+using System.Collections.Generic;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution47
 {
@@ -25,6 +26,9 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution47
     {
         public void Init() { }
 
-        public IList<IList<int>> PermuteUnique(int[] nums) { }
+        public IList<IList<int>> PermuteUnique(int[] nums)
+        {
+            return null;
+        }
     }
 }

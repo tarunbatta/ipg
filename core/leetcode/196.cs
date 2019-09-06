@@ -35,5 +35,5 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution196
 {
-# Write your MySQL query statement below
+// # Write your MySQL query statement below
 }

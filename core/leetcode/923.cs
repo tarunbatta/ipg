@@ -52,6 +52,9 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution923
     {
         public void Init() { }
 
-        public int ThreeSumMulti(int[] A, int target) { }
+        public int ThreeSumMulti(int[] A, int target)
+        {
+            return 0;
+        }
     }
 }

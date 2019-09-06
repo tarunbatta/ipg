@@ -25,8 +25,13 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution76
 {
     public class Solution
     {
-        public void Init() { }
+        public void Init() { 
+            
+        }
 
-        public string MinWindow(string s, string t) { }
+        public string MinWindow(string s, string t)
+        {
+            return null;
+        }
     }
 }

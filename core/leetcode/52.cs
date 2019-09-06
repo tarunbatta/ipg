@@ -36,6 +36,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution52
     {
         public void Init() { }
 
-        public int TotalNQueens(int n) { }
+        public int TotalNQueens(int n) {
+            return 0;
+         }
     }
 }

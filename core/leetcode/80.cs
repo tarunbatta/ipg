@@ -51,6 +51,9 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution80
     {
         public void Init() { }
 
-        public int RemoveDuplicates(int[] nums) { }
+        public int RemoveDuplicates(int[] nums)
+        {
+            return 0;
+        }
     }
 }

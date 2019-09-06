@@ -61,7 +61,18 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution710
     {
         public void Init() { }
 
-​    public Solution(int N, int[] blacklist) { }
-        public int Pick() { }
-    }​/** * Your Solution object will be instantiated and called as such: * Solution obj = new Solution(N, blacklist); * int param_1 = obj.Pick(); *
+​    public Solution(int N, int[] blacklist)
+        {
+
+        }
+
+        public int Pick()
+        {
+            return 0;
+        }
+    }
+
+    /** * Your Solution object will be instantiated and called as such: * Solution obj = new Solution(N, blacklist); * int param_1 = obj.Pick(); *
 }
+*/
+}​

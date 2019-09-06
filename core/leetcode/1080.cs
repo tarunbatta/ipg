@@ -56,11 +56,24 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution1080
 {
-    /** * Definition for a binary tree node. * public class TreeNode { *     public int val; *     public TreeNode left; *     public TreeNode right; *     public TreeNode(int x) { val = x; } * } */
     public class Solution
     {
         public void Init() { }
 
-        public TreeNode SufficientSubset(TreeNode root, int limit) { }
+        public TreeNode SufficientSubset(TreeNode root, int limit) {
+            return null;
+         }
+    }
+
+    public class TreeNode
+    {
+        public int val;
+        public TreeNode left;
+        public TreeNode right;
+
+        public TreeNode(int x)
+        {
+            val = x;
+        }
     }
 }

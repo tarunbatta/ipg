@@ -34,14 +34,29 @@ Therefore, you need to return above trees&apos; root in the form of a list.
 */
 
 using System;
+using System.Collections.Generic;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution652
 {
-    /** * Definition for a binary tree node. * public class TreeNode { *     public int val; *     public TreeNode left; *     public TreeNode right; *     public TreeNode(int x) { val = x; } * } */
     public class Solution
     {
         public void Init() { }
 
-        public IList<TreeNode> FindDuplicateSubtrees(TreeNode root) { }
+        public IList<TreeNode> FindDuplicateSubtrees(TreeNode root)
+        {
+            return null;
+        }
+    }
+
+    public class TreeNode
+    {
+        public int val;
+        public TreeNode left;
+        public TreeNode right;
+
+        public TreeNode(int x)
+        {
+            val = x;
+        }
     }
 }

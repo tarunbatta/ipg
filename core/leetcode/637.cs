@@ -25,14 +25,29 @@ The range of node&apos;s value is in the range of 32-bit signed integer.
 */
 
 using System;
+using System.Collections.Generic;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution637
 {
-    /** * Definition for a binary tree node. * public class TreeNode { *     public int val; *     public TreeNode left; *     public TreeNode right; *     public TreeNode(int x) { val = x; } * } */
     public class Solution
     {
         public void Init() { }
 
-        public IList<double> AverageOfLevels(TreeNode root) { }
+        public IList<double> AverageOfLevels(TreeNode root)
+        {
+            return null;
+        }
+    }
+
+    public class TreeNode
+    {
+        public int val;
+        public TreeNode left;
+        public TreeNode right;
+
+        public TreeNode(int x)
+        {
+            val = x;
+        }
     }
 }

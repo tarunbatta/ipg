@@ -46,5 +46,25 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution901
 {
-    public class StockSpanner {​    public StockSpanner() { } public int Next(int price) { } }​/** * Your StockSpanner object will be instantiated and called as such: * StockSpanner obj = new StockSpanner(); * int param_1 = obj.Next(price); *
+    public class Solution
+    {
+        public void Init()
+        {
+            StockSpanner obj = new StockSpanner();
+            int param_1 = obj.Next(1);
+        }
+    }
+
+    public class StockSpanner
+    {​   
+	 public StockSpanner()
+        {
+
+        }
+
+        public int Next(int price)
+        {
+            return 0;
+        }
+    }​
 }

@@ -22,11 +22,23 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution143
 {
-    /** * Definition for singly-linked list. * public class ListNode { *     public int val; *     public ListNode next; *     public ListNode(int x) { val = x; } * } */
     public class Solution
     {
         public void Init() { }
 
-        public void ReorderList(ListNode head) { }
+        public void ReorderList(ListNode head) {
+            return null;
+         }
+    }
+
+      public class ListNode
+    {
+        public int val;
+        public ListNode next;
+
+        public ListNode(int x)
+        {
+            val = x;
+        }
     }
 }

@@ -25,6 +25,9 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution209
     {
         public void Init() { }
 
-        public int MinSubArrayLen(int s, int[] nums) { }
+        public int MinSubArrayLen(int s, int[] nums)
+        {
+            return 0;
+        }
     }
 }

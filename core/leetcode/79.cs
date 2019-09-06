@@ -30,6 +30,9 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution79
     {
         public void Init() { }
 
-        public bool Exist(char[][] board, string word) { }
+        public bool Exist(char[][] board, string word)
+        {
+            return false;
+        }
     }
 }

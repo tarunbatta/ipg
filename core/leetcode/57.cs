@@ -31,6 +31,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution57
     {
         public void Init() { }
 
-        public int[][] Insert(int[][] intervals, int[] newInterval) { }
+        public int[][] Insert(int[][] intervals, int[] newInterval) {
+            return null;
+        }
     }
 }

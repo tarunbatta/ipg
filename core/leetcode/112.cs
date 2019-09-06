@@ -28,11 +28,25 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution112
 {
-    /** * Definition for a binary tree node. * public class TreeNode { *     public int val; *     public TreeNode left; *     public TreeNode right; *     public TreeNode(int x) { val = x; } * } */
     public class Solution
     {
         public void Init() { }
 
-        public bool HasPathSum(TreeNode root, int sum) { }
+        public bool HasPathSum(TreeNode root, int sum) {
+
+            return false;
+         }
+    }
+
+    public class TreeNode
+    {
+        public int val;
+        public TreeNode left;
+        public TreeNode right;
+
+        public TreeNode(int x)
+        {
+            val = x;
+        }
     }
 }

@@ -30,6 +30,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution56
     {
         public void Init() { }
 
-        public int[][] Merge(int[][] intervals) { }
+        public int[][] Merge(int[][] intervals) {
+            return null;
+         }
     }
 }

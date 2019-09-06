@@ -32,6 +32,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution69
     {
         public void Init() { }
 
-        public int MySqrt(int x) { }
+        public int MySqrt(int x) {
+            return 0;
+         }
     }
 }
