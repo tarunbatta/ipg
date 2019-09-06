@@ -40,5 +40,25 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution911
 {
-    public class TopVotedCandidate {​    public TopVotedCandidate(int[] persons, int[] times) { } public int Q(int t) { } }​/** * Your TopVotedCandidate object will be instantiated and called as such: * TopVotedCandidate obj = new TopVotedCandidate(persons, times); * int param_1 = obj.Q(t); *
+    public class Solution
+    {
+        public void Init()
+        {
+            TopVotedCandidate obj = new TopVotedCandidate(null, null);
+            int param_1 = obj.Q(1);
+        }
+    }
+
+    public class TopVotedCandidate
+    {​    
+		public TopVotedCandidate(int[] persons, int[] times)
+        {
+
+        }
+
+        public int Q(int t)
+        {
+            return 0;
+        }
+    }​
 }
