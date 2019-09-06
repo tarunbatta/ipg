@@ -55,6 +55,9 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution27
     {
         public void Init() { }
 
-        public int RemoveElement(int[] nums, int val) { }
+        public int RemoveElement(int[] nums, int val)
+        {
+            return 0;
+        }
     }
 }

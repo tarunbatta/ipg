@@ -24,6 +24,9 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution24
     {
         public void Init() { }
 
-        public ListNode SwapPairs(ListNode head) { }
+        public ListNode SwapPairs(ListNode head)
+        {
+            return null;
+        }
     }
 }

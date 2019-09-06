@@ -36,6 +36,9 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution29
     {
         public void Init() { }
 
-        public int Divide(int dividend, int divisor) { }
+        public int Divide(int dividend, int divisor)
+        {
+            return 0;
+        }
     }
 }

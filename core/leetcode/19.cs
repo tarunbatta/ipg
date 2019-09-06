@@ -29,8 +29,14 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution19
     /** * Definition for singly-linked list. * public class ListNode { *     public int val; *     public ListNode next; *     public ListNode(int x) { val = x; } * } */
     public class Solution
     {
-        public void Init() { }
+        public void Init()
+        {
 
-        public ListNode RemoveNthFromEnd(ListNode head, int n) { }
+        }
+
+        public ListNode RemoveNthFromEnd(ListNode head, int n)
+        {
+            return null;
+        }
     }
 }

@@ -20,6 +20,7 @@ For example, given n = 3, a solution set is:
 */
 
 using System;
+using System.Collections.Generic;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution22
 {
@@ -27,6 +28,9 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution22
     {
         public void Init() { }
 
-        public IList<string> GenerateParenthesis(int n) { }
+        public IList<string> GenerateParenthesis(int n)
+        {
+            return null;
+        }
     }
 }

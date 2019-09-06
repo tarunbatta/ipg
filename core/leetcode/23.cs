@@ -26,6 +26,9 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution23
     {
         public void Init() { }
 
-        public ListNode MergeKLists(ListNode[] lists) { }
+        public ListNode MergeKLists(ListNode[] lists)
+        {
+            return null;
+        }
     }
 }

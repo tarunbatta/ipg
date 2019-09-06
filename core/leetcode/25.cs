@@ -35,6 +35,9 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution25
     {
         public void Init() { }
 
-        public ListNode ReverseKGroup(ListNode head, int k) { }
+        public ListNode ReverseKGroup(ListNode head, int k)
+        {
+            return null;
+        }
     }
 }

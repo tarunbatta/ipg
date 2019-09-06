@@ -53,6 +53,9 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution20
     {
         public void Init() { }
 
-        public bool IsValid(string s) { }
+        public bool IsValid(string s)
+        {
+            return false;
+        }
     }
 }

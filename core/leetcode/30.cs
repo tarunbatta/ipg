@@ -25,6 +25,7 @@ Output: []
 */
 
 using System;
+using System.Collections.Generic;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution30
 {
@@ -32,6 +33,9 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution30
     {
         public void Init() { }
 
-        public IList<int> FindSubstring(string s, string[] words) { }
+        public IList<int> FindSubstring(string s, string[] words)
+        {
+            return null;
+        }
     }
 }
