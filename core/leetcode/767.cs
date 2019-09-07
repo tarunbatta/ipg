@@ -31,15 +31,14 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution767
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution767 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public string ReorganizeString(string S) { }
+        public string ReorganizeString (string S) {
+            return null;
+        }
     }
 }

@@ -17,17 +17,13 @@ Output: 6
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution42
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution42 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int Trap(int[] height)
-        {
+        public int Trap (int[] height) {
             return 0;
         }
     }

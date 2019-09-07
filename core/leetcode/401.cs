@@ -23,16 +23,16 @@ The minute must be consist of two digits and may contain a leading zero, for exa
 */
 
 using System;
+using System.Collections.Generic;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution401
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution401 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public IList<string> ReadBinaryWatch(int num) { }
+        public IList<string> ReadBinaryWatch (int num) {
+            return null;
+        }
     }
 }

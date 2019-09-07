@@ -31,17 +31,13 @@ Note: You may assume that the secret number and your friend&apos;s guess only co
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution299
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution299 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public string GetHint(string secret, string guess)
-        {
+        public string GetHint (string secret, string guess) {
             return null;
         }
     }

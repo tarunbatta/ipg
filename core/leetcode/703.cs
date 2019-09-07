@@ -26,7 +26,21 @@ You may assume that&#xA0;nums&apos; length&#xA0;&#x2265;&#xA0;k-1&#xA0;and k &#x
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution703
-{
-    public class KthLargest {​    public KthLargest(int k, int[] nums) { } public int Add(int val) { } }​/** * Your KthLargest object will be instantiated and called as such: * KthLargest obj = new KthLargest(k, nums); * int param_1 = obj.Add(val); *
+namespace InterviewPreperationGuide.Core.LeetCode.Solution703 {
+    public class Solution {
+        public void Init () {
+            KthLargest obj = new KthLargest (0, null);
+            int param_1 = obj.Add (0);
+        }
+    }
+
+    public class KthLargest {
+        public KthLargest (int k, int[] nums) {
+
+        }
+
+        public int Add (int val) {
+            return 0;
+        }
+    }
 }

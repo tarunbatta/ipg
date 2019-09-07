@@ -34,29 +34,23 @@ Bonus points if you could solve it both recursively and iteratively.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution101
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution101 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public bool IsSymmetric(TreeNode root)
-        {
+        public bool IsSymmetric (TreeNode root) {
             return false;
         }
     }
 
-    public class TreeNode
-    {
+    public class TreeNode {
         public int val;
         public TreeNode left;
         public TreeNode right;
 
-        public TreeNode(int x)
-        {
+        public TreeNode (int x) {
             val = x;
         }
     }

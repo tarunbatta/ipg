@@ -39,7 +39,31 @@ Constraints:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution1146
-{
-    public class SnapshotArray {​    public SnapshotArray(int length) { } public void Set(int index, int val) { } public int Snap() { } public int Get(int index, int snap_id) { } }​/** * Your SnapshotArray object will be instantiated and called as such: * SnapshotArray obj = new SnapshotArray(length); * obj.Set(index,val); * int param_2 = obj.Snap(); * int param_3 = obj.Get(index,snap_id); *
+namespace InterviewPreperationGuide.Core.LeetCode.Solution1146 {
+    public class Solution {
+        public void Init () {
+            SnapshotArray obj = new SnapshotArray (0);
+            obj.Set (0, 0);
+            int param_2 = obj.Snap ();
+            int param_3 = obj.Get (0, 0);
+        }
+    }
+
+    public class SnapshotArray {
+        public SnapshotArray (int length) {
+
+        }
+
+        public void Set (int index, int val) {
+
+        }
+
+        public int Snap () {
+            return 0;
+        }
+
+        public int Get (int index, int snap_id) {
+            return 0;
+        }
+    }
 }

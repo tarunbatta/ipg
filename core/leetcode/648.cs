@@ -33,16 +33,16 @@ Note:
 */
 
 using System;
+using System.Collections.Generic;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution648
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution648 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public string ReplaceWords(IList<string> dict, string sentence) { }
+        public string ReplaceWords (IList<string> dict, string sentence) {
+            return null;
+        }
     }
 }

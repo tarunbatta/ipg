@@ -31,9 +31,24 @@ Note:
 */
 
 using System;
+using System.Collections.Generic;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution690
-{
-    /*// Employee infoclass Employee {public:    // It's the unique ID of each node.    // unique id of this employee    int id;    // the importance value of this employee    int importance;    // the id of direct subordinates    vector<int> subordinates;};*/
-    class Solution { public:    int getImportance(vector<Employee*> employees, int id) { } }
+namespace InterviewPreperationGuide.Core.LeetCode.Solution690 {
+    public class Solution {
+        public int getImportance (List<Employee> employees, int id) {
+            return 0;
+        }
+    }
+
+    public class Employee {
+        // It's the unique id of each node;
+        // unique id of this employee
+        public int id;
+
+        // the importance value of this employee
+        public int importance;
+
+        // the id of direct subordinates
+        public List<int> subordinates;
+    }
 }

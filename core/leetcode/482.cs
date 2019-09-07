@@ -39,15 +39,14 @@ String S is non-empty.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution482
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution482 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public string LicenseKeyFormatting(string S, int K) { }
+        public string LicenseKeyFormatting (string S, int K) {
+            return null;
+        }
     }
 }

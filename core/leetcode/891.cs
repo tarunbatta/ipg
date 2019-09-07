@@ -36,15 +36,14 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution891
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution891 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int SumSubseqWidths(int[] A) { }
+        public int SumSubseqWidths (int[] A) {
+            return 0;
+        }
     }
 }

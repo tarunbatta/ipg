@@ -31,29 +31,23 @@ You may assume the sum of values in any subtree is in the range of 32-bit signed
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution508
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution508 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int[] FindFrequentTreeSum(TreeNode root)
-        {
+        public int[] FindFrequentTreeSum (TreeNode root) {
             return null;
         }
     }
 
-    public class TreeNode
-    {
+    public class TreeNode {
         public int val;
         public TreeNode left;
         public TreeNode right;
 
-        public TreeNode(int x)
-        {
+        public TreeNode (int x) {
             val = x;
         }
     }

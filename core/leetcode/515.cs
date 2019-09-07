@@ -21,29 +21,23 @@ Output: [1, 3, 9]
 using System;
 using System.Collections.Generic;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution515
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution515 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public IList<int> LargestValues(TreeNode root)
-        {
+        public IList<int> LargestValues (TreeNode root) {
             return null;
         }
     }
 
-    public class TreeNode
-    {
+    public class TreeNode {
         public int val;
         public TreeNode left;
         public TreeNode right;
 
-        public TreeNode(int x)
-        {
+        public TreeNode (int x) {
             val = x;
         }
     }

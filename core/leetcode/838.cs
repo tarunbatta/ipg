@@ -44,15 +44,14 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution838
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution838 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public string PushDominoes(string dominoes) { }
+        public string PushDominoes (string dominoes) {
+            return null;
+        }
     }
 }

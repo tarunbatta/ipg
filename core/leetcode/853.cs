@@ -45,15 +45,14 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution853
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution853 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int CarFleet(int target, int[] position, int[] speed) { }
+        public int CarFleet (int target, int[] position, int[] speed) {
+            return 0;
+        }
     }
 }

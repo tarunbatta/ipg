@@ -33,16 +33,14 @@ Constraints:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution1131
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution1131 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int MaxAbsValExpr(int[] arr1, int[] arr2) { 
-               return 0;}
+        public int MaxAbsValExpr (int[] arr1, int[] arr2) {
+            return 0;
+        }
     }
 }

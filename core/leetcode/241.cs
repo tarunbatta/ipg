@@ -29,17 +29,13 @@ Explanation:
 using System;
 using System.Collections.Generic;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution241
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution241 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public IList<int> DiffWaysToCompute(string input)
-        {
+        public IList<int> DiffWaysToCompute (string input) {
             return null;
         }
     }

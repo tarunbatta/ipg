@@ -43,15 +43,14 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution753
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution753 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public string CrackSafe(int n, int k) { }
+        public string CrackSafe (int n, int k) {
+            return null;
+        }
     }
 }

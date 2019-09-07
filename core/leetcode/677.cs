@@ -24,7 +24,26 @@ Input: sum(&quot;ap&quot;), Output: 5
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution677
-{
-    public class MapSum {​    /** Initialize your data structure here. */    public MapSum() { } public void Insert(string key, int val) { } public int Sum(string prefix) { } }​/** * Your MapSum object will be instantiated and called as such: * MapSum obj = new MapSum(); * obj.Insert(key,val); * int param_2 = obj.Sum(prefix); *
+namespace InterviewPreperationGuide.Core.LeetCode.Solution677 {
+    public class Solution {
+        public void Init () {
+            MapSum obj = new MapSum ();
+            obj.Insert (null, 0);
+            int param_2 = obj.Sum (null);
+        }
+    }
+
+    public class MapSum {  
+        public MapSum () {
+
+        }
+
+        public void Insert (string key, int val) {
+
+        }
+
+        public int Sum (string prefix) {
+            return 0;
+        }
+    }
 }

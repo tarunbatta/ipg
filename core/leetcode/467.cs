@@ -33,15 +33,14 @@ Explanation: There are six substrings &quot;z&quot;, &quot;a&quot;, &quot;b&quot
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution467
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution467 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int FindSubstringInWraproundString(string p) { }
+        public int FindSubstringInWraproundString (string p) {
+            return 0;
+        }
     }
 }

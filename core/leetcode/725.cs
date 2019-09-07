@@ -50,28 +50,22 @@ k will be an integer in the range [1, 50].
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution725
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution725 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public ListNode[] SplitListToParts(ListNode root, int k)
-        {
+        public ListNode[] SplitListToParts (ListNode root, int k) {
             return null;
         }
     }
 
-    public class ListNode
-    {
+    public class ListNode {
         public int val;
         public ListNode next;
 
-        public ListNode(int x)
-        {
+        public ListNode (int x) {
             val = x;
         }
     }

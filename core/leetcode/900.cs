@@ -46,7 +46,21 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution900
-{
-    public class RLEIterator {​    public RLEIterator(int[] A) { } public int Next(int n) { } }​/** * Your RLEIterator object will be instantiated and called as such: * RLEIterator obj = new RLEIterator(A); * int param_1 = obj.Next(n); *
+namespace InterviewPreperationGuide.Core.LeetCode.Solution900 {
+    public class Solution {
+        public void Init () {
+            RLEIterator obj = new RLEIterator (null);
+            int param_1 = obj.Next (0);
+        }
+    }
+
+    public class RLEIterator {
+        public RLEIterator (int[] A) {
+
+        }
+
+        public int Next (int n) {
+            return 0;
+        }
+    }
 }

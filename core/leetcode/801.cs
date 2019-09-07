@@ -30,15 +30,14 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution801
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution801 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int MinSwap(int[] A, int[] B) { }
+        public int MinSwap (int[] A, int[] B) {
+            return 0;
+        }
     }
 }

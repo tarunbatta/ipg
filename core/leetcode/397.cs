@@ -47,15 +47,14 @@ or
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution397
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution397 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int IntegerReplacement(int n) { }
+        public int IntegerReplacement (int n) {
+            return 0;
+        }
     }
 }

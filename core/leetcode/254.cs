@@ -9,7 +9,6 @@ Medium
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution254
-{
+namespace InterviewPreperationGuide.Core.LeetCode.Solution254 {
     // {{ MISSING CODE }}
 }

@@ -31,16 +31,16 @@ Note:
 */
 
 using System;
+using System.Collections.Generic;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution632
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution632 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int[] SmallestRange(IList<IList<int>> nums) { }
+        public int[] SmallestRange (IList<IList<int>> nums) {
+            return null;
+        }
     }
 }

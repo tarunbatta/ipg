@@ -25,17 +25,13 @@ Could you optimize your algorithm to use only O(k) extra space?
 using System;
 using System.Collections.Generic;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution119
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution119 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public IList<int> GetRow(int rowIndex)
-        {
+        public IList<int> GetRow (int rowIndex) {
             return null;
         }
     }

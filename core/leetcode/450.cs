@@ -46,29 +46,23 @@ Another valid answer is [5,2,6,null,4,null,7].
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution450
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution450 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public TreeNode DeleteNode(TreeNode root, int key)
-        {
+        public TreeNode DeleteNode (TreeNode root, int key) {
             return null;
         }
     }
 
-    public class TreeNode
-    {
+    public class TreeNode {
         public int val;
         public TreeNode left;
         public TreeNode right;
 
-        public TreeNode(int x)
-        {
+        public TreeNode (int x) {
             val = x;
         }
     }

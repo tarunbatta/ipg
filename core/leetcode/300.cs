@@ -24,17 +24,13 @@ Follow up: Could you improve it to O(n log n) time complexity?
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution300
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution300 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int LengthOfLIS(int[] nums)
-        {
+        public int LengthOfLIS (int[] nums) {
             return 0;
         }
     }

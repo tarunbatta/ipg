@@ -27,15 +27,14 @@ Explanation: No such pair of words.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution318
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution318 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int MaxProduct(string[] words) { }
+        public int MaxProduct (string[] words) {
+            return 0;
+        }
     }
 }

@@ -31,15 +31,14 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution858
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution858 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int MirrorReflection(int p, int q) { }
+        public int MirrorReflection (int p, int q) {
+            return 0;
+        }
     }
 }

@@ -20,15 +20,14 @@ Output: &quot;acdb&quot;
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution316
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution316 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public string RemoveDuplicateLetters(string s) { }
+        public string RemoveDuplicateLetters (string s) {
+            return null;
+        }
     }
 }

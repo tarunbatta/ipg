@@ -25,34 +25,28 @@ Recursive solution is trivial, could you do it iteratively?
 using System;
 using System.Collections.Generic;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution590
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution590 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public IList<int> Postorder(Node root)
-        {
+        public IList<int> Postorder (Node root) {
             return null;
         }
     }
 
-    public class Node
-    {
+    public class Node {
         public int val;
-        public IList<Node> children;​    
-        
-        public Node()
-        {
+        public IList<Node> children;
+
+        public Node () {
 
         }
 
-        public Node(int _val, IList<Node> _children)
-        {
-            val = _val; children = _children;
+        public Node (int _val, IList<Node> _children) {
+            val = _val;
+            children = _children;
         }
     }
 }

@@ -31,15 +31,14 @@ Follow up:Could you do it in one-pass, using only O(1) extra memory and without 
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution419
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution419 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int CountBattleships(char[][] board) { }
+        public int CountBattleships (char[][] board) {
+            return 0;
+        }
     }
 }

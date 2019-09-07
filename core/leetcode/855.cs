@@ -38,7 +38,26 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution855
-{
-    public class ExamRoom {​    public ExamRoom(int N) { } public int Seat() { } public void Leave(int p) { } }​/** * Your ExamRoom object will be instantiated and called as such: * ExamRoom obj = new ExamRoom(N); * int param_1 = obj.Seat(); * obj.Leave(p); *
+namespace InterviewPreperationGuide.Core.LeetCode.Solution855 {
+    public class Solution {
+        public void Init () {
+            ExamRoom obj = new ExamRoom (0);
+            int param_1 = obj.Seat ();
+            obj.Leave (0);
+        }
+    }
+
+    public class ExamRoom {
+        public ExamRoom (int N) {
+
+        }
+
+        public int Seat () {
+            return 0;
+        }
+
+        public void Leave (int p) {
+
+        }
+    }
 }

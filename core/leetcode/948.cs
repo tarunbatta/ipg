@@ -53,15 +53,14 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution948
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution948 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int BagOfTokensScore(int[] tokens, int P) { }
+        public int BagOfTokensScore (int[] tokens, int P) {
+            return 0;
+        }
     }
 }

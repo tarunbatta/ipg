@@ -22,15 +22,14 @@ Explanation: transactions = [buy, sell, cooldown, buy, sell]
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution309
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution309 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int MaxProfit(int[] prices) { }
+        public int MaxProfit (int[] prices) {
+            return 0;
+        }
     }
 }

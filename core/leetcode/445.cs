@@ -20,28 +20,22 @@ Output: 7 -&gt; 8 -&gt; 0 -&gt; 7
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution445
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution445 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public ListNode AddTwoNumbers(ListNode l1, ListNode l2)
-        {
+        public ListNode AddTwoNumbers (ListNode l1, ListNode l2) {
             return null;
         }
     }
 
-    public class ListNode
-    {
+    public class ListNode {
         public int val;
         public ListNode next;
 
-        public ListNode(int x)
-        {
+        public ListNode (int x) {
             val = x;
         }
     }

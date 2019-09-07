@@ -45,15 +45,14 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution724
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution724 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int PivotIndex(int[] nums) { }
+        public int PivotIndex (int[] nums) {
+            return 0;
+        }
     }
 }

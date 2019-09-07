@@ -65,17 +65,13 @@ Output: false
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution44
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution44 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public bool IsMatch(string s, string p)
-        {
+        public bool IsMatch (string s, string p) {
             return false;
         }
     }

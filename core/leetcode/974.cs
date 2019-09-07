@@ -29,16 +29,13 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution974
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution974 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int SubarraysDivByK(int[] A, int K) { 
+        public int SubarraysDivByK (int[] A, int K) {
             return 0;
         }
     }

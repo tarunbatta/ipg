@@ -25,15 +25,14 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution792
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution792 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int NumMatchingSubseq(string S, string[] words) { }
+        public int NumMatchingSubseq (string S, string[] words) {
+            return 0;
+        }
     }
 }

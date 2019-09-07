@@ -64,17 +64,13 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution921
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution921 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int MinAddToMakeValid(string S)
-        {
+        public int MinAddToMakeValid (string S) {
             return 0;
         }
     }

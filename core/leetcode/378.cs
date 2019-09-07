@@ -28,15 +28,14 @@ You may assume k is always valid, 1 &#x2264; k &#x2264; n2.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution378
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution378 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int KthSmallest(int[][] matrix, int k) { }
+        public int KthSmallest (int[][] matrix, int k) {
+            return 0;
+        }
     }
 }

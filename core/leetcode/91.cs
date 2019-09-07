@@ -30,17 +30,13 @@ Explanation:&#xA0;It could be decoded as &quot;BZ&quot; (2 26), &quot;VF&quot; (
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution91
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution91 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int NumDecodings(string s)
-        {
+        public int NumDecodings (string s) {
             return 0;
         }
     }

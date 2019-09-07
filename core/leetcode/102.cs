@@ -28,29 +28,23 @@ return its level order traversal as:
 using System;
 using System.Collections.Generic;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution102
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution102 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public IList<IList<int>> LevelOrder(TreeNode root)
-        {
+        public IList<IList<int>> LevelOrder (TreeNode root) {
             return null;
         }
     }
 
-    public class TreeNode
-    {
+    public class TreeNode {
         public int val;
         public TreeNode left;
         public TreeNode right;
 
-        public TreeNode(int x)
-        {
+        public TreeNode (int x) {
             val = x;
         }
     }

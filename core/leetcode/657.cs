@@ -28,15 +28,14 @@ Explanation: The robot moves left twice. It ends up two &quot;moves&quot; to the
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution657
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution657 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public bool JudgeCircle(string moves) { }
+        public bool JudgeCircle (string moves) {
+            return false;
+        }
     }
 }

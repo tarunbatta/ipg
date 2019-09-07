@@ -41,15 +41,14 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution747
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution747 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int DominantIndex(int[] nums) { }
+        public int DominantIndex (int[] nums) {
+            return 0;
+        }
     }
 }

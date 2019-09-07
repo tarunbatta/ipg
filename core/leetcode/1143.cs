@@ -45,16 +45,14 @@ Constraints:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution1143
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution1143 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int LongestCommonSubsequence(string text1, string text2) {
-               return 0; }
+        public int LongestCommonSubsequence (string text1, string text2) {
+            return 0;
+        }
     }
 }

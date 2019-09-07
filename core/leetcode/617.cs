@@ -33,29 +33,23 @@ Note: The merging process must start from the root nodes of both trees.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution617
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution617 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public TreeNode MergeTrees(TreeNode t1, TreeNode t2)
-        {
+        public TreeNode MergeTrees (TreeNode t1, TreeNode t2) {
             return null;
         }
     }
 
-    public class TreeNode
-    {
+    public class TreeNode {
         public int val;
         public TreeNode left;
         public TreeNode right;
 
-        public TreeNode(int x)
-        {
+        public TreeNode (int x) {
             val = x;
         }
     }

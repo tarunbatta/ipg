@@ -31,15 +31,14 @@ Output: &quot;lovely&quot;
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution709
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution709 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public string ToLowerCase(string str) { }
+        public string ToLowerCase (string str) {
+            return null;
+        }
     }
 }

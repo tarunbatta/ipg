@@ -29,59 +29,48 @@ Could you do it in-place with O(1) extra space?
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution189
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Rotate_a(null, 0);
-            Rotate_a(new int[] { 1, 2, 3, 4, 5, 6, 7 }, 3);
-            Rotate_a(new int[] { -1, -100, 3, 99 }, 2);
+namespace InterviewPreperationGuide.Core.LeetCode.Solution189 {
+    public class Solution {
+        public void Init () {
+            Rotate_a (null, 0);
+            Rotate_a (new int[] { 1, 2, 3, 4, 5, 6, 7 }, 3);
+            Rotate_a (new int[] {-1, -100, 3, 99 }, 2);
 
-            Rotate_b(null, 0);
-            Rotate_b(new int[] { 1, 2, 3, 4, 5, 6, 7 }, 3);
-            Rotate_b(new int[] { -1, -100, 3, 99 }, 2);
+            Rotate_b (null, 0);
+            Rotate_b (new int[] { 1, 2, 3, 4, 5, 6, 7 }, 3);
+            Rotate_b (new int[] {-1, -100, 3, 99 }, 2);
         }
 
-        public void Rotate_a(int[] nums, int k)
-        {
-            if (nums == null || nums.Length == 0 || k <= 0 || k == nums.Length)
-            {
+        public void Rotate_a (int[] nums, int k) {
+            if (nums == null || nums.Length == 0 || k <= 0 || k == nums.Length) {
                 return;
             }
 
             int[] a = new int[nums.Length];
 
-            for (int i = 0; i < nums.Length; i++)
-            {
+            for (int i = 0; i < nums.Length; i++) {
                 a[(i + k) % nums.Length] = nums[i];
             }
 
-            for (int i = 0; i < nums.Length; i++)
-            {
+            for (int i = 0; i < nums.Length; i++) {
                 nums[i] = a[i];
             }
         }
 
-        public void Rotate_b(int[] nums, int k)
-        {
-            if (nums == null || nums.Length == 0 || k <= 0 || k == nums.Length)
-            {
+        public void Rotate_b (int[] nums, int k) {
+            if (nums == null || nums.Length == 0 || k <= 0 || k == nums.Length) {
                 return;
             }
 
             k = k % nums.Length;
 
-            Reverse(nums, 0, nums.Length - 1);
-            Reverse(nums, 0, k - 1);
-            Reverse(nums, k, nums.Length - 1);
+            Reverse (nums, 0, nums.Length - 1);
+            Reverse (nums, 0, k - 1);
+            Reverse (nums, k, nums.Length - 1);
         }
 
-        private void Reverse(int[] nums, int start, int end)
-        {
-            while (start < end)
-            {
+        private void Reverse (int[] nums, int start, int end) {
+            while (start < end) {
                 int temp = nums[start];
                 nums[start] = nums[end];
                 nums[end] = temp;

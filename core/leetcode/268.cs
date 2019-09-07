@@ -24,17 +24,13 @@ Your algorithm should run in linear runtime complexity. Could you implement it u
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution268
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution268 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int MissingNumber(int[] nums)
-        {
+        public int MissingNumber (int[] nums) {
             return 0;
         }
     }

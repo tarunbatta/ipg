@@ -54,15 +54,14 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution1041
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution1041 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public bool IsRobotBounded(string instructions) { }
+        public bool IsRobotBounded (string instructions) {
+            return false;
+        }
     }
 }

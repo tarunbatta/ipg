@@ -31,17 +31,13 @@ Surrounded regions shouldn&#x2019;t be on the border, which means that any &apos
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution130
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution130 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public void Solve(char[][] board)
-        {
+        public void Solve (char[][] board) {
 
         }
     }

@@ -61,15 +61,14 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution896
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution896 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public bool IsMonotonic(int[] A) { }
+        public bool IsMonotonic (int[] A) {
+            return false;
+        }
     }
 }

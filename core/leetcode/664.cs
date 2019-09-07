@@ -36,15 +36,14 @@ Hint: Length of the given string will not exceed 100.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution664
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution664 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int StrangePrinter(string s) { }
+        public int StrangePrinter (string s) {
+            return 0;
+        }
     }
 }

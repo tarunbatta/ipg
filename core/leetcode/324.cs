@@ -25,15 +25,12 @@ Can you do it in O(n) time and/or in-place with O(1) extra space?
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution324
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution324 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public void WiggleSort(int[] nums) { }
+        public void WiggleSort (int[] nums) { }
     }
 }

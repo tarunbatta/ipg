@@ -57,15 +57,14 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution909
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution909 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int SnakesAndLadders(int[][] board) { }
+        public int SnakesAndLadders (int[][] board) {
+            return 0;
+        }
     }
 }

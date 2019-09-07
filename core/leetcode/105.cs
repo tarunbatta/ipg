@@ -25,29 +25,23 @@ Return the following binary tree:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution105
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution105 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public TreeNode BuildTree(int[] preorder, int[] inorder)
-        {
+        public TreeNode BuildTree (int[] preorder, int[] inorder) {
             return null;
         }
     }
 
-    public class TreeNode
-    {
+    public class TreeNode {
         public int val;
         public TreeNode left;
         public TreeNode right;
 
-        public TreeNode(int x)
-        {
+        public TreeNode (int x) {
             val = x;
         }
     }

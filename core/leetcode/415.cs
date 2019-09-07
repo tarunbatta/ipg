@@ -16,17 +16,13 @@ You must not use any built-in BigInteger library or convert the inputs to intege
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution415
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution415 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public string AddStrings(string num1, string num2)
-        {
+        public string AddStrings (string num1, string num2) {
             return null;
         }
     }

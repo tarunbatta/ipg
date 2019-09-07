@@ -16,15 +16,14 @@ Each temperature will be an integer in the range [30, 100].
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution739
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution739 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int[] DailyTemperatures(int[] T) { }
+        public int[] DailyTemperatures (int[] T) {
+            return null;
+        }
     }
 }

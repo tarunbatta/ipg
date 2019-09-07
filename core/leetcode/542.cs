@@ -48,15 +48,14 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution542
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution542 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int[][] UpdateMatrix(int[][] matrix) { }
+        public int[][] UpdateMatrix (int[][] matrix) {
+            return null;
+        }
     }
 }

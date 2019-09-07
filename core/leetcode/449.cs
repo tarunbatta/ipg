@@ -15,39 +15,31 @@ Note: Do not use class member/global/static variables to store states. Your seri
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution449
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Codec codec = new Codec();
-            codec.deserialize(codec.serialize(null));
+namespace InterviewPreperationGuide.Core.LeetCode.Solution449 {
+    public class Solution {
+        public void Init () {
+            Codec codec = new Codec ();
+            codec.deserialize (codec.serialize (null));
         }
     }
-    public class Codec
-    {​    
+    public class Codec {
         // Encodes a tree to a single string.    
-        public string serialize(TreeNode root)
-        {
-            return null;
-        }​    
-     
-        // Decodes your encoded data to tree.    
-        public TreeNode deserialize(string data)
-        {
+        public string serialize (TreeNode root) {
             return null;
         }
-    }​
 
-    public class TreeNode
-    {
+        // Decodes your encoded data to tree.    
+        public TreeNode deserialize (string data) {
+            return null;
+        }
+    }
+
+    public class TreeNode {
         public int val;
         public TreeNode left;
         public TreeNode right;
 
-        public TreeNode(int x)
-        {
+        public TreeNode (int x) {
             val = x;
         }
     }

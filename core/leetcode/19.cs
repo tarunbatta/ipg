@@ -24,28 +24,22 @@ Could you do this in one pass?
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution19
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution19 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public ListNode RemoveNthFromEnd(ListNode head, int n)
-        {
+        public ListNode RemoveNthFromEnd (ListNode head, int n) {
             return null;
         }
     }
 
-    public class ListNode
-    {
+    public class ListNode {
         public int val;
         public ListNode next;
 
-        public ListNode(int x)
-        {
+        public ListNode (int x) {
             val = x;
         }
     }

@@ -23,17 +23,13 @@ Output:
 using System;
 using System.Collections.Generic;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution77
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution77 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public IList<IList<int>> Combine(int n, int k)
-        {
+        public IList<IList<int>> Combine (int n, int k) {
             return null;
         }
     }

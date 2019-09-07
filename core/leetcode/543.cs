@@ -27,29 +27,23 @@ The length of path between two nodes is represented by the number of edges betwe
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution543
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution543 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int DiameterOfBinaryTree(TreeNode root)
-        {
+        public int DiameterOfBinaryTree (TreeNode root) {
             return 0;
         }
     }
 
-    public class TreeNode
-    {
+    public class TreeNode {
         public int val;
         public TreeNode left;
         public TreeNode right;
 
-        public TreeNode(int x)
-        {
+        public TreeNode (int x) {
             val = x;
         }
     }

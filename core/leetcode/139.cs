@@ -35,18 +35,15 @@ Output: false
 */
 
 using System;
+using System.Collections.Generic;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution139
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution139 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public bool WordBreak(string s, IList<string> wordDict)
-        {
+        public bool WordBreak (string s, IList<string> wordDict) {
             return false;
         }
     }

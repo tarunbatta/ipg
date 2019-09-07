@@ -39,15 +39,14 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution877
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution877 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public bool StoneGame(int[] piles) { }
+        public bool StoneGame (int[] piles) {
+            return false;
+        }
     }
 }

@@ -47,15 +47,14 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution526
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution526 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int CountArrangement(int N) { }
+        public int CountArrangement (int N) {
+            return 0;
+        }
     }
 }

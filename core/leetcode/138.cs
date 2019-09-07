@@ -32,34 +32,28 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution138
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution138 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public Node CopyRandomList(Node head)
-        {
+        public Node CopyRandomList (Node head) {
             return null;
         }
     }
 
-    public class Node
-    {
+    public class Node {
         public int val;
         public Node next;
-        public Node random;​   
-         
-          public Node()
-        {
+        public Node random;
+
+         
+        public Node () {
 
         }
 
-        public Node(int _val, Node _next, Node _random)
-        {
+        public Node (int _val, Node _next, Node _random) {
             val = _val;
             next = _next;
             random = _random;

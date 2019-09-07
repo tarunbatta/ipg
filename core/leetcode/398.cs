@@ -23,16 +23,19 @@ solution.pick(1);
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution398
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution398 {
+    public class Solution {
+        public void Init () {
+            Solution obj = new Solution (null);
+            int param_1 = obj.Pick (0);
+        }
+
+        public Solution (int[] nums) {
 
         }
 
-​    public Solution(int[] nums) { }
-        public int Pick(int target) { }
-    }​/** * Your Solution object will be instantiated and called as such: * Solution obj = new Solution(nums); * int param_1 = obj.Pick(target); *
+        public int Pick (int target) {
+            return 0;
+        }
+    }
 }

@@ -22,17 +22,13 @@ Explanation: Because the path 1&#x2192;3&#x2192;1&#x2192;1&#x2192;1 minimizes th
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution64
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution64 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int MinPathSum(int[][] grid)
-        {
+        public int MinPathSum (int[][] grid) {
             return 0;
         }
     }

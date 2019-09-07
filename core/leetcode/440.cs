@@ -22,35 +22,26 @@ The lexicographical order is [1, 10, 11, 12, 13, 2, 3, 4, 5, 6, 7, 8, 9], so the
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution440
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine(FindKthNumber(13, 2));
+namespace InterviewPreperationGuide.Core.LeetCode.Solution440 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine (FindKthNumber (13, 2));
         }
 
-        public int FindKthNumber(int n, int k)
-        {
-            if (n == 0 || k == 0 || k > n)
-            {
+        public int FindKthNumber (int n, int k) {
+            if (n == 0 || k == 0 || k > n) {
                 return 0;
             }
 
             int result = 1;
             k = k - 1;
 
-            while (k > 0)
-            {
-                int steps = CallSteps(n, result, result + 1);
-                if (steps <= k)
-                {
+            while (k > 0) {
+                int steps = CallSteps (n, result, result + 1);
+                if (steps <= k) {
                     result += 1;
                     k -= steps;
-                }
-                else
-                {
+                } else {
                     result *= 10;
                     k -= 1;
                 }
@@ -59,13 +50,11 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution440
             return result;
         }
 
-        public int CallSteps(int n, int n1, int n2)
-        {
+        public int CallSteps (int n, int n1, int n2) {
             int result = 0;
 
-            while (n1 <= n)
-            {
-                result += Math.Min(n + 1, n2) - n1;
+            while (n1 <= n) {
+                result += Math.Min (n + 1, n2) - n1;
                 n1 *= 10;
                 n2 *= 10;
             }

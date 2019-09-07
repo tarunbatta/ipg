@@ -36,45 +36,36 @@ date represents a calendar date between Jan 1st, 1900 and Dec 31, 2019.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution1154
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine(DayOfYear(null));
-            Console.WriteLine(DayOfYear("2019-01-09"));
-            Console.WriteLine(DayOfYear("2003-03-01"));
-            Console.WriteLine(DayOfYear("2004-03-01"));
+namespace InterviewPreperationGuide.Core.LeetCode.Solution1154 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine (DayOfYear (null));
+            Console.WriteLine (DayOfYear ("2019-01-09"));
+            Console.WriteLine (DayOfYear ("2003-03-01"));
+            Console.WriteLine (DayOfYear ("2004-03-01"));
         }
 
-        public int DayOfYear(string date)
-        {
+        public int DayOfYear (string date) {
             int result = 0;
 
-            if (string.IsNullOrEmpty(date))
-            {
+            if (string.IsNullOrEmpty (date)) {
                 return result;
 
             }
 
-            string[] strs = date.Split("-");
-            int year = Convert.ToInt32(strs[0]);
-            int month = Convert.ToInt32(strs[1]);
-            int day = Convert.ToInt32(strs[2]);
-            bool isLeapYear = IsLeapYear(year);
+            string[] strs = date.Split ("-");
+            int year = Convert.ToInt32 (strs[0]);
+            int month = Convert.ToInt32 (strs[1]);
+            int day = Convert.ToInt32 (strs[2]);
+            bool isLeapYear = IsLeapYear (year);
             int[] daysInMonth = new int[] { 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31 };
 
             result += day;
 
-            for (int i = 0; i < month - 1; i++)
-            {
-                if (isLeapYear && i == 1)
-                {
+            for (int i = 0; i < month - 1; i++) {
+                if (isLeapYear && i == 1) {
                     result += daysInMonth[i] + 1;
-                }
-                else
-                {
+                } else {
                     result += daysInMonth[i];
                 }
             }
@@ -82,8 +73,7 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution1154
             return result;
         }
 
-        public bool IsLeapYear(int year)
-        {
+        public bool IsLeapYear (int year) {
             bool result = false;
 
             if (year % 400 == 0)

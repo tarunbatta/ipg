@@ -22,15 +22,14 @@ canConstruct(&quot;aa&quot;, &quot;aab&quot;) -&gt; true
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution383
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution383 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public bool CanConstruct(string ransomNote, string magazine) { }
+        public bool CanConstruct (string ransomNote, string magazine) {
+            return false;
+        }
     }
 }

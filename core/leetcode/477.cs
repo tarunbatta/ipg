@@ -28,15 +28,14 @@ Length of the array will not exceed 10^4.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution477
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution477 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int TotalHammingDistance(int[] nums) { }
+        public int TotalHammingDistance (int[] nums) {
+            return 0;
+        }
     }
 }

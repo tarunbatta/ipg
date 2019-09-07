@@ -32,15 +32,14 @@ The input strings will be given in the form of a+bi, where the integer a and b w
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution537
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution537 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public string ComplexNumberMultiply(string a, string b) { }
+        public string ComplexNumberMultiply (string a, string b) {
+            return null;
+        }
     }
 }

@@ -44,15 +44,14 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution509
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution509 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int Fib(int N) { }
+        public int Fib (int N) {
+            return 0;
+        }
     }
 }

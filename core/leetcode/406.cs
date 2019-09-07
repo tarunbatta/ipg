@@ -24,15 +24,14 @@ Output:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution406
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution406 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int[][] ReconstructQueue(int[][] people) { }
+        public int[][] ReconstructQueue (int[][] people) {
+            return null;
+        }
     }
 }

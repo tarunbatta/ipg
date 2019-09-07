@@ -49,15 +49,14 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution995
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution995 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int MinKBitFlips(int[] A, int K) { }
+        public int MinKBitFlips (int[] A, int K) {
+            return 0;
+        }
     }
 }

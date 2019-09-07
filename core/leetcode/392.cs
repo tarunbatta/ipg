@@ -37,15 +37,14 @@ Credits:Special thanks to @pbrother for adding this problem and creating all tes
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution392
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution392 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public bool IsSubsequence(string s, string t) { }
+        public bool IsSubsequence (string s, string t) {
+            return false;
+        }
     }
 }

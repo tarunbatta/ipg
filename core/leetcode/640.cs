@@ -48,15 +48,14 @@ Output: &quot;No solution&quot;
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution640
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution640 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public string SolveEquation(string equation) { }
+        public string SolveEquation (string equation) {
+            return null;
+        }
     }
 }

@@ -29,15 +29,14 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution1051
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution1051 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int HeightChecker(int[] heights) { }
+        public int HeightChecker (int[] heights) {
+            return 0;
+        }
     }
 }

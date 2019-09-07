@@ -35,7 +35,21 @@ You may assume that row1 &#x2264; row2 and col1 &#x2264; col2.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution304
-{
-    public class NumMatrix {​    public NumMatrix(int[][] matrix) { } public int SumRegion(int row1, int col1, int row2, int col2) { } }​/** * Your NumMatrix object will be instantiated and called as such: * NumMatrix obj = new NumMatrix(matrix); * int param_1 = obj.SumRegion(row1,col1,row2,col2); *
+namespace InterviewPreperationGuide.Core.LeetCode.Solution304 {
+    public class Solution {
+        public void Init () {
+            NumMatrix obj = new NumMatrix (null);
+            int param_1 = obj.SumRegion (0, 0, 0, 0);
+        }
+    }
+
+    public class NumMatrix {
+        public NumMatrix (int[][] matrix) {
+
+        }
+
+        public int SumRegion (int row1, int col1, int row2, int col2) {
+            return 0;
+        }
+    }
 }

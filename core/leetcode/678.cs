@@ -39,15 +39,14 @@ The string size will be in the range [1, 100].
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution678
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution678 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public bool CheckValidString(string s) { }
+        public bool CheckValidString (string s) {
+            return false;
+        }
     }
 }

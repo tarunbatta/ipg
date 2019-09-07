@@ -44,7 +44,21 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution1032
-{
-    public class StreamChecker {​    public StreamChecker(string[] words) { } public bool Query(char letter) { } }​/** * Your StreamChecker object will be instantiated and called as such: * StreamChecker obj = new StreamChecker(words); * bool param_1 = obj.Query(letter); *
+namespace InterviewPreperationGuide.Core.LeetCode.Solution1032 {
+    public class Solution {
+        public void Init () {
+            StreamChecker obj = new StreamChecker (null);
+            bool param_1 = obj.Query (' ');
+        }
+    }
+
+    public class StreamChecker { 
+        public StreamChecker (string[] words) {
+
+        }
+
+        public bool Query (char letter) {
+            return false;
+        }
+    }
 }

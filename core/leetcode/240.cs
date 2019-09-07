@@ -31,17 +31,13 @@ Given&#xA0;target&#xA0;=&#xA0;20, return&#xA0;false.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution240
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution240 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public bool SearchMatrix(int[,] matrix, int target)
-        {
+        public bool SearchMatrix (int[, ] matrix, int target) {
             return false;
         }
     }

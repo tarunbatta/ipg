@@ -73,15 +73,14 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution868
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution868 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int BinaryGap(int N) { }
+        public int BinaryGap (int N) {
+            return 0;
+        }
     }
 }

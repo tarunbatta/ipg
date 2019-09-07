@@ -29,15 +29,14 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution905
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution905 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int[] SortArrayByParity(int[] A) { }
+        public int[] SortArrayByParity (int[] A) {
+            return null;
+        }
     }
 }

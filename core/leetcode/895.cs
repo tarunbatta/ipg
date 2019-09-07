@@ -59,26 +59,26 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution895
-{
-    public class FreqStack
-    {​  
-	  public FreqStack()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution895 {
+    public class Solution {
+        public void Init () {
+            FreqStack obj = new FreqStack ();
+            obj.Push (0);
+            int param_2 = obj.Pop ();
+        }
+    }
+
+    public class FreqStack {
+        public FreqStack () {
 
         }
 
-        public void Push(int x)
-        {
+        public void Push (int x) {
 
         }
 
-        public int Pop()
-        {
+        public int Pop () {
             return 0;
         }
-    }​
-/** * Your FreqStack object will be instantiated and called as such: * FreqStack obj = new FreqStack(); * obj.Push(x); * int param_2 = obj.Pop(); *
+    }
 }
-*/
-	}

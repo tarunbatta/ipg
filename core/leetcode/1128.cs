@@ -23,16 +23,14 @@ Constraints:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution1128
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution1128 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int NumEquivDominoPairs(int[][] dominoes) {
-               return 0; }
+        public int NumEquivDominoPairs (int[][] dominoes) {
+            return 0;
+        }
     }
 }

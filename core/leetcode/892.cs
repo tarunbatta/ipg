@@ -67,15 +67,14 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution892
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution892 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int SurfaceArea(int[][] grid) { }
+        public int SurfaceArea (int[][] grid) {
+            return 0;
+        }
     }
 }

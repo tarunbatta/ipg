@@ -15,17 +15,13 @@ The sum that is closest to the target is 2. (-1 + 2 + 1 = 2).
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution16
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution16 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int ThreeSumClosest(int[] nums, int target)
-        {
+        public int ThreeSumClosest (int[] nums, int target) {
             return 0;
         }
     }

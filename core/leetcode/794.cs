@@ -47,15 +47,14 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution794
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution794 {
+	public class Solution {
+		public void Init () {
 
-        }
+		}
 
-        public bool ValidTicTacToe(string[] board) { }
-    }
+		public bool ValidTicTacToe (string[] board) {
+			return false;
+		}
+	}
 }

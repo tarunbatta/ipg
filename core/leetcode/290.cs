@@ -34,17 +34,13 @@ You may assume pattern contains only lowercase letters, and str contains lowerca
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution290
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution290 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public bool WordPattern(string pattern, string str)
-        {
+        public bool WordPattern (string pattern, string str) {
             return false;
         }
     }

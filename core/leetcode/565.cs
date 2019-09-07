@@ -33,15 +33,14 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution565
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution565 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int ArrayNesting(int[] nums) { }
+        public int ArrayNesting (int[] nums) {
+            return 0;
+        }
     }
 }

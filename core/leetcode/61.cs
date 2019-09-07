@@ -28,28 +28,22 @@ rotate 4 steps to the right:&#xA0;2-&gt;0-&gt;1-&gt;NULL
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution61
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution61 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public ListNode RotateRight(ListNode head, int k)
-        {
+        public ListNode RotateRight (ListNode head, int k) {
             return null;
         }
     }
 
-    public class ListNode
-    {
+    public class ListNode {
         public int val;
         public ListNode next;
 
-        public ListNode(int x)
-        {
+        public ListNode (int x) {
             val = x;
         }
     }

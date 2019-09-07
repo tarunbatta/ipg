@@ -25,15 +25,14 @@ Note: You may assume that n is not less than 2 and not larger than 58.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution343
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution343 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int IntegerBreak(int n) { }
+        public int IntegerBreak (int n) {
+            return 0;
+        }
     }
 }

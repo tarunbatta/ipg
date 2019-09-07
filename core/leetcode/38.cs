@@ -33,17 +33,13 @@ Output: "1211"
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution38
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution38 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public string CountAndSay(int n)
-        {
+        public string CountAndSay (int n) {
             return null;
         }
     }

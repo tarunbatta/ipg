@@ -47,15 +47,14 @@ Notice that a/aa/aaa/file1.txt is not the longest file path, if there is another
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution388
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution388 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int LengthLongestPath(string input) { }
+        public int LengthLongestPath (string input) {
+            return 0;
+        }
     }
 }

@@ -32,27 +32,20 @@ cache.get(4);       // returns 4
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution460
-{
-    public class LFUCache
-    {​    
-        public LFUCache(int capacity)
-        {
-
+namespace InterviewPreperationGuide.Core.LeetCode.Solution460 {
+    public class LFUCache {
+        public LFUCache (int capacity) {
+            LFUCache obj = new LFUCache (capacity);
+            int param_1 = obj.Get (0);
+            obj.Put (0, 0);
         }
 
-        public int Get(int key)
-        {
-
+        public int Get (int key) {
+            return 0;
         }
 
-        public void Put(int key, int value)
-        {
+        public void Put (int key, int value) {
 
         }
-    }​
+    }
 }
-
-/** * Your LFUCache object will be instantiated and called as such: * LFUCache obj = new LFUCache(capacity); * int param_1 = obj.Get(key); * obj.Put(key,value); *
-}
-*/

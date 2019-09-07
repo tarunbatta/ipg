@@ -40,15 +40,14 @@ Notes:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution809
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution809 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int ExpressiveWords(string S, string[] words) { }
+        public int ExpressiveWords (string S, string[] words) {
+            return 0;
+        }
     }
 }

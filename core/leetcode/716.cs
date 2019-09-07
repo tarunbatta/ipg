@@ -9,7 +9,6 @@ Easy
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution716
-{
+namespace InterviewPreperationGuide.Core.LeetCode.Solution716 {
     // {{ MISSING CODE }}
 }

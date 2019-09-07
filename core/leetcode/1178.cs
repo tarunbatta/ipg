@@ -42,18 +42,14 @@ Constraints:
 using System;
 using System.Collections.Generic;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution1178
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution1178 {
+	public class Solution {
+		public void Init () {
 
-        }
+		}
 
-        public IList<int> FindNumOfValidWords(string[] words, string[] puzzles)
-        {
-            return null;
-        }
-    }
+		public IList<int> FindNumOfValidWords (string[] words, string[] puzzles) {
+			return null;
+		}
+	}
 }

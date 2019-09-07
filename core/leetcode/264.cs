@@ -23,17 +23,13 @@ Note: &#xA0;
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution264
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution264 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int NthUglyNumber(int n)
-        {
+        public int NthUglyNumber (int n) {
             return 0;
         }
     }

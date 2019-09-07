@@ -32,15 +32,14 @@ Output: False
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution551
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution551 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public bool CheckRecord(string s) { }
+        public bool CheckRecord (string s) {
+            return false;
+        }
     }
 }

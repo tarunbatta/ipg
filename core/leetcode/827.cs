@@ -41,15 +41,14 @@ Notes:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution827
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution827 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int LargestIsland(int[][] grid) { }
+        public int LargestIsland (int[][] grid) {
+            return 0;
+        }
     }
 }

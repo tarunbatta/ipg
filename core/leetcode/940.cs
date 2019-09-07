@@ -55,15 +55,14 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution940
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution940 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int DistinctSubseqII(string S) { }
+        public int DistinctSubseqII (string S) {
+            return 0;
+        }
     }
 }

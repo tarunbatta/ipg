@@ -55,15 +55,14 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution994
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution994 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int OrangesRotting(int[][] grid) { }
+        public int OrangesRotting (int[][] grid) {
+            return 0;
+        }
     }
 }

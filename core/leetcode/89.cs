@@ -39,17 +39,13 @@ Explanation: We define the gray code sequence to begin with 0.
 using System;
 using System.Collections.Generic;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution89
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution89 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public IList<int> GrayCode(int n)
-        {
+        public IList<int> GrayCode (int n) {
             return null;
         }
     }

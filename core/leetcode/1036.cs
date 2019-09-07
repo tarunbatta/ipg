@@ -43,15 +43,14 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution1036
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution1036 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public bool IsEscapePossible(int[][] blocked, int[] source, int[] target) { }
+        public bool IsEscapePossible (int[][] blocked, int[] source, int[] target) {
+            return false;
+        }
     }
 }

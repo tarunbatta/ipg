@@ -36,15 +36,14 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution790
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution790 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int NumTilings(int N) { }
+        public int NumTilings (int N) {
+            return 0;
+        }
     }
 }

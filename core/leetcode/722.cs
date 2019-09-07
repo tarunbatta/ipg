@@ -69,17 +69,13 @@ There are no single-quote, double-quote, or control characters in the source cod
 using System;
 using System.Collections.Generic;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution722
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution722 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public IList<string> RemoveComments(string[] source)
-        {
+        public IList<string> RemoveComments (string[] source) {
             return null;
         }
     }

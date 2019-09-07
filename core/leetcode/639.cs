@@ -47,15 +47,14 @@ The input string will only contain the character &apos;*&apos; and digits &apos;
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution639
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution639 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int NumDecodings(string s) { }
+        public int NumDecodings (string s) {
+            return 0;
+        }
     }
 }

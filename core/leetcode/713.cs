@@ -23,15 +23,14 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution713
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution713 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int NumSubarrayProductLessThanK(int[] nums, int k) { }
+        public int NumSubarrayProductLessThanK (int[] nums, int k) {
+            return 0;
+        }
     }
 }

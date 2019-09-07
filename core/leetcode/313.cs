@@ -26,15 +26,14 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution313
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution313 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int NthSuperUglyNumber(int n, int[] primes) { }
+        public int NthSuperUglyNumber (int n, int[] primes) {
+            return 0;
+        }
     }
 }

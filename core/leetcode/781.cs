@@ -34,15 +34,14 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution781
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution781 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int NumRabbits(int[] answers) { }
+        public int NumRabbits (int[] answers) {
+            return 0;
+        }
     }
 }

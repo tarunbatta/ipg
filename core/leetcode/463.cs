@@ -27,15 +27,14 @@ Explanation: The perimeter is the 16 yellow stripes in the image below:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution463
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution463 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int IslandPerimeter(int[][] grid) { }
+        public int IslandPerimeter (int[][] grid) {
+            return 0;
+        }
     }
 }

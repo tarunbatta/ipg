@@ -62,15 +62,14 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution918
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution918 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int MaxSubarraySumCircular(int[] A) { }
+        public int MaxSubarraySumCircular (int[] A) {
+            return 0;
+        }
     }
 }

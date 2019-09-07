@@ -48,15 +48,14 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution1027
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution1027 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int LongestArithSeqLength(int[] A) { }
+        public int LongestArithSeqLength (int[] A) {
+            return 0;
+        }
     }
 }

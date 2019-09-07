@@ -69,15 +69,14 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution443
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution443 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int Compress(char[] chars) { }
+        public int Compress (char[] chars) {
+            return 0;
+        }
     }
 }

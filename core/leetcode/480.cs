@@ -32,15 +32,14 @@ You may assume k is always valid, ie: k is always smaller than input array&apos;
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution480
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution480 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public double[] MedianSlidingWindow(int[] nums, int k) { }
+        public double[] MedianSlidingWindow (int[] nums, int k) {
+            return null;
+        }
     }
 }

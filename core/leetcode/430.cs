@@ -38,35 +38,27 @@ We should return the following flattened doubly linked list:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution430
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution430 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public Node Flatten(Node head)
-        {
+        public Node Flatten (Node head) {
             return null;
         }
     }
 
-    public class Node
-    {
+    public class Node {
         public int val;
         public Node prev;
         public Node next;
-        public Node child;​  
-        
-          public Node()
-        {
+        public Node child; 
+        public Node () {
 
         }
 
-        public Node(int _val, Node _prev, Node _next, Node _child)
-        {
+        public Node (int _val, Node _prev, Node _next, Node _child) {
             val = _val;
             prev = _prev;
             next = _next;

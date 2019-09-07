@@ -21,23 +21,18 @@ Output: 4
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution136
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine(SingleNumber(null));
-            Console.WriteLine(SingleNumber(new int[] { 2, 2, 1 }));
-            Console.WriteLine(SingleNumber(new int[] { 4, 1, 2, 1, 2 }));
+namespace InterviewPreperationGuide.Core.LeetCode.Solution136 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine (SingleNumber (null));
+            Console.WriteLine (SingleNumber (new int[] { 2, 2, 1 }));
+            Console.WriteLine (SingleNumber (new int[] { 4, 1, 2, 1, 2 }));
         }
 
-        public int SingleNumber(int[] nums)
-        {
+        public int SingleNumber (int[] nums) {
             int result = 0;
 
-            for (int i = 0; i < nums.Length; i++)
-            {
+            for (int i = 0; i < nums.Length; i++) {
                 result ^= nums[i];
             }
 

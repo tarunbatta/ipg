@@ -23,17 +23,13 @@ Note: Your solution should be in logarithmic time complexity.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution172
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution172 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int TrailingZeroes(int n)
-        {
+        public int TrailingZeroes (int n) {
             return 0;
         }
     }

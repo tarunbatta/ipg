@@ -35,17 +35,13 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution207
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution207 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public bool CanFinish(int numCourses, int[][] prerequisites)
-        {
+        public bool CanFinish (int numCourses, int[][] prerequisites) {
             return false;
         }
     }

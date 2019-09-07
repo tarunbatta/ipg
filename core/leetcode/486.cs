@@ -31,15 +31,14 @@ If the scores of both players are equal, then player 1 is still the winner.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution486
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution486 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public bool PredictTheWinner(int[] nums) { }
+        public bool PredictTheWinner (int[] nums) {
+            return false;
+        }
     }
 }

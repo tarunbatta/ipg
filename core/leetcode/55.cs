@@ -27,17 +27,13 @@ Explanation: You will always arrive at index 3 no matter what. Its maximum
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution55
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution55 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public bool CanJump(int[] nums)
-        {
+        public bool CanJump (int[] nums) {
             return false;
         }
     }

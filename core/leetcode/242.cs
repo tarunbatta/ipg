@@ -23,17 +23,13 @@ What if the inputs contain unicode characters? How would you adapt your solution
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution242
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution242 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public bool IsAnagram(string s, string t)
-        {
+        public bool IsAnagram (string s, string t) {
             return false;
         }
     }

@@ -42,15 +42,14 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution864
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution864 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int ShortestPathAllKeys(string[] grid) { }
+        public int ShortestPathAllKeys (string[] grid) {
+            return 0;
+        }
     }
 }

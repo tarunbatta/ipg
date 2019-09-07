@@ -36,16 +36,14 @@ Constraints:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution1137
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution1137 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int Tribonacci(int n) {
-               return 0; }
+        public int Tribonacci (int n) {
+            return 0;
+        }
     }
 }

@@ -32,15 +32,14 @@ The number in given array is in range [-100,000, 100,000].
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution575
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution575 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int DistributeCandies(int[] candies) { }
+        public int DistributeCandies (int[] candies) {
+            return 0;
+        }
     }
 }

@@ -47,17 +47,13 @@ For C programmers, try to solve it in-place in O(1) extra space.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution151
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution151 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public string ReverseWords(string s)
-        {
+        public string ReverseWords (string s) {
             return null;
         }
     }

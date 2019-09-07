@@ -46,15 +46,14 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution778
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution778 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int SwimInWater(int[][] grid) { }
+        public int SwimInWater (int[][] grid) {
+            return 0;
+        }
     }
 }

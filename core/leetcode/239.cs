@@ -31,17 +31,13 @@ Could you solve it in linear time?
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution239
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution239 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int[] MaxSlidingWindow(int[] nums, int k)
-        {
+        public int[] MaxSlidingWindow (int[] nums, int k) {
             return null;
         }
     }

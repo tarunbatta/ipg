@@ -25,15 +25,14 @@ One longest palindrome that can be built is &quot;dccaccd&quot;, whose length is
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution409
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution409 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int LongestPalindrome(string s) { }
+        public int LongestPalindrome (string s) {
+            return 0;
+        }
     }
 }

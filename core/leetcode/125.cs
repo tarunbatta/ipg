@@ -20,17 +20,13 @@ Output: false
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution125
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution125 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public bool IsPalindrome(string s)
-        {
+        public bool IsPalindrome (string s) {
             return false;
         }
     }

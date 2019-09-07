@@ -52,28 +52,22 @@ Can you solve it using O(1) (i.e. constant) memory?
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution141
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution141 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public bool HasCycle(ListNode head)
-        {
+        public bool HasCycle (ListNode head) {
             return false;
         }
     }
 
-    public class ListNode
-    {
+    public class ListNode {
         public int val;
         public ListNode next;
 
-        public ListNode(int x)
-        {
+        public ListNode (int x) {
             val = x;
         }
     }

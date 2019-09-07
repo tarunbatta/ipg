@@ -35,17 +35,13 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution922
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution922 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int[] SortArrayByParityII(int[] A)
-        {
+        public int[] SortArrayByParityII (int[] A) {
             return null;
         }
     }

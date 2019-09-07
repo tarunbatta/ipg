@@ -48,16 +48,16 @@ Note:
 */
 
 using System;
+using System.Collections.Generic;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution1023
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution1023 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public IList<bool> CamelMatch(string[] queries, string pattern) { }
+        public IList<bool> CamelMatch (string[] queries, string pattern) {
+            return null;
+        }
     }
 }

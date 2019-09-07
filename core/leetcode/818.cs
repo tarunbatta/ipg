@@ -44,15 +44,14 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution818
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution818 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int Racecar(int target) { }
+        public int Racecar (int target) {
+            return 0;
+        }
     }
 }

@@ -57,15 +57,14 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution886
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution886 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public bool PossibleBipartition(int N, int[][] dislikes) { }
+        public bool PossibleBipartition (int N, int[][] dislikes) {
+            return false;
+        }
     }
 }

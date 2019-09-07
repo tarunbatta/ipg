@@ -47,7 +47,52 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution622
-{
-    public class MyCircularQueue {​    /** Initialize your data structure here. Set the size of the queue to be k. */    public MyCircularQueue(int k) { }        /** Insert an element into the circular queue. Return true if the operation is successful. */    public bool EnQueue(int value) { }        /** Delete an element from the circular queue. Return true if the operation is successful. */    public bool DeQueue() { }        /** Get the front item from the queue. */    public int Front() { }        /** Get the last item from the queue. */    public int Rear() { }        /** Checks whether the circular queue is empty or not. */    public bool IsEmpty() { }        /** Checks whether the circular queue is full or not. */    public bool IsFull() { } }​/** * Your MyCircularQueue object will be instantiated and called as such: * MyCircularQueue obj = new MyCircularQueue(k); * bool param_1 = obj.EnQueue(value); * bool param_2 = obj.DeQueue(); * int param_3 = obj.Front(); * int param_4 = obj.Rear(); * bool param_5 = obj.IsEmpty(); * bool param_6 = obj.IsFull(); *
+namespace InterviewPreperationGuide.Core.LeetCode.Solution622 {
+    public class Solution {
+        public void Init () {
+            MyCircularQueue obj = new MyCircularQueue (0);
+            bool param_1 = obj.EnQueue (0);
+            bool param_2 = obj.DeQueue ();
+            int param_3 = obj.Front ();
+            int param_4 = obj.Rear ();
+            bool param_5 = obj.IsEmpty ();
+            bool param_6 = obj.IsFull ();
+        }
+    }
+
+    public class MyCircularQueue {
+        public MyCircularQueue (int k) {
+
+        }    
+
+        // Insert an element into the circular queue. Return true if the operation is successful
+        public bool EnQueue (int value) {
+            return false;
+        }    
+
+        // Delete an element from the circular queue. Return true if the operation is successful
+        public bool DeQueue () {
+            return false;
+        }    
+
+        // Get the front item from the queue
+        public int Front () {
+            return 0;
+        }    
+
+        // Get the last item from the queue
+        public int Rear () {
+            return 0;
+        }    
+
+        // Checks whether the circular queue is empty or not
+        public bool IsEmpty () {
+            return false;
+        }    
+
+        // Checks whether the circular queue is full or not
+        public bool IsFull () {
+            return false;
+        }
+    }
 }

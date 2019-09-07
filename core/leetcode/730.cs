@@ -39,15 +39,14 @@ Each character S[i] will be in the set {&apos;a&apos;, &apos;b&apos;, &apos;c&ap
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution730
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution730 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int CountPalindromicSubsequences(string S) { }
+        public int CountPalindromicSubsequences (string S) {
+            return 0;
+        }
     }
 }

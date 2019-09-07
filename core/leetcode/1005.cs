@@ -47,15 +47,14 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution1005
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution1005 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int LargestSumAfterKNegations(int[] A, int K) { }
+        public int LargestSumAfterKNegations (int[] A, int K) {
+            return 0;
+        }
     }
 }

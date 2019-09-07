@@ -48,17 +48,13 @@ Follow up:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution73
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution73 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public void SetZeroes(int[][] matrix)
-        {
+        public void SetZeroes (int[][] matrix) {
 
         }
     }

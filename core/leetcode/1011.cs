@@ -60,15 +60,14 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution1011
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution1011 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int ShipWithinDays(int[] weights, int D) { }
+        public int ShipWithinDays (int[] weights, int D) {
+            return 0;
+        }
     }
 }

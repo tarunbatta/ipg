@@ -50,17 +50,14 @@ Constraints:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution1156
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution1156 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int MaxRepOpt1(string text) {
+        public int MaxRepOpt1 (string text) {
             return 0;
-         }
+        }
     }
 }

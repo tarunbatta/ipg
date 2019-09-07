@@ -61,29 +61,23 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution979
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution979 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int DistributeCoins(TreeNode root)
-        {
+        public int DistributeCoins (TreeNode root) {
             return 0;
         }
     }
 
-    public class TreeNode
-    {
+    public class TreeNode {
         public int val;
         public TreeNode left;
         public TreeNode right;
 
-        public TreeNode(int x)
-        {
+        public TreeNode (int x) {
             val = x;
         }
     }

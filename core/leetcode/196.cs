@@ -33,7 +33,6 @@ Your output is the whole Person&#xA0;table after executing your sql. Use delete 
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution196
-{
+namespace InterviewPreperationGuide.Core.LeetCode.Solution196 {
     // # Write your MySQL query statement below
 }

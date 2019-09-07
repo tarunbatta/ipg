@@ -39,15 +39,14 @@ The length of both nums1 and nums2 would not exceed 1000.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution496
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution496 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int[] NextGreaterElement(int[] nums1, int[] nums2) { }
+        public int[] NextGreaterElement (int[] nums1, int[] nums2) {
+            return null;
+        }
     }
 }

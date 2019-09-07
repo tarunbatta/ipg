@@ -41,15 +41,14 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution514
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution514 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int FindRotateSteps(string ring, string key) { }
+        public int FindRotateSteps (string ring, string key) {
+            return 0;
+        }
     }
 }

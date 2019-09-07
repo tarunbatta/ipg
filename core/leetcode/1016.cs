@@ -31,15 +31,14 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution1016
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution1016 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public bool QueryString(string S, int N) { }
+        public bool QueryString (string S, int N) {
+            return false;
+        }
     }
 }

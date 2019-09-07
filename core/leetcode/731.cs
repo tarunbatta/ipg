@@ -44,7 +44,21 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution731
-{
-    public class MyCalendarTwo {​    public MyCalendarTwo() { } public bool Book(int start, int end) { } }​/** * Your MyCalendarTwo object will be instantiated and called as such: * MyCalendarTwo obj = new MyCalendarTwo(); * bool param_1 = obj.Book(start,end); *
+namespace InterviewPreperationGuide.Core.LeetCode.Solution731 {
+    public class Solution {
+        public void Init () {
+            MyCalendarTwo obj = new MyCalendarTwo ();
+            bool param_1 = obj.Book (0, 0);
+        }
+    }
+
+    public class MyCalendarTwo {
+        public MyCalendarTwo () {
+
+        }
+
+        public bool Book (int start, int end) {
+            return false;
+        }
+    }
 }

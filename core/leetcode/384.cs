@@ -24,17 +24,26 @@ solution.shuffle();
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution384
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution384 {
+    public class Solution {
+        public void Init () {
+            Solution obj = new Solution (null);
+            int[] param_1 = obj.Reset ();
+            int[] param_2 = obj.Shuffle ();
+        }
+
+        public Solution (int[] nums) {
 
         }
 
-​    public Solution(int[] nums) { }        /** Resets the array to its original configuration and return it. */
-        public int[] Reset() { }        /** Returns a random shuffling of the array. */
-        public int[] Shuffle() { }
-    }​/** * Your Solution object will be instantiated and called as such: * Solution obj = new Solution(nums); * int[] param_1 = obj.Reset(); * int[] param_2 = obj.Shuffle(); *
+        // Resets the array to its original configuration and return it
+        public int[] Reset () {
+            return null;
+        }
+
+        // Returns a random shuffling of the array
+        public int[] Shuffle () {
+            return null;
+        }
+    }
 }

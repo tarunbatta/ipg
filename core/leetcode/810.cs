@@ -32,15 +32,14 @@ Notes:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution810
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution810 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public bool XorGame(int[] nums) { }
+        public bool XorGame (int[] nums) {
+            return false;
+        }
     }
 }

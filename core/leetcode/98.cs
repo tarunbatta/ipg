@@ -41,29 +41,23 @@ Explanation: The root node&apos;s value is 5 but its right child&apos;s value is
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution98
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution98 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public bool IsValidBST(TreeNode root)
-        {
+        public bool IsValidBST (TreeNode root) {
             return false;
         }
     }
 
-    public class TreeNode
-    {
+    public class TreeNode {
         public int val;
         public TreeNode left;
         public TreeNode right;
 
-        public TreeNode(int x)
-        {
+        public TreeNode (int x) {
             val = x;
         }
     }

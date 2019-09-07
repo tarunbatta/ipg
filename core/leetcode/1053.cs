@@ -47,15 +47,14 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution1053
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution1053 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int[] PrevPermOpt1(int[] A) { }
+        public int[] PrevPermOpt1 (int[] A) {
+            return null;
+        }
     }
 }

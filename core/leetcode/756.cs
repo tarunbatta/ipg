@@ -51,16 +51,16 @@ Note:
 */
 
 using System;
+using System.Collections.Generic;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution756
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution756 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public bool PyramidTransition(string bottom, IList<string> allowed) { }
+        public bool PyramidTransition (string bottom, IList<string> allowed) {
+            return false;
+        }
     }
 }

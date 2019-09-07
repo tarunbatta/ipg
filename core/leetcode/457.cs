@@ -49,15 +49,14 @@ Could you solve it in O(n) time complexity and&#xA0;O(1) extra space complexity?
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution457
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution457 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public bool CircularArrayLoop(int[] nums) { }
+        public bool CircularArrayLoop (int[] nums) {
+            return false;
+        }
     }
 }

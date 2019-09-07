@@ -53,16 +53,13 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution978
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution978 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int MaxTurbulenceSize(int[] A) { 
+        public int MaxTurbulenceSize (int[] A) {
             return 0;
         }
     }

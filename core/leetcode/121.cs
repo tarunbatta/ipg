@@ -27,17 +27,13 @@ Explanation: In this case, no transaction is done, i.e. max profit = 0.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution121
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution121 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int MaxProfit(int[] prices)
-        {
+        public int MaxProfit (int[] prices) {
             return 0;
         }
     }

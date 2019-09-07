@@ -78,17 +78,13 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution975
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution975 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int OddEvenJumps(int[] A)
-        {
+        public int OddEvenJumps (int[] A) {
             return 0;
         }
     }

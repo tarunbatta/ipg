@@ -37,15 +37,14 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution1048
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution1048 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int LongestStrChain(string[] words) { }
+        public int LongestStrChain (string[] words) {
+            return 0;
+        }
     }
 }

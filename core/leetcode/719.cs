@@ -25,18 +25,14 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution719
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine(SmallestDistancePair(null, 0));
-            Console.WriteLine(SmallestDistancePair(new int[] { 1, 3, 1 }, 1));
+namespace InterviewPreperationGuide.Core.LeetCode.Solution719 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine (SmallestDistancePair (null, 0));
+            Console.WriteLine (SmallestDistancePair (new int[] { 1, 3, 1 }, 1));
         }
 
-        public int SmallestDistancePair(int[] nums, int k)
-        {
+        public int SmallestDistancePair (int[] nums, int k) {
             return 0;
         }
     }

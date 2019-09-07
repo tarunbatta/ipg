@@ -43,17 +43,13 @@ All arithmetic subsequence slices are:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution446
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution446 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int NumberOfArithmeticSlices(int[] A)
-        {
+        public int NumberOfArithmeticSlices (int[] A) {
             return 0;
         }
     }

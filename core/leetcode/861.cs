@@ -38,15 +38,14 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution861
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution861 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int MatrixScore(int[][] A) { }
+        public int MatrixScore (int[][] A) {
+            return 0;
+        }
     }
 }

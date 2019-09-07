@@ -30,43 +30,34 @@ Notes:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution832
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine(FlipAndInvertImage(null));
-            Console.WriteLine(FlipAndInvertImage(new int[][] { new int[] { 1, 1, 0 }, new int[] { 1, 0, 1 }, new int[] { 0, 0, 0 } }));
-            Console.WriteLine(FlipAndInvertImage(new int[][] { new int[] { 1, 1, 0, 0 }, new int[] { 1, 0, 0, 1 }, new int[] { 0, 1, 1, 1 }, new int[] { 1, 0, 1, 0 } }));
+namespace InterviewPreperationGuide.Core.LeetCode.Solution832 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine (FlipAndInvertImage (null));
+            Console.WriteLine (FlipAndInvertImage (new int[][] { new int[] { 1, 1, 0 }, new int[] { 1, 0, 1 }, new int[] { 0, 0, 0 } }));
+            Console.WriteLine (FlipAndInvertImage (new int[][] { new int[] { 1, 1, 0, 0 }, new int[] { 1, 0, 0, 1 }, new int[] { 0, 1, 1, 1 }, new int[] { 1, 0, 1, 0 } }));
         }
 
-        public int[][] FlipAndInvertImage(int[][] A)
-        {
-            if (A == null)
-            {
+        public int[][] FlipAndInvertImage (int[][] A) {
+            if (A == null) {
                 return null;
             }
 
             int r = A.Length;
             int c = A[0].Length;
 
-            if (r == 0 || c == 0)
-            {
+            if (r == 0 || c == 0) {
                 return null;
             }
 
-            for (int i = 0; i < r; i++)
-            {
-                for (int j = 0; j < c / 2; j++)
-                {
+            for (int i = 0; i < r; i++) {
+                for (int j = 0; j < c / 2; j++) {
                     int temp = A[i][j];
                     A[i][j] = A[i][c - 1 - j];
                     A[i][c - 1 - j] = temp;
                 }
 
-                for (int j = 0; j < c; j++)
-                {
+                for (int j = 0; j < c; j++) {
                     A[i][j] ^= 1;
                 }
             }

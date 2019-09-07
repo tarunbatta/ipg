@@ -23,15 +23,14 @@ All the integers in the array will be in the range of [-10000, 10000].
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution561
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution561 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int ArrayPairSum(int[] nums) { }
+        public int ArrayPairSum (int[] nums) {
+            return 0;
+        }
     }
 }

@@ -42,15 +42,14 @@ Note: 0 &lt;= S.length &lt;= 10000.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution828
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution828 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int UniqueLetterString(string S) { }
+        public int UniqueLetterString (string S) {
+            return 0;
+        }
     }
 }

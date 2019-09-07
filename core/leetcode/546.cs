@@ -31,15 +31,14 @@ The number of boxes n would not exceed 100.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution546
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution546 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int RemoveBoxes(int[] boxes) { }
+        public int RemoveBoxes (int[] boxes) {
+            return 0;
+        }
     }
 }

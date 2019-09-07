@@ -37,15 +37,14 @@ The answer is guaranteed to fit in a 32-bit signed integer.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution502
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution502 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int FindMaximizedCapital(int k, int W, int[] Profits, int[] Capital) { }
+        public int FindMaximizedCapital (int k, int W, int[] Profits, int[] Capital) {
+            return 0;
+        }
     }
 }

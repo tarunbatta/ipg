@@ -45,17 +45,14 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution982
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution982 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int CountTriplets(int[] A) {
-			return 0;
-		 }
+        public int CountTriplets (int[] A) {
+            return 0;
+        }
     }
 }

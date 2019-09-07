@@ -36,16 +36,16 @@ Try to solve it in O(n log k) time and O(n) extra space.
 */
 
 using System;
+using System.Collections.Generic;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution692
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution692 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public IList<string> TopKFrequent(string[] words, int k) { }
+        public IList<string> TopKFrequent (string[] words, int k) {
+            return null;
+        }
     }
 }

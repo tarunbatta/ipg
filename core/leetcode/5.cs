@@ -19,17 +19,13 @@ Output: "bb"
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution5
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution5 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public string LongestPalindrome(string s)
-        {
+        public string LongestPalindrome (string s) {
             return null;
         }
     }

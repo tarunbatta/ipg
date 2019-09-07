@@ -25,17 +25,13 @@ For the purpose of this problem, we will return 0 when needle is an empty string
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution28
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution28 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int StrStr(string haystack, string needle)
-        {
+        public int StrStr (string haystack, string needle) {
             return 0;
         }
     }

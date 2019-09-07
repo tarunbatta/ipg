@@ -28,15 +28,14 @@ The web page&apos;s width and length you designed must be positive integers.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution492
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution492 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int[] ConstructRectangle(int area) { }
+        public int[] ConstructRectangle (int area) {
+            return null;
+        }
     }
 }

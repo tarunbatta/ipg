@@ -40,16 +40,16 @@ Return:
 */
 
 using System;
+using System.Collections.Generic;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution417
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution417 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public IList<IList<int>> PacificAtlantic(int[][] matrix) { }
+        public IList<IList<int>> PacificAtlantic (int[][] matrix) {
+            return null;
+        }
     }
 }

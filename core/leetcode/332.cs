@@ -29,16 +29,16 @@ Explanation: Another possible reconstruction is [&quot;JFK&quot;,&quot;SFO&quot;
 */
 
 using System;
+using System.Collections.Generic;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution332
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution332 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public IList<string> FindItinerary(IList<IList<string>> tickets) { }
+        public IList<string> FindItinerary (IList<IList<string>> tickets) {
+            return null;
+        }
     }
 }

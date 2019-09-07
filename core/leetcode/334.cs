@@ -29,15 +29,14 @@ Output: false
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution334
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution334 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public bool IncreasingTriplet(int[] nums) { }
+        public bool IncreasingTriplet (int[] nums) {
+            return false;
+        }
     }
 }

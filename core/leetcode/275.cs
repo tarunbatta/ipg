@@ -30,17 +30,13 @@ Follow up:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution275
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution275 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int HIndex(int[] citations)
-        {
+        public int HIndex (int[] citations) {
             return 0;
         }
     }

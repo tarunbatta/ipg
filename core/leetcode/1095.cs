@@ -57,8 +57,20 @@ Constraints:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution1095
-{
-    /** * // This is MountainArray's API interface. * // You should not implement it, or speculate about its implementation * class MountainArray { *     public int Get(int index) {} *     public int Length() {} * } */
-    class Solution { public int FindInMountainArray(int target, MountainArray mountainArr) { } }
+namespace InterviewPreperationGuide.Core.LeetCode.Solution1095 {
+    public class Solution {
+        public int FindInMountainArray (int target, MountainArray mountainArr) {
+            return 0;
+        }
+    }
+
+    public class MountainArray {  
+        public int Get (int index) {
+            return 0;
+        }  
+
+        public int Length () {
+            return 0;
+        }
+    }
 }

@@ -37,15 +37,14 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution931
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution931 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int MinFallingPathSum(int[][] A) { }
+        public int MinFallingPathSum (int[][] A) {
+            return 0;
+        }
     }
 }

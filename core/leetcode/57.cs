@@ -25,17 +25,13 @@ NOTE:&#xA0;input types have been changed on April 15, 2019. Please reset to defa
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution57
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution57 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int[][] Insert(int[][] intervals, int[] newInterval)
-        {
+        public int[][] Insert (int[][] intervals, int[] newInterval) {
             return null;
         }
     }

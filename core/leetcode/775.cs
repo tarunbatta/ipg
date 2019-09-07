@@ -36,15 +36,14 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution775
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution775 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public bool IsIdealPermutation(int[] A) { }
+        public bool IsIdealPermutation (int[] A) {
+            return false;
+        }
     }
 }

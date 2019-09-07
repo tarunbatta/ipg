@@ -33,15 +33,14 @@ Could you do it without using any loop / recursion?
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution326
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution326 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public bool IsPowerOfThree(int n) { }
+        public bool IsPowerOfThree (int n) {
+            return false;
+        }
     }
 }

@@ -26,17 +26,13 @@ Explanation: Rob house 1 (money = 1) and then rob house 3 (money = 3).
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution213
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution213 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int Rob(int[] nums)
-        {
+        public int Rob (int[] nums) {
             return 0;
         }
     }

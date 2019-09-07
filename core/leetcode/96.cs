@@ -22,17 +22,13 @@ Given n = 3, there are a total of 5 unique BST&apos;s:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution96
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution96 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int NumTrees(int n)
-        {
+        public int NumTrees (int n) {
             return 0;
         }
     }

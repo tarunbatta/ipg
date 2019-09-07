@@ -37,15 +37,14 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution647
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution647 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int CountSubstrings(string s) { }
+        public int CountSubstrings (string s) {
+            return 0;
+        }
     }
 }

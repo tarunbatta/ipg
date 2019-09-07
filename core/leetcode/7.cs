@@ -24,17 +24,13 @@ Assume we are dealing with an environment which could only store integers within
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution7
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution7 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int Reverse(int x)
-        {
+        public int Reverse (int x) {
             return 0;
         }
     }

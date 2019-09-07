@@ -39,15 +39,14 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution1037
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution1037 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public bool IsBoomerang(int[][] points) { }
+        public bool IsBoomerang (int[][] points) {
+            return false;
+        }
     }
 }

@@ -66,15 +66,14 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution1003
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution1003 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public bool IsValid(string S) { }
+        public bool IsValid (string S) {
+            return false;
+        }
     }
 }

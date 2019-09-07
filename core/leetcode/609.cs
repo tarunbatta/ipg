@@ -50,16 +50,16 @@ Follow-up beyond contest:
 */
 
 using System;
+using System.Collections.Generic;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution609
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution609 {
+	public class Solution {
+		public void Init () {
 
-        }
+		}
 
-        public IList<IList<string>> FindDuplicate(string[] paths) { }
-    }
+		public IList<IList<string>> FindDuplicate (string[] paths) {
+			return null;
+		}
+	}
 }

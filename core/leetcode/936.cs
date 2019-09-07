@@ -48,15 +48,14 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution936
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution936 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int[] MovesToStamp(string stamp, string target) { }
+        public int[] MovesToStamp (string stamp, string target) {
+            return null;
+        }
     }
 }

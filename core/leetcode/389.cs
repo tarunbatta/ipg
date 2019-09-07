@@ -24,15 +24,14 @@ Explanation:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution389
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution389 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public char FindTheDifference(string s, string t) { }
+        public char FindTheDifference (string s, string t) {
+            return ' ';
+        }
     }
 }

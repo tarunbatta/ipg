@@ -69,15 +69,14 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution904
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution904 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int TotalFruit(int[] tree) { }
+        public int TotalFruit (int[] tree) {
+            return 0;
+        }
     }
 }

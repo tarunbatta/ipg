@@ -24,15 +24,14 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution821
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution821 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int[] ShortestToChar(string S, char C) { }
+        public int[] ShortestToChar (string S, char C) {
+            return null;
+        }
     }
 }

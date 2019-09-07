@@ -39,15 +39,14 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution932
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution932 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int[] BeautifulArray(int N) { }
+        public int[] BeautifulArray (int N) {
+            return null;
+        }
     }
 }

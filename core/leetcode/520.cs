@@ -38,15 +38,14 @@ Note: The input will be a non-empty word consisting of uppercase and lowercase l
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution520
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution520 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public bool DetectCapitalUse(string word) { }
+        public bool DetectCapitalUse (string word) {
+            return false;
+        }
     }
 }

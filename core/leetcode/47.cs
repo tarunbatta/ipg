@@ -20,17 +20,13 @@ Output:
 using System;
 using System.Collections.Generic;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution47
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution47 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public IList<IList<int>> PermuteUnique(int[] nums)
-        {
+        public IList<IList<int>> PermuteUnique (int[] nums) {
             return null;
         }
     }

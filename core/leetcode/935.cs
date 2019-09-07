@@ -54,15 +54,14 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution935
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution935 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int KnightDialer(int N) { }
+        public int KnightDialer (int N) {
+            return 0;
+        }
     }
 }

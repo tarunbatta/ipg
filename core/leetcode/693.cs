@@ -30,17 +30,13 @@ The binary representation of 10 is: 1010.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution693
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution693 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public bool HasAlternatingBits(int n)
-        {
+        public bool HasAlternatingBits (int n) {
             return false;
         }
     }

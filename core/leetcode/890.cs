@@ -35,16 +35,16 @@ Note:
 */
 
 using System;
+using System.Collections.Generic;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution890
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution890 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public IList<string> FindAndReplacePattern(string[] words, string pattern) { }
+        public IList<string> FindAndReplacePattern (string[] words, string pattern) {
+            return null;
+        }
     }
 }

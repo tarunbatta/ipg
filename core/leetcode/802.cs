@@ -30,16 +30,16 @@ Note:
 */
 
 using System;
+using System.Collections.Generic;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution802
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution802 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public IList<int> EventualSafeNodes(int[][] graph) { }
+        public IList<int> EventualSafeNodes (int[][] graph) {
+            return null;
+        }
     }
 }

@@ -16,28 +16,22 @@ Output: 1-&gt;2-&gt;2-&gt;4-&gt;3-&gt;5
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution86
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution86 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public ListNode Partition(ListNode head, int x)
-        {
+        public ListNode Partition (ListNode head, int x) {
             return null;
         }
     }
 
-    public class ListNode
-    {
+    public class ListNode {
         public int val;
         public ListNode next;
 
-        public ListNode(int x)
-        {
+        public ListNode (int x) {
             val = x;
         }
     }

@@ -25,15 +25,14 @@ The integers in the given array are in the range of [0, 1000].
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution611
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution611 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int TriangleNumber(int[] nums) { }
+        public int TriangleNumber (int[] nums) {
+            return 0;
+        }
     }
 }

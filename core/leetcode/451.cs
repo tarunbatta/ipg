@@ -46,15 +46,14 @@ Note that &apos;A&apos; and &apos;a&apos; are treated as two different character
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution451
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution451 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public string FrequencySort(string s) { }
+        public string FrequencySort (string s) {
+            return null;
+        }
     }
 }

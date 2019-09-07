@@ -21,17 +21,13 @@ Output: 5
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution58
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution58 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int LengthOfLastWord(string s)
-        {
+        public int LengthOfLastWord (string s) {
             return 0;
         }
     }

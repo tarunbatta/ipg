@@ -58,15 +58,14 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution649
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution649 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public string PredictPartyVictory(string senate) { }
+        public string PredictPartyVictory (string senate) {
+            return null;
+        }
     }
 }

@@ -31,15 +31,14 @@ Output: 0
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution330
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution330 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int MinPatches(int[] nums, int n) { }
+        public int MinPatches (int[] nums, int n) {
+            return 0;
+        }
     }
 }

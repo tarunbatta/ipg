@@ -47,15 +47,14 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution785
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution785 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public bool IsBipartite(int[][] graph) { }
+        public bool IsBipartite (int[][] graph) {
+            return false;
+        }
     }
 }

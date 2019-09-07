@@ -26,15 +26,14 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution788
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution788 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int RotatedDigits(int N) { }
+        public int RotatedDigits (int N) {
+            return 0;
+        }
     }
 }

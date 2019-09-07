@@ -19,17 +19,13 @@ Explanation: If there are 4 stones in the heap, then you will never win the game
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution292
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution292 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public bool CanWinNim(int n)
-        {
+        public bool CanWinNim (int n) {
             return false;
         }
     }

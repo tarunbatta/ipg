@@ -39,15 +39,14 @@ Both input strings will be non-empty and only contain characters &apos;R&apos;,&
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution488
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution488 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int FindMinStep(string board, string hand) { }
+        public int FindMinStep (string board, string hand) {
+            return 0;
+        }
     }
 }

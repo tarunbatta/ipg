@@ -29,35 +29,28 @@ You may assume that all words are consist of lowercase letters a-z.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution211
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution211 {
+    public class Solution {
+        public void Init () {
             string word = "";
-            WordDictionary obj = new WordDictionary();
-            obj.AddWord(word);
-            bool param_2 = obj.Search(word);
+            WordDictionary obj = new WordDictionary ();
+            obj.AddWord (word);
+            bool param_2 = obj.Search (word);
         }
     }
 
-    public class WordDictionary
-    {​    
-    public WordDictionary()
-        {
+    public class WordDictionary {
+        public WordDictionary () {
 
         }
 
         // Adds a word into the data structure.
-        public void AddWord(string word)
-        {
+        public void AddWord (string word) {
 
         }
 
         //  Returns if the word is in the data structure. A word could contain the dot character '.' to represent any one letter.
-        public bool Search(string word)
-        {
+        public bool Search (string word) {
             return false;
         }
     }

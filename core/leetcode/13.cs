@@ -49,17 +49,13 @@ Explanation: M = 1000, CM = 900, XC = 90 and IV = 4.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution13
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution13 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int RomanToInt(string s)
-        {
+        public int RomanToInt (string s) {
             return 0;
         }
     }

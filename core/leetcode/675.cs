@@ -64,16 +64,16 @@ Hint: size of the given matrix will not exceed 50x50.
 */
 
 using System;
+using System.Collections.Generic;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution675
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution675 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int CutOffTree(IList<IList<int>> forest) { }
+        public int CutOffTree (IList<IList<int>> forest) {
+            return 0;
+        }
     }
 }

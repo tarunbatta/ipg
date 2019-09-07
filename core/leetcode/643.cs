@@ -27,15 +27,14 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution643
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution643 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public double FindMaxAverage(int[] nums, int k) { }
+        public double FindMaxAverage (int[] nums, int k) {
+            return 0;
+        }
     }
 }

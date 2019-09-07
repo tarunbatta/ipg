@@ -38,17 +38,13 @@ Output: 701
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution171
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution171 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int TitleToNumber(string s)
-        {
+        public int TitleToNumber (string s) {
             return 0;
         }
     }

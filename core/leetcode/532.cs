@@ -38,15 +38,14 @@ All the integers in the given input belong to the range: [-1e7, 1e7].
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution532
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution532 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int FindPairs(int[] nums, int k) { }
+        public int FindPairs (int[] nums, int k) {
+            return 0;
+        }
     }
 }

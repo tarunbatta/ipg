@@ -32,15 +32,14 @@ There is only one optimal division for each test case.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution553
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution553 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public string OptimalDivision(int[] nums) { }
+        public string OptimalDivision (int[] nums) {
+            return null;
+        }
     }
 }

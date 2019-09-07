@@ -27,15 +27,14 @@ Follow up:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution338
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution338 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int[] CountBits(int num) { }
+        public int[] CountBits (int num) {
+            return null;
+        }
     }
 }

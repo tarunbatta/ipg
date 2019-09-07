@@ -38,17 +38,13 @@ exection -&gt; execution (insert &apos;u&apos;)
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution72
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution72 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int MinDistance(string word1, string word2)
-        {
+        public int MinDistance (string word1, string word2) {
             return 0;
         }
     }

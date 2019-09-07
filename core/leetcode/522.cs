@@ -29,15 +29,14 @@ The length of the given list will be in the range of [2, 50].
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution522
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution522 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int FindLUSlength(string[] strs) { }
+        public int FindLUSlength (string[] strs) {
+            return 0;
+        }
     }
 }

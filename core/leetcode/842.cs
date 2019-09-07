@@ -47,74 +47,61 @@ S contains only digits.
 using System;
 using System.Collections.Generic;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution842
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine(SplitIntoFibonacci(null));
-            Console.WriteLine(SplitIntoFibonacci("123456579"));
-            Console.WriteLine(SplitIntoFibonacci("11235813"));
-            Console.WriteLine(SplitIntoFibonacci("112358130"));
-            Console.WriteLine(SplitIntoFibonacci("0123"));
-            Console.WriteLine(SplitIntoFibonacci("1101111"));
+namespace InterviewPreperationGuide.Core.LeetCode.Solution842 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine (SplitIntoFibonacci (null));
+            Console.WriteLine (SplitIntoFibonacci ("123456579"));
+            Console.WriteLine (SplitIntoFibonacci ("11235813"));
+            Console.WriteLine (SplitIntoFibonacci ("112358130"));
+            Console.WriteLine (SplitIntoFibonacci ("0123"));
+            Console.WriteLine (SplitIntoFibonacci ("1101111"));
         }
 
-        public IList<int> SplitIntoFibonacci(string S)
-        {
-            if (string.IsNullOrEmpty(S))
-            {
+        public IList<int> SplitIntoFibonacci (string S) {
+            if (string.IsNullOrEmpty (S)) {
                 return null;
             }
 
-            List<int> result = new List<int>();
-            helper(result, S, 0);
+            List<int> result = new List<int> ();
+            helper (result, S, 0);
 
             return result;
         }
 
-        public bool helper(List<int> result, String S, int start)
-        {
+        public bool helper (List<int> result, String S, int start) {
             // If we reached end of string & we have more than 2 elements in our sequence then return true
-            if (start == S.Length && result.Count >= 3)
-            {
+            if (start == S.Length && result.Count >= 3) {
                 return true;
             }
 
             long num = 0;
 
             // Try getting a solution by forming a number with 'i' chars begginning with start
-            for (int i = start; i < S.Length; i++)
-            {
-                if (S[start] == '0' && i > start)
-                {
+            for (int i = start; i < S.Length; i++) {
+                if (S[start] == '0' && i > start) {
                     break;
                 }
 
                 num = num * 10 + (S[i] - '0');
 
-                if (num > Int32.MaxValue)
-                {
+                if (num > Int32.MaxValue) {
                     break;
                 }
 
                 // If fibonacci property is not satisfied then we cannot get a solution
-                if (result.Count >= 2 && result[result.Count - 1] + result[result.Count - 2] < num)
-                {
+                if (result.Count >= 2 && result[result.Count - 1] + result[result.Count - 2] < num) {
                     break;
                 }
 
-                if (result.Count <= 1 || result[result.Count - 1] + result[result.Count - 2] == num)
-                {
-                    result.Add((int)num);
+                if (result.Count <= 1 || result[result.Count - 1] + result[result.Count - 2] == num) {
+                    result.Add ((int) num);
 
-                    if (helper(result, S, i + 1))
-                    {
+                    if (helper (result, S, i + 1)) {
                         return true;
                     }
 
-                    result.RemoveAt(result.Count - 1);
+                    result.RemoveAt (result.Count - 1);
                 }
             }
 

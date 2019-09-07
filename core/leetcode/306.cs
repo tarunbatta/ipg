@@ -33,15 +33,14 @@ How would you handle overflow for very large input integers?
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution306
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution306 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public bool IsAdditiveNumber(string num) { }
+        public bool IsAdditiveNumber (string num) {
+            return false;
+        }
     }
 }

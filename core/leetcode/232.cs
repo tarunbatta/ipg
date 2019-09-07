@@ -29,57 +29,46 @@ You may assume that all operations are valid (for example, no pop or peek operat
 using System;
 using System.Collections;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution232
-{
-    public class MyQueue
-    {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution232 {
+    public class MyQueue {
         private Stack inbox;
         private Stack outbox;
 
         /** Initialize your data structure here. */
-        public MyQueue()
-        {
-            inbox = new Stack();
-            outbox = new Stack();
+        public MyQueue () {
+            inbox = new Stack ();
+            outbox = new Stack ();
         }
 
         /** Push element x to the back of queue. */
-        public void Push(int x)
-        {
-            inbox.Push(x);
+        public void Push (int x) {
+            inbox.Push (x);
         }
 
         /** Removes the element from in front of queue and returns that element. */
-        public int Pop()
-        {
-            if (outbox.Count == 0)
-            {
-                if (inbox.Count != 0)
-                {
-                    outbox.Push(inbox.Pop());
+        public int Pop () {
+            if (outbox.Count == 0) {
+                if (inbox.Count != 0) {
+                    outbox.Push (inbox.Pop ());
                 }
             }
 
-            return (int)outbox.Pop();
+            return (int) outbox.Pop ();
         }
 
         /** Get the front element. */
-        public int Peek()
-        {
-            if (outbox.Count == 0)
-            {
-                if (inbox.Count != 0)
-                {
-                    outbox.Push(inbox.Pop());
+        public int Peek () {
+            if (outbox.Count == 0) {
+                if (inbox.Count != 0) {
+                    outbox.Push (inbox.Pop ());
                 }
             }
 
-            return (int)outbox.Peek();
+            return (int) outbox.Peek ();
         }
 
         /** Returns whether the queue is empty. */
-        public bool IsEmpty()
-        {
+        public bool IsEmpty () {
             return inbox.Count == 0 && outbox.Count == 0 ? true : false;
         }
     }

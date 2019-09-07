@@ -44,15 +44,14 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution1007
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution1007 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int MinDominoRotations(int[] A, int[] B) { }
+        public int MinDominoRotations (int[] A, int[] B) {
+            return 0;
+        }
     }
 }

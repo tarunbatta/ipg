@@ -31,15 +31,14 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution349
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution349 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int[] Intersection(int[] nums1, int[] nums2) { }
+        public int[] Intersection (int[] nums1, int[] nums2) {
+            return null;
+        }
     }
 }

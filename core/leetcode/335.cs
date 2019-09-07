@@ -45,15 +45,14 @@ Output: true
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution335
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution335 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public bool IsSelfCrossing(int[] x) { }
+        public bool IsSelfCrossing (int[] x) {
+            return false;
+        }
     }
 }

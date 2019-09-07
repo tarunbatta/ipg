@@ -27,7 +27,6 @@ Your script should output the following valid phone numbers:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution193
-{
+namespace InterviewPreperationGuide.Core.LeetCode.Solution193 {
     // # Read from the file file.txt and output all valid phone numbers to stdout.
 }

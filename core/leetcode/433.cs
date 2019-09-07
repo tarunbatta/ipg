@@ -60,15 +60,14 @@ return: 3
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution433
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution433 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int MinMutation(string start, string end, string[] bank) { }
+        public int MinMutation (string start, string end, string[] bank) {
+            return 0;
+        }
     }
 }

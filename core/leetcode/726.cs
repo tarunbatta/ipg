@@ -51,15 +51,14 @@ formula will only consist of letters, digits, and round parentheses, and is a va
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution726
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution726 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public string CountOfAtoms(string formula) { }
+        public string CountOfAtoms (string formula) {
+            return null;
+        }
     }
 }

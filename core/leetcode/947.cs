@@ -44,15 +44,14 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution947
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution947 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int RemoveStones(int[][] stones) { }
+        public int RemoveStones (int[][] stones) {
+            return 0;
+        }
     }
 }

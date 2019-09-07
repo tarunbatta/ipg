@@ -13,28 +13,22 @@ Output: 1-&gt;1-&gt;2-&gt;3-&gt;4-&gt;4
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution21
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution21 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public ListNode MergeTwoLists(ListNode l1, ListNode l2)
-        {
+        public ListNode MergeTwoLists (ListNode l1, ListNode l2) {
             return null;
         }
     }
 
-    public class ListNode
-    {
+    public class ListNode {
         public int val;
         public ListNode next;
 
-        public ListNode(int x)
-        {
+        public ListNode (int x) {
             val = x;
         }
     }

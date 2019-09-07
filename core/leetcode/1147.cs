@@ -51,17 +51,14 @@ Constraints:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution1147
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution1147 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int LongestDecomposition(string text) {
-               return 0;
-         }
+        public int LongestDecomposition (string text) {
+            return 0;
+        }
     }
 }

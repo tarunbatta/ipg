@@ -33,15 +33,14 @@ The value of each color in image[i][j] and newColor will be an integer in [0, 65
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution733
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution733 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int[][] FloodFill(int[][] image, int sr, int sc, int newColor) { }
+        public int[][] FloodFill (int[][] image, int sr, int sc, int newColor) {
+            return null;
+        }
     }
 }

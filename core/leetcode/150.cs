@@ -45,17 +45,13 @@ Explanation:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution150
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution150 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int EvalRPN(string[] tokens)
-        {
+        public int EvalRPN (string[] tokens) {
             return 0;
         }
     }

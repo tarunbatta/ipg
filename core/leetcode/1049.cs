@@ -39,15 +39,14 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution1049
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution1049 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int LastStoneWeightII(int[] stones) { }
+        public int LastStoneWeightII (int[] stones) {
+            return 0;
+        }
     }
 }

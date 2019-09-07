@@ -35,15 +35,14 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution867
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution867 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int[][] Transpose(int[][] A) { }
+        public int[][] Transpose (int[][] A) {
+            return null;
+        }
     }
 }

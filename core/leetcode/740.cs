@@ -45,15 +45,14 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution740
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution740 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int DeleteAndEarn(int[] nums) { }
+        public int DeleteAndEarn (int[] nums) {
+            return 0;
+        }
     }
 }

@@ -45,15 +45,14 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution1013
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution1013 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public bool CanThreePartsEqualSum(int[] A) { }
+        public bool CanThreePartsEqualSum (int[] A) {
+            return false;
+        }
     }
 }

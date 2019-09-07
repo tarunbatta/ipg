@@ -22,28 +22,22 @@ Could you do it in O(n) time and O(1) space?
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution234
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution234 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public bool IsPalindrome(ListNode head)
-        {
+        public bool IsPalindrome (ListNode head) {
             return false;
         }
     }
 
-    public class ListNode
-    {
+    public class ListNode {
         public int val;
         public ListNode next;
 
-        public ListNode(int x)
-        {
+        public ListNode (int x) {
             val = x;
         }
     }

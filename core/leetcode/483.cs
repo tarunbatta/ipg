@@ -47,15 +47,14 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution483
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution483 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public string SmallestGoodBase(string n) { }
+        public string SmallestGoodBase (string n) {
+            return null;
+        }
     }
 }

@@ -47,28 +47,22 @@ Can you solve it without using extra space?
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution142
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution142 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public ListNode DetectCycle(ListNode head)
-        {
+        public ListNode DetectCycle (ListNode head) {
             return null;
         }
     }
 
-    public class ListNode
-    {
+    public class ListNode {
         public int val;
         public ListNode next;
 
-        public ListNode(int x)
-        {
+        public ListNode (int x) {
             val = x;
         }
     }

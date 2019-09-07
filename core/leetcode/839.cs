@@ -30,15 +30,14 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution839
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution839 {
+	public class Solution {
+		public void Init () {
 
-        }
+		}
 
-        public int NumSimilarGroups(string[] A) { }
-    }
+		public int NumSimilarGroups (string[] A) {
+			return 0;
+		}
+	}
 }

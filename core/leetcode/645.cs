@@ -26,15 +26,14 @@ The given array&apos;s numbers won&apos;t have any order.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution645
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution645 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int[] FindErrorNums(int[] nums) { }
+        public int[] FindErrorNums (int[] nums) {
+            return null;
+        }
     }
 }

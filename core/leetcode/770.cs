@@ -48,17 +48,13 @@ evalvars, evalints will have equal lengths in range [0, 100].
 using System;
 using System.Collections.Generic;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution770
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution770 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public IList<string> BasicCalculatorIV(string expression, string[] evalvars, int[] evalints)
-        {
+        public IList<string> BasicCalculatorIV (string expression, string[] evalvars, int[] evalints) {
             return null;
         }
     }

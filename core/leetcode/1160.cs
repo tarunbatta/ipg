@@ -40,16 +40,13 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution1160
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution1160 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int CountCharacters(string[] words, string chars) { 
+        public int CountCharacters (string[] words, string chars) {
             return 0;
         }
     }

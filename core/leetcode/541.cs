@@ -21,15 +21,14 @@ Restrictions:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution541
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution541 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public string ReverseStr(string s, int k) { }
+        public string ReverseStr (string s, int k) {
+            return null;
+        }
     }
 }

@@ -20,17 +20,13 @@ Output: false
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution97
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution97 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public bool IsInterleave(string s1, string s2, string s3)
-        {
+        public bool IsInterleave (string s1, string s2, string s3) {
             return false;
         }
     }

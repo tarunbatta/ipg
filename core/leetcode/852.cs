@@ -36,15 +36,14 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution852
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution852 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int PeakIndexInMountainArray(int[] A) { }
+        public int PeakIndexInMountainArray (int[] A) {
+            return 0;
+        }
     }
 }

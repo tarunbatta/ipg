@@ -58,15 +58,14 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution887
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution887 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int SuperEggDrop(int K, int N) { }
+        public int SuperEggDrop (int K, int N) {
+            return 0;
+        }
     }
 }

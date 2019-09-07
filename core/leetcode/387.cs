@@ -18,17 +18,13 @@ Note: You may assume the string contain only lowercase letters.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution387
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution387 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int FirstUniqChar(string s)
-        {
+        public int FirstUniqChar (string s) {
             return 0;
         }
     }

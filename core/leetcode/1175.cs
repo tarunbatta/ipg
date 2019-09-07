@@ -33,17 +33,13 @@ Constraints:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution1175
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution1175 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int NumPrimeArrangements(int n)
-        {
+        public int NumPrimeArrangements (int n) {
             return 0;
         }
     }

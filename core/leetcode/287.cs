@@ -28,17 +28,13 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution287
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution287 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int FindDuplicate(int[] nums)
-        {
+        public int FindDuplicate (int[] nums) {
             return 0;
         }
     }

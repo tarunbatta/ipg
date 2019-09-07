@@ -20,15 +20,14 @@ The length of given array won&apos;t exceed 10000.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution503
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution503 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int[] NextGreaterElements(int[] nums) { }
+        public int[] NextGreaterElements (int[] nums) {
+            return null;
+        }
     }
 }

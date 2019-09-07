@@ -33,15 +33,14 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution523
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution523 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public bool CheckSubarraySum(int[] nums, int k) { }
+        public bool CheckSubarraySum (int[] nums, int k) {
+            return false;
+        }
     }
 }

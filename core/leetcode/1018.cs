@@ -44,16 +44,16 @@ Note:
 */
 
 using System;
+using System.Collections.Generic;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution1018
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution1018 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public IList<bool> PrefixesDivBy5(int[] A) { }
+        public IList<bool> PrefixesDivBy5 (int[] A) {
+            return null;
+        }
     }
 }

@@ -22,17 +22,13 @@ Note:&#xA0;If there are several possible values for h, the maximum one is taken 
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution274
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution274 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int HIndex(int[] citations)
-        {
+        public int HIndex (int[] citations) {
             return 0;
         }
     }

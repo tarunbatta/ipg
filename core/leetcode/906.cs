@@ -34,15 +34,14 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution906
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution906 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int SuperpalindromesInRange(string L, string R) { }
+        public int SuperpalindromesInRange (string L, string R) {
+            return 0;
+        }
     }
 }

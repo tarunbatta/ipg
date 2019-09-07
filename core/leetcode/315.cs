@@ -18,16 +18,16 @@ To the right of 1 there is 0 smaller element.
 */
 
 using System;
+using System.Collections.Generic;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution315
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution315 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public IList<int> CountSmaller(int[] nums) { }
+        public IList<int> CountSmaller (int[] nums) {
+            return null;
+        }
     }
 }

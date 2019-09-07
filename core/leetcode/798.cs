@@ -42,15 +42,14 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution798
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution798 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int BestRotation(int[] A) { }
+        public int BestRotation (int[] A) {
+            return 0;
+        }
     }
 }

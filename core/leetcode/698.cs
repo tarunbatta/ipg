@@ -26,15 +26,14 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution698
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution698 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public bool CanPartitionKSubsets(int[] nums, int k) { }
+        public bool CanPartitionKSubsets (int[] nums, int k) {
+            return false;
+        }
     }
 }

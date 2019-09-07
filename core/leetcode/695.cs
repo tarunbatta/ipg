@@ -31,15 +31,14 @@ Note: The length of each dimension in the given grid does not exceed 50.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution695
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution695 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int MaxAreaOfIsland(int[][] grid) { }
+        public int MaxAreaOfIsland (int[][] grid) {
+            return 0;
+        }
     }
 }

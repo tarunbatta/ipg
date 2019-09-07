@@ -24,16 +24,16 @@ The boundaries of each input argument are 1 &lt;= left &lt;= right &lt;= 10000.
 */
 
 using System;
+using System.Collections.Generic;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution728
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution728 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public IList<int> SelfDividingNumbers(int left, int right) { }
+        public IList<int> SelfDividingNumbers (int left, int right) {
+            return null;
+        }
     }
 }

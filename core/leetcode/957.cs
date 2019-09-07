@@ -63,15 +63,14 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution957
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution957 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int[] PrisonAfterNDays(int[] cells, int N) { }
+        public int[] PrisonAfterNDays (int[] cells, int N) {
+            return null;
+        }
     }
 }

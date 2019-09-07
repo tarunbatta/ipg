@@ -17,17 +17,13 @@ Explanation: The palindrome partitioning [&quot;aa&quot;,&quot;b&quot;] could be
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution132
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution132 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int MinCut(string s)
-        {
+        public int MinCut (string s) {
             return 0;
         }
     }

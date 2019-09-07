@@ -52,15 +52,14 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution874
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution874 {
+	public class Solution {
+		public void Init () {
 
-        }
+		}
 
-        public int RobotSim(int[] commands, int[][] obstacles) { }
-    }
+		public int RobotSim (int[] commands, int[][] obstacles) {
+			return 0;
+		}
+	}
 }

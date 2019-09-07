@@ -27,17 +27,13 @@ Explanation: You can allocate to the first, second and third child with 1, 2, 1 
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution135
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution135 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int Candy(int[] ratings)
-        {
+        public int Candy (int[] ratings) {
             return 0;
         }
     }

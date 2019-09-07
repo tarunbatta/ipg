@@ -42,16 +42,14 @@ Constraints:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution1138
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution1138 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public string AlphabetBoardPath(string target) {
-               return null; }
+        public string AlphabetBoardPath (string target) {
+            return null;
+        }
     }
 }

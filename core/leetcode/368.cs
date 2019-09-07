@@ -25,16 +25,16 @@ Output: [1,2,4,8]
 */
 
 using System;
+using System.Collections.Generic;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution368
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution368 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public IList<int> LargestDivisibleSubset(int[] nums) { }
+        public IList<int> LargestDivisibleSubset (int[] nums) {
+            return null;
+        }
     }
 }

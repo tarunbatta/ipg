@@ -32,15 +32,14 @@ The total number of elements of the given matrix will not exceed 10,000.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution498
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution498 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int[] FindDiagonalOrder(int[][] matrix) { }
+        public int[] FindDiagonalOrder (int[][] matrix) {
+            return null;
+        }
     }
 }

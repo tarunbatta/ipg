@@ -30,15 +30,14 @@ Explanation: It&apos;s the substring &quot;abc&quot; four times. (And the substr
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution459
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution459 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public bool RepeatedSubstringPattern(string s) { }
+        public bool RepeatedSubstringPattern (string s) {
+            return false;
+        }
     }
 }

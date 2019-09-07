@@ -24,15 +24,14 @@ You may assume that you have an infinite number of each kind of coin.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution322
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution322 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int CoinChange(int[] coins, int amount) { }
+        public int CoinChange (int[] coins, int amount) {
+            return 0;
+        }
     }
 }

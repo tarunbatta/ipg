@@ -31,15 +31,14 @@ The n belongs to [1, 10,000].
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution665
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution665 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public bool CheckPossibility(int[] nums) { }
+        public bool CheckPossibility (int[] nums) {
+            return false;
+        }
     }
 }

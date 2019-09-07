@@ -44,15 +44,14 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution881
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution881 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int NumRescueBoats(int[] people, int limit) { }
+        public int NumRescueBoats (int[] people, int limit) {
+            return 0;
+        }
     }
 }

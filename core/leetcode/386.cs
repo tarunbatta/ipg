@@ -12,16 +12,16 @@ Please optimize your algorithm to use less time and space. The input size may be
 */
 
 using System;
+using System.Collections.Generic;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution386
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution386 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public IList<int> LexicalOrder(int n) { }
+        public IList<int> LexicalOrder (int n) {
+            return null;
+        }
     }
 }

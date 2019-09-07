@@ -23,29 +23,23 @@ One possible answer is: [0,-3,9,-10,null,5], which represents the following heig
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution108
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution108 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public TreeNode SortedArrayToBST(int[] nums)
-        {
+        public TreeNode SortedArrayToBST (int[] nums) {
             return null;
         }
     }
 
-    public class TreeNode
-    {
+    public class TreeNode {
         public int val;
         public TreeNode left;
         public TreeNode right;
 
-        public TreeNode(int x)
-        {
+        public TreeNode (int x) {
             val = x;
         }
     }

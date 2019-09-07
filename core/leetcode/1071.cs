@@ -40,15 +40,14 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution1071
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution1071 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public string GcdOfStrings(string str1, string str2) { }
+        public string GcdOfStrings (string str1, string str2) {
+            return null;
+        }
     }
 }

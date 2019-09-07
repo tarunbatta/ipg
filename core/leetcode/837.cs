@@ -41,15 +41,14 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution837
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution837 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public double New21Game(int N, int K, int W) { }
+        public double New21Game (int N, int K, int W) {
+            return 0;
+        }
     }
 }

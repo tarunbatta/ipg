@@ -38,15 +38,14 @@ Special thanks to @pbrother for adding this problem and creating all test cases.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution377
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution377 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int CombinationSum4(int[] nums, int target) { }
+        public int CombinationSum4 (int[] nums, int target) {
+            return 0;
+        }
     }
 }

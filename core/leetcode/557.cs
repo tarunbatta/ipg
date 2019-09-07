@@ -18,15 +18,14 @@ In the string, each word is separated by single space and there will not be any 
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution557
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution557 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public string ReverseWords(string s) { }
+        public string ReverseWords (string s) {
+            return null;
+        }
     }
 }

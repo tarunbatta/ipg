@@ -61,17 +61,14 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution964
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution964 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int LeastOpsExpressTarget(int x, int target) {
-			  return 0;
-		 }
+        public int LeastOpsExpressTarget (int x, int target) {
+            return 0;
+        }
     }
 }

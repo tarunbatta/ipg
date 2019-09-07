@@ -22,15 +22,14 @@ Note: The length of the input array will not exceed 20,000.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution594
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution594 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int FindLHS(int[] nums) { }
+        public int FindLHS (int[] nums) {
+            return 0;
+        }
     }
 }

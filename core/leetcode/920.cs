@@ -53,15 +53,14 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution920
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution920 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int NumMusicPlaylists(int N, int L, int K) { }
+        public int NumMusicPlaylists (int N, int L, int K) {
+            return 0;
+        }
     }
 }

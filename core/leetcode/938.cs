@@ -35,29 +35,23 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution938
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution938 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int RangeSumBST(TreeNode root, int L, int R)
-        {
+        public int RangeSumBST (TreeNode root, int L, int R) {
             return 0;
         }
     }
 
-    public class TreeNode
-    {
+    public class TreeNode {
         public int val;
         public TreeNode left;
         public TreeNode right;
 
-        public TreeNode(int x)
-        {
+        public TreeNode (int x) {
             val = x;
         }
     }

@@ -32,17 +32,13 @@ Explanation: There exist two distinct solutions to the 4-queens puzzle as shown 
 using System;
 using System.Collections.Generic;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution51
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution51 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public IList<IList<string>> SolveNQueens(int n)
-        {
+        public IList<IList<string>> SolveNQueens (int n) {
             return null;
         }
     }

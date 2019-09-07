@@ -30,17 +30,13 @@ Output: 3
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution200
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution200 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int NumIslands(char[][] grid)
-        {
+        public int NumIslands (char[][] grid) {
             return 0;
         }
     }

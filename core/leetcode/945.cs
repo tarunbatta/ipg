@@ -42,15 +42,14 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution945
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution945 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int MinIncrementForUnique(int[] A) { }
+        public int MinIncrementForUnique (int[] A) {
+            return 0;
+        }
     }
 }

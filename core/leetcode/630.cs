@@ -34,15 +34,14 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution630
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution630 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int ScheduleCourse(int[][] courses) { }
+        public int ScheduleCourse (int[][] courses) {
+            return 0;
+        }
     }
 }

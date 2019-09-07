@@ -41,15 +41,14 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution1074
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution1074 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int NumSubmatrixSumTarget(int[][] matrix, int target) { }
+        public int NumSubmatrixSumTarget (int[][] matrix, int target) {
+            return 0;
+        }
     }
 }

@@ -40,16 +40,14 @@ Constraints:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution1130
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution1130 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int MctFromLeafValues(int[] arr) { 
-               return 0;}
+        public int MctFromLeafValues (int[] arr) {
+            return 0;
+        }
     }
 }

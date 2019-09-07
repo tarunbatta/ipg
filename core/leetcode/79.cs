@@ -24,17 +24,13 @@ Given word = &quot;ABCB&quot;, return false.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution79
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution79 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public bool Exist(char[][] board, string word)
-        {
+        public bool Exist (char[][] board, string word) {
             return false;
         }
     }

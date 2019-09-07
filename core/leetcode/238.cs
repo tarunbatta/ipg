@@ -20,17 +20,13 @@ Could you solve it with constant space complexity? (The output array does not co
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution238
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution238 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int[] ProductExceptSelf(int[] nums)
-        {
+        public int[] ProductExceptSelf (int[] nums) {
             return null;
         }
     }

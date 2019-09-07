@@ -43,17 +43,13 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution1162
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution1162 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int MaxDistance(int[][] grid)
-        {
+        public int MaxDistance (int[][] grid) {
             return 0;
         }
     }

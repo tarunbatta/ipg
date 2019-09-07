@@ -21,29 +21,23 @@ Output: The root of a Greater Tree like this:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution538
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution538 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public TreeNode ConvertBST(TreeNode root)
-        {
+        public TreeNode ConvertBST (TreeNode root) {
             return null;
         }
     }
 
-    public class TreeNode
-    {
+    public class TreeNode {
         public int val;
         public TreeNode left;
         public TreeNode right;
 
-        public TreeNode(int x)
-        {
+        public TreeNode (int x) {
             val = x;
         }
     }

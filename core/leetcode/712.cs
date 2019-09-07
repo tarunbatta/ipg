@@ -32,15 +32,14 @@ All elements of each string will have an ASCII value in [97, 122].
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution712
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution712 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int MinimumDeleteSum(string s1, string s2) { }
+        public int MinimumDeleteSum (string s1, string s2) {
+            return 0;
+        }
     }
 }

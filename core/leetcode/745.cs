@@ -33,7 +33,21 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution745
-{
-    public class WordFilter {​    public WordFilter(string[] words) { } public int F(string prefix, string suffix) { } }​/** * Your WordFilter object will be instantiated and called as such: * WordFilter obj = new WordFilter(words); * int param_1 = obj.F(prefix,suffix); *
+namespace InterviewPreperationGuide.Core.LeetCode.Solution745 {
+    public class Solution {
+        public void Init () {
+            WordFilter obj = new WordFilter (null);
+            int param_1 = obj.F (null, null);
+        }
+    }
+
+    public class WordFilter {
+        public WordFilter (string[] words) {
+
+        }
+
+        public int F (string prefix, string suffix) {
+            return 0;
+        }
+    }
 }

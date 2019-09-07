@@ -34,15 +34,14 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution1079
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution1079 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int NumTilePossibilities(string tiles) { }
+        public int NumTilePossibilities (string tiles) {
+            return 0;
+        }
     }
 }

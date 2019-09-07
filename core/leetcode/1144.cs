@@ -39,17 +39,14 @@ Constraints:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution1144
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution1144 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int MovesToMakeZigzag(int[] nums) {
-               return 0;
-         }
+        public int MovesToMakeZigzag (int[] nums) {
+            return 0;
+        }
     }
 }

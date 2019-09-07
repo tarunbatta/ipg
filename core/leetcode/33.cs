@@ -28,17 +28,13 @@ Output: -1
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution33
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution33 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int Search(int[] nums, int target)
-        {
+        public int Search (int[] nums, int target) {
             return 0;
         }
     }

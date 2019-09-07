@@ -23,15 +23,14 @@ The input array may contain duplicates, so ascending order here means &lt;=.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution581
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution581 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int FindUnsortedSubarray(int[] nums) { }
+        public int FindUnsortedSubarray (int[] nums) {
+            return 0;
+        }
     }
 }

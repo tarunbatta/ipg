@@ -64,16 +64,16 @@ Note:
 */
 
 using System;
+using System.Collections.Generic;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution916
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution916 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public IList<string> WordSubsets(string[] A, string[] B) { }
+        public IList<string> WordSubsets (string[] A, string[] B) {
+            return null;
+        }
     }
 }

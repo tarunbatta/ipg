@@ -50,15 +50,14 @@ The given r and c are all positive.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution566
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution566 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int[][] MatrixReshape(int[][] nums, int r, int c) { }
+        public int[][] MatrixReshape (int[][] nums, int r, int c) {
+            return null;
+        }
     }
 }

@@ -39,15 +39,14 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution803
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution803 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int[] HitBricks(int[][] grid, int[][] hits) { }
+        public int[] HitBricks (int[][] grid, int[][] hits) {
+            return null;
+        }
     }
 }

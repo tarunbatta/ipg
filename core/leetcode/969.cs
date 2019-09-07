@@ -45,17 +45,13 @@ Note:
 using System;
 using System.Collections.Generic;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution969
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution969 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public IList<int> PancakeSort(int[] A)
-        {
+        public IList<int> PancakeSort (int[] A) {
             return null;
         }
     }

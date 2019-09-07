@@ -57,15 +57,14 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution888
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution888 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int[] FairCandySwap(int[] A, int[] B) { }
+        public int[] FairCandySwap (int[] A, int[] B) {
+            return null;
+        }
     }
 }

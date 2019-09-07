@@ -66,29 +66,23 @@ The given binary tree has at least one tree node.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution623
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution623 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public TreeNode AddOneRow(TreeNode root, int v, int d)
-        {
+        public TreeNode AddOneRow (TreeNode root, int v, int d) {
             return null;
         }
     }
 
-    public class TreeNode
-    {
+    public class TreeNode {
         public int val;
         public TreeNode left;
         public TreeNode right;
 
-        public TreeNode(int x)
-        {
+        public TreeNode (int x) {
             val = x;
         }
     }

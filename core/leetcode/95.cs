@@ -30,29 +30,23 @@ The above output corresponds to the 5 unique BST&apos;s shown below:
 using System;
 using System.Collections.Generic;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution95
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution95 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public IList<TreeNode> GenerateTrees(int n)
-        {
+        public IList<TreeNode> GenerateTrees (int n) {
             return null;
         }
     }
 
-    public class TreeNode
-    {
+    public class TreeNode {
         public int val;
         public TreeNode left;
         public TreeNode right;
 
-        public TreeNode(int x)
-        {
+        public TreeNode (int x) {
             val = x;
         }
     }

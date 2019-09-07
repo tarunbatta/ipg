@@ -33,15 +33,14 @@ N is an integer in the range [0, 10^9].
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution738
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution738 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int MonotoneIncreasingDigits(int N) { }
+        public int MonotoneIncreasingDigits (int N) {
+            return 0;
+        }
     }
 }

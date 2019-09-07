@@ -40,45 +40,35 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution173
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            BSTIterator obj = new BSTIterator(null);
-            int param_1 = obj.Next();
-            bool param_2 = obj.HasNext();
+namespace InterviewPreperationGuide.Core.LeetCode.Solution173 {
+    public class Solution {
+        public void Init () {
+            BSTIterator obj = new BSTIterator (null);
+            int param_1 = obj.Next ();
+            bool param_2 = obj.HasNext ();
         }
     }
-    public class BSTIterator
-    {​   
-        public BSTIterator(TreeNode root)
-        {
+    public class BSTIterator {
+        public BSTIterator (TreeNode root) {
 
         }
 
         // @return the next smallest number
-        public int Next()
-        {
+        public int Next () {
             return 0;
         }
 
         // @return whether we have a next smallest number
-        public bool HasNext()
-        {
+        public bool HasNext () {
             return false;
         }
-    }​
-
-    public class TreeNode
-    {
+    }
+    public class TreeNode {
         public int val;
         public TreeNode left;
         public TreeNode right;
 
-        public TreeNode(int x)
-        {
+        public TreeNode (int x) {
             val = x;
         }
     }

@@ -41,15 +41,14 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution849
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution849 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int MaxDistToClosest(int[] seats) { }
+        public int MaxDistToClosest (int[] seats) {
+            return 0;
+        }
     }
 }

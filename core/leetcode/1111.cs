@@ -52,16 +52,14 @@ Constraints:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution1111
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution1111 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int[] MaxDepthAfterSplit(string seq) {
-               return null; }
+        public int[] MaxDepthAfterSplit (string seq) {
+            return null;
+        }
     }
 }

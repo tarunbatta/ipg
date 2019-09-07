@@ -30,15 +30,14 @@ The length and width of the given matrix are in the range of [1, 150].
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution661
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution661 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int[][] ImageSmoother(int[][] M) { }
+        public int[][] ImageSmoother (int[][] M) {
+            return null;
+        }
     }
 }

@@ -25,17 +25,13 @@ Output:
 using System;
 using System.Collections.Generic;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution118
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution118 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public IList<IList<int>> Generate(int numRows)
-        {
+        public IList<IList<int>> Generate (int numRows) {
             return null;
         }
     }

@@ -49,15 +49,14 @@ Explanation: The first 6 elements of magical string S is &quot;12211&quot; and i
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution481
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution481 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int MagicalString(int n) { }
+        public int MagicalString (int n) {
+            return 0;
+        }
     }
 }

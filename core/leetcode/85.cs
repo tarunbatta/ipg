@@ -20,17 +20,13 @@ Output: 6
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution85
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution85 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int MaximalRectangle(char[][] matrix)
-        {
+        public int MaximalRectangle (char[][] matrix) {
             return 0;
         }
     }

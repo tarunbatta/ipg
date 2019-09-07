@@ -42,15 +42,14 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution929
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution929 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int NumUniqueEmails(string[] emails) { }
+        public int NumUniqueEmails (string[] emails) {
+            return 0;
+        }
     }
 }

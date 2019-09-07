@@ -19,15 +19,14 @@ Explanation: The three ranges are : [0,0], [2,2], [0,2] and their respective sum
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution327
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution327 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int CountRangeSum(int[] nums, int lower, int upper) { }
+        public int CountRangeSum (int[] nums, int lower, int upper) {
+            return 0;
+        }
     }
 }

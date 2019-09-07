@@ -27,15 +27,14 @@ The above arrows point to positions where the corresponding bits are different.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution461
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution461 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int HammingDistance(int x, int y) { }
+        public int HammingDistance (int x, int y) {
+            return 0;
+        }
     }
 }

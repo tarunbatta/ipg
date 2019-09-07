@@ -22,15 +22,14 @@ The length of input array is a positive integer and will not exceed 10,000
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution485
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution485 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int FindMaxConsecutiveOnes(int[] nums) { }
+        public int FindMaxConsecutiveOnes (int[] nums) {
+            return 0;
+        }
     }
 }

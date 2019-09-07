@@ -20,17 +20,13 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution260
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution260 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int[] SingleNumber(int[] nums)
-        {
+        public int[] SingleNumber (int[] nums) {
             return null;
         }
     }

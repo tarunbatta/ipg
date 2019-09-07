@@ -35,15 +35,14 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution996
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution996 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int NumSquarefulPerms(int[] A) { }
+        public int NumSquarefulPerms (int[] A) {
+            return 0;
+        }
     }
 }

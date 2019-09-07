@@ -22,15 +22,14 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution363
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution363 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int MaxSumSubmatrix(int[][] matrix, int k) { }
+        public int MaxSumSubmatrix (int[][] matrix, int k) {
+            return 0;
+        }
     }
 }

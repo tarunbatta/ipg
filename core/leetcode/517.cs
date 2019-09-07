@@ -51,15 +51,14 @@ The range of dresses number in a super washing machine is [0, 1e5].
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution517
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution517 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int FindMinMoves(int[] machines) { }
+        public int FindMinMoves (int[] machines) {
+            return 0;
+        }
     }
 }

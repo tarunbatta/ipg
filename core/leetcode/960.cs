@@ -58,17 +58,14 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution960
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution960 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int MinDeletionSize(string[] A) { 
-              return 0;
+        public int MinDeletionSize (string[] A) {
+            return 0;
         }
     }
 }

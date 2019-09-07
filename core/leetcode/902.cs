@@ -44,15 +44,14 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution902
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution902 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int AtMostNGivenDigitSet(string[] D, int N) { }
+        public int AtMostNGivenDigitSet (string[] D, int N) {
+            return 0;
+        }
     }
 }

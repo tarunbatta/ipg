@@ -38,16 +38,19 @@ The input is two lists:&#xA0;the subroutines called&#xA0;and their&#xA0;argument
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution528
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution528 {
+    public class Solution {
+        public void Init () {
+            Solution obj = new Solution (null);
+            int param_1 = obj.PickIndex ();
+        }
+
+        public Solution (int[] w) {
 
         }
 
-​    public Solution(int[] w) { }
-        public int PickIndex() { }
-    }​/** * Your Solution object will be instantiated and called as such: * Solution obj = new Solution(w); * int param_1 = obj.PickIndex(); *
+        public int PickIndex () {
+            return 0;
+        }
+    }
 }

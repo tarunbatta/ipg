@@ -40,17 +40,14 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution984
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution984 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public string StrWithout3a3b(int A, int B) { 
-			return null;
-		}
+        public string StrWithout3a3b (int A, int B) {
+            return null;
+        }
     }
 }

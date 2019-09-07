@@ -39,16 +39,16 @@ Note:&#xA0;&#xA0;1 &lt;= S.length &lt;= 1000
 */
 
 using System;
+using System.Collections.Generic;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution830
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution830 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public IList<IList<int>> LargeGroupPositions(string S) { }
+        public IList<IList<int>> LargeGroupPositions (string S) {
+            return null;
+        }
     }
 }

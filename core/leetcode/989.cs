@@ -57,16 +57,16 @@ Note&#xFF1A;
 */
 
 using System;
+using System.Collections.Generic;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution989
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution989 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public IList<int> AddToArrayForm(int[] A, int K) { }
+        public IList<int> AddToArrayForm (int[] A, int K) {
+            return null;
+        }
     }
 }

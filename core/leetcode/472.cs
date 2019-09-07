@@ -25,16 +25,16 @@ The returned elements order does not matter.
 */
 
 using System;
+using System.Collections.Generic;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution472
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution472 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public IList<string> FindAllConcatenatedWordsInADict(string[] words) { }
+        public IList<string> FindAllConcatenatedWordsInADict (string[] words) {
+            return null;
+        }
     }
 }

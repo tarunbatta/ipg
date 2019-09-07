@@ -17,15 +17,14 @@ Explanation: The answer should be the total numbers in the range of 0 &#x2264; x
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution357
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution357 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int CountNumbersWithUniqueDigits(int n) { }
+        public int CountNumbersWithUniqueDigits (int n) {
+            return 0;
+        }
     }
 }

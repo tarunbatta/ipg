@@ -26,17 +26,13 @@ Explanation: The square root of 8 is 2.82842..., and since
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution69
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution69 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int MySqrt(int x)
-        {
+        public int MySqrt (int x) {
             return 0;
         }
     }

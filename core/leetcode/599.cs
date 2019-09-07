@@ -40,15 +40,14 @@ No duplicates in both lists.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution599
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution599 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public string[] FindRestaurant(string[] list1, string[] list2) { }
+        public string[] FindRestaurant (string[] list1, string[] list2) {
+            return null;
+        }
     }
 }

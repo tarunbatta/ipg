@@ -40,16 +40,19 @@ The input is two lists:&#xA0;the subroutines called&#xA0;and their&#xA0;argument
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution478
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution478 {
+    public class Solution {
+        public void Init () {
+            Solution obj = new Solution (0, 0, 0);
+            double[] param_1 = obj.RandPoint ();
+        }
+
+        public Solution (double radius, double x_center, double y_center) {
 
         }
 
-​    public Solution(double radius, double x_center, double y_center) { }
-        public double[] RandPoint() { }
-    }​/** * Your Solution object will be instantiated and called as such: * Solution obj = new Solution(radius, x_center, y_center); * double[] param_1 = obj.RandPoint(); *
+        public double[] RandPoint () {
+            return null;
+        }
+    }
 }

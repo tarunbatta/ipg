@@ -33,7 +33,24 @@ Please remember to RESET your class variables declared in class MagicDictionary,
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution676
-{
-    public class MagicDictionary {​    /** Initialize your data structure here. */    public MagicDictionary() { }        /** Build a dictionary through a list of words */    public void BuildDict(string[] dict) { }        /** Returns if there is any word in the trie that equals to the given word after modifying exactly one character */    public bool Search(string word) { } }​/** * Your MagicDictionary object will be instantiated and called as such: * MagicDictionary obj = new MagicDictionary(); * obj.BuildDict(dict); * bool param_2 = obj.Search(word); *
+namespace InterviewPreperationGuide.Core.LeetCode.Solution676 {
+    public class Solution {
+        public void Init () {
+            MagicDictionary obj = new MagicDictionary ();
+            obj.BuildDict (null);
+            bool param_2 = obj.Search (null);
+        }
+    }
+
+    public class MagicDictionary {
+        public MagicDictionary () { }    
+
+        // Build a dictionary through a list of words
+        public void BuildDict (string[] dict) { }    
+
+        // Returns if there is any word in the trie that equals to the given word after modifying exactly one character  
+        public bool Search (string word) {
+            return false;
+        }
+    }
 }

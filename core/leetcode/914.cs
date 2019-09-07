@@ -75,15 +75,14 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution914
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution914 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public bool HasGroupsSizeX(int[] deck) { }
+        public bool HasGroupsSizeX (int[] deck) {
+            return false;
+        }
     }
 }

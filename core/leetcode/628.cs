@@ -34,15 +34,14 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution628
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution628 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int MaximumProduct(int[] nums) { }
+        public int MaximumProduct (int[] nums) {
+            return 0;
+        }
     }
 }

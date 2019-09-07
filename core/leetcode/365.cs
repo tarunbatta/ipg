@@ -30,15 +30,14 @@ Output: False
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution365
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution365 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public bool CanMeasureWater(int x, int y, int z) { }
+        public bool CanMeasureWater (int x, int y, int z) {
+            return false;
+        }
     }
 }

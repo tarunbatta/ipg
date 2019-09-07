@@ -47,16 +47,14 @@ Constraints:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution1103
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution1103 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int[] DistributeCandies(int candies, int num_people) {
-               return null; }
+        public int[] DistributeCandies (int candies, int num_people) {
+            return null;
+        }
     }
 }

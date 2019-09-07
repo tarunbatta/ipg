@@ -27,18 +27,14 @@ Output: []
 using System;
 using System.Collections.Generic;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution30
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution30 {
+  public class Solution {
+    public void Init () {
 
-        }
-
-        public IList<int> FindSubstring(string s, string[] words)
-        {
-            return null;
-        }
     }
+
+    public IList<int> FindSubstring (string s, string[] words) {
+      return null;
+    }
+  }
 }

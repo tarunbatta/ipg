@@ -31,15 +31,14 @@ where the largest sum among the two subarrays is only 18.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution410
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution410 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int SplitArray(int[] nums, int m) { }
+        public int SplitArray (int[] nums, int m) {
+            return 0;
+        }
     }
 }

@@ -41,17 +41,25 @@ Explanation: &quot;foobar&quot; is being output 2 times.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution1115
-{
-    public class FooBar
-    {
-        private int n;​ 
-        
-           public FooBar(int n) { this.n = n; }​    public void Foo(Action printFoo)
-        {
-            for (int i = 0; i < n; i++)
-            {                        // printFoo() outputs "foo". Do not change or remove this line.            printFoo();        }    }​    public void Bar(Action printBar) {                for (int i = 0; i < n; i++) {                        // printBar() outputs "bar". Do not change or remove this line.            printBar();        }    }}
-            }
-        }
+namespace InterviewPreperationGuide.Core.LeetCode.Solution1115 {
+  public class Solution {
+    public void Init () {
+
     }
+  }
+
+  public class FooBar {
+    private int n;  
+
+    public FooBar (int n) {
+      this.n = n;
+    }
+
+    public void Foo (Action printFoo) {
+      for (int i = 0; i < n; i++) {
+        // printFoo() outputs "foo". Do not change or remove this line.            printFoo();        }    }​    public void Bar(Action printBar) {                for (int i = 0; i < n; i++) {                        
+        // printBar() outputs "bar". Do not change or remove this line.            printBar();        }    }}
+      }
+    }
+  }
 }

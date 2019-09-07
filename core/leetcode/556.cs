@@ -25,15 +25,14 @@ Output: -1
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution556
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution556 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int NextGreaterElement(int n) { }
+        public int NextGreaterElement (int n) {
+            return 0;
+        }
     }
 }

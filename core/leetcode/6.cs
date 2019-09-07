@@ -32,17 +32,13 @@ P     I
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution6
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution6 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public string Convert(string s, int numRows)
-        {
+        public string Convert (string s, int numRows) {
             return null;
         }
     }

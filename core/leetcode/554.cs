@@ -39,16 +39,16 @@ Note:
 */
 
 using System;
+using System.Collections.Generic;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution554
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution554 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int LeastBricks(IList<IList<int>> wall) { }
+        public int LeastBricks (IList<IList<int>> wall) {
+            return 0;
+        }
     }
 }

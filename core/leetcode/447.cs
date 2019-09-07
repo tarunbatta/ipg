@@ -25,15 +25,14 @@ The two boomerangs are [[1,0],[0,0],[2,0]] and [[1,0],[2,0],[0,0]]
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution447
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution447 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int NumberOfBoomerangs(int[][] points) { }
+        public int NumberOfBoomerangs (int[][] points) {
+            return 0;
+        }
     }
 }

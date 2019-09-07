@@ -26,7 +26,26 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution307
-{
-    public class NumArray {​    public NumArray(int[] nums) { } public void Update(int i, int val) { } public int SumRange(int i, int j) { } }​/** * Your NumArray object will be instantiated and called as such: * NumArray obj = new NumArray(nums); * obj.Update(i,val); * int param_2 = obj.SumRange(i,j); *
+namespace InterviewPreperationGuide.Core.LeetCode.Solution307 {
+    public class Solution {
+        public void Init () {
+            NumArray obj = new NumArray (null);
+            obj.Update (0, 0);
+            int param_2 = obj.SumRange (0, 0);
+        }
+    }
+
+    public class NumArray {
+        public NumArray (int[] nums) {
+
+        }
+
+        public void Update (int i, int val) {
+
+        }
+
+        public int SumRange (int i, int j) {
+            return 0;
+        }
+    }
 }

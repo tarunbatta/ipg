@@ -23,16 +23,16 @@ Explanation: The palindromes are [&quot;battab&quot;,&quot;tabbat&quot;]
 */
 
 using System;
+using System.Collections.Generic;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution336
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution336 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public IList<IList<int>> PalindromePairs(string[] words) { }
+        public IList<IList<int>> PalindromePairs (string[] words) {
+            return null;
+        }
     }
 }

@@ -32,45 +32,36 @@ minStack.getMin();   --&gt; Returns -2.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution155
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            MinStack obj = new MinStack();
-            obj.Push(1);
-            obj.Pop();
-            int param_3 = obj.Top();
-            int param_4 = obj.GetMin();
+namespace InterviewPreperationGuide.Core.LeetCode.Solution155 {
+    public class Solution {
+        public void Init () {
+            MinStack obj = new MinStack ();
+            obj.Push (1);
+            obj.Pop ();
+            int param_3 = obj.Top ();
+            int param_4 = obj.GetMin ();
         }
     }
 
-    public class MinStack
-    {
-        public MinStack()
-        {
+    public class MinStack {
+        public MinStack () {
 
         }
 
-        public void Push(int x)
-        {
+        public void Push (int x) {
 
         }
 
-        public void Pop()
-        {
+        public void Pop () {
 
         }
 
-        public int Top()
-        {
+        public int Top () {
             return 0;
         }
 
-        public int GetMin()
-        {
+        public int GetMin () {
             return 0;
         }
-    }​
+    }
 }

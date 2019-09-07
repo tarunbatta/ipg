@@ -27,88 +27,69 @@ S is guaranteed to be a special binary string as defined above.
 using System;
 using System.Collections.Generic;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution761
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine(MakeLargestSpecial(null));
-            Console.WriteLine(MakeLargestSpecial("11011000"));
+namespace InterviewPreperationGuide.Core.LeetCode.Solution761 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine (MakeLargestSpecial (null));
+            Console.WriteLine (MakeLargestSpecial ("11011000"));
         }
 
-        public string MakeLargestSpecial(string S)
-        {
+        public string MakeLargestSpecial (string S) {
             string result = string.Empty;
 
-            if (string.IsNullOrEmpty(S))
-            {
+            if (string.IsNullOrEmpty (S)) {
                 return result;
             }
 
-            Dictionary<string, string> visited = new Dictionary<string, string>();
-            result = GetLargest(S, visited);
+            Dictionary<string, string> visited = new Dictionary<string, string> ();
+            result = GetLargest (S, visited);
 
             return result;
         }
 
-        private string GetLargest(string s, Dictionary<string, string> visited)
-        {
-            if (visited.ContainsKey(s))
-            {
+        private string GetLargest (string s, Dictionary<string, string> visited) {
+            if (visited.ContainsKey (s)) {
                 return visited[s];
             }
 
             string result = s;
 
-            for (int i = 0; i < s.Length; i++)
-            {
-                for (int j = i + 1; j < s.Length; j++)
-                {
-                    string first = s.Substring(i, j - i);
+            for (int i = 0; i < s.Length; i++) {
+                for (int j = i + 1; j < s.Length; j++) {
+                    string first = s.Substring (i, j - i);
 
-                    if (!CheckSpecial(first))
-                    {
+                    if (!CheckSpecial (first)) {
                         continue;
                     }
 
-                    for (int k = j + 1; k < s.Length; k++)
-                    {
-                        string second = s.Substring(j, k - j + 1);
+                    for (int k = j + 1; k < s.Length; k++) {
+                        string second = s.Substring (j, k - j + 1);
                         string check1 = second + first, check2 = first + second;
 
-                        if (!CheckSpecial(second) || check1.CompareTo(check2) <= 0)
-                        {
+                        if (!CheckSpecial (second) || check1.CompareTo (check2) <= 0) {
                             continue;
                         }
 
-                        string answer = s.Substring(0, i) + second + first + s.Substring(k + 1, s.Length - k - 1);
-                        if (answer.CompareTo(result) > 0)
-                        {
+                        string answer = s.Substring (0, i) + second + first + s.Substring (k + 1, s.Length - k - 1);
+                        if (answer.CompareTo (result) > 0) {
                             result = answer;
                         }
                     }
                 }
             }
-            visited.Add(s, result);
-            return GetLargest(result, visited);
+            visited.Add (s, result);
+            return GetLargest (result, visited);
         }
 
-        private bool CheckSpecial(string first)
-        {
+        private bool CheckSpecial (string first) {
             int check = 0;
 
-            for (int i = 0; i < first.Length; i++)
-            {
-                if (first[i] == '1')
-                {
+            for (int i = 0; i < first.Length; i++) {
+                if (first[i] == '1') {
                     check++;
-                }
-                else
-                {
+                } else {
                     check--;
-                    if (check < 0)
-                    {
+                    if (check < 0) {
                         return false;
                     }
                 }

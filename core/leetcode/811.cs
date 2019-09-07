@@ -41,16 +41,16 @@ Notes:
 */
 
 using System;
+using System.Collections.Generic;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution811
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution811 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public IList<string> SubdomainVisits(string[] cpdomains) { }
+        public IList<string> SubdomainVisits (string[] cpdomains) {
+            return null;
+        }
     }
 }

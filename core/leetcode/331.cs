@@ -42,15 +42,14 @@ Output: false
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution331
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution331 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public bool IsValidSerialization(string preorder) { }
+        public bool IsValidSerialization (string preorder) {
+            return false;
+        }
     }
 }

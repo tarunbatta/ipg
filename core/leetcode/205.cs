@@ -32,17 +32,13 @@ You may assume both s&#xA0;and t&#xA0;have the same length.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution205
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution205 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public bool IsIsomorphic(string s, string t)
-        {
+        public bool IsIsomorphic (string s, string t) {
             return false;
         }
     }

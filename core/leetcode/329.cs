@@ -34,15 +34,14 @@ Explanation: The longest increasing path is [3, 4, 5, 6]. Moving diagonally is n
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution329
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution329 {
+  public class Solution {
+    public void Init () {
 
-        }
-
-        public int LongestIncreasingPath(int[][] matrix) { }
     }
+
+    public int LongestIncreasingPath (int[][] matrix) {
+      return 0;
+    }
+  }
 }

@@ -22,17 +22,13 @@ Explanation:&#xA0;The result cannot be 2, because [-2,-1] is not a subarray.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution152
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution152 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int MaxProduct(int[] nums)
-        {
+        public int MaxProduct (int[] nums) {
             return 0;
         }
     }

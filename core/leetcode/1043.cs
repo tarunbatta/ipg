@@ -27,15 +27,14 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution1043
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution1043 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int MaxSumAfterPartitioning(int[] A, int K) { }
+        public int MaxSumAfterPartitioning (int[] A, int K) {
+            return 0;
+        }
     }
 }

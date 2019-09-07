@@ -21,17 +21,13 @@ Explanation: 13 = 4 + 9.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution279
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution279 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int NumSquares(int n)
-        {
+        public int NumSquares (int n) {
             return 0;
         }
     }

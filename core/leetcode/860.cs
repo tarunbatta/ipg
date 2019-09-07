@@ -65,15 +65,14 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution860
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution860 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public bool LemonadeChange(int[] bills) { }
+        public bool LemonadeChange (int[] bills) {
+            return false;
+        }
     }
 }

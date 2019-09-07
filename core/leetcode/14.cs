@@ -24,17 +24,13 @@ All given inputs are in lowercase letters a-z.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution14
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution14 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public string LongestCommonPrefix(string[] strs)
-        {
+        public string LongestCommonPrefix (string[] strs) {
             return null;
         }
     }

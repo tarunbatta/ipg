@@ -25,17 +25,13 @@ Output:
 using System;
 using System.Collections.Generic;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution90
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution90 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public IList<IList<int>> SubsetsWithDup(int[] nums)
-        {
+        public IList<IList<int>> SubsetsWithDup (int[] nums) {
             return null;
         }
     }

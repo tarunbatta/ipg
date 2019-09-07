@@ -36,15 +36,14 @@ target will be a non-zero integer in the range [-10^9, 10^9].
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution754
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution754 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int ReachNumber(int target) { }
+        public int ReachNumber (int target) {
+            return 0;
+        }
     }
 }

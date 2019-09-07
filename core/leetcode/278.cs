@@ -23,20 +23,15 @@ Then 4 is the first bad version.&#xA0;
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution278
-{
-    public class Solution : VersionControl
-    {
-        public int FirstBadVersion(int n)
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution278 {
+    public class Solution : VersionControl {
+        public int FirstBadVersion (int n) {
             return 0;
         }
     }
 
-    public class VersionControl
-    {
-        public bool IsBadVersion(int version)
-        {
+    public class VersionControl {
+        public bool IsBadVersion (int version) {
             return false;
         }
     }

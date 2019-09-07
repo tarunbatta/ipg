@@ -33,16 +33,23 @@ Return 3. The paths that sum to 8 are:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution437
-{
-    /** * Definition for a binary tree node. * public class TreeNode { *     public int val; *     public TreeNode left; *     public TreeNode right; *     public TreeNode(int x) { val = x; } * } */
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution437 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int PathSum(TreeNode root, int sum) { }
+        public int PathSum (TreeNode root, int sum) {
+            return 0;
+        }
+    }
+
+    public class TreeNode {  
+        public int val;  
+        public TreeNode left;  
+        public TreeNode right;  
+        public TreeNode (int x) {
+            val = x;
+        }
     }
 }

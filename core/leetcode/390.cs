@@ -26,15 +26,14 @@ Output:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution390
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution390 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int LastRemaining(int n) { }
+        public int LastRemaining (int n) {
+            return 0;
+        }
     }
 }

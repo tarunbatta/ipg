@@ -22,15 +22,14 @@ Output: 1
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution371
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution371 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int GetSum(int a, int b) { }
+        public int GetSum (int a, int b) {
+            return 0;
+        }
     }
 }

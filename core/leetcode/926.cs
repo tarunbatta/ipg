@@ -47,18 +47,14 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution926
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution926 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int MinFlipsMonoIncr(string S)
-        {
-
+        public int MinFlipsMonoIncr (string S) {
+            return 0;
         }
     }
 }

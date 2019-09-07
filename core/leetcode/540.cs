@@ -27,15 +27,14 @@ Note: Your solution should run in O(log n) time and O(1) space.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution540
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution540 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int SingleNonDuplicate(int[] nums) { }
+        public int SingleNonDuplicate (int[] nums) {
+            return 0;
+        }
     }
 }

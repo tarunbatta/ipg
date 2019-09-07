@@ -33,15 +33,14 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution689
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution689 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int[] MaxSumOfThreeSubarrays(int[] nums, int k) { }
+        public int[] MaxSumOfThreeSubarrays (int[] nums, int k) {
+            return null;
+        }
     }
 }

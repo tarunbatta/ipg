@@ -50,15 +50,14 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution1091
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution1091 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int ShortestPathBinaryMatrix(int[][] grid) { }
+        public int ShortestPathBinaryMatrix (int[][] grid) {
+            return 0;
+        }
     }
 }

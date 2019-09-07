@@ -47,15 +47,14 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution942
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution942 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int[] DiStringMatch(string S) { }
+        public int[] DiStringMatch (string S) {
+            return null;
+        }
     }
 }

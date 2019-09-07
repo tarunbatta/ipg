@@ -9,7 +9,6 @@ Hard
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution579
-{
+namespace InterviewPreperationGuide.Core.LeetCode.Solution579 {
     // {{ MISSING CODE }}
 }

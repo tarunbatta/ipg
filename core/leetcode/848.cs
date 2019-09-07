@@ -34,15 +34,14 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution848
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution848 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public string ShiftingLetters(string S, int[] shifts) { }
+        public string ShiftingLetters (string S, int[] shifts) {
+            return null;
+        }
     }
 }

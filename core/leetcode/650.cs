@@ -39,15 +39,14 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution650
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution650 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int MinSteps(int n) { }
+        public int MinSteps (int n) {
+            return 0;
+        }
     }
 }

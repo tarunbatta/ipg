@@ -35,15 +35,14 @@ Constraints:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution1093
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution1093 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public double[] SampleStats(int[] count) { }
+        public double[] SampleStats (int[] count) {
+            return null;
+        }
     }
 }

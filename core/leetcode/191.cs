@@ -46,17 +46,13 @@ If this function is called many times, how would you optimize it?
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution191
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution191 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int HammingWeight(uint n)
-        {
+        public int HammingWeight (uint n) {
             return 0;
         }
     }

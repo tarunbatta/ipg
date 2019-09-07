@@ -44,17 +44,13 @@ Follow up:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution289
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution289 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public void GameOfLife(int[][] board)
-        {
+        public void GameOfLife (int[][] board) {
 
         }
     }

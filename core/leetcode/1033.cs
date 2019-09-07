@@ -59,15 +59,14 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution1033
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution1033 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int[] NumMovesStones(int a, int b, int c) { }
+        public int[] NumMovesStones (int a, int b, int c) {
+            return null;
+        }
     }
 }

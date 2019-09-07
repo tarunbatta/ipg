@@ -37,16 +37,16 @@ The substring with start index = 2 is &quot;ab&quot;, which is an anagram of &qu
 */
 
 using System;
+using System.Collections.Generic;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution438
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution438 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public IList<int> FindAnagrams(string s, string p) { }
+        public IList<int> FindAnagrams (string s, string p) {
+            return null;
+        }
     }
 }

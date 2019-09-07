@@ -24,17 +24,13 @@ A solution set is:
 using System;
 using System.Collections.Generic;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution15
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution15 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public IList<IList<int>> ThreeSum(int[] nums)
-        {
+        public IList<IList<int>> ThreeSum (int[] nums) {
             return null;
         }
     }

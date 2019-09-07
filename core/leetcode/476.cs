@@ -28,15 +28,14 @@ Explanation: The binary representation of 1 is 1 (no leading zero bits), and its
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution476
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution476 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int FindComplement(int num) { }
+        public int FindComplement (int num) {
+            return 0;
+        }
     }
 }

@@ -27,17 +27,13 @@ Output: false
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution231
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution231 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public bool IsPowerOfTwo(int n)
-        {
+        public bool IsPowerOfTwo (int n) {
             return false;
         }
     }

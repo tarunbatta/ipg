@@ -29,16 +29,16 @@ The length of accounts[i][j] will be in the range [1, 30].
 */
 
 using System;
+using System.Collections.Generic;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution721
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution721 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public IList<IList<string>> AccountsMerge(IList<IList<string>> accounts) { }
+        public IList<IList<string>> AccountsMerge (IList<IList<string>> accounts) {
+            return null;
+        }
     }
 }

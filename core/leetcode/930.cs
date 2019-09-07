@@ -32,15 +32,14 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution930
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution930 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int NumSubarraysWithSum(int[] A, int S) { }
+        public int NumSubarraysWithSum (int[] A, int S) {
+            return 0;
+        }
     }
 }

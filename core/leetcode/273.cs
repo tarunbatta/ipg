@@ -31,17 +31,13 @@ Output: &quot;One Billion Two Hundred Thirty Four Million Five Hundred Sixty Sev
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution273
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution273 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public string NumberToWords(int num)
-        {
+        public string NumberToWords (int num) {
             return null;
         }
     }

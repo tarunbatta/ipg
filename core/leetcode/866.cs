@@ -50,15 +50,14 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution866
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution866 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int PrimePalindrome(int N) { }
+        public int PrimePalindrome (int N) {
+            return 0;
+        }
     }
 }

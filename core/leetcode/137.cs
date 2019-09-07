@@ -24,17 +24,13 @@ Output: 99
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution137
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution137 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int SingleNumber(int[] nums)
-        {
+        public int SingleNumber (int[] nums) {
             return 0;
         }
     }

@@ -24,17 +24,13 @@ Output: 49
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution11
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution11 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int MaxArea(int[] height)
-        {
+        public int MaxArea (int[] height) {
             return 0;
         }
     }

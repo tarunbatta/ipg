@@ -35,8 +35,16 @@ Note:&#xA0; Any solutions that attempt to circumvent the judge&#xA0;will result 
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution843
-{
-    /** * // This is the Master's API interface. * // You should not implement it, or speculate about its implementation * class Master { *     public int Guess(string word); * } */
-    class Solution { public void FindSecretWord(string[] wordlist, Master master) { } }
+namespace InterviewPreperationGuide.Core.LeetCode.Solution843 {
+    public class Solution {
+        public void FindSecretWord (string[] wordlist, Master master) {
+
+        }
+    }
+
+    public class Master {  
+        public int Guess (string word) {
+            return 0;
+        }
+    }
 }

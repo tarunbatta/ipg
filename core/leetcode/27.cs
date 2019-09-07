@@ -49,17 +49,13 @@ for (int i = 0; i &lt; len; i++) {
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution27
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution27 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int RemoveElement(int[] nums, int val)
-        {
+        public int RemoveElement (int[] nums, int val) {
             return 0;
         }
     }

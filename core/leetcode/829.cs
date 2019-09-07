@@ -29,15 +29,14 @@ Note:&#xA0;1 &lt;= N &lt;= 10 ^ 9.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution829
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution829 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int ConsecutiveNumbersSum(int N) { }
+        public int ConsecutiveNumbersSum (int N) {
+            return 0;
+        }
     }
 }

@@ -19,16 +19,16 @@ Output:
 */
 
 using System;
+using System.Collections.Generic;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution442
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution442 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public IList<int> FindDuplicates(int[] nums) { }
+        public IList<int> FindDuplicates (int[] nums) {
+            return null;
+        }
     }
 }

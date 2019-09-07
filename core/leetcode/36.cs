@@ -57,70 +57,60 @@ The given board size is always 9x9.
 using System;
 using System.Collections.Generic;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution36
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine(IsValidSudoku(null));
-            Console.WriteLine(IsValidSudoku(new char[][] {
-        new char[] { '5', '3', '.', '.', '7', '.', '.', '.', '.' },
-          new char[] { '6', '.', '.', '1', '9', '5', '.', '.', '.' },
-          new char[] { '.', '9', '8', '.', '.', '.', '.', '6', '.' },
-          new char[] { '8', '.', '.', '.', '6', '.', '.', '.', '3' },
-          new char[] { '4', '.', '.', '8', '.', '3', '.', '.', '1' },
-          new char[] { '7', '.', '.', '.', '2', '.', '.', '.', '6' },
-          new char[] { '.', '6', '.', '.', '.', '.', '2', '8', '.' },
-          new char[] { '.', '.', '.', '4', '1', '9', '.', '.', '5' },
-          new char[] { '.', '.', '.', '.', '8', '.', '.', '7', '9' }
-      }));
-            Console.WriteLine(IsValidSudoku(new char[][] {
-        new char[] { '8', '3', '.', '.', '7', '.', '.', '.', '.' },
-          new char[] { '6', '.', '.', '1', '9', '5', '.', '.', '.' },
-          new char[] { '.', '9', '8', '.', '.', '.', '.', '6', '.' },
-          new char[] { '8', '.', '.', '.', '6', '.', '.', '.', '3' },
-          new char[] { '4', '.', '.', '8', '.', '3', '.', '.', '1' },
-          new char[] { '7', '.', '.', '.', '2', '.', '.', '.', '6' },
-          new char[] { '.', '6', '.', '.', '.', '.', '2', '8', '.' },
-          new char[] { '.', '.', '.', '4', '1', '9', '.', '.', '5' },
-          new char[] { '.', '.', '.', '.', '8', '.', '.', '7', '9' }
-      }));
+namespace InterviewPreperationGuide.Core.LeetCode.Solution36 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine (IsValidSudoku (null));
+            Console.WriteLine (IsValidSudoku (new char[][] {
+                new char[] { '5', '3', '.', '.', '7', '.', '.', '.', '.' },
+                    new char[] { '6', '.', '.', '1', '9', '5', '.', '.', '.' },
+                    new char[] { '.', '9', '8', '.', '.', '.', '.', '6', '.' },
+                    new char[] { '8', '.', '.', '.', '6', '.', '.', '.', '3' },
+                    new char[] { '4', '.', '.', '8', '.', '3', '.', '.', '1' },
+                    new char[] { '7', '.', '.', '.', '2', '.', '.', '.', '6' },
+                    new char[] { '.', '6', '.', '.', '.', '.', '2', '8', '.' },
+                    new char[] { '.', '.', '.', '4', '1', '9', '.', '.', '5' },
+                    new char[] { '.', '.', '.', '.', '8', '.', '.', '7', '9' }
+            }));
+            Console.WriteLine (IsValidSudoku (new char[][] {
+                new char[] { '8', '3', '.', '.', '7', '.', '.', '.', '.' },
+                    new char[] { '6', '.', '.', '1', '9', '5', '.', '.', '.' },
+                    new char[] { '.', '9', '8', '.', '.', '.', '.', '6', '.' },
+                    new char[] { '8', '.', '.', '.', '6', '.', '.', '.', '3' },
+                    new char[] { '4', '.', '.', '8', '.', '3', '.', '.', '1' },
+                    new char[] { '7', '.', '.', '.', '2', '.', '.', '.', '6' },
+                    new char[] { '.', '6', '.', '.', '.', '.', '2', '8', '.' },
+                    new char[] { '.', '.', '.', '4', '1', '9', '.', '.', '5' },
+                    new char[] { '.', '.', '.', '.', '8', '.', '.', '7', '9' }
+            }));
         }
 
-        public bool IsValidSudoku(char[][] board)
-        {
-            if (board == null || board.Length != 9 || board[0].Length != 9)
-            {
+        public bool IsValidSudoku (char[][] board) {
+            if (board == null || board.Length != 9 || board[0].Length != 9) {
                 return false;
             }
 
             bool result = true;
 
             // row check
-            for (int i = 0; i < board.Length; i++)
-            {
-                HashSet<char> rows = new HashSet<char>();
-                HashSet<char> cols = new HashSet<char>();
-                HashSet<char> cube = new HashSet<char>();
+            for (int i = 0; i < board.Length; i++) {
+                HashSet<char> rows = new HashSet<char> ();
+                HashSet<char> cols = new HashSet<char> ();
+                HashSet<char> cube = new HashSet<char> ();
 
-                for (int j = 0; j < board[0].Length; j++)
-                {
-                    if (board[i][j] != '.' && !rows.Add(board[i][j]))
-                    {
+                for (int j = 0; j < board[0].Length; j++) {
+                    if (board[i][j] != '.' && !rows.Add (board[i][j])) {
                         return false;
                     }
 
-                    if (board[j][i] != '.' && !cols.Add(board[j][i]))
-                    {
+                    if (board[j][i] != '.' && !cols.Add (board[j][i])) {
                         return false;
                     }
 
                     int rowIndex = 3 * (i / 3);
                     int colIndex = 3 * (i % 3);
 
-                    if (board[rowIndex + j / 3][colIndex + j % 3] != '.' && !cube.Add(board[rowIndex + j / 3][colIndex + j % 3]))
-                    {
+                    if (board[rowIndex + j / 3][colIndex + j % 3] != '.' && !cube.Add (board[rowIndex + j / 3][colIndex + j % 3])) {
                         return false;
                     }
                 }

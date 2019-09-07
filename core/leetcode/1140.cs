@@ -32,16 +32,14 @@ Constraints:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution1140
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution1140 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int StoneGameII(int[] piles) { 
-               return 0;}
+        public int StoneGameII (int[] piles) {
+            return 0;
+        }
     }
 }

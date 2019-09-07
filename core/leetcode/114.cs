@@ -32,26 +32,21 @@ The flattened tree should look like:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution114
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution114 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public void Flatten(TreeNode root) { }
+        public void Flatten (TreeNode root) { }
     }
 
-    public class TreeNode
-    {
+    public class TreeNode {
         public int val;
         public TreeNode left;
         public TreeNode right;
 
-        public TreeNode(int x)
-        {
+        public TreeNode (int x) {
             val = x;
         }
     }

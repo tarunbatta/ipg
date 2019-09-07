@@ -49,15 +49,14 @@ Constraints:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution659
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution659 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public bool IsPossible(int[] nums) { }
+        public bool IsPossible (int[] nums) {
+            return false;
+        }
     }
 }

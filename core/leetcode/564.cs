@@ -22,15 +22,14 @@ If there is a tie, return the smaller one as answer.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution564
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution564 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public string NearestPalindromic(string n) { }
+        public string NearestPalindromic (string n) {
+            return null;
+        }
     }
 }

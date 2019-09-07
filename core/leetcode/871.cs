@@ -59,15 +59,14 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution871
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.Solution871 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int MinRefuelStops(int target, int startFuel, int[][] stations) { }
+        public int MinRefuelStops (int target, int startFuel, int[][] stations) {
+            return 0;
+        }
     }
 }
