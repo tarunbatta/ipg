@@ -26,11 +26,58 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution242 {
     public class Solution {
         public void Init () {
+            Console.WriteLine (IsAnagram_a (null, null));
+            Console.WriteLine (IsAnagram_a (null, "nagaram"));
+            Console.WriteLine (IsAnagram_a ("anagram", null));
+            Console.WriteLine (IsAnagram_a ("anagram", "nagaram"));
+            Console.WriteLine (IsAnagram_a ("rat", "car"));
 
+            Console.WriteLine (IsAnagram_b (null, null));
+            Console.WriteLine (IsAnagram_b ("anagram", "nagaram"));
+            Console.WriteLine (IsAnagram_b ("rat", "car"));
         }
 
-        public bool IsAnagram (string s, string t) {
-            return false;
+        public bool IsAnagram_a (string s, string t) {
+            if ((s == null && t != null) || (s != null && t == null) || (s != null && t != null && s.Length != t.Length)) {
+                return false;
+            }
+
+            bool result = true;
+            char[] sArray = s.ToCharArray ();
+            char[] tArray = t.ToCharArray ();
+
+            Array.Sort (sArray);
+            Array.Sort (tArray);
+
+            for (int i = 0; i < sArray.Length; i++) {
+                if (sArray[i] != tArray[i]) {
+                    return false;
+                }
+            }
+
+            return result;
+        }
+
+        public bool IsAnagram_b (string s, string t) {
+            if ((s == null && t != null) || (s != null && t == null) || (s != null && t != null && s.Length != t.Length)) {
+                return false;
+            }
+
+            bool result = true;
+            int[] count = new int[26];
+
+            for (int i = 0; i < s.Length; i++) {
+                count[s[i] - 'a']++;
+                count[t[i] - 'a']--;
+            }
+
+            for (int i = 0; i < count.Length; i++) {
+                if (count[i] != 0) {
+                    return false;
+                }
+            }
+
+            return result;
         }
     }
 }

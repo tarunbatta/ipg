@@ -23,11 +23,38 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution125 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine (IsPalindrome (null));
+            Console.WriteLine (IsPalindrome (""));
+            Console.WriteLine (IsPalindrome ("madam"));
+            Console.WriteLine (IsPalindrome ("A man, a plan, a canal: Panama"));
+            Console.WriteLine (IsPalindrome ("race a car"));
         }
 
         public bool IsPalindrome (string s) {
-            return false;
+            if (s == null || s.Length <= 1) {
+                return true;
+            }
+
+            bool result = true;
+            int i = 0;
+            int j = s.Length - 1;
+
+            while (i < j) {
+                if (!char.IsLetterOrDigit (s[i])) {
+                    i++;
+                } else if (!char.IsLetterOrDigit (s[j])) {
+                    j--;
+                } else {
+                    if (char.ToLower (s[i]) != char.ToLower (s[j])) {
+                        return false;
+                    }
+
+                    i++;
+                    j--;
+                }
+            }
+
+            return result;
         }
     }
 }

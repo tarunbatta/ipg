@@ -27,11 +27,26 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution7 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine (Reverse (0));
+            Console.WriteLine (Reverse (123));
+            Console.WriteLine (Reverse (-321));
+            Console.WriteLine (Reverse (120));
         }
 
         public int Reverse (int x) {
-            return 0;
+            int result = 0;
+
+            while (x != 0) {
+                int pop = x % 10;
+                x /= 10;
+
+                if (result > Int32.MaxValue / 10 || (result == Int32.MaxValue / 10 && pop > 7)) return 0;
+                if (result < Int32.MinValue / 10 || (result == Int32.MinValue / 10 && pop < -8)) return 0;
+
+                result = result * 10 + pop;
+            }
+
+            return result;
         }
     }
 }
