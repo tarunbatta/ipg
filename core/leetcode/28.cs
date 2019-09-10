@@ -27,16 +27,63 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution28 {
     public class Solution {
         public void Init () {
-            Console.WriteLine (StrStr (null, null));
-            Console.WriteLine (StrStr ("", ""));
-            Console.WriteLine (StrStr ("hello", null));
-            Console.WriteLine (StrStr (null, "ll"));
-            Console.WriteLine (StrStr ("hello", "ll"));
-            Console.WriteLine (StrStr ("aaaaa", "bba"));
+            Console.WriteLine (StrStr_a (null, null));
+            Console.WriteLine (StrStr_a ("", ""));
+            Console.WriteLine (StrStr_a ("hello", null));
+            Console.WriteLine (StrStr_a (null, "ll"));
+            Console.WriteLine (StrStr_a ("hello", "ll"));
+            Console.WriteLine (StrStr_a ("aaaaa", "bba"));
+
+            Console.WriteLine (StrStr_b (null, null));
+            Console.WriteLine (StrStr_b ("", ""));
+            Console.WriteLine (StrStr_b ("hello", null));
+            Console.WriteLine (StrStr_b (null, "ll"));
+            Console.WriteLine (StrStr_b ("hello", "ll"));
+            Console.WriteLine (StrStr_b ("aaaaa", "bba"));
         }
 
-        public int StrStr (string haystack, string needle) {
-            return 0;
+        public int StrStr_a (string haystack, string needle) {
+            if ((haystack == null && needle != null) || (haystack != null && needle == null) || (haystack != null && needle != null && haystack.Length < needle.Length)) {
+                return -1;
+            }
+
+            if ((haystack == null && needle == null) || (haystack != null && needle != null && haystack.Length == 0 && needle.Length == 0)) {
+                return 0;
+            }
+
+            int result = -1;
+
+            for (int i = 0; i < haystack.Length - needle.Length; i++) {
+                int j = 0;
+
+                for (; j < needle.Length; j++) {
+                    if (haystack[i + j] != needle[j]) {
+                        break;
+                    }
+                }
+
+                if (j == needle.Length) {
+                    return i;
+                }
+            }
+
+            return result;
+        }
+
+        public int StrStr_b (string haystack, string needle) {
+            if ((haystack == null && needle != null) || (haystack != null && needle == null) || (haystack != null && needle != null && haystack.Length < needle.Length)) {
+                return -1;
+            }
+
+            if ((haystack == null && needle == null) || (haystack != null && needle != null && haystack.Length == 0 && needle.Length == 0)) {
+                return 0;
+            }
+
+            int result = -1;
+
+            // TODO KMP
+
+            return result;
         }
     }
 }
