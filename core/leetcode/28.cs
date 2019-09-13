@@ -31,6 +31,7 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution28 {
             Console.WriteLine (StrStr_a ("", ""));
             Console.WriteLine (StrStr_a ("hello", null));
             Console.WriteLine (StrStr_a (null, "ll"));
+            Console.WriteLine (StrStr_a ("a", "a"));
             Console.WriteLine (StrStr_a ("hello", "ll"));
             Console.WriteLine (StrStr_a ("aaaaa", "bba"));
 
@@ -43,26 +44,35 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution28 {
         }
 
         public int StrStr_a (string haystack, string needle) {
-            if ((haystack == null && needle != null) || (haystack != null && needle == null) || (haystack != null && needle != null && haystack.Length < needle.Length)) {
+            if (needle == null) {
                 return -1;
             }
 
-            if ((haystack == null && needle == null) || (haystack != null && needle != null && haystack.Length == 0 && needle.Length == 0)) {
+            if (haystack == null) {
+                return -1;
+            }
+
+            int l1 = haystack.Length;
+            int l2 = needle.Length;
+
+            if (l1 < l2) {
+                return -1;
+            } else if (l2 == 0) {
                 return 0;
             }
 
             int result = -1;
 
-            for (int i = 0; i < haystack.Length - needle.Length; i++) {
+            for (int i = 0; i <= l1 - l2; i++) {
                 int j = 0;
 
-                for (; j < needle.Length; j++) {
+                for (; j < l2; j++) {
                     if (haystack[i + j] != needle[j]) {
                         break;
                     }
                 }
 
-                if (j == needle.Length) {
+                if (j == l2) {
                     return i;
                 }
             }
