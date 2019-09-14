@@ -8,7 +8,7 @@ Given the root node of a binary search tree, return the sum of values of all nod
 
 The binary search tree is guaranteed to have unique values.
 
-&#xA0;
+ 
 
 
 Example 1:
@@ -24,7 +24,7 @@ Input: root = [10,5,15,3,7,13,18,1,null,6], L = 6, R = 10
 Output: 23
 
 
-&#xA0;
+ 
 
 Note:
 

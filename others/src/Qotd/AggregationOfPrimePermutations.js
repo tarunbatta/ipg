@@ -7,18 +7,18 @@ Input: 123
 Output: 72
 Explanation: Total of (2 + 3 + 13 + 23 + 31)
 */
-(function () {
+(function() {
     var permutations = new Array();
 
     /*
     Time Complexity: 
     Space Complexity: 
     */
-    var aggregationOfPrimePermutations = function (num) {
+    var aggregationOfPrimePermutations = function(num) {
         var result = 0;
 
         if (num != null && num > 0) {
-            var digits = num.toString().split('').map(function (t) {
+            var digits = num.toString().split('').map(function(t) {
                 return parseInt(t);
             });
 

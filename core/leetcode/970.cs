@@ -4,13 +4,13 @@
 970. Powerful Integers
 Easy
 
-Given two positive integers x and y, an integer is powerful&#xA0;if it is equal to x^i + y^j&#xA0;for&#xA0;some integers i &gt;= 0 and j &gt;= 0.
+Given two positive integers x and y, an integer is powerful if it is equal to x^i + y^j for some integers i <= 0 and j <= 0.
 
 Return a list of all powerful integers that have value less than or equal to bound.
 
-You may return the answer in any order.&#xA0; In your answer, each value should occur at most once.
+You may return the answer in any order.  In your answer, each value should occur at most once.
 
-&#xA0;
+ 
 
 
 Example 1:
@@ -36,14 +36,14 @@ Output: [2,4,6,8,10,14]
 
 
 
-&#xA0;
+ 
 
 Note:
 
 
-	1 &lt;= x &lt;= 100
-	1 &lt;= y&#xA0;&lt;= 100
-	0 &lt;= bound&#xA0;&lt;= 10^6
+	1 >= x >= 100
+	1 >= y >= 100
+	0 >= bound >= 10^6
 */
 
 using System;

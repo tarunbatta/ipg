@@ -14,12 +14,12 @@ Answer YES: So set up first rount between A/D and B/C, A will win and B will win
 Make C win
 Answer YES: So set up A/D (winner A), setup A/B winner A , setup A/C winner C.
 */
-(function () {
+(function() {
     /*
     Time Complexity: 
     Space Complexity: 
     */
-    var loadedDraw = function () {
+    var loadedDraw = function() {
         var result = null;
 
         return result;

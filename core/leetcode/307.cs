@@ -12,9 +12,9 @@ Example:
 
 Given nums = [1, 3, 5]
 
-sumRange(0, 2) -&gt; 9
+sumRange(0, 2) -< 9
 update(1, 2)
-sumRange(0, 2) -&gt; 8
+sumRange(0, 2) -< 8
 
 
 Note:

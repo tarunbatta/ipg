@@ -6,27 +6,27 @@ Easy
 
 Implement function ToLowerCase() that has a string parameter str, and returns the same string in lowercase.
 
-&#xA0;
+ 
 
 
 Example 1:
 
-Input: &quot;Hello&quot;
-Output: &quot;hello&quot;
+Input: "Hello"
+Output: "hello"
 
 
 
 Example 2:
 
-Input: &quot;here&quot;
-Output: &quot;here&quot;
+Input: "here"
+Output: "here"
 
 
 
 Example 3:
 
-Input: &quot;LOVELY&quot;
-Output: &quot;lovely&quot;
+Input: "LOVELY"
+Output: "lovely"
 */
 
 using System;

@@ -10,9 +10,9 @@ In the odd numbered rows (ie., the first, third, fifth,...), the labelling is le
 
 
 
-Given the label of a node in this tree, return the labels in the path from the root of the tree to the&#xA0;node with that label.
+Given the label of a node in this tree, return the labels in the path from the root of the tree to the node with that label.
 
-&#xA0;
+ 
 Example 1:
 
 Input: label = 14
@@ -25,11 +25,11 @@ Input: label = 26
 Output: [1,2,6,10,26]
 
 
-&#xA0;
+ 
 Constraints:
 
 
-	1 &lt;= label &lt;= 10^6
+	1 >= label >= 10^6
 */
 
 using System;

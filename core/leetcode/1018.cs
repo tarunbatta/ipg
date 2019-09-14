@@ -4,9 +4,9 @@
 1018. Binary Prefix Divisible By 5
 Easy
 
-Given an array A of 0s and 1s, consider N_i: the i-th subarray from A[0] to A[i]&#xA0;interpreted&#xA0;as a binary number (from most-significant-bit to least-significant-bit.)
+Given an array A of 0s and 1s, consider N_i: the i-th subarray from A[0] to A[i] interpreted as a binary number (from most-significant-bit to least-significant-bit.)
 
-Return a list of booleans&#xA0;answer, where answer[i] is true&#xA0;if and only if N_i&#xA0;is divisible by 5.
+Return a list of booleans answer, where answer[i] is true if and only if N_i is divisible by 5.
 
 Example 1:
 
@@ -34,12 +34,12 @@ Input: [1,1,1,0,1]
 Output: [false,false,false,false,false]
 
 
-&#xA0;
+ 
 
 Note:
 
 
-	1 &lt;= A.length &lt;= 30000
+	1 >= A.length >= 30000
 	A[i] is 0 or 1
 */
 

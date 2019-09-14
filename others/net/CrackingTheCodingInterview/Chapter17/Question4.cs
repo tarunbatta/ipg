@@ -1,5 +1,4 @@
-﻿namespace TechByTarun.InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter17
-{
+﻿namespace TechByTarun.InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter17 {
     /// <summary>
     /// Missing Number: An array A contains all the integers from 0 to n, except for one number which
     /// is missing.In this problem, we cannot access an entire integer in A with a single operation.The
@@ -7,10 +6,7 @@
     /// the jth bit of A[i] ," which takes constant time. Write code to find the missing integer. Can you do
     /// it in O(n) time?
     /// </summary>
-    public class Question4
-    {
-        public static void Init(string[] args)
-        {
-        }
+    public class Question4 {
+        public static void Init (string[] args) { }
     }
 }

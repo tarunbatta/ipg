@@ -4,31 +4,31 @@
 753. Cracking the Safe
 Hard
 
-There is a box protected by a password. The password is a sequence of&#xA0;n digits&#xA0;where each digit can be one of the first k digits 0, 1, ..., k-1.
+There is a box protected by a password. The password is a sequence of n digits where each digit can be one of the first k digits 0, 1, ..., k-1.
 
-While entering a password,&#xA0;the last n digits entered will automatically be matched against the correct password.
+While entering a password, the last n digits entered will automatically be matched against the correct password.
 
-For example, assuming the correct password is &quot;345&quot;,&#xA0;if you type &quot;012345&quot;, the box will open because the correct password matches the suffix of the entered password.
+For example, assuming the correct password is "345", if you type "012345", the box will open because the correct password matches the suffix of the entered password.
 
 Return any password of minimum length that is guaranteed to open the box at some point of entering it.
 
-&#xA0;
+ 
 
 Example 1:
 
 Input: n = 1, k = 2
-Output: &quot;01&quot;
-Note: &quot;10&quot; will be accepted too.
+Output: "01"
+Note: "10" will be accepted too.
 
 
 Example 2:
 
 Input: n = 2, k = 2
-Output: &quot;00110&quot;
-Note: &quot;01100&quot;, &quot;10011&quot;, &quot;11001&quot; will be accepted too.
+Output: "00110"
+Note: "01100", "10011", "11001" will be accepted too.
 
 
-&#xA0;
+ 
 
 Note:
 
@@ -38,7 +38,7 @@ Note:
 	k^n will be at most 4096.
 
 
-&#xA0;
+ 
 */
 
 using System;

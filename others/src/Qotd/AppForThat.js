@@ -5,12 +5,12 @@ There are a few words to which you can insert the letters a,p,p to create a new 
 
 Basically your goal is to find pairs of words from a given word list (https://github.com/dwyl/english-words/blob/master/words.txt) that differ by exactly 3 letters (and those letters are a, p & p) in sequence.
 */
-(function () {
+(function() {
     /*
     Time Complexity: 
     Space Complexity: 
     */
-    var appForThat = function (word1, word2) {
+    var appForThat = function(word1, word2) {
         var result = [];
 
         if (word1 != null && word1.length > 0 && word2 != null && word2.length > 0) {

@@ -1,27 +1,22 @@
 ﻿using System;
 
-namespace TechByTarun.InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter0
-{
+namespace TechByTarun.InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter0 {
     /// <summary>
     /// Write code to swap the minimum and maximum element in an integer array.
     /// </summary>
-    internal class Question9
-    {
-        public static void Init(string[] args)
-        {
-            Console.WriteLine(SwapMinMax(new int[] { 4, 9, 5, 2, 3, 1, 7 }));
+    internal class Question9 {
+        public static void Init (string[] args) {
+            Console.WriteLine (SwapMinMax (new int[] { 4, 9, 5, 2, 3, 1, 7 }));
         }
 
-        private static string SwapMinMax(int[] arr)
-        {
-            int min = GetMinIndex(arr);
-            int max = GetMaxIndex(arr);
-            var newArray = Swap(arr, min, max);
-            return string.Join(",", newArray);
+        private static string SwapMinMax (int[] arr) {
+            int min = GetMinIndex (arr);
+            int max = GetMaxIndex (arr);
+            var newArray = Swap (arr, min, max);
+            return string.Join (",", newArray);
         }
 
-        private static int[] Swap(int[] arr, int min, int max)
-        {
+        private static int[] Swap (int[] arr, int min, int max) {
             int[] newArray = arr;
             int temp = 0;
 
@@ -32,19 +27,15 @@ namespace TechByTarun.InterviewPreperationGuide.App.CrackingTheCodingInterview.C
             return newArray;
         }
 
-        private static int GetMinIndex(int[] arr)
-        {
+        private static int GetMinIndex (int[] arr) {
             int result = -1;
 
-            if (arr != null && arr.Length > 0)
-            {
+            if (arr != null && arr.Length > 0) {
                 int min = arr[0];
                 result = 0;
 
-                for (int i = 1; i < arr.Length; i++)
-                {
-                    if (arr[i] <= min)
-                    {
+                for (int i = 1; i < arr.Length; i++) {
+                    if (arr[i] <= min) {
                         min = arr[i];
                         result = i;
                     }
@@ -54,19 +45,15 @@ namespace TechByTarun.InterviewPreperationGuide.App.CrackingTheCodingInterview.C
             return result;
         }
 
-        private static int GetMaxIndex(int[] arr)
-        {
+        private static int GetMaxIndex (int[] arr) {
             int result = -1;
 
-            if (arr != null && arr.Length > 0)
-            {
+            if (arr != null && arr.Length > 0) {
                 int max = arr[0];
                 result = 0;
 
-                for (int i = 1; i < arr.Length; i++)
-                {
-                    if (arr[i] >= max)
-                    {
+                for (int i = 1; i < arr.Length; i++) {
+                    if (arr[i] >= max) {
                         max = arr[i];
                         result = i;
                     }

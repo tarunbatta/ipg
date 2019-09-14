@@ -4,7 +4,7 @@
 195. Tenth Line
 Easy
 
-Given a text file&#xA0;file.txt, print&#xA0;just the 10th line of the&#xA0;file.
+Given a text file file.txt, print just the 10th line of the file.
 
 Example:
 
@@ -29,7 +29,7 @@ Line 10
 
 Note:
 1. If the file contains less than 10 lines, what should you output?
-2. There&apos;s at least three different solutions. Try to explore all possibilities.
+2. There's at least three different solutions. Try to explore all possibilities.
 */
 
 using System;

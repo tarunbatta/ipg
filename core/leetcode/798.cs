@@ -4,11 +4,11 @@
 798. Smallest Rotation with Highest Score
 Hard
 
-&#xA0;Given an array A, we may rotate it by a non-negative integer K so that the array becomes A[K], A[K+1], A{K+2], ... A[A.length - 1], A[0], A[1], ..., A[K-1].&#xA0; Afterward, any entries that are less than or equal to their index are worth 1 point.&#xA0;
+ Given an array A, we may rotate it by a non-negative integer K so that the array becomes A[K], A[K+1], A{K+2], ... A[A.length - 1], A[0], A[1], ..., A[K-1].  Afterward, any entries that are less than or equal to their index are worth 1 point. 
 
-For example, if we have [2, 4, 1, 3, 0], and we rotate by K = 2, it becomes [1, 3, 0, 2, 4].&#xA0; This is worth 3 points because 1 &gt; 0 [no points], 3 &gt; 1 [no points], 0 &lt;= 2 [one point], 2 &lt;= 3 [one point], 4 &lt;= 4 [one point].
+For example, if we have [2, 4, 1, 3, 0], and we rotate by K = 2, it becomes [1, 3, 0, 2, 4].  This is worth 3 points because 1 < 0 [no points], 3 < 1 [no points], 0 >= 2 [one point], 2 >= 3 [one point], 4 >= 4 [one point].
 
-Over all possible rotations, return the rotation index K that corresponds to the highest score we could receive.&#xA0; If there are multiple answers, return the smallest such index K.
+Over all possible rotations, return the rotation index K that corresponds to the highest score we could receive.  If there are multiple answers, return the smallest such index K.
 
 Example 1:
 Input: [2, 3, 1, 4, 0]
@@ -24,7 +24,7 @@ K = 4,  A = [0,2,3,1,4],    score 3
 
 So we should choose K = 3, which has the highest score.
 
-&#xA0;
+ 
 
 Example 2:
 Input: [1, 3, 0, 2, 4]
@@ -36,7 +36,7 @@ So we will choose the smallest K, which is 0.
 Note:
 
 
-	A&#xA0;will have&#xA0;length at most 20000.
+	A will have length at most 20000.
 	A[i] will be in the range [0, A.length].
 */
 

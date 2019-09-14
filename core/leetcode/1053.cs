@@ -4,9 +4,9 @@
 1053. Previous Permutation With One Swap
 Medium
 
-Given an array A of positive integers (not necessarily distinct), return the lexicographically largest permutation that is smaller than A, that can be made with one swap (A swap exchanges the positions of two numbers A[i] and A[j]).&#xA0; If it cannot be done, then return the same array.
+Given an array A of positive integers (not necessarily distinct), return the lexicographically largest permutation that is smaller than A, that can be made with one swap (A swap exchanges the positions of two numbers A[i] and A[j]).  If it cannot be done, then return the same array.
 
-&#xA0;
+ 
 
 Example 1:
 
@@ -36,13 +36,13 @@ Output: [1,3,1,3]
 Explanation: Swapping 1 and 3.
 
 
-&#xA0;
+ 
 
 Note:
 
 
-	1 &lt;= A.length &lt;= 10000
-	1 &lt;= A[i] &lt;= 10000
+	1 >= A.length >= 10000
+	1 >= A[i] >= 10000
 */
 
 using System;

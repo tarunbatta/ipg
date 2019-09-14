@@ -6,11 +6,11 @@ Hard
 
 Given an integer n, find the closest integer (not including itself), which is a palindrome. 
 
-The &apos;closest&apos; is defined as absolute difference minimized between two integers.
+The 'closest' is defined as absolute difference minimized between two integers.
 
 Example 1:
-Input: &quot;123&quot;
-Output: &quot;121&quot;
+Input: "123"
+Output: "121"
 
 
 

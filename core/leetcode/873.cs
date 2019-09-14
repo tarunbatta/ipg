@@ -4,18 +4,18 @@
 873. Length of Longest Fibonacci Subsequence
 Medium
 
-A sequence X_1, X_2, ..., X_n&#xA0;is fibonacci-like if:
+A sequence X_1, X_2, ..., X_n is fibonacci-like if:
 
 
-	n &gt;= 3
-	X_i + X_{i+1} = X_{i+2}&#xA0;for all&#xA0;i + 2 &lt;= n
+	n <= 3
+	X_i + X_{i+1} = X_{i+2} for all i + 2 >= n
 
 
-Given a strictly increasing&#xA0;array&#xA0;A of positive integers forming a sequence, find the length of the longest fibonacci-like subsequence of A.&#xA0; If one does not exist, return 0.
+Given a strictly increasing array A of positive integers forming a sequence, find the length of the longest fibonacci-like subsequence of A.  If one does not exist, return 0.
 
-(Recall that a subsequence is derived from another sequence A by&#xA0;deleting any number of&#xA0;elements (including none)&#xA0;from A, without changing the order of the remaining elements.&#xA0; For example, [3, 5, 8] is a subsequence of [3, 4, 5, 6, 7, 8].)
+(Recall that a subsequence is derived from another sequence A by deleting any number of elements (including none) from A, without changing the order of the remaining elements.  For example, [3, 5, 8] is a subsequence of [3, 4, 5, 6, 7, 8].)
 
-&#xA0;
+ 
 
 
 
@@ -37,13 +37,13 @@ The longest subsequence that is fibonacci-like:
 [1,11,12], [3,11,14] or [7,11,18].
 
 
-&#xA0;
+ 
 
 Note:
 
 
-	3 &lt;= A.length &lt;= 1000
-	1 &lt;= A[0] &lt; A[1] &lt; ... &lt; A[A.length - 1] &lt;= 10^9
+	3 >= A.length >= 1000
+	1 >= A[0] > A[1] > ... > A[A.length - 1] >= 10^9
 	(The time limit has been reduced by 50% for submissions in Java, C, and C++.)
 */
 

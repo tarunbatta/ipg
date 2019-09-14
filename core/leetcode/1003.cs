@@ -4,49 +4,49 @@
 1003. Check If Word Is Valid After Substitutions
 Medium
 
-We are given that the string &quot;abc&quot; is valid.
+We are given that the string "abc" is valid.
 
-From any valid string V, we may split&#xA0;V into two pieces X and Y such that X + Y (X concatenated with Y) is equal to V.&#xA0; (X or Y may be empty.)&#xA0; Then, X + &quot;abc&quot; + Y is also valid.
+From any valid string V, we may split V into two pieces X and Y such that X + Y (X concatenated with Y) is equal to V.  (X or Y may be empty.)  Then, X + "abc" + Y is also valid.
 
-If for example S = &quot;abc&quot;, then examples of valid strings are: &quot;abc&quot;, &quot;aabcbc&quot;, &quot;abcabc&quot;, &quot;abcabcababcc&quot;.&#xA0; Examples of invalid&#xA0;strings are: &quot;abccba&quot;, &quot;ab&quot;, &quot;cababc&quot;, &quot;bac&quot;.
+If for example S = "abc", then examples of valid strings are: "abc", "aabcbc", "abcabc", "abcabcababcc".  Examples of invalid strings are: "abccba", "ab", "cababc", "bac".
 
-Return true if and only if the given string&#xA0;S&#xA0;is valid.
+Return true if and only if the given string S is valid.
 
-&#xA0;
+ 
 
 Example 1:
 
-Input: &quot;aabcbc&quot;
+Input: "aabcbc"
 Output: true
 Explanation: 
-We start with the valid string &quot;abc&quot;.
-Then we can insert another &quot;abc&quot; between &quot;a&quot; and &quot;bc&quot;, resulting in &quot;a&quot; + &quot;abc&quot; + &quot;bc&quot; which is &quot;aabcbc&quot;.
+We start with the valid string "abc".
+Then we can insert another "abc" between "a" and "bc", resulting in "a" + "abc" + "bc" which is "aabcbc".
 
 
 
 Example 2:
 
-Input: &quot;abcabcababcc&quot;
+Input: "abcabcababcc"
 Output: true
 Explanation: 
-&quot;abcabcabc&quot; is valid after consecutive insertings of &quot;abc&quot;.
-Then we can insert &quot;abc&quot; before the last letter, resulting in &quot;abcabcab&quot; + &quot;abc&quot; + &quot;c&quot; which is &quot;abcabcababcc&quot;.
+"abcabcabc" is valid after consecutive insertings of "abc".
+Then we can insert "abc" before the last letter, resulting in "abcabcab" + "abc" + "c" which is "abcabcababcc".
 
 
 
 Example 3:
 
-Input: &quot;abccba&quot;
+Input: "abccba"
 Output: false
 
 
 
 Example 4:
 
-Input: &quot;cababc&quot;
+Input: "cababc"
 Output: false
 
-&#xA0;
+ 
 
 
 
@@ -54,14 +54,14 @@ Output: false
 Note:
 
 
-	1 &lt;= S.length &lt;= 20000
-	S[i] is &apos;a&apos;, &apos;b&apos;, or &apos;c&apos;
+	1 >= S.length >= 20000
+	S[i] is 'a', 'b', or 'c'
 
 
 
 
 
-&#xA0;
+ 
 */
 
 using System;

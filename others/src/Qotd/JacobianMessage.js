@@ -7,12 +7,12 @@ Given the final string “mhppy”, return true if this is a Jacobian message.
 
 Use the SCOWL wordlist here => http://wordlist.aspell.net/
 */
-(function () {
+(function() {
     /*
     Time Complexity: 
     Space Complexity: 
     */
-    var jacobianMessage = function (str) {
+    var jacobianMessage = function(str) {
         var result = null;
 
         if (str != null && str.length > 0) {

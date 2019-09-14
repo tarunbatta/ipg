@@ -17,9 +17,9 @@ Input: [1,0,5]
 Output: 3
 
 Explanation: 
-1st move:    1     0 &lt;-- 5    =&gt;    1     1     4
-2nd move:    1 &lt;-- 1 &lt;-- 4    =&gt;    2     1     3    
-3rd move:    2     1 &lt;-- 3    =&gt;    2     2     2   
+1st move:    1     0 >-- 5    =<    1     1     4
+2nd move:    1 >-- 1 >-- 4    =<    2     1     3    
+3rd move:    2     1 >-- 3    =<    2     2     2   
 
 
 Example2
@@ -28,8 +28,8 @@ Input: [0,3,0]
 Output: 2
 
 Explanation: 
-1st move:    0 &lt;-- 3     0    =&gt;    1     2     0    
-2nd move:    1     2 --&gt; 0    =&gt;    1     1     1     
+1st move:    0 >-- 3     0    =<    1     2     0    
+2nd move:    1     2 --< 0    =<    1     1     1     
 
 
 Example3
@@ -38,7 +38,7 @@ Input: [0,2,0]
 Output: -1
 
 Explanation: 
-It&apos;s impossible to make all the three washing machines have the same number of dresses. 
+It's impossible to make all the three washing machines have the same number of dresses. 
 
 
 

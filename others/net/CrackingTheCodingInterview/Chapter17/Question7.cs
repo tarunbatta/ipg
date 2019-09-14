@@ -1,5 +1,4 @@
-﻿namespace TechByTarun.InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter17
-{
+﻿namespace TechByTarun.InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter17 {
     /// <summary>
     /// Baby Names: Each year, the government releases a list of the 10000 most common baby names
     /// and their frequencies(the number of babies with that name). The only problem with this is that
@@ -15,10 +14,7 @@
     /// Synonyms: (Jon, John), (John, Johnny), (Chris, Kris), (Chris, Christopher)
     /// Output: John(27), Kris(36)
     /// </summary>
-    public class Question7
-    {
-        public static void Init(string[] args)
-        {
-        }
+    public class Question7 {
+        public static void Init (string[] args) { }
     }
 }

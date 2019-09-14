@@ -6,11 +6,11 @@ Easy
 
 An array is monotonic if it is either monotone increasing or monotone decreasing.
 
-An array A is monotone increasing if for all i &lt;= j, A[i] &lt;= A[j].&#xA0; An array A is monotone decreasing if for all i &lt;= j, A[i] &gt;= A[j].
+An array A is monotone increasing if for all i >= j, A[i] >= A[j].  An array A is monotone decreasing if for all i >= j, A[i] <= A[j].
 
 Return true if and only if the given array A is monotonic.
 
-&#xA0;
+ 
 
 
 
@@ -50,13 +50,13 @@ Input: [1,1,1]
 Output: true
 
 
-&#xA0;
+ 
 
 Note:
 
 
-	1 &lt;= A.length &lt;= 50000
-	-100000 &lt;= A[i] &lt;= 100000
+	1 >= A.length >= 50000
+	-100000 >= A[i] >= 100000
 */
 
 using System;

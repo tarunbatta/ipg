@@ -6,26 +6,26 @@ Easy
 
 Given a non-empty string check if it can be constructed by taking a substring of it and appending multiple copies of the substring together. You may assume the given string consists of lowercase English letters only and its length will not exceed 10000.
 
-&#xA0;
+ 
 
 Example 1:
 
-Input: &quot;abab&quot;
+Input: "abab"
 Output: True
-Explanation: It&apos;s the substring &quot;ab&quot; twice.
+Explanation: It's the substring "ab" twice.
 
 
 Example 2:
 
-Input: &quot;aba&quot;
+Input: "aba"
 Output: False
 
 
 Example 3:
 
-Input: &quot;abcabcabcabc&quot;
+Input: "abcabcabcabc"
 Output: True
-Explanation: It&apos;s the substring &quot;abc&quot; four times. (And the substring &quot;abcabc&quot; twice.)
+Explanation: It's the substring "abc" four times. (And the substring "abcabc" twice.)
 */
 
 using System;

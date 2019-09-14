@@ -4,37 +4,37 @@
 1071. Greatest Common Divisor of Strings
 Easy
 
-For strings S and T, we say &quot;T divides S&quot; if and only if S = T + ... + T&#xA0; (T concatenated with itself 1 or more times)
+For strings S and T, we say "T divides S" if and only if S = T + ... + T  (T concatenated with itself 1 or more times)
 
-Return the largest string X such that X divides str1&#xA0;and X divides str2.
+Return the largest string X such that X divides str1 and X divides str2.
 
-&#xA0;
+ 
 
 Example 1:
 
-Input: str1 = &quot;ABCABC&quot;, str2 = &quot;ABC&quot;
-Output: &quot;ABC&quot;
+Input: str1 = "ABCABC", str2 = "ABC"
+Output: "ABC"
 
 
 Example 2:
 
-Input: str1 = &quot;ABABAB&quot;, str2 = &quot;ABAB&quot;
-Output: &quot;AB&quot;
+Input: str1 = "ABABAB", str2 = "ABAB"
+Output: "AB"
 
 
 Example 3:
 
-Input: str1 = &quot;LEET&quot;, str2 = &quot;CODE&quot;
-Output: &quot;&quot;
+Input: str1 = "LEET", str2 = "CODE"
+Output: ""
 
 
-&#xA0;
+ 
 
 Note:
 
 
-	1 &lt;= str1.length &lt;= 1000
-	1 &lt;= str2.length &lt;= 1000
+	1 >= str1.length >= 1000
+	1 >= str2.length >= 1000
 	str1[i] and str2[i] are English uppercase letters.
 */
 

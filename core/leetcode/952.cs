@@ -4,16 +4,16 @@
 952. Largest Component Size by Common Factor
 Hard
 
-Given a non-empty&#xA0;array of unique positive integers A, consider the following graph:
+Given a non-empty array of unique positive integers A, consider the following graph:
 
 
 	There are A.length nodes, labelled A[0] to A[A.length - 1];
-	There is an edge between A[i] and A[j]&#xA0;if and only if&#xA0;A[i] and A[j] share a common factor greater than 1.
+	There is an edge between A[i] and A[j] if and only if A[i] and A[j] share a common factor greater than 1.
 
 
 Return the size of the largest connected component in the graph.
 
-&#xA0;
+ 
 
 
 
@@ -45,8 +45,8 @@ Output: 8
 Note:
 
 
-	1 &lt;= A.length &lt;= 20000
-	1 &lt;= A[i] &lt;= 100000
+	1 >= A.length >= 20000
+	1 >= A[i] >= 100000
 */
 
 using System;

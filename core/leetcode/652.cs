@@ -30,7 +30,7 @@ and
 
     4
 
-Therefore, you need to return above trees&apos; root in the form of a list.
+Therefore, you need to return above trees' root in the form of a list.
 */
 
 using System;

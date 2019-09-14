@@ -1,5 +1,4 @@
-﻿namespace TechByTarun.InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter5
-{
+﻿namespace TechByTarun.InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter5 {
     /// <summary>
     /// Insertion: You are given two 32-bit numbers, Nand M, and two bit positions, i and
     /// j.Write a method to insert Minto N such that M starts at bit j and ends at bit i.You
@@ -10,10 +9,7 @@
     /// Input: N = 10000000000, M = 10011, i = 2, j = 6
     /// Output: N = 10001001100
     /// </summary>
-    public class Question1
-    {
-        public static void Init(string[] args)
-        {
-        }
+    public class Question1 {
+        public static void Init (string[] args) { }
     }
 }

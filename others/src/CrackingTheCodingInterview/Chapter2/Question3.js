@@ -7,7 +7,7 @@ EXAMPLE
 Input: the node c from the linked list a->b->c->d->e
 Result: nothing is returned, but the new linked list looks like a- >b- >d->e
 */
-(function () {
+(function() {
     var LinkedListNode = {
         value: 0,
         next: new LinkedListNode()
@@ -17,7 +17,7 @@ Result: nothing is returned, but the new linked list looks like a- >b- >d->e
     Time Complexity: 
     Space Complexity: 
     */
-    var deleteMiddleNode = function (node) {
+    var deleteMiddleNode = function(node) {
         var result = 0;
 
         console.log(node);

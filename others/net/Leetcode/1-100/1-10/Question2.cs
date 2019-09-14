@@ -1,7 +1,6 @@
 ﻿using System;
 
-namespace TechByTarun.InterviewPreperationGuide.App.Leetcode
-{
+namespace TechByTarun.InterviewPreperationGuide.App.Leetcode {
     /// <summary>
     /// Add Two Numbers
     /// https://leetcode.com/problems/add-two-numbers/
@@ -15,74 +14,64 @@ namespace TechByTarun.InterviewPreperationGuide.App.Leetcode
     /// Input: (2 -> 4 -> 3) + (5 -> 6 -> 4)
     /// Output: 7 -> 0 -> 8
     /// </summary>
-    public class Question2
-    {
-        public static void Init(string[] args)
-        {
-            ListNode first_a = new ListNode(5);
-            first_a.next = new ListNode(6);
-            first_a.next.next = new ListNode(3);
+    public class Question2 {
+        public static void Init (string[] args) {
+            ListNode first_a = new ListNode (5);
+            first_a.next = new ListNode (6);
+            first_a.next.next = new ListNode (3);
 
-            ListNode second_a = new ListNode(8);
-            second_a.next = new ListNode(4);
-            second_a.next.next = new ListNode(2);
+            ListNode second_a = new ListNode (8);
+            second_a.next = new ListNode (4);
+            second_a.next.next = new ListNode (2);
 
-            Console.WriteLine(Program.PrintListNode(AddTwoNumbers(first_a, second_a)));
+            Console.WriteLine (Program.PrintListNode (AddTwoNumbers (first_a, second_a)));
 
-            Program.PrintLine();
+            Program.PrintLine ();
 
-            ListNode first_b = new ListNode(7);
-            first_b.next = new ListNode(5);
-            first_b.next.next = new ListNode(9);
-            first_b.next.next.next = new ListNode(4);
-            first_b.next.next.next.next = new ListNode(6);
+            ListNode first_b = new ListNode (7);
+            first_b.next = new ListNode (5);
+            first_b.next.next = new ListNode (9);
+            first_b.next.next.next = new ListNode (4);
+            first_b.next.next.next.next = new ListNode (6);
 
-            ListNode second_b = new ListNode(8);
-            second_b.next = new ListNode(4);
+            ListNode second_b = new ListNode (8);
+            second_b.next = new ListNode (4);
 
-            Console.WriteLine(Program.PrintListNode(AddTwoNumbers(first_b, second_b)));
+            Console.WriteLine (Program.PrintListNode (AddTwoNumbers (first_b, second_b)));
         }
 
-        public static ListNode AddTwoNumbers(ListNode first, ListNode second)
-        {
+        public static ListNode AddTwoNumbers (ListNode first, ListNode second) {
             ListNode result = null;
             ListNode previous = null;
             ListNode temp = null;
 
             int carry = 0;
 
-            while (first != null || second != null)
-            {
+            while (first != null || second != null) {
                 int sum = carry + (first != null ? first.val : 0) + (second != null ? second.val : 0);
                 carry = sum >= 10 ? 1 : 0;
 
-                temp = new ListNode(sum % 10);
+                temp = new ListNode (sum % 10);
 
-                if (result == null)
-                {
+                if (result == null) {
                     result = temp;
-                }
-                else
-                {
+                } else {
                     previous.next = temp;
                 }
 
                 previous = temp;
 
-                if (first != null)
-                {
+                if (first != null) {
                     first = first.next;
                 }
 
-                if (second != null)
-                {
+                if (second != null) {
                     second = second.next;
                 }
             }
 
-            if (carry > 0)
-            {
-                result.next = new ListNode(carry);
+            if (carry > 0) {
+                result.next = new ListNode (carry);
             }
 
             return result;

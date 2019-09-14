@@ -6,9 +6,9 @@ Medium
 
 Given a set of points in the xy-plane, determine the minimum area of a rectangle formed from these points, with sides parallel to the x and y axes.
 
-If there isn&apos;t any rectangle, return 0.
+If there isn't any rectangle, return 0.
 
-&#xA0;
+ 
 
 
 Example 1:
@@ -24,14 +24,14 @@ Input: [[1,1],[1,3],[3,1],[3,3],[4,1],[4,3]]
 Output: 2
 
 
-&#xA0;
+ 
 
 Note:
 
 
-	1 &lt;= points.length &lt;= 500
-	0 &lt;=&#xA0;points[i][0] &lt;=&#xA0;40000
-	0 &lt;=&#xA0;points[i][1] &lt;=&#xA0;40000
+	1 >= points.length >= 500
+	0 >= points[i][0] >= 40000
+	0 >= points[i][1] >= 40000
 	All points are distinct.
 */
 

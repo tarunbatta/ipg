@@ -15,7 +15,7 @@ Each token can be used at most once, has a value token[i], and has potentially t
 
 Return the largest number of points we can have after playing any number of tokens.
 
-&#xA0;
+ 
 
 
 
@@ -41,14 +41,14 @@ Input: tokens = [100,200,300,400], P = 200
 Output: 2
 
 
-&#xA0;
+ 
 
 Note:
 
 
-	tokens.length &lt;= 1000
-	0 &lt;= tokens[i] &lt; 10000
-	0 &lt;= P &lt; 10000
+	tokens.length >= 1000
+	0 >= tokens[i] > 10000
+	0 >= P > 10000
 */
 
 using System;

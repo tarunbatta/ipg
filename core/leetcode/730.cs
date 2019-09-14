@@ -15,17 +15,17 @@ Two sequences A_1, A_2, ... and B_1, B_2, ... are different if there is some i f
 
 Example 1:
 Input: 
-S = &apos;bccb&apos;
+S = 'bccb'
 Output: 6
 Explanation: 
-The 6 different non-empty palindromic subsequences are &apos;b&apos;, &apos;c&apos;, &apos;bb&apos;, &apos;cc&apos;, &apos;bcb&apos;, &apos;bccb&apos;.
-Note that &apos;bcb&apos; is counted only once, even though it occurs twice.
+The 6 different non-empty palindromic subsequences are 'b', 'c', 'bb', 'cc', 'bcb', 'bccb'.
+Note that 'bcb' is counted only once, even though it occurs twice.
 
 
 
 Example 2:
 Input: 
-S = &apos;abcdabcdabcdabcdabcdabcdabcdabcddcbadcbadcbadcbadcbadcbadcbadcba&apos;
+S = 'abcdabcdabcdabcdabcdabcdabcdabcddcbadcbadcbadcbadcbadcbadcbadcba'
 Output: 104860361
 Explanation: 
 There are 3104860382 different non-empty palindromic subsequences, which is 104860361 modulo 10^9 + 7.
@@ -34,7 +34,7 @@ There are 3104860382 different non-empty palindromic subsequences, which is 1048
 
 Note:
 The length of S will be in the range [1, 1000].
-Each character S[i] will be in the set {&apos;a&apos;, &apos;b&apos;, &apos;c&apos;, &apos;d&apos;}.
+Each character S[i] will be in the set {'a', 'b', 'c', 'd'}.
 */
 
 using System;

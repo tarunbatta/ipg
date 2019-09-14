@@ -9,7 +9,7 @@ Given a collection of intervals, find the minimum number of intervals you need t
 
 
 
-&#xA0;
+ 
 
 Example 1:
 
@@ -29,16 +29,16 @@ Example 3:
 
 Input: [[1,2],[2,3]]
 Output: 0
-Explanation: You don&apos;t need to remove any of the intervals since they&apos;re already non-overlapping.
+Explanation: You don't need to remove any of the intervals since they're already non-overlapping.
 
 
-&#xA0;
+ 
 
 Note:
 
 
-	You may assume the interval&apos;s end point is always bigger than its start point.
-	Intervals like [1,2] and [2,3] have borders &quot;touching&quot; but they don&apos;t overlap each other.
+	You may assume the interval's end point is always bigger than its start point.
+	Intervals like [1,2] and [2,3] have borders "touching" but they don't overlap each other.
 */
 
 using System;

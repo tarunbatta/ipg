@@ -1,37 +1,30 @@
 using System;
 using System.Collections.Generic;
 
-namespace InterviewPreperationGuide.Core.DataStructure.Tree
-{
-    public class Node
-    {
+namespace InterviewPreperationGuide.Core.DataStructure.Tree {
+    public class Node {
         public object data;
         public List<Node> childrens;
 
-        public Node()
-        {
+        public Node () {
             this.data = null;
             this.childrens = null;
         }
 
-        public Node(object item)
-        {
+        public Node (object item) {
             this.data = item;
-            this.childrens = new List<Node>();
+            this.childrens = new List<Node> ();
         }
 
-        public void DisplayNode()
-        {
-            Console.WriteLine(data);
+        public void DisplayNode () {
+            Console.WriteLine (data);
         }
     }
 
-    public class Tree
-    {
+    public class Tree {
         public Node root;
 
-        public Tree()
-        {
+        public Tree () {
             this.root = null;
         }
     }

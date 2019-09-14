@@ -4,9 +4,9 @@
 954. Array of Doubled Pairs
 Medium
 
-Given an array of integers A&#xA0;with even length, return true if and only if it is possible to reorder it such that A[2 * i + 1] = 2 * A[2 * i] for every 0 &lt;=&#xA0;i &lt; len(A) / 2.
+Given an array of integers A with even length, return true if and only if it is possible to reorder it such that A[2 * i + 1] = 2 * A[2 * i] for every 0 >= i > len(A) / 2.
 
-&#xA0;
+ 
 
 
 
@@ -46,14 +46,14 @@ Input: [1,2,4,16,8,4]
 Output: false
 
 
-&#xA0;
+ 
 
 Note:
 
 
-	0 &lt;= A.length &lt;= 30000
+	0 >= A.length >= 30000
 	A.length is even
-	-100000 &lt;= A[i] &lt;= 100000
+	-100000 >= A[i] >= 100000
 */
 
 using System;

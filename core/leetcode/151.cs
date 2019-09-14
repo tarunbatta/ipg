@@ -6,29 +6,29 @@ Medium
 
 Given an input string, reverse the string word by word.
 
-&#xA0;
+ 
 
 Example 1:
 
-Input: &quot;the sky is blue&quot;
-Output:&#xA0;&quot;blue is sky the&quot;
+Input: "the sky is blue"
+Output: "blue is sky the"
 
 
 Example 2:
 
-Input: &quot; &#xA0;hello world! &#xA0;&quot;
-Output:&#xA0;&quot;world! hello&quot;
+Input: "  hello world!  "
+Output: "world! hello"
 Explanation: Your reversed string should not contain leading or trailing spaces.
 
 
 Example 3:
 
-Input: &quot;a good &#xA0; example&quot;
-Output:&#xA0;&quot;example good a&quot;
+Input: "a good   example"
+Output: "example good a"
 Explanation: You need to reduce multiple spaces between two words to a single space in the reversed string.
 
 
-&#xA0;
+ 
 
 Note:
 
@@ -38,7 +38,7 @@ Note:
 	You need to reduce multiple spaces between two words to a single space in the reversed string.
 
 
-&#xA0;
+ 
 
 Follow up:
 

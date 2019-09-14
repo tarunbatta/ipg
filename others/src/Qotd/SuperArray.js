@@ -9,7 +9,7 @@ d) Find Average of all elements in the array
 e) Find Maximum value in the Stack
 f) Find the Median of the value in the Stack
 */
-(function () {
+(function() {
     function SuperArray() {
         this.data = [];
         this.top = -1;
@@ -18,7 +18,7 @@ f) Find the Median of the value in the Stack
         this.median = [];
     }
 
-    SuperArray.prototype._displayStack = function (value) {
+    SuperArray.prototype._displayStack = function(value) {
         console.log('-----------------------------------------');
         console.log('Stack: ' + this.data.join(','));
         console.log('Peek: ' + this.peek() + '.');
@@ -28,8 +28,8 @@ f) Find the Median of the value in the Stack
         console.log('-----------------------------------------');
     };
 
-    SuperArray.prototype.push = function (value) {
-        if (value !== null && typeof (value) === 'number') {
+    SuperArray.prototype.push = function(value) {
+        if (value !== null && typeof(value) === 'number') {
             this.top++;
 
             this.data[this.top] = value;
@@ -56,7 +56,7 @@ f) Find the Median of the value in the Stack
         }
     };
 
-    SuperArray.prototype.pop = function () {
+    SuperArray.prototype.pop = function() {
         var result = -1;
 
         if (this.top > -1 && this.data.length > 0) {
@@ -81,7 +81,7 @@ f) Find the Median of the value in the Stack
         return result;
     };
 
-    SuperArray.prototype.peek = function () {
+    SuperArray.prototype.peek = function() {
         var result = Number.MIN_SAFE_INTEGER;
 
         if (this.top > -1 && this.data.length > 0) {
@@ -91,7 +91,7 @@ f) Find the Median of the value in the Stack
         return result;
     };
 
-    SuperArray.prototype.stackAverage = function () {
+    SuperArray.prototype.stackAverage = function() {
         var avg = 0;
 
         if (this.data !== null && this.data.length > 0) {
@@ -101,7 +101,7 @@ f) Find the Median of the value in the Stack
         return avg;
     };
 
-    SuperArray.prototype.stackMax = function () {
+    SuperArray.prototype.stackMax = function() {
         var result = Number.MIN_SAFE_INTEGER;
 
         if (this.top > -1 && this.max.length > 0) {
@@ -111,7 +111,7 @@ f) Find the Median of the value in the Stack
         return result;
     };
 
-    SuperArray.prototype.stackMedian = function () {
+    SuperArray.prototype.stackMedian = function() {
         var result = Number.MIN_SAFE_INTEGER;
 
         if (this.top > -1 && this.data.length > 0) {

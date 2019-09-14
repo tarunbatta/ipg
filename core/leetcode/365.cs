@@ -16,7 +16,7 @@ Operations allowed:
 	Pour water from one jug into another till the other jug is completely full or the first jug itself is empty.
 
 
-Example 1: (From the famous &quot;Die Hard&quot; example)
+Example 1: (From the famous "Die Hard" example)
 
 Input: x = 3, y = 5, z = 4
 Output: True

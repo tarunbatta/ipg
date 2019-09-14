@@ -1,5 +1,4 @@
-﻿namespace TechByTarun.InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter17
-{
+﻿namespace TechByTarun.InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter17 {
     /// <summary>
     /// Shortest Supersequence: You are given two arrays, one shorter (with all distinct elements) and one
     /// longer.Find the shortest subarray in the longer array that contains all the elements in the shorter
@@ -9,10 +8,7 @@
     ///                                             __________
     /// Output: [7, 10] (the underlined portion above)
     /// </summary>
-    public class Question18
-    {
-        public static void Init(string[] args)
-        {
-        }
+    public class Question18 {
+        public static void Init (string[] args) { }
     }
 }

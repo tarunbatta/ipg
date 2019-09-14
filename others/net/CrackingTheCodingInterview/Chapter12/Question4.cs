@@ -1,12 +1,8 @@
-﻿namespace TechByTarun.InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter12
-{
+﻿namespace TechByTarun.InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter12 {
     /// <summary>
     /// Virtual Functions: How do virtual functions work in (++?
     /// </summary>
-    public class Question4
-    {
-        public static void Init(string[] args)
-        {
-        }
+    public class Question4 {
+        public static void Init (string[] args) { }
     }
 }

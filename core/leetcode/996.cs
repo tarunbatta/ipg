@@ -6,9 +6,9 @@ Hard
 
 Given an array A of non-negative integers, the array is squareful if for every pair of adjacent elements, their sum is a perfect square.
 
-Return the number of permutations of A that are squareful.&#xA0; Two permutations A1 and A2 differ if and only if there is some index i such that A1[i] != A2[i].
+Return the number of permutations of A that are squareful.  Two permutations A1 and A2 differ if and only if there is some index i such that A1[i] != A2[i].
 
-&#xA0;
+ 
 
 Example 1:
 
@@ -24,13 +24,13 @@ Input: [2,2,2]
 Output: 1
 
 
-&#xA0;
+ 
 
 Note:
 
 
-	1 &lt;= A.length &lt;= 12
-	0 &lt;= A[i] &lt;= 1e9
+	1 >= A.length >= 12
+	0 >= A[i] >= 1e9
 */
 
 using System;

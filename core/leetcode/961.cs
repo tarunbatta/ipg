@@ -8,7 +8,7 @@ In a array A of size 2N, there are N+1 unique elements, and exactly one of these
 
 Return the element repeated N times.
 
-&#xA0;
+ 
 
 
 
@@ -34,13 +34,13 @@ Input: [5,1,5,2,5,3,5,4]
 Output: 5
 
 
-&#xA0;
+ 
 
 Note:
 
 
-	4 &lt;= A.length &lt;= 10000
-	0 &lt;= A[i] &lt; 10000
+	4 >= A.length >= 10000
+	0 >= A[i] > 10000
 	A.length is even
 */
 

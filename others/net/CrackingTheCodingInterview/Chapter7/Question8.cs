@@ -1,5 +1,4 @@
-﻿namespace TechByTarun.InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter7
-{
+﻿namespace TechByTarun.InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter7 {
     /// <summary>
     /// Othello: Othello is played as follows: Each Othello piece is white on one side and black on the other.
     /// When a piece is surrounded by its opponents on both the left and right sides, or both the top and
@@ -7,10 +6,7 @@
     /// of your opponent's pieces. The game ends when either user has no more valid moves. The win is
     /// assigned to the person with the most pieces.Implement the object-oriented design for Othello.
     /// </summary>
-    public class Question8
-    {
-        public static void Init(string[] args)
-        {
-        }
+    public class Question8 {
+        public static void Init (string[] args) { }
     }
 }

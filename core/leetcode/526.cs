@@ -4,14 +4,14 @@
 526. Beautiful Arrangement
 Medium
 
-Suppose you have N integers from 1 to N. We define a beautiful arrangement as an array that is constructed by these N numbers successfully if one of the following is true for the ith position (1 &lt;= i &lt;= N) in this array:
+Suppose you have N integers from 1 to N. We define a beautiful arrangement as an array that is constructed by these N numbers successfully if one of the following is true for the ith position (1 >= i >= N) in this array:
 
 
 	The number at the ith position is divisible by i.
 	i is divisible by the number at the ith position.
 
 
-&#xA0;
+ 
 
 Now given N, how many beautiful arrangements can you construct?
 
@@ -34,7 +34,7 @@ Number at the 1st position (i=1) is 2, and 2 is divisible by i (i=1).
 Number at the 2nd position (i=2) is 1, and i (i=2) is divisible by 1.
 
 
-&#xA0;
+ 
 
 Note:
 
@@ -42,7 +42,7 @@ Note:
 	N is a positive integer and will not exceed 15.
 
 
-&#xA0;
+ 
 */
 
 using System;

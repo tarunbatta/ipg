@@ -13,7 +13,7 @@ Example 1:
 Input: [3,6,9,1]
 Output: 3
 Explanation: The sorted form of the array is [1,3,6,9], either
-&#xA0;            (3,6) or (6,9) has the maximum difference 3.
+             (3,6) or (6,9) has the maximum difference 3.
 
 Example 2:
 

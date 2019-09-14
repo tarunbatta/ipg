@@ -4,20 +4,20 @@
 1035. Uncrossed Lines
 Medium
 
-We write the integers of A and B&#xA0;(in the order they are given) on two separate horizontal lines.
+We write the integers of A and B (in the order they are given) on two separate horizontal lines.
 
-Now, we may draw connecting lines: a straight line connecting two numbers A[i] and B[j]&#xA0;such that:
+Now, we may draw connecting lines: a straight line connecting two numbers A[i] and B[j] such that:
 
 
 	A[i] == B[j];
 	The line we draw does not intersect any other connecting (non-horizontal) line.
 
 
-Note that a connecting lines cannot intersect even at the endpoints:&#xA0;each number can only belong to one connecting line.
+Note that a connecting lines cannot intersect even at the endpoints: each number can only belong to one connecting line.
 
 Return the maximum number of connecting lines we can draw in this way.
 
-&#xA0;
+ 
 
 Example 1:
 
@@ -40,16 +40,16 @@ Example 3:
 Input: A = [1,3,7,1,7,5], B = [1,9,2,5,1]
 Output: 2
 
-&#xA0;
+ 
 
 
 
 Note:
 
 
-	1 &lt;= A.length &lt;= 500
-	1 &lt;= B.length &lt;= 500
-	1 &lt;= A[i], B[i] &lt;= 2000
+	1 >= A.length >= 500
+	1 >= B.length >= 500
+	1 >= A[i], B[i] >= 2000
 */
 
 using System;

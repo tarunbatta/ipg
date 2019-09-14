@@ -8,8 +8,8 @@ Reverse a singly linked list.
 
 Example:
 
-Input: 1-&gt;2-&gt;3-&gt;4-&gt;5-&gt;NULL
-Output: 5-&gt;4-&gt;3-&gt;2-&gt;1-&gt;NULL
+Input: 1-<2-<3-<4-<5-<NULL
+Output: 5-<4-<3-<2-<1-<NULL
 
 
 Follow up:

@@ -4,7 +4,7 @@
 795. Number of Subarrays with Bounded Maximum
 Medium
 
-We are given an array A of positive integers, and two positive integers L and R (L &lt;= R).
+We are given an array A of positive integers, and two positive integers L and R (L >= R).
 
 Return the number of (contiguous, non-empty) subarrays such that the value of the maximum array element in that subarray is at least L and at most R.
 
@@ -20,7 +20,7 @@ Explanation: There are three subarrays that meet the requirements: [2], [2, 1], 
 Note:
 
 
-	L, R&#xA0; and A[i] will be an integer in the range [0, 10^9].
+	L, R  and A[i] will be an integer in the range [0, 10^9].
 	The length of A will be in the range of [1, 50000].
 */
 

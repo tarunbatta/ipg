@@ -10,7 +10,7 @@ normal 2 = Ju Steven’s 4
 
 Note: Try Ju Steven Counting Except 6.
 */
-(function () {
+(function() {
     function GetJuStevenCountingHash() {
         var hash = [];
         hash.push({
@@ -55,7 +55,7 @@ Note: Try Ju Steven Counting Except 6.
     Time Complexity: O(log(n))
     Space Complexity: 0(1)
     */
-    var convertDecimalToJuStevenCounting = function (num) {
+    var convertDecimalToJuStevenCounting = function(num) {
         var result = 0;
 
         if (num != null && num > 0) {
@@ -82,7 +82,7 @@ Note: Try Ju Steven Counting Except 6.
     Time Complexity: O(log(n))
     Space Complexity: 0(1)
     */
-    var convertJuStevenCountingToDecimal = function (num) {
+    var convertJuStevenCountingToDecimal = function(num) {
         var result = 0;
 
         if (num != null && num > 0) {
@@ -111,7 +111,7 @@ Note: Try Ju Steven Counting Except 6.
     Time Complexity: O(log(n))
     Space Complexity: 0(1)
     */
-    var convertDecimalToJuStevenCountingExcept6 = function (num) {
+    var convertDecimalToJuStevenCountingExcept6 = function(num) {
         var result = 0;
 
         if (num != null && num > 0) {
@@ -138,7 +138,7 @@ Note: Try Ju Steven Counting Except 6.
     Time Complexity: O(log(n))
     Space Complexity: 0(1)
     */
-    var convertJuStevenCountingExcept6ToDecimal = function (num) {
+    var convertJuStevenCountingExcept6ToDecimal = function(num) {
         var result = 0;
 
         if (num != null && num > 0) {

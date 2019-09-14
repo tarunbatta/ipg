@@ -8,26 +8,26 @@ A linked list is given such that each node contains an additional random pointer
 
 Return a deep copy of the list.
 
-&#xA0;
+ 
 
 Example 1:
 
 
 
 Input:
-{&quot;$id&quot;:&quot;1&quot;,&quot;next&quot;:{&quot;$id&quot;:&quot;2&quot;,&quot;next&quot;:null,&quot;random&quot;:{&quot;$ref&quot;:&quot;2&quot;},&quot;val&quot;:2},&quot;random&quot;:{&quot;$ref&quot;:&quot;2&quot;},&quot;val&quot;:1}
+{"$id":"1","next":{"$id":"2","next":null,"random":{"$ref":"2"},"val":2},"random":{"$ref":"2"},"val":1}
 
 Explanation:
-Node 1&apos;s value is 1, both of its next and random pointer points to Node 2.
-Node 2&apos;s value is 2, its next pointer points to null and its random pointer points to itself.
+Node 1's value is 1, both of its next and random pointer points to Node 2.
+Node 2's value is 2, its next pointer points to null and its random pointer points to itself.
 
 
-&#xA0;
+ 
 
 Note:
 
 
-	You must return the copy of the given head&#xA0;as a reference to the cloned list.
+	You must return the copy of the given head as a reference to the cloned list.
 */
 
 using System;

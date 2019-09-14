@@ -12,15 +12,15 @@ Return any permutation of T (as a string) that satisfies this property.
 
 Example :
 Input: 
-S = &quot;cba&quot;
-T = &quot;abcd&quot;
-Output: &quot;cbad&quot;
+S = "cba"
+T = "abcd"
+Output: "cbad"
 Explanation: 
-&quot;a&quot;, &quot;b&quot;, &quot;c&quot; appear in S, so the order of &quot;a&quot;, &quot;b&quot;, &quot;c&quot; should be &quot;c&quot;, &quot;b&quot;, and &quot;a&quot;. 
-Since &quot;d&quot; does not appear in S, it can be at any position in T. &quot;dcba&quot;, &quot;cdba&quot;, &quot;cbda&quot; are also valid outputs.
+"a", "b", "c" appear in S, so the order of "a", "b", "c" should be "c", "b", and "a". 
+Since "d" does not appear in S, it can be at any position in T. "dcba", "cdba", "cbda" are also valid outputs.
 
 
-&#xA0;
+ 
 
 Note:
 

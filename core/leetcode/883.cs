@@ -4,19 +4,19 @@
 883. Projection Area of 3D Shapes
 Easy
 
-On a&#xA0;N&#xA0;*&#xA0;N grid, we place some&#xA0;1 * 1 * 1&#xA0;cubes that are axis-aligned with the x, y, and z axes.
+On a N * N grid, we place some 1 * 1 * 1 cubes that are axis-aligned with the x, y, and z axes.
 
-Each value&#xA0;v = grid[i][j]&#xA0;represents a tower of&#xA0;v&#xA0;cubes placed on top of grid cell (i, j).
+Each value v = grid[i][j] represents a tower of v cubes placed on top of grid cell (i, j).
 
-Now we view the&#xA0;projection&#xA0;of these cubes&#xA0;onto the xy, yz, and zx planes.
+Now we view the projection of these cubes onto the xy, yz, and zx planes.
 
-A projection is like a shadow, that&#xA0;maps our 3 dimensional figure to a 2 dimensional plane.&#xA0;
+A projection is like a shadow, that maps our 3 dimensional figure to a 2 dimensional plane. 
 
-Here, we are viewing the &quot;shadow&quot; when looking at the cubes from the top, the front, and the side.
+Here, we are viewing the "shadow" when looking at the cubes from the top, the front, and the side.
 
 Return the total area of all three projections.
 
-&#xA0;
+ 
 
 
 
@@ -73,7 +73,7 @@ Example 2:
 Input: [[1,2],[3,4]]
 Output: 17
 Explanation: 
-Here are the three projections (&quot;shadows&quot;) of the shape made with each axis-aligned plane.
+Here are the three projections ("shadows") of the shape made with each axis-aligned plane.
 
 
 
@@ -98,7 +98,7 @@ Input: [[2,2,2],[2,1,2],[2,2,2]]
 Output: 21
 
 
-&#xA0;
+ 
 
 
 
@@ -106,8 +106,8 @@ Output: 21
 Note:
 
 
-	1 &lt;= grid.length = grid[0].length&#xA0;&lt;= 50
-	0 &lt;= grid[i][j] &lt;= 50
+	1 >= grid.length = grid[0].length >= 50
+	0 >= grid[i][j] >= 50
 */
 
 using System;

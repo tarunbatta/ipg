@@ -4,18 +4,18 @@
 1144. Decrease Elements To Make Array Zigzag
 Medium
 
-Given an array nums of integers, a move&#xA0;consists of choosing any element and decreasing it by 1.
+Given an array nums of integers, a move consists of choosing any element and decreasing it by 1.
 
-An array A is a&#xA0;zigzag array&#xA0;if either:
+An array A is a zigzag array if either:
 
 
-	Every even-indexed element is greater than adjacent elements, ie.&#xA0;A[0] &gt; A[1] &lt; A[2] &gt; A[3] &lt; A[4] &gt; ...
-	OR, every odd-indexed element is greater than adjacent elements, ie.&#xA0;A[0] &lt; A[1] &gt; A[2] &lt; A[3] &gt; A[4] &lt; ...
+	Every even-indexed element is greater than adjacent elements, ie. A[0] < A[1] > A[2] < A[3] > A[4] < ...
+	OR, every odd-indexed element is greater than adjacent elements, ie. A[0] > A[1] < A[2] > A[3] < A[4] > ...
 
 
 Return the minimum number of moves to transform the given array nums into a zigzag array.
 
-&#xA0;
+ 
 Example 1:
 
 Input: nums = [1,2,3]
@@ -29,12 +29,12 @@ Input: nums = [9,6,1,6,2]
 Output: 4
 
 
-&#xA0;
+ 
 Constraints:
 
 
-	1 &lt;= nums.length &lt;= 1000
-	1 &lt;= nums[i] &lt;= 1000
+	1 >= nums.length >= 1000
+	1 >= nums[i] >= 1000
 */
 
 using System;

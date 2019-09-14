@@ -16,16 +16,16 @@ Explanation:
 The repeated subarray with maximum length is [3, 2, 1].
 
 
-&#xA0;
+ 
 
 Note:
 
 
-	1 &lt;= len(A), len(B) &lt;= 1000
-	0 &lt;= A[i], B[i] &lt; 100
+	1 >= len(A), len(B) >= 1000
+	0 >= A[i], B[i] > 100
 
 
-&#xA0;
+ 
 */
 
 using System;

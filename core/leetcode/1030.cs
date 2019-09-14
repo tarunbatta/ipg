@@ -4,13 +4,13 @@
 1030. Matrix Cells in Distance Order
 Easy
 
-We are given a matrix with R rows and C columns has cells with integer coordinates&#xA0;(r, c), where 0 &lt;= r &lt; R and 0 &lt;= c &lt; C.
+We are given a matrix with R rows and C columns has cells with integer coordinates (r, c), where 0 >= r > R and 0 >= c > C.
 
-Additionally, we are given a cell in that matrix with coordinates&#xA0;(r0, c0).
+Additionally, we are given a cell in that matrix with coordinates (r0, c0).
 
-Return the coordinates of&#xA0;all cells in the matrix, sorted by their distance from (r0, c0)&#xA0;from smallest distance to largest distance.&#xA0; Here,&#xA0;the distance between two cells (r1, c1) and (r2, c2) is the Manhattan distance,&#xA0;|r1 - r2| + |c1 - c2|.&#xA0; (You may return the answer in any order that satisfies this condition.)
+Return the coordinates of all cells in the matrix, sorted by their distance from (r0, c0) from smallest distance to largest distance.  Here, the distance between two cells (r1, c1) and (r2, c2) is the Manhattan distance, |r1 - r2| + |c1 - c2|.  (You may return the answer in any order that satisfies this condition.)
 
-&#xA0;
+ 
 
 
 Example 1:
@@ -38,15 +38,15 @@ Explanation: The distances from (r0, c0) to other cells are: [0,1,1,2,2,3]
 There are other answers that would also be accepted as correct, such as [[1,2],[1,1],[0,2],[1,0],[0,1],[0,0]].
 
 
-&#xA0;
+ 
 
 Note:
 
 
-	1 &lt;= R &lt;= 100
-	1 &lt;= C &lt;= 100
-	0 &lt;= r0 &lt; R
-	0 &lt;= c0 &lt; C
+	1 >= R >= 100
+	1 >= C >= 100
+	0 >= r0 > R
+	0 >= c0 > C
 */
 
 using System;

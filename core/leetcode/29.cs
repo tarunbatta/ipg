@@ -23,9 +23,9 @@ Output: -2
 Note:
 
 
-	Both dividend and divisor&#xA0;will be&#xA0;32-bit&#xA0;signed integers.
+	Both dividend and divisor will be 32-bit signed integers.
 	The divisor will never be 0.
-	Assume we are dealing with an environment which could only store integers within the 32-bit signed integer range: [&#x2212;231, &#xA0;231 &#x2212; 1]. For the purpose of this problem, assume that your function returns 231 &#x2212; 1 when the division result&#xA0;overflows.
+	Assume we are dealing with an environment which could only store integers within the 32-bit signed integer range: [&#x2212;231,  231 &#x2212; 1]. For the purpose of this problem, assume that your function returns 231 &#x2212; 1 when the division result overflows.
 */
 
 using System;

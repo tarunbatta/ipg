@@ -1,5 +1,4 @@
-﻿namespace TechByTarun.InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter7
-{
+﻿namespace TechByTarun.InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter7 {
     /// <summary>
     /// Minesweeper: Design and implement a text-based Minesweeper game. Minesweeper is the classic
     /// single-player computer game where an NxN grid has B mines(or bombs) hidden across the grid.The
@@ -11,10 +10,7 @@
     /// play, other than to block the user from accidentally clicking a cell that is thought to have a bomb.
     /// (Tip for the reader: if you're not familiar with this game, please playa few rounds online first.)
     /// </summary>
-    public class Question10
-    {
-        public static void Init(string[] args)
-        {
-        }
+    public class Question10 {
+        public static void Init (string[] args) { }
     }
 }

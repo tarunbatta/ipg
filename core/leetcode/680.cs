@@ -8,15 +8,15 @@ Given a non-empty string s, you may delete at most one character.  Judge whether
 
 
 Example 1:
-Input: &quot;aba&quot;
+Input: "aba"
 Output: True
 
 
 
 Example 2:
-Input: &quot;abca&quot;
+Input: "abca"
 Output: True
-Explanation: You could delete the character &apos;c&apos;.
+Explanation: You could delete the character 'c'.
 
 
 

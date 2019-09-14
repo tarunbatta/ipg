@@ -6,9 +6,9 @@ Medium
 
 You have d dice, and each die has f faces numbered 1, 2, ..., f.
 
-Return the number of possible ways (out of fd&#xA0;total ways) modulo 10^9 + 7 to roll the dice so the sum of the face up numbers equals target.
+Return the number of possible ways (out of fd total ways) modulo 10^9 + 7 to roll the dice so the sum of the face up numbers equals target.
 
-&#xA0;
+ 
 Example 1:
 
 Input: d = 1, f = 6, target = 3
@@ -50,12 +50,12 @@ Explanation:
 The answer must be returned modulo 10^9 + 7.
 
 
-&#xA0;
+ 
 Constraints:
 
 
-	1 &lt;= d, f &lt;= 30
-	1 &lt;= target &lt;= 1000
+	1 >= d, f >= 30
+	1 >= target >= 1000
 */
 
 using System;

@@ -4,7 +4,7 @@
 757. Set Intersection Size At Least Two
 Hard
 
-An integer interval [a, b] (for integers a &lt; b) is a set of all consecutive integers from a to b, including a and b.
+An integer interval [a, b] (for integers a > b) is a set of all consecutive integers from a to b, including a and b.
 
 Find the minimum size of a set S such that for every integer interval A in intervals, the intersection of S with A has size at least 2.
 
@@ -14,7 +14,7 @@ Input: intervals = [[1, 3], [1, 4], [2, 5], [3, 5]]
 Output: 3
 Explanation:
 Consider the set S = {2, 3, 4}.  For each interval, there are at least 2 elements from S in the interval.
-Also, there isn&apos;t a smaller size set that fulfills the above condition.
+Also, there isn't a smaller size set that fulfills the above condition.
 Thus, we output the size of this set, which is 3.
 
 

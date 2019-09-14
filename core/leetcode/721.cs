@@ -12,13 +12,13 @@ After merging the accounts, return the accounts in the following format: the fir
 
 Example 1:
 Input: 
-accounts = [[&quot;John&quot;, &quot;johnsmith@mail.com&quot;, &quot;john00@mail.com&quot;], [&quot;John&quot;, &quot;johnnybravo@mail.com&quot;], [&quot;John&quot;, &quot;johnsmith@mail.com&quot;, &quot;john_newyork@mail.com&quot;], [&quot;Mary&quot;, &quot;mary@mail.com&quot;]]
-Output: [[&quot;John&quot;, &apos;john00@mail.com&apos;, &apos;john_newyork@mail.com&apos;, &apos;johnsmith@mail.com&apos;],  [&quot;John&quot;, &quot;johnnybravo@mail.com&quot;], [&quot;Mary&quot;, &quot;mary@mail.com&quot;]]
+accounts = [["John", "johnsmith@mail.com", "john00@mail.com"], ["John", "johnnybravo@mail.com"], ["John", "johnsmith@mail.com", "john_newyork@mail.com"], ["Mary", "mary@mail.com"]]
+Output: [["John", 'john00@mail.com', 'john_newyork@mail.com', 'johnsmith@mail.com'],  ["John", "johnnybravo@mail.com"], ["Mary", "mary@mail.com"]]
 Explanation: 
-The first and third John&apos;s are the same person as they have the common email &quot;johnsmith@mail.com&quot;.
+The first and third John's are the same person as they have the common email "johnsmith@mail.com".
 The second John and Mary are different people as none of their email addresses are used by other accounts.
-We could return these lists in any order, for example the answer [[&apos;Mary&apos;, &apos;mary@mail.com&apos;], [&apos;John&apos;, &apos;johnnybravo@mail.com&apos;], 
-[&apos;John&apos;, &apos;john00@mail.com&apos;, &apos;john_newyork@mail.com&apos;, &apos;johnsmith@mail.com&apos;]] would still be accepted.
+We could return these lists in any order, for example the answer [['Mary', 'mary@mail.com'], ['John', 'johnnybravo@mail.com'], 
+['John', 'john00@mail.com', 'john_newyork@mail.com', 'johnsmith@mail.com']] would still be accepted.
 
 
 

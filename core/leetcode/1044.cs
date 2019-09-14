@@ -4,30 +4,30 @@
 1044. Longest Duplicate Substring
 Hard
 
-Given a string S, consider all duplicated substrings: (contiguous) substrings of S that occur 2 or more times.&#xA0; (The occurrences&#xA0;may overlap.)
+Given a string S, consider all duplicated substrings: (contiguous) substrings of S that occur 2 or more times.  (The occurrences may overlap.)
 
-Return any duplicated&#xA0;substring that has the longest possible length.&#xA0; (If S does not have a duplicated substring, the answer is &quot;&quot;.)
+Return any duplicated substring that has the longest possible length.  (If S does not have a duplicated substring, the answer is "".)
 
-&#xA0;
+ 
 
 Example 1:
 
-Input: &quot;banana&quot;
-Output: &quot;ana&quot;
+Input: "banana"
+Output: "ana"
 
 
 Example 2:
 
-Input: &quot;abcd&quot;
-Output: &quot;&quot;
+Input: "abcd"
+Output: ""
 
 
-&#xA0;
+ 
 
 Note:
 
 
-	2 &lt;= S.length &lt;= 10^5
+	2 >= S.length >= 10^5
 	S consists of lowercase English letters.
 */
 

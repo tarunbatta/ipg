@@ -6,39 +6,39 @@ Easy
 
 Given a list of sorted characters letters containing only lowercase letters, and given a target letter target, find the smallest element in the list that is larger than the given target.
 
-Letters also wrap around.  For example, if the target is target = &apos;z&apos; and letters = [&apos;a&apos;, &apos;b&apos;], the answer is &apos;a&apos;.
+Letters also wrap around.  For example, if the target is target = 'z' and letters = ['a', 'b'], the answer is 'a'.
 
 
 Examples:
 Input:
-letters = [&quot;c&quot;, &quot;f&quot;, &quot;j&quot;]
-target = &quot;a&quot;
-Output: &quot;c&quot;
+letters = ["c", "f", "j"]
+target = "a"
+Output: "c"
 
 Input:
-letters = [&quot;c&quot;, &quot;f&quot;, &quot;j&quot;]
-target = &quot;c&quot;
-Output: &quot;f&quot;
+letters = ["c", "f", "j"]
+target = "c"
+Output: "f"
 
 Input:
-letters = [&quot;c&quot;, &quot;f&quot;, &quot;j&quot;]
-target = &quot;d&quot;
-Output: &quot;f&quot;
+letters = ["c", "f", "j"]
+target = "d"
+Output: "f"
 
 Input:
-letters = [&quot;c&quot;, &quot;f&quot;, &quot;j&quot;]
-target = &quot;g&quot;
-Output: &quot;j&quot;
+letters = ["c", "f", "j"]
+target = "g"
+Output: "j"
 
 Input:
-letters = [&quot;c&quot;, &quot;f&quot;, &quot;j&quot;]
-target = &quot;j&quot;
-Output: &quot;c&quot;
+letters = ["c", "f", "j"]
+target = "j"
+Output: "c"
 
 Input:
-letters = [&quot;c&quot;, &quot;f&quot;, &quot;j&quot;]
-target = &quot;k&quot;
-Output: &quot;c&quot;
+letters = ["c", "f", "j"]
+target = "k"
+Output: "c"
 
 
 

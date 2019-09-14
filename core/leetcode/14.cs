@@ -42,7 +42,7 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution14 {
             }
 
             String prefix = strs[0];
-            
+
             for (int i = 1; i < strs.Length; i++) {
                 while (strs[i].IndexOf (prefix) != 0) {
                     prefix = prefix.Substring (0, prefix.Length - 1);

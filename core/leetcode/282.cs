@@ -8,29 +8,29 @@ Given a string that contains only digits 0-9 and a target value, return all poss
 
 Example 1:
 
-Input: num = &quot;123&quot;, target = 6
-Output: [&quot;1+2+3&quot;, &quot;1*2*3&quot;] 
+Input: num = "123", target = 6
+Output: ["1+2+3", "1*2*3"] 
 
 
 Example 2:
 
-Input: num = &quot;232&quot;, target = 8
-Output: [&quot;2*3+2&quot;, &quot;2+3*2&quot;]
+Input: num = "232", target = 8
+Output: ["2*3+2", "2+3*2"]
 
 Example 3:
 
-Input: num = &quot;105&quot;, target = 5
-Output: [&quot;1*0+5&quot;,&quot;10-5&quot;]
+Input: num = "105", target = 5
+Output: ["1*0+5","10-5"]
 
 Example 4:
 
-Input: num = &quot;00&quot;, target = 0
-Output: [&quot;0+0&quot;, &quot;0-0&quot;, &quot;0*0&quot;]
+Input: num = "00", target = 0
+Output: ["0+0", "0-0", "0*0"]
 
 
 Example 5:
 
-Input: num = &quot;3456237490&quot;, target = 9191
+Input: num = "3456237490", target = 9191
 Output: []
 */
 

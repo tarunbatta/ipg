@@ -8,17 +8,17 @@ On an NxN chessboard, a knight starts at the r-th row and c-th column and attemp
 
 A chess knight has 8 possible moves it can make, as illustrated below. Each move is two squares in a cardinal direction, then one square in an orthogonal direction.
 
-&#xA0;
+ 
 
 
 
-&#xA0;
+ 
 
 Each time the knight is to move, it chooses one of eight possible moves uniformly at random (even if the piece would go off the chessboard) and moves there.
 
 The knight continues moving until it has made exactly K moves or has moved off the chessboard. Return the probability that the knight remains on the board after it has stopped moving.
 
-&#xA0;
+ 
 
 Example:
 
@@ -29,7 +29,7 @@ From each of those positions, there are also two moves that will keep the knight
 The total probability the knight stays on the board is 0.0625.
 
 
-&#xA0;
+ 
 
 Note:
 

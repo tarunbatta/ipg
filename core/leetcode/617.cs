@@ -26,7 +26,7 @@ Merged tree:
 	 5   4   7
 
 
-&#xA0;
+ 
 
 Note: The merging process must start from the root nodes of both trees.
 */

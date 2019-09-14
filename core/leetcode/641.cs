@@ -16,11 +16,11 @@ Your implementation should support following operations:
 	deleteLast(): Deletes an item from the rear of Deque. Return true if the operation is successful.
 	getFront(): Gets the front item from the Deque. If the deque is empty, return -1.
 	getRear(): Gets the last item from Deque. If the deque is empty, return -1.
-	isEmpty(): Checks whether Deque is empty or not.&#xA0;
+	isEmpty(): Checks whether Deque is empty or not. 
 	isFull(): Checks whether Deque is full or not.
 
 
-&#xA0;
+ 
 
 Example:
 
@@ -36,13 +36,13 @@ circularDeque.insertFront(4);			// return true
 circularDeque.getFront();			// return 4
 
 
-&#xA0;
+ 
 
 Note:
 
 
 	All values will be in the range of [0, 1000].
-	The number of operations will be in the range of&#xA0;[1, 1000].
+	The number of operations will be in the range of [1, 1000].
 	Please do not use the built-in Deque library.
 */
 

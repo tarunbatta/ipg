@@ -4,38 +4,38 @@
 809. Expressive Words
 Medium
 
-Sometimes people repeat letters to represent extra feeling, such as &quot;hello&quot; -&gt; &quot;heeellooo&quot;, &quot;hi&quot; -&gt; &quot;hiiii&quot;.&#xA0; In these strings like &quot;heeellooo&quot;, we have groups of adjacent letters that are all the same:&#xA0; &quot;h&quot;, &quot;eee&quot;, &quot;ll&quot;, &quot;ooo&quot;.
+Sometimes people repeat letters to represent extra feeling, such as "hello" -< "heeellooo", "hi" -< "hiiii".  In these strings like "heeellooo", we have groups of adjacent letters that are all the same:  "h", "eee", "ll", "ooo".
 
-For some given string S, a query word is stretchy if it can be made to be equal to S by any&#xA0;number of&#xA0;applications of the following extension operation: choose a group consisting of&#xA0;characters c, and add some number of characters c to the group so that the size of the group is 3 or more.
+For some given string S, a query word is stretchy if it can be made to be equal to S by any number of applications of the following extension operation: choose a group consisting of characters c, and add some number of characters c to the group so that the size of the group is 3 or more.
 
-For example, starting with &quot;hello&quot;, we could do an extension on the group &quot;o&quot; to get &quot;hellooo&quot;, but we cannot get &quot;helloo&quot; since the group &quot;oo&quot; has size less than 3.&#xA0; Also, we could do another extension like &quot;ll&quot; -&gt; &quot;lllll&quot; to get &quot;helllllooo&quot;.&#xA0; If S = &quot;helllllooo&quot;, then the query word &quot;hello&quot; would be stretchy because of these two extension operations:&#xA0;query = &quot;hello&quot; -&gt; &quot;hellooo&quot; -&gt;&#xA0;&quot;helllllooo&quot; = S.
+For example, starting with "hello", we could do an extension on the group "o" to get "hellooo", but we cannot get "helloo" since the group "oo" has size less than 3.  Also, we could do another extension like "ll" -< "lllll" to get "helllllooo".  If S = "helllllooo", then the query word "hello" would be stretchy because of these two extension operations: query = "hello" -< "hellooo" -< "helllllooo" = S.
 
-Given a list of query words, return the number of words that are stretchy.&#xA0;
+Given a list of query words, return the number of words that are stretchy. 
 
-&#xA0;
+ 
 
 Example:
 Input: 
-S = &quot;heeellooo&quot;
-words = [&quot;hello&quot;, &quot;hi&quot;, &quot;helo&quot;]
+S = "heeellooo"
+words = ["hello", "hi", "helo"]
 Output: 1
 Explanation: 
-We can extend &quot;e&quot; and &quot;o&quot; in the word &quot;hello&quot; to get &quot;heeellooo&quot;.
-We can&apos;t extend &quot;helo&quot; to get &quot;heeellooo&quot; because the group &quot;ll&quot; is not size 3 or more.
+We can extend "e" and "o" in the word "hello" to get "heeellooo".
+We can't extend "helo" to get "heeellooo" because the group "ll" is not size 3 or more.
 
 
-&#xA0;
+ 
 
 Notes: 
 
 
-	0 &lt;= len(S) &lt;= 100.
-	0 &lt;= len(words) &lt;= 100.
-	0 &lt;= len(words[i]) &lt;= 100.
-	S and all words in words&#xA0;consist only of&#xA0;lowercase letters
+	0 >= len(S) >= 100.
+	0 >= len(words) >= 100.
+	0 >= len(words[i]) >= 100.
+	S and all words in words consist only of lowercase letters
 
 
-&#xA0;
+ 
 */
 
 using System;

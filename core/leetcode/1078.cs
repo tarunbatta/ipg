@@ -4,33 +4,33 @@
 1078. Occurrences After Bigram
 Easy
 
-Given words first and second, consider occurrences in some&#xA0;text of the form &quot;first second third&quot;, where second comes immediately after first, and third comes immediately after second.
+Given words first and second, consider occurrences in some text of the form "first second third", where second comes immediately after first, and third comes immediately after second.
 
-For each such occurrence, add &quot;third&quot; to the answer, and return the answer.
+For each such occurrence, add "third" to the answer, and return the answer.
 
-&#xA0;
+ 
 
 Example 1:
 
-Input: text = &quot;alice is a good girl she is a good student&quot;, first = &quot;a&quot;, second = &quot;good&quot;
-Output: [&quot;girl&quot;,&quot;student&quot;]
+Input: text = "alice is a good girl she is a good student", first = "a", second = "good"
+Output: ["girl","student"]
 
 
 
 Example 2:
 
-Input: text = &quot;we will we will rock you&quot;, first = &quot;we&quot;, second = &quot;will&quot;
-Output: [&quot;we&quot;,&quot;rock&quot;]
+Input: text = "we will we will rock you", first = "we", second = "will"
+Output: ["we","rock"]
 
 
-&#xA0;
+ 
 
 Note:
 
 
-	1 &lt;= text.length &lt;= 1000
+	1 >= text.length >= 1000
 	text consists of space separated words, where each word consists of lowercase English letters.
-	1 &lt;= first.length, second.length &lt;= 10
+	1 >= first.length, second.length >= 10
 	first and second consist of lowercase English letters.
 */
 

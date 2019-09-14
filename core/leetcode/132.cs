@@ -10,9 +10,9 @@ Return the minimum cuts needed for a palindrome partitioning of s.
 
 Example:
 
-Input:&#xA0;&quot;aab&quot;
+Input: "aab"
 Output: 1
-Explanation: The palindrome partitioning [&quot;aa&quot;,&quot;b&quot;] could be produced using 1 cut.
+Explanation: The palindrome partitioning ["aa","b"] could be produced using 1 cut.
 */
 
 using System;

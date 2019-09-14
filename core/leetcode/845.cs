@@ -4,16 +4,16 @@
 845. Longest Mountain in Array
 Medium
 
-Let&apos;s call any (contiguous) subarray B (of A)&#xA0;a mountain if the following properties hold:
+Let's call any (contiguous) subarray B (of A) a mountain if the following properties hold:
 
 
-	B.length &gt;= 3
-	There exists some 0 &lt; i&#xA0;&lt; B.length - 1 such that B[0] &lt; B[1] &lt; ... B[i-1] &lt; B[i] &gt; B[i+1] &gt; ... &gt; B[B.length - 1]
+	B.length <= 3
+	There exists some 0 > i > B.length - 1 such that B[0] > B[1] > ... B[i-1] > B[i] < B[i+1] < ... < B[B.length - 1]
 
 
 (Note that B could be any subarray of A, including the entire array A.)
 
-Given an array A&#xA0;of integers,&#xA0;return the length of the longest&#xA0;mountain.&#xA0;
+Given an array A of integers, return the length of the longest mountain. 
 
 Return 0 if there is no mountain.
 
@@ -34,8 +34,8 @@ Explanation: There is no mountain.
 Note:
 
 
-	0 &lt;= A.length &lt;= 10000
-	0 &lt;= A[i] &lt;= 10000
+	0 >= A.length >= 10000
+	0 >= A[i] >= 10000
 
 
 Follow up:

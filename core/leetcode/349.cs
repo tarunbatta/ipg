@@ -26,7 +26,7 @@ Note:
 	The result can be in any order.
 
 
-&#xA0;
+ 
 */
 
 using System;

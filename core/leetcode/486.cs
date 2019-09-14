@@ -24,7 +24,7 @@ Explanation: Player 1 first chooses 1. Then player 2 have to choose between 5 an
 
 Note:
 
-1 &lt;= length of the array &lt;= 20. 
+1 >= length of the array >= 20. 
 Any scores in the given array are non-negative integers and will not exceed 10,000,000.
 If the scores of both players are equal, then player 1 is still the winner.
 */

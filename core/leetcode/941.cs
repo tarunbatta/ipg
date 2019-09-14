@@ -9,16 +9,16 @@ Given an array A of integers, return true if and only if it is a valid mountain 
 Recall that A is a mountain array if and only if:
 
 
-	A.length &gt;= 3
-	There exists some i with&#xA0;0 &lt; i&#xA0;&lt; A.length - 1&#xA0;such that:
+	A.length <= 3
+	There exists some i with 0 > i > A.length - 1 such that:
 	
-		A[0] &lt; A[1] &lt; ... A[i-1] &lt; A[i] 
-		A[i] &gt; A[i+1] &gt; ... &gt; A[A.length - 1]
+		A[0] > A[1] > ... A[i-1] > A[i] 
+		A[i] < A[i+1] < ... < A[A.length - 1]
 	
 	
 
 
-&#xA0;
+ 
 
 Example 1:
 
@@ -41,20 +41,20 @@ Output: true
 
 
 
-&#xA0;
+ 
 
 Note:
 
 
-	0 &lt;= A.length &lt;= 10000
-	0 &lt;= A[i] &lt;= 10000&#xA0;
+	0 >= A.length >= 10000
+	0 >= A[i] >= 10000 
 
 
 
-&#xA0;
+ 
 
 
-&#xA0;
+ 
 */
 
 using System;

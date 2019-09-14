@@ -9,12 +9,12 @@ Input: madman
 Output: 3, ada // or 
 Output: 3, mdm
 */
-(function () {
+(function() {
     /*
     Time Complexity: O(n/2)
     Space Complexity: O(n)
     */
-    var longestPalindrome = function (str) {
+    var longestPalindrome = function(str) {
         var result = null;
 
         // TODO
@@ -39,7 +39,7 @@ Output: 3, mdm
                 var validPalindroms = [];
                 longestPalindromeHelper(str, validPalindroms);
 
-                result = validPalindroms.reduce(function (a, b) {
+                result = validPalindroms.reduce(function(a, b) {
                     return a.length > b.length ? a : b;
                 });
             } else {

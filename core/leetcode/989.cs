@@ -4,11 +4,11 @@
 989. Add to Array-Form of Integer
 Easy
 
-For a non-negative integer X, the&#xA0;array-form of X&#xA0;is an array of its digits in left to right order.&#xA0; For example, if X = 1231, then the array form is&#xA0;[1,2,3,1].
+For a non-negative integer X, the array-form of X is an array of its digits in left to right order.  For example, if X = 1231, then the array form is [1,2,3,1].
 
-Given the array-form A of a non-negative&#xA0;integer X, return the array-form of the integer X+K.
+Given the array-form A of a non-negative integer X, return the array-form of the integer X+K.
 
-&#xA0;
+ 
 
 
 
@@ -45,15 +45,15 @@ Output: [1,0,0,0,0,0,0,0,0,0,0]
 Explanation: 9999999999 + 1 = 10000000000
 
 
-&#xA0;
+ 
 
 Note&#xFF1A;
 
 
-	1 &lt;= A.length &lt;= 10000
-	0 &lt;= A[i] &lt;= 9
-	0 &lt;= K &lt;= 10000
-	If A.length &gt; 1, then A[0] != 0
+	1 >= A.length >= 10000
+	0 >= A[i] >= 9
+	0 >= K >= 10000
+	If A.length < 1, then A[0] != 0
 */
 
 using System;

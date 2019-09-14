@@ -18,7 +18,7 @@ Explanation: Subarrays [1, 2], [2, 6], [7, 5] correspond to the starting indices
 We could have also taken [2, 1], but an answer of [1, 3, 5] would be lexicographically larger.
 
 
-&#xA0;
+ 
 
 Note:
 
@@ -28,7 +28,7 @@ Note:
 	k will be between 1 and floor(nums.length / 3).
 
 
-&#xA0;
+ 
 */
 
 using System;

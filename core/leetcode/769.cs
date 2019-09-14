@@ -4,7 +4,7 @@
 769. Max Chunks To Make Sorted
 Medium
 
-Given an array arr that is a permutation of [0, 1, ..., arr.length - 1], we split the array into some number of &quot;chunks&quot; (partitions), and individually sort each chunk.&#xA0; After concatenating them,&#xA0;the result equals the sorted array.
+Given an array arr that is a permutation of [0, 1, ..., arr.length - 1], we split the array into some number of "chunks" (partitions), and individually sort each chunk.  After concatenating them, the result equals the sorted array.
 
 What is the most number of chunks we could have made?
 
@@ -14,7 +14,7 @@ Input: arr = [4,3,2,1,0]
 Output: 1
 Explanation:
 Splitting into two or more chunks will not return the required result.
-For example, splitting into [4, 3], [2, 1, 0] will result in [3, 4, 0, 1, 2], which isn&apos;t sorted.
+For example, splitting into [4, 3], [2, 1, 0] will result in [3, 4, 0, 1, 2], which isn't sorted.
 
 
 Example 2:
@@ -33,7 +33,7 @@ Note:
 	arr[i] will be a permutation of [0, 1, ..., arr.length - 1].
 
 
-&#xA0;
+ 
 */
 
 using System;

@@ -6,17 +6,17 @@ Easy
 
 Given a valid (IPv4) IP address, return a defanged version of that IP address.
 
-A defanged&#xA0;IP address&#xA0;replaces every period &quot;.&quot; with &quot;[.]&quot;.
+A defanged IP address replaces every period "." with "[.]".
 
-&#xA0;
+ 
 Example 1:
-Input: address = &quot;1.1.1.1&quot;
-Output: &quot;1[.]1[.]1[.]1&quot;
+Input: address = "1.1.1.1"
+Output: "1[.]1[.]1[.]1"
 Example 2:
-Input: address = &quot;255.100.50.0&quot;
-Output: &quot;255[.]100[.]50[.]0&quot;
+Input: address = "255.100.50.0"
+Output: "255[.]100[.]50[.]0"
 
-&#xA0;
+ 
 Constraints:
 
 

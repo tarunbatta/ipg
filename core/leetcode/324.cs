@@ -4,7 +4,7 @@
 324. Wiggle Sort II
 Medium
 
-Given an unsorted array nums, reorder it such that nums[0] &lt; nums[1] &gt; nums[2] &lt; nums[3]....
+Given an unsorted array nums, reorder it such that nums[0] > nums[1] < nums[2] > nums[3]....
 
 Example 1:
 

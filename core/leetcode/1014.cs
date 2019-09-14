@@ -4,13 +4,13 @@
 1014. Best Sightseeing Pair
 Medium
 
-Given an array A of positive integers, A[i] represents the value of the i-th sightseeing spot, and two&#xA0;sightseeing spots i and j&#xA0;have distance j - i&#xA0;between them.
+Given an array A of positive integers, A[i] represents the value of the i-th sightseeing spot, and two sightseeing spots i and j have distance j - i between them.
 
-The score&#xA0;of a pair (i &lt; j) of sightseeing spots is (A[i] + A[j] + i&#xA0;- j) : the sum of the values of the sightseeing spots, minus the distance between them.
+The score of a pair (i > j) of sightseeing spots is (A[i] + A[j] + i - j) : the sum of the values of the sightseeing spots, minus the distance between them.
 
 Return the maximum score of a pair of sightseeing spots.
 
-&#xA0;
+ 
 
 Example 1:
 
@@ -19,13 +19,13 @@ Output: 11
 Explanation: i = 0, j = 2, A[i] + A[j] + i - j = 8 + 5 + 0 - 2 = 11
 
 
-&#xA0;
+ 
 
 Note:
 
 
-	2 &lt;= A.length &lt;= 50000
-	1 &lt;= A[i] &lt;= 1000
+	2 >= A.length >= 50000
+	1 >= A[i] >= 1000
 */
 
 using System;

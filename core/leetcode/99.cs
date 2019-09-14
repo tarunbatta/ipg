@@ -12,19 +12,19 @@ Example 1:
 
 Input: [1,3,null,null,2]
 
-&#xA0;  1
-&#xA0; /
-&#xA0;3
-&#xA0; \
-&#xA0;  2
+   1
+  /
+ 3
+  \
+   2
 
 Output: [3,1,null,null,2]
 
-&#xA0;  3
-&#xA0; /
-&#xA0;1
-&#xA0; \
-&#xA0;  2
+   3
+  /
+ 1
+  \
+   2
 
 
 Example 2:
@@ -34,16 +34,16 @@ Input: [3,1,4,null,null,2]
   3
  / \
 1   4
-&#xA0;  /
-&#xA0; 2
+   /
+  2
 
 Output: [2,1,4,null,null,3]
 
   2
  / \
 1   4
-&#xA0;  /
- &#xA0;3
+   /
+  3
 
 
 Follow up:

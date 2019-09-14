@@ -18,7 +18,7 @@ Example 2:
 
 Input: 10
 Output: 36
-Explanation: 10 = 3 + 3 + 4, 3 &#xD7;&#xA0;3 &#xD7;&#xA0;4 = 36.
+Explanation: 10 = 3 + 3 + 4, 3 &#xD7; 3 &#xD7; 4 = 36.
 
 Note: You may assume that n is not less than 2 and not larger than 58.
 */

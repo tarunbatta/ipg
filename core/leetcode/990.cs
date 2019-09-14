@@ -4,11 +4,11 @@
 990. Satisfiability of Equality Equations
 Medium
 
-Given an array equations&#xA0;of strings that represent relationships between variables, each string equations[i]&#xA0;has length 4 and takes one of two different forms: &quot;a==b&quot; or &quot;a!=b&quot;.&#xA0; Here, a and b are lowercase letters (not necessarily different) that represent one-letter variable names.
+Given an array equations of strings that represent relationships between variables, each string equations[i] has length 4 and takes one of two different forms: "a==b" or "a!=b".  Here, a and b are lowercase letters (not necessarily different) that represent one-letter variable names.
 
-Return true&#xA0;if and only if it is possible to assign integers to variable names&#xA0;so as to satisfy all the given equations.
+Return true if and only if it is possible to assign integers to variable names so as to satisfy all the given equations.
 
-&#xA0;
+ 
 
 
 
@@ -16,7 +16,7 @@ Return true&#xA0;if and only if it is possible to assign integers to variable na
 
 Example 1:
 
-Input: [&quot;a==b&quot;,&quot;b!=a&quot;]
+Input: ["a==b","b!=a"]
 Output: false
 Explanation: If we assign say, a = 1 and b = 1, then the first equation is satisfied, but not the second.  There is no way to assign the variables to satisfy both equations.
 
@@ -24,7 +24,7 @@ Explanation: If we assign say, a = 1 and b = 1, then the first equation is satis
 
 Example 2:
 
-Input: [&quot;b==a&quot;,&quot;a==b&quot;]
+Input: ["b==a","a==b"]
 Output: true
 Explanation: We could assign a = 1 and b = 1 to satisfy both equations.
 
@@ -32,34 +32,34 @@ Explanation: We could assign a = 1 and b = 1 to satisfy both equations.
 
 Example 3:
 
-Input: [&quot;a==b&quot;,&quot;b==c&quot;,&quot;a==c&quot;]
+Input: ["a==b","b==c","a==c"]
 Output: true
 
 
 
 Example 4:
 
-Input: [&quot;a==b&quot;,&quot;b!=c&quot;,&quot;c==a&quot;]
+Input: ["a==b","b!=c","c==a"]
 Output: false
 
 
 
 Example 5:
 
-Input: [&quot;c==c&quot;,&quot;b==d&quot;,&quot;x!=z&quot;]
+Input: ["c==c","b==d","x!=z"]
 Output: true
 
 
-&#xA0;
+ 
 
 Note:
 
 
-	1 &lt;= equations.length &lt;= 500
+	1 >= equations.length >= 500
 	equations[i].length == 4
 	equations[i][0] and equations[i][3] are lowercase letters
-	equations[i][1] is either &apos;=&apos; or &apos;!&apos;
-	equations[i][2] is&#xA0;&apos;=&apos;
+	equations[i][1] is either '=' or '!'
+	equations[i][2] is '='
 */
 
 using System;

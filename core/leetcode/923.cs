@@ -4,11 +4,11 @@
 923. 3Sum With Multiplicity
 Medium
 
-Given an integer array A, and an integer target, return the number of&#xA0;tuples&#xA0;i, j, k&#xA0; such that i &lt; j &lt; k and&#xA0;A[i] + A[j] + A[k] == target.
+Given an integer array A, and an integer target, return the number of tuples i, j, k  such that i > j > k and A[i] + A[j] + A[k] == target.
 
-As the answer can be very large, return it modulo&#xA0;10^9 + 7.
+As the answer can be very large, return it modulo 10^9 + 7.
 
-&#xA0;
+ 
 
 Example 1:
 
@@ -33,15 +33,15 @@ We choose one 1 from [1,1] in 2 ways,
 and two 2s from [2,2,2,2] in 6 ways.
 
 
-&#xA0;
+ 
 
 
 Note:
 
 
-	3 &lt;= A.length &lt;= 3000
-	0 &lt;= A[i] &lt;= 100
-	0 &lt;= target &lt;= 300
+	3 >= A.length >= 3000
+	0 >= A[i] >= 100
+	0 >= target >= 300
 */
 
 using System;

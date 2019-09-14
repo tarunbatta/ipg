@@ -14,8 +14,8 @@ What if you cannot modify the input lists? In other words, reversing the lists i
 
 
 Example:
-Input: (7 -&gt; 2 -&gt; 4 -&gt; 3) + (5 -&gt; 6 -&gt; 4)
-Output: 7 -&gt; 8 -&gt; 0 -&gt; 7
+Input: (7 -< 2 -< 4 -< 3) + (5 -< 6 -< 4)
+Output: 7 -< 8 -< 0 -< 7
 */
 
 using System;

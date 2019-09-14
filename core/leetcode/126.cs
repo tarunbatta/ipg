@@ -4,7 +4,7 @@
 126. Word Ladder II
 Hard
 
-Given two words (beginWord and endWord), and a dictionary&apos;s word list, find all shortest transformation sequence(s) from beginWord to endWord, such that:
+Given two words (beginWord and endWord), and a dictionary's word list, find all shortest transformation sequence(s) from beginWord to endWord, such that:
 
 
 	Only one letter can be changed at a time
@@ -24,27 +24,27 @@ Note:
 Example 1:
 
 Input:
-beginWord = &quot;hit&quot;,
-endWord = &quot;cog&quot;,
-wordList = [&quot;hot&quot;,&quot;dot&quot;,&quot;dog&quot;,&quot;lot&quot;,&quot;log&quot;,&quot;cog&quot;]
+beginWord = "hit",
+endWord = "cog",
+wordList = ["hot","dot","dog","lot","log","cog"]
 
 Output:
 [
-  [&quot;hit&quot;,&quot;hot&quot;,&quot;dot&quot;,&quot;dog&quot;,&quot;cog&quot;],
-&#xA0; [&quot;hit&quot;,&quot;hot&quot;,&quot;lot&quot;,&quot;log&quot;,&quot;cog&quot;]
+  ["hit","hot","dot","dog","cog"],
+  ["hit","hot","lot","log","cog"]
 ]
 
 
 Example 2:
 
 Input:
-beginWord = &quot;hit&quot;
-endWord = &quot;cog&quot;
-wordList = [&quot;hot&quot;,&quot;dot&quot;,&quot;dog&quot;,&quot;lot&quot;,&quot;log&quot;]
+beginWord = "hit"
+endWord = "cog"
+wordList = ["hot","dot","dog","lot","log"]
 
 Output: []
 
-Explanation:&#xA0;The endWord &quot;cog&quot; is not in wordList, therefore no possible&#xA0;transformation.
+Explanation: The endWord "cog" is not in wordList, therefore no possible transformation.
 */
 
 using System;

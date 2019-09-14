@@ -4,7 +4,7 @@
 829. Consecutive Numbers Sum
 Hard
 
-Given a positive integer&#xA0;N, how many ways can we write it as a sum of&#xA0;consecutive positive integers?
+Given a positive integer N, how many ways can we write it as a sum of consecutive positive integers?
 
 Example 1:
 
@@ -24,7 +24,7 @@ Input: 15
 Output: 4
 Explanation: 15 = 15 = 8 + 7 = 4 + 5 + 6 = 1 + 2 + 3 + 4 + 5
 
-Note:&#xA0;1 &lt;= N &lt;= 10 ^ 9.
+Note: 1 >= N >= 10 ^ 9.
 */
 
 using System;

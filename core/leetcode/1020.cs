@@ -10,14 +10,14 @@ A move consists of walking from one land square 4-directionally to another land 
 
 Return the number of land squares in the grid for which we cannot walk off the boundary of the grid in any number of moves.
 
-&#xA0;
+ 
 
 Example 1:
 
 Input: [[0,0,0,0],[1,0,1,0],[0,1,1,0],[0,0,0,0]]
 Output: 3
 Explanation: 
-There are three 1s that are enclosed by 0s, and one 1 that isn&apos;t enclosed because its on the boundary.
+There are three 1s that are enclosed by 0s, and one 1 that isn't enclosed because its on the boundary.
 
 Example 2:
 
@@ -27,14 +27,14 @@ Explanation:
 All 1s are either on the boundary or can reach the boundary.
 
 
-&#xA0;
+ 
 
 Note:
 
 
-	1 &lt;= A.length &lt;= 500
-	1 &lt;= A[i].length &lt;= 500
-	0 &lt;= A[i][j] &lt;= 1
+	1 >= A.length >= 500
+	1 >= A[i].length >= 500
+	0 >= A[i][j] >= 1
 	All rows have the same size.
 */
 

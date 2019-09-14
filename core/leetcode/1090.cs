@@ -6,16 +6,16 @@ Medium
 
 We have a set of items: the i-th item has value values[i] and label labels[i].
 
-Then, we choose&#xA0;a subset S of these items, such that:
+Then, we choose a subset S of these items, such that:
 
 
-	|S| &lt;= num_wanted
-	For every label L, the number of items in S with&#xA0;label L is &lt;= use_limit.
+	|S| >= num_wanted
+	For every label L, the number of items in S with label L is >= use_limit.
 
 
 Return the largest possible sum of the subset S.
 
-&#xA0;
+ 
 
 
 Example 1:
@@ -37,7 +37,7 @@ Explanation: The subset chosen is the first, second, and third item.
 Example 3:
 
 Input: values = [9,8,8,7,6], labels = [0,0,0,1,1], num_wanted = 3, use_limit = 1
-Output:&#xA0;16
+Output: 16
 Explanation: The subset chosen is the first and fourth item.
 
 
@@ -49,14 +49,14 @@ Output: 24
 Explanation: The subset chosen is the first, second, and fourth item.
 
 
-&#xA0;
+ 
 
 Note:
 
 
-	1 &lt;= values.length == labels.length &lt;= 20000
-	0 &lt;= values[i], labels[i]&#xA0;&lt;= 20000
-	1 &lt;= num_wanted, use_limit&#xA0;&lt;= values.length
+	1 >= values.length == labels.length >= 20000
+	0 >= values[i], labels[i] >= 20000
+	1 >= num_wanted, use_limit >= values.length
 */
 
 using System;

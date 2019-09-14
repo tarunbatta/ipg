@@ -1,7 +1,6 @@
 ﻿using System;
 
-namespace TechByTarun.InterviewPreperationGuide.App.Leetcode
-{
+namespace TechByTarun.InterviewPreperationGuide.App.Leetcode {
     /// <summary>
     /// Frog Jump
     /// https://leetcode.com/problems/frog-jump/
@@ -36,51 +35,42 @@ namespace TechByTarun.InterviewPreperationGuide.App.Leetcode
     /// Return false. There is no way to jump to the last stone as
     /// the gap between the 5th and 6th stone is too large.
     /// </summary>
-    public class Question403
-    {
-        public static void Init(string[] args)
-        {
-            Console.WriteLine(CanCross(null));
-            Program.PrintLine();
-            Console.WriteLine(CanCross(new int[] { 0, 1, 3, 5, 6, 8, 12, 17 }));
-            Program.PrintLine();
-            Console.WriteLine(CanCross(new int[] { 0, 1, 2, 3, 4, 8, 9, 11 }));
-            Program.PrintLine();
-            Console.WriteLine(CanCross(new int[] { 0, 1, 3, 4, 5, 7, 9, 10, 12 }));
+    public class Question403 {
+        public static void Init (string[] args) {
+            Console.WriteLine (CanCross (null));
+            Program.PrintLine ();
+            Console.WriteLine (CanCross (new int[] { 0, 1, 3, 5, 6, 8, 12, 17 }));
+            Program.PrintLine ();
+            Console.WriteLine (CanCross (new int[] { 0, 1, 2, 3, 4, 8, 9, 11 }));
+            Program.PrintLine ();
+            Console.WriteLine (CanCross (new int[] { 0, 1, 3, 4, 5, 7, 9, 10, 12 }));
         }
 
-        public static bool CanCross(int[] stones)
-        {
-            if (stones == null)
-            {
+        public static bool CanCross (int[] stones) {
+            if (stones == null) {
                 return false;
             }
 
             int n = stones.Length;
 
-            if (n <= 1)
-            {
+            if (n <= 1) {
                 return true;
             }
-            if (stones[1] != 1)
-            {
+            if (stones[1] != 1) {
                 return false;
             }
 
-            bool[,] dp = new bool[n, n];
+            bool[, ] dp = new bool[n, n];
 
-            return RecursiveCall(stones, dp, 1, 0);
+            return RecursiveCall (stones, dp, 1, 0);
         }
 
-        public static bool RecursiveCall(int[] stones, bool[,] dp, int index, int last)
-        {
-            if (index == stones.Length - 1)
-            {
+        public static bool RecursiveCall (int[] stones, bool[, ] dp, int index, int last) {
+            if (index == stones.Length - 1) {
                 return true;
             }
 
-            if (dp[index, last])
-            {
+            if (dp[index, last]) {
                 return false;
             }
 
@@ -91,39 +81,29 @@ namespace TechByTarun.InterviewPreperationGuide.App.Leetcode
             int ed = stones.Length - 1;
             int re = -1;
 
-            while (st <= ed)
-            {
+            while (st <= ed) {
                 int mid = (st + ed) >> 1;
 
-                if (stones[mid] - stones[index] >= dist - 1 && stones[mid] - stones[index] <= dist + 1)
-                {
+                if (stones[mid] - stones[index] >= dist - 1 && stones[mid] - stones[index] <= dist + 1) {
                     re = mid;
                     ed = mid - 1;
-                }
-                else if (stones[mid] - stones[index] < dist - 1)
-                {
+                } else if (stones[mid] - stones[index] < dist - 1) {
                     st = mid + 1;
-                }
-                else
-                {
+                } else {
                     ed = mid - 1;
                 }
             }
 
-            if (re == -1)
-            {
+            if (re == -1) {
                 return false;
             }
 
-            for (int i = re; i < stones.Length; i++)
-            {
-                if (stones[i] - stones[index] > dist + 1)
-                {
+            for (int i = re; i < stones.Length; i++) {
+                if (stones[i] - stones[index] > dist + 1) {
                     break;
                 }
 
-                if (RecursiveCall(stones, dp, i, index))
-                {
+                if (RecursiveCall (stones, dp, i, index)) {
                     return true;
                 }
             }

@@ -7,34 +7,34 @@ Easy
 Suppose we have a class:
 
 public class Foo {
-&#xA0; public void first() { print(&quot;first&quot;); }
-&#xA0; public void second() { print(&quot;second&quot;); }
-&#xA0; public void third() { print(&quot;third&quot;); }
+  public void first() { print("first"); }
+  public void second() { print("second"); }
+  public void third() { print("third"); }
 }
 
 
-The same instance of Foo will be passed to three different threads. Thread A will call first(), thread B will call second(), and thread C will call third(). Design a mechanism and modify the program&#xA0;to ensure that&#xA0;second()&#xA0;is executed after&#xA0;first(), and&#xA0;third() is executed after&#xA0;second().
+The same instance of Foo will be passed to three different threads. Thread A will call first(), thread B will call second(), and thread C will call third(). Design a mechanism and modify the program to ensure that second() is executed after first(), and third() is executed after second().
 
-&#xA0;
+ 
 
 Example 1:
 
 Input: [1,2,3]
-Output: &quot;firstsecondthird&quot;
-Explanation: There are three threads being fired asynchronously. The input [1,2,3] means thread A calls first(), thread B calls second(), and thread C calls third(). &quot;firstsecondthird&quot; is the correct output.
+Output: "firstsecondthird"
+Explanation: There are three threads being fired asynchronously. The input [1,2,3] means thread A calls first(), thread B calls second(), and thread C calls third(). "firstsecondthird" is the correct output.
 
 
 Example 2:
 
 Input: [1,3,2]
-Output: &quot;firstsecondthird&quot;
-Explanation: The input [1,3,2] means thread A calls first(), thread B calls third(), and thread C calls second(). &quot;firstsecondthird&quot; is the correct output.
+Output: "firstsecondthird"
+Explanation: The input [1,3,2] means thread A calls first(), thread B calls third(), and thread C calls second(). "firstsecondthird" is the correct output.
 
-&#xA0;
+ 
 
 Note:
 
-We do not know how the threads will be scheduled in the operating system, even though the numbers in the input seems to imply the ordering. The input format you see is mainly&#xA0;to ensure our tests&apos; comprehensiveness.
+We do not know how the threads will be scheduled in the operating system, even though the numbers in the input seems to imply the ordering. The input format you see is mainly to ensure our tests' comprehensiveness.
 */
 
 using System;

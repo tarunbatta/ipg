@@ -1,27 +1,20 @@
 using System;
 
-namespace InterviewPreperationGuide.Core.Algorithms.Sorting
-{
-    public class InsertionSort
-    {
-        public static void Init()
-        {
-            Display(_InsertionSort(null));
-            Display(_InsertionSort(new int[0]));
-            Display(_InsertionSort(new int[] { 1, 7, 5, 23, 9, 34, 12, 100, 2, 6, 0, -5, 25 }));
+namespace InterviewPreperationGuide.Core.Algorithms.Sorting {
+    public class InsertionSort {
+        public static void Init () {
+            Display (_InsertionSort (null));
+            Display (_InsertionSort (new int[0]));
+            Display (_InsertionSort (new int[] { 1, 7, 5, 23, 9, 34, 12, 100, 2, 6, 0, -5, 25 }));
         }
 
-        public static int[] _InsertionSort(int[] arr)
-        {
-            if (arr != null && arr.Length > 0)
-            {
-                for (int i = 1; i < arr.Length; i++)
-                {
+        public static int[] _InsertionSort (int[] arr) {
+            if (arr != null && arr.Length > 0) {
+                for (int i = 1; i < arr.Length; i++) {
                     int j = i;
                     int temp = arr[j];
 
-                    while (j > 0 && arr[j - 1] >= temp)
-                    {
+                    while (j > 0 && arr[j - 1] >= temp) {
                         arr[j] = arr[j - 1];
                         j--;
                     }
@@ -33,17 +26,14 @@ namespace InterviewPreperationGuide.Core.Algorithms.Sorting
             return arr;
         }
 
-        public static void Display(int[] arr)
-        {
-            if (arr != null)
-            {
-                for (int x = 0; x < arr.Length; x++)
-                {
-                    Console.Write(arr[x] + " ");
+        public static void Display (int[] arr) {
+            if (arr != null) {
+                for (int x = 0; x < arr.Length; x++) {
+                    Console.Write (arr[x] + " ");
                 }
             }
 
-            Console.WriteLine();
+            Console.WriteLine ();
         }
     }
 }

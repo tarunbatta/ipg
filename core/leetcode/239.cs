@@ -23,7 +23,7 @@ Window position                Max
 
 
 Note: 
-You may assume k is always valid, 1 &#x2264; k &#x2264; input array&apos;s size for non-empty array.
+You may assume k is always valid, 1 &#x2264; k &#x2264; input array's size for non-empty array.
 
 Follow up:
 Could you solve it in linear time?

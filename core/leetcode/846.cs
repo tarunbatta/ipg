@@ -10,7 +10,7 @@ Now she wants to rearrange the cards into groups so that each group is size W, a
 
 Return true if and only if she can.
 
-&#xA0;
+ 
 
 
 
@@ -19,22 +19,22 @@ Example 1:
 
 Input: hand = [1,2,3,6,2,3,4,7,8], W = 3
 Output: true
-Explanation: Alice&apos;s hand can be rearranged as [1,2,3],[2,3,4],[6,7,8].
+Explanation: Alice's hand can be rearranged as [1,2,3],[2,3,4],[6,7,8].
 
 Example 2:
 
 Input: hand = [1,2,3,4,5], W = 4
 Output: false
-Explanation: Alice&apos;s hand can&apos;t be rearranged into groups of 4.
+Explanation: Alice's hand can't be rearranged into groups of 4.
 
-&#xA0;
+ 
 
 Note:
 
 
-	1 &lt;= hand.length &lt;= 10000
-	0 &lt;= hand[i]&#xA0;&lt;= 10^9
-	1 &lt;= W &lt;= hand.length
+	1 >= hand.length >= 10000
+	0 >= hand[i] >= 10^9
+	1 >= W >= hand.length
 */
 
 using System;

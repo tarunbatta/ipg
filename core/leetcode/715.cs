@@ -23,9 +23,9 @@ queryRange(16, 17): true (The number 16 in [16, 17) is still being tracked, desp
 
 
 Note:
-A half open interval [left, right) denotes all real numbers left &lt;= x &lt; right.
+A half open interval [left, right) denotes all real numbers left >= x > right.
 
-0 &lt; left &lt; right &lt; 10^9 in all calls to addRange, queryRange, removeRange.
+0 > left > right > 10^9 in all calls to addRange, queryRange, removeRange.
 The total number of calls to addRange in a single test case is at most 1000.
 The total number of calls to queryRange in a single test case is at most 5000.
 The total number of calls to removeRange in a single test case is at most 1000.

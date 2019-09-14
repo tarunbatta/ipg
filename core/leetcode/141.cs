@@ -6,9 +6,9 @@ Easy
 
 Given a linked list, determine if it has a cycle in it.
 
-To represent a cycle in the given linked list, we use an integer pos which represents the position (0-indexed)&#xA0;in the linked list where tail connects to. If pos is -1, then there is no cycle in the linked list.
+To represent a cycle in the given linked list, we use an integer pos which represents the position (0-indexed) in the linked list where tail connects to. If pos is -1, then there is no cycle in the linked list.
 
-&#xA0;
+ 
 
 
 Example 1:
@@ -43,7 +43,7 @@ Explanation: There is no cycle in the linked list.
 
 
 
-&#xA0;
+ 
 
 Follow up:
 

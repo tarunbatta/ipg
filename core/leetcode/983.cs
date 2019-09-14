@@ -4,7 +4,7 @@
 983. Minimum Cost For Tickets
 Medium
 
-In a country popular for train travel, you&#xA0;have planned some train travelling one year in advance.&#xA0; The days of the year that you will travel is given as an array days.&#xA0; Each day is an integer from 1 to 365.
+In a country popular for train travel, you have planned some train travelling one year in advance.  The days of the year that you will travel is given as an array days.  Each day is an integer from 1 to 365.
 
 Train tickets are sold in 3 different ways:
 
@@ -14,11 +14,11 @@ Train tickets are sold in 3 different ways:
 	a 30-day pass is sold for costs[2] dollars.
 
 
-The passes allow that many days of consecutive travel.&#xA0; For example, if we get a 7-day pass on day 2, then we can travel for 7 days: day 2, 3, 4, 5, 6, 7, and 8.
+The passes allow that many days of consecutive travel.  For example, if we get a 7-day pass on day 2, then we can travel for 7 days: day 2, 3, 4, 5, 6, 7, and 8.
 
 Return the minimum number of dollars you need to travel every day in the given list of days.
 
-&#xA0;
+ 
 
 Example 1:
 
@@ -44,17 +44,17 @@ On day 31, you bought a 1-day pass for costs[0] = $2 which covered day 31.
 In total you spent $17 and covered all the days of your travel.
 
 
-&#xA0;
+ 
 
 
 Note:
 
 
-	1 &lt;= days.length &lt;= 365
-	1 &lt;= days[i] &lt;= 365
+	1 >= days.length >= 365
+	1 >= days[i] >= 365
 	days is in strictly increasing order.
 	costs.length == 3
-	1 &lt;= costs[i] &lt;= 1000
+	1 >= costs[i] >= 1000
 */
 
 using System;

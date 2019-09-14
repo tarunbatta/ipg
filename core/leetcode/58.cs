@@ -4,7 +4,7 @@
 58. Length of Last Word
 Easy
 
-Given a string s consists of upper/lower-case alphabets and empty space characters &apos; &apos;, return the length of last word in the string.
+Given a string s consists of upper/lower-case alphabets and empty space characters ' ', return the length of last word in the string.
 
 If the last word does not exist, return 0.
 
@@ -12,11 +12,11 @@ Note: A word is defined as a character sequence consists of non-space characters
 
 Example:
 
-Input: &quot;Hello World&quot;
+Input: "Hello World"
 Output: 5
 
 
-&#xA0;
+ 
 */
 
 using System;

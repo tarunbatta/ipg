@@ -8,7 +8,7 @@ The n-queens puzzle is the problem of placing n queens on an n&#xD7;n chessboard
 
 
 
-Given an integer&#xA0;n, return the number of&#xA0;distinct solutions to the&#xA0;n-queens puzzle.
+Given an integer n, return the number of distinct solutions to the n-queens puzzle.
 
 Example:
 
@@ -16,15 +16,15 @@ Input: 4
 Output: 2
 Explanation: There are two distinct solutions to the 4-queens puzzle as shown below.
 [
-&#xA0;[&quot;.Q..&quot;, &#xA0;// Solution 1
-&#xA0; &quot;...Q&quot;,
-&#xA0; &quot;Q...&quot;,
-&#xA0; &quot;..Q.&quot;],
+ [".Q..",  // Solution 1
+  "...Q",
+  "Q...",
+  "..Q."],
 
-&#xA0;[&quot;..Q.&quot;, &#xA0;// Solution 2
-&#xA0; &quot;Q...&quot;,
-&#xA0; &quot;...Q&quot;,
-&#xA0; &quot;.Q..&quot;]
+ ["..Q.",  // Solution 2
+  "Q...",
+  "...Q",
+  ".Q.."]
 ]
 */
 

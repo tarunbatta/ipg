@@ -1,5 +1,4 @@
-﻿namespace TechByTarun.InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter16
-{
+﻿namespace TechByTarun.InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter16 {
     /// <summary>
     /// XML Encoding: Since XML is very verbose, you are given a way of encoding it where each tag gets
     /// mapped to a pre-defined integer value.The language/grammar is as follows:
@@ -18,10 +17,7 @@
     /// Write code to print the encoded version of an XML element(passed in Element and Attribute
     /// objects).
     /// </summary>
-    public class Question12
-    {
-        public static void Init(string[] args)
-        {
-        }
+    public class Question12 {
+        public static void Init (string[] args) { }
     }
 }

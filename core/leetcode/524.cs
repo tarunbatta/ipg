@@ -8,28 +8,28 @@ Given a string and a string dictionary, find the longest string in the dictionar
 
 Example 1:
 Input:
-s = &quot;abpcplea&quot;, d = [&quot;ale&quot;,&quot;apple&quot;,&quot;monkey&quot;,&quot;plea&quot;]
+s = "abpcplea", d = ["ale","apple","monkey","plea"]
 
 Output: 
-&quot;apple&quot;
+"apple"
 
 
 
 
 Example 2:
 Input:
-s = &quot;abpcplea&quot;, d = [&quot;a&quot;,&quot;b&quot;,&quot;c&quot;]
+s = "abpcplea", d = ["a","b","c"]
 
 Output: 
-&quot;a&quot;
+"a"
 
 
 
 Note:
 
 All the strings in the input will only contain lower-case letters.
-The size of the dictionary won&apos;t exceed 1,000.
-The length of all the strings in the input won&apos;t exceed 1,000.
+The size of the dictionary won't exceed 1,000.
+The length of all the strings in the input won't exceed 1,000.
 */
 
 using System;

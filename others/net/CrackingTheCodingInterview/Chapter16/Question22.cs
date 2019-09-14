@@ -1,5 +1,4 @@
-﻿namespace TechByTarun.InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter16
-{
+﻿namespace TechByTarun.InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter16 {
     /// <summary>
     /// Langton's Ant: An ant is sitting on an infinite grid of white and black squares. It initially faces right.
     /// At each step, it does the following:
@@ -12,10 +11,7 @@
     /// must design yourself.The only input to your method is K.You should print the final grid and return
     /// nothing.The method signature might be something like void printKMoves (int K).
     /// </summary>
-    public class Question22
-    {
-        public static void Init(string[] args)
-        {
-        }
+    public class Question22 {
+        public static void Init (string[] args) { }
     }
 }

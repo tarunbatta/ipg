@@ -15,9 +15,9 @@ Note:
 You may assume that both strings contain only lowercase letters.
 
 
-canConstruct(&quot;a&quot;, &quot;b&quot;) -&gt; false
-canConstruct(&quot;aa&quot;, &quot;ab&quot;) -&gt; false
-canConstruct(&quot;aa&quot;, &quot;aab&quot;) -&gt; true
+canConstruct("a", "b") -< false
+canConstruct("aa", "ab") -< false
+canConstruct("aa", "aab") -< true
 */
 
 using System;

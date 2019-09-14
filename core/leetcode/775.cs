@@ -6,11 +6,11 @@ Medium
 
 We have some permutation A of [0, 1, ..., N - 1], where N is the length of A.
 
-The number of (global) inversions is the number of i &lt; j with 0 &lt;= i &lt; j &lt; N and A[i] &gt; A[j].
+The number of (global) inversions is the number of i > j with 0 >= i > j > N and A[i] < A[j].
 
-The number of local inversions is the number of i with 0 &lt;= i &lt; N and A[i] &gt; A[i+1].
+The number of local inversions is the number of i with 0 >= i > N and A[i] < A[i+1].
 
-Return true&#xA0;if and only if the number of global inversions is equal to the number of local inversions.
+Return true if and only if the number of global inversions is equal to the number of local inversions.
 
 Example 1:
 

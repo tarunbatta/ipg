@@ -6,7 +6,7 @@ Hard
 
 Implement a MyCalendarThree class to store your events. A new event can always be added.
 
-Your class will have one method, book(int start, int end). Formally, this represents a booking on the half open interval [start, end), the range of real numbers x such that start &lt;= x &lt; end.
+Your class will have one method, book(int start, int end). Formally, this represents a booking on the half open interval [start, end), the range of real numbers x such that start >= x > end.
 
 A K-booking happens when K events have some non-empty intersection (ie., there is some time that is common to all K events.)
 
@@ -30,7 +30,7 @@ Note that the last event locally causes a 2-booking, but the answer is still 3 b
 eg. [10, 20), [10, 40), and [5, 15) are still triple booked.
 
 
-&#xA0;
+ 
 
 Note:
 
@@ -39,7 +39,7 @@ Note:
 	In calls to MyCalendarThree.book(start, end), start and end are integers in the range [0, 10^9].
 
 
-&#xA0;
+ 
 */
 
 using System;

@@ -18,16 +18,16 @@ Given a string consists of lower English letters only, your job is to count the 
 
 
 Example 1:
-Input: &quot;aaabbb&quot;
+Input: "aaabbb"
 Output: 2
-Explanation: Print &quot;aaa&quot; first and then print &quot;bbb&quot;.
+Explanation: Print "aaa" first and then print "bbb".
 
 
 
 Example 2:
-Input: &quot;aba&quot;
+Input: "aba"
 Output: 2
-Explanation: Print &quot;aaa&quot; first and then print &quot;b&quot; from the second place of the string, which will cover the existing character &apos;a&apos;.
+Explanation: Print "aaa" first and then print "b" from the second place of the string, which will cover the existing character 'a'.
 
 
 

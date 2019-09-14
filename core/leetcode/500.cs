@@ -4,20 +4,20 @@
 500. Keyboard Row
 Easy
 
-Given a List of words, return the words that can be typed using letters of alphabet on only one row&apos;s of American keyboard like the image below.
+Given a List of words, return the words that can be typed using letters of alphabet on only one row's of American keyboard like the image below.
 
-&#xA0;
+ 
 
 
-&#xA0;
+ 
 
 Example:
 
-Input: [&quot;Hello&quot;, &quot;Alaska&quot;, &quot;Dad&quot;, &quot;Peace&quot;]
-Output: [&quot;Alaska&quot;, &quot;Dad&quot;]
+Input: ["Hello", "Alaska", "Dad", "Peace"]
+Output: ["Alaska", "Dad"]
 
 
-&#xA0;
+ 
 
 Note:
 

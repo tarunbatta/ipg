@@ -4,15 +4,15 @@
 1034. Coloring A Border
 Medium
 
-Given a 2-dimensional&#xA0;grid of integers, each value in the grid represents the color of the grid square at that location.
+Given a 2-dimensional grid of integers, each value in the grid represents the color of the grid square at that location.
 
 Two squares belong to the same connected component if and only if they have the same color and are next to each other in any of the 4 directions.
 
-The&#xA0;border of a connected component is&#xA0;all the squares in the connected component that are&#xA0;either 4-directionally adjacent to&#xA0;a square not in the component, or on the boundary of the grid (the first or last row or column).
+The border of a connected component is all the squares in the connected component that are either 4-directionally adjacent to a square not in the component, or on the boundary of the grid (the first or last row or column).
 
-Given a square at location&#xA0;(r0, c0)&#xA0;in the grid and a color, color the&#xA0;border of the connected component of that square with the given color, and return the final grid.
+Given a square at location (r0, c0) in the grid and a color, color the border of the connected component of that square with the given color, and return the final grid.
 
-&#xA0;
+ 
 
 Example 1:
 
@@ -35,17 +35,17 @@ Output: [[2, 2, 2], [2, 1, 2], [2, 2, 2]]
 
 
 
-&#xA0;
+ 
 
 Note:
 
 
-	1 &lt;= grid.length &lt;= 50
-	1 &lt;= grid[0].length &lt;= 50
-	1 &lt;= grid[i][j] &lt;= 1000
-	0 &lt;= r0 &lt; grid.length
-	0 &lt;= c0 &lt; grid[0].length
-	1 &lt;= color &lt;= 1000
+	1 >= grid.length >= 50
+	1 >= grid[0].length >= 50
+	1 >= grid[i][j] >= 1000
+	0 >= r0 > grid.length
+	0 >= c0 > grid[0].length
+	1 >= color >= 1000
 */
 
 using System;

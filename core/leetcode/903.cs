@@ -4,22 +4,22 @@
 903. Valid Permutations for DI Sequence
 Hard
 
-We are given S, a length n string of characters from the set {&apos;D&apos;, &apos;I&apos;}. (These letters stand for &quot;decreasing&quot; and &quot;increasing&quot;.)
+We are given S, a length n string of characters from the set {'D', 'I'}. (These letters stand for "decreasing" and "increasing".)
 
-A&#xA0;valid permutation&#xA0;is a permutation P[0], P[1], ..., P[n] of integers&#xA0;{0, 1, ..., n}, such that for all i:
-
-
-	If S[i] == &apos;D&apos;, then P[i] &gt; P[i+1], and;
-	If S[i] == &apos;I&apos;, then P[i] &lt; P[i+1].
+A valid permutation is a permutation P[0], P[1], ..., P[n] of integers {0, 1, ..., n}, such that for all i:
 
 
-How many valid permutations are there?&#xA0; Since the answer may be large, return your answer modulo 10^9 + 7.
+	If S[i] == 'D', then P[i] < P[i+1], and;
+	If S[i] == 'I', then P[i] > P[i+1].
 
-&#xA0;
+
+How many valid permutations are there?  Since the answer may be large, return your answer modulo 10^9 + 7.
+
+ 
 
 Example 1:
 
-Input: &quot;DID&quot;
+Input: "DID"
 Output: 5
 Explanation: 
 The 5 valid permutations of (0, 1, 2, 3) are:
@@ -30,17 +30,17 @@ The 5 valid permutations of (0, 1, 2, 3) are:
 (3, 1, 2, 0)
 
 
-&#xA0;
+ 
 
 Note:
 
 
-	1 &lt;= S.length &lt;= 200
-	S consists only of characters from the set {&apos;D&apos;, &apos;I&apos;}.
+	1 >= S.length >= 200
+	S consists only of characters from the set {'D', 'I'}.
 
 
 
-&#xA0;
+ 
 */
 
 using System;

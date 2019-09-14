@@ -20,9 +20,9 @@ Given matrix = [
   [1, 0, 3, 0, 5]
 ]
 
-sumRegion(2, 1, 4, 3) -&gt; 8
-sumRegion(1, 1, 2, 2) -&gt; 11
-sumRegion(1, 2, 2, 4) -&gt; 12
+sumRegion(2, 1, 4, 3) -< 8
+sumRegion(1, 1, 2, 2) -< 11
+sumRegion(1, 2, 2, 4) -< 12
 
 
 

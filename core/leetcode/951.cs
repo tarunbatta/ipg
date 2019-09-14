@@ -6,11 +6,11 @@ Medium
 
 For a binary tree T, we can define a flip operation as follows: choose any node, and swap the left and right child subtrees.
 
-A binary tree X&#xA0;is flip equivalent to a binary tree Y if and only if we can make X equal to Y after some number of flip operations.
+A binary tree X is flip equivalent to a binary tree Y if and only if we can make X equal to Y after some number of flip operations.
 
-Write a function that determines whether two binary trees&#xA0;are flip equivalent.&#xA0; The trees are given by root nodes root1 and root2.
+Write a function that determines whether two binary trees are flip equivalent.  The trees are given by root nodes root1 and root2.
 
-&#xA0;
+ 
 
 Example 1:
 
@@ -20,17 +20,17 @@ Explanation: We flipped at nodes with values 1, 3, and 5.
 
 
 
-&#xA0;
+ 
 
 Note:
 
 
 	Each tree will have at most 100 nodes.
-	Each value in each tree will be a unique&#xA0;integer in the range [0, 99].
+	Each value in each tree will be a unique integer in the range [0, 99].
 
 
 
-&#xA0;
+ 
 */
 
 using System;

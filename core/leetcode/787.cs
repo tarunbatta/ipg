@@ -4,9 +4,9 @@
 787. Cheapest Flights Within K Stops
 Medium
 
-There are n cities connected by&#xA0;m flights. Each fight starts from city&#xA0;u and arrives at&#xA0;v with a price w.
+There are n cities connected by m flights. Each fight starts from city u and arrives at v with a price w.
 
-Now given all the cities and flights, together with starting city src and the destination&#xA0;dst, your task is to find the cheapest price from src to dst with up to k stops. If there is no such route, output -1.
+Now given all the cities and flights, together with starting city src and the destination dst, your task is to find the cheapest price from src to dst with up to k stops. If there is no such route, output -1.
 
 Example 1:
 Input: 
@@ -33,12 +33,12 @@ The cheapest price from city 0 to city 2 with at most 0 stop costs 500, as marke
 Note:
 
 
-	The number of&#xA0;nodes&#xA0;n will be&#xA0;in range [1, 100], with nodes labeled from 0 to n - 1.
-	The&#xA0;size of flights will be&#xA0;in range [0, n * (n - 1) / 2].
+	The number of nodes n will be in range [1, 100], with nodes labeled from 0 to n - 1.
+	The size of flights will be in range [0, n * (n - 1) / 2].
 	The format of each flight will be (src, dst, price).
 	The price of each flight will be in the range [1, 10000].
 	k is in the range of [0, n - 1].
-	There&#xA0;will&#xA0;not&#xA0;be&#xA0;any&#xA0;duplicated&#xA0;flights or&#xA0;self&#xA0;cycles.
+	There will not be any duplicated flights or self cycles.
 */
 
 using System;

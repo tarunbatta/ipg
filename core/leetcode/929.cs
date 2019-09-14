@@ -6,38 +6,38 @@ Easy
 
 Every email consists of a local name and a domain name, separated by the @ sign.
 
-For example, in alice@leetcode.com,&#xA0;alice is the local name, and leetcode.com is the domain name.
+For example, in alice@leetcode.com, alice is the local name, and leetcode.com is the domain name.
 
-Besides lowercase letters, these emails may contain &apos;.&apos;s or &apos;+&apos;s.
+Besides lowercase letters, these emails may contain '.'s or '+'s.
 
-If you add periods (&apos;.&apos;) between some characters in the local name part of an email address, mail sent there will be forwarded to the same address without dots in the local name.&#xA0; For example, &quot;alice.z@leetcode.com&quot; and &quot;alicez@leetcode.com&quot; forward to the same email address.&#xA0; (Note that this rule does not apply for domain names.)
+If you add periods ('.') between some characters in the local name part of an email address, mail sent there will be forwarded to the same address without dots in the local name.  For example, "alice.z@leetcode.com" and "alicez@leetcode.com" forward to the same email address.  (Note that this rule does not apply for domain names.)
 
-If you add a plus (&apos;+&apos;) in the local name, everything after the first plus sign will be&#xA0;ignored. This allows certain emails to be filtered, for example&#xA0;m.y+name@email.com&#xA0;will be forwarded to&#xA0;my@email.com.&#xA0; (Again, this rule does not apply for domain names.)
+If you add a plus ('+') in the local name, everything after the first plus sign will be ignored. This allows certain emails to be filtered, for example m.y+name@email.com will be forwarded to my@email.com.  (Again, this rule does not apply for domain names.)
 
 It is possible to use both of these rules at the same time.
 
-Given a list of emails, we send one email to each address in the list.&#xA0;&#xA0;How many different addresses actually receive mails?&#xA0;
+Given a list of emails, we send one email to each address in the list.  How many different addresses actually receive mails? 
 
-&#xA0;
+ 
 
 
 Example 1:
 
-Input: [&quot;test.email+alex@leetcode.com&quot;,&quot;test.e.mail+bob.cathy@leetcode.com&quot;,&quot;testemail+david@lee.tcode.com&quot;]
+Input: ["test.email+alex@leetcode.com","test.e.mail+bob.cathy@leetcode.com","testemail+david@lee.tcode.com"]
 Output: 2
-Explanation:&#xA0;&quot;testemail@leetcode.com&quot; and &quot;testemail@lee.tcode.com&quot; actually receive mails
+Explanation: "testemail@leetcode.com" and "testemail@lee.tcode.com" actually receive mails
 
 
-&#xA0;
+ 
 
 Note:
 
 
-	1 &lt;= emails[i].length&#xA0;&lt;= 100
-	1 &lt;= emails.length &lt;= 100
-	Each emails[i] contains exactly one &apos;@&apos; character.
+	1 >= emails[i].length >= 100
+	1 >= emails.length >= 100
+	Each emails[i] contains exactly one '@' character.
 	All local and domain names are non-empty.
-	Local names do not start with a &apos;+&apos; character.
+	Local names do not start with a '+' character.
 */
 
 using System;

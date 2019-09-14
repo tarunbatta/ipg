@@ -12,7 +12,7 @@ Input: 12
 Output: 21
 
 
-&#xA0;
+ 
 
 Example 2:
 
@@ -20,7 +20,7 @@ Input: 21
 Output: -1
 
 
-&#xA0;
+ 
 */
 
 using System;

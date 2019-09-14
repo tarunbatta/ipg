@@ -1,8 +1,7 @@
 ﻿using System;
 using System.Numerics;
 
-namespace TechByTarun.InterviewPreperationGuide.App.Qotd
-{
+namespace TechByTarun.InterviewPreperationGuide.App.Qotd {
     /// <summary>
     /// Space Message System:
     /// You are designing a messaging system for a future space craft that will travel to the far reaches of our Galaxy.
@@ -27,23 +26,19 @@ namespace TechByTarun.InterviewPreperationGuide.App.Qotd
     /// - The space craft can travel very close to the speed of light
     /// - No wormholes or warped space
     /// </summary>
-    public class SpaceMessageSystem
-    {
-        public static void Init(string[] args)
-        {
-            GetMessageDeliveryTimespan(5878499810000, 1);
-            Program.PrintLine();
-            GetMessageDeliveryTimespan(99999999999999, 185000 * (60 * 60));
+    public class SpaceMessageSystem {
+        public static void Init (string[] args) {
+            GetMessageDeliveryTimespan (5878499810000, 1);
+            Program.PrintLine ();
+            GetMessageDeliveryTimespan (99999999999999, 185000 * (60 * 60));
         }
 
-        private static string GetMessageDeliveryTimespan(BigInteger d, BigInteger v)
-        {
+        private static string GetMessageDeliveryTimespan (BigInteger d, BigInteger v) {
             BigInteger result = 0;
 
             BigInteger vm = 186000 * (60 * 60);
 
-            if (v < vm)
-            {
+            if (v < vm) {
                 BigInteger t = d / vm;
 
                 BigInteger d2 = t * v;
@@ -52,11 +47,10 @@ namespace TechByTarun.InterviewPreperationGuide.App.Qotd
                 result = (d2 + d3) / v;
             }
 
-            return PrintTotalTime(d, v, result);
+            return PrintTotalTime (d, v, result);
         }
 
-        private static string PrintTotalTime(BigInteger distance, BigInteger velocity, BigInteger totalTime)
-        {
+        private static string PrintTotalTime (BigInteger distance, BigInteger velocity, BigInteger totalTime) {
             string result = string.Empty;
 
             totalTime = totalTime * 60 * 60;
@@ -73,9 +67,9 @@ namespace TechByTarun.InterviewPreperationGuide.App.Qotd
             remainder = remainder % 60;
             BigInteger seconds = remainder;
 
-            result = string.Concat(years, " years ", days, " days ", hours, " hours ", minutes, " minutes ", seconds, " seconds.");
+            result = string.Concat (years, " years ", days, " days ", hours, " hours ", minutes, " minutes ", seconds, " seconds.");
 
-            Console.WriteLine("Distance: " + distance + " miles, Velocity: " + velocity + " miles/hour -> Message will be delived in '" + result + "'");
+            Console.WriteLine ("Distance: " + distance + " miles, Velocity: " + velocity + " miles/hour -> Message will be delived in '" + result + "'");
 
             return result;
         }

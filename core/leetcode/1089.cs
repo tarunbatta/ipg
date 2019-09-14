@@ -4,13 +4,13 @@
 1089. Duplicate Zeros
 Easy
 
-Given a fixed length&#xA0;array arr of integers, duplicate each occurrence of zero, shifting the remaining elements to the right.
+Given a fixed length array arr of integers, duplicate each occurrence of zero, shifting the remaining elements to the right.
 
 Note that elements beyond the length of the original array are not written.
 
 Do the above modifications to the input array in place, do not return anything from your function.
 
-&#xA0;
+ 
 
 Example 1:
 
@@ -26,13 +26,13 @@ Output: null
 Explanation: After calling your function, the input array is modified to: [1,2,3]
 
 
-&#xA0;
+ 
 
 Note:
 
 
-	1 &lt;= arr.length &lt;= 10000
-	0 &lt;= arr[i] &lt;= 9
+	1 >= arr.length >= 10000
+	0 >= arr[i] >= 9
 */
 
 using System;

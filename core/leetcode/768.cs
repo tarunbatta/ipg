@@ -4,11 +4,11 @@
 768. Max Chunks To Make Sorted II
 Hard
 
-This question is the same as &quot;Max Chunks to Make Sorted&quot; except the integers of the given array are not necessarily distinct, the input array could be up to length 2000, and the elements could be up to 10**8.
+This question is the same as "Max Chunks to Make Sorted" except the integers of the given array are not necessarily distinct, the input array could be up to length 2000, and the elements could be up to 10**8.
 
 
 
-Given an array arr of integers (not necessarily distinct), we split the array into some number of &quot;chunks&quot; (partitions), and individually sort each chunk.&#xA0; After concatenating them,&#xA0;the result equals the sorted array.
+Given an array arr of integers (not necessarily distinct), we split the array into some number of "chunks" (partitions), and individually sort each chunk.  After concatenating them, the result equals the sorted array.
 
 What is the most number of chunks we could have made?
 
@@ -18,7 +18,7 @@ Input: arr = [5,4,3,2,1]
 Output: 1
 Explanation:
 Splitting into two or more chunks will not return the required result.
-For example, splitting into [5, 4], [3, 2, 1] will result in [4, 5, 1, 2, 3], which isn&apos;t sorted.
+For example, splitting into [5, 4], [3, 2, 1] will result in [4, 5, 1, 2, 3], which isn't sorted.
 
 
 Example 2:
@@ -37,7 +37,7 @@ Note:
 	arr[i] will be an integer in range [0, 10**8].
 
 
-&#xA0;
+ 
 */
 
 using System;

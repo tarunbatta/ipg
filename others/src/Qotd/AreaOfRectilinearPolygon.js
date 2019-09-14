@@ -11,12 +11,12 @@ Followups:
 * What if you needed to minimize the number of rectangles?
 * What if you need to maximize the area of the cut pieces? A solution with 1 large piece and 100 smaller pieces is better than a solution with 50 medium sized pieces.
 */
-(function () {
+(function() {
     /*
     Time Complexity: 
     Space Complexity: 
     */
-    var program = function () {
+    var program = function() {
         var result = null;
 
         return result;

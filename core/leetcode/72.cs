@@ -16,24 +16,24 @@ You have the following 3 operations permitted on a word:
 
 Example 1:
 
-Input: word1 = &quot;horse&quot;, word2 = &quot;ros&quot;
+Input: word1 = "horse", word2 = "ros"
 Output: 3
 Explanation: 
-horse -&gt; rorse (replace &apos;h&apos; with &apos;r&apos;)
-rorse -&gt; rose (remove &apos;r&apos;)
-rose -&gt; ros (remove &apos;e&apos;)
+horse -< rorse (replace 'h' with 'r')
+rorse -< rose (remove 'r')
+rose -< ros (remove 'e')
 
 
 Example 2:
 
-Input: word1 = &quot;intention&quot;, word2 = &quot;execution&quot;
+Input: word1 = "intention", word2 = "execution"
 Output: 5
 Explanation: 
-intention -&gt; inention (remove &apos;t&apos;)
-inention -&gt; enention (replace &apos;i&apos; with &apos;e&apos;)
-enention -&gt; exention (replace &apos;n&apos; with &apos;x&apos;)
-exention -&gt; exection (replace &apos;n&apos; with &apos;c&apos;)
-exection -&gt; execution (insert &apos;u&apos;)
+intention -< inention (remove 't')
+inention -< enention (replace 'i' with 'e')
+enention -< exention (replace 'n' with 'x')
+exention -< exection (replace 'n' with 'c')
+exection -< execution (insert 'u')
 */
 
 using System;

@@ -4,13 +4,13 @@
 847. Shortest Path Visiting All Nodes
 Hard
 
-An undirected, connected graph of N nodes (labeled&#xA0;0, 1, 2, ..., N-1) is given as graph.
+An undirected, connected graph of N nodes (labeled 0, 1, 2, ..., N-1) is given as graph.
 
-graph.length = N, and j != i&#xA0;is in the list&#xA0;graph[i]&#xA0;exactly once, if and only if nodes i and j are connected.
+graph.length = N, and j != i is in the list graph[i] exactly once, if and only if nodes i and j are connected.
 
 Return the length of the shortest path that visits every node. You may start and stop at any node, you may revisit nodes multiple times, and you may reuse edges.
 
-&#xA0;
+ 
 
 
 
@@ -28,13 +28,13 @@ Output: 4
 Explanation: One possible path is [0,1,4,2,3]
 
 
-&#xA0;
+ 
 
 Note:
 
 
-	1 &lt;= graph.length &lt;= 12
-	0 &lt;= graph[i].length &lt;&#xA0;graph.length
+	1 >= graph.length >= 12
+	0 >= graph[i].length > graph.length
 */
 
 using System;

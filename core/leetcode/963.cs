@@ -6,9 +6,9 @@ Medium
 
 Given a set of points in the xy-plane, determine the minimum area of any rectangle formed from these points, with sides not necessarily parallel to the x and y axes.
 
-If there isn&apos;t any rectangle, return 0.
+If there isn't any rectangle, return 0.
 
-&#xA0;
+ 
 
 Example 1:
 
@@ -50,16 +50,16 @@ Explanation: The minimum area rectangle occurs at [2,1],[2,3],[3,3],[3,1], with 
 
 
 
-&#xA0;
+ 
 
 
 
 Note:
 
 
-	1 &lt;= points.length &lt;= 50
-	0 &lt;=&#xA0;points[i][0] &lt;=&#xA0;40000
-	0 &lt;=&#xA0;points[i][1] &lt;=&#xA0;40000
+	1 >= points.length >= 50
+	0 >= points[i][0] >= 40000
+	0 >= points[i][1] >= 40000
 	All points are distinct.
 	Answers within 10^-5 of the actual value will be accepted as correct.
 */

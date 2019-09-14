@@ -1,7 +1,5 @@
-﻿namespace ChessGame
-{
-    internal class Program
-    {
+﻿namespace ChessGame {
+    internal class Program {
         //private static void Main(string[] args)
         //{
         //    Board board = new Board(8);

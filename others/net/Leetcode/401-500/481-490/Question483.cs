@@ -1,7 +1,6 @@
 ﻿using System;
 
-namespace TechByTarun.InterviewPreperationGuide.App.Leetcode
-{
+namespace TechByTarun.InterviewPreperationGuide.App.Leetcode {
     /// <summary>
     /// Smallest Good Base
     /// https://leetcode.com/contest/leetcode-weekly-contest-16b/problems/smallest-good-base/
@@ -28,57 +27,46 @@ namespace TechByTarun.InterviewPreperationGuide.App.Leetcode
     /// The range of n is [3, 10^18].
     /// The string representing n is always valid and will not have leading zeros.
     /// </summary>
-    public class Question483
-    {
-        public static void Init(string[] args)
-        {
-            Console.WriteLine(SmallestGoodBases(null));
-            Program.PrintLine();
-            Console.WriteLine(SmallestGoodBases("13"));
-            Program.PrintLine();
-            Console.WriteLine(SmallestGoodBases("4681"));
-            Program.PrintLine();
-            Console.WriteLine(SmallestGoodBases("1000000000000000000"));
+    public class Question483 {
+        public static void Init (string[] args) {
+            Console.WriteLine (SmallestGoodBases (null));
+            Program.PrintLine ();
+            Console.WriteLine (SmallestGoodBases ("13"));
+            Program.PrintLine ();
+            Console.WriteLine (SmallestGoodBases ("4681"));
+            Program.PrintLine ();
+            Console.WriteLine (SmallestGoodBases ("1000000000000000000"));
         }
 
-        public static string SmallestGoodBases(string n)
-        {
+        public static string SmallestGoodBases (string n) {
             string result = null;
 
-            if (!string.IsNullOrEmpty(n))
-            {
-                long num = Int64.Parse(n);
+            if (!string.IsNullOrEmpty (n)) {
+                long num = Int64.Parse (n);
                 long key = 0;
 
                 // length
-                for (long k = 60; k >= 2; k--)
-                {
+                for (long k = 60; k >= 2; k--) {
                     // base
                     long l = 2, h = num - 1;
-                    while (l <= h)
-                    {
+                    while (l <= h) {
                         long mid = l + (h - l) / 2;
-                        double left = Math.Pow(mid, k) - 1;
-                        long right = (long)num * (mid - 1);
+                        double left = Math.Pow (mid, k) - 1;
+                        long right = (long) num * (mid - 1);
 
-                        if (left == right)
-                        {
+                        if (left == right) {
                             key = mid;
                             break;
                         }
 
-                        if (left < right)
-                        {
+                        if (left < right) {
                             l = mid + 1;
-                        }
-                        else
-                        {
+                        } else {
                             h = mid - 1;
                         }
                     }
 
-                    if (key != 0)
-                    {
+                    if (key != 0) {
                         break;
                     }
                 }

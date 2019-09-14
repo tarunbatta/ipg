@@ -28,7 +28,7 @@ For example, after running your query, the above Person table should have the fo
 
 Note:
 
-Your output is the whole Person&#xA0;table after executing your sql. Use delete statement.
+Your output is the whole Person table after executing your sql. Use delete statement.
 */
 
 using System;

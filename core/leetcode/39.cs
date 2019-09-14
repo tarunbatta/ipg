@@ -4,9 +4,9 @@
 39. Combination Sum
 Medium
 
-Given a set of candidate numbers (candidates) (without duplicates) and a target number (target), find all unique combinations in candidates&#xA0;where the candidate numbers sums to target.
+Given a set of candidate numbers (candidates) (without duplicates) and a target number (target), find all unique combinations in candidates where the candidate numbers sums to target.
 
-The same repeated number may be chosen from candidates&#xA0;unlimited number of times.
+The same repeated number may be chosen from candidates unlimited number of times.
 
 Note:
 
@@ -30,9 +30,9 @@ Example 2:
 Input: candidates = [2,3,5], target = 8,
 A solution set is:
 [
-&#xA0; [2,2,2,2],
-&#xA0; [2,3,3],
-&#xA0; [3,5]
+  [2,2,2,2],
+  [2,3,3],
+  [3,5]
 ]
 */
 

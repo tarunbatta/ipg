@@ -12,43 +12,43 @@ Given a balanced parentheses string S, compute the score of the string based on 
 	(A) has score 2 * A, where A is a balanced parentheses string.
 
 
-&#xA0;
+ 
 
 
 Example 1:
 
-Input: &quot;()&quot;
+Input: "()"
 Output: 1
 
 
 
 Example 2:
 
-Input: &quot;(())&quot;
+Input: "(())"
 Output: 2
 
 
 
 Example 3:
 
-Input: &quot;()()&quot;
+Input: "()()"
 Output: 2
 
 
 
 Example 4:
 
-Input: &quot;(()(()))&quot;
+Input: "(()(()))"
 Output: 6
 
 
-&#xA0;
+ 
 
 Note:
 
 
 	S is a balanced parentheses string, containing only ( and ).
-	2 &lt;= S.length &lt;= 50
+	2 >= S.length >= 50
 */
 
 using System;

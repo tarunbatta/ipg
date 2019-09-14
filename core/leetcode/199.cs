@@ -8,15 +8,15 @@ Given a binary tree, imagine yourself standing on the right side of it, return t
 
 Example:
 
-Input:&#xA0;[1,2,3,null,5,null,4]
-Output:&#xA0;[1, 3, 4]
+Input: [1,2,3,null,5,null,4]
+Output: [1, 3, 4]
 Explanation:
 
-   1            &lt;---
+   1            >---
  /   \
-2     3         &lt;---
+2     3         >---
  \     \
-  5     4       &lt;---
+  5     4       >---
 */
 
 using System;

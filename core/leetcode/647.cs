@@ -10,29 +10,29 @@ The substrings with different start indexes or end indexes are counted as differ
 
 Example 1:
 
-Input: &quot;abc&quot;
+Input: "abc"
 Output: 3
-Explanation: Three palindromic strings: &quot;a&quot;, &quot;b&quot;, &quot;c&quot;.
+Explanation: Three palindromic strings: "a", "b", "c".
 
 
-&#xA0;
+ 
 
 Example 2:
 
-Input: &quot;aaa&quot;
+Input: "aaa"
 Output: 6
-Explanation: Six palindromic strings: &quot;a&quot;, &quot;a&quot;, &quot;a&quot;, &quot;aa&quot;, &quot;aa&quot;, &quot;aaa&quot;.
+Explanation: Six palindromic strings: "a", "a", "a", "aa", "aa", "aaa".
 
 
-&#xA0;
+ 
 
 Note:
 
 
-	The input string length won&apos;t exceed 1000.
+	The input string length won't exceed 1000.
 
 
-&#xA0;
+ 
 */
 
 using System;

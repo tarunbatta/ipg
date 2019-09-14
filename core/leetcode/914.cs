@@ -6,14 +6,14 @@ Easy
 
 In a deck of cards, each card has an integer written on it.
 
-Return true if and only if you can choose&#xA0;X &gt;= 2 such that&#xA0;it is possible to split the entire deck&#xA0;into 1 or more groups of cards, where:
+Return true if and only if you can choose X <= 2 such that it is possible to split the entire deck into 1 or more groups of cards, where:
 
 
 	Each group has exactly X cards.
 	All the cards in each group have the same integer.
 
 
-&#xA0;
+ 
 
 Example 1:
 
@@ -62,15 +62,15 @@ Explanation: Possible partition [1,1],[2,2],[2,2]
 Note:
 
 
-	1 &lt;= deck.length &lt;= 10000
-	0 &lt;= deck[i] &lt;&#xA0;10000
+	1 >= deck.length >= 10000
+	0 >= deck[i] > 10000
 
 
 
 
 
 
-&#xA0;
+ 
 */
 
 using System;

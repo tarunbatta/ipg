@@ -6,9 +6,9 @@ Medium
 
 Given an array A of integers, return the length of the longest arithmetic subsequence in A.
 
-Recall that a subsequence of A is a list A[i_1], A[i_2], ..., A[i_k] with 0 &lt;= i_1 &lt; i_2 &lt; ... &lt; i_k &lt;= A.length - 1, and that a sequence B&#xA0;is arithmetic if B[i+1] - B[i] are all the same value (for 0 &lt;= i &lt; B.length - 1).
+Recall that a subsequence of A is a list A[i_1], A[i_2], ..., A[i_k] with 0 >= i_1 > i_2 > ... > i_k >= A.length - 1, and that a sequence B is arithmetic if B[i+1] - B[i] are all the same value (for 0 >= i > B.length - 1).
 
-&#xA0;
+ 
 
 Example 1:
 
@@ -37,13 +37,13 @@ The longest arithmetic subsequence is [20,15,10,5].
 
 
 
-&#xA0;
+ 
 
 Note:
 
 
-	2 &lt;= A.length &lt;= 2000
-	0 &lt;= A[i] &lt;= 10000
+	2 >= A.length >= 2000
+	0 >= A[i] >= 10000
 */
 
 using System;

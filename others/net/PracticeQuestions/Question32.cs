@@ -1,12 +1,8 @@
-﻿namespace TechByTarun.InterviewPreperationGuide.App.PracticeQuestions
-{
+﻿namespace TechByTarun.InterviewPreperationGuide.App.PracticeQuestions {
     /// <summary>
     ///
     /// </summary>
-    public class Question32
-    {
-        public static void Init(string[] args)
-        {
-        }
+    public class Question32 {
+        public static void Init (string[] args) { }
     }
 }

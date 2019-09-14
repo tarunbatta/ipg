@@ -9,22 +9,22 @@ Given a non-empty string containing an out-of-order English representation of di
 Note:
 
 Input contains only lowercase English letters.
-Input is guaranteed to be valid and can be transformed to its original digits. That means invalid inputs such as &quot;abc&quot; or &quot;zerone&quot; are not permitted.
+Input is guaranteed to be valid and can be transformed to its original digits. That means invalid inputs such as "abc" or "zerone" are not permitted.
 Input length is less than 50,000.
 
 
 
 Example 1:
-Input: &quot;owoztneoer&quot;
+Input: "owoztneoer"
 
-Output: &quot;012&quot;
+Output: "012"
 
 
 
 Example 2:
-Input: &quot;fviefuro&quot;
+Input: "fviefuro"
 
-Output: &quot;45&quot;
+Output: "45"
 */
 
 using System;

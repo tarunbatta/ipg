@@ -8,19 +8,19 @@ Given a list of strings words representing an English Dictionary, find the longe
 
 Example 1:
 Input: 
-words = [&quot;w&quot;,&quot;wo&quot;,&quot;wor&quot;,&quot;worl&quot;, &quot;world&quot;]
-Output: &quot;world&quot;
+words = ["w","wo","wor","worl", "world"]
+Output: "world"
 Explanation: 
-The word &quot;world&quot; can be built one character at a time by &quot;w&quot;, &quot;wo&quot;, &quot;wor&quot;, and &quot;worl&quot;.
+The word "world" can be built one character at a time by "w", "wo", "wor", and "worl".
 
 
 
 Example 2:
 Input: 
-words = [&quot;a&quot;, &quot;banana&quot;, &quot;app&quot;, &quot;appl&quot;, &quot;ap&quot;, &quot;apply&quot;, &quot;apple&quot;]
-Output: &quot;apple&quot;
+words = ["a", "banana", "app", "appl", "ap", "apply", "apple"]
+Output: "apple"
 Explanation: 
-Both &quot;apply&quot; and &quot;apple&quot; can be built from other words in the dictionary. However, &quot;apple&quot; is lexicographically smaller than &quot;apply&quot;.
+Both "apply" and "apple" can be built from other words in the dictionary. However, "apple" is lexicographically smaller than "apply".
 
 
 

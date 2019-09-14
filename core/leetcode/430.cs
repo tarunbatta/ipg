@@ -8,7 +8,7 @@ You are given a doubly linked list which in addition to the next and previous po
 
 Flatten the list so that all the nodes appear in a single-level, doubly linked list. You are given the head of the first level of the list.
 
-&#xA0;
+ 
 
 Example:
 
@@ -23,7 +23,7 @@ Output:
 1-2-3-7-8-11-12-9-10-4-5-6-NULL
 
 
-&#xA0;
+ 
 
 Explanation for the above example:
 
@@ -31,7 +31,7 @@ Given the following multilevel doubly linked list:
 
 
 
-&#xA0;
+ 
 
 We should return the following flattened doubly linked list:
 */

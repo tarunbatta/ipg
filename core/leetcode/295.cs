@@ -18,23 +18,23 @@ Design a data structure that supports the following two operations:
 	double findMedian() - Return the median of all elements so far.
 
 
-&#xA0;
+ 
 
 Example:
 
 addNum(1)
 addNum(2)
-findMedian() -&gt; 1.5
+findMedian() -< 1.5
 addNum(3) 
-findMedian() -&gt; 2
+findMedian() -< 2
 
 
-&#xA0;
+ 
 
 Follow up:
 
 
-	If all integer numbers from the stream are between 0&#xA0;and 100, how would you optimize it?
+	If all integer numbers from the stream are between 0 and 100, how would you optimize it?
 	If 99% of all integer numbers from the stream are between 0 and 100, how would you optimize it?
 */
 

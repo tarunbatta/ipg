@@ -1,8 +1,7 @@
 ﻿using System;
 using System.Collections;
 
-namespace TechByTarun.InterviewPreperationGuide.App.PracticeQuestions
-{
+namespace TechByTarun.InterviewPreperationGuide.App.PracticeQuestions {
     /// <summary>
     /// Count pairs with given sum:
     /// Given an array of integers, and a number ‘sum’, find the number of pairs of integers in the array whose sum is equal to ‘sum’.
@@ -22,52 +21,41 @@ namespace TechByTarun.InterviewPreperationGuide.App.PracticeQuestions
     /// Input  :  arr[] = {10, 12, 10, 15, -1, 7, 6, 5, 4, 2, 1, 1, 1}, sum = 11
     /// Output :  9
     /// </summary>
-    public class Question34
-    {
-        public static void Init(string[] args)
-        {
+    public class Question34 {
+        public static void Init (string[] args) {
             //GetArrayPairSum(null, 0);
             //Program.PrintLine();
-            CountPairWithSum(new int[] { 1, 5, 7, -1 }, 6);
-            Program.PrintLine();
-            CountPairWithSum(new int[] { 1, 5, 7, -1, 5 }, 6);
-            Program.PrintLine();
-            CountPairWithSum(new int[] { 1, 1, 1, 1 }, 2);
-            Program.PrintLine();
-            CountPairWithSum(new int[] { 10, 12, 10, 15, -1, 7, 6, 5, 4, 2, 1, 1, 1 }, 11);
+            CountPairWithSum (new int[] { 1, 5, 7, -1 }, 6);
+            Program.PrintLine ();
+            CountPairWithSum (new int[] { 1, 5, 7, -1, 5 }, 6);
+            Program.PrintLine ();
+            CountPairWithSum (new int[] { 1, 1, 1, 1 }, 2);
+            Program.PrintLine ();
+            CountPairWithSum (new int[] { 10, 12, 10, 15, -1, 7, 6, 5, 4, 2, 1, 1, 1 }, 11);
         }
 
-        private static int CountPairWithSum(int[] arr, int sum)
-        {
+        private static int CountPairWithSum (int[] arr, int sum) {
             int result = 0;
 
-            if (arr != null && arr.Length > 1)
-            {
-                Hashtable hash = new Hashtable();
+            if (arr != null && arr.Length > 1) {
+                Hashtable hash = new Hashtable ();
 
-                for (int i = 0; i < arr.Length; i++)
-                {
-                    if (!hash.ContainsKey(arr[i]))
-                    {
-                        hash.Add(arr[i], 1);
-                    }
-                    else
-                    {
-                        hash[arr[i]] = (int)hash[arr[i]] + 1;
+                for (int i = 0; i < arr.Length; i++) {
+                    if (!hash.ContainsKey (arr[i])) {
+                        hash.Add (arr[i], 1);
+                    } else {
+                        hash[arr[i]] = (int) hash[arr[i]] + 1;
                     }
                 }
 
-                for (int i = 0; i < arr.Length; i++)
-                {
+                for (int i = 0; i < arr.Length; i++) {
                     int target = sum - arr[i];
 
-                    if (hash.ContainsKey(target))
-                    {
-                        result += (int)hash[target];
+                    if (hash.ContainsKey (target)) {
+                        result += (int) hash[target];
                     }
 
-                    if (target == arr[i])
-                    {
+                    if (target == arr[i]) {
                         result--;
                     }
                 }
@@ -75,7 +63,7 @@ namespace TechByTarun.InterviewPreperationGuide.App.PracticeQuestions
 
             result = result / 2;
 
-            Console.WriteLine("'" + (arr == null ? "" : string.Join(",", arr)) + "' with " + sum + " has " + result + " pairs of integers.");
+            Console.WriteLine ("'" + (arr == null ? "" : string.Join (",", arr)) + "' with " + sum + " has " + result + " pairs of integers.");
 
             return result;
         }

@@ -12,13 +12,13 @@ Example 1:
 
 Input: 6
 Output: true
-Explanation: 6 = 2 &#xD7;&#xA0;3
+Explanation: 6 = 2 &#xD7; 3
 
 Example 2:
 
 Input: 8
 Output: true
-Explanation: 8 = 2 &#xD7; 2 &#xD7;&#xA0;2
+Explanation: 8 = 2 &#xD7; 2 &#xD7; 2
 
 
 Example 3:
@@ -32,7 +32,7 @@ Note:
 
 
 	1 is typically treated as an ugly number.
-	Input is within the 32-bit signed integer range:&#xA0;[&#x2212;231,&#xA0; 231&#xA0;&#x2212; 1].
+	Input is within the 32-bit signed integer range: [&#x2212;231,  231 &#x2212; 1].
 */
 
 using System;

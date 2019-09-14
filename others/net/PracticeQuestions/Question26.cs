@@ -1,7 +1,6 @@
 ﻿using System;
 
-namespace TechByTarun.InterviewPreperationGuide.App.PracticeQuestions
-{
+namespace TechByTarun.InterviewPreperationGuide.App.PracticeQuestions {
     /// <summary>
     /// Position of rightmost set bit
     /// Write a function to return position of first 1 from right to left, in binary representation of an Integer.
@@ -12,13 +11,11 @@ namespace TechByTarun.InterviewPreperationGuide.App.PracticeQuestions
     /// I/P    19,   Binary Representation 1100
     /// O/P    3
     /// </summary>
-    public class Question26
-    {
-        public static void Init(string[] args)
-        {
-            Console.WriteLine("18: " + GetRightMostBit(18));
-            Console.WriteLine("19: " + GetRightMostBit(19));
-            Console.WriteLine("12: " + GetRightMostBit(12));
+    public class Question26 {
+        public static void Init (string[] args) {
+            Console.WriteLine ("18: " + GetRightMostBit (18));
+            Console.WriteLine ("19: " + GetRightMostBit (19));
+            Console.WriteLine ("12: " + GetRightMostBit (12));
         }
 
         /// <summary>
@@ -30,9 +27,8 @@ namespace TechByTarun.InterviewPreperationGuide.App.PracticeQuestions
         /// </summary>
         /// <param name="n"></param>
         /// <returns></returns>
-        private static int GetRightMostBit(int n)
-        {
-            return Convert.ToInt32(Math.Log(n & -n, 2)) + 1;
+        private static int GetRightMostBit (int n) {
+            return Convert.ToInt32 (Math.Log (n & -n, 2)) + 1;
         }
     }
 }

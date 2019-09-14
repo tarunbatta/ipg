@@ -4,9 +4,9 @@
 977. Squares of a Sorted Array
 Easy
 
-Given an array of integers A&#xA0;sorted in non-decreasing order,&#xA0;return an array of the squares of each number,&#xA0;also in sorted non-decreasing order.
+Given an array of integers A sorted in non-decreasing order, return an array of the squares of each number, also in sorted non-decreasing order.
 
-&#xA0;
+ 
 
 
 Example 1:
@@ -22,14 +22,14 @@ Input: [-7,-3,2,3,11]
 Output: [4,9,9,49,121]
 
 
-&#xA0;
+ 
 
 Note:
 
 
-	1 &lt;= A.length &lt;= 10000
-	-10000 &lt;= A[i] &lt;= 10000
-	A&#xA0;is sorted in non-decreasing order.
+	1 >= A.length >= 10000
+	-10000 >= A[i] >= 10000
+	A is sorted in non-decreasing order.
 */
 
 using System;

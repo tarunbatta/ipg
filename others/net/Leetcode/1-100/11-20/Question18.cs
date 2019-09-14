@@ -1,8 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace TechByTarun.InterviewPreperationGuide.App.Leetcode
-{
+namespace TechByTarun.InterviewPreperationGuide.App.Leetcode {
     /// <summary>
     /// 4Sum
     /// https://leetcode.com/problems/4sum/
@@ -20,59 +19,46 @@ namespace TechByTarun.InterviewPreperationGuide.App.Leetcode
     ///     [-2,  0, 0, 2]
     /// ]
     /// </summary>
-    public class Question18
-    {
-        public static void Init(string[] args)
-        {
-            Program.PrintListofList(FourSum(null, 0));
-            Program.PrintLine();
-            Program.PrintListofList(FourSum(new int[] { 1, 0, -1 }, 0));
-            Program.PrintLine();
-            Program.PrintListofList(FourSum(new int[] { 1, 0, -1, 0, -2, 2 }, 0));
+    public class Question18 {
+        public static void Init (string[] args) {
+            Program.PrintListofList (FourSum (null, 0));
+            Program.PrintLine ();
+            Program.PrintListofList (FourSum (new int[] { 1, 0, -1 }, 0));
+            Program.PrintLine ();
+            Program.PrintListofList (FourSum (new int[] { 1, 0, -1, 0, -2, 2 }, 0));
         }
 
-        public static IList<IList<int>> FourSum(int[] nums, int target)
-        {
-            IList<IList<int>> result = new List<IList<int>>();
+        public static IList<IList<int>> FourSum (int[] nums, int target) {
+            IList<IList<int>> result = new List<IList<int>> ();
 
-            if (nums != null && nums.Length >= 4)
-            {
-                Array.Sort(nums);
-                Dictionary<string, List<int>> dict = new Dictionary<string, List<int>>();
+            if (nums != null && nums.Length >= 4) {
+                Array.Sort (nums);
+                Dictionary<string, List<int>> dict = new Dictionary<string, List<int>> ();
 
-                for (int i = 0; i < nums.Length - 3; i++)
-                {
-                    for (int j = i + 1; j < nums.Length - 2; j++)
-                    {
+                for (int i = 0; i < nums.Length - 3; i++) {
+                    for (int j = i + 1; j < nums.Length - 2; j++) {
                         int k = j + 1;
                         int l = nums.Length - 1;
 
-                        while (k < l)
-                        {
+                        while (k < l) {
                             int sum = nums[i] + nums[j] + nums[k] + nums[l];
 
-                            if (sum > target)
-                            {
+                            if (sum > target) {
                                 l--;
-                            }
-                            else if (sum < target)
-                            {
+                            } else if (sum < target) {
                                 k++;
-                            }
-                            else
-                            {
-                                string key = string.Concat(nums[i], ",", nums[j], ",", nums[k], ",", nums[l]);
+                            } else {
+                                string key = string.Concat (nums[i], ",", nums[j], ",", nums[k], ",", nums[l]);
 
-                                List<int> val = new List<int>();
-                                val.Add(nums[i]);
-                                val.Add(nums[j]);
-                                val.Add(nums[k]);
-                                val.Add(nums[l]);
+                                List<int> val = new List<int> ();
+                                val.Add (nums[i]);
+                                val.Add (nums[j]);
+                                val.Add (nums[k]);
+                                val.Add (nums[l]);
 
-                                if (!dict.ContainsKey(key))
-                                {
-                                    dict.Add(key, val);
-                                    result.Add(val);
+                                if (!dict.ContainsKey (key)) {
+                                    dict.Add (key, val);
+                                    result.Add (val);
                                 }
 
                                 k++;

@@ -1,5 +1,4 @@
-﻿namespace TechByTarun.InterviewPreperationGuide.App.Leetcode
-{
+﻿namespace TechByTarun.InterviewPreperationGuide.App.Leetcode {
     /// <summary>
     /// Lowest Common Ancestor of a Binary Tree
     /// https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/
@@ -19,14 +18,10 @@
     /// For example, the lowest common ancestor(LCA) of nodes 5 and 1 is 3.
     /// Another example is LCA of nodes 5 and 4 is 5, since a node can be a descendant of itself according to the LCA definition.
     /// </summary>
-    public class Question236
-    {
-        public static void Init(string[] args)
-        {
-        }
+    public class Question236 {
+        public static void Init (string[] args) { }
 
-        public TreeNode LowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q)
-        {
+        public TreeNode LowestCommonAncestor (TreeNode root, TreeNode p, TreeNode q) {
             return null;
         }
     }

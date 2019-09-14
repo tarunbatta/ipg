@@ -8,7 +8,7 @@ Given an array of integers A and let n to be its length.
 
 
 
-Assume Bk to be an array obtained by rotating the array A k positions clock-wise, we define a &quot;rotation function&quot; F on A as follow:
+Assume Bk to be an array obtained by rotating the array A k positions clock-wise, we define a "rotation function" F on A as follow:
 
 
 

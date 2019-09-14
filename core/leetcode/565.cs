@@ -8,7 +8,7 @@ A zero-indexed array A of length N contains all integers from 0 to N-1. Find and
 
 Suppose the first element in S starts with the selection of element A[i] of index = i, the next element in S should be A[A[i]], and then A[A[A[i]]]&#x2026; By that analogy, we stop adding right before a duplicate element occurs in S.
 
-&#xA0;
+ 
 
 Example 1:
 
@@ -21,7 +21,7 @@ One of the longest S[K]:
 S[0] = {A[0], A[5], A[6], A[2]} = {5, 6, 2, 0}
 
 
-&#xA0;
+ 
 
 Note:
 

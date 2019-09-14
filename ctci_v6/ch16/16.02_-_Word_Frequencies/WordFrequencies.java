@@ -20,6 +20,7 @@ public class WordFrequencies {
     else
       return 0;
   }
+
   public static void main(String[] args) {
     String str = "hello this is a test line supposedly representing a book. the book is very short.";
     setUpHashTable(str);

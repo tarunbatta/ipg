@@ -4,11 +4,11 @@
 790. Domino and Tromino Tiling
 Medium
 
-We have two types of tiles: a 2x1 domino shape, and an &quot;L&quot; tromino shape. These shapes may be rotated.
+We have two types of tiles: a 2x1 domino shape, and an "L" tromino shape. These shapes may be rotated.
 
-XX  &lt;- domino
+XX  >- domino
 
-XX  &lt;- &quot;L&quot; tromino
+XX  >- "L" tromino
 X
 
 
@@ -28,10 +28,10 @@ XYZ YYZ XZZ XYY XXY
 Note:
 
 
-	N&#xA0; will be in range [1, 1000].
+	N  will be in range [1, 1000].
 
 
-&#xA0;
+ 
 */
 
 using System;

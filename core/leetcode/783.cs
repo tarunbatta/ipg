@@ -4,7 +4,7 @@
 783. Minimum Distance Between BST Nodes
 Easy
 
-Given a Binary Search Tree (BST) with the root node root, return&#xA0;the minimum difference between the values of any two different nodes in the tree.
+Given a Binary Search Tree (BST) with the root node root, return the minimum difference between the values of any two different nodes in the tree.
 
 Example :
 
@@ -27,8 +27,8 @@ while the minimum difference in this tree is 1, it occurs between node 1 and nod
 Note:
 
 
-	The size of the BST will be between 2 and&#xA0;100.
-	The BST is always valid, each node&apos;s value is an integer, and each node&apos;s value is different.
+	The size of the BST will be between 2 and 100.
+	The BST is always valid, each node's value is an integer, and each node's value is different.
 */
 
 using System;

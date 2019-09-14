@@ -4,12 +4,12 @@
 119. Pascal's Triangle II
 Easy
 
-Given a non-negative&#xA0;index k&#xA0;where k &#x2264;&#xA0;33, return the kth&#xA0;index row of the Pascal&apos;s triangle.
+Given a non-negative index k where k &#x2264; 33, return the kth index row of the Pascal's triangle.
 
-Note that the row index starts from&#xA0;0.
+Note that the row index starts from 0.
 
 
-In Pascal&apos;s triangle, each number is the sum of the two numbers directly above it.
+In Pascal's triangle, each number is the sum of the two numbers directly above it.
 
 Example:
 

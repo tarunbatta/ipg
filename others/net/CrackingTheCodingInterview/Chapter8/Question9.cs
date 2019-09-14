@@ -1,8 +1,7 @@
 ﻿using System;
 using System.Collections;
 
-namespace TechByTarun.InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter8
-{
+namespace TechByTarun.InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter8 {
     /// <summary>
     /// Parens: Implement an algorithm to print all valid (e.g., properly opened and closed) combinations
     /// of n pairs of parentheses.
@@ -10,53 +9,43 @@ namespace TechByTarun.InterviewPreperationGuide.App.CrackingTheCodingInterview.C
     /// Input: 3
     /// Output: ((())), (()()), (())(), ()(()), ()()()
     /// </summary>
-    public class Question9
-    {
-        public static void Init(string[] args)
-        {
-            GenerateParens(0);
-            Program.PrintLine();
-            GenerateParens(1);
-            Program.PrintLine();
-            GenerateParens(2);
-            Program.PrintLine();
-            GenerateParens(3);
+    public class Question9 {
+        public static void Init (string[] args) {
+            GenerateParens (0);
+            Program.PrintLine ();
+            GenerateParens (1);
+            Program.PrintLine ();
+            GenerateParens (2);
+            Program.PrintLine ();
+            GenerateParens (3);
         }
 
-        public static void GenerateParens(int count)
-        {
-            if (count > 0)
-            {
-                ArrayList result = new ArrayList();
+        public static void GenerateParens (int count) {
+            if (count > 0) {
+                ArrayList result = new ArrayList ();
                 char[] parens = new char[count * 2];
 
-                GenerateParens(result, count, count, parens, 0);
+                GenerateParens (result, count, count, parens, 0);
 
-                foreach (var item in result)
-                {
-                    Console.WriteLine(item);
+                foreach (var item in result) {
+                    Console.WriteLine (item);
                 }
             }
         }
 
-        public static void GenerateParens(ArrayList list, int left, int right, char[] parens, int index)
-        {
-            if (left < 0 || right < left)
-            {
+        public static void GenerateParens (ArrayList list, int left, int right, char[] parens, int index) {
+            if (left < 0 || right < left) {
                 return;
             }
 
-            if (left == 0 && right == 0)
-            {
-                list.Add(new string(parens));
-            }
-            else
-            {
+            if (left == 0 && right == 0) {
+                list.Add (new string (parens));
+            } else {
                 parens[index] = '(';
-                GenerateParens(list, left - 1, right, parens, index + 1);
+                GenerateParens (list, left - 1, right, parens, index + 1);
 
                 parens[index] = ')';
-                GenerateParens(list, left, right - 1, parens, index + 1);
+                GenerateParens (list, left, right - 1, parens, index + 1);
             }
         }
     }

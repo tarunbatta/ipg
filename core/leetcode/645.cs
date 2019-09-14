@@ -21,7 +21,7 @@ Output: [2,3]
 Note:
 
 The given array size will in the range [2, 10000].
-The given array&apos;s numbers won&apos;t have any order.
+The given array's numbers won't have any order.
 */
 
 using System;

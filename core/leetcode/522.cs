@@ -12,18 +12,18 @@ A subsequence is a sequence that can be derived from one sequence by deleting so
 
 
 
-The input will be a list of strings, and the output needs to be the length of the longest uncommon subsequence. If the longest uncommon subsequence doesn&apos;t exist, return -1.
+The input will be a list of strings, and the output needs to be the length of the longest uncommon subsequence. If the longest uncommon subsequence doesn't exist, return -1.
 
 
 Example 1:
-Input: &quot;aba&quot;, &quot;cdc&quot;, &quot;eae&quot;
+Input: "aba", "cdc", "eae"
 Output: 3
 
 
 
 Note:
 
-All the given strings&apos; lengths will not exceed 10.
+All the given strings' lengths will not exceed 10.
 The length of the given list will be in the range of [2, 50].
 */
 

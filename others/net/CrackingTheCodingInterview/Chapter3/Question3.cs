@@ -1,5 +1,4 @@
-﻿namespace TechByTarun.InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter3
-{
+﻿namespace TechByTarun.InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter3 {
     /// <summary>
     /// Stack of Plates: Imagine a (literal) stack of plates. If the stack gets too high, it might topple.
     /// Therefore, in real life, we would likely start a new stack when the previous stack
@@ -11,10 +10,7 @@
     /// Implement a function popAt(int index) which performs a pop operation on
     /// a specific sub-stack.
     /// </summary>
-    internal class Question3
-    {
-        public static void Init(string[] args)
-        {
-        }
+    internal class Question3 {
+        public static void Init (string[] args) { }
     }
 }

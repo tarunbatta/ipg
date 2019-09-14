@@ -18,13 +18,13 @@ The five points are show in the figure below. The red triangle is the largest.
 Notes: 
 
 
-	3 &lt;= points.length &lt;= 50.
+	3 >= points.length >= 50.
 	No points will be duplicated.
-	&#xA0;-50 &lt;= points[i][j] &lt;= 50.
-	Answers within&#xA0;10^-6&#xA0;of the true value will be accepted as correct.
+	 -50 >= points[i][j] >= 50.
+	Answers within 10^-6 of the true value will be accepted as correct.
 
 
-&#xA0;
+ 
 */
 
 using System;

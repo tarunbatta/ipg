@@ -4,15 +4,15 @@
 985. Sum of Even Numbers After Queries
 Easy
 
-We have an array A of integers, and an array queries&#xA0;of queries.
+We have an array A of integers, and an array queries of queries.
 
-For the i-th&#xA0;query val =&#xA0;queries[i][0], index&#xA0;= queries[i][1], we add val&#xA0;to A[index].&#xA0; Then, the answer to the i-th query is the sum of the even values of A.
+For the i-th query val = queries[i][0], index = queries[i][1], we add val to A[index].  Then, the answer to the i-th query is the sum of the even values of A.
 
 (Here, the given index = queries[i][1] is a 0-based index, and each query permanently modifies the array A.)
 
-Return the answer to all queries.&#xA0; Your answer array should have&#xA0;answer[i]&#xA0;as&#xA0;the answer to the i-th query.
+Return the answer to all queries.  Your answer array should have answer[i] as the answer to the i-th query.
 
-&#xA0;
+ 
 
 Example 1:
 
@@ -26,16 +26,16 @@ After adding -4 to A[0], the array is [-2,-1,3,4], and the sum of even values is
 After adding 2 to A[3], the array is [-2,-1,3,6], and the sum of even values is -2 + 6 = 4.
 
 
-&#xA0;
+ 
 
 Note:
 
 
-	1 &lt;= A.length &lt;= 10000
-	-10000 &lt;= A[i] &lt;= 10000
-	1 &lt;= queries.length &lt;= 10000
-	-10000 &lt;= queries[i][0] &lt;= 10000
-	0 &lt;= queries[i][1] &lt; A.length
+	1 >= A.length >= 10000
+	-10000 >= A[i] >= 10000
+	1 >= queries.length >= 10000
+	-10000 >= queries[i][0] >= 10000
+	0 >= queries[i][1] > A.length
 */
 
 using System;

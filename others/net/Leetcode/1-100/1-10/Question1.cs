@@ -1,8 +1,7 @@
 ﻿using System;
 using System.Collections;
 
-namespace TechByTarun.InterviewPreperationGuide.App.Leetcode
-{
+namespace TechByTarun.InterviewPreperationGuide.App.Leetcode {
     /// <summary>
     /// Two Sum
     /// https://leetcode.com/problems/two-sum/
@@ -14,43 +13,36 @@ namespace TechByTarun.InterviewPreperationGuide.App.Leetcode
     /// Because nums[0] + nums[1] = 2 + 7 = 9,
     /// return [0, 1].
     /// </summary>
-    public class Question1
-    {
-        public static void Init(string[] args)
-        {
-            Console.WriteLine(Program.PrintArray(TwoSum_a(null, 5)));
-            Program.PrintLine();
-            Console.WriteLine(Program.PrintArray(TwoSum_a(new int[] { 2, 7, 11, 15 }, 9)));
-            Program.PrintLine();
-            Console.WriteLine(Program.PrintArray(TwoSum_a(new int[] { 2, 7, 11, 15, 4, 2, 1 }, 5)));
+    public class Question1 {
+        public static void Init (string[] args) {
+            Console.WriteLine (Program.PrintArray (TwoSum_a (null, 5)));
+            Program.PrintLine ();
+            Console.WriteLine (Program.PrintArray (TwoSum_a (new int[] { 2, 7, 11, 15 }, 9)));
+            Program.PrintLine ();
+            Console.WriteLine (Program.PrintArray (TwoSum_a (new int[] { 2, 7, 11, 15, 4, 2, 1 }, 5)));
 
-            Program.PrintSeperator();
+            Program.PrintSeperator ();
 
-            Console.WriteLine(Program.PrintArray(TwoSum_b(null, 5)));
-            Program.PrintLine();
-            Console.WriteLine(Program.PrintArray(TwoSum_b(new int[] { 2, 7, 11, 15 }, 9)));
-            Program.PrintLine();
-            Console.WriteLine(Program.PrintArray(TwoSum_b(new int[] { 2, 7, 11, 15, 4, 10, 1 }, 5)));
+            Console.WriteLine (Program.PrintArray (TwoSum_b (null, 5)));
+            Program.PrintLine ();
+            Console.WriteLine (Program.PrintArray (TwoSum_b (new int[] { 2, 7, 11, 15 }, 9)));
+            Program.PrintLine ();
+            Console.WriteLine (Program.PrintArray (TwoSum_b (new int[] { 2, 7, 11, 15, 4, 10, 1 }, 5)));
 
-            Program.PrintSeperator();
+            Program.PrintSeperator ();
 
-            Console.WriteLine(Program.PrintArray(TwoSum_c(null, 5)));
-            Program.PrintLine();
-            Console.WriteLine(Program.PrintArray(TwoSum_c(new int[] { 2, 7, 11, 15 }, 9)));
-            Program.PrintLine();
-            Console.WriteLine(Program.PrintArray(TwoSum_c(new int[] { 2, 7, 11, 15, 4, 10, 1 }, 5)));
+            Console.WriteLine (Program.PrintArray (TwoSum_c (null, 5)));
+            Program.PrintLine ();
+            Console.WriteLine (Program.PrintArray (TwoSum_c (new int[] { 2, 7, 11, 15 }, 9)));
+            Program.PrintLine ();
+            Console.WriteLine (Program.PrintArray (TwoSum_c (new int[] { 2, 7, 11, 15, 4, 10, 1 }, 5)));
         }
 
-        public static int[] TwoSum_a(int[] nums, int target)
-        {
-            if (nums != null)
-            {
-                for (int i = 0; i < nums.Length - 1; i++)
-                {
-                    for (int j = i + 1; j < nums.Length; j++)
-                    {
-                        if (nums[i] + nums[j] == target)
-                        {
+        public static int[] TwoSum_a (int[] nums, int target) {
+            if (nums != null) {
+                for (int i = 0; i < nums.Length - 1; i++) {
+                    for (int j = i + 1; j < nums.Length; j++) {
+                        if (nums[i] + nums[j] == target) {
                             return new int[] { nums[i], nums[j] };
                         }
                     }
@@ -60,22 +52,17 @@ namespace TechByTarun.InterviewPreperationGuide.App.Leetcode
             return null;
         }
 
-        public static int[] TwoSum_b(int[] nums, int target)
-        {
-            if (nums != null)
-            {
-                Hashtable hash = new Hashtable();
-                for (int i = 0; i < nums.Length; i++)
-                {
-                    hash.Add((int)nums[i], i);
+        public static int[] TwoSum_b (int[] nums, int target) {
+            if (nums != null) {
+                Hashtable hash = new Hashtable ();
+                for (int i = 0; i < nums.Length; i++) {
+                    hash.Add ((int) nums[i], i);
                 }
 
-                for (int i = 0; i < nums.Length; i++)
-                {
+                for (int i = 0; i < nums.Length; i++) {
                     int diff = target - nums[i];
 
-                    if (hash.ContainsKey(diff))
-                    {
+                    if (hash.ContainsKey (diff)) {
                         return new int[] { nums[i], diff };
                     }
                 }
@@ -84,29 +71,21 @@ namespace TechByTarun.InterviewPreperationGuide.App.Leetcode
             return null;
         }
 
-        public static int[] TwoSum_c(int[] nums, int target)
-        {
-            if (nums != null)
-            {
-                Array.Sort(nums);
+        public static int[] TwoSum_c (int[] nums, int target) {
+            if (nums != null) {
+                Array.Sort (nums);
 
                 int i = 0;
                 int j = nums.Length - 1;
 
-                while (i < j)
-                {
+                while (i < j) {
                     int sum = nums[i] + nums[j];
 
-                    if (sum == target)
-                    {
+                    if (sum == target) {
                         return new int[] { nums[i], nums[j] };
-                    }
-                    else if (sum < target)
-                    {
+                    } else if (sum < target) {
                         i++;
-                    }
-                    else
-                    {
+                    } else {
                         j--;
                     }
                 }

@@ -8,14 +8,14 @@ Can also be 373 + 347, but that is larger.
 
 PS: You have to use all digits.
 */
-(function () {
+(function() {
     var min = [];
 
     /*
     Time Complexity: 
     Space Complexity: 
     */
-    var extractingPrimesFromDigits = function (str) {
+    var extractingPrimesFromDigits = function(str) {
         var result = -1;
 
         if (str != null && str.length > 0) {

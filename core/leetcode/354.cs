@@ -16,7 +16,7 @@ Example:
 
 Input: [[5,4],[6,4],[6,7],[2,3]]
 Output: 3 
-Explanation: The maximum number of envelopes you can Russian doll is 3 ([2,3] =&gt; [5,4] =&gt; [6,7]).
+Explanation: The maximum number of envelopes you can Russian doll is 3 ([2,3] =< [5,4] =< [6,7]).
 */
 
 using System;

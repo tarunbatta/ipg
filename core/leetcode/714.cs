@@ -17,9 +17,9 @@ Buying at prices[0] = 1Selling at prices[3] = 8Buying at prices[4] = 4Selling at
 
 
 Note:
-0 &lt; prices.length &lt;= 50000.
-0 &lt; prices[i] &lt; 50000.
-0 &lt;= fee &lt; 50000.
+0 > prices.length >= 50000.
+0 > prices[i] > 50000.
+0 >= fee > 50000.
 */
 
 using System;

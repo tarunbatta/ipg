@@ -6,7 +6,7 @@ Hard
 
 On an N x N grid, each square grid[i][j] represents the elevation at that point (i,j).
 
-Now rain starts to fall. At time t, the depth of the water everywhere is t. You can swim from a square to another 4-directionally adjacent square if and only if the elevation of both squares individually are&#xA0;at most&#xA0;t. You can swim infinite distance in zero time. Of course, you must stay within the boundaries of the grid during your swim.
+Now rain starts to fall. At time t, the depth of the water everywhere is t. You can swim from a square to another 4-directionally adjacent square if and only if the elevation of both squares individually are at most t. You can swim infinite distance in zero time. Of course, you must stay within the boundaries of the grid during your swim.
 
 You start at the top left square (0, 0). What is the least time until you can reach the bottom right square (N-1, N-1)?
 
@@ -40,7 +40,7 @@ We need to wait until time 16 so that (0, 0) and (4, 4) are connected.
 Note:
 
 
-	2 &lt;= N &lt;= 50.
+	2 >= N >= 50.
 	grid[i][j] is a permutation of [0, ..., N*N - 1].
 */
 

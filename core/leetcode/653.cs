@@ -20,7 +20,7 @@ Target = 9
 Output: True
 
 
-&#xA0;
+ 
 
 Example 2:
 
@@ -36,7 +36,7 @@ Target = 28
 Output: False
 
 
-&#xA0;
+ 
 */
 
 using System;

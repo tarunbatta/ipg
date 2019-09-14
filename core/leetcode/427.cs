@@ -18,11 +18,11 @@ It can be divided according to the definition above:
 
 
 
-&#xA0;
+ 
 
 The corresponding quad tree should be as following, where each node is represented as a (isLeaf, val) pair.
 
-For the non-leaf&#xA0;nodes,&#xA0;val can be arbitrary, so it is represented as *.
+For the non-leaf nodes, val can be arbitrary, so it is represented as *.
 
 
 

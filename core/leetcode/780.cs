@@ -13,9 +13,9 @@ Input: sx = 1, sy = 1, tx = 3, ty = 5
 Output: True
 Explanation:
 One series of moves that transforms the starting point to the target is:
-(1, 1) -&gt; (1, 2)
-(1, 2) -&gt; (3, 2)
-(3, 2) -&gt; (3, 5)
+(1, 1) -< (1, 2)
+(1, 2) -< (3, 2)
+(3, 2) -< (3, 5)
 
 Input: sx = 1, sy = 1, tx = 2, ty = 2
 Output: False

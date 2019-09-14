@@ -1,5 +1,4 @@
-﻿namespace TechByTarun.InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter5
-{
+﻿namespace TechByTarun.InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter5 {
     /// <summary>
     /// Flip Bit to Win: You have an integer and you can flip exactly one bit from a 13 to a 1. Write code to
     /// find the length of the longest sequence of ls you could create.
@@ -7,10 +6,7 @@
     /// Input: 1775 (or: 1113111131111)
     /// Output: 8
     /// </summary>
-    public class Question3
-    {
-        public static void Init(string[] args)
-        {
-        }
+    public class Question3 {
+        public static void Init (string[] args) { }
     }
 }

@@ -4,30 +4,30 @@
 678. Valid Parenthesis String
 Medium
 
-Given a string containing only three types of characters: &apos;(&apos;, &apos;)&apos; and &apos;*&apos;, write a function to check whether this string is valid. We define the validity of a string by these rules:
+Given a string containing only three types of characters: '(', ')' and '*', write a function to check whether this string is valid. We define the validity of a string by these rules:
 
-Any left parenthesis &apos;(&apos; must have a corresponding right parenthesis &apos;)&apos;.
-Any right parenthesis &apos;)&apos; must have a corresponding left parenthesis &apos;(&apos;.
-Left parenthesis &apos;(&apos; must go before the corresponding right parenthesis &apos;)&apos;.
-&apos;*&apos; could be treated as a single right parenthesis &apos;)&apos; or a single left parenthesis &apos;(&apos; or an empty string.
+Any left parenthesis '(' must have a corresponding right parenthesis ')'.
+Any right parenthesis ')' must have a corresponding left parenthesis '('.
+Left parenthesis '(' must go before the corresponding right parenthesis ')'.
+'*' could be treated as a single right parenthesis ')' or a single left parenthesis '(' or an empty string.
 An empty string is also valid.
 
 
 
 Example 1:
-Input: &quot;()&quot;
+Input: "()"
 Output: True
 
 
 
 Example 2:
-Input: &quot;(*)&quot;
+Input: "(*)"
 Output: True
 
 
 
 Example 3:
-Input: &quot;(*))&quot;
+Input: "(*))"
 Output: True
 
 

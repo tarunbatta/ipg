@@ -6,15 +6,15 @@ Medium
 
 Find the smallest prime palindrome greater than or equal to N.
 
-Recall that a&#xA0;number is prime if it&apos;s only divisors are 1 and itself, and it is greater than 1.&#xA0;
+Recall that a number is prime if it's only divisors are 1 and itself, and it is greater than 1. 
 
-For example, 2,3,5,7,11 and 13 are&#xA0;primes.
+For example, 2,3,5,7,11 and 13 are primes.
 
-Recall that a number is a palindrome if it reads the same from left to right as it does from right to left.&#xA0;
+Recall that a number is a palindrome if it reads the same from left to right as it does from right to left. 
 
 For example, 12321 is a palindrome.
 
-&#xA0;
+ 
 
 
 Example 1:
@@ -39,12 +39,12 @@ Output: 101
 
 
 
-&#xA0;
+ 
 
 Note:
 
 
-	1 &lt;= N &lt;= 10^8
+	1 >= N >= 10^8
 	The answer is guaranteed to exist and be less than 2 * 10^8.
 */
 

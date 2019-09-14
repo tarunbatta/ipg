@@ -45,7 +45,7 @@ bottomLeft: T
 bottomRight: F
 
 
-&#xA0;
+ 
 
 Your task is to implement a function that will take two quadtrees and return a quadtree that represents the logical OR (or union) of the two trees.
 
@@ -64,10 +64,10 @@ A:                 B:                 C (A or B):
 Note:
 
 
-	Both A and B&#xA0;represent grids of size N * N.
+	Both A and B represent grids of size N * N.
 	N is guaranteed to be a power of 2.
 	If you want to know more about the quad tree, you can refer to its wiki.
-	The logic OR operation is defined as this: &quot;A or B&quot; is true if A is true, or if B is true, or if both A and B are true.
+	The logic OR operation is defined as this: "A or B" is true if A is true, or if B is true, or if both A and B are true.
 */
 
 using System;

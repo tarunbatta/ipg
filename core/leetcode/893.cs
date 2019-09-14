@@ -6,15 +6,15 @@ Easy
 
 You are given an array A of strings.
 
-Two strings S and T are&#xA0;special-equivalent&#xA0;if after any number of moves, S == T.
+Two strings S and T are special-equivalent if after any number of moves, S == T.
 
 A move consists of choosing two indices i and j with i % 2 == j % 2, and swapping S[i] with S[j].
 
-Now, a group of special-equivalent strings from A&#xA0;is a&#xA0;non-empty subset S of A&#xA0;such that any string not in S&#xA0;is not special-equivalent with any string in S.
+Now, a group of special-equivalent strings from A is a non-empty subset S of A such that any string not in S is not special-equivalent with any string in S.
 
 Return the number of groups of special-equivalent strings from A.
 
-&#xA0;
+ 
 
 
 
@@ -22,42 +22,42 @@ Return the number of groups of special-equivalent strings from A.
 
 Example 1:
 
-Input: [&quot;a&quot;,&quot;b&quot;,&quot;c&quot;,&quot;a&quot;,&quot;c&quot;,&quot;c&quot;]
+Input: ["a","b","c","a","c","c"]
 Output: 3
-Explanation: 3 groups [&quot;a&quot;,&quot;a&quot;], [&quot;b&quot;], [&quot;c&quot;,&quot;c&quot;,&quot;c&quot;]
+Explanation: 3 groups ["a","a"], ["b"], ["c","c","c"]
 
 
 
 Example 2:
 
-Input: [&quot;aa&quot;,&quot;bb&quot;,&quot;ab&quot;,&quot;ba&quot;]
+Input: ["aa","bb","ab","ba"]
 Output: 4
-Explanation: 4 groups [&quot;aa&quot;], [&quot;bb&quot;], [&quot;ab&quot;], [&quot;ba&quot;]
+Explanation: 4 groups ["aa"], ["bb"], ["ab"], ["ba"]
 
 
 
 Example 3:
 
-Input: [&quot;abc&quot;,&quot;acb&quot;,&quot;bac&quot;,&quot;bca&quot;,&quot;cab&quot;,&quot;cba&quot;]
+Input: ["abc","acb","bac","bca","cab","cba"]
 Output: 3
-Explanation: 3 groups [&quot;abc&quot;,&quot;cba&quot;], [&quot;acb&quot;,&quot;bca&quot;], [&quot;bac&quot;,&quot;cab&quot;]
+Explanation: 3 groups ["abc","cba"], ["acb","bca"], ["bac","cab"]
 
 
 
 Example 4:
 
-Input: [&quot;abcd&quot;,&quot;cdab&quot;,&quot;adcb&quot;,&quot;cbad&quot;]
+Input: ["abcd","cdab","adcb","cbad"]
 Output: 1
-Explanation: 1 group [&quot;abcd&quot;,&quot;cdab&quot;,&quot;adcb&quot;,&quot;cbad&quot;]
+Explanation: 1 group ["abcd","cdab","adcb","cbad"]
 
 
-&#xA0;
+ 
 
 Note:
 
 
-	1 &lt;= A.length &lt;= 1000
-	1 &lt;= A[i].length &lt;= 20
+	1 >= A.length >= 1000
+	1 >= A[i].length >= 20
 	All A[i] have the same length.
 	All A[i] consist of only lowercase letters.
 */
