@@ -20,7 +20,7 @@ Note:
 
 	1 is a super ugly number for any given primes.
 	The given numbers in primes are in ascending order.
-	0 &lt; k &#x2264; 100, 0 &lt; n &#x2264; 106, 0 &lt; primes[i] &lt; 1000.
+	0 < k ≤ 100, 0 < n ≤ 106, 0 < primes[i] < 1000.
 	The nth super ugly number is guaranteed to fit in a 32-bit signed integer.
 */
 

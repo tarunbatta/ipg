@@ -15,22 +15,22 @@ Note:
 
 Example 1:
 
-Input: s = &quot;leetcode&quot;, wordDict = [&quot;leet&quot;, &quot;code&quot;]
+Input: s = "leetcode", wordDict = ["leet", "code"]
 Output: true
-Explanation: Return true because &quot;leetcode&quot; can be segmented as &quot;leet code&quot;.
+Explanation: Return true because "leetcode" can be segmented as "leet code".
 
 
 Example 2:
 
-Input: s = &quot;applepenapple&quot;, wordDict = [&quot;apple&quot;, &quot;pen&quot;]
+Input: s = "applepenapple", wordDict = ["apple", "pen"]
 Output: true
-Explanation: Return true because &quot;applepenapple&quot; can be segmented as &quot;apple pen apple&quot;.
-&#xA0;            Note that you are allowed to reuse a dictionary word.
+Explanation: Return true because "applepenapple" can be segmented as "apple pen apple".
+             Note that you are allowed to reuse a dictionary word.
 
 
 Example 3:
 
-Input: s = &quot;catsandog&quot;, wordDict = [&quot;cats&quot;, &quot;dog&quot;, &quot;sand&quot;, &quot;and&quot;, &quot;cat&quot;]
+Input: s = "catsandog", wordDict = ["cats", "dog", "sand", "and", "cat"]
 Output: false
 */
 

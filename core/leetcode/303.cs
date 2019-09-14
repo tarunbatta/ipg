@@ -4,14 +4,14 @@
 303. Range Sum Query - Immutable
 Easy
 
-Given an integer array nums, find the sum of the elements between indices i and j (i &#x2264; j), inclusive.
+Given an integer array nums, find the sum of the elements between indices i and j (i ≤ j), inclusive.
 
 Example:
 Given nums = [-2, 0, 3, -5, 2, -1]
 
-sumRange(0, 2) -&gt; 1
-sumRange(2, 5) -&gt; -1
-sumRange(0, 5) -&gt; -3
+sumRange(0, 2) -> 1
+sumRange(2, 5) -> -1
+sumRange(0, 5) -> -3
 
 
 

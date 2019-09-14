@@ -14,16 +14,16 @@ Example 1:
 
 Input: 2, [[1,0]] 
 Output: true
-Explanation:&#xA0;There are a total of 2 courses to take. 
-&#xA0;            To take course 1 you should have finished course 0. So it is possible.
+Explanation: There are a total of 2 courses to take. 
+             To take course 1 you should have finished course 0. So it is possible.
 
 Example 2:
 
 Input: 2, [[1,0],[0,1]]
 Output: false
-Explanation:&#xA0;There are a total of 2 courses to take. 
-&#xA0;            To take course 1 you should have finished course 0, and to take course 0 you should
-&#xA0;            also have finished course 1. So it is impossible.
+Explanation: There are a total of 2 courses to take. 
+             To take course 1 you should have finished course 0, and to take course 0 you should
+             also have finished course 1. So it is impossible.
 
 
 Note:

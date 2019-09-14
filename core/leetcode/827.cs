@@ -6,7 +6,7 @@ Hard
 
 In a 2D grid of 0s and 1s, we change at most one 0 to a 1.
 
-After, what is the size of the largest island?&#xA0;(An island is a 4-directionally connected group of 1s).
+After, what is the size of the largest island? (An island is a 4-directionally connected group of 1s).
 
 Example 1:
 
@@ -25,18 +25,18 @@ Example 3:
 
 Input: [[1, 1], [1, 1]]
 Output: 4
-Explanation: Can&apos;t change any 0 to 1, only one island with area = 4.
+Explanation: Can't change any 0 to 1, only one island with area = 4.
 
-&#xA0;
+ 
 
 Notes:
 
 
-	1 &lt;= grid.length = grid[0].length &lt;= 50.
-	0 &lt;= grid[i][j] &lt;= 1.
+	1 <= grid.length = grid[0].length <= 50.
+	0 <= grid[i][j] <= 1.
 
 
-&#xA0;
+ 
 */
 
 using System;

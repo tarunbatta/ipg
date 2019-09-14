@@ -6,7 +6,7 @@ Medium
 
 Implement a MyCalendar class to store your events. A new event can be added if adding the event will not cause a double booking.
 
-Your class will have the method, book(int start, int end). Formally, this represents a booking on the half open interval [start, end), the range of real numbers x such that start &lt;= x &lt; end.
+Your class will have the method, book(int start, int end). Formally, this represents a booking on the half open interval [start, end), the range of real numbers x such that start <= x < end.
 
 A double booking happens when two events have some non-empty intersection (ie., there is some time that is common to both events.)
 
@@ -20,11 +20,11 @@ MyCalendar.book(10, 20); // returns true
 MyCalendar.book(15, 25); // returns false
 MyCalendar.book(20, 30); // returns true
 Explanation: 
-The first event can be booked.  The second can&apos;t because time 15 is already booked by another event.
+The first event can be booked.  The second can't because time 15 is already booked by another event.
 The third event can be booked, as the first event takes every time less than 20, but not including 20.
 
 
-&#xA0;
+ 
 
 Note:
 
@@ -33,7 +33,7 @@ Note:
 	In calls to MyCalendar.book(start, end), start and end are integers in the range [0, 10^9].
 
 
-&#xA0;
+ 
 */
 
 using System;

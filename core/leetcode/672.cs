@@ -15,7 +15,7 @@ Suppose n lights are labeled as number [1, 2, 3 ..., n], function of these 4 but
 	Flip lights with (3k + 1) numbers, k = 0, 1, 2, ...
 
 
-&#xA0;
+ 
 
 Example 1:
 
@@ -24,7 +24,7 @@ Output: 2
 Explanation: Status can be: [on], [off]
 
 
-&#xA0;
+ 
 
 Example 2:
 
@@ -33,7 +33,7 @@ Output: 3
 Explanation: Status can be: [on, off], [off, on], [off, off]
 
 
-&#xA0;
+ 
 
 Example 3:
 
@@ -42,7 +42,7 @@ Output: 4
 Explanation: Status can be: [off, on, off], [on, off, on], [off, off, off], [off, on, on].
 
 
-&#xA0;
+ 
 
 Note: n and m both fit in range [0, 1000].
 */

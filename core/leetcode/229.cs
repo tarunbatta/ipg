@@ -4,7 +4,7 @@
 229. Majority Element II
 Medium
 
-Given an integer array of size n, find all elements that appear more than &#x230A; n/3 &#x230B; times.
+Given an integer array of size n, find all elements that appear more than ⌊ n/3 ⌋ times.
 
 Note: The algorithm should run in linear time and in O(1) space.
 

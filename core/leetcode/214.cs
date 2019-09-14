@@ -8,14 +8,14 @@ Given a string s, you are allowed to convert it to a palindrome by adding charac
 
 Example 1:
 
-Input: &quot;aacecaaa&quot;
-Output: &quot;aaacecaaa&quot;
+Input: "aacecaaa"
+Output: "aaacecaaa"
 
 
 Example 2:
 
-Input: &quot;abcd&quot;
-Output: &quot;dcbabcd&quot;
+Input: "abcd"
+Output: "dcbabcd"
 */
 
 using System;

@@ -4,16 +4,16 @@
 982. Triples with Bitwise AND Equal To Zero
 Hard
 
-Given an array of integers A, find the number of&#xA0;triples of indices (i, j, k)&#xA0;such that:
+Given an array of integers A, find the number of triples of indices (i, j, k) such that:
 
 
-	0 &lt;= i &lt; A.length
-	0 &lt;= j &lt; A.length
-	0 &lt;= k &lt; A.length
-	A[i]&#xA0;&amp; A[j]&#xA0;&amp; A[k] == 0, where &amp;&#xA0;represents the bitwise-AND operator.
+	0 <= i < A.length
+	0 <= j < A.length
+	0 <= k < A.length
+	A[i] &amp; A[j] &amp; A[k] == 0, where &amp; represents the bitwise-AND operator.
 
 
-&#xA0;
+ 
 
 Example 1:
 
@@ -34,13 +34,13 @@ Explanation: We could choose the following i, j, k triples:
 (i=2, j=1, k=0) : 3 &amp; 1 &amp; 2
 
 
-&#xA0;
+ 
 
 Note:
 
 
-	1 &lt;= A.length &lt;= 1000
-	0 &lt;= A[i] &lt; 2^16
+	1 <= A.length <= 1000
+	0 <= A[i] < 2^16
 */
 
 using System;

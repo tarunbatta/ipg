@@ -10,16 +10,16 @@ However, there is a non-negative cooling interval n that means between two same 
 
 You need to return the least number of intervals the CPU will take to finish all the given tasks.
 
-&#xA0;
+ 
 
 Example:
 
-Input: tasks = [&quot;A&quot;,&quot;A&quot;,&quot;A&quot;,&quot;B&quot;,&quot;B&quot;,&quot;B&quot;], n = 2
+Input: tasks = ["A","A","A","B","B","B"], n = 2
 Output: 8
-Explanation: A -&gt; B -&gt; idle -&gt; A -&gt; B -&gt; idle -&gt; A -&gt; B.
+Explanation: A -> B -> idle -> A -> B -> idle -> A -> B.
 
 
-&#xA0;
+ 
 
 Note:
 

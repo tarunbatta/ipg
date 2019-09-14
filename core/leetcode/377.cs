@@ -25,7 +25,7 @@ Note that different sequences are counted as different combinations.
 Therefore the output is 7.
 
 
-&#xA0;
+ 
 
 Follow up:
 What if negative numbers are allowed in the given array?

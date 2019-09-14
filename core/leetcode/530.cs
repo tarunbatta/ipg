@@ -23,7 +23,7 @@ Explanation:
 The minimum absolute difference is 1, which is the difference between 2 and 1 (or between 2 and 3).
 
 
-&#xA0;
+ 
 
 Note: There are at least two nodes in this BST.
 */

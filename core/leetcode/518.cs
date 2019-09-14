@@ -9,7 +9,7 @@ You are given coins of different denominations and a total amount of money. Writ
 
 
 
-&#xA0;
+ 
 
 Example 1:
 
@@ -35,15 +35,15 @@ Input: amount = 10, coins = [10]
 Output: 1
 
 
-&#xA0;
+ 
 
 Note:
 
 You can assume that
 
 
-	0 &lt;= amount &lt;= 5000
-	1 &lt;= coin &lt;= 5000
+	0 <= amount <= 5000
+	1 <= coin <= 5000
 	the number of coins is less than 500
 	the answer is guaranteed to fit into signed 32-bit integer
 */

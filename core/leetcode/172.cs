@@ -10,13 +10,13 @@ Example 1:
 
 Input: 3
 Output: 0
-Explanation:&#xA0;3! = 6, no trailing zero.
+Explanation: 3! = 6, no trailing zero.
 
 Example 2:
 
 Input: 5
 Output: 1
-Explanation:&#xA0;5! = 120, one trailing zero.
+Explanation: 5! = 120, one trailing zero.
 
 Note: Your solution should be in logarithmic time complexity.
 */

@@ -10,7 +10,7 @@ Note that every number in the answer must not have leading zeros except for the 
 
 You may return the answer in any order.
 
-&#xA0;
+ 
 
 Example 1:
 
@@ -25,14 +25,14 @@ Example 2:
 Input: N = 2, K = 1
 Output: [10,12,21,23,32,34,43,45,54,56,65,67,76,78,87,89,98]
 
-&#xA0;
+ 
 
 
 Note:
 
 
-	1 &lt;= N &lt;= 9
-	0 &lt;= K &lt;= 9
+	1 <= N <= 9
+	0 <= K <= 9
 */
 
 using System;

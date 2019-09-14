@@ -6,9 +6,9 @@ Medium
 
 Starting with a positive integer N, we reorder the digits in any order (including the original order) such that the leading digit is not zero.
 
-Return true&#xA0;if and only if we can do this in a way such that the resulting number is a power of 2.
+Return true if and only if we can do this in a way such that the resulting number is a power of 2.
 
-&#xA0;
+ 
 
 
 
@@ -48,12 +48,12 @@ Input: 46
 Output: true
 
 
-&#xA0;
+ 
 
 Note:
 
 
-	1 &lt;= N &lt;= 10^9
+	1 <= N <= 10^9
 */
 
 using System;

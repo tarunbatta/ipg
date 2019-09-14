@@ -15,7 +15,7 @@ For example, this binary tree [1,2,2,3,4,4,3] is symmetric:
 3  4 4  3
 
 
-&#xA0;
+ 
 
 But the following [1,2,2,null,3,null,3] is not:
 
@@ -26,7 +26,7 @@ But the following [1,2,2,null,3,null,3] is not:
    3    3
 
 
-&#xA0;
+ 
 
 Note:
 Bonus points if you could solve it both recursively and iteratively.

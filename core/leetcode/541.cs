@@ -8,8 +8,8 @@ Given a string and an integer k, you need to reverse the first k characters for 
 
 
 Example:
-Input: s = &quot;abcdefg&quot;, k = 2
-Output: &quot;bacdfeg&quot;
+Input: s = "abcdefg", k = 2
+Output: "bacdfeg"
 
 
 

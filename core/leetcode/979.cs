@@ -4,13 +4,13 @@
 979. Distribute Coins in Binary Tree
 Medium
 
-Given the root of a binary tree with N nodes, each node&#xA0;in the tree has node.val coins, and there are N coins total.
+Given the root of a binary tree with N nodes, each node in the tree has node.val coins, and there are N coins total.
 
-In one move, we may choose two adjacent nodes and move one coin from one node to another.&#xA0; (The move may be from parent to child, or from child to parent.)
+In one move, we may choose two adjacent nodes and move one coin from one node to another.  (The move may be from parent to child, or from child to parent.)
 
 Return the number of moves required to make every node have exactly one coin.
 
-&#xA0;
+ 
 
 
 Example 1:
@@ -50,13 +50,13 @@ Input: [1,0,0,null,3]
 Output: 4
 
 
-&#xA0;
+ 
 
 Note:
 
 
-	1&lt;= N &lt;= 100
-	0 &lt;= node.val &lt;= N
+	1<= N <= 100
+	0 <= node.val <= N
 */
 
 using System;

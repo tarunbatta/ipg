@@ -23,7 +23,7 @@ return 13.
 
 
 Note: 
-You may assume k is always valid, 1 &#x2264; k &#x2264; n2.
+You may assume k is always valid, 1 ≤ k ≤ n2.
 */
 
 using System;

@@ -4,22 +4,22 @@
 1006. Clumsy Factorial
 Medium
 
-Normally, the factorial of a positive integer n&#xA0;is the product of all positive integers less than or equal to n.&#xA0; For example, factorial(10) = 10 * 9 * 8 * 7 * 6 * 5 * 4 * 3 * 2 * 1.
+Normally, the factorial of a positive integer n is the product of all positive integers less than or equal to n.  For example, factorial(10) = 10 * 9 * 8 * 7 * 6 * 5 * 4 * 3 * 2 * 1.
 
-We instead make a clumsy factorial:&#xA0;using the integers in decreasing order, we&#xA0;swap out the multiply operations for a fixed rotation of operations:&#xA0;multiply (*), divide (/), add (+) and subtract (-) in this order.
+We instead make a clumsy factorial: using the integers in decreasing order, we swap out the multiply operations for a fixed rotation of operations: multiply (*), divide (/), add (+) and subtract (-) in this order.
 
-For example, clumsy(10) = 10 * 9 / 8 + 7 - 6 * 5 / 4 + 3 - 2 * 1.&#xA0; However, these operations are still applied using the usual order of operations of arithmetic: we do all multiplication and division steps before any addition or subtraction steps, and multiplication and division steps are processed left to right.
+For example, clumsy(10) = 10 * 9 / 8 + 7 - 6 * 5 / 4 + 3 - 2 * 1.  However, these operations are still applied using the usual order of operations of arithmetic: we do all multiplication and division steps before any addition or subtraction steps, and multiplication and division steps are processed left to right.
 
-Additionally, the division that we use is floor division&#xA0;such that&#xA0;10 * 9 / 8&#xA0;equals&#xA0;11.&#xA0; This guarantees the result is&#xA0;an integer.
+Additionally, the division that we use is floor division such that 10 * 9 / 8 equals 11.  This guarantees the result is an integer.
 
-Implement the&#xA0;clumsy&#xA0;function&#xA0;as defined above: given an integer N, it returns the clumsy factorial of N.
+Implement the clumsy function as defined above: given an integer N, it returns the clumsy factorial of N.
 
-&#xA0;
+ 
 
 Example 1:
 
 Input: 4
-Output:&#xA0;7
+Output: 7
 Explanation: 7 = 4 * 3 / 2 + 1
 
 
@@ -30,13 +30,13 @@ Output: 12
 Explanation: 12 = 10 * 9 / 8 + 7 - 6 * 5 / 4 + 3 - 2 * 1
 
 
-&#xA0;
+ 
 
 Note:
 
 
-	1 &lt;= N &lt;= 10000
-	-2^31 &lt;= answer &lt;= 2^31 - 1&#xA0; (The answer is guaranteed to fit within a 32-bit integer.)
+	1 <= N <= 10000
+	-2^31 <= answer <= 2^31 - 1  (The answer is guaranteed to fit within a 32-bit integer.)
 */
 
 using System;

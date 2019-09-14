@@ -5,7 +5,7 @@
 Hard
 
 Given an integer array nums, return the number of range sums that lie in [lower, upper] inclusive.
-Range sum S(i, j) is defined as the sum of the elements in nums between indices i and j (i &#x2264; j), inclusive.
+Range sum S(i, j) is defined as the sum of the elements in nums between indices i and j (i ≤ j), inclusive.
 
 Note:
 A naive algorithm of O(n2) is trivial. You MUST do better than that.

@@ -4,7 +4,7 @@
 50. Pow(x, n)
 Medium
 
-Implement pow(x, n), which calculates&#xA0;x raised to the power n (xn).
+Implement pow(x, n), which calculates x raised to the power n (xn).
 
 Example 1:
 
@@ -27,9 +27,8 @@ Explanation: 2-2 = 1/22 = 1/4 = 0.25
 
 Note:
 
-
-	-100.0 &lt; x &lt; 100.0
-	n is a 32-bit signed integer, within the range&#xA0;[&#x2212;231,&#xA0;231&#xA0;&#x2212; 1]
+-100.0 < x < 100.0
+n is a 32-bit signed integer, within the range [−231, 231 − 1]
 */
 
 using System;

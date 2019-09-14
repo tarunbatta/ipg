@@ -4,34 +4,34 @@
 854. K-Similar Strings
 Hard
 
-Strings&#xA0;A and B are K-similar (for some non-negative integer K) if we can swap the positions of two letters in A exactly K&#xA0;times so that the resulting string equals B.
+Strings A and B are K-similar (for some non-negative integer K) if we can swap the positions of two letters in A exactly K times so that the resulting string equals B.
 
-Given two anagrams A and B, return the smallest K&#xA0;for which A and B are K-similar.
+Given two anagrams A and B, return the smallest K for which A and B are K-similar.
 
 Example 1:
 
-Input: A = &quot;ab&quot;, B = &quot;ba&quot;
+Input: A = "ab", B = "ba"
 Output: 1
 
 
 
 Example 2:
 
-Input: A = &quot;abc&quot;, B = &quot;bca&quot;
+Input: A = "abc", B = "bca"
 Output: 2
 
 
 
 Example 3:
 
-Input: A = &quot;abac&quot;, B = &quot;baca&quot;
+Input: A = "abac", B = "baca"
 Output: 2
 
 
 
 Example 4:
 
-Input: A = &quot;aabc&quot;, B = &quot;abca&quot;
+Input: A = "aabc", B = "abca"
 Output: 2
 
 
@@ -40,8 +40,8 @@ Output: 2
 Note:
 
 
-	1 &lt;= A.length == B.length &lt;= 20
-	A and B contain only lowercase letters from the set {&apos;a&apos;, &apos;b&apos;, &apos;c&apos;, &apos;d&apos;, &apos;e&apos;, &apos;f&apos;}
+	1 <= A.length == B.length <= 20
+	A and B contain only lowercase letters from the set {'a', 'b', 'c', 'd', 'e', 'f'}
 */
 
 using System;

@@ -4,13 +4,13 @@
 910. Smallest Range II
 Medium
 
-Given an array A of integers, for each integer A[i] we need to choose either&#xA0;x = -K&#xA0;or x = K, and add x to A[i] (only once).
+Given an array A of integers, for each integer A[i] we need to choose either x = -K or x = K, and add x to A[i] (only once).
 
 After this process, we have some array B.
 
-Return the smallest possible difference between the maximum value of B&#xA0;and the minimum value of B.
+Return the smallest possible difference between the maximum value of B and the minimum value of B.
 
-&#xA0;
+ 
 
 
 
@@ -39,14 +39,14 @@ Output: 3
 Explanation: B = [4,6,3]
 
 
-&#xA0;
+ 
 
 Note:
 
 
-	1 &lt;= A.length &lt;= 10000
-	0 &lt;= A[i] &lt;= 10000
-	0 &lt;= K &lt;= 10000
+	1 <= A.length <= 10000
+	0 <= A[i] <= 10000
+	0 <= K <= 10000
 */
 
 using System;

@@ -4,11 +4,11 @@
 969. Pancake Sorting
 Medium
 
-Given an array A, we can perform a&#xA0;pancake flip:&#xA0;We choose some positive integer&#xA0;k &lt;= A.length, then reverse the order of the first k elements of A.&#xA0; We want to perform zero or more pancake flips (doing them one after another in succession) to sort the array A.
+Given an array A, we can perform a pancake flip: We choose some positive integer k <= A.length, then reverse the order of the first k elements of A.  We want to perform zero or more pancake flips (doing them one after another in succession) to sort the array A.
 
-Return the k-values corresponding to a sequence of pancake flips that sort A.&#xA0; Any&#xA0;valid answer that sorts the array within 10 * A.length flips will be judged as correct.
+Return the k-values corresponding to a sequence of pancake flips that sort A.  Any valid answer that sorts the array within 10 * A.length flips will be judged as correct.
 
-&#xA0;
+ 
 
 Example 1:
 
@@ -32,13 +32,13 @@ Explanation: The input is already sorted, so there is no need to flip anything.
 Note that other answers, such as [3, 3], would also be accepted.
 
 
-&#xA0;
+ 
 
 
 Note:
 
 
-	1 &lt;= A.length &lt;= 100
+	1 <= A.length <= 100
 	A[i] is a permutation of [1, 2, ..., A.length]
 */
 

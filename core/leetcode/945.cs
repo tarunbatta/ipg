@@ -8,7 +8,7 @@ Given an array of integers A, a move consists of choosing any A[i], and incremen
 
 Return the least number of moves to make every value in A unique.
 
-&#xA0;
+ 
 
 Example 1:
 
@@ -26,18 +26,18 @@ Explanation:  After 6 moves, the array could be [3, 4, 1, 2, 5, 7].
 It can be shown with 5 or less moves that it is impossible for the array to have all unique values.
 
 
-&#xA0;
+ 
 
 
 Note:
 
 
-	0 &lt;= A.length &lt;= 40000
-	0 &lt;= A[i] &lt; 40000
+	0 <= A.length <= 40000
+	0 <= A[i] < 40000
 
 
 
-&#xA0;
+ 
 */
 
 using System;

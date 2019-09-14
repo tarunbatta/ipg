@@ -4,7 +4,7 @@
 994. Rotting Oranges
 Easy
 
-In a given grid, each cell can have one of three&#xA0;values:
+In a given grid, each cell can have one of three values:
 
 
 	the value 0 representing an empty cell;
@@ -14,9 +14,9 @@ In a given grid, each cell can have one of three&#xA0;values:
 
 Every minute, any fresh orange that is adjacent (4-directionally) to a rotten orange becomes rotten.
 
-Return the minimum number of minutes that must elapse until no cell has a fresh orange.&#xA0; If this is impossible, return -1 instead.
+Return the minimum number of minutes that must elapse until no cell has a fresh orange.  If this is impossible, return -1 instead.
 
-&#xA0;
+ 
 
 
 Example 1:
@@ -43,13 +43,13 @@ Output: 0
 Explanation:  Since there are already no fresh oranges at minute 0, the answer is just 0.
 
 
-&#xA0;
+ 
 
 Note:
 
 
-	1 &lt;= grid.length &lt;= 10
-	1 &lt;= grid[0].length &lt;= 10
+	1 <= grid.length <= 10
+	1 <= grid[0].length <= 10
 	grid[i][j] is only 0, 1, or 2.
 */
 

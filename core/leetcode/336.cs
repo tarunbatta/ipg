@@ -9,17 +9,17 @@ Given a list of unique words, find all pairs of distinct indices (i, j) in the g
 Example 1:
 
 
-Input: [&quot;abcd&quot;,&quot;dcba&quot;,&quot;lls&quot;,&quot;s&quot;,&quot;sssll&quot;]
+Input: ["abcd","dcba","lls","s","sssll"]
 Output: [[0,1],[1,0],[3,2],[2,4]] 
-Explanation: The palindromes are [&quot;dcbaabcd&quot;,&quot;abcddcba&quot;,&quot;slls&quot;,&quot;llssssll&quot;]
+Explanation: The palindromes are ["dcbaabcd","abcddcba","slls","llssssll"]
 
 
 
 Example 2:
 
-Input: [&quot;bat&quot;,&quot;tab&quot;,&quot;cat&quot;]
+Input: ["bat","tab","cat"]
 Output: [[0,1],[1,0]] 
-Explanation: The palindromes are [&quot;battab&quot;,&quot;tabbat&quot;]
+Explanation: The palindromes are ["battab","tabbat"]
 */
 
 using System;

@@ -8,31 +8,31 @@ Given a column title as appear in an Excel sheet, return its corresponding colum
 
 For example:
 
-    A -&gt; 1
-    B -&gt; 2
-    C -&gt; 3
+    A -> 1
+    B -> 2
+    C -> 3
     ...
-    Z -&gt; 26
-    AA -&gt; 27
-    AB -&gt; 28 
+    Z -> 26
+    AA -> 27
+    AB -> 28 
     ...
 
 
 Example 1:
 
-Input: &quot;A&quot;
+Input: "A"
 Output: 1
 
 
 Example 2:
 
-Input: &quot;AB&quot;
+Input: "AB"
 Output: 28
 
 
 Example 3:
 
-Input: &quot;ZY&quot;
+Input: "ZY"
 Output: 701
 */
 

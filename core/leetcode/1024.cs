@@ -4,13 +4,13 @@
 1024. Video Stitching
 Medium
 
-You are given a series of video clips from a sporting event that lasted T seconds.&#xA0;&#xA0;These video clips can be overlapping with each other and have varied lengths.
+You are given a series of video clips from a sporting event that lasted T seconds.  These video clips can be overlapping with each other and have varied lengths.
 
-Each video clip clips[i]&#xA0;is an interval: it starts at time clips[i][0] and ends at time clips[i][1].&#xA0; We can cut these clips into segments freely: for example, a clip [0, 7] can be cut into segments&#xA0;[0, 1] +&#xA0;[1, 3] + [3, 7].
+Each video clip clips[i] is an interval: it starts at time clips[i][0] and ends at time clips[i][1].  We can cut these clips into segments freely: for example, a clip [0, 7] can be cut into segments [0, 1] + [1, 3] + [3, 7].
 
-Return the minimum number of clips needed so that we can cut the clips into segments that cover the entire sporting event ([0, T]).&#xA0; If the task is impossible, return -1.
+Return the minimum number of clips needed so that we can cut the clips into segments that cover the entire sporting event ([0, T]).  If the task is impossible, return -1.
 
-&#xA0;
+ 
 
 Example 1:
 
@@ -28,7 +28,7 @@ Example 2:
 Input: clips = [[0,1],[1,2]], T = 5
 Output: -1
 Explanation: 
-We can&apos;t cover [0,5] with only [0,1] and [0,2].
+We can't cover [0,5] with only [0,1] and [0,2].
 
 
 Example 3:
@@ -47,14 +47,14 @@ Explanation:
 Notice you can have extra video after the event ends.
 
 
-&#xA0;
+ 
 
 Note:
 
 
-	1 &lt;= clips.length &lt;= 100
-	0 &lt;= clips[i][0], clips[i][1] &lt;= 100
-	0 &lt;= T &lt;= 100
+	1 <= clips.length <= 100
+	0 <= clips[i][0], clips[i][1] <= 100
+	0 <= T <= 100
 */
 
 using System;

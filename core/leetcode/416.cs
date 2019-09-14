@@ -13,7 +13,7 @@ Note:
 	The array size will not exceed 200.
 
 
-&#xA0;
+ 
 
 Example 1:
 
@@ -24,7 +24,7 @@ Output: true
 Explanation: The array can be partitioned as [1, 5, 5] and [11].
 
 
-&#xA0;
+ 
 
 Example 2:
 
@@ -35,7 +35,7 @@ Output: false
 Explanation: The array cannot be partitioned into equal sum subsets.
 
 
-&#xA0;
+ 
 */
 
 using System;

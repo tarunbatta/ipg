@@ -4,18 +4,18 @@
 980. Unique Paths III
 Hard
 
-On a 2-dimensional&#xA0;grid, there are 4 types of squares:
+On a 2-dimensional grid, there are 4 types of squares:
 
 
-	1 represents the starting square.&#xA0; There is exactly one starting square.
-	2 represents the ending square.&#xA0; There is exactly one ending square.
+	1 represents the starting square.  There is exactly one starting square.
+	2 represents the ending square.  There is exactly one ending square.
 	0 represents empty squares we can walk over.
 	-1 represents obstacles that we cannot walk over.
 
 
-Return the number of 4-directional walks&#xA0;from the starting square to the ending square, that walk over every non-obstacle square&#xA0;exactly once.
+Return the number of 4-directional walks from the starting square to the ending square, that walk over every non-obstacle square exactly once.
 
-&#xA0;
+ 
 
 
 Example 1:
@@ -50,12 +50,12 @@ Note that the starting and ending square can be anywhere in the grid.
 
 
 
-&#xA0;
+ 
 
 Note:
 
 
-	1 &lt;= grid.length * grid[0].length &lt;= 20
+	1 <= grid.length * grid[0].length <= 20
 */
 
 using System;

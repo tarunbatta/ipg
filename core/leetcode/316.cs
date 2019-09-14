@@ -8,14 +8,14 @@ Given a string which contains only lowercase letters, remove duplicate letters s
 
 Example 1:
 
-Input: &quot;bcabc&quot;
-Output: &quot;abc&quot;
+Input: "bcabc"
+Output: "abc"
 
 
 Example 2:
 
-Input: &quot;cbacdcbc&quot;
-Output: &quot;acdb&quot;
+Input: "cbacdcbc"
+Output: "acdb"
 */
 
 using System;

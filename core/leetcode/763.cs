@@ -8,18 +8,18 @@ A string S of lowercase letters is given.  We want to partition this string into
 
 
 Example 1:
-Input: S = &quot;ababcbacadefegdehijhklij&quot;
+Input: S = "ababcbacadefegdehijhklij"
 Output: [9,7,8]
 Explanation:
-The partition is &quot;ababcbaca&quot;, &quot;defegde&quot;, &quot;hijhklij&quot;.
+The partition is "ababcbaca", "defegde", "hijhklij".
 This is a partition so that each letter appears in at most one part.
-A partition like &quot;ababcbacadefegde&quot;, &quot;hijhklij&quot; is incorrect, because it splits S into less parts.
+A partition like "ababcbacadefegde", "hijhklij" is incorrect, because it splits S into less parts.
 
 
 
 Note:
 S will have length in range [1, 500].
-S will consist of lowercase letters (&apos;a&apos; to &apos;z&apos;) only.
+S will consist of lowercase letters ('a' to 'z') only.
 */
 
 using System;

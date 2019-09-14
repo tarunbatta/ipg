@@ -10,22 +10,22 @@ Here follow means a full match, such that there is a bijection between a letter 
 
 Example 1:
 
-Input: pattern = &quot;abba&quot;, str = &quot;dog cat cat dog&quot;
+Input: pattern = "abba", str = "dog cat cat dog"
 Output: true
 
 Example 2:
 
-Input:pattern = &quot;abba&quot;, str = &quot;dog cat cat fish&quot;
+Input:pattern = "abba", str = "dog cat cat fish"
 Output: false
 
 Example 3:
 
-Input: pattern = &quot;aaaa&quot;, str = &quot;dog cat cat dog&quot;
+Input: pattern = "aaaa", str = "dog cat cat dog"
 Output: false
 
 Example 4:
 
-Input: pattern = &quot;abba&quot;, str = &quot;dog dog dog dog&quot;
+Input: pattern = "abba", str = "dog dog dog dog"
 Output: false
 
 Notes:

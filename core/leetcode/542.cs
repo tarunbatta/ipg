@@ -8,7 +8,7 @@ Given a matrix consists of 0 and 1, find the distance of the nearest 0 for each 
 
 The distance between two adjacent cells is 1.
 
-&#xA0;
+ 
 
 Example 1: 
 
@@ -19,8 +19,8 @@ Input:
 
 Output:
 [[0,0,0],
-&#xA0;[0,1,0],
-&#xA0;[0,0,0]]
+ [0,1,0],
+ [0,0,0]]
 
 
 Example 2: 
@@ -36,7 +36,7 @@ Output:
  [1,2,1]]
 
 
-&#xA0;
+ 
 
 Note:
 

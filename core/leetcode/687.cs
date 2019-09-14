@@ -8,7 +8,7 @@ Given a binary tree, find the length of the longest path where each node in the 
 
 The length of path between two nodes is represented by the number of edges between them.
 
-&#xA0;
+ 
 
 Example 1:
 
@@ -21,9 +21,9 @@ Input:
           1   1   5
 
 
-Output:&#xA0;2
+Output: 2
 
-&#xA0;
+ 
 
 Example 2:
 
@@ -36,9 +36,9 @@ Input:
           4   4   5
 
 
-Output:&#xA0;2
+Output: 2
 
-&#xA0;
+ 
 
 Note: The given binary tree has not more than 10000 nodes. The height of the tree is not more than 1000.
 */

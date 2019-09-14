@@ -6,20 +6,20 @@ Medium
 
 Given a 2D board and a word, find if the word exists in the grid.
 
-The word can be constructed from letters of sequentially adjacent cell, where &quot;adjacent&quot; cells are those horizontally or vertically neighboring. The same letter cell may not be used more than once.
+The word can be constructed from letters of sequentially adjacent cell, where "adjacent" cells are those horizontally or vertically neighboring. The same letter cell may not be used more than once.
 
 Example:
 
 board =
 [
-  [&apos;A&apos;,&apos;B&apos;,&apos;C&apos;,&apos;E&apos;],
-  [&apos;S&apos;,&apos;F&apos;,&apos;C&apos;,&apos;S&apos;],
-  [&apos;A&apos;,&apos;D&apos;,&apos;E&apos;,&apos;E&apos;]
+  ['A','B','C','E'],
+  ['S','F','C','S'],
+  ['A','D','E','E']
 ]
 
-Given word = &quot;ABCCED&quot;, return true.
-Given word = &quot;SEE&quot;, return true.
-Given word = &quot;ABCB&quot;, return false.
+Given word = "ABCCED", return true.
+Given word = "SEE", return true.
+Given word = "ABCB", return false.
 */
 
 using System;

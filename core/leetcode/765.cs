@@ -8,7 +8,7 @@ N couples sit in 2N seats arranged in a row and want to hold hands.  We want to 
 
 The people and seats are represented by an integer from 0 to 2N-1, the couples are numbered in order, the first couple being (0, 1), the second couple being (2, 3), and so on with the last couple being (2N-2, 2N-1).
 
-The couples&apos; initial seating is given by row[i] being the value of the person who is initially sitting in the i-th seat.
+The couples' initial seating is given by row[i] being the value of the person who is initially sitting in the i-th seat.
 
 Example 1:Input: row = [0, 2, 1, 3]
 Output: 1

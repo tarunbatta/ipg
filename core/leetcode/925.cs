@@ -4,43 +4,43 @@
 925. Long Pressed Name
 Easy
 
-Your friend is typing his name&#xA0;into a keyboard.&#xA0; Sometimes, when typing a character c, the key might get long pressed, and the character will be typed 1 or more times.
+Your friend is typing his name into a keyboard.  Sometimes, when typing a character c, the key might get long pressed, and the character will be typed 1 or more times.
 
-You examine the typed&#xA0;characters of the keyboard.&#xA0; Return True if it is possible that it was your friends name, with some characters (possibly none) being long pressed.
+You examine the typed characters of the keyboard.  Return True if it is possible that it was your friends name, with some characters (possibly none) being long pressed.
 
-&#xA0;
+ 
 
 Example 1:
 
-Input: name = &quot;alex&quot;, typed = &quot;aaleex&quot;
+Input: name = "alex", typed = "aaleex"
 Output: true
-Explanation: &apos;a&apos; and &apos;e&apos; in &apos;alex&apos; were long pressed.
+Explanation: 'a' and 'e' in 'alex' were long pressed.
 
 
 
 Example 2:
 
-Input: name = &quot;saeed&quot;, typed = &quot;ssaaedd&quot;
+Input: name = "saeed", typed = "ssaaedd"
 Output: false
-Explanation: &apos;e&apos; must have been pressed twice, but it wasn&apos;t in the typed output.
+Explanation: 'e' must have been pressed twice, but it wasn't in the typed output.
 
 
 
 Example 3:
 
-Input: name = &quot;leelee&quot;, typed = &quot;lleeelee&quot;
+Input: name = "leelee", typed = "lleeelee"
 Output: true
 
 
 
 Example 4:
 
-Input: name = &quot;laiden&quot;, typed = &quot;laiden&quot;
+Input: name = "laiden", typed = "laiden"
 Output: true
-Explanation: It&apos;s not necessary to long press any character.
+Explanation: It's not necessary to long press any character.
 
 
-&#xA0;
+ 
 
 
 
@@ -48,17 +48,17 @@ Explanation: It&apos;s not necessary to long press any character.
 Note:
 
 
-	name.length &lt;= 1000
-	typed.length &lt;= 1000
+	name.length <= 1000
+	typed.length <= 1000
 	The characters of name and typed are lowercase letters.
 
 
 
-&#xA0;
+ 
 
 
 
-&#xA0;
+ 
 */
 
 using System;

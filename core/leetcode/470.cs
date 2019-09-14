@@ -4,14 +4,14 @@
 470. Implement Rand10() Using Rand7()
 Medium
 
-Given a function rand7 which generates a uniform random integer in the range 1 to 7, write a function rand10&#xA0;which generates a uniform random integer in the range 1 to 10.
+Given a function rand7 which generates a uniform random integer in the range 1 to 7, write a function rand10 which generates a uniform random integer in the range 1 to 10.
 
-Do NOT use system&apos;s Math.random().
-
-
+Do NOT use system's Math.random().
 
 
-&#xA0;
+
+
+ 
 
 
 Example 1:
@@ -34,21 +34,21 @@ Input: 3
 Output: [8,1,10]
 
 
-&#xA0;
+ 
 
 Note:
 
 
 	rand7 is predefined.
-	Each testcase has one argument:&#xA0;n, the number of times that rand10 is called.
+	Each testcase has one argument: n, the number of times that rand10 is called.
 
 
-&#xA0;
+ 
 
 Follow up:
 
 
-	What is the expected value&#xA0;for the number of calls to&#xA0;rand7()&#xA0;function?
+	What is the expected value for the number of calls to rand7() function?
 	Could you minimize the number of calls to rand7()?
 */
 

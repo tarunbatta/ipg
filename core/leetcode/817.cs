@@ -4,16 +4,16 @@
 817. Linked List Components
 Medium
 
-We are given&#xA0;head,&#xA0;the head node of a linked list containing&#xA0;unique integer values.
+We are given head, the head node of a linked list containing unique integer values.
 
-We are also given the list&#xA0;G, a subset of the values in the linked list.
+We are also given the list G, a subset of the values in the linked list.
 
 Return the number of connected components in G, where two values are connected if they appear consecutively in the linked list.
 
 Example 1:
 
 Input: 
-head: 0-&gt;1-&gt;2-&gt;3
+head: 0->1->2->3
 G = [0, 1, 3]
 Output: 2
 Explanation: 
@@ -23,7 +23,7 @@ Explanation:
 Example 2:
 
 Input: 
-head: 0-&gt;1-&gt;2-&gt;3-&gt;4
+head: 0->1->2->3->4
 G = [0, 3, 1, 4]
 Output: 2
 Explanation: 
@@ -33,9 +33,9 @@ Explanation:
 Note: 
 
 
-	If&#xA0;N&#xA0;is the&#xA0;length of the linked list given by&#xA0;head,&#xA0;1 &lt;= N &lt;= 10000.
+	If N is the length of the linked list given by head, 1 <= N <= 10000.
 	The value of each node in the linked list will be in the range [0, N - 1].
-	1 &lt;= G.length &lt;= 10000.
+	1 <= G.length <= 10000.
 	G is a subset of all values in the linked list.
 */
 

@@ -4,20 +4,20 @@
 528. Random Pick with Weight
 Medium
 
-Given an array w of positive integers, where w[i] describes the weight of index i,&#xA0;write a function pickIndex&#xA0;which randomly&#xA0;picks an index&#xA0;in proportion&#xA0;to its weight.
+Given an array w of positive integers, where w[i] describes the weight of index i, write a function pickIndex which randomly picks an index in proportion to its weight.
 
 Note:
 
 
-	1 &lt;= w.length &lt;= 10000
-	1 &lt;= w[i] &lt;= 10^5
-	pickIndex&#xA0;will be called at most 10000 times.
+	1 <= w.length <= 10000
+	1 <= w[i] <= 10^5
+	pickIndex will be called at most 10000 times.
 
 
 Example 1:
 
 Input: 
-[&quot;Solution&quot;,&quot;pickIndex&quot;]
+["Solution","pickIndex"]
 [[[1]],[]]
 Output: [null,0]
 
@@ -26,14 +26,14 @@ Output: [null,0]
 Example 2:
 
 Input: 
-[&quot;Solution&quot;,&quot;pickIndex&quot;,&quot;pickIndex&quot;,&quot;pickIndex&quot;,&quot;pickIndex&quot;,&quot;pickIndex&quot;]
+["Solution","pickIndex","pickIndex","pickIndex","pickIndex","pickIndex"]
 [[[1,3]],[],[],[],[],[]]
 Output: [null,0,1,1,1,0]
 
 
 Explanation of Input Syntax:
 
-The input is two lists:&#xA0;the subroutines called&#xA0;and their&#xA0;arguments.&#xA0;Solution&apos;s&#xA0;constructor has one argument, the&#xA0;array w. pickIndex has no arguments.&#xA0;Arguments&#xA0;are&#xA0;always wrapped with a list, even if there aren&apos;t any.
+The input is two lists: the subroutines called and their arguments. Solution's constructor has one argument, the array w. pickIndex has no arguments. Arguments are always wrapped with a list, even if there aren't any.
 */
 
 using System;

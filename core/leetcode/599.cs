@@ -13,19 +13,19 @@ You need to help them find out their common interest with the least list index s
 
 Example 1:
 Input:
-[&quot;Shogun&quot;, &quot;Tapioca Express&quot;, &quot;Burger King&quot;, &quot;KFC&quot;]
-[&quot;Piatti&quot;, &quot;The Grill at Torrey Pines&quot;, &quot;Hungry Hunter Steakhouse&quot;, &quot;Shogun&quot;]
-Output: [&quot;Shogun&quot;]
-Explanation: The only restaurant they both like is &quot;Shogun&quot;.
+["Shogun", "Tapioca Express", "Burger King", "KFC"]
+["Piatti", "The Grill at Torrey Pines", "Hungry Hunter Steakhouse", "Shogun"]
+Output: ["Shogun"]
+Explanation: The only restaurant they both like is "Shogun".
 
 
 
 Example 2:
 Input:
-[&quot;Shogun&quot;, &quot;Tapioca Express&quot;, &quot;Burger King&quot;, &quot;KFC&quot;]
-[&quot;KFC&quot;, &quot;Shogun&quot;, &quot;Burger King&quot;]
-Output: [&quot;Shogun&quot;]
-Explanation: The restaurant they both like and have the least index sum is &quot;Shogun&quot; with index sum 1 (0+1).
+["Shogun", "Tapioca Express", "Burger King", "KFC"]
+["KFC", "Shogun", "Burger King"]
+Output: ["Shogun"]
+Explanation: The restaurant they both like and have the least index sum is "Shogun" with index sum 1 (0+1).
 
 
 

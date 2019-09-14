@@ -8,13 +8,13 @@ Given an integer, return its base 7 string representation.
 
 Example 1:
 Input: 100
-Output: &quot;202&quot;
+Output: "202"
 
 
 
 Example 2:
 Input: -7
-Output: &quot;-10&quot;
+Output: "-10"
 
 
 

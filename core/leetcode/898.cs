@@ -6,11 +6,11 @@ Medium
 
 We have an array A of non-negative integers.
 
-For every (contiguous) subarray B =&#xA0;[A[i], A[i+1], ..., A[j]] (with i &lt;= j), we take the bitwise OR of all the elements in B, obtaining a result A[i] | A[i+1] | ... | A[j].
+For every (contiguous) subarray B = [A[i], A[i+1], ..., A[j]] (with i <= j), we take the bitwise OR of all the elements in B, obtaining a result A[i] | A[i+1] | ... | A[j].
 
-Return the number of possible&#xA0;results.&#xA0; (Results that occur more than once are only counted once in the final answer.)
+Return the number of possible results.  (Results that occur more than once are only counted once in the final answer.)
 
-&#xA0;
+ 
 
 
 Example 1:
@@ -44,13 +44,13 @@ The possible results are 1, 2, 3, 4, 6, and 7.
 
 
 
-&#xA0;
+ 
 
 Note:
 
 
-	1 &lt;= A.length &lt;= 50000
-	0 &lt;= A[i] &lt;= 10^9
+	1 <= A.length <= 50000
+	0 <= A[i] <= 10^9
 */
 
 using System;

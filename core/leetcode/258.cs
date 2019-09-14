@@ -11,7 +11,7 @@ Example:
 Input: 38
 Output: 2 
 Explanation: The process is like: 3 + 8 = 11, 1 + 1 = 2. 
-&#xA0;            Since 2 has only one digit, return it.
+             Since 2 has only one digit, return it.
 
 
 Follow up:

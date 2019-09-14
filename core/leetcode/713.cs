@@ -16,9 +16,9 @@ Note that [10, 5, 2] is not included as the product of 100 is not strictly less 
 
 
 Note:
-0 &lt; nums.length &lt;= 50000.
-0 &lt; nums[i] &lt; 1000.
-0 &lt;= k &lt; 10^6.
+0 < nums.length <= 50000.
+0 < nums[i] < 1000.
+0 <= k < 10^6.
 */
 
 using System;

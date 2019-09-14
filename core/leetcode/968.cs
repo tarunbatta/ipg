@@ -4,13 +4,13 @@
 968. Binary Tree Cameras
 Hard
 
-Given a binary tree, we install cameras on the nodes of the tree.&#xA0;
+Given a binary tree, we install cameras on the nodes of the tree. 
 
-Each camera at&#xA0;a node can monitor its parent, itself, and its immediate children.
+Each camera at a node can monitor its parent, itself, and its immediate children.
 
 Calculate the minimum number of cameras needed to monitor all nodes of the tree.
 
-&#xA0;
+ 
 
 Example 1:
 
@@ -32,7 +32,7 @@ Explanation: At least two cameras are needed to monitor all nodes of the tree. T
 Note:
 
 
-	The number of nodes in the given tree will be in the range&#xA0;[1, 1000].
+	The number of nodes in the given tree will be in the range [1, 1000].
 	Every node has value 0.
 */
 

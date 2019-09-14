@@ -4,17 +4,17 @@
 1038. Binary Search Tree to Greater Sum Tree
 Medium
 
-Given the root of a binary search tree with distinct values, modify it so that every node&#xA0;has a new value equal to the sum of the values of the original tree that are greater than or equal to node.val.
+Given the root of a binary search tree with distinct values, modify it so that every node has a new value equal to the sum of the values of the original tree that are greater than or equal to node.val.
 
-As a reminder, a&#xA0;binary search tree is a tree that satisfies these constraints:
+As a reminder, a binary search tree is a tree that satisfies these constraints:
 
 
-	The left subtree of a node contains only nodes with keys&#xA0;less than&#xA0;the node&apos;s key.
-	The right subtree of a node contains only nodes with keys&#xA0;greater than&#xA0;the node&apos;s key.
+	The left subtree of a node contains only nodes with keys less than the node's key.
+	The right subtree of a node contains only nodes with keys greater than the node's key.
 	Both the left and right subtrees must also be binary search trees.
 
 
-&#xA0;
+ 
 
 Example 1:
 
@@ -25,7 +25,7 @@ Output: [30,36,21,36,35,26,15,null,null,null,33,null,null,null,8]
 
 
 
-&#xA0;
+ 
 
 
 Note:
@@ -38,7 +38,7 @@ Note:
 
 
 
-&#xA0;
+ 
 */
 
 using System;

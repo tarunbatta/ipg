@@ -24,9 +24,9 @@ Consider the following matrix:
 ]
 
 
-Given&#xA0;target&#xA0;=&#xA0;5, return&#xA0;true.
+Given target = 5, return true.
 
-Given&#xA0;target&#xA0;=&#xA0;20, return&#xA0;false.
+Given target = 20, return false.
 */
 
 using System;

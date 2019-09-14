@@ -10,8 +10,8 @@ Given an array which consists of non-negative integers and an integer m, you can
 Note:
 If n is the length of array, assume the following constraints are satisfied:
 
-1 &#x2264; n &#x2264; 1000
-1 &#x2264; m &#x2264; min(50, n)
+1 ≤ n ≤ 1000
+1 ≤ m ≤ min(50, n)
 
 
 

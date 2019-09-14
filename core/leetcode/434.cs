@@ -9,7 +9,7 @@ Count the number of segments in a string, where a segment is defined to be a con
 Please note that the string does not contain any non-printable characters.
 
 Example:
-Input: &quot;Hello, my name is John&quot;
+Input: "Hello, my name is John"
 Output: 5
 */
 

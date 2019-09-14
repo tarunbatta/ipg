@@ -4,9 +4,9 @@
 113. Path Sum II
 Medium
 
-Given a binary tree and a sum, find all root-to-leaf paths where each path&apos;s sum equals the given sum.
+Given a binary tree and a sum, find all root-to-leaf paths where each path's sum equals the given sum.
 
-Note:&#xA0;A leaf is a node with no children.
+Note: A leaf is a node with no children.
 
 Example:
 

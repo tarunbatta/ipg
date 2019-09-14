@@ -14,25 +14,25 @@ What is the minimum number of stickers that you need to spell out the target?  I
 
 
 Example 1:
-Input:[&quot;with&quot;, &quot;example&quot;, &quot;science&quot;], &quot;thehat&quot;
+Input:["with", "example", "science"], "thehat"
 
 
 Output:3
 
 
-Explanation:We can use 2 &quot;with&quot; stickers, and 1 &quot;example&quot; sticker.
-After cutting and rearrange the letters of those stickers, we can form the target &quot;thehat&quot;.
+Explanation:We can use 2 "with" stickers, and 1 "example" sticker.
+After cutting and rearrange the letters of those stickers, we can form the target "thehat".
 Also, this is the minimum number of stickers necessary to form the target string.
 
 
 Example 2:
-Input:[&quot;notice&quot;, &quot;possible&quot;], &quot;basicbasic&quot;
+Input:["notice", "possible"], "basicbasic"
 
 
 Output:-1
 
 
-Explanation:We can&apos;t form the target &quot;basicbasic&quot; from cutting letters from the given stickers.
+Explanation:We can't form the target "basicbasic" from cutting letters from the given stickers.
 
 
 Note:

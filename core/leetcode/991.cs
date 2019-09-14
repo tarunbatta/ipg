@@ -15,27 +15,27 @@ Initially, the calculator is displaying the number X.
 
 Return the minimum number of operations needed to display the number Y.
 
-&#xA0;
+ 
 
 Example 1:
 
 Input: X = 2, Y = 3
 Output: 2
-Explanation: Use double operation and then decrement operation {2 -&gt; 4 -&gt; 3}.
+Explanation: Use double operation and then decrement operation {2 -> 4 -> 3}.
 
 
 Example 2:
 
 Input: X = 5, Y = 8
 Output: 2
-Explanation: Use decrement and then double {5 -&gt; 4 -&gt; 8}.
+Explanation: Use decrement and then double {5 -> 4 -> 8}.
 
 
 Example 3:
 
 Input: X = 3, Y = 10
 Output: 3
-Explanation:  Use double, decrement and double {3 -&gt; 6 -&gt; 5 -&gt; 10}.
+Explanation:  Use double, decrement and double {3 -> 6 -> 5 -> 10}.
 
 
 Example 4:
@@ -45,13 +45,13 @@ Output: 1023
 Explanation: Use decrement operations 1023 times.
 
 
-&#xA0;
+ 
 
 Note:
 
 
-	1 &lt;= X &lt;= 10^9
-	1 &lt;= Y &lt;= 10^9
+	1 <= X <= 10^9
+	1 <= Y <= 10^9
 */
 
 using System;

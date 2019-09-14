@@ -4,15 +4,15 @@
 894. All Possible Full Binary Trees
 Medium
 
-A full binary tree&#xA0;is a binary tree where each node has exactly 0 or 2&#xA0;children.
+A full binary tree is a binary tree where each node has exactly 0 or 2 children.
 
-Return a list of all possible full binary trees with N nodes.&#xA0; Each element of the answer is the root node of one possible tree.
+Return a list of all possible full binary trees with N nodes.  Each element of the answer is the root node of one possible tree.
 
-Each node of each&#xA0;tree in the answer must have node.val = 0.
+Each node of each tree in the answer must have node.val = 0.
 
 You may return the final list of trees in any order.
 
-&#xA0;
+ 
 
 Example 1:
 
@@ -22,12 +22,12 @@ Explanation:
 
 
 
-&#xA0;
+ 
 
 Note:
 
 
-	1 &lt;= N &lt;= 20
+	1 <= N <= 20
 */
 
 using System;

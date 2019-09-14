@@ -4,7 +4,7 @@
 20. Valid Parentheses
 Easy
 
-Given a string containing just the characters &apos;(&apos;, &apos;)&apos;, &apos;{&apos;, &apos;}&apos;, &apos;[&apos; and &apos;]&apos;, determine if the input string is valid.
+Given a string containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.
 
 An input string is valid if:
 
@@ -13,35 +13,35 @@ An input string is valid if:
 	Open brackets must be closed in the correct order.
 
 
-Note that an empty string is&#xA0;also considered valid.
+Note that an empty string is also considered valid.
 
 Example 1:
 
-Input: &quot;()&quot;
+Input: "()"
 Output: true
 
 
 Example 2:
 
-Input: &quot;()[]{}&quot;
+Input: "()[]{}"
 Output: true
 
 
 Example 3:
 
-Input: &quot;(]&quot;
+Input: "(]"
 Output: false
 
 
 Example 4:
 
-Input: &quot;([)]&quot;
+Input: "([)]"
 Output: false
 
 
 Example 5:
 
-Input: &quot;{[]}&quot;
+Input: "{[]}"
 Output: true
 */
 

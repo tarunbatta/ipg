@@ -4,31 +4,31 @@
 1079. Letter Tile Possibilities
 Medium
 
-You have a set of tiles, where each tile has one letter tiles[i] printed on it.&#xA0; Return the number of possible non-empty sequences of letters you can make.
+You have a set of tiles, where each tile has one letter tiles[i] printed on it.  Return the number of possible non-empty sequences of letters you can make.
 
-&#xA0;
+ 
 
 Example 1:
 
-Input: &quot;AAB&quot;
+Input: "AAB"
 Output: 8
-Explanation: The possible sequences are &quot;A&quot;, &quot;B&quot;, &quot;AA&quot;, &quot;AB&quot;, &quot;BA&quot;, &quot;AAB&quot;, &quot;ABA&quot;, &quot;BAA&quot;.
+Explanation: The possible sequences are "A", "B", "AA", "AB", "BA", "AAB", "ABA", "BAA".
 
 
 
 Example 2:
 
-Input: &quot;AAABBC&quot;
+Input: "AAABBC"
 Output: 188
 
 
-&#xA0;
+ 
 
 
 Note:
 
 
-	1 &lt;= tiles.length &lt;= 7
+	1 <= tiles.length <= 7
 	tiles consists of uppercase English letters.
 */
 

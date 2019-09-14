@@ -4,26 +4,26 @@
 777. Swap Adjacent in LR String
 Medium
 
-In a string composed of &apos;L&apos;, &apos;R&apos;, and &apos;X&apos; characters, like &quot;RXXLRXRXL&quot;, a move consists of either replacing one occurrence of &quot;XL&quot; with &quot;LX&quot;, or replacing one occurrence of &quot;RX&quot; with &quot;XR&quot;. Given the starting string start and the ending string end, return True if and only if there exists a sequence of moves to transform one string to the other.
+In a string composed of 'L', 'R', and 'X' characters, like "RXXLRXRXL", a move consists of either replacing one occurrence of "XL" with "LX", or replacing one occurrence of "RX" with "XR". Given the starting string start and the ending string end, return True if and only if there exists a sequence of moves to transform one string to the other.
 
 Example:
 
-Input: start = &quot;RXXLRXRXL&quot;, end = &quot;XRLXXRRLX&quot;
+Input: start = "RXXLRXRXL", end = "XRLXXRRLX"
 Output: True
 Explanation:
 We can transform start to end following these steps:
-RXXLRXRXL -&gt;
-XRXLRXRXL -&gt;
-XRLXRXRXL -&gt;
-XRLXXRRXL -&gt;
+RXXLRXRXL ->
+XRXLRXRXL ->
+XRLXRXRXL ->
+XRLXXRRXL ->
 XRLXXRRLX
 
 
 Note:
 
 
-	1 &lt;= len(start) = len(end) &lt;= 10000.
-	Both start and end will only consist of characters in {&apos;L&apos;, &apos;R&apos;, &apos;X&apos;}.
+	1 <= len(start) = len(end) <= 10000.
+	Both start and end will only consist of characters in {'L', 'R', 'X'}.
 */
 
 using System;

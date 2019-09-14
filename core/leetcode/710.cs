@@ -4,22 +4,22 @@
 710. Random Pick with Blacklist
 Hard
 
-Given a blacklist&#xA0;B containing unique integers&#xA0;from [0, N), write a function to return a uniform random integer from [0, N) which is NOT&#xA0;in B.
+Given a blacklist B containing unique integers from [0, N), write a function to return a uniform random integer from [0, N) which is NOT in B.
 
-Optimize it such that it minimizes the call to system&#x2019;s Math.random().
+Optimize it such that it minimizes the call to system’s Math.random().
 
 Note:
 
 
-	1 &lt;= N &lt;= 1000000000
-	0 &lt;= B.length &lt; min(100000, N)
-	[0, N)&#xA0;does NOT include N. See interval notation.
+	1 <= N <= 1000000000
+	0 <= B.length < min(100000, N)
+	[0, N) does NOT include N. See interval notation.
 
 
 Example 1:
 
 Input: 
-[&quot;Solution&quot;,&quot;pick&quot;,&quot;pick&quot;,&quot;pick&quot;]
+["Solution","pick","pick","pick"]
 [[1,[]],[],[],[]]
 Output: [null,0,0,0]
 
@@ -27,7 +27,7 @@ Output: [null,0,0,0]
 Example 2:
 
 Input: 
-[&quot;Solution&quot;,&quot;pick&quot;,&quot;pick&quot;,&quot;pick&quot;]
+["Solution","pick","pick","pick"]
 [[2,[]],[],[],[]]
 Output: [null,1,1,1]
 
@@ -35,7 +35,7 @@ Output: [null,1,1,1]
 Example 3:
 
 Input: 
-[&quot;Solution&quot;,&quot;pick&quot;,&quot;pick&quot;,&quot;pick&quot;]
+["Solution","pick","pick","pick"]
 [[3,[1]],[],[],[]]
 Output: [null,0,0,2]
 
@@ -43,14 +43,14 @@ Output: [null,0,0,2]
 Example 4:
 
 Input: 
-[&quot;Solution&quot;,&quot;pick&quot;,&quot;pick&quot;,&quot;pick&quot;]
+["Solution","pick","pick","pick"]
 [[4,[2]],[],[],[]]
 Output: [null,1,3,1]
 
 
 Explanation of Input Syntax:
 
-The input is two lists:&#xA0;the subroutines called&#xA0;and their&#xA0;arguments.&#xA0;Solution&apos;s&#xA0;constructor has two arguments,&#xA0;N and the blacklist B. pick has no arguments.&#xA0;Arguments&#xA0;are&#xA0;always wrapped with a list, even if there aren&apos;t any.
+The input is two lists: the subroutines called and their arguments. Solution's constructor has two arguments, N and the blacklist B. pick has no arguments. Arguments are always wrapped with a list, even if there aren't any.
 */
 
 using System;

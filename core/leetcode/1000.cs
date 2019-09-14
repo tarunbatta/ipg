@@ -4,13 +4,13 @@
 1000. Minimum Cost to Merge Stones
 Hard
 
-There are N piles of stones arranged in a row.&#xA0; The i-th pile has stones[i] stones.
+There are N piles of stones arranged in a row.  The i-th pile has stones[i] stones.
 
-A move consists of merging exactly&#xA0;K&#xA0;consecutive piles into one pile, and the cost of this move is equal to the total number of stones in these K piles.
+A move consists of merging exactly K consecutive piles into one pile, and the cost of this move is equal to the total number of stones in these K piles.
 
-Find the minimum cost to merge all piles of stones into one pile.&#xA0; If it is impossible, return -1.
+Find the minimum cost to merge all piles of stones into one pile.  If it is impossible, return -1.
 
-&#xA0;
+ 
 
 
 Example 1:
@@ -30,7 +30,7 @@ Example 2:
 
 Input: stones = [3,2,4,1], K = 3
 Output: -1
-Explanation: After any merge operation, there are 2 piles left, and we can&apos;t merge anymore.  So the task is impossible.
+Explanation: After any merge operation, there are 2 piles left, and we can't merge anymore.  So the task is impossible.
 
 
 
@@ -45,14 +45,14 @@ We merge [3, 8, 6] for a cost of 17, and we are left with [17].
 The total cost was 25, and this is the minimum possible.
 
 
-&#xA0;
+ 
 
 Note:
 
 
-	1 &lt;= stones.length &lt;= 30
-	2 &lt;= K &lt;= 30
-	1 &lt;= stones[i] &lt;= 100
+	1 <= stones.length <= 30
+	2 <= K <= 30
+	1 <= stones[i] <= 100
 */
 
 using System;

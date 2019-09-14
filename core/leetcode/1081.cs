@@ -6,45 +6,45 @@ Medium
 
 Return the lexicographically smallest subsequence of text that contains all the distinct characters of text exactly once.
 
-&#xA0;
+ 
 
 Example 1:
 
-Input: &quot;cdadabcc&quot;
-Output: &quot;adbc&quot;
+Input: "cdadabcc"
+Output: "adbc"
 
 
 
 Example 2:
 
-Input: &quot;abcd&quot;
-Output: &quot;abcd&quot;
+Input: "abcd"
+Output: "abcd"
 
 
 
 Example 3:
 
-Input: &quot;ecbacba&quot;
-Output: &quot;eacb&quot;
+Input: "ecbacba"
+Output: "eacb"
 
 
 
 Example 4:
 
-Input: &quot;leetcode&quot;
-Output: &quot;letcod&quot;
+Input: "leetcode"
+Output: "letcod"
 
 
-&#xA0;
+ 
 
 Note:
 
 
-	1 &lt;= text.length &lt;= 1000
+	1 <= text.length <= 1000
 	text consists of lowercase English letters.
 
 
-&#xA0;
+ 
 */
 
 using System;

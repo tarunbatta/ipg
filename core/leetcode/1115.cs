@@ -8,35 +8,35 @@ Suppose you are given the following code:
 
 class FooBar {
   public void foo() {
-&#xA0; &#xA0; for (int i = 0; i &lt; n; i++) {
-&#xA0; &#xA0; &#xA0; print(&quot;foo&quot;);
-&#xA0;   }
+    for (int i = 0; i < n; i++) {
+      print("foo");
+    }
   }
 
   public void bar() {
-&#xA0; &#xA0; for (int i = 0; i &lt; n; i++) {
-&#xA0; &#xA0; &#xA0; print(&quot;bar&quot;);
-&#xA0; &#xA0; }
+    for (int i = 0; i < n; i++) {
+      print("bar");
+    }
   }
 }
 
 
-The same instance of FooBar will be passed to two different threads. Thread A will call&#xA0;foo() while thread B will call&#xA0;bar().&#xA0;Modify the given program to output &quot;foobar&quot; n times.
+The same instance of FooBar will be passed to two different threads. Thread A will call foo() while thread B will call bar(). Modify the given program to output "foobar" n times.
 
-&#xA0;
+ 
 
 Example 1:
 
 Input: n = 1
-Output: &quot;foobar&quot;
-Explanation: There are two threads being fired asynchronously. One of them calls foo(), while the other calls bar(). &quot;foobar&quot; is being output 1 time.
+Output: "foobar"
+Explanation: There are two threads being fired asynchronously. One of them calls foo(), while the other calls bar(). "foobar" is being output 1 time.
 
 
 Example 2:
 
 Input: n = 2
-Output: &quot;foobarfoobar&quot;
-Explanation: &quot;foobar&quot; is being output 2 times.
+Output: "foobarfoobar"
+Explanation: "foobar" is being output 2 times.
 */
 
 using System;

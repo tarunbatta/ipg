@@ -6,14 +6,14 @@ Hard
 
 Given an array of integers A, consider all non-empty subsequences of A.
 
-For any sequence S, let the&#xA0;width&#xA0;of S be the difference between the maximum and minimum element of S.
+For any sequence S, let the width of S be the difference between the maximum and minimum element of S.
 
-Return the sum of the widths of all subsequences of A.&#xA0;
+Return the sum of the widths of all subsequences of A. 
 
 As the answer may be very large, return the answer modulo 10^9 + 7.
 
 
-&#xA0;
+ 
 
 Example 1:
 
@@ -25,13 +25,13 @@ The corresponding widths are 0, 0, 0, 1, 1, 2, 2.
 The sum of these widths is 6.
 
 
-&#xA0;
+ 
 
 Note:
 
 
-	1 &lt;= A.length &lt;= 20000
-	1 &lt;= A[i] &lt;= 20000
+	1 <= A.length <= 20000
+	1 <= A[i] <= 20000
 */
 
 using System;

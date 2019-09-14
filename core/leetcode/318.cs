@@ -8,19 +8,19 @@ Given a string array words, find the maximum value of length(word[i]) * length(w
 
 Example 1:
 
-Input: [&quot;abcw&quot;,&quot;baz&quot;,&quot;foo&quot;,&quot;bar&quot;,&quot;xtfn&quot;,&quot;abcdef&quot;]
+Input: ["abcw","baz","foo","bar","xtfn","abcdef"]
 Output: 16 
-Explanation: The two words can be &quot;abcw&quot;, &quot;xtfn&quot;.
+Explanation: The two words can be "abcw", "xtfn".
 
 Example 2:
 
-Input: [&quot;a&quot;,&quot;ab&quot;,&quot;abc&quot;,&quot;d&quot;,&quot;cd&quot;,&quot;bcd&quot;,&quot;abcd&quot;]
+Input: ["a","ab","abc","d","cd","bcd","abcd"]
 Output: 4 
-Explanation: The two words can be &quot;ab&quot;, &quot;cd&quot;.
+Explanation: The two words can be "ab", "cd".
 
 Example 3:
 
-Input: [&quot;a&quot;,&quot;aa&quot;,&quot;aaa&quot;,&quot;aaaa&quot;]
+Input: ["a","aa","aaa","aaaa"]
 Output: 0 
 Explanation: No such pair of words.
 */

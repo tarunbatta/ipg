@@ -6,15 +6,15 @@ Medium
 
 In a group of N people (labelled 0, 1, 2, ..., N-1), each person has different amounts of money, and different levels of quietness.
 
-For convenience, we&apos;ll call the person with label x, simply &quot;person x&quot;.
+For convenience, we'll call the person with label x, simply "person x".
 
-We&apos;ll say that richer[i] = [x, y] if person x&#xA0;definitely has more money than person&#xA0;y.&#xA0; Note that richer&#xA0;may only be a subset of valid observations.
+We'll say that richer[i] = [x, y] if person x definitely has more money than person y.  Note that richer may only be a subset of valid observations.
 
-Also, we&apos;ll say quiet[x] = q if person x&#xA0;has quietness q.
+Also, we'll say quiet[x] = q if person x has quietness q.
 
-Now, return answer, where answer[x] = y if y is the least quiet person (that is, the person y with the smallest value of quiet[y]), among all people&#xA0;who definitely have&#xA0;equal to or more money than person x.
+Now, return answer, where answer[x] = y if y is the least quiet person (that is, the person y with the smallest value of quiet[y]), among all people who definitely have equal to or more money than person x.
 
-&#xA0;
+ 
 
 
 Example 1:
@@ -25,7 +25,7 @@ Explanation:
 answer[0] = 5.
 Person 5 has more money than 3, which has more money than 1, which has more money than 0.
 The only person who is quieter (has lower quiet[x]) is person 7, but
-it isn&apos;t clear if they have more money than person 0.
+it isn't clear if they have more money than person 0.
 
 answer[7] = 7.
 Among all people that definitely have equal to or more money than person 7
@@ -39,13 +39,13 @@ The other answers can be filled out with similar reasoning.
 Note:
 
 
-	1 &lt;= quiet.length = N &lt;= 500
-	0 &lt;= quiet[i] &lt; N, all quiet[i] are different.
-	0 &lt;= richer.length &lt;= N * (N-1) / 2
-	0 &lt;= richer[i][j] &lt; N
+	1 <= quiet.length = N <= 500
+	0 <= quiet[i] < N, all quiet[i] are different.
+	0 <= richer.length <= N * (N-1) / 2
+	0 <= richer[i][j] < N
 	richer[i][0] != richer[i][1]
-	richer[i]&apos;s are all different.
-	The&#xA0;observations in richer are all logically consistent.
+	richer[i]'s are all different.
+	The observations in richer are all logically consistent.
 */
 
 using System;

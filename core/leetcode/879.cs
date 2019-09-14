@@ -8,13 +8,13 @@ There are G people in a gang, and a list of various crimes they could commit.
 
 The i-th crime generates a profit[i] and requires group[i] gang members to participate.
 
-If a gang member participates in one crime, that member can&apos;t participate in another crime.
+If a gang member participates in one crime, that member can't participate in another crime.
 
-Let&apos;s call a profitable&#xA0;scheme&#xA0;any subset of these crimes that generates at least P profit, and the total number of gang members participating in that subset of crimes is at most G.
+Let's call a profitable scheme any subset of these crimes that generates at least P profit, and the total number of gang members participating in that subset of crimes is at most G.
 
-How many schemes can be chosen?&#xA0; Since the answer may be very&#xA0;large, return it modulo 10^9 + 7.
+How many schemes can be chosen?  Since the answer may be very large, return it modulo 10^9 + 7.
 
-&#xA0;
+ 
 
 Example 1:
 
@@ -35,21 +35,21 @@ To make a profit of at least 5, the gang could commit any crimes, as long as the
 There are 7 possible schemes: (0), (1), (2), (0,1), (0,2), (1,2), and (0,1,2).
 
 
-&#xA0;
+ 
 
 
 Note:
 
 
-	1 &lt;= G &lt;= 100
-	0 &lt;= P &lt;= 100
-	1 &lt;= group[i] &lt;= 100
-	0 &lt;= profit[i] &lt;= 100
-	1 &lt;= group.length = profit.length &lt;= 100
+	1 <= G <= 100
+	0 <= P <= 100
+	1 <= group[i] <= 100
+	0 <= profit[i] <= 100
+	1 <= group.length = profit.length <= 100
 
 
 
-&#xA0;
+ 
 */
 
 using System;

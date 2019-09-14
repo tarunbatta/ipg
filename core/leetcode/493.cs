@@ -4,7 +4,7 @@
 493. Reverse Pairs
 Hard
 
-Given an array nums, we call (i, j) an important reverse pair if i &lt; j and nums[i] &gt; 2*nums[j].
+Given an array nums, we call (i, j) an important reverse pair if i < j and nums[i] > 2*nums[j].
 
 You need to return the number of important reverse pairs in the given array.
 

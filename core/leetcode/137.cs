@@ -4,7 +4,7 @@
 137. Single Number II
 Medium
 
-Given a non-empty&#xA0;array of integers, every element appears three times except for one, which appears exactly once. Find that single one.
+Given a non-empty array of integers, every element appears three times except for one, which appears exactly once. Find that single one.
 
 Note:
 

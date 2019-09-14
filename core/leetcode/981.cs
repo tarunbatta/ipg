@@ -4,7 +4,7 @@
 981. Time Based Key-Value Store
 Medium
 
-Create a timebased key-value store class&#xA0;TimeMap, that supports two operations.
+Create a timebased key-value store class TimeMap, that supports two operations.
 
 1. set(string key, string value, int timestamp)
 
@@ -15,48 +15,48 @@ Create a timebased key-value store class&#xA0;TimeMap, that supports two operati
 2. get(string key, int timestamp)
 
 
-	Returns a value such that set(key, value, timestamp_prev) was called previously, with timestamp_prev &lt;= timestamp.
+	Returns a value such that set(key, value, timestamp_prev) was called previously, with timestamp_prev <= timestamp.
 	If there are multiple such values, it returns the one with the largest timestamp_prev.
-	If there are no values, it returns the empty string (&quot;&quot;).
+	If there are no values, it returns the empty string ("").
 
 
-&#xA0;
+ 
 
 
 Example 1:
 
-Input: inputs = [&quot;TimeMap&quot;,&quot;set&quot;,&quot;get&quot;,&quot;get&quot;,&quot;set&quot;,&quot;get&quot;,&quot;get&quot;], inputs = [[],[&quot;foo&quot;,&quot;bar&quot;,1],[&quot;foo&quot;,1],[&quot;foo&quot;,3],[&quot;foo&quot;,&quot;bar2&quot;,4],[&quot;foo&quot;,4],[&quot;foo&quot;,5]]
-Output: [null,null,&quot;bar&quot;,&quot;bar&quot;,null,&quot;bar2&quot;,&quot;bar2&quot;]
-Explanation: &#xA0; 
-TimeMap kv; &#xA0; 
-kv.set(&quot;foo&quot;, &quot;bar&quot;, 1); // store the key &quot;foo&quot; and value &quot;bar&quot; along with timestamp = 1 &#xA0; 
-kv.get(&quot;foo&quot;, 1);  // output &quot;bar&quot; &#xA0; 
-kv.get(&quot;foo&quot;, 3); // output &quot;bar&quot; since there is no value corresponding to foo at timestamp 3 and timestamp 2, then the only value is at timestamp 1 ie &quot;bar&quot; &#xA0; 
-kv.set(&quot;foo&quot;, &quot;bar2&quot;, 4); &#xA0; 
-kv.get(&quot;foo&quot;, 4); // output &quot;bar2&quot; &#xA0; 
-kv.get(&quot;foo&quot;, 5); //output &quot;bar2&quot; &#xA0; 
+Input: inputs = ["TimeMap","set","get","get","set","get","get"], inputs = [[],["foo","bar",1],["foo",1],["foo",3],["foo","bar2",4],["foo",4],["foo",5]]
+Output: [null,null,"bar","bar",null,"bar2","bar2"]
+Explanation:   
+TimeMap kv;   
+kv.set("foo", "bar", 1); // store the key "foo" and value "bar" along with timestamp = 1   
+kv.get("foo", 1);  // output "bar"   
+kv.get("foo", 3); // output "bar" since there is no value corresponding to foo at timestamp 3 and timestamp 2, then the only value is at timestamp 1 ie "bar"   
+kv.set("foo", "bar2", 4);   
+kv.get("foo", 4); // output "bar2"   
+kv.get("foo", 5); //output "bar2"   
 
 
 
 
 Example 2:
 
-Input: inputs = [&quot;TimeMap&quot;,&quot;set&quot;,&quot;set&quot;,&quot;get&quot;,&quot;get&quot;,&quot;get&quot;,&quot;get&quot;,&quot;get&quot;], inputs = [[],[&quot;love&quot;,&quot;high&quot;,10],[&quot;love&quot;,&quot;low&quot;,20],[&quot;love&quot;,5],[&quot;love&quot;,10],[&quot;love&quot;,15],[&quot;love&quot;,20],[&quot;love&quot;,25]]
-Output: [null,null,null,&quot;&quot;,&quot;high&quot;,&quot;high&quot;,&quot;low&quot;,&quot;low&quot;]
+Input: inputs = ["TimeMap","set","set","get","get","get","get","get"], inputs = [[],["love","high",10],["love","low",20],["love",5],["love",10],["love",15],["love",20],["love",25]]
+Output: [null,null,null,"","high","high","low","low"]
 
 
 
 
-&#xA0;
+ 
 
 Note:
 
 
 	All key/value strings are lowercase.
-	All key/value strings have&#xA0;length in the range&#xA0;[1, 100]
+	All key/value strings have length in the range [1, 100]
 	The timestamps for all TimeMap.set operations are strictly increasing.
-	1 &lt;= timestamp &lt;= 10^7
-	TimeMap.set and TimeMap.get&#xA0;functions will be called a total of 120000 times (combined) per test case.
+	1 <= timestamp <= 10^7
+	TimeMap.set and TimeMap.get functions will be called a total of 120000 times (combined) per test case.
 */
 
 using System;

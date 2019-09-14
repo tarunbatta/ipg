@@ -29,7 +29,7 @@ Explanation: The [1, 3, 2] has three different positive integers ranging from 1 
 
 Note:
 
-The n and k are in the range 1 &lt;= k &lt; n &lt;= 104.
+The n and k are in the range 1 <= k < n <= 104.
 */
 
 using System;

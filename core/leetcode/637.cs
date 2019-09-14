@@ -21,7 +21,7 @@ The average value of nodes on level 0 is 3,  on level 1 is 14.5, and on level 2 
 
 Note:
 
-The range of node&apos;s value is in the range of 32-bit signed integer.
+The range of node's value is in the range of 32-bit signed integer.
 */
 
 using System;

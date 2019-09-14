@@ -4,13 +4,13 @@
 1137. N-th Tribonacci Number
 Easy
 
-The Tribonacci sequence Tn is defined as follows:&#xA0;
+The Tribonacci sequence Tn is defined as follows: 
 
-T0 = 0, T1 = 1, T2 = 1, and Tn+3 = Tn + Tn+1 + Tn+2 for n &gt;= 0.
+T0 = 0, T1 = 1, T2 = 1, and Tn+3 = Tn + Tn+1 + Tn+2 for n >= 0.
 
 Given n, return the value of Tn.
 
-&#xA0;
+ 
 Example 1:
 
 Input: n = 4
@@ -26,12 +26,12 @@ Input: n = 25
 Output: 1389537
 
 
-&#xA0;
+ 
 Constraints:
 
 
-	0 &lt;= n &lt;= 37
-	The answer is guaranteed to fit within a 32-bit integer, ie. answer &lt;= 2^31 - 1.
+	0 <= n <= 37
+	The answer is guaranteed to fit within a 32-bit integer, ie. answer <= 2^31 - 1.
 */
 
 using System;

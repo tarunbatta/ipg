@@ -12,11 +12,11 @@ Examples:
 Input: answers = [1, 1, 2]
 Output: 5
 Explanation:
-The two rabbits that answered &quot;1&quot; could both be the same color, say red.
-The rabbit than answered &quot;2&quot; can&apos;t be red or the answers would be inconsistent.
-Say the rabbit that answered &quot;2&quot; was blue.
-Then there should be 2 other blue rabbits in the forest that didn&apos;t answer into the array.
-The smallest possible number of rabbits in the forest is therefore 5: 3 that answered plus 2 that didn&apos;t.
+The two rabbits that answered "1" could both be the same color, say red.
+The rabbit than answered "2" can't be red or the answers would be inconsistent.
+Say the rabbit that answered "2" was blue.
+Then there should be 2 other blue rabbits in the forest that didn't answer into the array.
+The smallest possible number of rabbits in the forest is therefore 5: 3 that answered plus 2 that didn't.
 
 Input: answers = [10, 10, 10]
 Output: 11

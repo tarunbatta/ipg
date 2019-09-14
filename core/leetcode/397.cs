@@ -28,7 +28,7 @@ Output:
 3
 
 Explanation:
-8 -&gt; 4 -&gt; 2 -&gt; 1
+8 -> 4 -> 2 -> 1
 
 
 
@@ -40,9 +40,9 @@ Output:
 4
 
 Explanation:
-7 -&gt; 8 -&gt; 4 -&gt; 2 -&gt; 1
+7 -> 8 -> 4 -> 2 -> 1
 or
-7 -&gt; 6 -&gt; 3 -&gt; 2 -&gt; 1
+7 -> 6 -> 3 -> 2 -> 1
 */
 
 using System;

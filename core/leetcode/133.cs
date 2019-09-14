@@ -4,32 +4,32 @@
 133. Clone Graph
 Medium
 
-Given&#xA0;a reference of a node in a&#xA0;connected&#xA0;undirected graph, return a deep copy (clone) of the graph. Each node in the graph contains a val (int) and a list (List[Node]) of its neighbors.
+Given a reference of a node in a connected undirected graph, return a deep copy (clone) of the graph. Each node in the graph contains a val (int) and a list (List[Node]) of its neighbors.
 
-&#xA0;
+ 
 
 Example:
 
 
 
 Input:
-{&quot;$id&quot;:&quot;1&quot;,&quot;neighbors&quot;:[{&quot;$id&quot;:&quot;2&quot;,&quot;neighbors&quot;:[{&quot;$ref&quot;:&quot;1&quot;},{&quot;$id&quot;:&quot;3&quot;,&quot;neighbors&quot;:[{&quot;$ref&quot;:&quot;2&quot;},{&quot;$id&quot;:&quot;4&quot;,&quot;neighbors&quot;:[{&quot;$ref&quot;:&quot;3&quot;},{&quot;$ref&quot;:&quot;1&quot;}],&quot;val&quot;:4}],&quot;val&quot;:3}],&quot;val&quot;:2},{&quot;$ref&quot;:&quot;4&quot;}],&quot;val&quot;:1}
+{"$id":"1","neighbors":[{"$id":"2","neighbors":[{"$ref":"1"},{"$id":"3","neighbors":[{"$ref":"2"},{"$id":"4","neighbors":[{"$ref":"3"},{"$ref":"1"}],"val":4}],"val":3}],"val":2},{"$ref":"4"}],"val":1}
 
 Explanation:
-Node 1&apos;s value is 1, and it has two neighbors: Node 2 and 4.
-Node 2&apos;s value is 2, and it has two neighbors: Node 1 and 3.
-Node 3&apos;s value is 3, and it has two neighbors: Node 2 and 4.
-Node 4&apos;s value is 4, and it has two neighbors: Node 1 and 3.
+Node 1's value is 1, and it has two neighbors: Node 2 and 4.
+Node 2's value is 2, and it has two neighbors: Node 1 and 3.
+Node 3's value is 3, and it has two neighbors: Node 2 and 4.
+Node 4's value is 4, and it has two neighbors: Node 1 and 3.
 
 
-&#xA0;
+ 
 
 Note:
 
 
 	The number of nodes will be between 1 and 100.
-	The undirected&#xA0;graph is a simple graph,&#xA0;which means no repeated edges and no self-loops in the graph.
-	Since the graph is undirected, if node p&#xA0;has node q&#xA0;as&#xA0;neighbor, then node q&#xA0;must have node p&#xA0;as neighbor too.
+	The undirected graph is a simple graph, which means no repeated edges and no self-loops in the graph.
+	Since the graph is undirected, if node p has node q as neighbor, then node q must have node p as neighbor too.
 	You must return the copy of the given node as a reference to the cloned graph.
 */
 

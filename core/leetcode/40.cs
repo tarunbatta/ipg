@@ -4,9 +4,9 @@
 40. Combination Sum II
 Medium
 
-Given a collection of candidate numbers (candidates) and a target number (target), find all unique combinations in candidates&#xA0;where the candidate numbers sums to target.
+Given a collection of candidate numbers (candidates) and a target number (target), find all unique combinations in candidates where the candidate numbers sums to target.
 
-Each number in candidates&#xA0;may only be used once in the combination.
+Each number in candidates may only be used once in the combination.
 
 Note:
 
@@ -17,7 +17,7 @@ Note:
 
 Example 1:
 
-Input: candidates =&#xA0;[10,1,2,7,6,1,5], target =&#xA0;8,
+Input: candidates = [10,1,2,7,6,1,5], target = 8,
 A solution set is:
 [
   [1, 7],
@@ -29,11 +29,11 @@ A solution set is:
 
 Example 2:
 
-Input: candidates =&#xA0;[2,5,2,1,2], target =&#xA0;5,
+Input: candidates = [2,5,2,1,2], target = 5,
 A solution set is:
 [
-&#xA0; [1,2,2],
-&#xA0; [5]
+  [1,2,2],
+  [5]
 ]
 */
 

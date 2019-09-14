@@ -8,7 +8,7 @@ Suppose you have a random list of people standing in a queue. Each person is des
 
 Note:
 The number of people is less than 1,100.
-&#xA0;
+ 
 
 Example
 
@@ -19,7 +19,7 @@ Output:
 [[5,0], [7,0], [5,2], [6,1], [4,4], [7,1]]
 
 
-&#xA0;
+ 
 */
 
 using System;

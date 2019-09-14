@@ -4,7 +4,7 @@
 442. Find All Duplicates in an Array
 Medium
 
-Given an array of integers, 1 &#x2264; a[i] &#x2264; n (n = size of array), some elements appear twice and others appear once.
+Given an array of integers, 1 ≤ a[i] ≤ n (n = size of array), some elements appear twice and others appear once.
 
 Find all the elements that appear twice in this array.
 

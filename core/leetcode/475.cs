@@ -15,11 +15,11 @@ Note:
 
 	Numbers of houses and heaters you are given are non-negative and will not exceed 25000.
 	Positions of houses and heaters you are given are non-negative and will not exceed 10^9.
-	As long as a house is in the heaters&apos; warm radius range, it can be warmed.
+	As long as a house is in the heaters' warm radius range, it can be warmed.
 	All the heaters follow your radius standard and the warm radius will the same.
 
 
-&#xA0;
+ 
 
 Example 1:
 
@@ -28,7 +28,7 @@ Output: 1
 Explanation: The only heater was placed in the position 2, and if we use the radius 1 standard, then all the houses can be warmed.
 
 
-&#xA0;
+ 
 
 Example 2:
 
@@ -37,7 +37,7 @@ Output: 1
 Explanation: The two heater was placed in the position 1 and 4. We need to use radius 1 standard, then all the houses can be warmed.
 
 
-&#xA0;
+ 
 */
 
 using System;

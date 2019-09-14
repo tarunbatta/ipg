@@ -18,17 +18,17 @@ Explanation: The given directed graph will be like this:
   1
  / \
 v   v
-2--&gt;3
+2-->3
 
 
 Example 2:
 Input: [[1,2], [2,3], [3,4], [4,1], [1,5]]
 Output: [4,1]
 Explanation: The given directed graph will be like this:
-5 &lt;- 1 -&gt; 2
+5 <- 1 -> 2
      ^    |
      |    v
-     4 &lt;- 3
+     4 <- 3
 
 
 Note:

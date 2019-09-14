@@ -4,15 +4,15 @@
 886. Possible Bipartition
 Medium
 
-Given a set of N&#xA0;people (numbered 1, 2, ..., N), we would like to split everyone into two groups of any size.
+Given a set of N people (numbered 1, 2, ..., N), we would like to split everyone into two groups of any size.
 
-Each person may dislike some other people, and they should not go into the same group.&#xA0;
+Each person may dislike some other people, and they should not go into the same group. 
 
 Formally, if dislikes[i] = [a, b], it means it is not allowed to put the people numbered a and b into the same group.
 
-Return true&#xA0;if and only if it is possible to split everyone into two groups in this way.
+Return true if and only if it is possible to split everyone into two groups in this way.
 
-&#xA0;
+ 
 
 
 
@@ -43,15 +43,15 @@ Input: N = 5, dislikes = [[1,2],[2,3],[3,4],[4,5],[1,5]]
 Output: false
 
 
-&#xA0;
+ 
 
 Note:
 
 
-	1 &lt;= N &lt;= 2000
-	0 &lt;= dislikes.length &lt;= 10000
-	1 &lt;= dislikes[i][j] &lt;= N
-	dislikes[i][0] &lt; dislikes[i][1]
+	1 <= N <= 2000
+	0 <= dislikes.length <= 10000
+	1 <= dislikes[i][j] <= N
+	dislikes[i][0] < dislikes[i][1]
 	There does not exist i != j for which dislikes[i] == dislikes[j].
 */
 

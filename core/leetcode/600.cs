@@ -10,7 +10,7 @@ Example 1:
 Input: 5
 Output: 5
 Explanation: 
-Here are the non-negative integers &lt;= 5 with their corresponding binary representations:
+Here are the non-negative integers <= 5 with their corresponding binary representations:
 0 : 0
 1 : 1
 2 : 10
@@ -22,7 +22,7 @@ Among them, only integer 3 disobeys the rule (two consecutive ones) and the othe
 
 
 Note:
-1 &lt;= n &lt;= 109
+1 <= n <= 109
 */
 
 using System;

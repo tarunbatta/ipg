@@ -6,9 +6,9 @@ Easy
 
 A binary tree is univalued if every node in the tree has the same value.
 
-Return true&#xA0;if and only if the given tree is univalued.
+Return true if and only if the given tree is univalued.
 
-&#xA0;
+ 
 
 Example 1:
 
@@ -24,13 +24,13 @@ Output: false
 
 
 
-&#xA0;
+ 
 
 Note:
 
 
 	The number of nodes in the given tree will be in the range [1, 100].
-	Each node&apos;s value will be an integer in the range [0, 99].
+	Each node's value will be an integer in the range [0, 99].
 */
 
 using System;

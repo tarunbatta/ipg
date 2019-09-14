@@ -4,15 +4,15 @@
 429. N-ary Tree Level Order Traversal
 Easy
 
-Given an n-ary tree, return the level order traversal of its nodes&apos; values. (ie, from left to right, level by level).
+Given an n-ary tree, return the level order traversal of its nodes' values. (ie, from left to right, level by level).
 
 For example, given a 3-ary tree:
 
-&#xA0;
+ 
 
 
 
-&#xA0;
+ 
 
 We should return its level order traversal:
 
@@ -23,7 +23,7 @@ We should return its level order traversal:
 ]
 
 
-&#xA0;
+ 
 
 Note:
 

@@ -4,16 +4,16 @@
 920. Number of Music Playlists
 Hard
 
-Your music player contains N&#xA0;different songs and she wants to listen to L (not necessarily different) songs during your trip. &#xA0;You&#xA0;create&#xA0;a playlist so&#xA0;that:
+Your music player contains N different songs and she wants to listen to L (not necessarily different) songs during your trip.  You create a playlist so that:
 
 
 	Every song is played at least once
-	A song can only be played again only if&#xA0;K&#xA0;other songs have been played
+	A song can only be played again only if K other songs have been played
 
 
-Return the number of possible playlists.&#xA0; As the answer can be very large, return it modulo 10^9 + 7.
+Return the number of possible playlists.  As the answer can be very large, return it modulo 10^9 + 7.
 
-&#xA0;
+ 
 
 
 
@@ -43,12 +43,12 @@ Explanation: There are 2 possible playlists. [1, 2, 1], [2, 1, 2]
 
 
 
-&#xA0;
+ 
 
 Note:
 
 
-	0 &lt;= K &lt; N &lt;= L &lt;= 100
+	0 <= K < N <= L <= 100
 */
 
 using System;

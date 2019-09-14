@@ -8,7 +8,7 @@ Implement an iterator over a binary search tree (BST). Your iterator will be ini
 
 Calling next() will return the next smallest number in the BST.
 
-&#xA0;
+ 
 
 
 
@@ -29,13 +29,13 @@ iterator.next();    // return 20
 iterator.hasNext(); // return false
 
 
-&#xA0;
+ 
 
 Note:
 
 
 	next() and hasNext() should run in average O(1) time and uses O(h) memory, where h is the height of the tree.
-	You may assume that&#xA0;next()&#xA0;call&#xA0;will always be valid, that is, there will be at least a next smallest number in the BST when next() is called.
+	You may assume that next() call will always be valid, that is, there will be at least a next smallest number in the BST when next() is called.
 */
 
 using System;

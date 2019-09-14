@@ -4,11 +4,11 @@
 1005. Maximize Sum Of Array After K Negations
 Easy
 
-Given an array A of integers, we must&#xA0;modify the array in the following way: we choose an i&#xA0;and replace&#xA0;A[i] with -A[i], and we repeat this process K times in total.&#xA0; (We may choose the same index i multiple times.)
+Given an array A of integers, we must modify the array in the following way: we choose an i and replace A[i] with -A[i], and we repeat this process K times in total.  (We may choose the same index i multiple times.)
 
 Return the largest possible sum of the array after modifying it in this way.
 
-&#xA0;
+ 
 
 Example 1:
 
@@ -35,14 +35,14 @@ Explanation: Choose indices (1, 4) and A becomes [2,3,-1,5,4].
 
 
 
-&#xA0;
+ 
 
 Note:
 
 
-	1 &lt;= A.length &lt;= 10000
-	1 &lt;= K &lt;= 10000
-	-100 &lt;= A[i] &lt;= 100
+	1 <= A.length <= 10000
+	1 <= K <= 10000
+	-100 <= A[i] <= 100
 */
 
 using System;

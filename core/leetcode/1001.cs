@@ -4,17 +4,17 @@
 1001. Grid Illumination
 Hard
 
-On a N x N grid of cells, each cell (x, y) with 0 &lt;= x &lt; N and 0 &lt;= y &lt; N has a lamp.
+On a N x N grid of cells, each cell (x, y) with 0 <= x < N and 0 <= y < N has a lamp.
 
-Initially, some number of lamps are on.&#xA0; lamps[i] tells us the location of the i-th lamp that is on.&#xA0; Each lamp that is on illuminates every square on its x-axis, y-axis, and both diagonals (similar to a Queen in chess).
+Initially, some number of lamps are on.  lamps[i] tells us the location of the i-th lamp that is on.  Each lamp that is on illuminates every square on its x-axis, y-axis, and both diagonals (similar to a Queen in chess).
 
-For the i-th query&#xA0;queries[i] = (x, y), the answer to the query is 1 if the cell (x, y) is illuminated, else 0.
+For the i-th query queries[i] = (x, y), the answer to the query is 1 if the cell (x, y) is illuminated, else 0.
 
-After each query (x, y) [in the order given by queries], we turn off any&#xA0;lamps that are at cell (x, y)&#xA0;or are adjacent 8-directionally (ie., share a corner or edge with cell (x, y).)
+After each query (x, y) [in the order given by queries], we turn off any lamps that are at cell (x, y) or are adjacent 8-directionally (ie., share a corner or edge with cell (x, y).)
 
-Return an array of answers.&#xA0; Each&#xA0;value answer[i] should be equal to the answer of the i-th query queries[i].
+Return an array of answers.  Each value answer[i] should be equal to the answer of the i-th query queries[i].
 
-&#xA0;
+ 
 
 Example 1:
 
@@ -37,14 +37,14 @@ Then the query at [1, 1] returns 1 because the cell is lit.  After this query, t
 Before performing the second query we have only the lamp [4,4] on.  Now the query at [1,0] returns 0, because the cell is no longer lit.
 
 
-&#xA0;
+ 
 
 Note:
 
 
-	1 &lt;= N &lt;= 10^9
-	0 &lt;= lamps.length &lt;= 20000
-	0 &lt;= queries.length &lt;= 20000
+	1 <= N <= 10^9
+	0 <= lamps.length <= 20000
+	0 <= queries.length <= 20000
 	lamps[i].length == queries[i].length == 2
 */
 

@@ -4,29 +4,29 @@
 1016. Binary String With Substrings Representing 1 To N
 Medium
 
-Given a binary string S (a string consisting only of &apos;0&apos; and &apos;1&apos;s) and a positive integer N, return true if and only if for every integer X from 1 to N, the binary representation of X is a substring of S.
+Given a binary string S (a string consisting only of '0' and '1's) and a positive integer N, return true if and only if for every integer X from 1 to N, the binary representation of X is a substring of S.
 
-&#xA0;
+ 
 
 Example 1:
 
-Input: S = &quot;0110&quot;, N = 3
+Input: S = "0110", N = 3
 Output: true
 
 
 Example 2:
 
-Input: S = &quot;0110&quot;, N = 4
+Input: S = "0110", N = 4
 Output: false
 
 
-&#xA0;
+ 
 
 Note:
 
 
-	1 &lt;= S.length &lt;= 1000
-	1 &lt;= N &lt;= 10^9
+	1 <= S.length <= 1000
+	1 <= N <= 10^9
 */
 
 using System;

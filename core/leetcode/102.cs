@@ -4,7 +4,7 @@
 102. Binary Tree Level Order Traversal
 Medium
 
-Given a binary tree, return the level order traversal of its nodes&apos; values. (ie, from left to right, level by level).
+Given a binary tree, return the level order traversal of its nodes' values. (ie, from left to right, level by level).
 
 
 For example:

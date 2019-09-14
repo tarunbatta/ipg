@@ -9,7 +9,7 @@ Write a bash script to calculate the frequency of each word in a text file words
 For simplicity sake, you may assume:
 
 
-	words.txt contains only lowercase characters and space &apos; &apos; characters.
+	words.txt contains only lowercase characters and space ' ' characters.
 	Each word must consist of lowercase characters only.
 	Words are separated by one or more whitespace characters.
 
@@ -33,7 +33,7 @@ day 1
 Note:
 
 
-	Don&apos;t worry about handling ties, it is guaranteed that each word&apos;s frequency count is unique.
+	Don't worry about handling ties, it is guaranteed that each word's frequency count is unique.
 	Could you write it in one-line using Unix pipes?
 */
 

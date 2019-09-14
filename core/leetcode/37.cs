@@ -6,15 +6,15 @@ Hard
 
 Write a program to solve a Sudoku puzzle by filling the empty cells.
 
-A&#xA0;sudoku solution must satisfy all of&#xA0;the following rules:
+A sudoku solution must satisfy all of the following rules:
 
 
-	Each of the digits&#xA0;1-9 must occur exactly&#xA0;once in each row.
-	Each of the digits&#xA0;1-9&#xA0;must occur&#xA0;exactly once in each column.
-	Each of the the digits&#xA0;1-9 must occur exactly once in each of the 9 3x3 sub-boxes of the grid.
+	Each of the digits 1-9 must occur exactly once in each row.
+	Each of the digits 1-9 must occur exactly once in each column.
+	Each of the the digits 1-9 must occur exactly once in each of the 9 3x3 sub-boxes of the grid.
 
 
-Empty cells are indicated by the character &apos;.&apos;.
+Empty cells are indicated by the character '.'.
 
 
 A sudoku puzzle...
@@ -25,7 +25,7 @@ A sudoku puzzle...
 Note:
 
 
-	The given board&#xA0;contain only digits 1-9 and the character &apos;.&apos;.
+	The given board contain only digits 1-9 and the character '.'.
 	You may assume that the given Sudoku puzzle will have a single unique solution.
 	The given board size is always 9x9.
 */

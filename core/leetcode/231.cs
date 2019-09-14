@@ -10,14 +10,14 @@ Example 1:
 
 Input: 1
 Output: true 
-Explanation: 20&#xA0;= 1
+Explanation: 20 = 1
 
 
 Example 2:
 
 Input: 16
 Output: true
-Explanation: 24&#xA0;= 16
+Explanation: 24 = 16
 
 Example 3:
 

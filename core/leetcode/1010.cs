@@ -4,11 +4,11 @@
 1010. Pairs of Songs With Total Durations Divisible by 60
 Easy
 
-In a list of songs, the i-th&#xA0;song has a duration of&#xA0;time[i] seconds.&#xA0;
+In a list of songs, the i-th song has a duration of time[i] seconds. 
 
-Return the number of pairs of songs for which their total&#xA0;duration in seconds is divisible by 60.&#xA0; Formally, we want the number of&#xA0;indices i &lt; j with (time[i] + time[j]) % 60 == 0.
+Return the number of pairs of songs for which their total duration in seconds is divisible by 60.  Formally, we want the number of indices i < j with (time[i] + time[j]) % 60 == 0.
 
-&#xA0;
+ 
 
 Example 1:
 
@@ -29,13 +29,13 @@ Explanation: All three pairs have a total duration of 120, which is divisible by
 
 
 
-&#xA0;
+ 
 
 Note:
 
 
-	1 &lt;= time.length &lt;= 60000
-	1 &lt;= time[i] &lt;= 500
+	1 <= time.length <= 60000
+	1 <= time[i] <= 500
 */
 
 using System;

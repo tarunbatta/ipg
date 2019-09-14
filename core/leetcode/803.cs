@@ -4,9 +4,9 @@
 803. Bricks Falling When Hit
 Hard
 
-We have a grid of 1s and 0s; the 1s in a cell represent bricks.&#xA0; A brick will not drop if and only if it is directly connected to the top of the grid, or at least one of its (4-way) adjacent bricks will not drop.
+We have a grid of 1s and 0s; the 1s in a cell represent bricks.  A brick will not drop if and only if it is directly connected to the top of the grid, or at least one of its (4-way) adjacent bricks will not drop.
 
-We will do some erasures&#xA0;sequentially. Each time we want to do the erasure at the location (i, j), the brick (if it exists) on that location will disappear, and then some other bricks may&#xA0;drop because of that&#xA0;erasure.
+We will do some erasures sequentially. Each time we want to do the erasure at the location (i, j), the brick (if it exists) on that location will disappear, and then some other bricks may drop because of that erasure.
 
 Return an array representing the number of bricks that will drop after each erasure in sequence.
 
@@ -26,12 +26,12 @@ Output: [0,0]
 Explanation: 
 When we erase the brick at (1, 0), the brick at (1, 1) has already disappeared due to the last move. So each erasure will cause no bricks dropping.  Note that the erased brick (1, 0) will not be counted as a dropped brick.
 
-&#xA0;
+ 
 
 Note:
 
 
-	The number of rows and columns in the grid will be in the range&#xA0;[1, 200].
+	The number of rows and columns in the grid will be in the range [1, 200].
 	The number of erasures will not exceed the area of the grid.
 	It is guaranteed that each erasure will be different from any other erasure, and located inside the grid.
 	An erasure may refer to a location with no brick - if it does, no bricks drop.

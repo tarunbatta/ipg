@@ -4,7 +4,7 @@
 221. Maximal Square
 Medium
 
-Given a 2D binary matrix filled with 0&apos;s and 1&apos;s, find the largest square containing only 1&apos;s and return its area.
+Given a 2D binary matrix filled with 0's and 1's, find the largest square containing only 1's and return its area.
 
 Example:
 

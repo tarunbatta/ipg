@@ -12,14 +12,14 @@ Find the letter that was added in t.
 
 Example:
 Input:
-s = &quot;abcd&quot;
-t = &quot;abcde&quot;
+s = "abcd"
+t = "abcde"
 
 Output:
 e
 
 Explanation:
-&apos;e&apos; is the letter that was added.
+'e' is the letter that was added.
 */
 
 using System;

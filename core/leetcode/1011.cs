@@ -6,11 +6,11 @@ Medium
 
 A conveyor belt has packages that must be shipped from one port to another within D days.
 
-The i-th package on the conveyor belt has a weight of weights[i].&#xA0; Each day, we load the ship with packages on the conveyor belt (in the order given by weights). We may not load more weight than the maximum weight capacity of the ship.
+The i-th package on the conveyor belt has a weight of weights[i].  Each day, we load the ship with packages on the conveyor belt (in the order given by weights). We may not load more weight than the maximum weight capacity of the ship.
 
 Return the least weight capacity of the ship that will result in all the packages on the conveyor belt being shipped within D days.
 
-&#xA0;
+ 
 
 Example 1:
 
@@ -49,13 +49,13 @@ Explanation:
 4th day: 1, 1
 
 
-&#xA0;
+ 
 
 Note:
 
 
-	1 &lt;= D &lt;= weights.length &lt;= 50000
-	1 &lt;= weights[i] &lt;= 500
+	1 <= D <= weights.length <= 50000
+	1 <= weights[i] <= 500
 */
 
 using System;

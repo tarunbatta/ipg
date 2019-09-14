@@ -8,32 +8,32 @@ Given a positive integer, return its corresponding column title as appear in an 
 
 For example:
 
-    1 -&gt; A
-    2 -&gt; B
-    3 -&gt; C
+    1 -> A
+    2 -> B
+    3 -> C
     ...
-    26 -&gt; Z
-    27 -&gt; AA
-    28 -&gt; AB 
+    26 -> Z
+    27 -> AA
+    28 -> AB 
     ...
 
 
 Example 1:
 
 Input: 1
-Output: &quot;A&quot;
+Output: "A"
 
 
 Example 2:
 
 Input: 28
-Output: &quot;AB&quot;
+Output: "AB"
 
 
 Example 3:
 
 Input: 701
-Output: &quot;ZY&quot;
+Output: "ZY"
 */
 
 using System;

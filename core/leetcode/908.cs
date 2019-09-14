@@ -4,13 +4,13 @@
 908. Smallest Range I
 Easy
 
-Given an array A of integers, for each integer A[i] we may choose any x with -K &lt;= x &lt;= K, and add x to A[i].
+Given an array A of integers, for each integer A[i] we may choose any x with -K <= x <= K, and add x to A[i].
 
 After this process, we have some array B.
 
-Return the smallest possible difference between the maximum value of B&#xA0;and the minimum value of B.
+Return the smallest possible difference between the maximum value of B and the minimum value of B.
 
-&#xA0;
+ 
 
 
 
@@ -39,14 +39,14 @@ Output: 0
 Explanation: B = [3,3,3] or B = [4,4,4]
 
 
-&#xA0;
+ 
 
 Note:
 
 
-	1 &lt;= A.length &lt;= 10000
-	0 &lt;= A[i] &lt;= 10000
-	0 &lt;= K &lt;= 10000
+	1 <= A.length <= 10000
+	0 <= A[i] <= 10000
+	0 <= K <= 10000
 */
 
 using System;

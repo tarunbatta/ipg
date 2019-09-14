@@ -13,11 +13,11 @@ Output: 3
 Explanation:
 ^
 |
-| &#xA0; &#xA0; &#xA0; &#xA0;o
-| &#xA0; &#xA0; o
-| &#xA0;o &#xA0;
-+-------------&gt;
-0 &#xA0;1 &#xA0;2 &#xA0;3  4
+|        o
+|     o
+|  o  
++------------->
+0  1  2  3  4
 
 
 Example 2:
@@ -28,14 +28,14 @@ Explanation:
 ^
 |
 |  o
-| &#xA0;&#xA0;&#xA0;&#xA0;o&#xA0;&#xA0;      o
-| &#xA0;&#xA0;&#xA0;&#xA0;   o
-| &#xA0;o &#xA0;      o
-+-------------------&gt;
-0 &#xA0;1 &#xA0;2 &#xA0;3 &#xA0;4 &#xA0;5 &#xA0;6
+|     o        o
+|        o
+|  o        o
++------------------->
+0  1  2  3  4  5  6
 
 
-NOTE:&#xA0;input types have been changed on April 15, 2019. Please reset to default code definition to get new method signature.
+NOTE: input types have been changed on April 15, 2019. Please reset to default code definition to get new method signature.
 */
 
 using System;

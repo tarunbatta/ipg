@@ -8,7 +8,7 @@ There are 2N people a company is planning to interview. The cost of flying the i
 
 Return the minimum cost to fly every person to a city such that exactly N people arrive in each city.
 
-&#xA0;
+ 
 
 Example 1:
 
@@ -23,14 +23,14 @@ The fourth person goes to city B for a cost of 20.
 The total minimum cost is 10 + 30 + 50 + 20 = 110 to have half the people interviewing in each city.
 
 
-&#xA0;
+ 
 
 Note:
 
 
-	1 &lt;= costs.length &lt;= 100
+	1 <= costs.length <= 100
 	It is guaranteed that costs.length is even.
-	1 &lt;= costs[i][0], costs[i][1] &lt;= 1000
+	1 <= costs[i][0], costs[i][1] <= 1000
 */
 
 using System;

@@ -4,11 +4,11 @@
 1072. Flip Columns For Maximum Number of Equal Rows
 Medium
 
-Given a matrix consisting of 0s and 1s, we may choose any number of columns in the matrix and flip every&#xA0;cell in that column.&#xA0; Flipping a cell changes the value of that cell from 0 to 1 or from 1 to 0.
+Given a matrix consisting of 0s and 1s, we may choose any number of columns in the matrix and flip every cell in that column.  Flipping a cell changes the value of that cell from 0 to 1 or from 1 to 0.
 
 Return the maximum number of rows that have all values equal after some number of flips.
 
-&#xA0;
+ 
 
 
 
@@ -37,15 +37,15 @@ Output: 2
 Explanation: After flipping values in the first two columns, the last two rows have equal values.
 
 
-&#xA0;
+ 
 
 Note:
 
 
-	1 &lt;= matrix.length &lt;= 300
-	1 &lt;= matrix[i].length &lt;= 300
-	All matrix[i].length&apos;s are equal
-	matrix[i][j] is&#xA0;0 or 1
+	1 <= matrix.length <= 300
+	1 <= matrix[i].length <= 300
+	All matrix[i].length's are equal
+	matrix[i][j] is 0 or 1
 */
 
 using System;

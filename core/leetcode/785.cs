@@ -4,11 +4,11 @@
 785. Is Graph Bipartite?
 Medium
 
-Given an undirected&#xA0;graph, return true if and only if it is bipartite.
+Given an undirected graph, return true if and only if it is bipartite.
 
-Recall that a graph is bipartite if we can split it&apos;s set of nodes into two independent&#xA0;subsets A and B such that every edge in the graph has one node in A and another node in B.
+Recall that a graph is bipartite if we can split it's set of nodes into two independent subsets A and B such that every edge in the graph has one node in A and another node in B.
 
-The graph is given in the following form: graph[i] is a list of indexes j for which the edge between nodes i and j exists.&#xA0; Each node is an integer between 0 and graph.length - 1.&#xA0; There are no self edges or parallel edges: graph[i] does not contain i, and it doesn&apos;t contain any element twice.
+The graph is given in the following form: graph[i] is a list of indexes j for which the edge between nodes i and j exists.  Each node is an integer between 0 and graph.length - 1.  There are no self edges or parallel edges: graph[i] does not contain i, and it doesn't contain any element twice.
 
 Example 1:
 Input: [[1,3], [0,2], [1,3], [0,2]]
@@ -34,7 +34,7 @@ The graph looks like this:
 We cannot find a way to divide the set of nodes into two independent subsets.
 
 
-&#xA0;
+ 
 
 Note:
 

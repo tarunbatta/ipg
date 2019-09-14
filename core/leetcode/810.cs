@@ -4,7 +4,7 @@
 810. Chalkboard XOR Game
 Hard
 
-We are given non-negative integers nums[i] which are written on a chalkboard.&#xA0; Alice and Bob take turns erasing exactly one number from the chalkboard, with Alice starting first.&#xA0; If erasing a number causes&#xA0;the bitwise XOR of all the elements of the chalkboard to become&#xA0;0, then that player loses.&#xA0; (Also, we&apos;ll say the bitwise XOR of one element is that element itself, and the bitwise XOR of no elements is 0.)
+We are given non-negative integers nums[i] which are written on a chalkboard.  Alice and Bob take turns erasing exactly one number from the chalkboard, with Alice starting first.  If erasing a number causes the bitwise XOR of all the elements of the chalkboard to become 0, then that player loses.  (Also, we'll say the bitwise XOR of one element is that element itself, and the bitwise XOR of no elements is 0.)
 
 Also, if any player starts their turn with the bitwise XOR of all the elements of the chalkboard equal to 0, then that player wins.
 
@@ -23,11 +23,11 @@ If Alice erases 2 first, now nums becomes [1, 1]. The bitwise XOR of all the ele
 Notes: 
 
 
-	1 &lt;= N &lt;= 1000.&#xA0;
-	0 &lt;= nums[i] &lt;= 2^16.
+	1 <= N <= 1000. 
+	0 <= nums[i] <= 2^16.
 
 
-&#xA0;
+ 
 */
 
 using System;

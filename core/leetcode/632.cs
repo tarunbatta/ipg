@@ -6,9 +6,9 @@ Hard
 
 You have k lists of sorted integers in ascending order. Find the smallest range that includes at least one number from each of the k lists.
 
-We define the range [a,b] is smaller than range [c,d] if b-a &lt; d-c or a &lt; c if b-a == d-c.
+We define the range [a,b] is smaller than range [c,d] if b-a < d-c or a < c if b-a == d-c.
 
-&#xA0;
+ 
 
 Example 1:
 
@@ -20,14 +20,14 @@ List 2: [0, 9, 12, 20], 20 is in range [20,24].
 List 3: [5, 18, 22, 30], 22 is in range [20,24].
 
 
-&#xA0;
+ 
 
 Note:
 
 
-	The given list may contain duplicates, so ascending order means &gt;= here.
-	1 &lt;= k &lt;= 3500
-	-105 &lt;= value of elements &lt;= 105.
+	The given list may contain duplicates, so ascending order means >= here.
+	1 <= k <= 3500
+	-105 <= value of elements <= 105.
 */
 
 using System;

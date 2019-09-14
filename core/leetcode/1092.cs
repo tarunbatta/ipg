@@ -4,28 +4,28 @@
 1092. Shortest Common Supersequence 
 Hard
 
-Given two strings str1 and str2,&#xA0;return the shortest string that has both str1&#xA0;and str2&#xA0;as subsequences.&#xA0;&#xA0;If multiple answers exist, you may return any of them.
+Given two strings str1 and str2, return the shortest string that has both str1 and str2 as subsequences.  If multiple answers exist, you may return any of them.
 
 (A string S is a subsequence of string T if deleting some number of characters from T (possibly 0, and the characters are chosen anywhere from T) results in the string S.)
 
-&#xA0;
+ 
 
 Example 1:
 
-Input: str1 = &quot;abac&quot;, str2 = &quot;cab&quot;
-Output: &quot;cabac&quot;
+Input: str1 = "abac", str2 = "cab"
+Output: "cabac"
 Explanation: 
-str1 = &quot;abac&quot; is a subsequence of &quot;cabac&quot; because we can delete the first &quot;c&quot;.
-str2 = &quot;cab&quot; is a subsequence of &quot;cabac&quot; because we can delete the last &quot;ac&quot;.
+str1 = "abac" is a subsequence of "cabac" because we can delete the first "c".
+str2 = "cab" is a subsequence of "cabac" because we can delete the last "ac".
 The answer provided is the shortest such string that satisfies these properties.
 
 
-&#xA0;
+ 
 
 Note:
 
 
-	1 &lt;= str1.length, str2.length &lt;= 1000
+	1 <= str1.length, str2.length <= 1000
 	str1 and str2 consist of lowercase English letters.
 */
 

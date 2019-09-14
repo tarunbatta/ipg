@@ -4,7 +4,7 @@
 41. First Missing Positive
 Hard
 
-Given an unsorted integer array, find the smallest missing&#xA0;positive integer.
+Given an unsorted integer array, find the smallest missing positive integer.
 
 Example 1:
 

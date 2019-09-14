@@ -12,15 +12,15 @@ Note:
 
 
 	You may imagine nums[-1] = nums[n] = 1. They are not real therefore you can not burst them.
-	0 &#x2264; n &#x2264; 500, 0 &#x2264; nums[i] &#x2264; 100
+	0 ≤ n ≤ 500, 0 ≤ nums[i] ≤ 100
 
 
 Example:
 
 Input: [3,1,5,8]
 Output: 167 
-Explanation: nums = [3,1,5,8] --&gt; [3,5,8] --&gt;   [3,8]   --&gt;  [8]  --&gt; []
-&#xA0;            coins =  3*1*5      +  3*5*8    +  1*3*8      + 1*8*1   = 167
+Explanation: nums = [3,1,5,8] --> [3,5,8] -->   [3,8]   -->  [8]  --> []
+             coins =  3*1*5      +  3*5*8    +  1*3*8      + 1*8*1   = 167
 */
 
 using System;

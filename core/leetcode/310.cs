@@ -39,10 +39,8 @@ Input: n = 6, edges = [[0, 3], [1, 3], [2, 3], [4, 3], [5, 4]]
 Output: [3, 4]
 
 Note:
-
-
-	According to the definition of tree on Wikipedia: &#x201C;a tree is an undirected graph in which any two vertices are connected by exactly one path. In other words, any connected graph without simple cycles is a tree.&#x201D;
-	The height of a rooted tree is the number of edges on the longest downward path between the root and a leaf.
+According to the definition of tree on Wikipedia: “a tree is an undirected graph in which any two vertices are connected by exactly one path. In other words, any connected graph without simple cycles is a tree.”
+The height of a rooted tree is the number of edges on the longest downward path between the root and a leaf.
 */
 
 using System;

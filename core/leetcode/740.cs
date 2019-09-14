@@ -19,19 +19,19 @@ Delete 4 to earn 4 points, consequently 3 is also deleted.
 Then, delete 2 to earn 2 points. 6 total points are earned.
 
 
-&#xA0;
+ 
 
 Example 2:
 
 Input: nums = [2, 2, 3, 3, 3, 4]
 Output: 9
 Explanation: 
-Delete 3 to earn 3 points, deleting both 2&apos;s and the 4.
+Delete 3 to earn 3 points, deleting both 2's and the 4.
 Then, delete 3 again to earn 3 points, and 3 again to earn 3 points.
 9 total points are earned.
 
 
-&#xA0;
+ 
 
 Note:
 
@@ -40,7 +40,7 @@ Note:
 	Each element nums[i] is an integer in the range [1, 10000].
 
 
-&#xA0;
+ 
 */
 
 using System;

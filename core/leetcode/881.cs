@@ -6,11 +6,11 @@ Medium
 
 The i-th person has weight people[i], and each boat can carry a maximum weight of limit.
 
-Each boat carries at most 2 people at the same time, provided the sum of the&#xA0;weight of those people is at most limit.
+Each boat carries at most 2 people at the same time, provided the sum of the weight of those people is at most limit.
 
-Return the minimum number of boats to carry every given person.&#xA0; (It is guaranteed each person can be carried by a boat.)
+Return the minimum number of boats to carry every given person.  (It is guaranteed each person can be carried by a boat.)
 
-&#xA0;
+ 
 
 
 Example 1:
@@ -38,8 +38,8 @@ Explanation: 4 boats (3), (3), (4), (5)
 Note:
 
 
-	1 &lt;=&#xA0;people.length &lt;= 50000
-	1 &lt;= people[i] &lt;=&#xA0;limit &lt;= 30000
+	1 <= people.length <= 50000
+	1 <= people[i] <= limit <= 30000
 */
 
 using System;

@@ -22,9 +22,9 @@ Output: False
 
 Note:
 
-The input array won&apos;t violate no-adjacent-flowers rule.
+The input array won't violate no-adjacent-flowers rule.
 The input array size is in the range of [1, 20000].
-n is a non-negative integer which won&apos;t exceed the input array size.
+n is a non-negative integer which won't exceed the input array size.
 */
 
 using System;

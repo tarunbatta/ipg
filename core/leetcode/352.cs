@@ -15,11 +15,11 @@ For example, suppose the integers from the data stream are 1, 3, 7, 2, 6, ..., t
 [1, 3], [6, 7]
 
 
-&#xA0;
+ 
 
 Follow up:
 
-What if there are lots of merges and the number of disjoint intervals are small compared to the data stream&apos;s size?
+What if there are lots of merges and the number of disjoint intervals are small compared to the data stream's size?
 */
 
 using System;

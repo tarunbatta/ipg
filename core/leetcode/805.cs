@@ -18,11 +18,11 @@ Explanation: We can split the array into [1,4,5,8] and [2,3,6,7], and both of th
 Note:
 
 
-	The length of A will be in the range&#xA0;[1, 30].
+	The length of A will be in the range [1, 30].
 	A[i] will be in the range of [0, 10000].
 
 
-&#xA0;
+ 
 */
 
 using System;

@@ -4,11 +4,11 @@
 867. Transpose Matrix
 Easy
 
-Given a&#xA0;matrix A, return the transpose of A.
+Given a matrix A, return the transpose of A.
 
-The transpose of a matrix is the matrix flipped over it&apos;s main diagonal, switching the row and column indices of the matrix.
+The transpose of a matrix is the matrix flipped over it's main diagonal, switching the row and column indices of the matrix.
 
-&#xA0;
+ 
 
 
 Example 1:
@@ -24,13 +24,13 @@ Input: [[1,2,3],[4,5,6]]
 Output: [[1,4],[2,5],[3,6]]
 
 
-&#xA0;
+ 
 
 Note:
 
 
-	1 &lt;= A.length&#xA0;&lt;= 1000
-	1 &lt;= A[0].length&#xA0;&lt;= 1000
+	1 <= A.length <= 1000
+	1 <= A[0].length <= 1000
 */
 
 using System;

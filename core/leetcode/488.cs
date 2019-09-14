@@ -11,30 +11,30 @@ Each time, you may choose a ball in your hand, and insert it into the row (inclu
 Find the minimal balls you have to insert to remove all the balls on the table. If you cannot remove all the balls, output -1.
 
 Examples:
-Input: &quot;WRRBBW&quot;, &quot;RB&quot;
+Input: "WRRBBW", "RB"
 Output: -1
-Explanation: WRRBBW -&gt; WRR[R]BBW -&gt; WBBW -&gt; WBB[B]W -&gt; WW
+Explanation: WRRBBW -> WRR[R]BBW -> WBBW -> WBB[B]W -> WW
 
-Input: &quot;WWRRBBWW&quot;, &quot;WRBRW&quot;
+Input: "WWRRBBWW", "WRBRW"
 Output: 2
-Explanation: WWRRBBWW -&gt; WWRR[R]BBWW -&gt; WWBBWW -&gt; WWBB[B]WW -&gt; WWWW -&gt; empty
+Explanation: WWRRBBWW -> WWRR[R]BBWW -> WWBBWW -> WWBB[B]WW -> WWWW -> empty
 
-Input:&quot;G&quot;, &quot;GGGGG&quot;
+Input:"G", "GGGGG"
 Output: 2
-Explanation: G -&gt; G[G] -&gt; GG[G] -&gt; empty 
+Explanation: G -> G[G] -> GG[G] -> empty 
 
-Input: &quot;RBYYBBRRB&quot;, &quot;YRBGB&quot;
+Input: "RBYYBBRRB", "YRBGB"
 Output: 3
-Explanation: RBYYBBRRB -&gt; RBYY[Y]BBRRB -&gt; RBBBRRB -&gt; RRRB -&gt; B -&gt; B[B] -&gt; BB[B] -&gt; empty 
+Explanation: RBYYBBRRB -> RBYY[Y]BBRRB -> RBBBRRB -> RRRB -> B -> B[B] -> BB[B] -> empty 
 
 
 
 Note:
 
-You may assume that the initial row of balls on the table won&#x2019;t have any 3 or more consecutive balls with the same color.
-The number of balls on the table won&apos;t exceed 20, and the string represents these balls is called &quot;board&quot; in the input.
-The number of balls in your hand won&apos;t exceed 5, and the string represents these balls is called &quot;hand&quot; in the input.
-Both input strings will be non-empty and only contain characters &apos;R&apos;,&apos;Y&apos;,&apos;B&apos;,&apos;G&apos;,&apos;W&apos;.
+You may assume that the initial row of balls on the table won’t have any 3 or more consecutive balls with the same color.
+The number of balls on the table won't exceed 20, and the string represents these balls is called "board" in the input.
+The number of balls in your hand won't exceed 5, and the string represents these balls is called "hand" in the input.
+Both input strings will be non-empty and only contain characters 'R','Y','B','G','W'.
 */
 
 using System;

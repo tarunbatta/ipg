@@ -4,9 +4,9 @@
 997. Find the Town Judge
 Easy
 
-In a town, there are N people labelled from&#xA0;1 to N.&#xA0; There is a rumor that one of these people is secretly the town judge.
+In a town, there are N people labelled from 1 to N.  There is a rumor that one of these people is secretly the town judge.
 
-If the&#xA0;town judge exists, then:
+If the town judge exists, then:
 
 
 	The town judge trusts nobody.
@@ -16,9 +16,9 @@ If the&#xA0;town judge exists, then:
 
 You are given trust, an array of pairs trust[i] = [a, b] representing that the person labelled a trusts the person labelled b.
 
-If the town judge exists and can be identified, return the label of the town judge.&#xA0; Otherwise, return -1.
+If the town judge exists and can be identified, return the label of the town judge.  Otherwise, return -1.
 
-&#xA0;
+ 
 
 Example 1:
 
@@ -53,7 +53,7 @@ Example 5:
 Input: N = 4, trust = [[1,3],[1,4],[2,3],[2,4],[4,3]]
 Output: 3
 
-&#xA0;
+ 
 
 
 
@@ -62,11 +62,11 @@ Output: 3
 Note:
 
 
-	1 &lt;= N &lt;= 1000
-	trust.length &lt;= 10000
+	1 <= N <= 1000
+	trust.length <= 10000
 	trust[i] are all different
 	trust[i][0] != trust[i][1]
-	1 &lt;= trust[i][0], trust[i][1] &lt;= N
+	1 <= trust[i][0], trust[i][1] <= N
 */
 
 using System;

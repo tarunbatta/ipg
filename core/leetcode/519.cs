@@ -4,21 +4,21 @@
 519. Random Flip Matrix
 Medium
 
-You are given the number of rows n_rows&#xA0;and number of columns n_cols&#xA0;of a&#xA0;2D&#xA0;binary matrix&#xA0;where all values are initially 0.&#xA0;Write a function flip&#xA0;which chooses&#xA0;a 0 value&#xA0;uniformly at random,&#xA0;changes it to 1,&#xA0;and then returns the position [row.id, col.id] of that value. Also, write a function reset which sets all values back to 0.&#xA0;Try to minimize the number of calls to system&apos;s Math.random() and optimize the time and&#xA0;space complexity.
+You are given the number of rows n_rows and number of columns n_cols of a 2D binary matrix where all values are initially 0. Write a function flip which chooses a 0 value uniformly at random, changes it to 1, and then returns the position [row.id, col.id] of that value. Also, write a function reset which sets all values back to 0. Try to minimize the number of calls to system's Math.random() and optimize the time and space complexity.
 
 Note:
 
 
-	1 &lt;= n_rows, n_cols&#xA0;&lt;= 10000
-	0 &lt;= row.id &lt; n_rows and 0 &lt;= col.id &lt; n_cols
-	flip&#xA0;will not be called when the matrix has no&#xA0;0 values left.
-	the total number of calls to&#xA0;flip&#xA0;and reset&#xA0;will not exceed&#xA0;1000.
+	1 <= n_rows, n_cols <= 10000
+	0 <= row.id < n_rows and 0 <= col.id < n_cols
+	flip will not be called when the matrix has no 0 values left.
+	the total number of calls to flip and reset will not exceed 1000.
 
 
 Example 1:
 
 Input: 
-[&quot;Solution&quot;,&quot;flip&quot;,&quot;flip&quot;,&quot;flip&quot;,&quot;flip&quot;]
+["Solution","flip","flip","flip","flip"]
 [[2,3],[],[],[],[]]
 Output: [null,[0,1],[1,2],[1,0],[1,1]]
 
@@ -27,14 +27,14 @@ Output: [null,[0,1],[1,2],[1,0],[1,1]]
 Example 2:
 
 Input: 
-[&quot;Solution&quot;,&quot;flip&quot;,&quot;flip&quot;,&quot;reset&quot;,&quot;flip&quot;]
+["Solution","flip","flip","reset","flip"]
 [[1,2],[],[],[],[]]
 Output: [null,[0,0],[0,1],null,[0,0]]
 
 
 Explanation of Input Syntax:
 
-The input is two lists:&#xA0;the subroutines called&#xA0;and their&#xA0;arguments. Solution&apos;s constructor&#xA0;has two arguments, n_rows and n_cols.&#xA0;flip&#xA0;and reset have&#xA0;no&#xA0;arguments.&#xA0;Arguments&#xA0;are&#xA0;always wrapped with a list, even if there aren&apos;t any.
+The input is two lists: the subroutines called and their arguments. Solution's constructor has two arguments, n_rows and n_cols. flip and reset have no arguments. Arguments are always wrapped with a list, even if there aren't any.
 */
 
 using System;

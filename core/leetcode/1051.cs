@@ -6,9 +6,9 @@ Easy
 
 Students are asked to stand in non-decreasing order of heights for an annual photo.
 
-Return the minimum number of students not standing in the right positions.&#xA0; (This is the number of students that must move in order for all students to be standing in non-decreasing order of height.)
+Return the minimum number of students not standing in the right positions.  (This is the number of students that must move in order for all students to be standing in non-decreasing order of height.)
 
-&#xA0;
+ 
 
 Example 1:
 
@@ -18,13 +18,13 @@ Explanation:
 Students with heights 4, 3 and the last 1 are not standing in the right positions.
 
 
-&#xA0;
+ 
 
 Note:
 
 
-	1 &lt;= heights.length &lt;= 100
-	1 &lt;= heights[i] &lt;= 100
+	1 <= heights.length <= 100
+	1 <= heights[i] <= 100
 */
 
 using System;

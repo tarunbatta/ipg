@@ -27,7 +27,7 @@ The only way to decode it is two-bit character and two-bit character. So the las
 
 
 Note:
-1 &lt;= len(bits) &lt;= 1000.
+1 <= len(bits) <= 1000.
 bits[i] is always 0 or 1.
 */
 

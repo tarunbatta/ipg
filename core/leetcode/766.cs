@@ -6,21 +6,21 @@ Easy
 
 A matrix is Toeplitz if every diagonal from top-left to bottom-right has the same element.
 
-Now given an M x N matrix, return&#xA0;True&#xA0;if and only if the matrix is Toeplitz.
-&#xA0;
+Now given an M x N matrix, return True if and only if the matrix is Toeplitz.
+ 
 
 Example 1:
 
 Input:
 matrix = [
-&#xA0; [1,2,3,4],
-&#xA0; [5,1,2,3],
-&#xA0; [9,5,1,2]
+  [1,2,3,4],
+  [5,1,2,3],
+  [9,5,1,2]
 ]
 Output: True
 Explanation:
-In the above grid, the&#xA0;diagonals are:
-&quot;[9]&quot;, &quot;[5, 5]&quot;, &quot;[1, 1, 1]&quot;, &quot;[2, 2, 2]&quot;, &quot;[3, 3]&quot;, &quot;[4]&quot;.
+In the above grid, the diagonals are:
+"[9]", "[5, 5]", "[1, 1, 1]", "[2, 2, 2]", "[3, 3]", "[4]".
 In each diagonal all elements are the same, so the answer is True.
 
 
@@ -28,12 +28,12 @@ Example 2:
 
 Input:
 matrix = [
-&#xA0; [1,2],
-&#xA0; [2,2]
+  [1,2],
+  [2,2]
 ]
 Output: False
 Explanation:
-The diagonal &quot;[1, 2]&quot; has different elements.
+The diagonal "[1, 2]" has different elements.
 
 
 

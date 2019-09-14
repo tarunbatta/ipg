@@ -4,7 +4,7 @@
 964. Least Operators to Express Number
 Hard
 
-Given a single positive integer x, we will write an expression of the form x (op1) x (op2) x (op3) x ...&#xA0;where each operator op1, op2, etc. is either addition, subtraction, multiplication, or division (+, -, *, or /).&#xA0; For example, with x = 3, we might write 3 * 3 / 3 + 3 - 3&#xA0;which is a value of 3.
+Given a single positive integer x, we will write an expression of the form x (op1) x (op2) x (op3) x ... where each operator op1, op2, etc. is either addition, subtraction, multiplication, or division (+, -, *, or /).  For example, with x = 3, we might write 3 * 3 / 3 + 3 - 3 which is a value of 3.
 
 When writing such an expression, we adhere to the following conventions:
 
@@ -12,12 +12,12 @@ When writing such an expression, we adhere to the following conventions:
 	The division operator (/) returns rational numbers.
 	There are no parentheses placed anywhere.
 	We use the usual order of operations: multiplication and division happens before addition and subtraction.
-	It&apos;s not allowed to use the unary negation&#xA0;operator (-).&#xA0; For example, &quot;x&#xA0;- x&quot;&#xA0;is a valid expression as it only uses subtraction, but &quot;-x +&#xA0;x&quot; is not because it uses negation.
+	It's not allowed to use the unary negation operator (-).  For example, "x - x" is a valid expression as it only uses subtraction, but "-x + x" is not because it uses negation.
 
 
-We would like to write an expression with the least number of operators such that the expression equals the given target.&#xA0; Return the least number of operators used.
+We would like to write an expression with the least number of operators such that the expression equals the given target.  Return the least number of operators used.
 
-&#xA0;
+ 
 
 
 Example 1:
@@ -42,7 +42,7 @@ Input: x = 100, target = 100000000
 Output: 3
 Explanation: 100 * 100 * 100 * 100.  The expression contains 3 operations.
 
-&#xA0;
+ 
 
 
 
@@ -50,13 +50,13 @@ Explanation: 100 * 100 * 100 * 100.  The expression contains 3 operations.
 Note:
 
 
-	2 &lt;= x &lt;= 100
-	1 &lt;= target &lt;= 2 * 10^8
+	2 <= x <= 100
+	1 <= target <= 2 * 10^8
 
 
 
 
-&#xA0;
+ 
 */
 
 using System;

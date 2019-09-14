@@ -4,7 +4,7 @@
 724. Find Pivot Index
 Easy
 
-Given an array of integers nums, write a method that returns the &quot;pivot&quot; index of this array.
+Given an array of integers nums, write a method that returns the "pivot" index of this array.
 
 We define the pivot index as the index where the sum of the numbers to the left of the index is equal to the sum of the numbers to the right of the index.
 
@@ -20,7 +20,7 @@ The sum of the numbers to the left of index 3 (nums[3] = 6) is equal to the sum 
 Also, 3 is the first index where this occurs.
 
 
-&#xA0;
+ 
 
 Example 2:
 
@@ -31,7 +31,7 @@ Explanation:
 There is no index that satisfies the conditions in the problem statement.
 
 
-&#xA0;
+ 
 
 Note:
 
@@ -40,7 +40,7 @@ Note:
 	Each element nums[i] will be an integer in the range [-1000, 1000].
 
 
-&#xA0;
+ 
 */
 
 using System;

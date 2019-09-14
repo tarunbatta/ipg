@@ -8,7 +8,7 @@ Given an array with n integers, your task is to check if it could become non-dec
 
 
 
-We define an array is non-decreasing if array[i] &lt;= array[i + 1] holds for every i (1 &lt;= i &lt; n).
+We define an array is non-decreasing if array[i] <= array[i + 1] holds for every i (1 <= i < n).
 
 
 Example 1:
@@ -21,7 +21,7 @@ Explanation: You could modify the first 4 to 1 to get a non-decreasing array.
 Example 2:
 Input: [4,2,1]
 Output: False
-Explanation: You can&apos;t get a non-decreasing array by modify at most one element.
+Explanation: You can't get a non-decreasing array by modify at most one element.
 
 
 

@@ -4,7 +4,7 @@
 419. Battleships in a Board
 Medium
 
-Given an 2D board, count how many battleships are in it. The battleships are represented with &apos;X&apos;s, empty slots are represented with &apos;.&apos;s. You may assume the following rules:
+Given an 2D board, count how many battleships are in it. The battleships are represented with 'X's, empty slots are represented with '.'s. You may assume the following rules:
 
 
 You receive a valid board, made of only battleships or empty slots.

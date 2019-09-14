@@ -11,7 +11,7 @@ The i-th square dropped (positions[i] = (left, side_length)) is a square with th
 The square is dropped with the bottom edge parallel to the number line, and from a higher height than all currently landed squares. We wait for each square to stick before dropping the next.
 
 The squares are infinitely sticky on their bottom edge, and will remain fixed to any positive length surface they touch (either the number line or another square). Squares dropped adjacent to each other will not stick together prematurely.
-&#xA0;
+ 
 
 Return a list ans of heights. Each height ans[i] represents the current highest height of any square we have dropped, after dropping squares represented by positions[0], positions[1], ..., positions[i].
 
@@ -28,27 +28,27 @@ After the second drop of positions[1] = [2, 3]: __aaa __aaa __aaa _aa__ _aa__ --
 
 After the third drop of positions[1] = [6, 1]: __aaa __aaa __aaa _aa _aa___a -------------- The maximum height of any square is still 5. Thus, we return an answer of [2, 5, 5].
 
-&#xA0;
-&#xA0;
+ 
+ 
 
 Example 2:
 
 Input: [[100, 100], [200, 100]]
 Output: [100, 100]
-Explanation: Adjacent squares don&apos;t get stuck prematurely - only their bottom edge can stick to surfaces.
+Explanation: Adjacent squares don't get stuck prematurely - only their bottom edge can stick to surfaces.
 
 
-&#xA0;
+ 
 
 Note:
 
 
-	1 &lt;= positions.length &lt;= 1000.
-	1 &lt;= positions[i][0] &lt;= 10^8.
-	1 &lt;= positions[i][1] &lt;= 10^6.
+	1 <= positions.length <= 1000.
+	1 <= positions[i][0] <= 10^8.
+	1 <= positions[i][1] <= 10^6.
 
 
-&#xA0;
+ 
 */
 
 using System;

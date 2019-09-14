@@ -4,7 +4,7 @@
 238. Product of Array Except Self
 Medium
 
-Given an array nums of n integers where n &gt; 1, &#xA0;return an array output such that output[i] is equal to the product of all the elements of nums except nums[i].
+Given an array nums of n integers where n > 1,  return an array output such that output[i] is equal to the product of all the elements of nums except nums[i].
 
 Example:
 

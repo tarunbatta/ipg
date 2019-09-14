@@ -4,15 +4,15 @@
 1007. Minimum Domino Rotations For Equal Row
 Medium
 
-In a row of dominoes, A[i] and B[i] represent the top and bottom halves of the i-th domino.&#xA0; (A domino is a tile with two numbers from 1 to 6 - one on each half of the tile.)
+In a row of dominoes, A[i] and B[i] represent the top and bottom halves of the i-th domino.  (A domino is a tile with two numbers from 1 to 6 - one on each half of the tile.)
 
 We may rotate the i-th domino, so that A[i] and B[i] swap values.
 
-Return the minimum number of rotations so that all the values in A are the same, or all the values in B&#xA0;are the same.
+Return the minimum number of rotations so that all the values in A are the same, or all the values in B are the same.
 
 If it cannot be done, return -1.
 
-&#xA0;
+ 
 
 Example 1:
 
@@ -33,13 +33,13 @@ Explanation:
 In this case, it is not possible to rotate the dominoes to make one row of values equal.
 
 
-&#xA0;
+ 
 
 Note:
 
 
-	1 &lt;= A[i], B[i] &lt;= 6
-	2 &lt;= A.length == B.length &lt;= 20000
+	1 <= A[i], B[i] <= 6
+	2 <= A.length == B.length <= 20000
 */
 
 using System;

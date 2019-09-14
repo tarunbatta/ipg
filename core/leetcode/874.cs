@@ -4,15 +4,15 @@
 874. Walking Robot Simulation
 Easy
 
-A robot on an infinite grid starts at point (0, 0) and faces north.&#xA0; The robot can receive one of three possible types of commands:
+A robot on an infinite grid starts at point (0, 0) and faces north.  The robot can receive one of three possible types of commands:
 
 
 	-2: turn left 90 degrees
 	-1: turn right 90 degrees
-	1 &lt;= x &lt;= 9: move forward x units
+	1 <= x <= 9: move forward x units
 
 
-Some of the grid squares are obstacles.&#xA0;
+Some of the grid squares are obstacles. 
 
 The i-th obstacle is at grid point (obstacles[i][0], obstacles[i][1])
 
@@ -20,7 +20,7 @@ If the robot would try to move onto them, the robot stays on the previous grid s
 
 Return the square of the maximum Euclidean distance that the robot will be from the origin.
 
-&#xA0;
+ 
 
 Example 1:
 
@@ -38,15 +38,15 @@ Explanation: robot will be stuck at (1, 4) before turning left and going to (1, 
 
 
 
-&#xA0;
+ 
 
 Note:
 
 
-	0 &lt;= commands.length &lt;= 10000
-	0 &lt;= obstacles.length &lt;= 10000
-	-30000 &lt;= obstacle[i][0] &lt;= 30000
-	-30000 &lt;= obstacle[i][1] &lt;= 30000
+	0 <= commands.length <= 10000
+	0 <= obstacles.length <= 10000
+	-30000 <= obstacle[i][0] <= 30000
+	-30000 <= obstacle[i][1] <= 30000
 	The answer is guaranteed to be less than 2 ^ 31.
 */
 

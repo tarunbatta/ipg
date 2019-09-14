@@ -8,40 +8,40 @@ Given a string, sort it in decreasing order based on the frequency of characters
 
 Example 1:
 Input:
-&quot;tree&quot;
+"tree"
 
 Output:
-&quot;eert&quot;
+"eert"
 
 Explanation:
-&apos;e&apos; appears twice while &apos;r&apos; and &apos;t&apos; both appear once.
-So &apos;e&apos; must appear before both &apos;r&apos; and &apos;t&apos;. Therefore &quot;eetr&quot; is also a valid answer.
+'e' appears twice while 'r' and 't' both appear once.
+So 'e' must appear before both 'r' and 't'. Therefore "eetr" is also a valid answer.
 
 
 
 Example 2:
 Input:
-&quot;cccaaa&quot;
+"cccaaa"
 
 Output:
-&quot;cccaaa&quot;
+"cccaaa"
 
 Explanation:
-Both &apos;c&apos; and &apos;a&apos; appear three times, so &quot;aaaccc&quot; is also a valid answer.
-Note that &quot;cacaca&quot; is incorrect, as the same characters must be together.
+Both 'c' and 'a' appear three times, so "aaaccc" is also a valid answer.
+Note that "cacaca" is incorrect, as the same characters must be together.
 
 
 
 Example 3:
 Input:
-&quot;Aabb&quot;
+"Aabb"
 
 Output:
-&quot;bbAa&quot;
+"bbAa"
 
 Explanation:
-&quot;bbaA&quot; is also a valid answer, but &quot;Aabb&quot; is incorrect.
-Note that &apos;A&apos; and &apos;a&apos; are treated as two different characters.
+"bbaA" is also a valid answer, but "Aabb" is incorrect.
+Note that 'A' and 'a' are treated as two different characters.
 */
 
 using System;

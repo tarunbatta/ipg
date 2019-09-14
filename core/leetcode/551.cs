@@ -8,25 +8,25 @@ You are given a string representing an attendance record for a student. The reco
 
 
 
-&apos;A&apos; : Absent. 
-&apos;L&apos; : Late.
- &apos;P&apos; : Present. 
+'A' : Absent. 
+'L' : Late.
+ 'P' : Present. 
 
 
 
 
-A student could be rewarded if his attendance record doesn&apos;t contain more than one &apos;A&apos; (absent) or more than two continuous &apos;L&apos; (late).    
+A student could be rewarded if his attendance record doesn't contain more than one 'A' (absent) or more than two continuous 'L' (late).    
 
 You need to return whether the student could be rewarded according to his attendance record.
 
 Example 1:
-Input: &quot;PPALLP&quot;
+Input: "PPALLP"
 Output: True
 
 
 
 Example 2:
-Input: &quot;PPALLL&quot;
+Input: "PPALLL"
 Output: False
 */
 

@@ -12,12 +12,12 @@ Example:
 
 Input:
 [
-&#xA0; [1,3,1],
+  [1,3,1],
   [1,5,1],
   [4,2,1]
 ]
 Output: 7
-Explanation: Because the path 1&#x2192;3&#x2192;1&#x2192;1&#x2192;1 minimizes the sum.
+Explanation: Because the path 1→3→1→1→1 minimizes the sum.
 */
 
 using System;
