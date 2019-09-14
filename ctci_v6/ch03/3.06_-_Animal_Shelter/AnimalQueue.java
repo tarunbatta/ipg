@@ -3,9 +3,18 @@ import java.util.*;
 abstract class Animal {
   private int order;
   protected String name;
-  public Animal(String n) { name = n; }
-  public void setOrder(int order) { order = order; }
-  public int getOrder() { return order; }
+
+  public Animal(String n) {
+    name = n;
+  }
+
+  public void setOrder(int order) {
+    order = order;
+  }
+
+  public int getOrder() {
+    return order;
+  }
 
   public boolean isOlderThan(Animal a) {
     return this.order < a.getOrder();
@@ -22,9 +31,9 @@ public class AnimalQueue {
     order++;
 
     if (a instanceof Dog)
-      dogs.addLast((Dog)a);
+      dogs.addLast((Dog) a);
     else
-      cats.addLast((Cat)a);
+      cats.addLast((Cat) a);
   }
 
   public Animal dequeueAny() throws EmptyQueueException {
@@ -69,9 +78,13 @@ public class AnimalQueue {
 }
 
 public class Dog extends Animal {
-  public Dog(String n) { super(n); }
+  public Dog(String n) {
+    super(n);
+  }
 }
 
 public class Cat extends Animal {
-  public Cat(String n) { super(n); }
+  public Cat(String n) {
+    super(n);
+  }
 }

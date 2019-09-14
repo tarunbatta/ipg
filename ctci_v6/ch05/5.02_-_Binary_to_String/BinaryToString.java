@@ -1,7 +1,8 @@
 public class BinaryToString {
 
   public static String binaryToString(double x) {
-    if (x > 1 || x < 0) return "ERROR";
+    if (x > 1 || x < 0)
+      return "ERROR";
 
     StringBuilder sb = new StringBuilder();
     sb.append(".");
@@ -10,7 +11,7 @@ public class BinaryToString {
       if (r >= 1) {
         sb.append(1);
         x = r - 1;
-      } else{
+      } else {
         sb.append(0);
         x = r;
       }

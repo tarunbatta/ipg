@@ -1,5 +1,4 @@
-﻿namespace TechByTarun.InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter15
-{
+﻿namespace TechByTarun.InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter15 {
     /// <summary>
     /// Call In Order: Suppose we have the following code:
     /// public class Foo
@@ -13,10 +12,7 @@
     /// threadB will call second, and threadC will call third.Design a mechanism to ensure that
     /// first is called before second and second is called before third.
     /// </summary>
-    public class Question5
-    {
-        public static void Init(string[] args)
-        {
-        }
+    public class Question5 {
+        public static void Init (string[] args) { }
     }
 }

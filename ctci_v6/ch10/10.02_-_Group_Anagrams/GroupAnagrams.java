@@ -37,7 +37,7 @@ public class GroupAnagrams {
   }
 
   public static void main(String[] args) {
-    String[] array = new String[]{"cats", "acre", "atcs", "fried", "race", "axe", "exa", "care"};
+    String[] array = new String[] { "cats", "acre", "atcs", "fried", "race", "axe", "exa", "care" };
     System.out.println(Arrays.toString(array));
     Arrays.sort(array, new AnagramComparator());
     System.out.println(Arrays.toString(array));

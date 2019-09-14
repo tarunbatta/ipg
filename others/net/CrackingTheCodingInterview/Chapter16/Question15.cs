@@ -1,5 +1,4 @@
-﻿namespace TechByTarun.InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter16
-{
+﻿namespace TechByTarun.InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter16 {
     /// <summary>
     /// Master Mind: The Game of Master Mind is played as follows:
     /// The computer has four slots, and each slot will contain a ball that is red(R), yellow(V), green(G) or
@@ -12,10 +11,7 @@
     /// For example, if the actual solution is RGBY and you guess GGRR, you have one hit and one pseudo-hit.
     /// Write a method that, given a guess and a solution, returns the number of hits and pseudo-hits.
     /// </summary>
-    public class Question15
-    {
-        public static void Init(string[] args)
-        {
-        }
+    public class Question15 {
+        public static void Init (string[] args) { }
     }
 }

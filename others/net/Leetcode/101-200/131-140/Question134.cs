@@ -1,5 +1,4 @@
-﻿namespace TechByTarun.InterviewPreperationGuide.App.Leetcode
-{
+﻿namespace TechByTarun.InterviewPreperationGuide.App.Leetcode {
     /// <summary>
     /// There are N gas stations along a circular route, where the amount of gas at station i is gas[i].
     ///
@@ -11,14 +10,10 @@
     /// Note:
     /// The solution is guaranteed to be unique.
     /// </summary>
-    public class Question134
-    {
-        public static void Init(string[] args)
-        {
-        }
+    public class Question134 {
+        public static void Init (string[] args) { }
 
-        public int CanCompleteCircuit(int[] gas, int[] cost)
-        {
+        public int CanCompleteCircuit (int[] gas, int[] cost) {
             return 0;
         }
     }

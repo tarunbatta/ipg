@@ -1,5 +1,4 @@
-﻿namespace TechByTarun.InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter16
-{
+﻿namespace TechByTarun.InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter16 {
     /// <summary>
     /// T9: On old cell phones, users typed on a numeric keypad and the phone would provide a list of
     /// words that matched these numbers.Each digit mapped to a set of 0 - 4 letters.Implement an algorithm
@@ -21,10 +20,7 @@
     /// Input: 8733
     /// Output: tree, used
     /// </summary>
-    public class Question20
-    {
-        public static void Init(string[] args)
-        {
-        }
+    public class Question20 {
+        public static void Init (string[] args) { }
     }
 }

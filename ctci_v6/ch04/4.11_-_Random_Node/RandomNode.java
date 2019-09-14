@@ -4,10 +4,12 @@ class TreeNode {
   int val;
   TreeNode left, right;
   int size = 0;
+
   public TreeNode(int val) {
     this.val = val;
     size = 1;
   }
+
   public TreeNode getRandomNode() {
     int leftSize = (left == null ? 0 : left.size);
     Random random = new Random();

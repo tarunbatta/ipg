@@ -2,6 +2,7 @@ import java.util.*;
 
 public class StackMin extends Stack<Integer> {
   Stack<Integer> s2;
+
   public StackMin() {
     s2 = new Stack<Integer>();
   }
@@ -9,7 +10,7 @@ public class StackMin extends Stack<Integer> {
   public void push(int value) {
     if (value <= min()) {
       s2.push(value);
-    } 
+    }
     super.push(value);
   }
 

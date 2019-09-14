@@ -1,5 +1,4 @@
-﻿namespace TechByTarun.InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter9
-{
+﻿namespace TechByTarun.InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter9 {
     /// <summary>
     /// Stock Data: Imagine you are building some sort of service that will be called by up to 1,000 client
     /// applications to get simple end-of-day stock price information(open, close, high, low). You may
@@ -10,10 +9,7 @@
     /// can use any technologies you wish, and can distribute the information to the client applications in
     /// any mechanism you choose.
     /// </summary>
-    public class Question1
-    {
-        public static void Init(string[] args)
-        {
-        }
+    public class Question1 {
+        public static void Init (string[] args) { }
     }
 }

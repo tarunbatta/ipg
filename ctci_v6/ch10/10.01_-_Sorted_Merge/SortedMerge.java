@@ -16,9 +16,10 @@ public class SortedMerge {
       indexMerged--;
     }
   }
+
   public static void main(String[] args) {
-    int[] a = new int[]{1, 4, 7, 8, 9, 15, -1, -1, -1, -1, -1, -1};
-    int[] b = new int[]{2, 3, 5, 11, 12, 16};
+    int[] a = new int[] { 1, 4, 7, 8, 9, 15, -1, -1, -1, -1, -1, -1 };
+    int[] b = new int[] { 2, 3, 5, 11, 12, 16 };
     int lastA = 6;
     int lastB = 6;
     merge(a, b, lastA, lastB);

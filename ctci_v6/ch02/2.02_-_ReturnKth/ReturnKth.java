@@ -4,9 +4,11 @@ public class ReturnKth {
   public static class Node {
     Node next;
     char val;
+
     public Node(char val) {
       this.val = val;
     }
+
     public String toString() {
       StringBuilder sb = new StringBuilder();
       Node temp = this;
@@ -17,6 +19,7 @@ public class ReturnKth {
       return sb.toString();
     }
   }
+
   public static Node returnKth(Node node, int k) {
     k--;
     Node first = node;
@@ -29,6 +32,7 @@ public class ReturnKth {
     }
     return first;
   }
+
   public static void main(String[] args) {
     Node a = new Node('a');
     Node b = new Node('b');

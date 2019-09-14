@@ -4,9 +4,11 @@ public class RemoveDups {
   public static class Node {
     Node next;
     char val;
+
     public Node(char val) {
       this.val = val;
     }
+
     public String toString() {
       StringBuilder sb = new StringBuilder();
       Node temp = this;
@@ -17,6 +19,7 @@ public class RemoveDups {
       return sb.toString();
     }
   }
+
   public static void removeDupes(Node node) {
     Set<Character> set = new HashSet<Character>();
     set.add(node.val);
@@ -25,14 +28,14 @@ public class RemoveDups {
     while (temp != null) {
       if (set.contains(temp.val)) {
         prev.next = temp.next;
-      }
-      else {
+      } else {
         set.add(temp.val);
         prev = temp;
       }
       temp = temp.next;
     }
   }
+
   public static void main(String[] args) {
     Node a = new Node('F');
     Node b = new Node('O');

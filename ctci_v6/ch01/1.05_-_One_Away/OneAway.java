@@ -38,11 +38,11 @@ public class OneAway {
   }
 
   public static void main(String[] args) {
-    System.out.println(oneAway("pale",  "ple") ? "true" : "false"); 
-    System.out.println(oneAway("pales", "pale") ? "true" : "false"); 
-    System.out.println(oneAway("pale",  "bale") ? "true" : "false"); 
-    System.out.println(oneAway("ale",   "bale") ? "true" : "false"); 
-    System.out.println(oneAway("xale",  "xal") ? "true" : "false"); 
-    System.out.println(oneAway("pale",  "bake") ? "true" : "false"); 
+    System.out.println(oneAway("pale", "ple") ? "true" : "false");
+    System.out.println(oneAway("pales", "pale") ? "true" : "false");
+    System.out.println(oneAway("pale", "bale") ? "true" : "false");
+    System.out.println(oneAway("ale", "bale") ? "true" : "false");
+    System.out.println(oneAway("xale", "xal") ? "true" : "false");
+    System.out.println(oneAway("pale", "bake") ? "true" : "false");
   }
 }

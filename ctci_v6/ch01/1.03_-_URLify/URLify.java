@@ -9,7 +9,7 @@ public class URLify {
       if (chars[i] == ' ') {
         chars[end - 2] = '%';
         chars[end - 1] = '2';
-        chars[end]     = '0';
+        chars[end] = '0';
         end -= 3;
       } else {
         chars[end] = chars[i];
@@ -30,5 +30,5 @@ public class URLify {
   public static void main(String[] args) throws IOException {
     char[] chars = "Mr John Smith    ".toCharArray();
     System.out.println(URLify(chars, 13));
-  } 
+  }
 }

@@ -4,9 +4,11 @@ public class LoopDetection {
   public static class Node {
     Node next;
     int val;
+
     public Node(int val) {
       this.val = val;
     }
+
     public String toString() {
       return this.val + "";
     }

@@ -34,7 +34,7 @@ public class CircularArray<T> implements Iterable<T> {
     return new CircularArrayIterator<T>(this);
   }
 
-  private class CircularArrayIterator<TI> implements Iterator<TI>{
+  private class CircularArrayIterator<TI> implements Iterator<TI> {
     private int _current = -1;
     private TI[] _items;
 

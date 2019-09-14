@@ -3,7 +3,7 @@ public class SortedSearch {
     int index = 1;
     while (index < arr.length && arr[index] < val) {
       index *= 2;
-    } 
+    }
     return binarySearch(arr, val, index / 2, index);
   }
 
@@ -22,8 +22,8 @@ public class SortedSearch {
   }
 
   public static void main(String[] args) {
-    System.out.println(search(new int[]{1, 2, 5, 8, 24, 35}, 24));
-    System.out.println(search(new int[]{1, 2, 5, 8, 24, 35}, 1));
-    System.out.println(search(new int[]{1, 2, 5, 8, 24, 35}, 35));
+    System.out.println(search(new int[] { 1, 2, 5, 8, 24, 35 }, 24));
+    System.out.println(search(new int[] { 1, 2, 5, 8, 24, 35 }, 1));
+    System.out.println(search(new int[] { 1, 2, 5, 8, 24, 35 }, 35));
   }
 }

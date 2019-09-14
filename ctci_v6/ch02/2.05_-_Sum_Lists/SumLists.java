@@ -4,9 +4,11 @@ public class SumLists {
   public static class Node {
     Node next;
     int val;
+
     public Node(int val) {
       this.val = val;
     }
+
     @Override
     public String toString() {
       StringBuilder sb = new StringBuilder();
@@ -31,9 +33,7 @@ public class SumLists {
       value += b.val;
     Node result = new Node(value % 10);
     if (a != null || b != null) {
-      Node next = nodeSum(a == null ? null : a.next,
-                          b == null ? null : b.next,
-                          value / 10);
+      Node next = nodeSum(a == null ? null : a.next, b == null ? null : b.next, value / 10);
       result.next = next;
     }
     return result;
@@ -45,7 +45,7 @@ public class SumLists {
     Node c = new Node(6);
     a.next = b;
     b.next = c;
-    
+
     Node d = new Node(5);
     Node e = new Node(9);
     Node f = new Node(2);

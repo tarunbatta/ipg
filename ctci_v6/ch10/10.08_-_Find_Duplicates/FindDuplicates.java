@@ -13,8 +13,9 @@ public class FindDuplicates {
     }
     return duplicates;
   }
+
   public static void main(String[] args) {
-    int[] arr = new int[]{1, 2, 3, 4, 5, 5, 6, 7, 8, 8};
+    int[] arr = new int[] { 1, 2, 3, 4, 5, 5, 6, 7, 8, 8 };
     List<Integer> duplicates = findDuplicates(arr);
     for (int num : duplicates)
       System.out.println(num);

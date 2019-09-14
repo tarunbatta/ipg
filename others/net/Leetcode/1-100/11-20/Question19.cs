@@ -1,5 +1,4 @@
-﻿namespace TechByTarun.InterviewPreperationGuide.App.Leetcode
-{
+﻿namespace TechByTarun.InterviewPreperationGuide.App.Leetcode {
     /// <summary>
     /// Remove Nth Node From End of List
     /// https://leetcode.com/problems/remove-nth-node-from-end-of-list/
@@ -16,19 +15,16 @@
     ///
     /// Try to do this in one pass.
     /// </summary>
-    public class Question19
-    {
-        public static void Init(string[] args)
-        {
-            Program.PrintListNode(RemoveNthFromEnd(null, 0));
-            Program.PrintLine();
-            Program.PrintListNode(RemoveNthFromEnd(null, 0));
-            Program.PrintLine();
-            Program.PrintListNode(RemoveNthFromEnd(null, 0));
+    public class Question19 {
+        public static void Init (string[] args) {
+            Program.PrintListNode (RemoveNthFromEnd (null, 0));
+            Program.PrintLine ();
+            Program.PrintListNode (RemoveNthFromEnd (null, 0));
+            Program.PrintLine ();
+            Program.PrintListNode (RemoveNthFromEnd (null, 0));
         }
 
-        public static ListNode RemoveNthFromEnd(ListNode head, int n)
-        {
+        public static ListNode RemoveNthFromEnd (ListNode head, int n) {
             return null;
         }
     }

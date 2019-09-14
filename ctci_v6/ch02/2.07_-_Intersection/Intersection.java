@@ -4,9 +4,11 @@ public class Intersection {
   public static class Node {
     Node next;
     int val;
+
     public Node(int val) {
       this.val = val;
     }
+
     public String toString() {
       StringBuilder sb = new StringBuilder();
       Node temp = this;

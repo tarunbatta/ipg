@@ -1,5 +1,4 @@
-﻿namespace TechByTarun.InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter17
-{
+﻿namespace TechByTarun.InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter17 {
     /// <summary>
     /// Re-Space: Oh, no! You have accidentally removed all spaces, punctuation, and capitalization in a
     /// lengthy document.A sentence Iike"I reset the computer. It still didn't boot!"
@@ -11,10 +10,7 @@
     /// Input jesslookedjustliketimherbrother
     /// Output: jess looked just like tim her brother(7 unrecognized characters)
     /// </summary>
-    internal class Question13
-    {
-        public static void Init(string[] args)
-        {
-        }
+    internal class Question13 {
+        public static void Init (string[] args) { }
     }
 }

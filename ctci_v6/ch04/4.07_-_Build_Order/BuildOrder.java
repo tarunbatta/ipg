@@ -27,7 +27,7 @@ public class BuildOrder {
     for (int i = 0; i < E; i++) {
       int edge1 = dependencies[i][0];
       int edge2 = dependencies[i][1];
-      matrix[edge2][edge1] = 1; 
+      matrix[edge2][edge1] = 1;
     }
     for (int i = 0; i < V; i++) {
       if (visited[i] == 0)
@@ -35,9 +35,10 @@ public class BuildOrder {
     }
     return out;
   }
+
   public static void main(String[] args) {
-    int[] projects1 = new int[]{1, 2, 3, 4, 5, 6};
-    int[][] dependencies1 = new int[][]{{3, 0}, {1, 5}, {3, 1}, {0, 5}, {2, 3}};
+    int[] projects1 = new int[] { 1, 2, 3, 4, 5, 6 };
+    int[][] dependencies1 = new int[][] { { 3, 0 }, { 1, 5 }, { 3, 1 }, { 0, 5 }, { 2, 3 } };
     int V = 6;
     int E = 5;
     List<Integer> list = build(projects1, dependencies1, V, E);

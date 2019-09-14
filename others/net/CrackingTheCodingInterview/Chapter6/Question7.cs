@@ -1,5 +1,4 @@
-﻿namespace TechByTarun.InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter6
-{
+﻿namespace TechByTarun.InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter6 {
     /// <summary>
     /// The Apocalypse: In the new post-apocalyptic world, the world queen is desperately concerned
     /// about the birth rate.Therefore, she decrees that all families should ensure that they have one girl or
@@ -8,10 +7,7 @@
     /// of the new generation be? (Assume that the odds of someone having a boy or a girl on any given
     /// pregnancy is equal.) Solve this out logically and then write a computer simulation of it.
     /// </summary>
-    public class Question7
-    {
-        public static void Init(string[] args)
-        {
-        }
+    public class Question7 {
+        public static void Init (string[] args) { }
     }
 }

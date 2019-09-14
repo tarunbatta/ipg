@@ -3,6 +3,7 @@ public class CheckSubtree {
     public Node left;
     public Node right;
     public int val;
+
     public Node(int val) {
       this.val = val;
     }
@@ -21,8 +22,7 @@ public class CheckSubtree {
       return false;
     else if (T1.val == T2.val && matchTree(T1, T2))
       return true;
-    return subTree(T1.left, T2) ||
-           subTree(T1.right, T2);
+    return subTree(T1.left, T2) || subTree(T1.right, T2);
   }
 
   public boolean matchTree(Node T1, Node T2) {
@@ -33,7 +33,6 @@ public class CheckSubtree {
     else if (T1.val != T2.val)
       return false;
     else
-      return matchTree(T1.left, T2.left) &&
-             matchTree(T1.right, T2.right);
+      return matchTree(T1.left, T2.left) && matchTree(T1.right, T2.right);
   }
 }

@@ -1,7 +1,6 @@
 ﻿using System;
 
-namespace TechByTarun.InterviewPreperationGuide.App.Leetcode
-{
+namespace TechByTarun.InterviewPreperationGuide.App.Leetcode {
     /// <summary>
     /// House Robber III
     /// https://leetcode.com/problems/house-robber-iii/
@@ -30,53 +29,47 @@ namespace TechByTarun.InterviewPreperationGuide.App.Leetcode
     ///     1   3   1
     /// Maximum amount of money the thief can rob = 4 + 5 = 9.
     /// </summary>
-    public class Question337
-    {
-        public static void Init(string[] args)
-        {
-            TreeNode node_a = new TreeNode(3);
-            node_a.left = new TreeNode(2);
-            node_a.right = new TreeNode(3);
-            node_a.left.right = new TreeNode(3);
-            node_a.right.right = new TreeNode(1);
-            Console.WriteLine(Rob(node_a));
+    public class Question337 {
+        public static void Init (string[] args) {
+            TreeNode node_a = new TreeNode (3);
+            node_a.left = new TreeNode (2);
+            node_a.right = new TreeNode (3);
+            node_a.left.right = new TreeNode (3);
+            node_a.right.right = new TreeNode (1);
+            Console.WriteLine (Rob (node_a));
 
-            Program.PrintLine();
+            Program.PrintLine ();
 
-            TreeNode node_b = new TreeNode(3);
-            node_b.left = new TreeNode(4);
-            node_b.right = new TreeNode(5);
-            node_b.left.left = new TreeNode(1);
-            node_b.left.right = new TreeNode(3);
-            node_b.right.right = new TreeNode(1);
-            Console.WriteLine(Rob(node_b));
+            TreeNode node_b = new TreeNode (3);
+            node_b.left = new TreeNode (4);
+            node_b.right = new TreeNode (5);
+            node_b.left.left = new TreeNode (1);
+            node_b.left.right = new TreeNode (3);
+            node_b.right.right = new TreeNode (1);
+            Console.WriteLine (Rob (node_b));
         }
 
-        public static int Rob(TreeNode root)
-        {
-            if (root == null)
-            {
+        public static int Rob (TreeNode root) {
+            if (root == null) {
                 return 0;
             }
 
-            int[] result = RobHelper(root);
-            return Math.Max(result[0], result[1]);
+            int[] result = RobHelper (root);
+            return Math.Max (result[0], result[1]);
         }
 
-        public static int[] RobHelper(TreeNode node)
-        {
-            if (node == null)
-            {
+        public static int[] RobHelper (TreeNode node) {
+            if (node == null) {
                 return new int[] { 0, 0 };
             }
 
             int[] result = new int[2];
-            int[] left = RobHelper(node.left);
-            int[] right = RobHelper(node.right);
+            int[] left = RobHelper (node.left);
+            int[] right = RobHelper (node.right);
 
             // 0 index when root node is included
             result[0] = node.val + left[1] + right[1];
-            result[1] = Math.Max(left[0], left[1]) + Math.Max(right[0], right[1]);
+            result[1] = Math.Max (left[0], left[1]) + Math.Max (right[0], right[1]);
 
             return result;
         }

@@ -1,4 +1,4 @@
-public class Hand <T extends Card> {
+public class Hand<T extends Card> {
   protected ArrayList<T> cards = new ArrayList<T>();
 
   public int score() {

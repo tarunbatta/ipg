@@ -8,6 +8,7 @@ class Node {
   public Node left;
   public Node right;
   public int val;
+
   public Node(int val) {
     this.val = val;
   }
@@ -15,18 +16,20 @@ class Node {
 
 public class BSTSequences {
   public static void weaveLists(LinkedList<Integer> first, LinkedList<Integer> second,
-                                ArrayList<LinkedList<Integer>> results, LinkedList<Integer> prefix) {
+      ArrayList<LinkedList<Integer>> results, LinkedList<Integer> prefix) {
     /* One list is empty. Add resmainer to [a cloned] prefix and store result. */
     if (first.size() == 0 || second.size() == 0) {
-      LinkedList<Integer> result = (LinkedList<Integer>)prefix.clone();
+      LinkedList<Integer> result = (LinkedList<Integer>) prefix.clone();
       result.addAll(first);
       result.addAll(second);
       results.add(result);
       return;
     }
 
-    /* Recurse with head of first added to the prefix. Removing the head will damage first,
-     * so we'll need to put it back where we found it after. */
+    /*
+     * Recurse with head of first added to the prefix. Removing the head will damage
+     * first, so we'll need to put it back where we found it after.
+     */
     int headFirst = first.removeFirst();
     prefix.addLast(headFirst);
     weaveLists(first, second, results, prefix);
@@ -49,11 +52,11 @@ public class BSTSequences {
       list.add(new LinkedList<Integer>());
       return list;
     }
-    
+
     LinkedList<Integer> prefix = new LinkedList<Integer>();
     prefix.add(root.val);
-    
-    ArrayList<LinkedList<Integer>> leftList  = bstSequences(root.left);
+
+    ArrayList<LinkedList<Integer>> leftList = bstSequences(root.left);
     ArrayList<LinkedList<Integer>> rightList = bstSequences(root.right);
 
     /* Weave together each list from the left and right sides */
@@ -68,14 +71,9 @@ public class BSTSequences {
   }
 
   public static void main(String[] args) {
-   /*           50
-    *          /  \
-    *         20   60
-    *        / \     \
-    *       10  25    70
-    *      /  \       / \
-    *     5    15    65  80
-    */
+    /*
+     * 50 / \ 20 60 / \ \ 10 25 70 / \ / \ 5 15 65 80
+     */
     Node a = new Node(50);
     Node b = new Node(20);
     Node c = new Node(60);
@@ -99,10 +97,9 @@ public class BSTSequences {
     for (LinkedList sequence : lists)
       System.out.println(sequence);
 
-   /*           2
-    *          / \
-    *         1   3
-    */
+    /*
+     * 2 / \ 1 3
+     */
     a = new Node(2);
     b = new Node(1);
     c = new Node(3);

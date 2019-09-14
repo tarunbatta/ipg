@@ -1,5 +1,4 @@
-﻿namespace TechByTarun.InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter15
-{
+﻿namespace TechByTarun.InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter15 {
     /// <summary>
     /// Dining Philosophers: In the famous dining philosophers problem, a bunch of philosophers are
     /// sitting around a circular table with one chopstick between each of them.A philosopher needs
@@ -7,10 +6,7 @@
     /// could potentially occur if all the philosophers reached for the left chopstick at the same time.
     /// Using threads and locks, implement a simulation of the dining philosophers problem that prevents deadlocks.
     /// </summary>
-    public class Question3
-    {
-        public static void Init(string[] args)
-        {
-        }
+    public class Question3 {
+        public static void Init (string[] args) { }
     }
 }

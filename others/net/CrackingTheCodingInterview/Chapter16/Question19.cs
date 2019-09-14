@@ -1,5 +1,4 @@
-﻿namespace TechByTarun.InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter16
-{
+﻿namespace TechByTarun.InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter16 {
     /// <summary>
     /// Pond Sizes: You have an integer matrix representing a plot of land, where the value at that location
     /// represents the height above sea level.A value of zero indicates water.A pond is a region of
@@ -13,10 +12,7 @@
     /// 0 1 0 1
     /// Output: 2, 4, 1 (in any order)
     /// </summary>
-    public class Question19
-    {
-        public static void Init(string[] args)
-        {
-        }
+    public class Question19 {
+        public static void Init (string[] args) { }
     }
 }

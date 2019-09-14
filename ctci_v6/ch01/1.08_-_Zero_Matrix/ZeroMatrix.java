@@ -14,24 +14,20 @@ public class ZeroMatrix {
         }
       }
     }
-    
+
     for (int i = 0; i < m; i++) {
       for (int j = 0; j < n; j++) {
         if (row[i] == true || col[j] == true)
           matrix[i][j] = 0;
       }
     }
-    
+
     return;
   }
+
   public static void main(String[] args) {
-    int[][] matrix = new int[][]{
-      {0, 1, 1, 1, 0},
-      {1, 0, 1, 0, 1},
-      {1, 1, 1, 1, 1},
-      {1, 0, 1, 1, 1},
-      {1, 1, 1, 1, 1}
-    };
+    int[][] matrix = new int[][] { { 0, 1, 1, 1, 0 }, { 1, 0, 1, 0, 1 }, { 1, 1, 1, 1, 1 }, { 1, 0, 1, 1, 1 },
+        { 1, 1, 1, 1, 1 } };
     for (int i = 0; i < matrix.length; i++)
       System.out.println(Arrays.toString(matrix[i]));
     zero(matrix);

@@ -8,12 +8,12 @@ Assumptions
 - There may be “multiple” words blended in.
 - Letter is the word must be in the same order in the blended string and the original words.
 */
-(function () {
+(function() {
     /*
     Time Complexity: 
     Space Complexity: 
     */
-    var extractingWordsFromBlender = function (str) {
+    var extractingWordsFromBlender = function(str) {
         var result = [];
 
         if (str != null && str.length > 0) {
@@ -41,14 +41,14 @@ Assumptions
         this.root = new Node('');
     }
 
-    Trie.prototype.add = function (word) {
+    Trie.prototype.add = function(word) {
         if (!this.root) {
             return null;
         }
         this._addNode(this.root, word);
     };
 
-    Trie.prototype._addNode = function (node, word) {
+    Trie.prototype._addNode = function(node, word) {
         if (!node || !word) {
             return null;
         }
@@ -66,14 +66,14 @@ Assumptions
         this._addNode(child, remainder);
     };
 
-    Trie.prototype.contains = function (word) {
+    Trie.prototype.contains = function(word) {
         if (!this.root) {
             return false;
         }
         return this._contains(this.root, word);
     };
 
-    Trie.prototype._contains = function (node, word) {
+    Trie.prototype._contains = function(node, word) {
         if (!node || !word) {
             return false;
         }

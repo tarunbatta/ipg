@@ -6,12 +6,12 @@ Given two numbers (both prime) print the path from the first prime number to the
 Eg: 2, 13
 Output: 2 > 3 > 13
 */
-(function () {
+(function() {
     /*
     Time Complexity: 
     Space Complexity: 
     */
-    var arithmeticPathProblem = function (num1, num2) {
+    var arithmeticPathProblem = function(num1, num2) {
         var result = null;
 
         if (num1 != null && num1 > 0 && num2 != null && num2 > 0) {

@@ -4,9 +4,11 @@ public class DeleteMiddle {
   public static class Node {
     Node next;
     char val;
+
     public Node(char val) {
       this.val = val;
     }
+
     public String toString() {
       StringBuilder sb = new StringBuilder();
       Node temp = this;

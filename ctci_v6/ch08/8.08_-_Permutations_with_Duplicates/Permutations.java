@@ -1,15 +1,16 @@
 import java.util.*;
+
 public class Permutations {
   public static Set<String> permute(String str) {
     return permuteHelper(str, str.length());
-  } 
+  }
 
   public static Set<String> permuteHelper(String str, int i) {
     Set<String> ret = new HashSet<String>();
     if (i == 0) {
       ret.add("");
     } else {
-      Set<String> prev = permuteHelper(str, i-1);
+      Set<String> prev = permuteHelper(str, i - 1);
       for (String a : prev) {
         Set<String> lst = insertInto(a, str.charAt(i - 1));
         ret.addAll(lst);
@@ -17,7 +18,7 @@ public class Permutations {
     }
     return ret;
   }
-  
+
   public static Set<String> insertInto(String a, char b) {
     Set<String> ret = new HashSet<String>();
     for (int i = 0; i < a.length(); i++) {
@@ -30,7 +31,7 @@ public class Permutations {
 
   public static void main(String[] args) {
     Set<String> permutations = permute("aaaaaab");
-    for (String p : permutations) 
+    for (String p : permutations)
       System.out.println(p);
   }
 }

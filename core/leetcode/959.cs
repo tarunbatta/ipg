@@ -104,13 +104,13 @@ Note:
 using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution959 {
-    public class Solution {
-        public void Init () {
+  public class Solution {
+    public void Init () {
 
-        }
-
-        public int RegionsBySlashes (string[] grid) {
-            return 0;
-        }
     }
+
+    public int RegionsBySlashes (string[] grid) {
+      return 0;
+    }
+  }
 }

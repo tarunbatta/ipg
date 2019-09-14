@@ -1,7 +1,7 @@
 public class Graph {
   public Node vertices[];
   public int count;
-  
+
   public Graph() {
     count = 0;
   }

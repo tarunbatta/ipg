@@ -4,9 +4,11 @@ public class Partition {
   public static class Node {
     Node next;
     int val;
+
     public Node(int val) {
       this.val = val;
     }
+
     public String toString() {
       StringBuilder sb = new StringBuilder();
       Node temp = this;
@@ -54,7 +56,7 @@ public class Partition {
       prev = temp;
       temp = next;
     }
-    
+
     less.next = moreHead;
     return lessHead;
   }

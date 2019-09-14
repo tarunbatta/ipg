@@ -24,8 +24,8 @@ public class MagicIndex {
   }
 
   public static void main(String[] args) {
-    int[] arr = new int[]{-5, -2, 1, 3, 5, 9}; // arr[3] = 3
-    int[] arr2 = new int[]{-5, -2, 1, 2, 3, 5}; // arr[5] = 5
+    int[] arr = new int[] { -5, -2, 1, 3, 5, 9 }; // arr[3] = 3
+    int[] arr2 = new int[] { -5, -2, 1, 2, 3, 5 }; // arr[5] = 5
     System.out.println(magicSlow(arr));
     System.out.println(magicFast(arr2, 0, arr2.length - 1));
   }

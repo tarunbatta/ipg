@@ -1,5 +1,4 @@
-﻿namespace TechByTarun.InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter17
-{
+﻿namespace TechByTarun.InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter17 {
     /// <summary>
     /// BiNode: Consider a simple data structure called BiNode, which has pointers to two other nodes.
     /// public class BiNode
@@ -13,10 +12,7 @@
     /// BiNode) into a doubly linked list.The values should be kept in order and the operation should be
     /// performed in place(that is, on the original data structure).
     /// </summary>
-    public class Question12
-    {
-        public static void Init(string[] args)
-        {
-        }
+    public class Question12 {
+        public static void Init (string[] args) { }
     }
 }

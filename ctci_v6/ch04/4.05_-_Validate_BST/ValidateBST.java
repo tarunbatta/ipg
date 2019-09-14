@@ -10,7 +10,6 @@ public class ValidateBST {
     if (root.val < min || root.val >= max)
       return false;
 
-    return validateBST(root.left, min, root.val) &&
-           validateBST(root.right, root.val, max);
+    return validateBST(root.left, min, root.val) && validateBST(root.right, root.val, max);
   }
 }

@@ -1,5 +1,4 @@
-﻿namespace TechByTarun.InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter9
-{
+﻿namespace TechByTarun.InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter9 {
     /// <summary>
     /// Cache: Imagine a web server for a simplified search engine. This system has 100 machines to
     /// respond to search queries, which may then call out using processSearch(string query) to
@@ -8,10 +7,7 @@
     /// same request.The method processSearch is very expensive. Design a caching mechanism for
     /// the most recent queries. Be sure to explain how you would update the cache when data changes.
     /// </summary>
-    public class Question5
-    {
-        public static void Init(string[] args)
-        {
-        }
+    public class Question5 {
+        public static void Init (string[] args) { }
     }
 }

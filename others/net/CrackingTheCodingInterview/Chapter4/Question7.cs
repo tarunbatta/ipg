@@ -1,5 +1,4 @@
-﻿namespace TechByTarun.InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter4
-{
+﻿namespace TechByTarun.InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter4 {
     /// <summary>
     /// Build Order: You are given a list of projects and a list of dependencies (which is a list of pairs of
     /// projects, where the second project is dependent on the first project). All of a project's dependencies
@@ -11,10 +10,7 @@
     /// dependencies: (a, d), (f, b), (b, d), (f, a), (d, c)
     /// Output: f, e, a, b, d, c
     /// </summary>
-    public class Question7
-    {
-        public static void Init(string[] args)
-        {
-        }
+    public class Question7 {
+        public static void Init (string[] args) { }
     }
 }

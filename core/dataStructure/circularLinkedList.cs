@@ -1,61 +1,49 @@
 using System;
 
-namespace InterviewPreperationGuide.Core.DataStructure.CircularLinkedList
-{
-    public class Node
-    {
+namespace InterviewPreperationGuide.Core.DataStructure.CircularLinkedList {
+    public class Node {
         public object data;
         public Node prev;
         public Node next;
 
-        public Node()
-        {
+        public Node () {
             this.data = null;
             this.prev = null;
             this.next = null;
         }
 
-        public Node(object item)
-        {
+        public Node (object item) {
             this.data = item;
             this.prev = null;
             this.next = null;
         }
     }
 
-    public class CircularLinkedList
-    {
+    public class CircularLinkedList {
         public Node head;
 
-        public CircularLinkedList()
-        {
+        public CircularLinkedList () {
             this.head = null;
         }
 
-        public bool IsEmpty()
-        {
+        public bool IsEmpty () {
             return (head.next == null);
         }
 
-        public void Display()
-        {
+        public void Display () {
             Node current = head.next;
 
-            while (current != head)
-            {
-                Console.WriteLine(current.data.ToString());
+            while (current != head) {
+                Console.WriteLine (current.data.ToString ());
                 current = current.next;
             }
         }
 
-        public Node Find(object item)
-        {
+        public Node Find (object item) {
             Node current = head.next;
 
-            while (current != head)
-            {
-                if (current.data == item)
-                {
+            while (current != head) {
+                if (current.data == item) {
                     return current;
                 }
 
@@ -65,59 +53,49 @@ namespace InterviewPreperationGuide.Core.DataStructure.CircularLinkedList
             return null;
         }
 
-        public Node FindPrevious(object item)
-        {
+        public Node FindPrevious (object item) {
             Node current = head.next;
 
-            while (current != head && current.next.data != item)
-            {
+            while (current != head && current.next.data != item) {
                 current = current.next;
             }
 
-            if (current == head.next)
-            {
+            if (current == head.next) {
                 current = null;
             }
 
             return current;
         }
 
-        public void Insert(object item, Node after)
-        {
-            Node newNode = new Node(item);
-            Node current = Find(after.data);
+        public void Insert (object item, Node after) {
+            Node newNode = new Node (item);
+            Node current = Find (after.data);
 
-            if (current != null)
-            {
+            if (current != null) {
                 newNode.prev = current;
                 newNode.next = current.next;
                 current.next = newNode;
             }
         }
 
-        public Node Previous(object item)
-        {
+        public Node Previous (object item) {
             Node current = head;
 
-            while (current.next != null && current.next.data != item)
-            {
+            while (current.next != null && current.next.data != item) {
                 current = current.next;
             }
 
-            if (current == head)
-            {
+            if (current == head) {
                 current = null;
             }
 
             return current;
         }
 
-        public void Remove(object item)
-        {
-            Node current = FindPrevious(item);
+        public void Remove (object item) {
+            Node current = FindPrevious (item);
 
-            if (current.next != null)
-            {
+            if (current.next != null) {
                 current.next = current.next.next;
             }
         }

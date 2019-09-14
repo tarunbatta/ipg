@@ -1,5 +1,4 @@
-﻿namespace TechByTarun.InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter2
-{
+﻿namespace TechByTarun.InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter2 {
     /// <summary>
     /// Loop Detection: Given a circular linked list, implement an algorithm that returns the node at the
     /// beginning of the loop.
@@ -10,10 +9,7 @@
     /// Input: A -) B -) C -) 0 -) E - ) C[thesameCasearlierl
     /// Output: C
     /// </summary>
-    internal class Question8
-    {
-        public static void Init(string[] args)
-        {
-        }
+    internal class Question8 {
+        public static void Init (string[] args) { }
     }
 }

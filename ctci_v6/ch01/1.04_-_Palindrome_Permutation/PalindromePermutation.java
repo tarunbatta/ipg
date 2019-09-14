@@ -23,6 +23,7 @@ public class PalindromePermutation {
     else
       return true;
   }
+
   public static void main(String[] args) {
     System.out.println(permuteHash("Tact Coa") ? "True" : "False");
     System.out.println(permuteHash("test") ? "True" : "False");

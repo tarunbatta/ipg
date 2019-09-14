@@ -1,37 +1,28 @@
 ﻿using System;
 
-namespace TechByTarun.InterviewPreperationGuide.App.PracticeQuestions
-{
+namespace TechByTarun.InterviewPreperationGuide.App.PracticeQuestions {
     /// <summary>
     /// Write a function to find all permutations of a string
     /// </summary>
-    public class Question15
-    {
-        public static void Init(string[] args)
-        {
-            GetPermutations(null);
-            Program.PrintLine();
-            GetPermutations("abcd");
+    public class Question15 {
+        public static void Init (string[] args) {
+            GetPermutations (null);
+            Program.PrintLine ();
+            GetPermutations ("abcd");
         }
 
-        private static void GetPermutations(string input)
-        {
-            GetPermutations(input, string.Empty);
+        private static void GetPermutations (string input) {
+            GetPermutations (input, string.Empty);
         }
 
-        private static void GetPermutations(string input, string prefix)
-        {
-            if (!string.IsNullOrEmpty(input))
-            {
-                for (int i = 0; i < input.Length; i++)
-                {
-                    string remaining = input.Substring(0, i) + input.Substring(i + 1);
-                    GetPermutations(remaining, prefix + (input[i]).ToString());
+        private static void GetPermutations (string input, string prefix) {
+            if (!string.IsNullOrEmpty (input)) {
+                for (int i = 0; i < input.Length; i++) {
+                    string remaining = input.Substring (0, i) + input.Substring (i + 1);
+                    GetPermutations (remaining, prefix + (input[i]).ToString ());
                 }
-            }
-            else
-            {
-                Console.WriteLine(prefix);
+            } else {
+                Console.WriteLine (prefix);
             }
         }
     }

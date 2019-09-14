@@ -2,6 +2,7 @@ public class SortedMatrixSearch {
   public static class Element {
     public int row;
     public int col;
+
     public Element(int row, int col) {
       this.row = row;
       this.col = col;
@@ -23,12 +24,7 @@ public class SortedMatrixSearch {
   }
 
   public static void main(String[] args) {
-    int[][] matrix = new int[][]{
-      {15, 20, 40, 85},
-      {20, 35, 80, 95},
-      {30, 55, 95, 105},
-      {40, 80, 100, 120}
-    };
+    int[][] matrix = new int[][] { { 15, 20, 40, 85 }, { 20, 35, 80, 95 }, { 30, 55, 95, 105 }, { 40, 80, 100, 120 } };
     Element e = findElement(matrix, 55);
     if (e == null)
       System.out.println("Element not found");

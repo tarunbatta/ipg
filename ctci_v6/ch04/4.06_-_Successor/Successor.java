@@ -1,15 +1,18 @@
 public class Successor {
-  public static class TreeNode { 
+  public static class TreeNode {
     public int val;
     public TreeNode right;
     public TreeNode left;
     public TreeNode parent;
+
     public TreeNode(int val) {
       this.val = val;
     }
   }
+
   public static TreeNode successor(TreeNode n) {
-    if (n == null) return null;
+    if (n == null)
+      return null;
 
     if (n.right != null) {
       return leftMostChild(n.right);
@@ -25,7 +28,8 @@ public class Successor {
   }
 
   public static TreeNode leftMostChild(TreeNode n) {
-    if (n == null) return null;
+    if (n == null)
+      return null;
     while (n.left != null) {
       n = n.left;
     }
@@ -33,13 +37,8 @@ public class Successor {
   }
 
   public static void main(String[] args) {
-    /*        20
-     *       /  \
-     *      10   30
-     *     /  \ 
-     *    5    15 
-     *   / \     \
-     *  3   7     17
+    /*
+     * 20 / \ 10 30 / \ 5 15 / \ \ 3 7 17
      */
     TreeNode a = new TreeNode(20);
     TreeNode b = new TreeNode(10);

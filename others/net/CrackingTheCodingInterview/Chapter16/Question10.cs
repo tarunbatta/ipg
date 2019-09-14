@@ -1,5 +1,4 @@
-﻿namespace TechByTarun.InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter16
-{
+﻿namespace TechByTarun.InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter16 {
     /// <summary>
     /// Living People: Given a list of people with their birth and death years, implement a method to
     /// compute the year with the most number of people alive.You may assume that all people were born
@@ -7,10 +6,7 @@
     /// be included in that year's count. For example, Person (birth = 1908, death = 1909) is included in the
     /// counts for both 1908 and 1909.
     /// </summary>
-    public class Question10
-    {
-        public static void Init(string[] args)
-        {
-        }
+    public class Question10 {
+        public static void Init (string[] args) { }
     }
 }

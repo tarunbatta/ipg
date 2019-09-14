@@ -3,15 +3,19 @@ import java.util.*;
 class TreeNode {
   int val;
   TreeNode left, right;
+
   TreeNode(int val) {
     this.val = val;
   }
 }
+
 public class FirstCommonAncestor {
   public static TreeNode commonAncestor(TreeNode root, TreeNode p, TreeNode q) {
-    if (root == null || p == null || q == null) return null;
-    if (p == q) return null;
-    
+    if (root == null || p == null || q == null)
+      return null;
+    if (p == q)
+      return null;
+
     if (root == q && root == p)
       return root;
 
@@ -32,15 +36,16 @@ public class FirstCommonAncestor {
     else
       return left == null ? right : left;
   }
+
   public static void main(String[] args) {
-    TreeNode a = new TreeNode(20); 
-    TreeNode b = new TreeNode(10); 
-    TreeNode c = new TreeNode(30); 
-    TreeNode d = new TreeNode(5); 
-    TreeNode e = new TreeNode(15); 
-    TreeNode f = new TreeNode(3); 
-    TreeNode g = new TreeNode(7); 
-    TreeNode h = new TreeNode(17); 
+    TreeNode a = new TreeNode(20);
+    TreeNode b = new TreeNode(10);
+    TreeNode c = new TreeNode(30);
+    TreeNode d = new TreeNode(5);
+    TreeNode e = new TreeNode(15);
+    TreeNode f = new TreeNode(3);
+    TreeNode g = new TreeNode(7);
+    TreeNode h = new TreeNode(17);
     a.left = b;
     a.right = c;
     b.left = d;

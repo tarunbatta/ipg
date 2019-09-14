@@ -2,14 +2,15 @@ import java.util.*;
 
 public class RouteBetweenNodes {
   public static boolean search(Graph g, Node start, Node end) {
-    if (start == end) return true;
-    
+    if (start == end)
+      return true;
+
     Queue<Node> queue = new ArrayDeque<Node>();
-    
+
     for (Node node : g.vertices) {
       node.state = Node.State.Unvisited;
     }
-    
+
     start.state = Node.State.Visiting;
     queue.add(start);
     Node temp;
@@ -29,14 +30,14 @@ public class RouteBetweenNodes {
       }
       temp.state = Node.State.Visited;
     }
-    
+
     return false;
   }
-  
+
   public static void main(String[] args) {
     Graph g = new Graph();
     Node[] nodes = new Node[6];
-   
+
     // This graph is taken from page 107
     nodes[0] = new Node("0");
     nodes[1] = new Node("1");

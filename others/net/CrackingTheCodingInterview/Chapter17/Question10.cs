@@ -1,5 +1,4 @@
-﻿namespace TechByTarun.InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter17
-{
+﻿namespace TechByTarun.InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter17 {
     /// <summary>
     /// Majority Element: A majority element is an element that makes up more than half of the items in
     /// an array.Given a positive integers array, find the majority element. If there is no majority element,
@@ -8,10 +7,7 @@
     /// Input: 1 2 5 9 5 9 5 5 5
     /// Output: 5
     /// </summary>
-    public class Question10
-    {
-        public static void Init(string[] args)
-        {
-        }
+    public class Question10 {
+        public static void Init (string[] args) { }
     }
 }

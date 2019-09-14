@@ -1,7 +1,6 @@
 ﻿using System;
 
-namespace TechByTarun.InterviewPreperationGuide.App.Leetcode
-{
+namespace TechByTarun.InterviewPreperationGuide.App.Leetcode {
     /// <summary>
     /// Russian Doll Envelopes
     /// https://leetcode.com/problems/russian-doll-envelopes/
@@ -16,55 +15,42 @@ namespace TechByTarun.InterviewPreperationGuide.App.Leetcode
     /// Given envelopes = [[5, 4],[6, 4],[6, 7],[2, 3]], the maximum number of envelopes
     /// you can Russian doll is 3 ([2,3] => [5,4] => [6,7]).
     /// </summary>
-    public class Question354
-    {
-        public static void Init(string[] args)
-        {
-            Console.WriteLine(MaxEnvelopes(null));
-            Program.PrintLine();
-            Console.WriteLine(MaxEnvelopes(new int[,] {
-                { 5, 4 },
-                { 6, 4 },
-                { 6, 7 },
-                { 2, 3 }
+    public class Question354 {
+        public static void Init (string[] args) {
+            Console.WriteLine (MaxEnvelopes (null));
+            Program.PrintLine ();
+            Console.WriteLine (MaxEnvelopes (new int[, ] { { 5, 4 }, { 6, 4 }, { 6, 7 }, { 2, 3 }
             }));
         }
 
-        public static int MaxEnvelopes(int[,] envelopes)
-        {
+        public static int MaxEnvelopes (int[, ] envelopes) {
             int result = 0;
 
-            if (envelopes != null)
-            {
-                int rows = envelopes.GetLength(0);
-                int cols = envelopes.GetLength(1);
+            if (envelopes != null) {
+                int rows = envelopes.GetLength (0);
+                int cols = envelopes.GetLength (1);
 
-                if (rows > 0 && cols > 0)
-                {
+                if (rows > 0 && cols > 0) {
                     DollEnvelope[] env = new DollEnvelope[rows];
 
-                    for (int i = 0; i < rows; i++)
-                    {
-                        env[i] = new DollEnvelope(envelopes[i, 0], envelopes[i, 1]);
+                    for (int i = 0; i < rows; i++) {
+                        env[i] = new DollEnvelope (envelopes[i, 0], envelopes[i, 1]);
                     }
 
-                    Array.Sort(env);
+                    Array.Sort (env);
 
                     int[] dp = new int[rows];
 
-                    for (int i = 0; i < rows; i++)
-                    {
-                        int currentIndex = Array.BinarySearch(dp, 0, result, env[i].height);
+                    for (int i = 0; i < rows; i++) {
+                        int currentIndex = Array.BinarySearch (dp, 0, result, env[i].height);
 
-                        if (currentIndex < 0)
-                        {
+                        if (currentIndex < 0) {
                             currentIndex = ~currentIndex;
                         }
 
                         dp[currentIndex] = env[i].height;
 
-                        if (currentIndex == result)
-                        {
+                        if (currentIndex == result) {
                             result++;
                         }
                     }
@@ -75,25 +61,19 @@ namespace TechByTarun.InterviewPreperationGuide.App.Leetcode
         }
     }
 
-    public class DollEnvelope : IComparable<DollEnvelope>
-    {
+    public class DollEnvelope : IComparable<DollEnvelope> {
         public int width { get; set; }
         public int height { get; set; }
 
-        public DollEnvelope(int width, int height)
-        {
+        public DollEnvelope (int width, int height) {
             this.width = width;
             this.height = height;
         }
 
-        public int CompareTo(DollEnvelope de)
-        {
-            if (this.width == de.width)
-            {
+        public int CompareTo (DollEnvelope de) {
+            if (this.width == de.width) {
                 return de.height - this.height;
-            }
-            else
-            {
+            } else {
                 return this.width - de.width;
             }
         }

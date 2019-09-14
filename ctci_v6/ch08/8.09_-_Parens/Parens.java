@@ -16,7 +16,7 @@ public class Parens {
     }
     return set;
   }
-  
+
   public static String insertInside(String str, int leftParen) {
     String left = str.substring(0, leftParen + 1);
     String right = str.substring(leftParen + 1);

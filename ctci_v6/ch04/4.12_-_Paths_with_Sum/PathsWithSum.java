@@ -4,24 +4,28 @@ class Node {
   Node left;
   Node right;
   int val;
+
   public Node(int val) {
     this.val = val;
   }
 }
+
 public class PathsWithSum {
   public static int countPathsWithSum(Node root, int sum) {
-    if (root == null) return 0;
+    if (root == null)
+      return 0;
 
     int pathsFromRoot = countPathsWithSumFromNode(root, sum, 0);
 
-    int pathsOnLeft = countPathsWithSum(root.left, sum);  
-    int pathsOnRight = countPathsWithSum(root.right, sum);  
+    int pathsOnLeft = countPathsWithSum(root.left, sum);
+    int pathsOnRight = countPathsWithSum(root.right, sum);
 
     return pathsFromRoot + pathsOnLeft + pathsOnRight;
   }
 
   public static int countPathsWithSumFromNode(Node root, int target, int current) {
-    if (root == null) return 0;
+    if (root == null)
+      return 0;
 
     current += root.val;
 
@@ -33,8 +37,9 @@ public class PathsWithSum {
     total += countPathsWithSumFromNode(root.left, target, current);
     total += countPathsWithSumFromNode(root.right, target, current);
 
-    return total; 
+    return total;
   }
+
   public static void main(String[] args) {
     Node a = new Node(10);
     Node b = new Node(5);

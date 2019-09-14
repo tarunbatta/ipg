@@ -1,11 +1,11 @@
-public class Deck <T extends Card> {
+public class Deck<T extends Card> {
   private ArrayList<T> cards;
   private int dealtIndex = 0;
-  
-  public int remainingCards() { 
+
+  public int remainingCards() {
     return cards.size() - dealtIndex;
   }
-  
+
   public void shuffle() {
   }
 
@@ -18,7 +18,8 @@ public class Deck <T extends Card> {
     // I can't see myself getting much out of rote copying these
   }
 
-  public T dealCard() {}
+  public T dealCard() {
+  }
 
   public void print() {
     for (T card : cards) {

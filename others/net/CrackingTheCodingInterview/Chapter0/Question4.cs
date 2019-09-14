@@ -1,49 +1,38 @@
 ﻿using System;
 
-namespace TechByTarun.InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter0
-{
+namespace TechByTarun.InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter0 {
     /// <summary>
     /// A ransom note can be formed by cutting words out of a magazine to form a new sentence.
     /// How would you figure out if a ransom note(represented as a string) can be formed from a given magazine(string)?
     /// </summary>
-    internal class Question4
-    {
-        public static void Init(string[] args)
-        {
-            Console.WriteLine(IsRandsomNotePossible("age", "random note magazine"));
-            Console.WriteLine(IsRandsomNotePossible("zebra", "random note magazine"));
+    internal class Question4 {
+        public static void Init (string[] args) {
+            Console.WriteLine (IsRandsomNotePossible ("age", "random note magazine"));
+            Console.WriteLine (IsRandsomNotePossible ("zebra", "random note magazine"));
         }
 
-        private static bool IsRandsomNotePossible(string note, string magazine)
-        {
+        private static bool IsRandsomNotePossible (string note, string magazine) {
             bool result = true;
 
-            if (!string.IsNullOrEmpty(note) && !string.IsNullOrEmpty(magazine))
-            {
+            if (!string.IsNullOrEmpty (note) && !string.IsNullOrEmpty (magazine)) {
                 int[] letters = new int[256];
 
-                for (int i = 0; i < magazine.Length; i++)
-                {
-                    if (string.Compare(magazine[i].ToString(), " ") != 0)
-                    {
-                        int characterValue = Convert.ToInt32(magazine[i]);
+                for (int i = 0; i < magazine.Length; i++) {
+                    if (string.Compare (magazine[i].ToString (), " ") != 0) {
+                        int characterValue = Convert.ToInt32 (magazine[i]);
                         letters[characterValue]++;
                     }
                 }
 
-                for (int i = 0; i < note.Length; i++)
-                {
-                    int characterValue = Convert.ToInt32(note[i]);
+                for (int i = 0; i < note.Length; i++) {
+                    int characterValue = Convert.ToInt32 (note[i]);
                     letters[characterValue]--;
 
-                    if (letters[characterValue] < 0)
-                    {
+                    if (letters[characterValue] < 0) {
                         result = false;
                     }
                 }
-            }
-            else
-            {
+            } else {
                 result = false;
             }
 

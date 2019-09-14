@@ -1,5 +1,4 @@
-﻿namespace TechByTarun.InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter6
-{
+﻿namespace TechByTarun.InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter6 {
     /// <summary>
     /// Poison: You have 1000 bottles of soda, and exactly one is poisoned. You have 10 test strips which
     /// can be used to detect poison.A single drop of poison will turn the test strip positive permanently.
@@ -10,10 +9,7 @@
     /// FOLLOW UP
     /// Write code to simulate your approach.
     /// </summary>
-    public class Question10
-    {
-        public static void Init(string[] args)
-        {
-        }
+    public class Question10 {
+        public static void Init (string[] args) { }
     }
 }

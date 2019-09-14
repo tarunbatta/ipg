@@ -28,18 +28,9 @@ public class TicTacWin {
 
     return '?';
   }
+
   public static void main(String[] args) {
-    System.out.println(whoWon(
-          new char[][]{
-            {'X', 'O', 'X'},
-            {'X', 'X', 'O'},
-            {'X', 'O', 'O'}
-          }));
-    System.out.println(whoWon(
-          new char[][]{
-            {'O', 'X', 'X'},
-            {'O', 'O', 'X'},
-            {'X', 'X', 'O'}
-          }));
+    System.out.println(whoWon(new char[][] { { 'X', 'O', 'X' }, { 'X', 'X', 'O' }, { 'X', 'O', 'O' } }));
+    System.out.println(whoWon(new char[][] { { 'O', 'X', 'X' }, { 'O', 'O', 'X' }, { 'X', 'X', 'O' } }));
   }
 }

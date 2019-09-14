@@ -2,7 +2,7 @@ import java.util.*;
 
 public class SetOfStacks {
   List<Stack<Integer>> stacks = new ArrayList<Stack<Integer>>();
-  
+
   public void push(int v) {
     Stack<Integer> last = getLastStack();
     if (last != null) {
@@ -13,7 +13,7 @@ public class SetOfStacks {
       stacks.add(stack);
     }
   }
-  
+
   public int pop() throws EmptyStackException {
     Stack<Integer> last = getLastStack();
     if (last == null)
@@ -26,7 +26,8 @@ public class SetOfStacks {
 
   public Stack<Integer> getLastStack() {
     int size = stacks.size();
-    if (size == 0) return null;
+    if (size == 0)
+      return null;
     return stacks.get(size - 1);
   }
 

@@ -4,9 +4,11 @@ public class Palindrome {
   public static class Node {
     Node next;
     char val;
+
     public Node(char val) {
       this.val = val;
     }
+
     public String toString() {
       StringBuilder sb = new StringBuilder();
       Node temp = this;
@@ -17,7 +19,7 @@ public class Palindrome {
       return sb.toString();
     }
   }
-  
+
   public static void reverse(Node node) {
     Node prev = null;
     Node current = node;
@@ -57,6 +59,6 @@ public class Palindrome {
     b.next = c;
     System.out.println(isPalindrome(a) ? "True" : "False");
     System.out.println(isPalindrome(b) ? "True" : "False");
-    
+
   }
 }

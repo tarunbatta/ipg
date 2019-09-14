@@ -1,8 +1,7 @@
 ﻿using System;
 using System.Collections;
 
-namespace TechByTarun.InterviewPreperationGuide.App.PracticeQuestions
-{
+namespace TechByTarun.InterviewPreperationGuide.App.PracticeQuestions {
     /// <summary>
     /// Find the number of islands
     /// Given a boolean 2D matrix, find the number of islands.
@@ -28,38 +27,27 @@ namespace TechByTarun.InterviewPreperationGuide.App.PracticeQuestions
     /// {0, 0, 0, 0, 0},
     /// {1, 0, 1, 0, 1}
     /// </summary>
-    public class Question40
-    {
-        public static void Init(string[] args)
-        {
-            Console.WriteLine(GetIslandCount(new int[,] {
-                { 1, 0, 1},
-                { 0, 1, 0},
-                { 1, 0, 1}
+    public class Question40 {
+        public static void Init (string[] args) {
+            Console.WriteLine (GetIslandCount (new int[, ] { { 1, 0, 1 }, { 0, 1, 0 }, { 1, 0, 1 }
             }));
         }
 
-        public static int GetIslandCount(int[,] matrix)
-        {
+        public static int GetIslandCount (int[, ] matrix) {
             int result = 0;
 
-            if (matrix != null)
-            {
-                int rows = matrix.GetLength(0);
-                int cols = matrix.GetLength(1);
+            if (matrix != null) {
+                int rows = matrix.GetLength (0);
+                int cols = matrix.GetLength (1);
 
-                bool[,] isVisited = new bool[rows, cols];
+                bool[, ] isVisited = new bool[rows, cols];
 
-                if (rows > 0 && cols > 0)
-                {
-                    for (int i = 0; i < rows; i++)
-                    {
-                        for (int j = 0; j < cols; j++)
-                        {
-                            if (matrix[i, j] == 1 && !isVisited[i, j])
-                            {
+                if (rows > 0 && cols > 0) {
+                    for (int i = 0; i < rows; i++) {
+                        for (int j = 0; j < cols; j++) {
+                            if (matrix[i, j] == 1 && !isVisited[i, j]) {
                                 result++;
-                                DFS(matrix, isVisited, i, j);
+                                DFS (matrix, isVisited, i, j);
                             }
                         }
                     }
@@ -69,52 +57,44 @@ namespace TechByTarun.InterviewPreperationGuide.App.PracticeQuestions
             return result;
         }
 
-        public static void DFS(int[,] matrix, bool[,] isVisited, int i, int j)
-        {
-            int rows = matrix.GetLength(0);
-            int cols = matrix.GetLength(1);
+        public static void DFS (int[, ] matrix, bool[, ] isVisited, int i, int j) {
+            int rows = matrix.GetLength (0);
+            int cols = matrix.GetLength (1);
 
-            Queue q = new Queue();
-            q.Enqueue(new IslandPoint(i, j));
+            Queue q = new Queue ();
+            q.Enqueue (new IslandPoint (i, j));
 
-            while (q.Count > 0)
-            {
-                IslandPoint d = (IslandPoint)q.Dequeue();
+            while (q.Count > 0) {
+                IslandPoint d = (IslandPoint) q.Dequeue ();
                 isVisited[i, j] = true;
 
                 IslandPoint right = null;
                 IslandPoint down = null;
 
-                if (d.y < cols - 1)
-                {
-                    right = new IslandPoint(d.x, d.y + 1);
+                if (d.y < cols - 1) {
+                    right = new IslandPoint (d.x, d.y + 1);
 
-                    if (matrix[right.x, right.y] == 1)
-                    {
-                        q.Enqueue(right);
+                    if (matrix[right.x, right.y] == 1) {
+                        q.Enqueue (right);
                     }
                 }
 
-                if (d.x < rows - 1)
-                {
-                    down = new IslandPoint(d.x + 1, d.y);
+                if (d.x < rows - 1) {
+                    down = new IslandPoint (d.x + 1, d.y);
 
-                    if (matrix[down.x, down.y] == 1)
-                    {
-                        q.Enqueue(down);
+                    if (matrix[down.x, down.y] == 1) {
+                        q.Enqueue (down);
                     }
                 }
             }
         }
     }
 
-    public class IslandPoint
-    {
+    public class IslandPoint {
         public int x { get; set; }
         public int y { get; set; }
 
-        public IslandPoint(int x, int y)
-        {
+        public IslandPoint (int x, int y) {
             this.x = x;
             this.y = y;
         }

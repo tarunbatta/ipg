@@ -12,7 +12,7 @@ public class MyQueue<T> {
     return stackNew.size() + stackOld.size();
   }
 
-  public void add (T value) {
+  public void add(T value) {
     stackNew.push(value);
   }
 
@@ -21,7 +21,8 @@ public class MyQueue<T> {
       while (!stackNew.isEmpty()) {
         stackOld.push(stackNew.pop());
       }
-    }
+  }
+
   }
 
   public T peek() {

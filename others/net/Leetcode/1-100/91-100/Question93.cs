@@ -1,7 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace TechByTarun.InterviewPreperationGuide.App.Leetcode
-{
+namespace TechByTarun.InterviewPreperationGuide.App.Leetcode {
     /// <summary>
     /// Given a string containing only digits, restore it by returning all possible valid IP address combinations.
     ///
@@ -9,14 +8,10 @@ namespace TechByTarun.InterviewPreperationGuide.App.Leetcode
     /// Given "25525511135",
     /// return ["255.255.11.135", "255.255.111.35"]. (Order does not matter)
     /// </summary>
-    public class Question93
-    {
-        public static void Init(string[] args)
-        {
-        }
+    public class Question93 {
+        public static void Init (string[] args) { }
 
-        public IList<string> RestoreIpAddresses(string s)
-        {
+        public IList<string> RestoreIpAddresses (string s) {
             return null;
         }
     }

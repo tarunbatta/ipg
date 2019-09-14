@@ -1,5 +1,4 @@
-﻿namespace TechByTarun.InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter17
-{
+﻿namespace TechByTarun.InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter17 {
     /// <summary>
     /// Circus Tower: A circus is designing a tower routine consisting of people standing atop one another's
     /// shoulders.For practical and aesthetic reasons, each person must be both shorter and lighter
@@ -10,10 +9,7 @@
     /// Output: The longest tower is length 6 and includes from top to bottom:
     /// (56, 90) (60, 95) (65, 100) (68, l10) (70, 150) (75, 190)
     /// </summary>
-    public class Question8
-    {
-        public static void Init(string[] args)
-        {
-        }
+    public class Question8 {
+        public static void Init (string[] args) { }
     }
 }
