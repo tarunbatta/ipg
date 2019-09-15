@@ -38,7 +38,7 @@ Note: The input will be a non-empty word consisting of uppercase and lowercase l
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution520 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem520 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

@@ -15,7 +15,7 @@ Output: 5
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution434 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem434 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

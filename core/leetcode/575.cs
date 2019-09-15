@@ -32,7 +32,7 @@ The number in given array is in range [-100,000, 100,000].
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution575 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem575 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

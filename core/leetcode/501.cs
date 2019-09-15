@@ -37,7 +37,7 @@ Follow up: Could you do that without using any extra space? (Assume that the imp
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution501 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem501 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

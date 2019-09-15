@@ -29,7 +29,7 @@ Output: false
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution219 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem219 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

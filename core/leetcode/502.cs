@@ -37,7 +37,7 @@ The answer is guaranteed to fit in a 32-bit signed integer.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution502 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem502 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

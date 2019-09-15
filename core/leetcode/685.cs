@@ -38,7 +38,7 @@ Every integer represented in the 2D-array will be between 1 and N, where N is th
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution685 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem685 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

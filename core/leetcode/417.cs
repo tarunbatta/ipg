@@ -42,7 +42,7 @@ Return:
 using System;
 using System.Collections.Generic;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution417 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem417 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

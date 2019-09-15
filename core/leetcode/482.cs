@@ -39,7 +39,7 @@ String S is non-empty.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution482 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem482 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

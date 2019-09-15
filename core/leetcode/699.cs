@@ -54,7 +54,7 @@ Note:
 using System;
 using System.Collections.Generic;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution699 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem699 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

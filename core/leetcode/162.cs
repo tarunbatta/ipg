@@ -33,7 +33,7 @@ Your solution should be in logarithmic complexity.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution162 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem162 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

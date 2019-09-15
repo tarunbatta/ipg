@@ -29,7 +29,7 @@ You may assume that all words are consist of lowercase letters a-z.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution211 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem211 {
     public class Solution {
         public void Init () {
             string word = "";

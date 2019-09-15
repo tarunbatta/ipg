@@ -27,7 +27,7 @@ Explanation: You will always arrive at index 3 no matter what. Its maximum
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution55 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem55 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

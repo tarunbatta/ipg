@@ -66,7 +66,7 @@ Note:
 using System;
 using System.Collections.Generic;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution916 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem916 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

@@ -22,7 +22,7 @@ The lexicographical order is [1, 10, 11, 12, 13, 2, 3, 4, 5, 6, 7, 8, 9], so the
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution440 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem440 {
     public class Solution {
         public void Init () {
             Console.WriteLine (FindKthNumber (13, 2));

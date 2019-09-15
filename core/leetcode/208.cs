@@ -27,7 +27,7 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution208 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem208 {
     public class Solution {
         public void Init () {
             Trie obj = new Trie ();

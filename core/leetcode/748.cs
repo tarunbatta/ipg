@@ -40,7 +40,7 @@ Every words[i] will consist of lowercase letters, and have length in range [1, 1
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution748 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem748 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

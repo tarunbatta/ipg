@@ -63,7 +63,7 @@ mines[i] will be length 2 and consist of integers in the range [0, N-1].
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution764 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem764 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

@@ -48,7 +48,7 @@ evalvars, evalints will have equal lengths in range [0, 100].
 using System;
 using System.Collections.Generic;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution770 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem770 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

@@ -49,7 +49,7 @@ Note: n and m both fit in range [0, 1000].
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution672 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem672 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

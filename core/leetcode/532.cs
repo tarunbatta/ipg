@@ -38,7 +38,7 @@ All the integers in the given input belong to the range: [-1e7, 1e7].
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution532 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem532 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

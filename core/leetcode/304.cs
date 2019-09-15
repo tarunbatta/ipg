@@ -35,7 +35,7 @@ You may assume that row1 ≤ row2 and col1 ≤ col2.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution304 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem304 {
     public class Solution {
         public void Init () {
             NumMatrix obj = new NumMatrix (null);

@@ -32,7 +32,7 @@ The total number of elements of the given matrix will not exceed 10,000.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution498 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem498 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

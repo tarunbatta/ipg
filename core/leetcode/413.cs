@@ -30,7 +30,7 @@ return: 3, for 3 arithmetic slices in A: [1, 2, 3], [2, 3, 4] and [1, 2, 3, 4] i
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution413 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem413 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

@@ -41,7 +41,7 @@ Constraints:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution1157 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem1157 {
     public class Solution {
         public void Init () {
             MajorityChecker obj = new MajorityChecker (null);

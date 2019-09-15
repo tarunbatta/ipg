@@ -34,7 +34,7 @@ The n and k are in the range 1 <= k < n <= 104.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution667 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem667 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

@@ -54,7 +54,7 @@ You are not allowed to buy more items than you want, even if that would lower th
 using System;
 using System.Collections.Generic;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution638 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem638 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

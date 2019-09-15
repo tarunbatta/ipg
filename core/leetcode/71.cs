@@ -53,7 +53,7 @@ Output: "/a/b/c"
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution71 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem71 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

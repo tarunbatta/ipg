@@ -31,7 +31,7 @@ Output: "One Billion Two Hundred Thirty Four Million Five Hundred Sixty Seven Th
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution273 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem273 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

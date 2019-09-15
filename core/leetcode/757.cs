@@ -35,7 +35,7 @@ intervals[i][j] will be an integer in [0, 10^8].
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution757 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem757 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

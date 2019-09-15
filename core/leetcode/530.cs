@@ -30,7 +30,7 @@ Note: There are at least two nodes in this BST.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution530 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem530 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

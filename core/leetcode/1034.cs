@@ -50,7 +50,7 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution1034 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem1034 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

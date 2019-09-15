@@ -18,7 +18,7 @@ There are two left leaves in the binary tree, with values 9 and 15 respectively.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution404 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem404 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

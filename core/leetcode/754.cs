@@ -36,7 +36,7 @@ target will be a non-zero integer in the range [-10^9, 10^9].
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution754 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem754 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

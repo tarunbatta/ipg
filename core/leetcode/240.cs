@@ -31,7 +31,7 @@ Given target = 20, return false.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution240 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem240 {
     public class Solution {
         public void Init () {
             int[, ] matrix_a = new int[, ] { { 1, 4, 7, 11, 15 }, { 2, 5, 8, 12, 19 }, { 3, 6, 9, 16, 22 }, { 10, 13, 14, 17, 24 }, { 18, 21, 23, 26, 30 }

@@ -41,7 +41,7 @@ Explanation: The root node's value is 5 but its right child's value is 4.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution98 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem98 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

@@ -33,7 +33,7 @@ Note:
 using System;
 using System.Collections.Generic;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution632 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem632 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

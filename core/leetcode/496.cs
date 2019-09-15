@@ -39,7 +39,7 @@ The length of both nums1 and nums2 would not exceed 1000.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution496 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem496 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

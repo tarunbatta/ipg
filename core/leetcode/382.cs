@@ -23,7 +23,7 @@ solution.getRandom();
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution382 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem382 {
     public class Solution {
         public void Init () {
             Solution obj = new Solution (null);

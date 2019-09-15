@@ -35,7 +35,7 @@ Explanation: Almost the same as the first example, except we can't omit the firs
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution606 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem606 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

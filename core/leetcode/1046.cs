@@ -34,7 +34,7 @@ Note:
 using System;
 using System.Collections.Generic;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution1046 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem1046 {
     public class Solution {
         public void Init () {
             Console.WriteLine (LastStoneWeight (null));

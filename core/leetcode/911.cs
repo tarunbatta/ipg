@@ -38,7 +38,7 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution911 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem911 {
     public class Solution {
         public void Init () {
             TopVotedCandidate obj = new TopVotedCandidate (null, null);

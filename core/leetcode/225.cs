@@ -33,7 +33,7 @@ Notes:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution225 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem225 {
     public class Solution {
         public void Init () {
             MyStack obj = new MyStack ();

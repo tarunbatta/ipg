@@ -30,7 +30,7 @@ The length and width of the given matrix are in the range of [1, 150].
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution661 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem661 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

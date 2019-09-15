@@ -40,7 +40,7 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution1010 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem1010 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

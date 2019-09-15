@@ -57,7 +57,7 @@ Constraints:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution1095 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem1095 {
     public class Solution {
         public int FindInMountainArray (int target, MountainArray mountainArr) {
             return 0;

@@ -31,7 +31,7 @@ Output: "lovely"
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution709 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem709 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

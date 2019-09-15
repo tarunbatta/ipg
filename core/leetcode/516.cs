@@ -29,7 +29,7 @@ One possible longest palindromic subsequence is "bb".
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution516 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem516 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

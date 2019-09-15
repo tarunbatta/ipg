@@ -34,7 +34,7 @@ Your output answer is guaranteed to be fitted in a 32-bit integer.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution494 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem494 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

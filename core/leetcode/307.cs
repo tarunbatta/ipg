@@ -26,7 +26,7 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution307 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem307 {
     public class Solution {
         public void Init () {
             NumArray obj = new NumArray (null);

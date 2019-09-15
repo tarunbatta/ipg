@@ -37,7 +37,7 @@ The size of the given array will be in the range [1,1000].
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution654 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem654 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

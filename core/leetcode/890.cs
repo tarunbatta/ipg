@@ -37,7 +37,7 @@ Note:
 using System;
 using System.Collections.Generic;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution890 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem890 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

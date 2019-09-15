@@ -24,7 +24,7 @@ All given inputs are in lowercase letters a-z.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution14 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem14 {
     public class Solution {
         public void Init () {
             Console.WriteLine (LongestCommonPrefix (null));

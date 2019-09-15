@@ -27,7 +27,7 @@ The length of path between two nodes is represented by the number of edges betwe
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution543 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem543 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

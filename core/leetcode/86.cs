@@ -16,7 +16,7 @@ Output: 1->2->2->4->3->5
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution86 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem86 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

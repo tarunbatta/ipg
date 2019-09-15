@@ -43,7 +43,7 @@ Notes:
 using System;
 using System.Collections.Generic;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution811 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem811 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

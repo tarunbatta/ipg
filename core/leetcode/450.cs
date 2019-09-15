@@ -46,7 +46,7 @@ Another valid answer is [5,2,6,null,4,null,7].
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution450 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem450 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

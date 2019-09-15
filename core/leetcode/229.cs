@@ -22,7 +22,7 @@ Output: [1,2]
 using System;
 using System.Collections.Generic;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution229 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem229 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

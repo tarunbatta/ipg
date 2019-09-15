@@ -27,7 +27,7 @@ Explanation: The perimeter is the 16 yellow stripes in the image below:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution463 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem463 {
     public class Solution {
         public void Init () {
             Console.WriteLine (IslandPerimeter (new int[][] {

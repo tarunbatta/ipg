@@ -35,7 +35,7 @@ Input is within the 32-bit signed integer range: [−231,  231 − 1].
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution263 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem263 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

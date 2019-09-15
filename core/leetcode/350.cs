@@ -27,7 +27,7 @@ What if elements of nums2 are stored on disk, and the memory is limited such tha
 using System;
 using System.Collections.Generic;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution350 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem350 {
     public class Solution {
         public void Init () {
             Console.WriteLine (Intersect (null, null));

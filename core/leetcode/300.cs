@@ -24,7 +24,7 @@ Follow up: Could you improve it to O(n log n) time complexity?
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution300 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem300 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

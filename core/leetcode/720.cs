@@ -32,7 +32,7 @@ The length of words[i] will be in the range [1, 30].
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution720 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem720 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

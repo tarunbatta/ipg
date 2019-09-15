@@ -42,7 +42,7 @@ The range of operations size won't exceed 10,000.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution598 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem598 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

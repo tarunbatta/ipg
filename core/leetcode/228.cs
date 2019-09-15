@@ -23,7 +23,7 @@ Explanation: 2,3,4 form a continuous range; 8,9 form a continuous range.
 using System;
 using System.Collections.Generic;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution228 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem228 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

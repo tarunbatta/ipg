@@ -19,7 +19,7 @@ Here are some examples. Inputs are in the left-hand column and its corresponding
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution31 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem31 {
     public class Solution {
         public void Init () {
             NextPermutation (null);

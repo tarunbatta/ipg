@@ -29,7 +29,7 @@ Explanation:
 using System;
 using System.Collections.Generic;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution241 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem241 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

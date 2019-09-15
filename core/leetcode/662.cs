@@ -72,7 +72,7 @@ Note: Answer will in the range of 32-bit signed integer.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution662 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem662 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

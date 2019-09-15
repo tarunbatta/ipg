@@ -35,7 +35,7 @@ Explanation: In this case, no transaction is done, i.e. max profit = 0.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution123 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem123 {
     public class Solution {
         public void Init () {
             Console.WriteLine (MaxProfit (new int[] { 3, 3, 5, 0, 0, 3, 1, 4 }));

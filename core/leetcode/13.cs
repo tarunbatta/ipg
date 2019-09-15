@@ -50,7 +50,7 @@ Explanation: M = 1000, CM = 900, XC = 90 and IV = 4.
 using System;
 using System.Collections.Generic;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution13 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem13 {
     public class Solution {
         public void Init () {
             Console.WriteLine (RomanToInt (null));

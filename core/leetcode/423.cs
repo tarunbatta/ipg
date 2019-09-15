@@ -29,7 +29,7 @@ Output: "45"
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution423 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem423 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

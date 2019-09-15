@@ -57,7 +57,7 @@ The given board size is always 9x9.
 using System;
 using System.Collections.Generic;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution36 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem36 {
     public class Solution {
         public void Init () {
             Console.WriteLine (IsValidSudoku (null));

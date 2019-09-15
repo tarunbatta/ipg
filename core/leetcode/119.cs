@@ -25,7 +25,7 @@ Could you optimize your algorithm to use only O(k) extra space?
 using System;
 using System.Collections.Generic;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution119 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem119 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

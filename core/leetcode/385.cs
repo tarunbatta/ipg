@@ -34,7 +34,7 @@ Return a NestedInteger object containing a nested list with 2 elements:
 using System;
 using System.Collections.Generic;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution385 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem385 {
     // This is the interface that allows for creating nested lists.
     // You should not implement it, or speculate about its implementation
     public interface NestedInteger {

@@ -26,7 +26,7 @@ The boundaries of each input argument are 1 <= left <= right <= 10000.
 using System;
 using System.Collections.Generic;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution728 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem728 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

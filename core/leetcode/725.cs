@@ -50,7 +50,7 @@ k will be an integer in the range [1, 50].
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution725 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem725 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

@@ -22,7 +22,7 @@ Output: 1024
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution372 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem372 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

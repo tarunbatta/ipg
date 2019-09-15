@@ -42,7 +42,7 @@ Constraints:
 using System;
 using System.Collections.Generic;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution1178 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem1178 {
 	public class Solution {
 		public void Init () {
 

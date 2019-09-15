@@ -26,7 +26,7 @@ Explanation: All root-to-leaf paths are: 1->2->5, 1->3
 using System;
 using System.Collections.Generic;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution257 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem257 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

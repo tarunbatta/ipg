@@ -23,7 +23,7 @@ Explanation: The array represents the integer 4321.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution66 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem66 {
     public class Solution {
         public void Init () {
             Console.WriteLine (PlusOne (new int[] { 1, 2, 3 }));

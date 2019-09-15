@@ -41,7 +41,7 @@ Explanation: "foobar" is being output 2 times.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution1115 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem1115 {
   public class Solution {
     public void Init () {
 

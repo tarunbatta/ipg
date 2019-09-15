@@ -51,7 +51,7 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution910 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem910 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

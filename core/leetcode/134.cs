@@ -55,7 +55,7 @@ Therefore, you can't travel around the circuit once no matter where you start.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution134 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem134 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

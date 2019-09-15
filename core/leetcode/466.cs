@@ -21,7 +21,7 @@ Return:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution466 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem466 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

@@ -20,7 +20,7 @@ The range of numbers in the array is [-1000, 1000] and the range of the integer 
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution560 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem560 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

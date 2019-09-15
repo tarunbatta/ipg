@@ -52,7 +52,7 @@ Constraints:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution1106 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem1106 {
 	public class Solution {
 		public void Init () {
 

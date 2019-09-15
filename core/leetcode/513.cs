@@ -41,7 +41,7 @@ You may assume the tree (i.e., the given root node) is not NULL.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution513 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem513 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

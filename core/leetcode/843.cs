@@ -35,7 +35,7 @@ Note:  Any solutions that attempt to circumvent the judge will result in disqual
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution843 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem843 {
     public class Solution {
         public void FindSecretWord (string[] wordlist, Master master) {
 

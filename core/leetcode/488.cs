@@ -39,7 +39,7 @@ Both input strings will be non-empty and only contain characters 'R','Y','B','G'
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution488 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem488 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

@@ -21,7 +21,7 @@ Output: 2
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution169 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem169 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

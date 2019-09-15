@@ -19,7 +19,7 @@ Explanation: The three ranges are : [0,0], [2,2], [0,2] and their respective sum
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution327 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem327 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

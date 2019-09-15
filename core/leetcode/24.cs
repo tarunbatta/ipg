@@ -17,7 +17,7 @@ Given 1->2->3->4, you should return the list as 2->1->4->3.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution24 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem24 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

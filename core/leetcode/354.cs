@@ -21,7 +21,7 @@ Explanation: The maximum number of envelopes you can Russian doll is 3 ([2,3] =>
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution354 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem354 {
     public class Solution {
         public void Init () {
             Console.WriteLine (MaxEnvelopes (null));

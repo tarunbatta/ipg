@@ -24,7 +24,7 @@ Assume we are dealing with an environment which could only store integers within
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution7 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem7 {
     public class Solution {
         public void Init () {
             Console.WriteLine (Reverse (0));

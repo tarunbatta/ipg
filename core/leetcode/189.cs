@@ -29,7 +29,7 @@ Could you do it in-place with O(1) extra space?
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution189 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem189 {
     public class Solution {
         public void Init () {
             Rotate_a (null, 0);

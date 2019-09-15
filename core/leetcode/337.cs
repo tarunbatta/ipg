@@ -37,7 +37,7 @@ Explanation: Maximum amount of money the thief can rob = 4 + 5 = 9.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution337 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem337 {
     public class Solution {
         public void Init () {
             TreeNode node_a = new TreeNode (3);

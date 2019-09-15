@@ -27,7 +27,7 @@ The input is always valid. You may assume that evaluating the queries will resul
 using System;
 using System.Collections.Generic;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution399 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem399 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

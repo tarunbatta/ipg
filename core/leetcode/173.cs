@@ -40,7 +40,7 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution173 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem173 {
     public class Solution {
         public void Init () {
             BSTIterator obj = new BSTIterator (null);

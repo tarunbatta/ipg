@@ -35,7 +35,7 @@ The value of n won't exceed 100,000.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution552 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem552 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

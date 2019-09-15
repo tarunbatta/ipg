@@ -48,7 +48,7 @@ babgbag
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution115 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem115 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

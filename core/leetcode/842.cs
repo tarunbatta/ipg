@@ -47,7 +47,7 @@ S contains only digits.
 using System;
 using System.Collections.Generic;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution842 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem842 {
     public class Solution {
         public void Init () {
             Console.WriteLine (SplitIntoFibonacci (null));

@@ -19,7 +19,7 @@ A linked list can be reversed either iteratively or recursively. Could you imple
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution206 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem206 {
     public class Solution {
         public void Init () {
             ListNode node = new ListNode (1);

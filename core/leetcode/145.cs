@@ -24,7 +24,7 @@ Follow up: Recursive solution is trivial, could you do it iteratively?
 using System;
 using System.Collections.Generic;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution145 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem145 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

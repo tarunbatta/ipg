@@ -15,7 +15,7 @@ The sum that is closest to the target is 2. (-1 + 2 + 1 = 2).
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution16 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem16 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

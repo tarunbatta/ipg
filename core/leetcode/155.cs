@@ -32,7 +32,7 @@ minStack.getMin();   --> Returns -2.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution155 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem155 {
     public class Solution {
         public void Init () {
             MinStack obj = new MinStack ();

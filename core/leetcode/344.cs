@@ -24,7 +24,7 @@ Output: ['h','a','n','n','a','H']
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution344 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem344 {
     public class Solution {
         public void Init () {
             ReverseString (null);

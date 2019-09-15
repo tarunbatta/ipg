@@ -34,7 +34,7 @@ Explanation: The longest increasing path is [3, 4, 5, 6]. Moving diagonally is n
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution329 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem329 {
   public class Solution {
     public void Init () {
 

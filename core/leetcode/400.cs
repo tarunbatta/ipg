@@ -32,7 +32,7 @@ The 11th digit of the sequence 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, ... is a 0, wh
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution400 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem400 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

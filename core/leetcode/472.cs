@@ -27,7 +27,7 @@ The returned elements order does not matter.
 using System;
 using System.Collections.Generic;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution472 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem472 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

@@ -33,7 +33,7 @@ How would you handle overflow for very large input integers?
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution306 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem306 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

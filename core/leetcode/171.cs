@@ -38,7 +38,7 @@ Output: 701
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution171 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem171 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

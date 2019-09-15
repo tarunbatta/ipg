@@ -47,7 +47,7 @@ For C programmers, try to solve it in-place in O(1) extra space.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution151 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem151 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

@@ -32,7 +32,7 @@ cache.get(4);       // returns 4
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution460 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem460 {
     public class LFUCache {
         public LFUCache (int capacity) {
             LFUCache obj = new LFUCache (capacity);

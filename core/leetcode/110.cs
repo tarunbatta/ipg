@@ -42,7 +42,7 @@ Return false.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution110 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem110 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

@@ -30,7 +30,7 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution839 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem839 {
 	public class Solution {
 		public void Init () {
 

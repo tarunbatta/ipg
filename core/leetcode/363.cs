@@ -23,7 +23,7 @@ Note:
 using System;
 using System.Collections.Generic;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution363 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem363 {
     public class Solution {
         public void Init () {
             Console.WriteLine (MaxSumSubmatrix (new int[][] {

@@ -24,7 +24,7 @@ You can assume that you can always reach the last index.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution45 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem45 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

@@ -27,7 +27,7 @@ Output: []
 using System;
 using System.Collections.Generic;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution30 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem30 {
   public class Solution {
     public void Init () {
 

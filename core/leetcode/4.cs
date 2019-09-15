@@ -26,7 +26,7 @@ The median is (2 + 3)/2 = 2.5
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution4 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem4 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

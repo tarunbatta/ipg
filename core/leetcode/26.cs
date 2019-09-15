@@ -42,7 +42,7 @@ for (int i = 0; i < len; i++) {
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution26 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem26 {
     public class Solution {
         public void Init () {
             Console.WriteLine (RemoveDuplicates (null));

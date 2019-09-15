@@ -39,7 +39,7 @@ Constraints:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution1144 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem1144 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

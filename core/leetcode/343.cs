@@ -25,7 +25,7 @@ Note: You may assume that n is not less than 2 and not larger than 58.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution343 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem343 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

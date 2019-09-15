@@ -33,7 +33,7 @@ N is an integer in the range [0, 10^9].
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution738 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem738 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

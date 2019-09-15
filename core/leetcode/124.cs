@@ -34,7 +34,7 @@ Output: 42
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution124 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem124 {
     public class Solution {
         public void Init () {
             TreeNode node = new TreeNode (10);

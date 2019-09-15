@@ -45,7 +45,7 @@ Return false.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution572 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem572 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

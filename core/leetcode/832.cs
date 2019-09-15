@@ -30,7 +30,7 @@ Notes:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution832 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem832 {
     public class Solution {
         public void Init () {
             Console.WriteLine (FlipAndInvertImage (null));

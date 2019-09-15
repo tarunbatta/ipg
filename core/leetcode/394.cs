@@ -24,7 +24,7 @@ s = "2[abc]3[cd]ef", return "abcabccdcdcdef".
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution394 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem394 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

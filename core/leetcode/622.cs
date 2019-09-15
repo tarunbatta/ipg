@@ -47,7 +47,7 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution622 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem622 {
     public class Solution {
         public void Init () {
             MyCircularQueue obj = new MyCircularQueue (0);

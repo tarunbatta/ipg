@@ -50,7 +50,7 @@ The given r and c are all positive.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution566 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem566 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

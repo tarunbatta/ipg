@@ -52,7 +52,7 @@ Output: false
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution10 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem10 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

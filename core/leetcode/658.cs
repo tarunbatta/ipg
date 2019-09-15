@@ -39,7 +39,7 @@ The arr parameter had been changed to an array of integers (instead of a list of
 using System;
 using System.Collections.Generic;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution658 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem658 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

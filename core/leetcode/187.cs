@@ -18,7 +18,7 @@ Output: ["AAAAACCCCC", "CCCCCAAAAA"]
 using System;
 using System.Collections.Generic;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution187 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem187 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

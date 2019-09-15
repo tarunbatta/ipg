@@ -31,7 +31,7 @@ The length of accounts[i][j] will be in the range [1, 30].
 using System;
 using System.Collections.Generic;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution721 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem721 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

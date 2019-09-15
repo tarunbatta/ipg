@@ -33,7 +33,7 @@ Please do not use the built-in HashMap library.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution706 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem706 {
     public class Solution {
         public void Init () {
             MyHashMap hashMap = new MyHashMap ();

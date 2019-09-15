@@ -13,7 +13,7 @@ Output: 1->1->2->3->4->4
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution21 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem21 {
     public class Solution {
         public void Init () {
             ListNode l1 = new ListNode (1);

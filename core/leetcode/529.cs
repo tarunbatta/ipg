@@ -76,7 +76,7 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution529 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem529 {
 	public class Solution {
 		public void Init () {
 

@@ -62,7 +62,7 @@ Explanation: This is neither a IPv4 address nor a IPv6 address.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution468 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem468 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

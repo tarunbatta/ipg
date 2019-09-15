@@ -38,7 +38,7 @@ exection -> execution (insert 'u')
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution72 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem72 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

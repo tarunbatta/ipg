@@ -34,7 +34,7 @@ Output: 28
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution62 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem62 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

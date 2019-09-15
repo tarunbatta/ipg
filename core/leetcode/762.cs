@@ -36,7 +36,7 @@ R - L will be at most 10000.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution762 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem762 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

@@ -39,7 +39,7 @@ A solution set is:
 using System;
 using System.Collections.Generic;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution39 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem39 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

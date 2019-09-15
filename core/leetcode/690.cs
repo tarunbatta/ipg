@@ -33,7 +33,7 @@ Note:
 using System;
 using System.Collections.Generic;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution690 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem690 {
     public class Solution {
         public int getImportance (List<Employee> employees, int id) {
             return 0;

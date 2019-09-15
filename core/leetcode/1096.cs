@@ -69,7 +69,7 @@ Constraints:
 using System;
 using System.Collections.Generic;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution1096 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem1096 {
 	public class Solution {
 		public void Init () {
 

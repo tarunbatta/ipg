@@ -112,7 +112,7 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution883 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem883 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

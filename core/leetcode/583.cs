@@ -17,7 +17,7 @@ Characters in given words can only be lower-case letters.
 */
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution583 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem583 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

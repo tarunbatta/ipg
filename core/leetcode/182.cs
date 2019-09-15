@@ -9,6 +9,6 @@ SQL Schema
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution182 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem182 {
     // # Write your MySQL query statement below
 }

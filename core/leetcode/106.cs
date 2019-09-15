@@ -25,7 +25,7 @@ Return the following binary tree:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution106 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem106 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

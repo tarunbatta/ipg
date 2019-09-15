@@ -31,7 +31,7 @@ If the scores of both players are equal, then player 1 is still the winner.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution486 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem486 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

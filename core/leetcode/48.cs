@@ -47,7 +47,7 @@ rotate the input matrix in-place such that it becomes:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution48 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem48 {
     public class Solution {
         public void Init () {
             Rotate_a (null);

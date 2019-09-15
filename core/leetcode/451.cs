@@ -46,7 +46,7 @@ Note that 'A' and 'a' are treated as two different characters.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution451 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem451 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

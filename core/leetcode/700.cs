@@ -32,7 +32,7 @@ Note that an empty tree is represented by NULL, therefore you would see the expe
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution700 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem700 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

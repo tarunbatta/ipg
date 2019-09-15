@@ -20,7 +20,7 @@ Output: 0
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution201 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem201 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

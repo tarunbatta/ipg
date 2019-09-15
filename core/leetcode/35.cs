@@ -34,7 +34,7 @@ Output: 0
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution35 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem35 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

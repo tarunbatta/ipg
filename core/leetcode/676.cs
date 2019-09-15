@@ -33,7 +33,7 @@ Please remember to RESET your class variables declared in class MagicDictionary,
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution676 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem676 {
     public class Solution {
         public void Init () {
             MagicDictionary obj = new MagicDictionary ();

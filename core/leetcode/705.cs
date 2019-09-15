@@ -39,7 +39,7 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution705 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem705 {
     public class Solution {
         public void Init () {
             MyHashSet obj = new MyHashSet ();

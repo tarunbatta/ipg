@@ -38,7 +38,7 @@ Try to solve it in O(n log k) time and O(n) extra space.
 using System;
 using System.Collections.Generic;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution692 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem692 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

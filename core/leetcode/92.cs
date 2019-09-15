@@ -16,7 +16,7 @@ Output: 1->4->3->2->5->NULL
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution92 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem92 {
     public class Solution {
         public void Init () {
             ListNode l = new ListNode (1);

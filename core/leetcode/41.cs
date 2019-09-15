@@ -31,7 +31,7 @@ Your algorithm should run in O(n) time and uses constant extra space.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution41 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem41 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

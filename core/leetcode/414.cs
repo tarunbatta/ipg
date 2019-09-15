@@ -35,7 +35,7 @@ Both numbers with value 2 are both considered as second maximum.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution414 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem414 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

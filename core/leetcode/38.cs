@@ -32,7 +32,7 @@ Output: "1211"
 using System;
 using System.Text;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution38 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem38 {
     public class Solution {
         public void Init () {
             Console.WriteLine (CountAndSay (0));

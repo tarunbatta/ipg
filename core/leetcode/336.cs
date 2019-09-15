@@ -25,7 +25,7 @@ Explanation: The palindromes are ["battab","tabbat"]
 using System;
 using System.Collections.Generic;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution336 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem336 {
     public class Solution {
         public void Init () {
             PrintPalindromePairs (PalindromePairs_a (new string[] { "bat", "tab", "cat" }));

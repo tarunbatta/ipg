@@ -22,7 +22,7 @@ Explanation: transactions = [buy, sell, cooldown, buy, sell]
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution309 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem309 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

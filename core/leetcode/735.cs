@@ -55,7 +55,7 @@ Each asteroid will be a non-zero integer in the range [-1000, 1000]..
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution735 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem735 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

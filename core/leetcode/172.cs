@@ -23,7 +23,7 @@ Note: Your solution should be in logarithmic time complexity.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution172 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem172 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

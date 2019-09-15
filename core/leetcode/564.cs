@@ -22,7 +22,7 @@ If there is a tie, return the smaller one as answer.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution564 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem564 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

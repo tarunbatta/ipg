@@ -39,7 +39,7 @@ After the rain, water is trapped between the blocks. The total volume of water t
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution407 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem407 {
   public class Solution {
     public void Init () {
 

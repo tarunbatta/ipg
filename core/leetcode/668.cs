@@ -46,7 +46,7 @@ The k will be in the range [1, m * n]
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution668 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem668 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

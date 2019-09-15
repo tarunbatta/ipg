@@ -33,7 +33,7 @@ Same with other integers chosen by the first player, the second player will alwa
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution464 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem464 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

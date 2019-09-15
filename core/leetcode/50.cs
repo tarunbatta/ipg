@@ -33,7 +33,7 @@ n is a 32-bit signed integer, within the range [−231, 231 − 1]
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution50 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem50 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

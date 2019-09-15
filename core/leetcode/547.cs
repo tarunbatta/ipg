@@ -41,7 +41,7 @@ If M[i][j] = 1, then M[j][i] = 1.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution547 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem547 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

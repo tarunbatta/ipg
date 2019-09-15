@@ -28,7 +28,7 @@ rotate 4 steps to the right: 2->0->1->NULL
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution61 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem61 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

@@ -29,7 +29,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution297 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem297 {
     public class Solution {
         public void Init () {
             TreeNode root = null;

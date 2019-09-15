@@ -48,7 +48,7 @@ Output: "No solution"
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution640 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem640 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

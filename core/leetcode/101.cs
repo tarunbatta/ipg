@@ -34,7 +34,7 @@ Bonus points if you could solve it both recursively and iteratively.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution101 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem101 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

@@ -25,7 +25,7 @@ return its depth = 3.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution104 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem104 {
     public class Solution {
         public void Init () {
             TreeNode node = new TreeNode (2);

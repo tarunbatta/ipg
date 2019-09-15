@@ -31,7 +31,7 @@ Explanation: Another possible reconstruction is ["JFK","SFO","ATL","JFK","ATL","
 using System;
 using System.Collections.Generic;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution332 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem332 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

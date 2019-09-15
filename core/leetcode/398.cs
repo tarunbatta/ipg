@@ -23,7 +23,7 @@ solution.pick(1);
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution398 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem398 {
     public class Solution {
         public void Init () {
             Solution obj = new Solution (null);

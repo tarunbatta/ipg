@@ -26,7 +26,7 @@ return true, as there exist a root-to-leaf path 5->4->11->2 which sum is 22.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution112 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem112 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

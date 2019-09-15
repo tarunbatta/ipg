@@ -17,7 +17,7 @@ Note: The input number n will not exceed 100,000,000. (1e8)
 */
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution507 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem507 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

@@ -32,7 +32,7 @@ Google: 90% of our engineers use the software you wrote (Homebrew), but you canâ
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution226 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem226 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

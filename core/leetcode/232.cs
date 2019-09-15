@@ -29,7 +29,7 @@ You may assume that all operations are valid (for example, no pop or peek operat
 using System;
 using System.Collections;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution232 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem232 {
     public class MyQueue {
         private Stack inbox;
         private Stack outbox;

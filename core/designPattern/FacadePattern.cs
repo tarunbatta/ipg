@@ -1,4 +1,8 @@
-﻿using System;
+﻿/*
+
+*/
+
+using System;
 
 namespace InterviewPreperationGuide.Core.DesignPattern {
     public class FacadePattern {

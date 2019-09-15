@@ -23,7 +23,7 @@ What if the inputs contain unicode characters? How would you adapt your solution
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution242 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem242 {
     public class Solution {
         public void Init () {
             Console.WriteLine (IsAnagram_a (null, null));

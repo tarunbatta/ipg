@@ -31,7 +31,7 @@ where the largest sum among the two subarrays is only 18.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution410 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem410 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

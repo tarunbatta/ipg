@@ -20,7 +20,7 @@ If you have figured out the O(n) solution, try coding another solution using the
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution53 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem53 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

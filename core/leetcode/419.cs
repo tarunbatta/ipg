@@ -31,7 +31,7 @@ Follow up:Could you do it in one-pass, using only O(1) extra memory and without 
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution419 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem419 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

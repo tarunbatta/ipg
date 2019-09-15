@@ -47,7 +47,7 @@ Can you solve it without using extra space?
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution142 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem142 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

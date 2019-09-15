@@ -31,7 +31,7 @@ Every cost[i] will be an integer in the range [0, 999].
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution746 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem746 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

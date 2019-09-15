@@ -33,7 +33,7 @@ Note: The merging process must start from the root nodes of both trees.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution617 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem617 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

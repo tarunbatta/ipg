@@ -24,7 +24,7 @@ Could you do this in one pass?
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution19 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem19 {
     public class Solution {
         public void Init () {
             ListNode node = new ListNode (1);

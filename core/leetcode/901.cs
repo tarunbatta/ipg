@@ -44,7 +44,7 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution901 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem901 {
     public class Solution {
         public void Init () {
             StockSpanner obj = new StockSpanner ();

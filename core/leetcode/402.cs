@@ -31,7 +31,7 @@ using System.Collections;
 using System.Linq;
 using System.Text;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution402 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem402 {
     public class Solution {
         public void Init () {
             Console.WriteLine (RemoveKdigits (null, 1));

@@ -21,7 +21,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution23 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem23 {
     public class Solution {
         public void Init () {
             ListNode l1 = new ListNode (3);

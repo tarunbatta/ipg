@@ -43,7 +43,7 @@ Output: false
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution100 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem100 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

@@ -40,7 +40,7 @@ No duplicates in both lists.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution599 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem599 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

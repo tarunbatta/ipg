@@ -42,7 +42,7 @@ Therefore, sum = 495 + 491 + 40 = 1026.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution129 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem129 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

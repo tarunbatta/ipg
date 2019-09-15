@@ -31,7 +31,7 @@ Surrounded regions shouldn’t be on the border, which means that any 'O' on the
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution130 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem130 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

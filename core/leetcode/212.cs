@@ -33,7 +33,7 @@ The values of words are distinct.
 using System;
 using System.Collections.Generic;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution212 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem212 {
     public class Solution {
         public void Init () {
             Console.WriteLine (findWords (null, null));

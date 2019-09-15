@@ -33,7 +33,7 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution745 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem745 {
     public class Solution {
         public void Init () {
             WordFilter obj = new WordFilter (null);

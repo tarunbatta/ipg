@@ -36,7 +36,7 @@ date represents a calendar date between Jan 1st, 1900 and Dec 31, 2019.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution1154 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem1154 {
     public class Solution {
         public void Init () {
             Console.WriteLine (DayOfYear (null));

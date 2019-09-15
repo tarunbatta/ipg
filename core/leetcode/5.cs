@@ -19,7 +19,7 @@ Output: "bb"
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution5 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem5 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

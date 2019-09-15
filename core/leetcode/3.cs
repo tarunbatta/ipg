@@ -27,7 +27,7 @@ Explanation: The answer is "wke", with the length of 3.
 using System;
 using System.Collections;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution3 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem3 {
     public class Solution {
         public void Init () {
             Console.WriteLine (LengthOfLongestSubstring_a (null));

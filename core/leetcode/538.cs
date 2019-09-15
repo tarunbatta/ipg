@@ -21,7 +21,7 @@ Output: The root of a Greater Tree like this:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution538 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem538 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

@@ -24,7 +24,7 @@ Follow up: Could you solve it without loops/recursion?
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution342 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem342 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

@@ -40,7 +40,7 @@ Follow up:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution295 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem295 {
     public class Solution {
         public void Init () {
             MedianFinder obj = new MedianFinder ();

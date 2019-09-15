@@ -42,7 +42,7 @@ randomSet.getRandom();
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution380 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem380 {
     public class Solution {
         public void Init () {
             RandomizedSet obj = new RandomizedSet ();

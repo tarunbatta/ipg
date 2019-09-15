@@ -37,7 +37,7 @@ Explanation: There are three 132 patterns in the sequence: [-1, 3, 2], [-1, 3, 0
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution456 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem456 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

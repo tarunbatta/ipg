@@ -30,7 +30,7 @@ Output: [1,2,3,4,8,12,11,10,9,5,6,7]
 using System;
 using System.Collections.Generic;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution54 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem54 {
     public class Solution {
         public void Init () {
             Console.WriteLine (SpiralOrder (new int[][] {

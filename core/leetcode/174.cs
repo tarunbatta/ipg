@@ -62,7 +62,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution174 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem174 {
     public class Solution {
         public void Init () {
             Console.WriteLine (CalculateMinimumHP (new int[][] {

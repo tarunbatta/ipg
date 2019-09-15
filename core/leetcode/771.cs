@@ -25,7 +25,7 @@ The characters in J are distinct.
 using System;
 using System.Collections;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution771 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem771 {
     public class Solution {
         public void Init () {
             Console.WriteLine (NumJewelsInStones (null, null));

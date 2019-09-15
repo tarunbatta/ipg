@@ -31,7 +31,7 @@ Explanation: There are three ways to climb to the top.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution70 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem70 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

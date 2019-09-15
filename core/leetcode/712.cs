@@ -32,7 +32,7 @@ All elements of each string will have an ASCII value in [97, 122].
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution712 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem712 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

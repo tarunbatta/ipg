@@ -66,7 +66,7 @@ Hint: size of the given matrix will not exceed 50x50.
 using System;
 using System.Collections.Generic;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution675 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem675 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

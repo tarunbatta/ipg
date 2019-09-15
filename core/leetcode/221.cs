@@ -20,7 +20,7 @@ Output: 4
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution221 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem221 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

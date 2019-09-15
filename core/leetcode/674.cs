@@ -28,7 +28,7 @@ Length of the array will not exceed 10,000.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution674 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem674 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

@@ -27,7 +27,7 @@ Coud you solve it without converting the integer to a string?
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution9 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem9 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

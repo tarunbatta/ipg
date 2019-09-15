@@ -27,7 +27,7 @@ You may assume that nums' length ≥ k-1 and k ≥ 1.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution703 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem703 {
     public class Solution {
         public void Init () {
             KthLargest obj = new KthLargest (0, null);

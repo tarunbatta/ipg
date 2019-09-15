@@ -22,7 +22,7 @@ canConstruct("aa", "aab") -> true
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution383 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem383 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

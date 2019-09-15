@@ -43,7 +43,7 @@ the gap between the 5th and 6th stone is too large.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution403 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem403 {
     public class Solution {
         public void Init () {
             Console.WriteLine (CanCross (null));

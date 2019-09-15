@@ -51,7 +51,7 @@ target is a lowercase letter.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution744 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem744 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

@@ -1,9 +1,10 @@
-﻿using System;
+﻿/*
+Definition: Disposes an object from memory efficiently
+*/
+
+using System;
 
 namespace InterviewPreperationGuide.Core.DesignPattern {
-    /// <summary>
-    /// Definition: Disposes an object from memory efficiently
-    /// </summary>
     public class DisposePattern : IDisposable {
         private bool IsDisposed { get; set; }
 
@@ -11,9 +12,7 @@ namespace InterviewPreperationGuide.Core.DesignPattern {
             IsDisposed = false;
         }
 
-        /// <summary>
-        /// descructor to finalize the code only when the dispose method is not called
-        /// </summary>
+        // descructor to finalize the code only when the dispose method is not called
         ~DisposePattern () {
             Dispose (false);
         }

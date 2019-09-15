@@ -28,7 +28,7 @@ The web page's width and length you designed must be positive integers.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution492 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem492 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

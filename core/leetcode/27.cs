@@ -49,7 +49,7 @@ for (int i = 0; i < len; i++) {
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution27 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem27 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

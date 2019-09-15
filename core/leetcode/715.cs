@@ -33,7 +33,7 @@ The total number of calls to removeRange in a single test case is at most 1000.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution715 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem715 {
     public class Solution {
         public void Init () {
             int left = 0;

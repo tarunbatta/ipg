@@ -30,7 +30,7 @@ The number of given pairs will be in the range [1, 1000].
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution646 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem646 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

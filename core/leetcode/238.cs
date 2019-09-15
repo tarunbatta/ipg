@@ -20,7 +20,7 @@ Could you solve it with constant space complexity? (The output array does not co
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution238 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem238 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

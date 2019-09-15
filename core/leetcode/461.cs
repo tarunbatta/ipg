@@ -27,7 +27,7 @@ The above arrows point to positions where the corresponding bits are different.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution461 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem461 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

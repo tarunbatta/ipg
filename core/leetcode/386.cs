@@ -14,7 +14,7 @@ Please optimize your algorithm to use less time and space. The input size may be
 using System;
 using System.Collections.Generic;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution386 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem386 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

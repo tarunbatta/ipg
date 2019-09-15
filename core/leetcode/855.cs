@@ -34,7 +34,7 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution855 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem855 {
     public class Solution {
         public void Init () {
             ExamRoom obj = new ExamRoom (0);

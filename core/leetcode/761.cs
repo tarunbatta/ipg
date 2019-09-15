@@ -27,7 +27,7 @@ S is guaranteed to be a special binary string as defined above.
 using System;
 using System.Collections.Generic;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution761 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem761 {
     public class Solution {
         public void Init () {
             Console.WriteLine (MakeLargestSpecial (null));

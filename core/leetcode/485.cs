@@ -22,7 +22,7 @@ The length of input array is a positive integer and will not exceed 10,000
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution485 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem485 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

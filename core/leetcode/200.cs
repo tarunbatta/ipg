@@ -30,7 +30,7 @@ Output: 3
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution200 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem200 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

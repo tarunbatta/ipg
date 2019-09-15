@@ -24,7 +24,7 @@ Input: sum("ap"), Output: 5
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution677 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem677 {
     public class Solution {
         public void Init () {
             MapSum obj = new MapSum ();

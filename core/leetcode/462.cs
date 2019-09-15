@@ -23,7 +23,7 @@ Only two moves are needed (remember each move increments or decrements one eleme
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution462 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem462 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

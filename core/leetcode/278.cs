@@ -23,7 +23,7 @@ Then 4 is the first bad version.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution278 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem278 {
     public class Solution : VersionControl {
         public int FirstBadVersion (int n) {
             return 0;

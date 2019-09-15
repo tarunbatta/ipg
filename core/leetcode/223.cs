@@ -22,7 +22,7 @@ Assume that the total area is never beyond the maximum possible value of int.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution223 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem223 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

@@ -41,7 +41,7 @@ The numerator and denominator of the final result are guaranteed to be valid and
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution592 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem592 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

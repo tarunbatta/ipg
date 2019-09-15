@@ -28,7 +28,7 @@ return its zigzag level order traversal as:
 using System;
 using System.Collections.Generic;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution103 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem103 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

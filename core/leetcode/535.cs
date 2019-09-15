@@ -13,7 +13,7 @@ Design the encode and decode methods for the TinyURL service. There is no restri
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution535 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem535 {
     public class Solution {
         public void Init () {
             Codec codec = new Codec ();

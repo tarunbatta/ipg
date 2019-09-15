@@ -9,6 +9,6 @@ Medium
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution366 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem366 {
     // {{ MISSING CODE }}
 }

@@ -41,7 +41,7 @@ This tree is also valid:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution701 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem701 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

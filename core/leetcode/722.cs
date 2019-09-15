@@ -69,7 +69,7 @@ There are no single-quote, double-quote, or control characters in the source cod
 using System;
 using System.Collections.Generic;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution722 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem722 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

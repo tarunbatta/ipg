@@ -65,7 +65,7 @@ The height of binary tree is in the range of [1, 10].
 using System;
 using System.Collections.Generic;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution655 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem655 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

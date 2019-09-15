@@ -21,7 +21,7 @@ Output: [1, 3, 9]
 using System;
 using System.Collections.Generic;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution515 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem515 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

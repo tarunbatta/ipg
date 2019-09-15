@@ -23,7 +23,7 @@ Input points have no order.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution593 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem593 {
     public class Solution {
         public void Init () {
             Console.WriteLine (ValidSquare (null, new int[] { 1, 1 }, new int[] { 1, 0 }, new int[] { 0, 1 }));

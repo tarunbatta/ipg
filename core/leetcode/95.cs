@@ -30,7 +30,7 @@ The above output corresponds to the 5 unique BST's shown below:
 using System;
 using System.Collections.Generic;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution95 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem95 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

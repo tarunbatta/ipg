@@ -25,7 +25,7 @@ One longest palindrome that can be built is "dccaccd", whose length is 7.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution409 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem409 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

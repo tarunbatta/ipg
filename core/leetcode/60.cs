@@ -40,7 +40,7 @@ Output: "2314"
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution60 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem60 {
 	public class Solution {
 		public void Init () {
 

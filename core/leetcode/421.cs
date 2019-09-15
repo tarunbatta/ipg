@@ -24,7 +24,7 @@ Explanation: The maximum result is 5 ^ 25 = 28.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution421 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem421 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

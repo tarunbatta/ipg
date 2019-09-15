@@ -28,7 +28,7 @@ Explanation: By calling next repeatedly until hasNext returns false,
 using System;
 using System.Collections.Generic;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution341 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem341 {
     public class Solution {
         public void Init () {
             NestedIterator i = new NestedIterator (null);

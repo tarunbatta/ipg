@@ -25,7 +25,7 @@ return its minimum depth = 2.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution111 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem111 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

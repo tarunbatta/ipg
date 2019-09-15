@@ -28,7 +28,7 @@ You may assume k is always valid, 1 ≤ k ≤ n2.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution378 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem378 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

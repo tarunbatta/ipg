@@ -17,7 +17,7 @@ Explanation: The longest consecutive elements sequence is [1, 2, 3, 4]. Therefor
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution128 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem128 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

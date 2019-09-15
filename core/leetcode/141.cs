@@ -52,7 +52,7 @@ Can you solve it using O(1) (i.e. constant) memory?
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution141 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem141 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

@@ -32,7 +32,7 @@ All the tilt values won't exceed the range of 32-bit integer.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution563 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem563 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

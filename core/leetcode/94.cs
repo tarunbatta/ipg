@@ -22,7 +22,7 @@ Follow up: Recursive solution is trivial, could you do it iteratively?
 
 using System;
 using System.Collections.Generic;
-namespace InterviewPreperationGuide.Core.LeetCode.Solution94 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem94 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

@@ -44,7 +44,7 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution732 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem732 {
     public class Solution {
         public void Init () {
             MyCalendarThree obj = new MyCalendarThree ();

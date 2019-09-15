@@ -23,7 +23,7 @@ Could you do it in O(n) time and O(1) space?
 using System;
 using System.Collections;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution234 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem234 {
     public class Solution {
         public void Init () {
             ListNode l1 = new ListNode (1);

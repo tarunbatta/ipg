@@ -27,7 +27,7 @@ Note: Your solution should run in O(log n) time and O(1) space.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution540 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem540 {
     public class Solution {
         public void Init () {
             Console.WriteLine (SingleNonDuplicate_a (null));

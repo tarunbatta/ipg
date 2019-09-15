@@ -37,7 +37,7 @@ Output: false
 using System;
 using System.Collections.Generic;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution139 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem139 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

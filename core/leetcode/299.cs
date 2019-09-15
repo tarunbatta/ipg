@@ -31,7 +31,7 @@ Note: You may assume that the secret number and your friend's guess only contain
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution299 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem299 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

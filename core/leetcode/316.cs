@@ -20,7 +20,7 @@ Output: "acdb"
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution316 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem316 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

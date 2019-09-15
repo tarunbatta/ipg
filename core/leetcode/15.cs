@@ -24,7 +24,7 @@ A solution set is:
 using System;
 using System.Collections.Generic;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution15 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem15 {
     public class Solution {
         public void Init () {
             Console.WriteLine (ThreeSum (null));

@@ -42,7 +42,7 @@ Explanation: The two heater was placed in the position 1 and 4. We need to use r
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution475 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem475 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

@@ -31,7 +31,7 @@ Only letters from a ~ z will appear in input strings.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution521 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem521 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

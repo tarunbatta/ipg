@@ -39,7 +39,7 @@ The signature of the C++ function had been updated. If you still see your functi
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution65 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem65 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

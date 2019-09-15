@@ -24,7 +24,7 @@ Your algorithm should run in linear runtime complexity. Could you implement it u
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution268 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem268 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

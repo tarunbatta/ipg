@@ -22,7 +22,7 @@ For example, given n = 3, a solution set is:
 using System;
 using System.Collections.Generic;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution22 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem22 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

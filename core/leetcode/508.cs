@@ -31,7 +31,7 @@ You may assume the sum of values in any subtree is in the range of 32-bit signed
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution508 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem508 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

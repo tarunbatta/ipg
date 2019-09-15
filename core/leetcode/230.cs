@@ -38,7 +38,7 @@ What if the BST is modified (insert/delete operations) often and you need to fin
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution230 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem230 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

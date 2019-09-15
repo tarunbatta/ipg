@@ -20,7 +20,7 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution260 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem260 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

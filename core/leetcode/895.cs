@@ -59,7 +59,7 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution895 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem895 {
     public class Solution {
         public void Init () {
             FreqStack obj = new FreqStack ();

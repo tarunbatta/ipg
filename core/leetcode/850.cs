@@ -30,7 +30,7 @@ The total area covered by all rectangles will never exceed 2^63 - 1 and thus wil
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution850 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem850 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

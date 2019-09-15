@@ -70,7 +70,7 @@ For simplicity, you could assume the input code (including the any characters me
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution591 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem591 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

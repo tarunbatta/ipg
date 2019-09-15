@@ -23,7 +23,7 @@ There are many calls to sumRange function.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution303 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem303 {
     public class Solution {
         public void Init () {
             NumArray obj = new NumArray (null);

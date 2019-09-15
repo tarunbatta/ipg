@@ -32,7 +32,7 @@ You may assume both s and t have the same length.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution205 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem205 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

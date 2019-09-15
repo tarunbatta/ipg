@@ -40,7 +40,7 @@ NOTE: input types have been changed on April 15, 2019. Please reset to default c
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution149 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem149 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

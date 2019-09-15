@@ -38,7 +38,7 @@ Special thanks to @pbrother for adding this problem and creating all test cases.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution377 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem377 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

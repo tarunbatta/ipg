@@ -24,7 +24,7 @@ The input will be in range of [-1e7, 1e7].
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution504 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem504 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

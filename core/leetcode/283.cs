@@ -17,7 +17,7 @@ Minimize the total number of operations.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution283 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem283 {
     public class Solution {
         public void Init () {
             MoveZeroes_a (null);

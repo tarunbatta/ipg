@@ -37,7 +37,7 @@ Output: false
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution74 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem74 {
   public class Solution {
     public void Init () {
 

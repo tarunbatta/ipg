@@ -28,7 +28,7 @@ Length of the array will not exceed 10^4.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution477 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem477 {
     public class Solution {
         public void Init () {
             Console.WriteLine (TotalHammingDistance (null));

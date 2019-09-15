@@ -45,7 +45,7 @@ twitter.getNewsFeed(1);
 using System;
 using System.Collections.Generic;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution355 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem355 {
     public class Solution {
         public void Init () {
             int userId = 0;

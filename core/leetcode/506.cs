@@ -21,7 +21,7 @@ All the scores of athletes are guaranteed to be unique.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution506 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem506 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

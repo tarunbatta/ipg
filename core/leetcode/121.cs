@@ -27,7 +27,7 @@ Explanation: In this case, no transaction is done, i.e. max profit = 0.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution121 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem121 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

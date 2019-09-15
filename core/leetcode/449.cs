@@ -15,7 +15,7 @@ Note: Do not use class member/global/static variables to store states. Your seri
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution449 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem449 {
     public class Solution {
         public void Init () {
             Codec codec = new Codec ();

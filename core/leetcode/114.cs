@@ -32,7 +32,7 @@ The flattened tree should look like:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution114 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem114 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

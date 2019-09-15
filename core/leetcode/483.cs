@@ -47,7 +47,7 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution483 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem483 {
     public class Solution {
         public void Init () {
             Console.WriteLine (SmallestGoodBase (null));

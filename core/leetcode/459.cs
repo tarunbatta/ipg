@@ -30,7 +30,7 @@ Explanation: It's the substring "abc" four times. (And the substring "abcabc" tw
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution459 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem459 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

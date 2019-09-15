@@ -23,7 +23,7 @@ Output: true
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution217 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem217 {
     public class Solution {
         public void Init () {
             Console.WriteLine (ContainsDuplicate (null));

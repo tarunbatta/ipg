@@ -28,7 +28,7 @@ Explanation: The binary representation of 1 is 1 (no leading zero bits), and its
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution476 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem476 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

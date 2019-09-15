@@ -28,7 +28,7 @@ Output: [[1,2,6], [1,3,5], [2,3,4]]
 using System;
 using System.Collections.Generic;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution216 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem216 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

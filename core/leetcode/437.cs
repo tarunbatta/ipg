@@ -33,7 +33,7 @@ Return 3. The paths that sum to 8 are:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution437 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem437 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

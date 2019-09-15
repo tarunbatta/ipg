@@ -21,7 +21,7 @@ Output: "10101"
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution67 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem67 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

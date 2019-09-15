@@ -23,7 +23,7 @@ You may assume k is always valid, 1 ≤ k ≤ array's length.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution215 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem215 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

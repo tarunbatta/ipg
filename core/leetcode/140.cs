@@ -45,7 +45,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution140 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem140 {
     public class Solution {
         public void Init () {
             Console.WriteLine (WordBreak (null, null));

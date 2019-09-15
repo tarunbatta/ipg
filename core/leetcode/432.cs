@@ -21,7 +21,7 @@ Challenge: Perform all these in O(1) time complexity.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution432 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem432 {
     public class Solution {
         public void Init () {
             AllOne obj = new AllOne ();

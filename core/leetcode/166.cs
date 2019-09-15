@@ -27,7 +27,7 @@ Output: "0.(6)"
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution166 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem166 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

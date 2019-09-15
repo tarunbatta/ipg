@@ -32,7 +32,7 @@ p and q are different and both values will exist in the BST.
 */
 using System;
 
-namespace InterviewPreperationGuide.Core.Leetcode.Solution235 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem235 {
     public class TreeNode {
         public int val;
         public TreeNode left;

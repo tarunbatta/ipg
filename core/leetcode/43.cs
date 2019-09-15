@@ -24,7 +24,7 @@ You must not use any built-in BigInteger library or convert the inputs to intege
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution43 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem43 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

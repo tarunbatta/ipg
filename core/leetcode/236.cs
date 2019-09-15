@@ -33,7 +33,7 @@ p and q are different and both values will exist in the binary tree.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.Leetcode.Solution236 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem236 {
     public class Solution {
         public static void Init () {
             TreeNode root = new TreeNode (1);

@@ -33,7 +33,7 @@ Could you do it without using any loop / recursion?
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution326 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem326 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

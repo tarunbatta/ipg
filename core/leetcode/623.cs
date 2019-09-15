@@ -66,7 +66,7 @@ The given binary tree has at least one tree node.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution623 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem623 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

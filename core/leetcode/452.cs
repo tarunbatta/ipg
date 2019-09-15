@@ -25,7 +25,7 @@ One way is to shoot one arrow for example at x = 6 (bursting the balloons [2,8] 
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution452 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem452 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

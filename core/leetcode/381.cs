@@ -39,7 +39,7 @@ collection.getRandom();
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution381 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem381 {
     public class Solution {
         public void Init () {
             RandomizedCollection obj = new RandomizedCollection ();

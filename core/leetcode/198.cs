@@ -24,7 +24,7 @@ Explanation: Rob house 1 (money = 2), rob house 3 (money = 9) and rob house 5 (m
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution198 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem198 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

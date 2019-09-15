@@ -24,7 +24,7 @@ What if there are lots of merges and the number of disjoint intervals are small 
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution352 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem352 {
     public class Solution {
         public void Init () {
             SummaryRanges obj = new SummaryRanges ();

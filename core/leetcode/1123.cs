@@ -47,7 +47,7 @@ Constraints:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution1123 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem1123 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

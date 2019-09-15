@@ -34,7 +34,7 @@ cache.get(4);       // returns 4
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution146 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem146 {
     public class Solution {
         public void Init () {
             // LRUCache obj = new LRUCache(capacity);

@@ -22,7 +22,7 @@ Note: If there are several possible values for h, the maximum one is taken as th
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution274 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem274 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

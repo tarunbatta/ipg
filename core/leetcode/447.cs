@@ -25,7 +25,7 @@ The two boomerangs are [[1,0],[0,0],[2,0]] and [[1,0],[2,0],[0,0]]
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution447 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem447 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

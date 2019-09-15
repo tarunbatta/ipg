@@ -24,7 +24,7 @@ Given word = "ABCB", return false.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution79 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem79 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

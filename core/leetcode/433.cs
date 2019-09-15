@@ -60,7 +60,7 @@ return: 3
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution433 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem433 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

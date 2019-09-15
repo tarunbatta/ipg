@@ -36,7 +36,7 @@ Therefore, you need to return above trees' root in the form of a list.
 using System;
 using System.Collections.Generic;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution652 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem652 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

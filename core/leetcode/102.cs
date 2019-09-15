@@ -28,7 +28,7 @@ return its level order traversal as:
 using System;
 using System.Collections.Generic;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution102 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem102 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

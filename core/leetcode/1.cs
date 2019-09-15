@@ -19,7 +19,7 @@ return [0, 1].
 using System;
 using System.Collections;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution1 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem1 {
     public class Solution {
         public void Init () {
             Console.WriteLine (TwoSum_a (null, 9));

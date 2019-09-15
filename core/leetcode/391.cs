@@ -66,7 +66,7 @@ Return false. Because two of the rectangles overlap with each other.
 using System;
 using System.Collections.Generic;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution391 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem391 {
     public class Solution {
         public void Init () {
             Console.WriteLine (IsRectangleCover (null));

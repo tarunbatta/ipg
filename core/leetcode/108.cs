@@ -23,7 +23,7 @@ One possible answer is: [0,-3,9,-10,null,5], which represents the following heig
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution108 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem108 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

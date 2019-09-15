@@ -27,7 +27,7 @@ Explanation: No such pair of words.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution318 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem318 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

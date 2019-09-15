@@ -45,7 +45,7 @@ Note: The given binary tree has not more than 10000 nodes. The height of the tre
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution687 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem687 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

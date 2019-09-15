@@ -61,7 +61,7 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution981 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem981 {
     public class Solution {
         public void Init () {
             string key = "";

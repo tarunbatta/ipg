@@ -15,7 +15,7 @@ Output: ["255.255.11.135", "255.255.111.35"]
 using System;
 using System.Collections.Generic;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution93 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem93 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

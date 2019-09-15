@@ -46,7 +46,7 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution900 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem900 {
     public class Solution {
         public void Init () {
             RLEIterator obj = new RLEIterator (null);

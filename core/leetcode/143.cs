@@ -20,7 +20,7 @@ Given 1->2->3->4->5, reorder it to 1->5->2->4->3.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution143 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem143 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

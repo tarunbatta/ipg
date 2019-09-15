@@ -19,7 +19,7 @@ Insertion, deletion or replace of any one character are all considered as one ch
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution420 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem420 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

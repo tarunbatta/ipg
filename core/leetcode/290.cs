@@ -34,7 +34,7 @@ You may assume pattern contains only lowercase letters, and str contains lowerca
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution290 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem290 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

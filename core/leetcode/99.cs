@@ -55,7 +55,7 @@ Follow up:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution99 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem99 {
     public class Solution {
         private static TreeNode first;
         private static TreeNode second;

@@ -17,7 +17,7 @@ Explanation: The answer should be the total numbers in the range of 0 ≤ x < 10
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution357 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem357 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

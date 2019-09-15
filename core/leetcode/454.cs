@@ -30,7 +30,7 @@ The two tuples are:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution454 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem454 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

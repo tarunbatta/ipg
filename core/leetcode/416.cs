@@ -40,7 +40,7 @@ Explanation: The array cannot be partitioned into equal sum subsets.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution416 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem416 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

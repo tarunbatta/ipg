@@ -24,7 +24,7 @@ For the purpose of this problem, we will return 0 when needle is an empty string
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution28 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem28 {
     public class Solution {
         public void Init () {
             Console.WriteLine (StrStr_a (null, null));

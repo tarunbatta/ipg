@@ -49,7 +49,7 @@ Explanation: The number "-91283472332" is out of the range of a 32-bit signed in
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution8 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem8 {
     public class Solution {
         public void Init () {
             Console.WriteLine (MyAtoi (null));

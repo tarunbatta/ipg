@@ -32,7 +32,7 @@ The input strings will be given in the form of a+bi, where the integer a and b w
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution537 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem537 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

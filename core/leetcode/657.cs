@@ -28,7 +28,7 @@ Explanation: The robot moves left twice. It ends up two "moves" to the left of t
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution657 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem657 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

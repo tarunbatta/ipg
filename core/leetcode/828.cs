@@ -42,7 +42,7 @@ Note: 0 <= S.length <= 10000.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution828 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem828 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

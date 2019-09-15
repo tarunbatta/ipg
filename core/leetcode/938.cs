@@ -35,7 +35,7 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution938 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem938 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

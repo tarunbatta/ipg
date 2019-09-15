@@ -29,7 +29,7 @@ n is a non-negative integer which won't exceed the input array size.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution605 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem605 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

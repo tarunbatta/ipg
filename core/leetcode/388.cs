@@ -47,7 +47,7 @@ Notice that a/aa/aaa/file1.txt is not the longest file path, if there is another
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution388 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem388 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

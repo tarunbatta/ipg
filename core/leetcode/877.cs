@@ -39,7 +39,7 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution877 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem877 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

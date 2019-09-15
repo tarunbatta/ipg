@@ -21,7 +21,7 @@ So you should return 1, because there is only one bulb is on.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution319 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem319 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

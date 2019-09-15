@@ -34,7 +34,7 @@ Explanation: You could form "10", but then you'd have nothing left. Better form 
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution474 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem474 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

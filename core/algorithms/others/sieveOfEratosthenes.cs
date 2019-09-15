@@ -1,10 +1,11 @@
+/*
+Sieve of Eratosthenes
+https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes
+*/
+
 using System;
 
 namespace InterviewPreperationGuide.Core.Algorithms.Others {
-    /// <summary>
-    /// Sieve of Eratosthenes
-    /// https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes
-    /// </summary>
     public class SieveOfEratosthenes {
         public static void Init () {
             _SieveOfEratosthenes_a (100);

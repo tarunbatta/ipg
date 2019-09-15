@@ -30,7 +30,7 @@ Given a particular n ≥ 1, find out how much money you need to have to guarante
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution375 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem375 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

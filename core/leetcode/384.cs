@@ -24,7 +24,7 @@ solution.shuffle();
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution384 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem384 {
     public class Solution {
         public void Init () {
             Solution obj = new Solution (null);

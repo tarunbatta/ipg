@@ -35,7 +35,7 @@ Can you do it in O(n) time?
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution376 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem376 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

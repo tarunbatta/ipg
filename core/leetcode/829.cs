@@ -29,7 +29,7 @@ Note: 1 <= N <= 10 ^ 9.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution829 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem829 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

@@ -37,7 +37,7 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution707 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem707 {
     public class Solution {
         public void Init () {
             MyLinkedList obj = new MyLinkedList ();

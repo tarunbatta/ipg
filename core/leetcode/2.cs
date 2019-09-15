@@ -17,7 +17,7 @@ Explanation: 342 + 465 = 807.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution2 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem2 {
     public class ListNode {
         public int val;
         public ListNode next;

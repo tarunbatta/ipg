@@ -24,7 +24,7 @@ Output:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution406 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem406 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

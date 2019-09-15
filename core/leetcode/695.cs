@@ -31,7 +31,7 @@ Note: The length of each dimension in the given grid does not exceed 50.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution695 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem695 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

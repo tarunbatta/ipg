@@ -49,7 +49,7 @@ Explanation: M = 1000, CM = 900, XC = 90 and IV = 4.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution12 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem12 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

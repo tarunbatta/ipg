@@ -20,7 +20,7 @@ The given number is in the range [0, 10^8]
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution670 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem670 {
     public class Solution {
         public void Init () {
             Console.WriteLine (MaximumSwap_a (0));

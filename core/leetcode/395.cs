@@ -30,7 +30,7 @@ The longest substring is "ababb", as 'a' is repeated 2 times and 'b' is repeated
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution395 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem395 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

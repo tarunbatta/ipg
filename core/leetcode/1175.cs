@@ -33,7 +33,7 @@ Constraints:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution1175 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem1175 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

@@ -39,7 +39,7 @@ Constraints:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution1146 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem1146 {
     public class Solution {
         public void Init () {
             SnapshotArray obj = new SnapshotArray (0);

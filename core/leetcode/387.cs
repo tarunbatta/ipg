@@ -19,7 +19,7 @@ Note: You may assume the string contain only lowercase letters.
 using System;
 using System.Collections;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution387 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem387 {
     public class Solution {
         public void Init () {
             Console.WriteLine (FirstUniqChar (null));

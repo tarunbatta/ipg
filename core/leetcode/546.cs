@@ -31,7 +31,7 @@ The number of boxes n would not exceed 100.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution546 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem546 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

@@ -48,7 +48,7 @@ Explanation: The first 6 elements of magical string S is "12211" and it contains
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution481 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem481 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

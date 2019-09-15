@@ -40,7 +40,7 @@ A solution set is:
 using System;
 using System.Collections.Generic;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution40 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem40 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

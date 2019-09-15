@@ -22,7 +22,7 @@ Note:
 using System;
 using System.Collections;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution76 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem76 {
     public class Solution {
         public void Init () {
             Console.WriteLine (MinWindow ("ADOBECODEBANC", null));

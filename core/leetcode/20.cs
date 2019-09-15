@@ -47,7 +47,7 @@ Output: true
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution20 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem20 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

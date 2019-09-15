@@ -23,7 +23,7 @@ Output: [-1,-1]
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution34 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem34 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

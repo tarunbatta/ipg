@@ -39,7 +39,7 @@ We do not know how the threads will be scheduled in the operating system, even t
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution1114 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem1114 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

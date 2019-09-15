@@ -28,7 +28,7 @@ Explanation: Buy on day 2 (price = 2) and sell on day 3 (price = 6), profit = 6-
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution188 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem188 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

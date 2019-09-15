@@ -49,7 +49,7 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution1081 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem1081 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

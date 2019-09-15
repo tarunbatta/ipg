@@ -41,7 +41,7 @@ Note:  1 <= S.length <= 1000
 using System;
 using System.Collections.Generic;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution830 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem830 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

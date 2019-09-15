@@ -25,7 +25,7 @@ A solution set is:
 using System;
 using System.Collections.Generic;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution18 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem18 {
     public class Solution {
         public void Init () {
             Console.WriteLine (FourSum (null, 0));

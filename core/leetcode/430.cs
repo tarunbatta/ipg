@@ -38,7 +38,7 @@ We should return the following flattened doubly linked list:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution430 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem430 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

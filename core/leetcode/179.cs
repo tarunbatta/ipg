@@ -22,7 +22,7 @@ Note: The result may be very large, so you need to return a string instead of an
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution179 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem179 {
     public class Solution {
         public void Init () {
             Console.WriteLine ();

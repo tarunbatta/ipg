@@ -44,7 +44,7 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution1032 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem1032 {
     public class Solution {
         public void Init () {
             StreamChecker obj = new StreamChecker (null);

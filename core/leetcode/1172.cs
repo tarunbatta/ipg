@@ -70,7 +70,7 @@ Constraints:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution1172 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem1172 {
     public class Solution {
         public void Init () {
             DinnerPlates obj = new DinnerPlates (0);

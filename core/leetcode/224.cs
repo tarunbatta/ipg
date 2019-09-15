@@ -28,7 +28,7 @@ Do not use the eval built-in library function.
 using System;
 using System.Collections.Generic;
 
-namespace InterviewPreperationGuide.Core.LeetCode.Solution224 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem224 {
     public class Solution {
         public void Init () {
             Console.WriteLine (Calculate (null));
