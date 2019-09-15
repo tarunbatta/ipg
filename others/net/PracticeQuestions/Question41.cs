@@ -12,11 +12,11 @@ namespace InterviewPreperationGuide.App.PracticeQuestions {
     public class Question41 {
         public static void Init (string[] args) {
             PrintDuplicates (null);
-            Program.PrintLine ();
+            
             PrintDuplicates (new int[] { 1 });
-            Program.PrintLine ();
+            
             PrintDuplicates (new int[] { 1, 1 });
-            Program.PrintLine ();
+            
             PrintDuplicates (new int[] { 1, 2, 3, 1, 3, 6, 6 });
         }
 

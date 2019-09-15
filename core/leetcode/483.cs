@@ -50,11 +50,49 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution483 {
     public class Solution {
         public void Init () {
-            Console.WriteLine ();
+            Console.WriteLine (SmallestGoodBase (null));
+            Console.WriteLine (SmallestGoodBase ("13"));
+            Console.WriteLine (SmallestGoodBase ("4681"));
+            Console.WriteLine (SmallestGoodBase ("1000000000000000000"));
         }
 
         public string SmallestGoodBase (string n) {
-            return null;
+            string result = null;
+
+            if (!string.IsNullOrEmpty (n)) {
+                long num = Int64.Parse (n);
+                long key = 0;
+
+                // length
+                for (long k = 60; k >= 2; k--) {
+                    // base
+                    long l = 2, h = num - 1;
+                    while (l <= h) {
+                        long mid = l + (h - l) / 2;
+                        double left = Math.Pow (mid, k) - 1;
+                        long right = (long) num * (mid - 1);
+
+                        if (left == right) {
+                            key = mid;
+                            break;
+                        }
+
+                        if (left < right) {
+                            l = mid + 1;
+                        } else {
+                            h = mid - 1;
+                        }
+                    }
+
+                    if (key != 0) {
+                        break;
+                    }
+                }
+
+                result = key + "";
+            }
+
+            return result;
         }
     }
 }

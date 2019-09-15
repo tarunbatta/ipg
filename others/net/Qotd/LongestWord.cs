@@ -11,9 +11,9 @@ namespace InterviewPreperationGuide.App.Qotd {
     public class LongestWord {
         public static void Init (string[] args) {
             Console.WriteLine (GetLongestWord (null));
-            Program.PrintLine ();
+            
             Console.WriteLine (GetLongestWord (new string[] { "cat", "banana", "dog", "nana", "walk", "walker", "dogwalker" }));
-            Program.PrintLine ();
+            
             Console.WriteLine (GetLongestWord (new string[] { "cat", "banana", "dog", "nana", "walk", "walker", "dogwal" }));
         }
 

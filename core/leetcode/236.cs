@@ -34,19 +34,6 @@ p and q are different and both values will exist in the binary tree.
 using System;
 
 namespace InterviewPreperationGuide.Core.Leetcode.Solution236 {
-    public class TreeNode {
-        public int val;
-        public TreeNode left;
-        public TreeNode right;
-        public TreeNode (int x) { val = x; }
-
-        public void DisplayNode () {
-            if (this != null) {
-                Console.WriteLine (this.val);
-            }
-        }
-    }
-
     public class Solution {
         public static void Init () {
             TreeNode root = new TreeNode (1);
@@ -85,6 +72,19 @@ namespace InterviewPreperationGuide.Core.Leetcode.Solution236 {
             }
 
             return (left != null) ? left : right;
+        }
+    }
+
+    public class TreeNode {
+        public int val;
+        public TreeNode left;
+        public TreeNode right;
+        public TreeNode (int x) { val = x; }
+
+        public void DisplayNode () {
+            if (this != null) {
+                Console.WriteLine (this.val);
+            }
         }
     }
 }

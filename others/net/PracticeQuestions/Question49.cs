@@ -20,9 +20,9 @@ namespace InterviewPreperationGuide.App.PracticeQuestions {
     public class Question49 {
         public static void Init (string[] args) {
             PostfixToPrefix (new List<PFElement> () { new PFLiteral (5), new PFLiteral (4), new PFOperator ("+") });
-            Program.PrintLine ();
+            
             PostfixToPrefix (new List<PFElement> () { new PFLiteral (7), new PFLiteral (6), new PFOperator ("+"), new PFLiteral (5), new PFOperator ("-") });
-            Program.PrintLine ();
+            
             PostfixToPrefix (new List<PFElement> () { new PFLiteral (7), new PFOperator ("log"), new PFLiteral (2), new PFOperator ("+") });
         }
 

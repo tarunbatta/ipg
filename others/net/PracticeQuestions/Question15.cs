@@ -7,7 +7,7 @@ namespace InterviewPreperationGuide.App.PracticeQuestions {
     public class Question15 {
         public static void Init (string[] args) {
             GetPermutations (null);
-            Program.PrintLine ();
+            
             GetPermutations ("abcd");
         }
 

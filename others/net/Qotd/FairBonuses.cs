@@ -47,27 +47,27 @@ namespace InterviewPreperationGuide.App.Qotd {
 			*/
 
             GetTotalTickets (null);
-            Program.PrintLine ();
+            
             GetTotalTickets (new int[] { 300, 400, 500, 200 });
-            Program.PrintLine ();
+            
             GetTotalTickets (new int[] { 11, 10, 10, 10, 15, 18, 18, 18 });
-            Program.PrintLine ();
+            
             GetTotalTickets (new int[] { 10, 9, 8, 7, 6, 5, 9, 4, 3, 2, 1 });
-            Program.PrintLine ();
+            
             GetTotalTickets (new int[] { 1000, 900, 800, 700, 600, 500, 400, 300, 200, 100, 50 });
-            Program.PrintLine ();
+            
             GetTotalTickets (new int[] { 800, 700, 600, 1000, 500, 400, 2000, 200, 3000 });
-            Program.PrintLine ();
+            
             GetTotalTickets (new int[] { 1000, 900, 800, 700, 500, 600, 700, 800 });
-            Program.PrintLine ();
+            
             GetTotalTickets (new int[] { 11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1 });
-            Program.PrintLine ();
+            
             GetTotalTickets (new int[] { 3, 2, 1, 3, 2, 1, 2, 1, 2 });
-            Program.PrintLine ();
+            
             GetTotalTickets (new int[] { 5, 4, 3, 2, 1, 2, 3, 4 });
-            Program.PrintLine ();
+            
             GetTotalTickets (new int[] { 1, 1, 1, 1, 1, 1 });
-            Program.PrintLine ();
+            
             GetTotalTickets (new int[] { 100, 50, 200, 200, 200, 10, 20, 200, 100, 100, 100 });
         }
 

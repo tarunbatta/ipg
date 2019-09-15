@@ -29,7 +29,7 @@ namespace InterviewPreperationGuide.App.Qotd {
     public class SpaceMessageSystem {
         public static void Init (string[] args) {
             GetMessageDeliveryTimespan (5878499810000, 1);
-            Program.PrintLine ();
+            
             GetMessageDeliveryTimespan (99999999999999, 185000 * (60 * 60));
         }
 

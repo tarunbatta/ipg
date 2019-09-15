@@ -18,21 +18,21 @@ namespace InterviewPreperationGuide.App.PracticeQuestions {
     public class Question45 {
         public static void Init (string[] args) {
             Console.WriteLine (MaxSubarrayXOR_a (null));
-            Program.PrintLine ();
+            
             Console.WriteLine (MaxSubarrayXOR_a (new int[] { 1, 2, 3, 4 }));
-            Program.PrintLine ();
+            
             Console.WriteLine (MaxSubarrayXOR_a (new int[] { 8, 1, 2, 12, 7, 6 }));
-            Program.PrintLine ();
+            
             Console.WriteLine (MaxSubarrayXOR_a (new int[] { 4, 6 }));
 
-            Program.PrintSeperator ();
+            
 
             Console.WriteLine (MaxSubarrayXOR_b (null));
-            Program.PrintLine ();
+            
             Console.WriteLine (MaxSubarrayXOR_b (new int[] { 1, 2, 3, 4 }));
-            Program.PrintLine ();
+            
             Console.WriteLine (MaxSubarrayXOR_b (new int[] { 8, 1, 2, 12, 7, 6 }));
-            Program.PrintLine ();
+            
             Console.WriteLine (MaxSubarrayXOR_b (new int[] { 4, 6 }));
         }
 

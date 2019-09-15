@@ -9,61 +9,61 @@ namespace InterviewPreperationGuide.App.PracticeQuestions {
     public class Question9 {
         public static void Init (string[] args) {
             Console.WriteLine (RemoveCharactersFromString (string.Empty, string.Empty));
-            Program.PrintLine ();
+            
             Console.WriteLine (RemoveCharactersFromString (null, null));
-            Program.PrintLine ();
+            
             Console.WriteLine (RemoveCharactersFromString (" ", " "));
-            Program.PrintLine ();
+            
             Console.WriteLine (RemoveCharactersFromString ("0", "0"));
-            Program.PrintLine ();
+            
             Console.WriteLine (RemoveCharactersFromString ("abcd", string.Empty));
-            Program.PrintLine ();
+            
             Console.WriteLine (RemoveCharactersFromString (string.Empty, "abcd"));
-            Program.PrintLine ();
+            
             Console.WriteLine (RemoveCharactersFromString ("abcd", null));
-            Program.PrintLine ();
+            
             Console.WriteLine (RemoveCharactersFromString (null, "abcd"));
-            Program.PrintLine ();
+            
             Console.WriteLine (RemoveCharactersFromString ("abcd", " "));
-            Program.PrintLine ();
+            
             Console.WriteLine (RemoveCharactersFromString (" ", "abcd"));
-            Program.PrintLine ();
+            
             Console.WriteLine (RemoveCharactersFromString ("abcd", "b"));
-            Program.PrintLine ();
+            
             Console.WriteLine (RemoveCharactersFromString ("b", "abcd"));
-            Program.PrintLine ();
+            
             Console.WriteLine (RemoveCharactersFromString ("This is a test.", "aeiou"));
-            Program.PrintLine ();
+            
             Console.WriteLine (RemoveCharactersFromString ("This is a test.", "z"));
 
-            Program.PrintSeperator ();
+            
 
             Console.WriteLine (RemoveCharactersFromString1 (string.Empty, string.Empty));
-            Program.PrintLine ();
+            
             Console.WriteLine (RemoveCharactersFromString1 (null, null));
-            Program.PrintLine ();
+            
             Console.WriteLine (RemoveCharactersFromString1 (" ", " "));
-            Program.PrintLine ();
+            
             Console.WriteLine (RemoveCharactersFromString1 ("0", "0"));
-            Program.PrintLine ();
+            
             Console.WriteLine (RemoveCharactersFromString1 ("abcd", string.Empty));
-            Program.PrintLine ();
+            
             Console.WriteLine (RemoveCharactersFromString1 (string.Empty, "abcd"));
-            Program.PrintLine ();
+            
             Console.WriteLine (RemoveCharactersFromString1 ("abcd", null));
-            Program.PrintLine ();
+            
             Console.WriteLine (RemoveCharactersFromString1 (null, "abcd"));
-            Program.PrintLine ();
+            
             Console.WriteLine (RemoveCharactersFromString1 ("abcd", " "));
-            Program.PrintLine ();
+            
             Console.WriteLine (RemoveCharactersFromString1 (" ", "abcd"));
-            Program.PrintLine ();
+            
             Console.WriteLine (RemoveCharactersFromString1 ("abcd", "b"));
-            Program.PrintLine ();
+            
             Console.WriteLine (RemoveCharactersFromString1 ("b", "abcd"));
-            Program.PrintLine ();
+            
             Console.WriteLine (RemoveCharactersFromString1 ("This is a test.", "aeiou"));
-            Program.PrintLine ();
+            
             Console.WriteLine (RemoveCharactersFromString1 ("This is a test.", "z"));
         }
 

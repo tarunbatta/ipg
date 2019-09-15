@@ -10,15 +10,15 @@ namespace InterviewPreperationGuide.App.PracticeQuestions {
     public class Question43 {
         public static void Init (string[] args) {
             CheckBalanced (null);
-            Program.PrintLine ();
+            
             CheckBalanced ("[{()}]");
-            Program.PrintLine ();
+            
             CheckBalanced ("[{{{{{");
-            Program.PrintLine ();
+            
             CheckBalanced ("[[({({})})]][{()}]");
-            Program.PrintLine ();
+            
             CheckBalanced ("[}}}}}}}}");
-            Program.PrintLine ();
+            
             CheckBalanced ("]))}}}}}}}}");
         }
 

@@ -28,11 +28,24 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution104 {
     public class Solution {
         public void Init () {
-            Console.WriteLine ();
+            TreeNode node = new TreeNode (2);
+            node.left = new TreeNode (3);
+            node.right = new TreeNode (4);
+            node.left.left = new TreeNode (4);
+            node.left.right = new TreeNode (5);
+
+            Console.WriteLine (MaxDepth (node));
         }
 
         public int MaxDepth (TreeNode root) {
-            return 0;
+            if (root == null) {
+                return 0;
+            }
+
+            int left = MaxDepth (root.left);
+            int right = MaxDepth (root.right);
+
+            return (left > right) ? (left + 1) : (right + 1);
         }
     }
 

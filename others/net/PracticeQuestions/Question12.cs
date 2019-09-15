@@ -9,21 +9,21 @@ namespace InterviewPreperationGuide.App.PracticeQuestions {
     public class Question12 {
         public static void Init (string[] args) {
             Console.WriteLine (Intersect_a (null, null));
-            Program.PrintLine ();
+            
             Console.WriteLine (Intersect_a (new List<int> () { 1, 2, 3, 4 }, null));
-            Program.PrintLine ();
+            
             Console.WriteLine (Intersect_a (null, new List<int> () { 2, 4 }));
-            Program.PrintLine ();
+            
             Console.WriteLine (Intersect_a (new List<int> () { 1, 2, 3, 4 }, new List<int> () { 2, 4 }));
 
-            Program.PrintSeperator ();
+            
 
             Console.WriteLine (Intersect_b (null, null));
-            Program.PrintLine ();
+            
             Console.WriteLine (Intersect_b (new List<int> () { 1, 2, 3, 4 }, null));
-            Program.PrintLine ();
+            
             Console.WriteLine (Intersect_b (null, new List<int> () { 2, 4 }));
-            Program.PrintLine ();
+            
             Console.WriteLine (Intersect_b (new List<int> () { 1, 2, 3, 4 }, new List<int> () { 2, 4 }));
         }
 

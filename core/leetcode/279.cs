@@ -24,11 +24,43 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution279 {
     public class Solution {
         public void Init () {
-            Console.WriteLine ();
+            Console.WriteLine (NumSquares (-1));
+            Console.WriteLine (NumSquares (0));
+            Console.WriteLine (NumSquares (1));
+            Console.WriteLine (NumSquares (5));
+            Console.WriteLine (NumSquares (12));
+            Console.WriteLine (NumSquares (13));
+            Console.WriteLine (NumSquares (16));
         }
 
         public int NumSquares (int n) {
-            return 0;
+            if (n <= 0) {
+                return 0;
+            }
+
+            int num = (int) Math.Sqrt (n);
+
+            if (num * num == n) {
+                return 1;
+            }
+
+            int[] result = new int[n + 1];
+
+            for (int i = 0; i < n + 1; i++) {
+                result[i] = Int32.MaxValue;
+            }
+
+            result[0] = 0;
+
+            for (int i = 1; i * i <= n; i++) {
+                result[i * i] = 1;
+
+                for (int j = i * i + 1; j <= n; j++) {
+                    result[j] = Math.Min (result[j], result[j - i * i] + 1);
+                }
+            }
+
+            return result[n];
         }
     }
 }

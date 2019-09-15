@@ -26,11 +26,11 @@ namespace InterviewPreperationGuide.App.PracticeQuestions {
             //GetArrayPairSum(null, 0);
             //Program.PrintLine();
             CountPairWithSum (new int[] { 1, 5, 7, -1 }, 6);
-            Program.PrintLine ();
+            
             CountPairWithSum (new int[] { 1, 5, 7, -1, 5 }, 6);
-            Program.PrintLine ();
+            
             CountPairWithSum (new int[] { 1, 1, 1, 1 }, 2);
-            Program.PrintLine ();
+            
             CountPairWithSum (new int[] { 10, 12, 10, 15, -1, 7, 6, 5, 4, 2, 1, 1, 1 }, 11);
         }
 

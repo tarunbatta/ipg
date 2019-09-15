@@ -46,10 +46,74 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution403 {
     public class Solution {
         public void Init () {
-            Console.WriteLine ();
+            Console.WriteLine (CanCross (null));
+            Console.WriteLine (CanCross (new int[] { 0, 1, 3, 5, 6, 8, 12, 17 }));
+            Console.WriteLine (CanCross (new int[] { 0, 1, 2, 3, 4, 8, 9, 11 }));
+            Console.WriteLine (CanCross (new int[] { 0, 1, 3, 4, 5, 7, 9, 10, 12 }));
         }
 
         public bool CanCross (int[] stones) {
+            if (stones == null) {
+                return false;
+            }
+
+            int n = stones.Length;
+
+            if (n <= 1) {
+                return true;
+            }
+            if (stones[1] != 1) {
+                return false;
+            }
+
+            bool[, ] dp = new bool[n, n];
+
+            return RecursiveCall (stones, dp, 1, 0);
+        }
+
+        public bool RecursiveCall (int[] stones, bool[, ] dp, int index, int last) {
+            if (index == stones.Length - 1) {
+                return true;
+            }
+
+            if (dp[index, last]) {
+                return false;
+            }
+
+            dp[index, last] = true;
+
+            int dist = stones[index] - stones[last];
+            int st = index + 1;
+            int ed = stones.Length - 1;
+            int re = -1;
+
+            while (st <= ed) {
+                int mid = (st + ed) >> 1;
+
+                if (stones[mid] - stones[index] >= dist - 1 && stones[mid] - stones[index] <= dist + 1) {
+                    re = mid;
+                    ed = mid - 1;
+                } else if (stones[mid] - stones[index] < dist - 1) {
+                    st = mid + 1;
+                } else {
+                    ed = mid - 1;
+                }
+            }
+
+            if (re == -1) {
+                return false;
+            }
+
+            for (int i = re; i < stones.Length; i++) {
+                if (stones[i] - stones[index] > dist + 1) {
+                    break;
+                }
+
+                if (RecursiveCall (stones, dp, i, index)) {
+                    return true;
+                }
+            }
+
             return false;
         }
     }

@@ -31,11 +31,26 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution477 {
     public class Solution {
         public void Init () {
-            Console.WriteLine ();
+            Console.WriteLine (TotalHammingDistance (null));
+            Console.WriteLine (TotalHammingDistance (new int[] { 4, 14, 2 }));
         }
 
         public int TotalHammingDistance (int[] nums) {
-            return 0;
+            int result = 0;
+
+            if (nums != null && nums.Length > 0) {
+                for (int i = 0; i < 32; i++) {
+                    int bitCount = 0;
+
+                    for (int j = 0; j < nums.Length; j++) {
+                        bitCount += (nums[j] >> i) & 1;
+                    }
+
+                    result += bitCount * (nums.Length - bitCount);
+                }
+            }
+
+            return result;
         }
     }
 }

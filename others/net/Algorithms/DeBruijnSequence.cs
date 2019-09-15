@@ -26,11 +26,11 @@ namespace InterviewPreperationGuide.App.Algorithms {
     public class DeBruijnSequence {
         public static void Init (string[] args) {
             BuildDeBruijnSequence (3);
-            Program.PrintLine ();
+            
             BuildDeBruijnSequence (4);
-            Program.PrintLine ();
+            
             BuildDeBruijnSequence (5);
-            Program.PrintLine ();
+            
             BuildDeBruijnSequence (6);
         }
 

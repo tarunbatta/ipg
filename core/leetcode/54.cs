@@ -33,10 +33,56 @@ using System.Collections.Generic;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution54 {
     public class Solution {
         public void Init () {
-            Console.WriteLine ();
+            Console.WriteLine (SpiralOrder (new int[][] {
+                new int[] { 1, 2, 3, 4 },
+                    new int[] { 5, 6, 7, 8 },
+                    new int[] { 9, 10, 11, 12 },
+                    new int[] { 13, 14, 15, 16 }
+            }));
+            Console.WriteLine (SpiralOrder (new int[][] {
+                new int[] { 1, 2, 3, 4, 5, 6 },
+                    new int[] { 7, 8, 9, 10, 11, 12 },
+                    new int[] { 13, 14, 15, 16, 17, 18 }
+            }));
         }
 
         public IList<int> SpiralOrder (int[][] matrix) {
+            // string result = string.Empty;
+
+            // int height = matrix.GetLength (0);
+            // int width = matrix.GetLength (1);
+
+            // int rowStart = 0;
+            // int rowEnd = height;
+            // int colStart = 0;
+            // int colEnd = width;
+
+            // while ((rowStart < rowEnd) && (colStart < colEnd)) {
+            //     for (int i = colStart; i < colEnd; i++) {
+            //         result += matrix[rowStart, i] + " ";
+            //     }
+            //     rowStart++;
+
+            //     for (int i = rowStart; i < rowEnd; i++) {
+            //         result += matrix[i, colEnd - 1] + " ";
+            //     }
+            //     colEnd--;
+
+            //     if (rowStart < rowEnd) {
+            //         for (int i = colEnd - 1; i >= colStart; i--) {
+            //             result += matrix[rowEnd - 1, i] + " ";
+            //         }
+            //         rowEnd--;
+            //     }
+
+            //     if (colStart < colEnd) {
+            //         for (int i = rowEnd - 1; i >= rowStart; i--) {
+            //             result += matrix[i, colStart] + " ";
+            //         }
+            //         colStart++;
+            //     }
+            // }
+
             return null;
         }
     }

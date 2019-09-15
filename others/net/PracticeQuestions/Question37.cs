@@ -15,13 +15,13 @@ namespace InterviewPreperationGuide.App.PracticeQuestions {
     public class Question37 {
         public static void Init (string[] args) {
             Encode (null);
-            Program.PrintLine ();
+            
             Encode (("aaaabbcccd").ToCharArray ());
-            Program.PrintLine ();
+            
             Encode (("aaabcdef").ToCharArray ());
-            Program.PrintLine ();
+            
             Encode (("aabcdef").ToCharArray ());
-            Program.PrintLine ();
+            
             Encode (("abcdef").ToCharArray ());
         }
 

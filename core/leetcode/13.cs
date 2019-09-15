@@ -48,15 +48,49 @@ Explanation: M = 1000, CM = 900, XC = 90 and IV = 4.
 */
 
 using System;
+using System.Collections.Generic;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution13 {
     public class Solution {
         public void Init () {
-            Console.WriteLine ();
+            Console.WriteLine (RomanToInt (null));
+            Console.WriteLine (RomanToInt ("IX"));
+            Console.WriteLine (RomanToInt ("VI"));
+            Console.WriteLine (RomanToInt ("MDCLIX"));
+            Console.WriteLine (RomanToInt ("MDCIL"));
         }
 
-        public int RomanToInt (string s) {
-            return 0;
+        public static int RomanToInt (string s) {
+            int result = 0;
+
+            if (!string.IsNullOrEmpty (s)) {
+                Dictionary<char, int> dict = new Dictionary<char, int> ();
+                dict.Add ('I', 1);
+                dict.Add ('V', 5);
+                dict.Add ('X', 10);
+                dict.Add ('L', 50);
+                dict.Add ('C', 100);
+                dict.Add ('D', 500);
+                dict.Add ('M', 1000);
+
+                for (int i = 0; i < s.Length; i++) {
+                    if (!dict.ContainsKey (s[i])) {
+                        return result;
+                    }
+                }
+
+                result = dict[s[s.Length - 1]];
+
+                for (int i = s.Length - 2; i >= 0; i--) {
+                    if (dict[s[i + 1]] > dict[s[i]]) {
+                        result -= dict[s[i]];
+                    } else {
+                        result += dict[s[i]];
+                    }
+                }
+            }
+
+            return result;
         }
     }
 }

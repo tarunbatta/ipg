@@ -8,33 +8,33 @@ namespace InterviewPreperationGuide.App.PracticeQuestions {
     public class Question13 {
         public static void Init (string[] args) {
             Console.WriteLine (IsPrime_a (0));
-            Program.PrintLine ();
+            
             Console.WriteLine (IsPrime_a (1));
-            Program.PrintLine ();
+            
             Console.WriteLine (IsPrime_a (6));
-            Program.PrintLine ();
+            
             Console.WriteLine (IsPrime_a (7));
-            Program.PrintLine ();
+            
             Console.WriteLine (IsPrime_a (11));
-            Program.PrintLine ();
+            
             Console.WriteLine (IsPrime_a (17));
-            Program.PrintLine ();
+            
             Console.WriteLine (IsPrime_a (33));
 
-            Program.PrintSeperator ();
+            
 
             Console.WriteLine (IsPrime_b (0));
-            Program.PrintLine ();
+            
             Console.WriteLine (IsPrime_b (1));
-            Program.PrintLine ();
+            
             Console.WriteLine (IsPrime_b (6));
-            Program.PrintLine ();
+            
             Console.WriteLine (IsPrime_b (7));
-            Program.PrintLine ();
+            
             Console.WriteLine (IsPrime_b (11));
-            Program.PrintLine ();
+            
             Console.WriteLine (IsPrime_b (17));
-            Program.PrintLine ();
+            
             Console.WriteLine (IsPrime_b (33));
         }
 

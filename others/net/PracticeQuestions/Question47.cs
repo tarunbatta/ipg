@@ -9,7 +9,7 @@ namespace InterviewPreperationGuide.App.PracticeQuestions {
     public class Question47 {
         public static void Init (string[] args) {
             RearrangeEvenOdd (null);
-            Program.PrintLine ();
+            
             RearrangeEvenOdd (new int[] { 2, 5, 7, 8, 1, 6, 9, 0 });
         }
 

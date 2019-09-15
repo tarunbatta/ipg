@@ -16,11 +16,11 @@ namespace InterviewPreperationGuide.App.PracticeQuestions {
     public class Question48 {
         public static void Init (string[] args) {
             GetBullsAndCows (12345, 23451);
-            Program.PrintLine ();
+            
             GetBullsAndCows (13579, 12468);
-            Program.PrintLine ();
+            
             GetBullsAndCows (13579, 12345);
-            Program.PrintLine ();
+            
             GetBullsAndCows (13579, 90341);
         }
 

@@ -16,19 +16,19 @@ namespace InterviewPreperationGuide.App.Qotd {
     public class NextPalindrome {
         public static void Init (string[] args) {
             Console.WriteLine (GetNextPalindrome (null));
-            Program.PrintLine ();
+            
             Console.WriteLine (GetNextPalindrome ("0"));
-            Program.PrintLine ();
+            
             Console.WriteLine (GetNextPalindrome ("5"));
-            Program.PrintLine ();
+            
             Console.WriteLine (GetNextPalindrome ("9"));
-            Program.PrintLine ();
+            
             Console.WriteLine (GetNextPalindrome ("999"));
-            Program.PrintLine ();
+            
             Console.WriteLine (GetNextPalindrome ("1234"));
-            Program.PrintLine ();
+            
             Console.WriteLine (GetNextPalindrome ("2133"));
-            Program.PrintLine ();
+            
             Console.WriteLine (GetNextPalindrome ("1234628"));
         }
 

@@ -17,25 +17,25 @@ namespace InterviewPreperationGuide.App.PracticeQuestions {
     public class Question44 {
         public static void Init (string[] args) {
             CalculateSpan_a (null);
-            Program.PrintLine ();
+            
             CalculateSpan_a (new int[] { 100 });
-            Program.PrintLine ();
+            
             CalculateSpan_a (new int[] { 100, 80, 60, 70, 60, 75, 85 });
-            Program.PrintLine ();
+            
             CalculateSpan_a (new int[] { 59, 60, 61, 59, 62, 59, 60, 61, 62 });
-            Program.PrintLine ();
+            
             CalculateSpan_a (new int[] { 59, 60, 59, 59, 57, 65, 61, 62 });
 
-            Program.PrintSeperator ();
+            
 
             CalculateSpan_b (null);
-            Program.PrintLine ();
+            
             CalculateSpan_b (new int[] { 100 });
-            Program.PrintLine ();
+            
             CalculateSpan_b (new int[] { 100, 80, 60, 70, 60, 75, 85 });
-            Program.PrintLine ();
+            
             CalculateSpan_b (new int[] { 59, 60, 61, 59, 62, 59, 60, 61, 62 });
-            Program.PrintLine ();
+            
             CalculateSpan_b (new int[] { 59, 60, 59, 59, 57, 65, 61, 62 });
         }
 

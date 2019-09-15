@@ -58,15 +58,119 @@ Note:
 */
 
 using System;
+using System.Collections;
+using System.Collections.Generic;
+using System.Linq;
 
 namespace InterviewPreperationGuide.Core.LeetCode.Solution174 {
     public class Solution {
         public void Init () {
-            Console.WriteLine ();
+            Console.WriteLine (CalculateMinimumHP (new int[][] {
+                new int[] {-2, -3, 3 },
+                    new int[] {-5, -10, 1 },
+                    new int[] { 10, 30, -5 }
+            }));
+            Console.WriteLine (CalculateMinimumHP (new int[][] {
+                new int[] {-2, -3, 3, 1 },
+                    new int[] {-5, -10, 1, -1 },
+                    new int[] { 10, 30, -5, -1 }
+            }));
         }
 
         public int CalculateMinimumHP (int[][] dungeon) {
-            return 0;
+            int height = dungeon.GetLength (0);
+            int width = dungeon.GetLength (1);
+
+            int rowCounter = 0;
+            int colCounter = 0;
+
+            List<Knight> reachedPrincess = new List<Knight> ();
+
+            Knight k = new Knight (rowCounter, colCounter, dungeon[rowCounter][colCounter], null);
+            Knight first = null;
+
+            Queue q = new Queue ();
+            q.Enqueue (k);
+
+            while (q.Count > 0) {
+                first = (Knight) q.Dequeue ();
+                rowCounter = first.position.row;
+                colCounter = first.position.col;
+
+                if ((rowCounter == height - 1) && (colCounter == width - 1)) {
+                    reachedPrincess.Add (first);
+                }
+
+                if ((rowCounter < height) && (colCounter + 1 < width)) {
+                    Knight moveRight = new Knight (first.position.row, first.position.col, first.affect, first.moves);
+                    moveRight.MoveRight (dungeon[rowCounter][colCounter + 1]);
+                    q.Enqueue (moveRight);
+                }
+
+                if ((rowCounter + 1 < height) && (colCounter < width)) {
+                    Knight moveDown = new Knight (first.position.row, first.position.col, first.affect, first.moves);
+                    moveDown.MoveDown (dungeon[rowCounter + 1][colCounter]);
+                    q.Enqueue (moveDown);
+                }
+            }
+
+            var bestKnight = reachedPrincess.Where (x => x.health > 0)
+                .OrderBy (x => x.health)
+                .First ();
+
+            return bestKnight.health;
+        }
+    }
+
+    public class Position {
+        public int row { get; set; }
+        public int col { get; set; }
+
+        public Position (int row, int col) {
+            this.row = row;
+            this.col = col;
+        }
+    }
+
+    public class Knight {
+        public int affect { get; set; }
+
+        public List<string> moves = null;
+
+        public Position position { get; set; }
+
+        public int health {
+            get {
+                return -(this.affect) + 1;
+            }
+        }
+
+        public Knight (int row, int col, int affect, List<string> moves) {
+            this.affect = affect;
+            this.position = new Position (row, col);
+
+            if (moves == null || moves.Count == 0) {
+                this.moves = new List<string> ();
+                this.moves.Add ("START");
+            } else {
+                this.moves = new List<string> ();
+
+                foreach (var item in moves) {
+                    this.moves.Add (item);
+                }
+            }
+        }
+
+        public void MoveRight (int affect) {
+            this.position.col++;
+            this.affect += affect;
+            this.moves.Add ("RIGHT");
+        }
+
+        public void MoveDown (int affect) {
+            this.position.row++;
+            this.affect += affect;
+            this.moves.Add ("DOWN");
         }
     }
 }

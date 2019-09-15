@@ -8,11 +8,11 @@ namespace InterviewPreperationGuide.App.PracticeQuestions {
     public class Question46 {
         public static void Init (string[] args) {
             BleedBits (0, 1);
-            Program.PrintLine ();
+            
             BleedBits (72, 0);
-            Program.PrintLine ();
+            
             BleedBits (72, 1);
-            Program.PrintLine ();
+            
             BleedBits (66052, 2);
         }
 

@@ -11,9 +11,9 @@ namespace InterviewPreperationGuide.App.PracticeQuestions {
     public class Question33 {
         public static void Init (string[] args) {
             RotateArrayByFactor (null, 2);
-            Program.PrintLine ();
+            
             RotateArrayByFactor (new int[] { 1, 2, 3, 4, 5, 6, 7 }, 0);
-            Program.PrintLine ();
+            
             RotateArrayByFactor (new int[] { 1, 2, 3, 4, 5, 6, 7 }, 2);
         }
 

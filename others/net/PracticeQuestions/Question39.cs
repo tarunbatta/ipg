@@ -8,9 +8,9 @@ namespace InterviewPreperationGuide.App.PracticeQuestions {
     public class Question39 {
         public static void Init (string[] args) {
             GetWordCount (null, "i like mango");
-            Program.PrintLine ();
+            
             GetWordCount (new string[] { "i", "like", "sam", "sung", "samsung", "mobile", "ice", "cream", "icecream", "man", "go", "mango" }, null);
-            Program.PrintLine ();
+            
             GetWordCount (new string[] { "i", "like", "sam", "sung", "samsung", "mobile", "ice", "cream", "icecream", "man", "go", "mango" }, "i like mango");
         }
 

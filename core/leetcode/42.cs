@@ -20,11 +20,33 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution42 {
     public class Solution {
         public void Init () {
-            Console.WriteLine ();
+            Console.WriteLine (Trap (null));
+            Console.WriteLine (Trap (new int[] { 0, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1 }));
         }
 
         public int Trap (int[] height) {
-            return 0;
+            int result = 0;
+
+            if (height != null && height.Length > 2) {
+                int[] left = new int[height.Length];
+                int[] right = new int[height.Length];
+
+                left[0] = height[0];
+                for (int i = 1; i < height.Length; i++) {
+                    left[i] = Math.Max (left[i - 1], height[i]);
+                }
+
+                right[height.Length - 1] = height[height.Length - 1];
+                for (int i = height.Length - 2; i >= 0; i--) {
+                    right[i] = Math.Max (right[i + 1], height[i]);
+                }
+
+                for (int i = 0; i < height.Length; i++) {
+                    result += Math.Min (left[i], right[i]) - height[i];
+                }
+            }
+
+            return result;
         }
     }
 }
