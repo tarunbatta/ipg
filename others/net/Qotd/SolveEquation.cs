@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace TechByTarun.InterviewPreperationGuide.App.Qotd {
+namespace InterviewPreperationGuide.App.Qotd {
     /// <summary>
     /// Find all numbers from 1 to 1000, where a<b<c and a^2 + b^2 = c^2
     /// </summary>

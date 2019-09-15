@@ -34,7 +34,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution299 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public string GetHint (string secret, string guess) {

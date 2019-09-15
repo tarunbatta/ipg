@@ -1,4 +1,4 @@
-﻿namespace TechByTarun.InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter17 {
+﻿namespace InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter17 {
     /// <summary>
     /// Circus Tower: A circus is designing a tower routine consisting of people standing atop one another's
     /// shoulders.For practical and aesthetic reasons, each person must be both shorter and lighter

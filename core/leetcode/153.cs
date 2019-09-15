@@ -29,7 +29,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution153 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public int FindMin (int[] nums) {

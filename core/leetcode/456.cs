@@ -40,7 +40,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution456 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public bool Find132pattern (int[] nums) {

@@ -51,7 +51,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution1027 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public int LongestArithSeqLength (int[] A) {

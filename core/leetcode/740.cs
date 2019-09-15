@@ -48,7 +48,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution740 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public int DeleteAndEarn (int[] nums) {

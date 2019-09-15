@@ -1,4 +1,4 @@
-﻿namespace TechByTarun.InterviewPreperationGuide.App.Leetcode {
+﻿namespace InterviewPreperationGuide.App.Leetcode {
     /// <summary>
     /// There are N gas stations along a circular route, where the amount of gas at station i is gas[i].
     ///

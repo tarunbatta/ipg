@@ -47,7 +47,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution902 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public int AtMostNGivenDigitSet (string[] D, int N) {

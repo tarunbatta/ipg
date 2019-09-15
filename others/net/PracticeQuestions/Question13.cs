@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace TechByTarun.InterviewPreperationGuide.App.PracticeQuestions {
+namespace InterviewPreperationGuide.App.PracticeQuestions {
     /// <summary>
     /// Check whether a number is a Prime Number
     /// (A prime number is a natural number greater than 1 that has no positive divisors other than 1 and itself.)

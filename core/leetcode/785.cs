@@ -50,7 +50,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution785 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public bool IsBipartite (int[][] graph) {

@@ -46,7 +46,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution446 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public int NumberOfArithmeticSlices (int[] A) {

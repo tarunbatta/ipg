@@ -35,7 +35,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution813 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public double LargestSumOfAverages (int[] A, int K) {

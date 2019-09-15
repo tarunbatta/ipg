@@ -23,7 +23,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution560 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public int SubarraySum (int[] nums, int k) {

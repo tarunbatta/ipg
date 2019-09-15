@@ -28,7 +28,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution324 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public void WiggleSort (int[] nums) { }

@@ -32,7 +32,7 @@ using System.Collections.Generic;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution347 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public IList<int> TopKFrequent (int[] nums, int k) {

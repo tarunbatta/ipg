@@ -1,4 +1,4 @@
-﻿namespace TechByTarun.InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter13 {
+﻿namespace InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter13 {
     /// <summary>
     /// Lambda Random: Using Lambda expressions, write a function List<Integer>
     /// getRandomSubset(List<Integer> list) that returns a random subset of arbitrary size.All

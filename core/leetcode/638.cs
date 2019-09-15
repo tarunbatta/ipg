@@ -57,7 +57,7 @@ using System.Collections.Generic;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution638 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public int ShoppingOffers (IList<int> price, IList<IList<int>> special, IList<int> needs) {

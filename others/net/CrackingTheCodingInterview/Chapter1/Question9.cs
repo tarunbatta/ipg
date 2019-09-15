@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace TechByTarun.InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter1 {
+namespace InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter1 {
     /// <summary>
     /// String Rotation: Assume you have a method isSubstring which checks if one word is a substring of another.
     /// Given two strings, s1 and s2,

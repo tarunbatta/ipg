@@ -1,4 +1,4 @@
-﻿namespace TechByTarun.InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter16 {
+﻿namespace InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter16 {
     /// <summary>
     /// Calculator: Given an arithmetic equation consisting of positive integers, +, -, * and / (no parentheses).
     /// compute the result.

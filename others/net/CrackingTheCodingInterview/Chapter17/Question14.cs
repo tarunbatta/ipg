@@ -1,4 +1,4 @@
-﻿namespace TechByTarun.InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter17 {
+﻿namespace InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter17 {
     /// <summary>
     /// Smallest K: Design an algorithm to find the smallest K numbers in an array.
     /// </summary>

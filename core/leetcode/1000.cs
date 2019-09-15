@@ -60,7 +60,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution1000 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public int MergeStones (int[] stones, int K) {

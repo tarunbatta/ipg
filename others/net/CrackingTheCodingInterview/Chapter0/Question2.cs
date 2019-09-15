@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace TechByTarun.InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter0 {
+namespace InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter0 {
     /// <summary>
     /// Given a time, calculate the angle between the hour and minute hands.
     /// </summary>

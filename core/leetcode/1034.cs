@@ -53,7 +53,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution1034 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public int[][] ColorBorder (int[][] grid, int r0, int c0, int color) {

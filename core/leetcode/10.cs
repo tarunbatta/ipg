@@ -55,7 +55,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution10 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public bool IsMatch (string s, string p) {

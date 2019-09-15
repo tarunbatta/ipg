@@ -58,7 +58,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution993 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public bool IsCousins (TreeNode root, int x, int y) {

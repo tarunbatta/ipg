@@ -25,7 +25,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution234 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public bool IsPalindrome (ListNode head) {

@@ -27,7 +27,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution43 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public string Multiply (string num1, string num2) {

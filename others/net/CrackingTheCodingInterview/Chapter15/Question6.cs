@@ -1,4 +1,4 @@
-﻿namespace TechByTarun.InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter15 {
+﻿namespace InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter15 {
     /// <summary>
     /// Synchronized Methods: You are given a class with synchronized method A and a normal method
     /// B.lf you have two threads in one instance of a program, can they both execute A at the same time?

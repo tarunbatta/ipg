@@ -1,4 +1,4 @@
-﻿namespace TechByTarun.InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter17 {
+﻿namespace InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter17 {
     /// <summary>
     /// Re-Space: Oh, no! You have accidentally removed all spaces, punctuation, and capitalization in a
     /// lengthy document.A sentence Iike"I reset the computer. It still didn't boot!"

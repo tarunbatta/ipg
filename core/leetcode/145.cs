@@ -27,7 +27,7 @@ using System.Collections.Generic;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution145 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public IList<int> PostorderTraversal (TreeNode root) {

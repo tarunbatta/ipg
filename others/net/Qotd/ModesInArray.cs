@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections;
 
-namespace TechByTarun.InterviewPreperationGuide.App.Qotd {
+namespace InterviewPreperationGuide.App.Qotd {
     /// <summary>
     /// Given array of integer, find mode of array. Mode is the number that appears most of the time
     /// </summary>

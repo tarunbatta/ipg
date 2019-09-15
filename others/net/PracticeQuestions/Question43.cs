@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace TechByTarun.InterviewPreperationGuide.App.PracticeQuestions {
+namespace InterviewPreperationGuide.App.PracticeQuestions {
     /// <summary>
     /// Check for balanced parentheses in an expression
     /// Given an expression string exp , write a program to examine whether the pairs and the orders of “{“,”}”,”(“,”)”,”[“,”]” are correct in exp.

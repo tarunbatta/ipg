@@ -38,7 +38,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution823 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public int NumFactoredBinaryTrees (int[] A) {

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace TechByTarun.InterviewPreperationGuide.App.PracticeQuestions {
+namespace InterviewPreperationGuide.App.PracticeQuestions {
     /// <summary>
     /// Maximum XOR of Two Numbers in an Array
     /// Given an array of integers. Find the maximum XOR of two numbers in given array. Expected time complexity O(n).

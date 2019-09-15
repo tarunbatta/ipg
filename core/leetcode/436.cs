@@ -59,7 +59,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution436 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public int[] FindRightInterval (int[][] intervals) {

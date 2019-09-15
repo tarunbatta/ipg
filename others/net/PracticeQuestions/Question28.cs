@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace TechByTarun.InterviewPreperationGuide.App.PracticeQuestions {
+namespace InterviewPreperationGuide.App.PracticeQuestions {
     /// <summary>
     /// Given an array of numbers return the list of Prime Numbers
     /// </summary>

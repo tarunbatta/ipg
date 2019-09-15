@@ -43,7 +43,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution1129 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public int[] ShortestAlternatingPaths (int n, int[][] red_edges, int[][] blue_edges) {

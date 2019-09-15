@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace TechByTarun.InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter1 {
+namespace InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter1 {
     /// <summary>
     /// Rotate Matrix: Given an image represented by an NxN matrix, where each pixel in the image is 4 bytes,
     /// Write a method to rotate the image by 90 degrees. Can you do this in place?

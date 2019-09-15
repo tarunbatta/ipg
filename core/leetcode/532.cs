@@ -41,7 +41,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution532 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public int FindPairs (int[] nums, int k) {

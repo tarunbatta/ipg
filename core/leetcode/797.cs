@@ -32,7 +32,7 @@ using System.Collections.Generic;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution797 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public IList<IList<int>> AllPathsSourceTarget (int[][] graph) {

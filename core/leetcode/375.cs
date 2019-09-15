@@ -33,7 +33,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution375 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public int GetMoneyAmount (int n) {

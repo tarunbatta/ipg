@@ -42,7 +42,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution1144 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public int MovesToMakeZigzag (int[] nums) {

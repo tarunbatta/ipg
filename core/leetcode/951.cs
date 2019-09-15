@@ -38,7 +38,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution951 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public bool FlipEquiv (TreeNode root1, TreeNode root2) {

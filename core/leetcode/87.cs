@@ -64,7 +64,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution87 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public bool IsScramble (string s1, string s2) {

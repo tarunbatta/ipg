@@ -44,7 +44,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution943 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public string ShortestSuperstring (string[] A) {

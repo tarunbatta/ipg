@@ -1,4 +1,4 @@
-﻿namespace TechByTarun.InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter4 {
+﻿namespace InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter4 {
     /// <summary>
     /// Check Subtree: Tl and T2 are two very large binary trees, with Tl much bigger than T2. Create an
     /// algorithm to determine if T2 is a subtree of Tl.

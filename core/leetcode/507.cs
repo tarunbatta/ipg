@@ -20,7 +20,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution507 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public bool CheckPerfectNumber (int num) {

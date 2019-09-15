@@ -36,7 +36,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution689 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public int[] MaxSumOfThreeSubarrays (int[] nums, int k) {

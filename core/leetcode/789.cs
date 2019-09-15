@@ -51,7 +51,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution789 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public bool EscapeGhosts (int[][] ghosts, int[] target) {

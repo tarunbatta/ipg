@@ -51,7 +51,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution542 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public int[][] UpdateMatrix (int[][] matrix) {

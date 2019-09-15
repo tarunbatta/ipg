@@ -49,7 +49,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution668 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public int FindKthNumber (int m, int n, int k) {

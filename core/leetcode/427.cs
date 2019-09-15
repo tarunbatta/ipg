@@ -38,7 +38,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution427 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public Node Construct (int[][] grid) {

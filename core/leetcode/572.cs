@@ -48,7 +48,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution572 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public bool IsSubtree (TreeNode s, TreeNode t) {

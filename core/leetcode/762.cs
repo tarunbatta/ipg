@@ -39,7 +39,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution762 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public int CountPrimeSetBits (int L, int R) {

@@ -62,7 +62,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution1024 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public int VideoStitching (int[][] clips, int T) {

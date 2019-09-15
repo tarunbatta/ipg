@@ -27,7 +27,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution389 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public char FindTheDifference (string s, string t) {

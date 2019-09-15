@@ -1,4 +1,4 @@
-﻿namespace TechByTarun.InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter5 {
+﻿namespace InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter5 {
     /// <summary>
     /// Flip Bit to Win: You have an integer and you can flip exactly one bit from a 13 to a 1. Write code to
     /// find the length of the longest sequence of ls you could create.

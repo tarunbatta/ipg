@@ -34,7 +34,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution419 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public int CountBattleships (char[][] board) {

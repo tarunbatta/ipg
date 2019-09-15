@@ -41,7 +41,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution230 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public int KthSmallest (TreeNode root, int k) {

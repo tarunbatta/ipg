@@ -19,7 +19,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution86 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public ListNode Partition (ListNode head, int x) {

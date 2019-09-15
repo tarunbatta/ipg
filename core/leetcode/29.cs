@@ -31,7 +31,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution29 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public int Divide (int dividend, int divisor) {

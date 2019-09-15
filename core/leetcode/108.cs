@@ -26,7 +26,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution108 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public TreeNode SortedArrayToBST (int[] nums) {

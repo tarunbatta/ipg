@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Numerics;
 
-namespace TechByTarun.InterviewPreperationGuide.App.Qotd {
+namespace InterviewPreperationGuide.App.Qotd {
     /// <summary>
     /// Space Message System:
     /// You are designing a messaging system for a future space craft that will travel to the far reaches of our Galaxy.

@@ -25,7 +25,7 @@ using System.Collections.Generic;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution199 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public IList<int> RightSideView (TreeNode root) {

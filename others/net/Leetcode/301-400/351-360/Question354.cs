@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace TechByTarun.InterviewPreperationGuide.App.Leetcode {
+namespace InterviewPreperationGuide.App.Leetcode {
     /// <summary>
     /// Russian Doll Envelopes
     /// https://leetcode.com/problems/russian-doll-envelopes/

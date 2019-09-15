@@ -24,7 +24,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution319 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public int BulbSwitch (int n) {

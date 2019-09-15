@@ -1,4 +1,4 @@
-﻿namespace TechByTarun.InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter12 {
+﻿namespace InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter12 {
     /// <summary>
     /// Last K Lines: Write a method to print the last K lines of an input file using C++.
     /// </summary>

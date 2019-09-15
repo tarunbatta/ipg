@@ -1,4 +1,4 @@
-﻿namespace TechByTarun.InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter3 {
+﻿namespace InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter3 {
     /// <summary>
     /// Three in One: Describe how you could use a single array to implement three stacks.
     /// </summary>

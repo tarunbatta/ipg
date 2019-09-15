@@ -51,7 +51,7 @@ using System.Collections.Generic;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution770 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public IList<string> BasicCalculatorIV (string expression, string[] evalvars, int[] evalints) {

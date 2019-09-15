@@ -53,7 +53,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution1001 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public int[] GridIllumination (int N, int[][] lamps, int[][] queries) {

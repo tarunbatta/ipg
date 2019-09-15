@@ -44,7 +44,7 @@ using System.Collections.Generic;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution554 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public int LeastBricks (IList<IList<int>> wall) {

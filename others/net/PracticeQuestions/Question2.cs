@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Text;
 
-namespace TechByTarun.InterviewPreperationGuide.App.PracticeQuestions {
+namespace InterviewPreperationGuide.App.PracticeQuestions {
     /// <summary>
     /// Convert Integer to String
     /// </summary>

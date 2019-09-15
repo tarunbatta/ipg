@@ -52,7 +52,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution1081 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public string SmallestSubsequence (string text) {

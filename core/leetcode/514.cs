@@ -44,7 +44,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution514 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public int FindRotateSteps (string ring, string key) {

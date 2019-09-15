@@ -57,7 +57,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution160 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public ListNode GetIntersectionNode (ListNode headA, ListNode headB) {

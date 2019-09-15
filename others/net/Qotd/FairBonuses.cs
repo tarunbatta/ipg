@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace TechByTarun.InterviewPreperationGuide.App.Qotd {
+namespace InterviewPreperationGuide.App.Qotd {
     /// <summary>
     /// Fair Bonuses:
     /// You manage a team of developers and you have to give concert tickets as a bonus to the developers.

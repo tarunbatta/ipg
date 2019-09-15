@@ -24,7 +24,7 @@ using System.Collections.Generic;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution448 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public IList<int> FindDisappearedNumbers (int[] nums) {

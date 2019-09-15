@@ -48,7 +48,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution724 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public int PivotIndex (int[] nums) {

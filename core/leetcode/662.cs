@@ -75,7 +75,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution662 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public int WidthOfBinaryTree (TreeNode root) {

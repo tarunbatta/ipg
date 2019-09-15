@@ -32,7 +32,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution334 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public bool IncreasingTriplet (int[] nums) {

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections;
 
-namespace TechByTarun.InterviewPreperationGuide.App.PracticeQuestions {
+namespace InterviewPreperationGuide.App.PracticeQuestions {
     /// <summary>
     /// Find the number of islands
     /// Given a boolean 2D matrix, find the number of islands.

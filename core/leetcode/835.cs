@@ -35,7 +35,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution835 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public int LargestOverlap (int[][] A, int[][] B) {

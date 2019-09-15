@@ -27,7 +27,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution45 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public int Jump (int[] nums) {

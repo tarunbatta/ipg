@@ -20,7 +20,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution583 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public int MinDistance (string word1, string word2) {

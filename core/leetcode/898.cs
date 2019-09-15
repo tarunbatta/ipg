@@ -58,7 +58,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution898 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public int SubarrayBitwiseORs (int[] A) {

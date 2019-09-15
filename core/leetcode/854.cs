@@ -49,7 +49,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution854 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public int KSimilarity (string A, string B) {

@@ -44,7 +44,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution747 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public int DominantIndex (int[] nums) {

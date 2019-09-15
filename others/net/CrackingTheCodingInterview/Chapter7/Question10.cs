@@ -1,4 +1,4 @@
-﻿namespace TechByTarun.InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter7 {
+﻿namespace InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter7 {
     /// <summary>
     /// Minesweeper: Design and implement a text-based Minesweeper game. Minesweeper is the classic
     /// single-player computer game where an NxN grid has B mines(or bombs) hidden across the grid.The

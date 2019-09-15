@@ -27,7 +27,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution56 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public int[][] Merge (int[][] intervals) {

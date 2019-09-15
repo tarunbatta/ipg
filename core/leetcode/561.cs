@@ -26,7 +26,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution561 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public int ArrayPairSum (int[] nums) {

@@ -30,7 +30,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution793 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public int PreimageSizeFZF (int K) {

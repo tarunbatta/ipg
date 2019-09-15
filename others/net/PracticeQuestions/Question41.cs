@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Text;
 
-namespace TechByTarun.InterviewPreperationGuide.App.PracticeQuestions {
+namespace InterviewPreperationGuide.App.PracticeQuestions {
     /// <summary>
     /// Find duplicates in O(n) time and O(1) extra space
     /// Given an array of n elements which contains elements from 0 to n-1,

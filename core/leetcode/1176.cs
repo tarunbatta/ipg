@@ -60,7 +60,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution1176 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public int DietPlanPerformance (int[] calories, int k, int lower, int upper) {

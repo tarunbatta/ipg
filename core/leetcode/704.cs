@@ -37,7 +37,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution704 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public int Search (int[] nums, int target) {

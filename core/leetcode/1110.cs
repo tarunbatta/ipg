@@ -35,7 +35,7 @@ using System.Collections.Generic;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution1110 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public IList<TreeNode> DelNodes (TreeNode root, int[] to_delete) {

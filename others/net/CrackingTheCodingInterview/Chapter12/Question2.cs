@@ -1,4 +1,4 @@
-﻿namespace TechByTarun.InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter12 {
+﻿namespace InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter12 {
     /// <summary>
     /// Reverse String: Implement a function void reverse( char* str) in C or C++ which reverses
     /// a null -terminated string.

@@ -33,7 +33,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution801 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public int MinSwap (int[] A, int[] B) {

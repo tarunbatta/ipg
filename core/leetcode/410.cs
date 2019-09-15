@@ -34,7 +34,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution410 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public int SplitArray (int[] nums, int m) {

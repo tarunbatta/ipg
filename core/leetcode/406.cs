@@ -27,7 +27,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution406 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public int[][] ReconstructQueue (int[][] people) {

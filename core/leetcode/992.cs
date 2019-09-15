@@ -41,7 +41,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution992 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public int SubarraysWithKDistinct (int[] A, int K) {

@@ -1,4 +1,4 @@
-﻿namespace TechByTarun.InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter16 {
+﻿namespace InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter16 {
     /// <summary>
     /// Pond Sizes: You have an integer matrix representing a plot of land, where the value at that location
     /// represents the height above sea level.A value of zero indicates water.A pond is a region of

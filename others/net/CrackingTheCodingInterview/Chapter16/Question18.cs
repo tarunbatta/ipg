@@ -1,4 +1,4 @@
-﻿namespace TechByTarun.InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter16 {
+﻿namespace InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter16 {
     /// <summary>
     /// Pattern Matching: You are given two strings, pattern and value. The pattern string consists of
     /// just the letters a and b, describing a pattern within a string. For example, the string catcatgocatgo

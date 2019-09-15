@@ -49,7 +49,7 @@ using System.Collections.Generic;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution841 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public bool CanVisitAllRooms (IList<IList<int>> rooms) {

@@ -29,7 +29,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution698 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public bool CanPartitionKSubsets (int[] nums, int k) {

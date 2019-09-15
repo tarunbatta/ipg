@@ -1,4 +1,4 @@
-﻿namespace TechByTarun.InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter6 {
+﻿namespace InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter6 {
     /// <summary>
     /// Basketball: You have a basketball hoop and someone says that you can play one of two games.
     /// Game 1: You get one shot to make the hoop.

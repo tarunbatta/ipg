@@ -27,7 +27,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution268 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public int MissingNumber (int[] nums) {

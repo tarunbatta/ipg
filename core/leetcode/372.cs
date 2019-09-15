@@ -25,7 +25,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution372 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public int SuperPow (int a, int[] b) {

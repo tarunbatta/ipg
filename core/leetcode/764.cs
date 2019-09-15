@@ -66,7 +66,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution764 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public int OrderOfLargestPlusSign (int N, int[][] mines) {

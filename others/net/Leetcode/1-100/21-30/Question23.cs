@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace TechByTarun.InterviewPreperationGuide.App.Leetcode {
+namespace InterviewPreperationGuide.App.Leetcode {
     /// <summary>
     /// Merge k Sorted Lists
     /// https://leetcode.com/problems/merge-k-sorted-lists/

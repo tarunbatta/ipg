@@ -34,7 +34,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution330 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public int MinPatches (int[] nums, int n) {

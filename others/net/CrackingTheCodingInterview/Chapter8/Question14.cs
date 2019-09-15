@@ -1,4 +1,4 @@
-﻿namespace TechByTarun.InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter8 {
+﻿namespace InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter8 {
     /// <summary>
     /// Boolean Evaluation: Given a boolean expression consisting of the symbols e (false), 1 (true), &
     /// (AND), I(OR), and" (XOR), and a desired boolean result value result, implement a function to

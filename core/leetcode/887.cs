@@ -61,7 +61,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution887 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public int SuperEggDrop (int K, int N) {

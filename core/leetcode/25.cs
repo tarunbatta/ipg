@@ -31,7 +31,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution25 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public ListNode ReverseKGroup (ListNode head, int k) {

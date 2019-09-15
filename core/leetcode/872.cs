@@ -27,7 +27,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution872 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public bool LeafSimilar (TreeNode root1, TreeNode root2) {

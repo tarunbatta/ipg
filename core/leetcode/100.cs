@@ -46,7 +46,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution100 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public bool IsSameTree (TreeNode p, TreeNode q) {

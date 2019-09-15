@@ -23,7 +23,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution201 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public int RangeBitwiseAnd (int m, int n) {

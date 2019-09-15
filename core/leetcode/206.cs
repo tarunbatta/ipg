@@ -22,11 +22,47 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution206 {
     public class Solution {
         public void Init () {
+            ListNode node = new ListNode (1);
+            node.next = new ListNode (2);
+            node.next.next = new ListNode (3);
+            node.next.next.next = new ListNode (4);
+            node.next.next.next.next = new ListNode (5);
 
+            Console.WriteLine (ReverseList_a (null));
+            Console.WriteLine (ReverseList_a (node));
+
+            Console.WriteLine (ReverseList_b (null));
+            Console.WriteLine (ReverseList_b (node));
         }
 
-        public ListNode ReverseList (ListNode head) {
-            return null;
+        public ListNode ReverseList_a (ListNode head) {
+            if (head == null) {
+                return head;
+            }
+
+            ListNode current = head;
+            ListNode prev = null;
+
+            while (current != null) {
+                ListNode temp = current.next;
+                current.next = prev;
+                prev = current;
+                current = temp;
+            }
+
+            return prev;
+        }
+
+        public ListNode ReverseList_b (ListNode head) {
+            if (head == null || head.next == null) {
+                return head;
+            }
+
+            ListNode p = ReverseList_b (head.next);
+            head.next.next = head;
+            head.next = null;
+
+            return p;
         }
     }
 

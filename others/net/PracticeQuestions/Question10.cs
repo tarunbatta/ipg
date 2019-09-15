@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Text;
 
-namespace TechByTarun.InterviewPreperationGuide.App.PracticeQuestions {
+namespace InterviewPreperationGuide.App.PracticeQuestions {
     /// <summary>
     /// Rotate/shift the elements of a square array clockwise by one at a time. (Not by 90 degrees, but by one element. Think of concentric circles.)
     /// Input will be of the following format to be read in:

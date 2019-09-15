@@ -37,7 +37,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution906 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public int SuperpalindromesInRange (string L, string R) {

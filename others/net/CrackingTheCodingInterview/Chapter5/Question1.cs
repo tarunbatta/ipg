@@ -1,4 +1,4 @@
-﻿namespace TechByTarun.InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter5 {
+﻿namespace InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter5 {
     /// <summary>
     /// Insertion: You are given two 32-bit numbers, Nand M, and two bit positions, i and
     /// j.Write a method to insert Minto N such that M starts at bit j and ends at bit i.You

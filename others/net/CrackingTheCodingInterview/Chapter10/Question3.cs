@@ -1,4 +1,4 @@
-﻿namespace TechByTarun.InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter10 {
+﻿namespace InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter10 {
     /// <summary>
     /// Search in Rotated Array: Given a sorted array of n integers that has been rotated an unknown
     /// number of times, write code to find an element in the array. You may assume that the array was

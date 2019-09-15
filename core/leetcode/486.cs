@@ -34,7 +34,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution486 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public bool PredictTheWinner (int[] nums) {

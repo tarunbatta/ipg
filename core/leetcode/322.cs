@@ -27,7 +27,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution322 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public int CoinChange (int[] coins, int amount) {

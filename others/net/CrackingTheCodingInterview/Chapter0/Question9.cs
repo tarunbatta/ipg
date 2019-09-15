@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace TechByTarun.InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter0 {
+namespace InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter0 {
     /// <summary>
     /// Write code to swap the minimum and maximum element in an integer array.
     /// </summary>

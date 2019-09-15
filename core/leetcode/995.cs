@@ -52,7 +52,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution995 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public int MinKBitFlips (int[] A, int K) {

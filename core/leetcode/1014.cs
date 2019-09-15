@@ -33,7 +33,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution1014 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public int MaxScoreSightseeingPair (int[] A) {

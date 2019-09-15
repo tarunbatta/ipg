@@ -1,4 +1,4 @@
-﻿namespace TechByTarun.InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter15 {
+﻿namespace InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter15 {
     /// <summary>
     /// Call In Order: Suppose we have the following code:
     /// public class Foo

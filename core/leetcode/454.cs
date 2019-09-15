@@ -33,7 +33,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution454 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public int FourSumCount (int[] A, int[] B, int[] C, int[] D) {

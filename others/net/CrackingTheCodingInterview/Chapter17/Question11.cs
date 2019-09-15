@@ -1,4 +1,4 @@
-﻿namespace TechByTarun.InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter17 {
+﻿namespace InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter17 {
     /// <summary>
     /// Word Distance: You have a large text file containing words. Given any two words, find the shortest
     /// distance(in terms of number of words) between them in the file.If the operation wi" be repeated

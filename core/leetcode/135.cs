@@ -30,7 +30,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution135 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public int Candy (int[] ratings) {

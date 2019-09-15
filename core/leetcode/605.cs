@@ -32,7 +32,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution605 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public bool CanPlaceFlowers (int[] flowerbed, int n) {

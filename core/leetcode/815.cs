@@ -31,7 +31,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution815 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public int NumBusesToDestination (int[][] routes, int S, int T) {

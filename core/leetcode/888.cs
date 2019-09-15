@@ -60,7 +60,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution888 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public int[] FairCandySwap (int[] A, int[] B) {

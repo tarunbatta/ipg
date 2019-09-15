@@ -76,7 +76,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution868 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public int BinaryGap (int N) {

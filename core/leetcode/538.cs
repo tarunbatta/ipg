@@ -24,7 +24,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution538 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public TreeNode ConvertBST (TreeNode root) {

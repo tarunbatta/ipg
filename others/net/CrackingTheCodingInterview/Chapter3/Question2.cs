@@ -1,4 +1,4 @@
-﻿namespace TechByTarun.InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter3 {
+﻿namespace InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter3 {
     /// <summary>
     /// Stack Min: How would you design a stack which, in addition to push and pop, also has a
     /// function min which returns the minimum element? Push, pop and min should

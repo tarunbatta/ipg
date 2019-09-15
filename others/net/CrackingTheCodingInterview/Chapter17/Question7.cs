@@ -1,4 +1,4 @@
-﻿namespace TechByTarun.InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter17 {
+﻿namespace InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter17 {
     /// <summary>
     /// Baby Names: Each year, the government releases a list of the 10000 most common baby names
     /// and their frequencies(the number of babies with that name). The only problem with this is that

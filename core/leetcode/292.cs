@@ -22,7 +22,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution292 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public bool CanWinNim (int n) {

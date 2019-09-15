@@ -33,7 +33,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution786 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public int[] KthSmallestPrimeFraction (int[] A, int K) {

@@ -70,7 +70,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution736 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public int Evaluate (string expression) {

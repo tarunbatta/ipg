@@ -1,4 +1,4 @@
-﻿namespace TechByTarun.InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter12 {
+﻿namespace InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter12 {
     /// <summary>
     /// Virtual Functions: How do virtual functions work in (++?
     /// </summary>

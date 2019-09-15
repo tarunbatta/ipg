@@ -32,7 +32,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution974 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public int SubarraysDivByK (int[] A, int K) {

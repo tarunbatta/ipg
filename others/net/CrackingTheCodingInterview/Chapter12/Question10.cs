@@ -1,4 +1,4 @@
-﻿namespace TechByTarun.InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter12 {
+﻿namespace InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter12 {
     /// <summary>
     /// Malloc: Write an aligned malloc and free function that supports allocating memory such that the
     /// memory address returned is divisible by a specific power of two.

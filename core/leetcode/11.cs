@@ -27,7 +27,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution11 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public int MaxArea (int[] height) {

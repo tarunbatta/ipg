@@ -33,7 +33,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution459 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public bool RepeatedSubstringPattern (string s) {

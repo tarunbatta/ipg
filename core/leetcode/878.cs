@@ -40,7 +40,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution878 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public int NthMagicalNumber (int N, int A, int B) {

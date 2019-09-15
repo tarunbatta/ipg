@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace TechByTarun.InterviewPreperationGuide.App.Leetcode {
+namespace InterviewPreperationGuide.App.Leetcode {
     /// <summary>
     /// Binary Tree Maximum Path Sum
     /// https://leetcode.com/problems/binary-tree-maximum-path-sum/

@@ -24,7 +24,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution354 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public int MaxEnvelopes (int[][] envelopes) {

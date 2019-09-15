@@ -28,7 +28,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution111 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public int MinDepth (TreeNode root) {

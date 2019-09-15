@@ -23,7 +23,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution83 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public ListNode DeleteDuplicates (ListNode head) {

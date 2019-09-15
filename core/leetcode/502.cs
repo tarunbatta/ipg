@@ -40,7 +40,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution502 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public int FindMaximizedCapital (int k, int W, int[] Profits, int[] Capital) {

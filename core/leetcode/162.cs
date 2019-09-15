@@ -36,7 +36,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution162 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public int FindPeakElement (int[] nums) {

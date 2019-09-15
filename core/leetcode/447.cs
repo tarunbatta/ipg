@@ -28,7 +28,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution447 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public int NumberOfBoomerangs (int[][] points) {

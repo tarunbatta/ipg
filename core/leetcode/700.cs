@@ -35,7 +35,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution700 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public TreeNode SearchBST (TreeNode root, int val) {

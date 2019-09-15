@@ -35,7 +35,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution226 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public TreeNode InvertTree (TreeNode root) {

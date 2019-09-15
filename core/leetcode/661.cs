@@ -33,7 +33,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution661 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public int[][] ImageSmoother (int[][] M) {

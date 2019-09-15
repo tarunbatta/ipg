@@ -30,7 +30,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution461 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public int HammingDistance (int x, int y) {

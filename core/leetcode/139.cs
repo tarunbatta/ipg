@@ -40,7 +40,7 @@ using System.Collections.Generic;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution139 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public bool WordBreak (string s, IList<string> wordDict) {

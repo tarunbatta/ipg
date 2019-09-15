@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace TechByTarun.InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter16 {
+namespace InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter16 {
     /// <summary>
     /// LRU Cache: Design and build a "least recently used" cache, which evicts the least recently used
     /// item.The cache should map from keys to values(allowing you to insert and retrieve a value associated

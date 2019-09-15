@@ -42,7 +42,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution932 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public int[] BeautifulArray (int N) {

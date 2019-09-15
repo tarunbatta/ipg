@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections;
 
-namespace TechByTarun.InterviewPreperationGuide.App.Qotd {
+namespace InterviewPreperationGuide.App.Qotd {
     /// <summary>
     /// Castle on the Grid
     /// You are given a grid with both sides equal to N. Rows and columns are numbered from 0 to N-1.

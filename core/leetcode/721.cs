@@ -34,7 +34,7 @@ using System.Collections.Generic;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution721 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public IList<IList<string>> AccountsMerge (IList<IList<string>> accounts) {

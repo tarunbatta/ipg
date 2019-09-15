@@ -1,4 +1,4 @@
-﻿namespace TechByTarun.InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter5 {
+﻿namespace InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter5 {
     /// <summary>
     /// Conversion: Write a function to determine the number of bits you would need to flip to convert
     /// integer A to integer B.

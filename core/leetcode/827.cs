@@ -44,7 +44,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution827 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public int LargestIsland (int[][] grid) {

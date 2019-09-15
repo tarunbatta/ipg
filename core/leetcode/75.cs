@@ -28,7 +28,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution75 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public void SortColors (int[] nums) {

@@ -31,7 +31,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution287 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public int FindDuplicate (int[] nums) {

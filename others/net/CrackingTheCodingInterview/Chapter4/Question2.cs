@@ -1,4 +1,4 @@
-﻿namespace TechByTarun.InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter4 {
+﻿namespace InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter4 {
     /// <summary>
     /// Minimal Tree: Given a sorted (increasing order) array with unique integer elements, write an algorithm
     /// to create a binary search tree with minimal height.

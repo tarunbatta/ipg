@@ -66,7 +66,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution957 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public int[] PrisonAfterNDays (int[] cells, int N) {

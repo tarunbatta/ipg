@@ -69,7 +69,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution623 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public TreeNode AddOneRow (TreeNode root, int v, int d) {

@@ -1,4 +1,4 @@
-﻿namespace TechByTarun.InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter16 {
+﻿namespace InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter16 {
     /// <summary>
     /// Master Mind: The Game of Master Mind is played as follows:
     /// The computer has four slots, and each slot will contain a ball that is red(R), yellow(V), green(G) or

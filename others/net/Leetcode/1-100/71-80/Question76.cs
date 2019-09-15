@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections;
 
-namespace TechByTarun.InterviewPreperationGuide.App.Leetcode {
+namespace InterviewPreperationGuide.App.Leetcode {
     /// <summary>
     /// Minimum Window Substring
     /// https://leetcode.com/problems/minimum-window-substring/

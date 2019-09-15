@@ -32,7 +32,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution522 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public int FindLUSlength (string[] strs) {

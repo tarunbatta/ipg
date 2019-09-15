@@ -1,4 +1,4 @@
-﻿namespace TechByTarun.InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter10 {
+﻿namespace InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter10 {
     /// <summary>
     /// Peaks and Valleys: In an array of integers, a "peak" is an element which is greater than or equal to
     /// the adjacent integers and a "valley" is an element which is less than or equal to the adjacent integers.

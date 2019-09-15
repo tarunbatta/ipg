@@ -40,7 +40,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution337 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public int Rob (TreeNode root) {

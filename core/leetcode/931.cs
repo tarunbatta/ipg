@@ -40,7 +40,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution931 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public int MinFallingPathSum (int[][] A) {

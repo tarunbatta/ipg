@@ -50,7 +50,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution1005 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public int LargestSumAfterKNegations (int[] A, int K) {

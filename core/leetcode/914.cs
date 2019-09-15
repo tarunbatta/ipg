@@ -78,7 +78,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution914 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public bool HasGroupsSizeX (int[] deck) {

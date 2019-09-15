@@ -36,7 +36,7 @@ using System.Collections.Generic;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution632 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public int[] SmallestRange (IList<IList<int>> nums) {

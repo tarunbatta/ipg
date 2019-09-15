@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections;
 
-namespace TechByTarun.InterviewPreperationGuide.App.Qotd {
+namespace InterviewPreperationGuide.App.Qotd {
     /// <summary>
     /// Given two int array, print all elements of A that do not appear in B. In case of duplicates, print the extra repetitions of A which are not in B.
     /// </summary>

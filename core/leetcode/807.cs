@@ -45,7 +45,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution807 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public int MaxIncreaseKeepingSkyline (int[][] grid) {

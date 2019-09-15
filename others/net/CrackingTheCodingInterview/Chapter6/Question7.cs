@@ -1,4 +1,4 @@
-﻿namespace TechByTarun.InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter6 {
+﻿namespace InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter6 {
     /// <summary>
     /// The Apocalypse: In the new post-apocalyptic world, the world queen is desperately concerned
     /// about the birth rate.Therefore, she decrees that all families should ensure that they have one girl or

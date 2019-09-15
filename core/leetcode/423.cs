@@ -32,7 +32,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution423 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public string OriginalDigits (string s) {

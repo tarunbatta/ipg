@@ -40,7 +40,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution967 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public int[] NumsSameConsecDiff (int N, int K) {

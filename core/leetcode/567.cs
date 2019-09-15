@@ -35,7 +35,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution567 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public bool CheckInclusion (string s1, string s2) {

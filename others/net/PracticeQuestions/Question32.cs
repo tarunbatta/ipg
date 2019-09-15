@@ -1,4 +1,4 @@
-﻿namespace TechByTarun.InterviewPreperationGuide.App.PracticeQuestions {
+﻿namespace InterviewPreperationGuide.App.PracticeQuestions {
     /// <summary>
     ///
     /// </summary>

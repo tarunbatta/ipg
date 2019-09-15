@@ -36,7 +36,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution780 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public bool ReachingPoints (int sx, int sy, int tx, int ty) {

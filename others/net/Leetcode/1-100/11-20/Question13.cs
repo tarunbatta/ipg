@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace TechByTarun.InterviewPreperationGuide.App.Leetcode {
+namespace InterviewPreperationGuide.App.Leetcode {
     /// <summary>
     /// Roman to Integer
     /// https://leetcode.com/problems/roman-to-integer/

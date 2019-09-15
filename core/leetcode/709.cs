@@ -34,7 +34,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution709 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public string ToLowerCase (string str) {

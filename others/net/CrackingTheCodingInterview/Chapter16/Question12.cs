@@ -1,4 +1,4 @@
-﻿namespace TechByTarun.InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter16 {
+﻿namespace InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter16 {
     /// <summary>
     /// XML Encoding: Since XML is very verbose, you are given a way of encoding it where each tag gets
     /// mapped to a pre-defined integer value.The language/grammar is as follows:

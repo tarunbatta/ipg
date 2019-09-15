@@ -58,7 +58,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution99 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public void RecoverTree (TreeNode root) { }

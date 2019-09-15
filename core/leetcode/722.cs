@@ -72,7 +72,7 @@ using System.Collections.Generic;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution722 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public IList<string> RemoveComments (string[] source) {

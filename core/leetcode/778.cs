@@ -49,7 +49,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution778 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public int SwimInWater (int[][] grid) {

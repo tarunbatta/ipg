@@ -1,4 +1,4 @@
-﻿namespace TechByTarun.InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter17 {
+﻿namespace InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter17 {
     /// <summary>
     /// Word Transformer: Given two words of equal length that are in a dictionary, write a method to
     /// transform one word into another word by changing only one letter at a time.The new word you get

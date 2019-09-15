@@ -34,7 +34,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution858 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public int MirrorReflection (int p, int q) {

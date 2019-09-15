@@ -37,7 +37,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution290 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public bool WordPattern (string pattern, string str) {

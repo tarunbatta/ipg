@@ -44,7 +44,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution547 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public int FindCircleNum (int[][] M) {

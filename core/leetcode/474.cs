@@ -37,7 +37,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution474 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public int FindMaxForm (string[] strs, int m, int n) {

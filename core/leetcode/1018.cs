@@ -49,7 +49,7 @@ using System.Collections.Generic;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution1018 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public IList<bool> PrefixesDivBy5 (int[] A) {

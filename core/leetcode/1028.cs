@@ -58,7 +58,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution1028 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public TreeNode RecoverFromPreorder (string S) {

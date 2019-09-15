@@ -37,7 +37,7 @@ using System.Collections.Generic;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution373 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public IList<IList<int>> KSmallestPairs (int[] nums1, int[] nums2, int k) {

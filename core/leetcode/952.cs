@@ -54,7 +54,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution952 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public int LargestComponentSize (int[] A) {

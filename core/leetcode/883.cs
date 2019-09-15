@@ -115,7 +115,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution883 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public int ProjectionArea (int[][] grid) {

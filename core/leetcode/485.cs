@@ -25,7 +25,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution485 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public int FindMaxConsecutiveOnes (int[] nums) {

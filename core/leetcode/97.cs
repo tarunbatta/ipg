@@ -23,7 +23,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution97 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public bool IsInterleave (string s1, string s2, string s3) {

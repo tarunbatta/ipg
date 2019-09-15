@@ -43,7 +43,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution984 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public string StrWithout3a3b (int A, int B) {

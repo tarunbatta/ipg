@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace TechByTarun.InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter5 {
+namespace InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter5 {
     /// <summary>
     /// Draw Line: A monochrome screen is stored as a single array of bytes, allowing eight consecutive
     /// pixels to be stored in one byte. The screen has width w, where w is divisible by 8 (that is, no byte will

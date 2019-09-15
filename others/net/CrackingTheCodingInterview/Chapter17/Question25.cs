@@ -1,4 +1,4 @@
-﻿namespace TechByTarun.InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter17 {
+﻿namespace InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter17 {
     /// <summary>
     /// Word Rectangle: Given a list of millions of words, design an algorithm to create the largest possible
     /// rectangle of letters such that every row forms a word (reading left to right) and every column forms

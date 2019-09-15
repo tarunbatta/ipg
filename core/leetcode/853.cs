@@ -48,7 +48,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution853 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public int CarFleet (int target, int[] position, int[] speed) {

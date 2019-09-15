@@ -33,7 +33,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution1124 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public int LongestWPI (int[] hours) {

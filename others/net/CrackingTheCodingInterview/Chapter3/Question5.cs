@@ -1,4 +1,4 @@
-﻿namespace TechByTarun.InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter3 {
+﻿namespace InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter3 {
     /// <summary>
     /// Sort Stack: Write a program to sort a stack such that the smallest items are on the top. You can use
     /// an additional temporary stack, but you may not copy the elements into any other data structure

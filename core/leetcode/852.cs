@@ -39,7 +39,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution852 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public int PeakIndexInMountainArray (int[] A) {

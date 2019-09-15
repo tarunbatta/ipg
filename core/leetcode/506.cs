@@ -24,7 +24,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution506 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public string[] FindRelativeRanks (int[] nums) {

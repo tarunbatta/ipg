@@ -35,7 +35,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution473 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public bool Makesquare (int[] nums) {

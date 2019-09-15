@@ -53,7 +53,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution1042 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public int[] GardenNoAdj (int N, int[][] paths) {

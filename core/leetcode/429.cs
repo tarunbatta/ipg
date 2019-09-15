@@ -38,7 +38,7 @@ using System.Collections.Generic;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution429 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public IList<IList<int>> LevelOrder (Node root) {

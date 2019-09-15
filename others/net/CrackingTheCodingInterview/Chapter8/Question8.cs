@@ -1,4 +1,4 @@
-﻿namespace TechByTarun.InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter8 {
+﻿namespace InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter8 {
     /// <summary>
     /// Permutations with Dups:
     /// Write a method to compute all permutations of a string whose characters are not necessarily unique.

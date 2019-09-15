@@ -1,4 +1,4 @@
-﻿namespace TechByTarun.InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter4 {
+﻿namespace InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter4 {
     /// <summary>
     /// Random Node: You are implementing a binary tree class from scratch which, in addition to
     /// insert, find, and delete, has a method getRandomNode() which returns a random node

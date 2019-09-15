@@ -43,7 +43,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution1071 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public string GcdOfStrings (string str1, string str2) {

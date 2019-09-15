@@ -54,7 +54,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution908 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public int SmallestRangeI (int[] A, int K) {

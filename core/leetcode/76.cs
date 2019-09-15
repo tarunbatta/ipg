@@ -24,7 +24,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution76 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public string MinWindow (string s, string t) {

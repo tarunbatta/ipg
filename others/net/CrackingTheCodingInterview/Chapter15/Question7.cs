@@ -1,4 +1,4 @@
-﻿namespace TechByTarun.InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter15 {
+﻿namespace InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter15 {
     /// <summary>
     /// FizzBuzz: In the classic problem FizzBuzz, you are told to print the numbers from 1 to n. However,
     /// when the number is divisible by 3, print "Fizz': When it is divisible by 5, print "Buzz': When it is divisible

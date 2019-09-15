@@ -36,7 +36,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution1073 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public int[] AddNegabinary (int[] arr1, int[] arr2) {

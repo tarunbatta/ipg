@@ -29,7 +29,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution4 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public double FindMedianSortedArrays (int[] nums1, int[] nums2) {

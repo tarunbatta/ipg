@@ -22,7 +22,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution5 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public string LongestPalindrome (string s) {

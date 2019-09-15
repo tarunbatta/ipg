@@ -1,4 +1,4 @@
-﻿namespace TechByTarun.InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter8 {
+﻿namespace InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter8 {
     /// <summary>
     /// Towers of Hanoi: In the classic problem of the Towers of Hanoi, you have 3 towers and N disks of
     /// different sizes which can slide onto any tower.The puzzle starts with disks sorted

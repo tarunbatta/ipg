@@ -29,7 +29,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution493 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public int ReversePairs (int[] nums) {

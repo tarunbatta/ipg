@@ -43,7 +43,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution1171 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public ListNode RemoveZeroSumSublists (ListNode head) {

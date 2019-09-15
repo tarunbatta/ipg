@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace TechByTarun.InterviewPreperationGuide.App.PracticeQuestions {
+namespace InterviewPreperationGuide.App.PracticeQuestions {
     /// <summary>
     /// Write a function that determines whether a two-dimensional integer array contains duplicate values within k indices of each other (manhattan distance).
     /// </summary>

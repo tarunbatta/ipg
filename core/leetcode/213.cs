@@ -29,7 +29,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution213 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public int Rob (int[] nums) {

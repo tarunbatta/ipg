@@ -32,7 +32,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution219 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public bool ContainsNearbyDuplicate (int[] nums, int k) {

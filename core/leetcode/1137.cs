@@ -39,7 +39,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution1137 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public int Tribonacci (int n) {

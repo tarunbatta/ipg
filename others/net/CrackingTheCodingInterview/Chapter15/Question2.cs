@@ -1,4 +1,4 @@
-﻿namespace TechByTarun.InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter15 {
+﻿namespace InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter15 {
     /// <summary>
     /// Context Switch: How would you measure the time spent in a context switch?
     /// </summary>

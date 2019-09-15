@@ -1,4 +1,4 @@
-﻿namespace TechByTarun.InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter15 {
+﻿namespace InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter15 {
     /// <summary>
     /// Dining Philosophers: In the famous dining philosophers problem, a bunch of philosophers are
     /// sitting around a circular table with one chopstick between each of them.A philosopher needs

@@ -44,7 +44,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution688 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public double KnightProbability (int N, int K, int r, int c) {

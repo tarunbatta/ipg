@@ -35,7 +35,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution791 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public string CustomSortString (string S, string T) {

@@ -19,7 +19,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution415 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public string AddStrings (string num1, string num2) {

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace TechByTarun.InterviewPreperationGuide.App.Leetcode {
+namespace InterviewPreperationGuide.App.Leetcode {
     /// <summary>
     /// Best Time to Buy and Sell Stock III
     /// https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/

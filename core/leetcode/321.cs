@@ -41,7 +41,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution321 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public int[] MaxNumber (int[] nums1, int[] nums2, int k) {

@@ -27,7 +27,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution167 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public int[] TwoSum (int[] numbers, int target) {

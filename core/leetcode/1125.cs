@@ -39,7 +39,7 @@ using System.Collections.Generic;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution1125 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public int[] SmallestSufficientTeam (string[] req_skills, IList<IList<string>> people) {

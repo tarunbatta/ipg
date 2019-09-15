@@ -1,4 +1,4 @@
-﻿namespace TechByTarun.InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter2 {
+﻿namespace InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter2 {
     /// <summary>
     /// Loop Detection: Given a circular linked list, implement an algorithm that returns the node at the
     /// beginning of the loop.

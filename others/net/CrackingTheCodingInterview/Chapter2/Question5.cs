@@ -1,4 +1,4 @@
-﻿namespace TechByTarun.InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter2 {
+﻿namespace InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter2 {
     /// <summary>
     /// Sum Lists: You have two numbers represented by a linked list, where each node contains a
     /// single digit.The digits are stored in reverse order, such that the Ts digit is at the

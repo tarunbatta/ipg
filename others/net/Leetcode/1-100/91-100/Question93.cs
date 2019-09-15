@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace TechByTarun.InterviewPreperationGuide.App.Leetcode {
+namespace InterviewPreperationGuide.App.Leetcode {
     /// <summary>
     /// Given a string containing only digits, restore it by returning all possible valid IP address combinations.
     ///

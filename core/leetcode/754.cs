@@ -39,7 +39,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution754 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public int ReachNumber (int target) {

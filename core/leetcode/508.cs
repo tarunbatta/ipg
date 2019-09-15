@@ -34,7 +34,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution508 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public int[] FindFrequentTreeSum (TreeNode root) {

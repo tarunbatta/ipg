@@ -23,7 +23,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution214 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public string ShortestPalindrome (string s) {

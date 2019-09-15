@@ -23,7 +23,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution143 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public void ReorderList (ListNode head) {

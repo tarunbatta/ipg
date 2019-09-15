@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace TechByTarun.InterviewPreperationGuide.App.PracticeQuestions {
+namespace InterviewPreperationGuide.App.PracticeQuestions {
     /// <summary>
     /// Consider an array of  integers, where all but one of the integers occur in pairs.
     /// In other words, every element in  occurs exactly twice except for one unique element.

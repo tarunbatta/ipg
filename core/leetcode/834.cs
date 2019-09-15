@@ -33,7 +33,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution834 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public int[] SumOfDistancesInTree (int N, int[][] edges) {

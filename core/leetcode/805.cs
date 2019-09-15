@@ -30,7 +30,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution805 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public bool SplitArraySameAverage (int[] A) {

@@ -31,7 +31,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution777 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public bool CanTransform (string start, string end) {

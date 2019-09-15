@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections;
 
-namespace TechByTarun.InterviewPreperationGuide.App.Qotd {
+namespace InterviewPreperationGuide.App.Qotd {
     /// <summary>
     /// Tic-Tac-Similar
     /// Given two tic-tac-toe 3x3 boards, can return true if they are “similar” and false if they are not.

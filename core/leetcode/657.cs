@@ -31,7 +31,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution657 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public bool JudgeCircle (string moves) {

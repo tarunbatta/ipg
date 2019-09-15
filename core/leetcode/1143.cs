@@ -48,7 +48,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution1143 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public int LongestCommonSubsequence (string text1, string text2) {

@@ -39,7 +39,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution1078 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public string[] FindOcurrences (string text, string first, string second) {

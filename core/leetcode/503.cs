@@ -23,7 +23,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution503 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public int[] NextGreaterElements (int[] nums) {

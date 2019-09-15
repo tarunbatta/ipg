@@ -48,7 +48,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution457 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public bool CircularArrayLoop (int[] nums) {

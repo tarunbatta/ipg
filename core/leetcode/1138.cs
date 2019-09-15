@@ -45,7 +45,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution1138 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public string AlphabetBoardPath (string target) {

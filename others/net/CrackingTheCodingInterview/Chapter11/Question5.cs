@@ -1,4 +1,4 @@
-﻿namespace TechByTarun.InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter11 {
+﻿namespace InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter11 {
     /// <summary>
     /// Test a Pen: How would you test a pen?
     /// </summary>

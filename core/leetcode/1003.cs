@@ -69,7 +69,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution1003 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public bool IsValid (string S) {

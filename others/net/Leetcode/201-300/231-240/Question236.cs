@@ -1,4 +1,4 @@
-﻿namespace TechByTarun.InterviewPreperationGuide.App.Leetcode {
+﻿namespace InterviewPreperationGuide.App.Leetcode {
     /// <summary>
     /// Lowest Common Ancestor of a Binary Tree
     /// https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/

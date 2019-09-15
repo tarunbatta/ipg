@@ -52,7 +52,7 @@ using System.Collections.Generic;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution636 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public int[] ExclusiveTime (int n, IList<string> logs) {

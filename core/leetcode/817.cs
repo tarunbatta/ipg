@@ -44,7 +44,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution817 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public int NumComponents (ListNode head, int[] G) {

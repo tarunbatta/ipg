@@ -20,7 +20,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution42 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public int Trap (int[] height) {

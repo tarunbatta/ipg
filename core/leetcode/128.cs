@@ -20,7 +20,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution128 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public int LongestConsecutive (int[] nums) {

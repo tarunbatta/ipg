@@ -44,7 +44,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution671 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public int FindSecondMinimumValue (TreeNode root) {

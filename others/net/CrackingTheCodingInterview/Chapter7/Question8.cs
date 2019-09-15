@@ -1,4 +1,4 @@
-﻿namespace TechByTarun.InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter7 {
+﻿namespace InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter7 {
     /// <summary>
     /// Othello: Othello is played as follows: Each Othello piece is white on one side and black on the other.
     /// When a piece is surrounded by its opponents on both the left and right sides, or both the top and

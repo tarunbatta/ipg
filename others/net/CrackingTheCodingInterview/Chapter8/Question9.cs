@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections;
 
-namespace TechByTarun.InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter8 {
+namespace InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter8 {
     /// <summary>
     /// Parens: Implement an algorithm to print all valid (e.g., properly opened and closed) combinations
     /// of n pairs of parentheses.

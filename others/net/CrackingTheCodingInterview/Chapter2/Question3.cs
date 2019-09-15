@@ -1,4 +1,4 @@
-﻿namespace TechByTarun.InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter2 {
+﻿namespace InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter2 {
     /// <summary>
     /// Delete Middle Node: Implement an algorithm to delete a node in the middle of a singly linked list,
     /// given only access to that node.

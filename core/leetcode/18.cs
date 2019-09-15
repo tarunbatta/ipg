@@ -28,7 +28,7 @@ using System.Collections.Generic;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution18 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public IList<IList<int>> FourSum (int[] nums, int target) {

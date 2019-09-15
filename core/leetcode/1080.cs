@@ -57,7 +57,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution1080 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public TreeNode SufficientSubset (TreeNode root, int limit) {

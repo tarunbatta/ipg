@@ -1,4 +1,4 @@
-﻿namespace TechByTarun.InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter7 {
+﻿namespace InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter7 {
     /// <summary>
     /// Online Book Reader: Design the data structures for an online book reader system.
     /// </summary>

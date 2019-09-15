@@ -31,7 +31,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution492 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public int[] ConstructRectangle (int area) {

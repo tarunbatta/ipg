@@ -34,7 +34,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution1047 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public string RemoveDuplicates (string S) {

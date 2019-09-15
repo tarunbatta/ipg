@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace TechByTarun.InterviewPreperationGuide.App.Leetcode {
+namespace InterviewPreperationGuide.App.Leetcode {
     /// <summary>
     /// Smallest Good Base
     /// https://leetcode.com/contest/leetcode-weekly-contest-16b/problems/smallest-good-base/

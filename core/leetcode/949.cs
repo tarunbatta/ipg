@@ -40,7 +40,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution949 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public string LargestTimeFromDigits (int[] A) {

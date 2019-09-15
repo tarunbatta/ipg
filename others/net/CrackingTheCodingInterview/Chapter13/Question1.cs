@@ -1,4 +1,4 @@
-﻿namespace TechByTarun.InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter13 {
+﻿namespace InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter13 {
     /// <summary>
     /// Private Constructor: In terms of inheritance, what is the effect of keeping a constructor private?
     /// </summary>

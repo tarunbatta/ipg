@@ -17,7 +17,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution203 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public ListNode RemoveElements (ListNode head, int val) {

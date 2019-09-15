@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace TechByTarun.InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter4 {
+namespace InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter4 {
     /// <summary>
     /// Validate BST: Implement a function to check if a binary tree is a binary search tree.
     /// </summary>

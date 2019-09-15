@@ -43,7 +43,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution985 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public int[] SumEvenAfterQueries (int[] A, int[][] queries) {

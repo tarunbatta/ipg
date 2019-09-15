@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Linq;
 
-namespace TechByTarun.InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter1 {
+namespace InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter1 {
     /// <summary>
     /// Check Permutation: Given two strings, write a method to decide if one is a permutation of the other.
     /// </summary>

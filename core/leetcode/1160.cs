@@ -43,7 +43,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution1160 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public int CountCharacters (string[] words, string chars) {

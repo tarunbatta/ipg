@@ -31,7 +31,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution378 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public int KthSmallest (int[][] matrix, int k) {

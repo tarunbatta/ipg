@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace TechByTarun.InterviewPreperationGuide.App.Leetcode {
+namespace InterviewPreperationGuide.App.Leetcode {
     /// <summary>
     /// Single Element in a Sorted Array
     /// https://leetcode.com/problems/single-element-in-a-sorted-array/

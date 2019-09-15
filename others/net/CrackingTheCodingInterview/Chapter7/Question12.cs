@@ -1,4 +1,4 @@
-﻿namespace TechByTarun.InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter7 {
+﻿namespace InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter7 {
     /// <summary>
     /// Hash Table: Design and implement a hash table which uses chaining (linked lists) to handle collisions.
     /// </summary>

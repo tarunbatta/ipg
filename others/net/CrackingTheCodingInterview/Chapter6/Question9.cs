@@ -1,4 +1,4 @@
-﻿namespace TechByTarun.InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter6 {
+﻿namespace InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter6 {
     /// <summary>
     /// 100 Lockers: There are 100 closed lockers in a hallway. A man begins by opening all 100 lockers.
     /// Next, he closes every second locker.Then, on his third pass, he toggles every third locker(closes it if

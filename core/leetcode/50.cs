@@ -36,7 +36,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution50 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public double MyPow (double x, int n) {

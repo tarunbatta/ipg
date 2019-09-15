@@ -37,7 +37,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution667 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public int[] ConstructArray (int n, int k) {

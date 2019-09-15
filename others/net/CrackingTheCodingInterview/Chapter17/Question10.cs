@@ -1,4 +1,4 @@
-﻿namespace TechByTarun.InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter17 {
+﻿namespace InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter17 {
     /// <summary>
     /// Majority Element: A majority element is an element that makes up more than half of the items in
     /// an array.Given a positive integers array, find the majority element. If there is no majority element,

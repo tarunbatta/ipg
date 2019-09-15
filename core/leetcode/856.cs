@@ -56,7 +56,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution856 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public int ScoreOfParentheses (string S) {

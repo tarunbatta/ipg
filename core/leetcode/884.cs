@@ -46,7 +46,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution884 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public string[] UncommonFromSentences (string A, string B) {

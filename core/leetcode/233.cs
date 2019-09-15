@@ -18,7 +18,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution233 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public int CountDigitOne (int n) {

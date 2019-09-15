@@ -62,7 +62,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution1033 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public int[] NumMovesStones (int a, int b, int c) {

@@ -23,7 +23,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution85 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public int MaximalRectangle (char[][] matrix) {

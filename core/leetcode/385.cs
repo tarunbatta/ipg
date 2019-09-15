@@ -64,7 +64,7 @@ namespace InterviewPreperationGuide.Core.LeetCode.Solution385 {
 
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public NestedInteger Deserialize (string s) {

@@ -54,7 +54,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution1147 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public int LongestDecomposition (string text) {

@@ -49,7 +49,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution450 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public TreeNode DeleteNode (TreeNode root, int key) {

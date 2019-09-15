@@ -29,7 +29,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution112 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public bool HasPathSum (TreeNode root, int sum) {

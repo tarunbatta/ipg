@@ -81,7 +81,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution975 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public int OddEvenJumps (int[] A) {

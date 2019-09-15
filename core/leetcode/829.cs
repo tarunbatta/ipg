@@ -32,7 +32,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution829 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public int ConsecutiveNumbersSum (int N) {

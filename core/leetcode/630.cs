@@ -37,7 +37,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution630 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public int ScheduleCourse (int[][] courses) {

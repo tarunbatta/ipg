@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace TechByTarun.InterviewPreperationGuide.App.Leetcode {
+namespace InterviewPreperationGuide.App.Leetcode {
     /// <summary>
     /// Max Sum of Rectangle No Larger Than K
     /// https://leetcode.com/problems/max-sum-of-sub-matrix-no-larger-than-k/

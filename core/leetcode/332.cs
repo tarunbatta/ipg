@@ -34,7 +34,7 @@ using System.Collections.Generic;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution332 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public IList<string> FindItinerary (IList<IList<string>> tickets) {

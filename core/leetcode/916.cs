@@ -69,7 +69,7 @@ using System.Collections.Generic;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution916 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public IList<string> WordSubsets (string[] A, string[] B) {

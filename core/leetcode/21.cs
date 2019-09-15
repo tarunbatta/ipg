@@ -16,7 +16,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution21 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public ListNode MergeTwoLists (ListNode l1, ListNode l2) {

@@ -64,7 +64,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution964 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public int LeastOpsExpressTarget (int x, int target) {

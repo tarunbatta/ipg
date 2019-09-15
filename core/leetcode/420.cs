@@ -22,7 +22,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution420 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public int StrongPasswordChecker (string s) {

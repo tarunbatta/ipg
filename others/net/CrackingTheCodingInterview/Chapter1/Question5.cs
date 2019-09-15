@@ -1,4 +1,4 @@
-﻿namespace TechByTarun.InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter1 {
+﻿namespace InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter1 {
     /// <summary>
     /// One Away: There are three types of edits that can be performed on strings: insert a character,
     /// remove a character, or replace a character.Given two strings, write a function to check if they are

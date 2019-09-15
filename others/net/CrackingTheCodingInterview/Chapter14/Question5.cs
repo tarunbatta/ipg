@@ -1,4 +1,4 @@
-﻿namespace TechByTarun.InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter14 {
+﻿namespace InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter14 {
     /// <summary>
     /// Denormalization: What is denormalization? Explain the pros and cons.
     /// </summary>

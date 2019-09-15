@@ -34,7 +34,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution240 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public bool SearchMatrix (int[, ] matrix, int target) {

@@ -43,7 +43,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution1010 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public int NumPairsDivisibleBy60 (int[] time) {

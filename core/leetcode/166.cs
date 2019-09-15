@@ -30,7 +30,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution166 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public string FractionToDecimal (int numerator, int denominator) {

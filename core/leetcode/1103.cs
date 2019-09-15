@@ -50,7 +50,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution1103 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public int[] DistributeCandies (int candies, int num_people) {

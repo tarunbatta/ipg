@@ -41,7 +41,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution377 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public int CombinationSum4 (int[] nums, int target) {

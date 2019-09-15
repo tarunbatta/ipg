@@ -34,7 +34,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution349 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public int[] Intersection (int[] nums1, int[] nums2) {

@@ -53,7 +53,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution725 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public ListNode[] SplitListToParts (ListNode root, int k) {

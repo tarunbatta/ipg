@@ -26,7 +26,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution462 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public int MinMoves2 (int[] nums) {

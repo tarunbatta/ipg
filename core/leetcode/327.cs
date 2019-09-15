@@ -22,7 +22,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution327 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public int CountRangeSum (int[] nums, int lower, int upper) {

@@ -48,7 +48,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution424 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public int CharacterReplacement (string s, int k) {

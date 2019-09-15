@@ -29,7 +29,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution645 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public int[] FindErrorNums (int[] nums) {

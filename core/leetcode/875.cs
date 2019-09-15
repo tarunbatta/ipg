@@ -53,7 +53,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution875 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public int MinEatingSpeed (int[] piles, int H) {

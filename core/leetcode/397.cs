@@ -50,7 +50,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution397 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public int IntegerReplacement (int n) {

@@ -1,4 +1,4 @@
-﻿namespace TechByTarun.InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter8 {
+﻿namespace InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter8 {
     /// <summary>
     /// Stack of Boxes: You have a stack of n boxes, with widths Wi ' heights hi ' and depths di . The boxes
     /// cannot be rotated and can only be stacked on top of one another if each box in the stack is strictly

@@ -1,4 +1,4 @@
-﻿namespace TechByTarun.InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter2 {
+﻿namespace InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter2 {
     /// <summary>
     /// Palindrome: Implement a function to check if a linked list is a palindrome.
     /// </summary>

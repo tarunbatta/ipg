@@ -39,7 +39,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution210 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public int[] FindOrder (int numCourses, int[][] prerequisites) {

@@ -39,7 +39,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution891 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public int SumSubseqWidths (int[] A) {

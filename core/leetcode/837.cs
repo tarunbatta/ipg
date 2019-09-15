@@ -44,7 +44,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution837 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public double New21Game (int N, int K, int W) {

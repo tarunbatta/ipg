@@ -1,4 +1,4 @@
-﻿namespace TechByTarun.InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter10 {
+﻿namespace InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter10 {
     /// <summary>
     /// Sorted Search, No Size: You are given an array-like data structure Listy which lacks a size
     /// method.It does, however, have an elementAt(i) method that returns the element at index i in

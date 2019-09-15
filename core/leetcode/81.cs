@@ -33,7 +33,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution81 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public bool Search (int[] nums, int target) {

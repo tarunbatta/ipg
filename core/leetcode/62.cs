@@ -37,7 +37,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution62 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public int UniquePaths (int m, int n) {

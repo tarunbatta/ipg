@@ -50,7 +50,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution151 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public string ReverseWords (string s) {

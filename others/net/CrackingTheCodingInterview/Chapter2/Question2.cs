@@ -1,4 +1,4 @@
-﻿namespace TechByTarun.InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter2 {
+﻿namespace InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter2 {
     /// <summary>
     /// Return Kth to Last: Implement an algorithm to find the kth to last element of a singly linked list.
     /// </summary>

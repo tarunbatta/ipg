@@ -30,7 +30,7 @@ using System.Collections.Generic;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution637 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public IList<double> AverageOfLevels (TreeNode root) {

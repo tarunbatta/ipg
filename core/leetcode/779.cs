@@ -40,7 +40,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution779 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public int KthGrammar (int N, int K) {

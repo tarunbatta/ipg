@@ -35,7 +35,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution114 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public void Flatten (TreeNode root) { }

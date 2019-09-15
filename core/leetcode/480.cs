@@ -35,7 +35,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution480 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public double[] MedianSlidingWindow (int[] nums, int k) {

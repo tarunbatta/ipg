@@ -50,7 +50,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution942 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public int[] DiStringMatch (string S) {

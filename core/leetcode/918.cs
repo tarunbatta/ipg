@@ -65,7 +65,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution918 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public int MaxSubarraySumCircular (int[] A) {

@@ -1,4 +1,4 @@
-﻿namespace TechByTarun.InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter6 {
+﻿namespace InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter6 {
     /// <summary>
     /// Poison: You have 1000 bottles of soda, and exactly one is poisoned. You have 10 test strips which
     /// can be used to detect poison.A single drop of poison will turn the test strip positive permanently.

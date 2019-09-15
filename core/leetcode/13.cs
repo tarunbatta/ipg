@@ -52,7 +52,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution13 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public int RomanToInt (string s) {

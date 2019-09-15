@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace TechByTarun.InterviewPreperationGuide.App.Algorithms {
+namespace InterviewPreperationGuide.App.Algorithms {
     /// <summary>
     ///
     /// </summary>

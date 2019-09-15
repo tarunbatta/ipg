@@ -34,7 +34,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution70 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public int ClimbStairs (int n) {

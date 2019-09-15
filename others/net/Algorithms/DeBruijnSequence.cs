@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Text;
 
-namespace TechByTarun.InterviewPreperationGuide.App.Algorithms {
+namespace InterviewPreperationGuide.App.Algorithms {
     /// <summary>
     /// De Bruijn Sequence (https://en.wikipedia.org/wiki/De_Bruijn_sequence)
     ///

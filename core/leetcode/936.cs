@@ -51,7 +51,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution936 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public int[] MovesToStamp (string stamp, string target) {

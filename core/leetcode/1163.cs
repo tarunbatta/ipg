@@ -35,7 +35,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution1163 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public string LastSubstring (string s) {

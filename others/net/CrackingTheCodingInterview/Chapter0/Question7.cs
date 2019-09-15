@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace TechByTarun.InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter0 {
+namespace InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter0 {
     /// <summary>
     /// Given an array of distinct integer values, count the number of pairs of integers that have difference k.
     /// For example, given the array {1, 7, 5, 9, 2, 12, 3} and the difference k = 2,

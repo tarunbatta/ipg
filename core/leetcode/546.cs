@@ -34,7 +34,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution546 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public int RemoveBoxes (int[] boxes) {

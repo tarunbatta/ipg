@@ -1,4 +1,4 @@
-﻿namespace TechByTarun.InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter9 {
+﻿namespace InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter9 {
     /// <summary>
     /// Stock Data: Imagine you are building some sort of service that will be called by up to 1,000 client
     /// applications to get simple end-of-day stock price information(open, close, high, low). You may

@@ -27,11 +27,68 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution19 {
     public class Solution {
         public void Init () {
+            ListNode node = new ListNode (1);
+            node.next = new ListNode (2);
+            node.next.next = new ListNode (3);
+            node.next.next.next = new ListNode (4);
+            node.next.next.next.next = new ListNode (5);
 
+            Console.WriteLine (RemoveNthFromEnd_a (node, 2));
+
+            Console.WriteLine (RemoveNthFromEnd_b (node, 2));
         }
 
-        public ListNode RemoveNthFromEnd (ListNode head, int n) {
-            return null;
+        public ListNode RemoveNthFromEnd_a (ListNode head, int n) {
+            if (n <= 0) {
+                return head;
+            }
+
+            ListNode dummy = new ListNode (0);
+            dummy.next = head;
+            int len = 0;
+            ListNode current = head;
+
+            while (current.next != null) {
+                len++;
+                current = current.next;
+            }
+
+            current = dummy;
+
+            for (int i = 0; i < len - n + 1; i++) {
+                current = current.next;
+            }
+
+            if (current.next != null) {
+                current.next = current.next.next;
+            }
+
+            return dummy.next;
+        }
+
+        public ListNode RemoveNthFromEnd_b (ListNode head, int n) {
+            if (n <= 0) {
+                return head;
+            }
+
+            ListNode dummy = new ListNode (0);
+            dummy.next = head;
+
+            ListNode first = dummy;
+            ListNode second = dummy;
+
+            for (int i = 1; i <= n + 1; i++) {
+                first = first.next;
+            }
+
+            while (first != null) {
+                first = first.next;
+                second = second.next;
+            }
+
+            second.next = second.next.next;
+
+            return dummy.next;
         }
     }
 

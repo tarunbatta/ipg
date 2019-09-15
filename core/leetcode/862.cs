@@ -49,7 +49,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution862 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public int ShortestSubarray (int[] A, int K) {

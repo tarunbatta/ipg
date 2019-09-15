@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections;
 
-namespace TechByTarun.InterviewPreperationGuide.App.Qotd {
+namespace InterviewPreperationGuide.App.Qotd {
     /// <summary>
     /// Minimum swaps to make two arrays identical
     /// Given two arrays which have same values but in different order, we need to make second array same as first array using minimum number of swaps.

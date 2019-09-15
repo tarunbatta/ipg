@@ -29,7 +29,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution313 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public int NthSuperUglyNumber (int n, int[] primes) {

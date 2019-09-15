@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Text;
 
-namespace TechByTarun.InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter1 {
+namespace InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter1 {
     /// <summary>
     /// String Compression: Implement a method to perform basic string compression using the counts
     /// of repeated characters. For example, the string aabcccccaaa would become

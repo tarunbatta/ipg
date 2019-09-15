@@ -35,7 +35,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution575 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public int DistributeCandies (int[] candies) {

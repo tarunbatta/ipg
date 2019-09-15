@@ -24,7 +24,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution58 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public int LengthOfLastWord (string s) {

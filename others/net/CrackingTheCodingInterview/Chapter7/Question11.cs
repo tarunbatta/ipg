@@ -1,4 +1,4 @@
-﻿namespace TechByTarun.InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter7 {
+﻿namespace InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter7 {
     /// <summary>
     /// File System: Explain the data structures and algorithms that you would use to design an in-memory
     /// file system.Illustrate with an example in code where possible.

@@ -60,7 +60,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution886 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public bool PossibleBipartition (int N, int[][] dislikes) {

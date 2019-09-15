@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace TechByTarun.InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter0 {
+namespace InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter0 {
     /// <summary>
     /// Sort an array containing a million integers between 0 and 130 (a reasonable maximum age).
     /// </summary>

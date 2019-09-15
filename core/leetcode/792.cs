@@ -28,7 +28,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution792 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public int NumMatchingSubseq (string S, string[] words) {

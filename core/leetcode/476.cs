@@ -31,7 +31,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution476 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public int FindComplement (int num) {

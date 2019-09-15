@@ -1,4 +1,4 @@
-﻿namespace TechByTarun.InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter9 {
+﻿namespace InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter9 {
     /// <summary>
     /// Cache: Imagine a web server for a simplified search engine. This system has 100 machines to
     /// respond to search queries, which may then call out using processSearch(string query) to

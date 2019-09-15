@@ -33,7 +33,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution413 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public int NumberOfArithmeticSlices (int[] A) {

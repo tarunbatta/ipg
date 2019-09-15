@@ -53,7 +53,7 @@ using System.Collections.Generic;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution1023 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public IList<bool> CamelMatch (string[] queries, string pattern) {

@@ -29,7 +29,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution390 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public int LastRemaining (int n) {

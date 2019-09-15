@@ -49,7 +49,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution806 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public int[] NumberOfLines (int[] widths, string S) {

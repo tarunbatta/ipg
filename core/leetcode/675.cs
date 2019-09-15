@@ -69,7 +69,7 @@ using System.Collections.Generic;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution675 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public int CutOffTree (IList<IList<int>> forest) {

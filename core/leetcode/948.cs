@@ -56,7 +56,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution948 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public int BagOfTokensScore (int[] tokens, int P) {

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace TechByTarun.InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter0 {
+namespace InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter0 {
     /// <summary>
     /// A sorted array has been rotated so that the elements might appear in the order 3
     /// 456712. How would you find the minimum element? You may assume that the array has

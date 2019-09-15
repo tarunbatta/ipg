@@ -33,7 +33,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution646 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public int FindLongestChain (int[][] pairs) {

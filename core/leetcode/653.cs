@@ -44,7 +44,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution653 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public bool FindTarget (TreeNode root, int k) {

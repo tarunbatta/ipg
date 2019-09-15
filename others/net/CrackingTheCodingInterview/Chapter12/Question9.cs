@@ -1,4 +1,4 @@
-﻿namespace TechByTarun.InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter12 {
+﻿namespace InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter12 {
     /// <summary>
     /// Smart Pointer: Write a smart pointer class. A smart pointer is a data type, usually implemented with
     /// templates, that simulates a pointer while also providing automatic garbage collection.It automatically

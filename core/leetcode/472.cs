@@ -30,7 +30,7 @@ using System.Collections.Generic;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution472 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public IList<string> FindAllConcatenatedWordsInADict (string[] words) {

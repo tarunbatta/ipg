@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace TechByTarun.InterviewPreperationGuide.App.Qotd {
+namespace InterviewPreperationGuide.App.Qotd {
     /// <summary>
     /// Gem Puzzle | Boss Puzzle | Game of Fifteen | Mystic Square
     /// The 15 puzzle is a classic puzzle made famous in the 19th century.

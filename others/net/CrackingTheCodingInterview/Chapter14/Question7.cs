@@ -1,4 +1,4 @@
-﻿namespace TechByTarun.InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter14 {
+﻿namespace InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter14 {
     /// <summary>
     /// Design Grade Database: Imagine a simple database storing information for students' grades.
     /// Design what this database might look like and provide a SQL query to return a list of the honor roll

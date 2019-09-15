@@ -33,7 +33,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution91 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public int NumDecodings (string s) {

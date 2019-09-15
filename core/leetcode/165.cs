@@ -49,7 +49,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution165 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public int CompareVersion (string version1, string version2) {

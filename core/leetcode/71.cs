@@ -56,7 +56,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution71 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public string SimplifyPath (string path) {

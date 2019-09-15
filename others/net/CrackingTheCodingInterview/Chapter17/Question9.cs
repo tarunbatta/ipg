@@ -1,4 +1,4 @@
-﻿namespace TechByTarun.InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter17 {
+﻿namespace InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter17 {
     /// <summary>
     /// Kth Multiple: Design an algorithm to find the kth number such that the only prime factors are 3, 5, and 7.
     /// Note that 3, 5, and 7 do not have to be factors, but it should not have any other prime factors.

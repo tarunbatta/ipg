@@ -62,7 +62,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution174 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public int CalculateMinimumHP (int[][] dungeon) {

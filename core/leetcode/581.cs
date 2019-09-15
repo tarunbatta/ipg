@@ -26,7 +26,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution581 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public int FindUnsortedSubarray (int[] nums) {

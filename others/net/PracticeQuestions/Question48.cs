@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace TechByTarun.InterviewPreperationGuide.App.PracticeQuestions {
+namespace InterviewPreperationGuide.App.PracticeQuestions {
     /// <summary>
     /// You are given two 5 digit numbers (secret and guess), each number has all of its digits unique.
     /// If a digit of secret matches a digit of guess and it appears in the same location in both numbers,

@@ -42,7 +42,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution482 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public string LicenseKeyFormatting (string S, int K) {

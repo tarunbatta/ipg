@@ -20,7 +20,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution132 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public int MinCut (string s) {

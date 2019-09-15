@@ -46,7 +46,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution1162 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public int MaxDistance (int[][] grid) {

@@ -45,7 +45,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution475 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public int FindRadius (int[] houses, int[] heaters) {

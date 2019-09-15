@@ -50,7 +50,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution1053 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public int[] PrevPermOpt1 (int[] A) {

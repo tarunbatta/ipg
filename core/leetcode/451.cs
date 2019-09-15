@@ -49,7 +49,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution451 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public string FrequencySort (string s) {

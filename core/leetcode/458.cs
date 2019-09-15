@@ -29,7 +29,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution458 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public int PoorPigs (int buckets, int minutesToDie, int minutesToTest) {

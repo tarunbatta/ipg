@@ -34,7 +34,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution273 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public string NumberToWords (int num) {

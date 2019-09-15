@@ -33,7 +33,7 @@ using System.Collections.Generic;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution95 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public IList<TreeNode> GenerateTrees (int n) {

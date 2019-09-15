@@ -1,4 +1,4 @@
-﻿namespace TechByTarun.InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter17 {
+﻿namespace InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter17 {
     /// <summary>
     /// Shortest Supersequence: You are given two arrays, one shorter (with all distinct elements) and one
     /// longer.Find the shortest subarray in the longer array that contains all the elements in the shorter

@@ -45,7 +45,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution117 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public Node Connect (Node root) {

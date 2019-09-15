@@ -34,7 +34,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution1016 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public bool QueryString (string S, int N) {

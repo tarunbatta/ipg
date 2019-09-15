@@ -58,7 +58,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution134 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public int CanCompleteCircuit (int[] gas, int[] cost) {

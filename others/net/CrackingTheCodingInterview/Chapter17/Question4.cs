@@ -1,4 +1,4 @@
-﻿namespace TechByTarun.InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter17 {
+﻿namespace InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter17 {
     /// <summary>
     /// Missing Number: An array A contains all the integers from 0 to n, except for one number which
     /// is missing.In this problem, we cannot access an entire integer in A with a single operation.The

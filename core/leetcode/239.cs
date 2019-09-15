@@ -34,7 +34,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution239 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public int[] MaxSlidingWindow (int[] nums, int k) {

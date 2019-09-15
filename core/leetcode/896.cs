@@ -64,7 +64,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution896 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public bool IsMonotonic (int[] A) {

@@ -38,7 +38,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution1093 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public double[] SampleStats (int[] count) {

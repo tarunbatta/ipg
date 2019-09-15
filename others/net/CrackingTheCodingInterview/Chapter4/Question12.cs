@@ -1,4 +1,4 @@
-﻿namespace TechByTarun.InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter4 {
+﻿namespace InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter4 {
     /// <summary>
     /// Paths with Sum: You are given a binary tree in which each node contains an integer value (which
     /// might be positive or negative). Design an algorithm to count the number of paths that sum to a

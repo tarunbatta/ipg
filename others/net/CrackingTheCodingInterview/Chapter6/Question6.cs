@@ -1,4 +1,4 @@
-﻿namespace TechByTarun.InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter6 {
+﻿namespace InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter6 {
     /// <summary>
     /// Blue-Eyed Island: A bunch of people are living on an island, when a visitor comes with a strange
     /// order: all blue-eyed people must leave the island as soon as possible.There will be a flight out at

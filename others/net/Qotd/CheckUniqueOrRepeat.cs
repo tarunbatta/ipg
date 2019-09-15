@@ -1,4 +1,4 @@
-﻿namespace TechByTarun.InterviewPreperationGuide.App.Qotd {
+﻿namespace InterviewPreperationGuide.App.Qotd {
     /// <summary>
     /// Given an array of ints, return true if all unique and false if any repeat. Without extra memory. No sort
     /// </summary>

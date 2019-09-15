@@ -51,7 +51,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution115 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public int NumDistinct (string s, string t) {

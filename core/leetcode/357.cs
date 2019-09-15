@@ -20,7 +20,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution357 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public int CountNumbersWithUniqueDigits (int n) {

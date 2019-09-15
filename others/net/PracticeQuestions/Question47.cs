@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace TechByTarun.InterviewPreperationGuide.App.PracticeQuestions {
+namespace InterviewPreperationGuide.App.PracticeQuestions {
     /// <summary>
     /// Even numbers at even index and Odd numbers at odd index
     /// Given an array of size 2n, with n od dnumbers and n even numbers.

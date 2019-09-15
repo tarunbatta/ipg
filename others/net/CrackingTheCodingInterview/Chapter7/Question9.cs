@@ -1,4 +1,4 @@
-﻿namespace TechByTarun.InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter7 {
+﻿namespace InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter7 {
     /// <summary>
     /// Circular Array: Implement a C i rc u la rArray class that supports an array-like data structure which
     /// can be efficiently rotated.If possible, the class should use a generic type(also called a template), and

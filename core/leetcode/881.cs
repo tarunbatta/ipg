@@ -47,7 +47,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution881 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public int NumRescueBoats (int[] people, int limit) {

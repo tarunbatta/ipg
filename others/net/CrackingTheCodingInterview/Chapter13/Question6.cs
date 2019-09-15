@@ -1,4 +1,4 @@
-﻿namespace TechByTarun.InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter13 {
+﻿namespace InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter13 {
     /// <summary>
     /// Object Reflection: Explain what object reflection is in Java and why it is useful.
     /// </summary>

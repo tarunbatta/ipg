@@ -1,4 +1,4 @@
-﻿namespace TechByTarun.InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter17 {
+﻿namespace InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter17 {
     /// <summary>
     /// The Masseuse: A popular masseuse receives a sequence of back-to-back appointment requests
     /// and is debating which ones to accept.She needs a lS-minute break between appointments and

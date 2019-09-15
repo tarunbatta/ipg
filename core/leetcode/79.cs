@@ -27,7 +27,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution79 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public bool Exist (char[][] board, string word) {

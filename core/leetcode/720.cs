@@ -35,7 +35,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution720 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public string LongestWord (string[] words) {

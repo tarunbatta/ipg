@@ -30,7 +30,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution345 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public string ReverseVowels (string s) {

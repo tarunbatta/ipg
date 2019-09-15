@@ -32,7 +32,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution679 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public bool JudgePoint24 (int[] nums) {

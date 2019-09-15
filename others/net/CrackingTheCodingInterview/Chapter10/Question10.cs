@@ -1,4 +1,4 @@
-﻿namespace TechByTarun.InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter10 {
+﻿namespace InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter10 {
     /// <summary>
     /// Rank from Stream: Imagine you are reading in a stream of integers. Periodically, you wish to be able
     /// to look up the rank of a number x(the number of values less than or equal to x). Implement the data

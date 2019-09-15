@@ -33,7 +33,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution621 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public int LeastInterval (char[] tasks, int n) {

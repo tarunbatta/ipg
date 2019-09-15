@@ -66,7 +66,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution998 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public TreeNode InsertIntoMaxTree (TreeNode root, int val) {

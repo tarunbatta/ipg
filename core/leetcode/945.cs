@@ -45,7 +45,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution945 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public int MinIncrementForUnique (int[] A) {

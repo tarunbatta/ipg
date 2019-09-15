@@ -38,7 +38,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution938 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public int RangeSumBST (TreeNode root, int L, int R) {

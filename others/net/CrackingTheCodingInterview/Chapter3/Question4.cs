@@ -1,4 +1,4 @@
-﻿namespace TechByTarun.InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter3 {
+﻿namespace InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter3 {
     /// <summary>
     /// Queue via Stacks: Implement a MyQueue class which implements a queue using two stacks.
     /// </summary>

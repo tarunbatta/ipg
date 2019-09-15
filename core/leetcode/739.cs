@@ -19,7 +19,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution739 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public int[] DailyTemperatures (int[] T) {

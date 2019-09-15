@@ -56,7 +56,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution920 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public int NumMusicPlaylists (int N, int L, int K) {

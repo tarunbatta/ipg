@@ -1,4 +1,4 @@
-﻿namespace TechByTarun.InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter1 {
+﻿namespace InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter1 {
     /// <summary>
     /// Palindrome Permutation: Given a string, write a function to check if it is a permutation of a palindrome.
     /// A palindrome is a word or phrase that is the same forwards and backwards.A permutation

@@ -61,7 +61,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution960 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public int MinDeletionSize (string[] A) {

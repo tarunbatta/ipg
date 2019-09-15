@@ -1,4 +1,4 @@
-﻿namespace TechByTarun.InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter16 {
+﻿namespace InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter16 {
     /// <summary>
     /// English Int: Given any integer, print an English phrase that describes the integer (e.g., "One Thousand,
     /// Two Hundred Thirty Four").

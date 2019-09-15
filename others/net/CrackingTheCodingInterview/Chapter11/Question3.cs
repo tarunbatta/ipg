@@ -1,4 +1,4 @@
-﻿namespace TechByTarun.InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter11 {
+﻿namespace InterviewPreperationGuide.App.CrackingTheCodingInterview.Chapter11 {
     /// <summary>
     /// Chess Test: We have the following method used in a chess game: boolean eanMoveTo(int x, int y).
     /// This method is part of the P ieee class and returns whether or not the piece can move to

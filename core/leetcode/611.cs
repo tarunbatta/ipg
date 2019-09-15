@@ -28,7 +28,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution611 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public int TriangleNumber (int[] nums) {

@@ -46,7 +46,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution753 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public string CrackSafe (int n, int k) {

@@ -38,7 +38,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution455 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public int FindContentChildren (int[] g, int[] s) {

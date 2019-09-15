@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Linq;
 
-namespace TechByTarun.InterviewPreperationGuide.App.Qotd {
+namespace InterviewPreperationGuide.App.Qotd {
     /// <summary>
     /// The Next Palindrome
     /// A positive integer is called a palindrome if its representation in the decimal system is the same

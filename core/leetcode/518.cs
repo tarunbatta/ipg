@@ -53,7 +53,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution518 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public int Change (int amount, int[] coins) {

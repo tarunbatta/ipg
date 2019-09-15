@@ -52,7 +52,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution27 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public int RemoveElement (int[] nums, int val) {

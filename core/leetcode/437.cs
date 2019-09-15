@@ -36,7 +36,7 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.Solution437 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine ();
         }
 
         public int PathSum (TreeNode root, int sum) {
