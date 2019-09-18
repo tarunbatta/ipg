@@ -34,11 +34,90 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.problem70 {
     public class Solution {
         public void Init () {
-            Console.WriteLine ();
+            Console.WriteLine (ClimbStairs_a (0));
+            Console.WriteLine (ClimbStairs_a (1));
+            Console.WriteLine (ClimbStairs_a (2));
+            Console.WriteLine (ClimbStairs_a (3));
+            Console.WriteLine (ClimbStairs_a (4));
+            Console.WriteLine (ClimbStairs_a (5));
         }
 
-        public int ClimbStairs (int n) {
-            return 0;
+        public int ClimbStairs_a (int n) {
+            return ClimbStairsHelper_a (0, n);
+        }
+
+        private int ClimbStairsHelper_a (int i, int n) {
+            if (i > n) {
+                return 0;
+            }
+
+            if (i == n) {
+                return 1;
+            }
+
+            return ClimbStairsHelper_a (i + 1, n) + ClimbStairsHelper_a (i + 2, n);
+        }
+
+        public int ClimbStairs_b (int n) {
+            int[] memo = new int[n + 1];
+            return ClimbStairsHelper_b (0, n, memo);
+        }
+
+        private int ClimbStairsHelper_b (int i, int n, int[] memo) {
+            if (i > n) {
+                return 0;
+            }
+
+            if (i == n) {
+                return 1;
+            }
+
+            if (memo[i] > 0) {
+                return memo[i];
+            }
+
+            memo[i] = ClimbStairsHelper_b (i + 1, n, memo) + ClimbStairsHelper_b (i + 2, n, memo);
+
+            return memo[i];
+        }
+
+        public int ClimbStairs_c (int n) {
+            if (n == 1) {
+                return 1;
+            }
+
+            int[] dp = new int[n + 1];
+            dp[1] = 1;
+            dp[2] = 2;
+
+            for (int i = 3; i <= n; i++) {
+                dp[i] = dp[i - 1] + dp[i - 2];
+            }
+
+            return dp[n];
+        }
+
+        public int ClimbStairs_d (int n) {
+            if (n == 1) {
+                return 1;
+            }
+
+            int first = 1;
+            int second = 2;
+
+            for (int i = 3; i <= n; i++) {
+                int third = first + second;
+                first = second;
+                second = third;
+            }
+
+            return second;
+        }
+
+        public int ClimbStairs_e (int n) {
+            double sqrt5 = Math.Sqrt (5);
+            double fibn = Math.Pow ((1 + sqrt5) / 2, n + 1) - Math.Pow ((1 - sqrt5) / 2, n + 1);
+            return (int) (fibn / sqrt5);
         }
     }
 }

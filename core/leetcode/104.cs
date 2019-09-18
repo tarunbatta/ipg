@@ -45,7 +45,7 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem104 {
             int left = MaxDepth (root.left);
             int right = MaxDepth (root.right);
 
-            return (left > right) ? (left + 1) : (right + 1);
+            return 1 + Math.Max (left, right);
         }
     }
 

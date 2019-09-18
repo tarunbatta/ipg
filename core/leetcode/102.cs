@@ -34,8 +34,59 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem102 {
             Console.WriteLine ();
         }
 
-        public IList<IList<int>> LevelOrder (TreeNode root) {
-            return null;
+        public IList<IList<int>> LevelOrder_a (TreeNode root) {
+            var result = new List<IList<int>> ();
+            LevelOrderHelper (root, result, 0);
+
+            return result;
+        }
+
+        private void LevelOrderHelper (TreeNode root, List<IList<int>> result, int height) {
+            if (root == null) {
+                return;
+            }
+
+            if (height >= result.Count) {
+                result.Add (new List<int> ());
+            }
+
+            result[height].Add (root.val);
+
+            LevelOrderHelper (root.left, result, height + 1);
+            LevelOrderHelper (root.right, result, height + 1);
+        }
+
+        public IList<IList<int>> LevelOrder_b (TreeNode root) {
+            var result = new List<IList<int>> ();
+
+            if (root == null) {
+                return result;
+            }
+
+            var queue = new Queue<TreeNode> ();
+            queue.Enqueue (root);
+
+            while (queue.Count != 0) {
+                int height = queue.Count;
+
+                List<int> sublist = new List<int> ();
+
+                for (int i = 0; i < height; i++) {
+                    if (queue.Peek ().left != null) {
+                        queue.Enqueue (queue.Peek ().left);
+                    }
+
+                    if (queue.Peek ().right != null) {
+                        queue.Enqueue (queue.Peek ().right);
+                    }
+
+                    sublist.Add (queue.Dequeue ().val);
+                }
+
+                result.Add (sublist);
+            }
+
+            return result;
         }
     }
 

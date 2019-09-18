@@ -1,5 +1,9 @@
 # TODO
 
+DP
+https://leetcode.com/problems/word-break/
+https://leetcode.com/problems/longest-common-subsequence/
+
 ## Ebay
 
 * steve

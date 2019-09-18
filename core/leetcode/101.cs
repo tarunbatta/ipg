@@ -33,6 +33,7 @@ Bonus points if you could solve it both recursively and iteratively.
 */
 
 using System;
+using System.Collections.Generic;
 
 namespace InterviewPreperationGuide.Core.LeetCode.problem101 {
     public class Solution {
@@ -40,8 +41,42 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem101 {
             Console.WriteLine ();
         }
 
-        public bool IsSymmetric (TreeNode root) {
-            return false;
+        public bool IsSymmetric_a (TreeNode root) {
+            return IsSymmetricHelper (root, root);
+        }
+
+        private bool IsSymmetricHelper (TreeNode t1, TreeNode t2) {
+            if (t1 == null && t2 == null) {
+                return true;
+            }
+
+            if (t1 == null || t2 == null) {
+                return false;
+            }
+
+            return (t1.val == t2.val) && IsSymmetricHelper (t1.right, t2.left) && IsSymmetricHelper (t1.left, t2.right);
+        }
+
+        public bool IsSymmetric_b (TreeNode root) {
+            Queue<TreeNode> q = new Queue<TreeNode> ();
+            q.Enqueue (root);
+            q.Enqueue (root);
+
+            while (q.Count != 0) {
+                TreeNode t1 = q.Dequeue ();
+                TreeNode t2 = q.Dequeue ();
+
+                if (t1 == null && t2 == null) continue;
+                if (t1 == null || t2 == null) return false;
+                if (t1.val != t2.val) return false;
+
+                q.Enqueue (t1.left);
+                q.Enqueue (t2.right);
+                q.Enqueue (t1.right);
+                q.Enqueue (t2.left);
+            }
+            
+            return true;
         }
     }
 

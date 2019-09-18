@@ -1,3 +1,4 @@
+using System.ComponentModel.Design;
 // Url:https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree
 
 /*
@@ -30,7 +31,25 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem108 {
         }
 
         public TreeNode SortedArrayToBST (int[] nums) {
-            return null;
+            if (nums == null || nums.Length == 0) {
+                return null;
+            }
+
+            return SortedArrayToBSTHelper (nums, 0, nums.Length - 1);
+        }
+
+        private TreeNode SortedArrayToBSTHelper (int[] nums, int low, int high) {
+            if (low > high) {
+                return null;
+            }
+
+            int mid = low + (high - low) / 2;
+
+            TreeNode node = new TreeNode (nums[mid]);
+            node.left = SortedArrayToBSTHelper (nums, low, mid - 1);
+            node.right = SortedArrayToBSTHelper (nums, mid + 1, high);
+
+            return node;
         }
     }
 
