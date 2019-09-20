@@ -36,11 +36,22 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.problem326 {
     public class Solution {
         public void Init () {
-            Console.WriteLine ();
+            Console.WriteLine (IsPowerOfThree (27));
+            Console.WriteLine (IsPowerOfThree (0));
+            Console.WriteLine (IsPowerOfThree (9));
+            Console.WriteLine (IsPowerOfThree (45));
         }
 
         public bool IsPowerOfThree (int n) {
-            return false;
+            if (n < 1) {
+                return false;
+            }
+
+            while (n % 3 == 0) {
+                n /= 3;
+            }
+
+            return n == 1;
         }
     }
 }

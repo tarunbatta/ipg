@@ -18,11 +18,40 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.problem204 {
     public class Solution {
         public void Init () {
-            Console.WriteLine ();
+            Console.WriteLine (CountPrimes (0));
+            Console.WriteLine (CountPrimes (3));
+            Console.WriteLine (CountPrimes (4));
+            Console.WriteLine (CountPrimes (10));
         }
 
         public int CountPrimes (int n) {
-            return 0;
+            int result = 0;
+
+            if (n < 2) {
+                return result;
+            }
+
+            for (int i = 2; i < n; i++) {
+                if (IsPrime (i)) {
+                    result++;
+                }
+            }
+
+            return result;
+        }
+
+        private bool IsPrime (int n) {
+            if (n < 2) {
+                return false;
+            }
+
+            for (int i = 2; i * i <= n; i++) {
+                if (n % i == 0) {
+                    return false;
+                }
+            }
+
+            return true;
         }
     }
 }
