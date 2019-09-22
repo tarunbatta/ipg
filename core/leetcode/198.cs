@@ -27,11 +27,29 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.problem198 {
     public class Solution {
         public void Init () {
-            Console.WriteLine ();
+            Console.WriteLine (Rob (null));
+            Console.WriteLine (Rob (new int[] { }));
+            Console.WriteLine (Rob (new int[] { 1, 2, 3, 1 }));
+            Console.WriteLine (Rob (new int[] { 2, 7, 9, 3, 1 }));
         }
 
         public int Rob (int[] nums) {
-            return 0;
+            if (nums == null || nums.Length == 0) {
+                return 0;
+            }
+
+            int a = 0;
+            int b = 0;
+
+            for (int i = 0; i < nums.Length; i++) {
+                if (i % 2 == 0) {
+                    a = Math.Max (a + nums[i], b);
+                } else {
+                    b = Math.Max (a, b + nums[i]);
+                }
+            }
+
+            return Math.Max (a, b);
         }
     }
 }

@@ -30,11 +30,53 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.problem121 {
     public class Solution {
         public void Init () {
-            Console.WriteLine ();
+            Console.WriteLine (MaxProfit_a (null));
+            Console.WriteLine (MaxProfit_a (new int[] { }));
+            Console.WriteLine (MaxProfit_a (new int[] { 7, 1, 5, 3, 6, 4 }));
+            Console.WriteLine (MaxProfit_a (new int[] { 7, 6, 4, 3, 1 }));
+
+            Console.WriteLine (MaxProfit_b (null));
+            Console.WriteLine (MaxProfit_b (new int[] { }));
+            Console.WriteLine (MaxProfit_b (new int[] { 7, 1, 5, 3, 6, 4 }));
+            Console.WriteLine (MaxProfit_b (new int[] { 7, 6, 4, 3, 1 }));
         }
 
-        public int MaxProfit (int[] prices) {
-            return 0;
+        public int MaxProfit_a (int[] prices) {
+            int result = 0;
+
+            if (prices == null || prices.Length == 0) {
+                return result;
+            }
+
+            for (int i = 0; i < prices.Length - 1; i++) {
+                for (int j = i + 1; j < prices.Length; j++) {
+                    int profit = prices[j] - prices[i];
+                    if (profit > result) {
+                        result = profit;
+                    }
+                }
+            }
+
+            return result;
+        }
+
+        public int MaxProfit_b (int[] prices) {
+            if (prices == null || prices.Length == 0) {
+                return 0;
+            }
+
+            int minprice = Int32.MaxValue;
+            int maxprofit = 0;
+
+            for (int i = 0; i < prices.Length; i++) {
+                if (prices[i] < minprice) {
+                    minprice = prices[i];
+                } else if (prices[i] - minprice > maxprofit) {
+                    maxprofit = prices[i] - minprice;
+                }
+            }
+
+            return maxprofit;
         }
     }
 }

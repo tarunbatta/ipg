@@ -46,15 +46,42 @@ Output: true
 */
 
 using System;
+using System.Collections.Generic;
 
 namespace InterviewPreperationGuide.Core.LeetCode.problem20 {
     public class Solution {
         public void Init () {
-            Console.WriteLine ();
+            Console.WriteLine (IsValid (null));
+            Console.WriteLine (IsValid (string.Empty));
+            Console.WriteLine (IsValid ("()"));
+            Console.WriteLine (IsValid ("()[]{}"));
+            Console.WriteLine (IsValid ("(]"));
+            Console.WriteLine (IsValid ("([)]"));
+            Console.WriteLine (IsValid ("{[]}"));
         }
 
         public bool IsValid (string s) {
-            return false;
+            if (string.IsNullOrEmpty (s)) {
+                return true;
+            }
+
+            bool result = false;
+            Stack<char> stack = new Stack<char> ();
+
+            for (int i = 0; i < s.Length; i++) {
+                if (stack.Count != 0 &&
+                    ((stack.Peek () == '(' && s[i] == ')') ||
+                        (stack.Peek () == '[' && s[i] == ']') ||
+                        (stack.Peek () == '{' && s[i] == '}'))) {
+                    stack.Pop ();
+                } else {
+                    stack.Push (s[i]);
+                }
+            }
+
+            result = stack.Count == 0 ? true : false;
+
+            return result;
         }
     }
 }

@@ -5,15 +5,10 @@
 Easy
 
 Design a stack that supports push, pop, top, and retrieving the minimum element in constant time.
-
-
 	push(x) -- Push element x onto stack.
 	pop() -- Removes the element on top of the stack.
 	top() -- Get the top element.
 	getMin() -- Retrieve the minimum element in the stack.
-
-
- 
 
 Example:
 
@@ -24,13 +19,11 @@ minStack.push(-3);
 minStack.getMin();   --> Returns -3.
 minStack.pop();
 minStack.top();      --> Returns 0.
-minStack.getMin();   --> Returns -2.
-
-
- 
+minStack.getMin();   --> Returns -2. 
 */
 
 using System;
+using System.Collections.Generic;
 
 namespace InterviewPreperationGuide.Core.LeetCode.problem155 {
     public class Solution {
@@ -44,24 +37,38 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem155 {
     }
 
     public class MinStack {
-        public MinStack () {
+        private Stack<int> stack;
+        private Stack<int> min;
 
+        public MinStack () {
+            stack = new Stack<int> ();
+            min = new Stack<int> ();
         }
 
         public void Push (int x) {
+            stack.Push (x);
 
+            if (min.Count == 0) {
+                min.Push (x);
+            } else if (min.Peek () >= x) {
+                min.Push (x);
+            }
         }
 
         public void Pop () {
+            int peek = stack.Pop ();
 
+            if (min.Count != 0 && peek == min.Peek ()) {
+                min.Pop ();
+            }
         }
 
         public int Top () {
-            return 0;
+            return stack.Peek ();
         }
 
         public int GetMin () {
-            return 0;
+            return min.Peek ();
         }
     }
 }

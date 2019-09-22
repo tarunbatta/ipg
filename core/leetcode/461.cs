@@ -11,7 +11,6 @@ Given two integers x and y, calculate the Hamming distance.
 Note:
 0 ≤ x, y < 231.
 
-
 Example:
 Input: x = 1, y = 4
 
@@ -30,11 +29,18 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.problem461 {
     public class Solution {
         public void Init () {
-            Console.WriteLine ();
+            Console.WriteLine (HammingDistance (1, 4));
         }
 
         public int HammingDistance (int x, int y) {
-            return 0;
+            int xor = x ^ y;
+            int result = 0;
+
+            for (int i = 0; i < 32; i++) {
+                result += (xor >> i) & 1;
+            }
+
+            return result;
         }
     }
 }

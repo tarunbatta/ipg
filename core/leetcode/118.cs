@@ -28,11 +28,28 @@ using System.Collections.Generic;
 namespace InterviewPreperationGuide.Core.LeetCode.problem118 {
     public class Solution {
         public void Init () {
-            Console.WriteLine ();
+            Console.WriteLine (Generate (0));
+            Console.WriteLine (Generate (5));
         }
 
         public IList<IList<int>> Generate (int numRows) {
-            return null;
+            IList<IList<int>> result = new List<IList<int>> ();
+
+            for (int i = 1; i <= numRows; i++) {
+                List<int> temp = new List<int> ();
+
+                for (int j = 1; j <= i; j++) {
+                    if (j == 1 || j == i) {
+                        temp.Add (1);
+                    } else {
+                        temp.Add (result[i - 2][j - 2] + result[i - 2][j - 1]);
+                    }
+                }
+
+                result.Add (temp);
+            }
+
+            return result;
         }
     }
 }

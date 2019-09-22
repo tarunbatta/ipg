@@ -23,27 +23,54 @@ solution.shuffle();
 */
 
 using System;
+using System.Collections.Generic;
 
 namespace InterviewPreperationGuide.Core.LeetCode.problem384 {
     public class Solution {
         public void Init () {
-            Solution obj = new Solution (null);
-            int[] param_1 = obj.Reset ();
-            int[] param_2 = obj.Shuffle ();
+            Solution obj = new Solution (new int[] { 1, 2, 3 });
+            int[] param_1 = obj.Shuffle ();
+            int[] param_2 = obj.Reset ();
+            int[] param_3 = obj.Shuffle ();
+        }
+
+        private int[] array;
+        private int[] original;
+        private Random rand = new Random ();
+
+        private List<int> getArrayCopy () {
+            List<int> asList = new List<int> ();
+
+            for (int i = 0; i < array.Length; i++) {
+                asList.Add (array[i]);
+            }
+            
+            return asList;
         }
 
         public Solution (int[] nums) {
-
+            array = nums;
+            original = (int[]) nums.Clone ();
         }
 
         // Resets the array to its original configuration and return it
         public int[] Reset () {
-            return null;
+            array = original;
+            original = (int[]) original.Clone ();
+            return array;
         }
 
         // Returns a random shuffling of the array
         public int[] Shuffle () {
-            return null;
+            List<int> aux = getArrayCopy ();
+
+            for (int i = 0; i < array.Length; i++) {
+                int removeIdx = rand.Next (aux.Count);
+                array[i] = aux[removeIdx];
+                aux.Remove (removeIdx);
+            }
+
+            return array;
         }
     }
 }
