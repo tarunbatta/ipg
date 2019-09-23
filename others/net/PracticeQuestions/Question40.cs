@@ -47,7 +47,7 @@ namespace InterviewPreperationGuide.App.PracticeQuestions {
                         for (int j = 0; j < cols; j++) {
                             if (matrix[i, j] == 1 && !isVisited[i, j]) {
                                 result++;
-                                DFS (matrix, isVisited, i, j);
+                                BFS (matrix, isVisited, i, j);
                             }
                         }
                     }
@@ -57,7 +57,7 @@ namespace InterviewPreperationGuide.App.PracticeQuestions {
             return result;
         }
 
-        public static void DFS (int[, ] matrix, bool[, ] isVisited, int i, int j) {
+        public static void BFS (int[, ] matrix, bool[, ] isVisited, int i, int j) {
             int rows = matrix.GetLength (0);
             int cols = matrix.GetLength (1);
 
