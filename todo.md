@@ -1,33 +1,33 @@
 # TODO
 
-k 937 -> Reorder Data in Log Files ⭐⭐⭐ [Experienced]
- -> Optimal Utilization ⭐⭐⭐ [Experienced]
-k 1167 -> Min Cost to Connect Ropes / Min Time to Merge Files ⭐⭐⭐[Experienced]
-k  -> Treasure Island / Min Distance to Remove the Obstacle (BFS) ⭐⭐⭐ [Experienced]
- -> Treasure Island II (Multi-source BFS)
- -> Find Pair With Given Sum (a.k.a. Sort Center) ⭐ [Experienced]
- -> Copy List with Random Pointer ⭐⭐ [New Grad]
- -> Merge Two Sorted Lists ⭐⭐ [New Grad]
- -> Subtree of Another Tree ⭐⭐ [New Grad]
- -> Search a 2D Matrix II ⭐⭐ [New Grad]
- -> Critical Connections ⭐⭐ [New Grad]
- -> Favorite Genres ⭐⭐ [New Grad]
- -> Two Sum - Unique Pairs ⭐⭐ [New Grad]
- -> Spiral Matrix ⭐ [New Grad]
- -> Count substrings with exactly K distinct chars ⭐ [Intern]
- -> Path With Maximum Score ⭐ [Intern]
- -> Longest Palindromic Substring ⭐ [Intern]
- -> Movies on Flight ⭐ [Experienced]
- -> Distance Between Nodes in BST
- -> Most Common Word ⭐ [Intern]
- -> K Closest Points to Origin
- -> Find Pair With Max Appeal Sum
- -> Min Cost to Connect All Nodes (a.k.a. Min Cost to Add New Roads)
- -> Min Cost to Repair Edges (MST)
- -> Prison Cells After N Days
- -> Substrings of size K with K distinct chars
- -> Partition Labels
- -> Subtree with Maximum Average
+Reorder Data in Log Files ⭐⭐⭐ [Experienced]
+Optimal Utilization ⭐⭐⭐ [Experienced]
+Min Cost to Connect Ropes / Min Time to Merge Files ⭐⭐⭐[Experienced]
+Treasure Island / Min Distance to Remove the Obstacle (BFS) ⭐⭐⭐ [Experienced]
+Treasure Island II (Multi-source BFS)
+Find Pair With Given Sum (a.k.a. Sort Center) ⭐ [Experienced]
+Copy List with Random Pointer ⭐⭐ [New Grad]
+Merge Two Sorted Lists ⭐⭐ [New Grad]
+Subtree of Another Tree ⭐⭐ [New Grad]
+Search a 2D Matrix II ⭐⭐ [New Grad]
+Critical Connections ⭐⭐ [New Grad]
+Favorite Genres ⭐⭐ [New Grad]
+Two Sum - Unique Pairs ⭐⭐ [New Grad]
+Spiral Matrix ⭐ [New Grad]
+Count substrings with exactly K distinct chars ⭐ [Intern]
+Path With Maximum Score ⭐ [Intern]
+Longest Palindromic Substring ⭐ [Intern]
+Movies on Flight ⭐ [Experienced]
+Distance Between Nodes in BST
+Most Common Word ⭐ [Intern]
+K Closest Points to Origin
+Find Pair With Max Appeal Sum
+Min Cost to Connect All Nodes (a.k.a. Min Cost to Add New Roads)
+Min Cost to Repair Edges (MST)
+Prison Cells After N Days
+Substrings of size K with K distinct chars
+Partition Labels
+Subtree with Maximum Average
 
 paranthesis
 create bst
