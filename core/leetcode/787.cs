@@ -42,11 +42,22 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.problem787 {
 	public class Solution {
 		public void Init () {
-
+			Console.WriteLine (FindCheapestPrice (3, null, 0, 2, 1));
+			Console.WriteLine (FindCheapestPrice (3, new int[][] { }, 0, 2, 1));
+			Console.WriteLine (FindCheapestPrice (3, new int[][] { new int[] { 0, 1, 100 }, new int[] { 1, 2, 100 }, new int[] { 0, 2, 500 } }, 0, 2, 1));
+			Console.WriteLine (FindCheapestPrice (3, new int[][] { new int[] { 0, 1, 100 }, new int[] { 1, 2, 100 }, new int[] { 0, 2, 500 } }, 0, 2, 0));
 		}
 
 		public int FindCheapestPrice (int n, int[][] flights, int src, int dst, int K) {
-			return 0;
+			int result = -1;
+
+			if (flights == null || flights.Length == 0 || flights[1].Length == 0) {
+				return result;
+			}
+
+
+
+			return result;
 		}
 	}
 }

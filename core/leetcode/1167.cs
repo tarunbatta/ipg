@@ -32,37 +32,44 @@ Output: 20
 
 using System;
 using System.Collections.Generic;
-using System.Linq;
 
 namespace InterviewPreperationGuide.Core.LeetCode.problem1167 {
     public class Solution {
         public void Init () {
-
+            Console.WriteLine (connectRopes (null));
+            Console.WriteLine (connectRopes (new int[] { }));
+            Console.WriteLine (connectRopes (new int[] { 20, 4, 8, 2 }));
+            Console.WriteLine (connectRopes (new int[] { 1, 2, 5, 10, 35, 89 }));
+            Console.WriteLine (connectRopes (new int[] { 2, 2, 3, 3 }));
         }
+
         public int connectRopes (int[] ropes) {
             if (ropes == null || ropes.Length == 0) {
                 return 0;
             }
 
-            int result = 0;
-            SortedSet<int> queue = new SortedSet<int> ();
+            List<int> priorityQueue = new List<int> ();
 
             foreach (int rope in ropes) {
-                queue.Add (rope);
+                priorityQueue.Add (rope);
             }
 
-            while (queue.Count > 1) {
-                int rope1 = queue.First ();
-                queue.Remove (rope1);
-                int rope2 = queue.First ();
-                queue.Remove (rope1);
+            priorityQueue.Sort ();
+
+            int result = 0;
+
+            while (priorityQueue.Count > 1) {
+                int rope1 = priorityQueue.First ();
+                priorityQueue.Remove (priorityQueue.First ());
+                int rope2 = priorityQueue.First ();
+                priorityQueue.Remove (priorityQueue.First ());
 
                 int newRope = rope1 + rope2;
                 result += newRope;
-                queue.Add (newRope);
-            }
+                priorityQueue.Add (newRope);
 
-            result += queue.First ();
+                priorityQueue.Sort ();
+            }
 
             return result;
         }
