@@ -44,7 +44,11 @@ using System.Collections.Generic;
 namespace InterviewPreperationGuide.Core.LeetCode.problem830 {
     public class Solution {
         public void Init () {
-            Console.WriteLine ();
+            Console.WriteLine (LargeGroupPositions(null));
+            Console.WriteLine (LargeGroupPositions(string.Empty));
+            Console.WriteLine (LargeGroupPositions("abbxxxxzzy"));
+            Console.WriteLine (LargeGroupPositions("abc"));
+            Console.WriteLine (LargeGroupPositions("abcdddeeeeaabbbcd"));
         }
 
         public IList<IList<int>> LargeGroupPositions (string S) {
