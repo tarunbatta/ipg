@@ -1,5 +1,18 @@
 # TODO
 
+
+https://leetcode.com/explore/interview/card/top-interview-questions-medium/103/array-and-strings/776/
+https://leetcode.com/problems/positions-of-large-groups/
+https://leetcode.com/problems/task-scheduler/
+https://leetcode.com/problems/maximal-rectangle/
+https://leetcode.com/problems/longest-palindromic-substring/
+https://leetcode.com/problems/group-anagrams/
+https://leetcode.com/problems/longest-valid-parentheses/
+https://leetcode.com/problems/delete-node-in-a-linked-list
+https://leetcode.com/problems/knight-probability-in-chessboard
+https://leetcode.com/problems/insert-delete-getrandom-o1-duplicates-allowed
+
+
 Reorder Data in Log Files ⭐⭐⭐ [Experienced]
 Optimal Utilization ⭐⭐⭐ [Experienced]
 Min Cost to Connect Ropes / Min Time to Merge Files ⭐⭐⭐[Experienced]
