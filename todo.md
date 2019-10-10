@@ -1,17 +1,14 @@
 # TODO
 
+* Manacher
 
-https://leetcode.com/explore/interview/card/top-interview-questions-medium/103/array-and-strings/776/
-https://leetcode.com/problems/positions-of-large-groups/
-https://leetcode.com/problems/task-scheduler/
-https://leetcode.com/problems/maximal-rectangle/
-https://leetcode.com/problems/longest-palindromic-substring/
-https://leetcode.com/problems/group-anagrams/
-https://leetcode.com/problems/longest-valid-parentheses/
-https://leetcode.com/problems/delete-node-in-a-linked-list
-https://leetcode.com/problems/knight-probability-in-chessboard
-https://leetcode.com/problems/insert-delete-getrandom-o1-duplicates-allowed
-
+<https://leetcode.com/explore/interview/card/top-interview-questions-medium/103/array-and-strings/776/>
+<https://leetcode.com/problems/task-scheduler/>
+<https://leetcode.com/problems/maximal-rectangle/>
+<https://leetcode.com/problems/group-anagrams/>
+<https://leetcode.com/problems/longest-valid-parentheses/>
+<https://leetcode.com/problems/knight-probability-in-chessboard/>
+<https://leetcode.com/problems/insert-delete-getrandom-o1-duplicates-allowed/>
 
 Reorder Data in Log Files ⭐⭐⭐ [Experienced]
 Optimal Utilization ⭐⭐⭐ [Experienced]
@@ -48,8 +45,8 @@ minimum spannign tree
 K’th Smallest/Largest Element in Unsorted Array
 
 DP
-https://leetcode.com/problems/word-break/
-https://leetcode.com/problems/longest-common-subsequence/
+<https://leetcode.com/problems/word-break/>
+<https://leetcode.com/problems/longest-common-subsequence/>
 
 ## Ebay
 
@@ -151,8 +148,8 @@ Q6: Topological sorting of directed acyclic graph.
 
 Find the closest node in BST
 Finding two numbers in an array summing up to a given input
-1) Find H index (Leetcode question)
-2) Convert Sorted Linked List to Binary Search Tree
+   Find H index (Leetcode question)
+   Convert Sorted Linked List to Binary Search Tree
 How to find a number which exist odd times in a list
 Maximum of all subarrays of size k (Added a O(n) method)
 Write a program to check whether it is a valid binary tree or not.
@@ -214,39 +211,39 @@ Find Excel column name from a given column number
   * Implement both bottom up and top down solutions for both of the above
 
 1. Returns the largest value in an array of non-negative integers
-1. Create Single Linked list (SLL)
-1. Create Double Linked List (DLL)
-1. Create Circular Linked list (using single) (CSLL)
-1. Create Circular Linked list (using double) (CDLL)
-1. Insert node in front of SLL
-1. Insert node in end of SLL
-1. Traversing SLL
-1. Delete element from SLL
-1. Delete all nodes from SLL
-1. Insert node at random location in SLL
-1. Create Stack using LL
-1. Create Stack using dynamic array
-1. Delete and InsertAfter in SLL with Head & Tail
-1. Find mth to last element in SLL
-1. List flattening
-1. List un-flattening
-1. Check if list is Cyclic or Acyclic
-1. Create Generic Tree
-1. Create Binary Tree
-1. Create Binary Search Tree
-1. Find a node in Tree
-1. Create Heap
-1. Tree search using breadth first search (BFS)
-1. Tree search using depth first search (DFS)
-1. Pre-Order Traversal on tree
-1. In-Order Traversal on tree
-1. Post-Order Traversal on tree
-1. Height of Tree
-1. PreOrder without recursion
-1. Lowest Common Ancestor
-1. Heapify BT
-1. Unbalanced BST
-1. Clone Linked list with next and random pointer. Return head of cloned list
+2. Create Single Linked list (SLL)
+3. Create Double Linked List (DLL)
+4. Create Circular Linked list (using single) (CSLL)
+5. Create Circular Linked list (using double) (CDLL)
+6. Insert node in front of SLL
+7. Insert node in end of SLL
+8. Traversing SLL
+9. Delete element from SLL
+10. Delete all nodes from SLL
+11. Insert node at random location in SLL
+12. Create Stack using LL
+13. Create Stack using dynamic array
+14. Delete and InsertAfter in SLL with Head & Tail
+15. Find mth to last element in SLL
+16. List flattening
+17. List un-flattening
+18. Check if list is Cyclic or Acyclic
+19. Create Generic Tree
+20. Create Binary Tree
+21. Create Binary Search Tree
+22. Find a node in Tree
+23. Create Heap
+24. Tree search using breadth first search (BFS)
+25. Tree search using depth first search (DFS)
+26. Pre-Order Traversal on tree
+27. In-Order Traversal on tree
+28. Post-Order Traversal on tree
+29. Height of Tree
+30. PreOrder without recursion
+31. Lowest Common Ancestor
+32. Heapify BT
+33. Unbalanced BST
+34. Clone Linked list with next and random pointer. Return head of cloned list
 
 * <http://www.programcreek.com/2015/04/longest-common-substring-java/>
 * <http://www.geeksforgeeks.org/merge-sort-for-linked-list/>
