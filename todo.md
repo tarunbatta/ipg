@@ -10,6 +10,15 @@
 <https://leetcode.com/problems/knight-probability-in-chessboard/>
 <https://leetcode.com/problems/insert-delete-getrandom-o1-duplicates-allowed/>
 
+<https://leetcode.com/problems/clone-graph/>
+<https://leetcode.com/problems/course-schedule/>
+<https://leetcode.com/problems/number-of-islands/>
+<https://leetcode.com/problems/pacific-atlantic-water-flow/>
+
+<https://leetcode.com/problems/unique-morse-code-words/>
+<https://leetcode.com/problems/maximum-length-of-pair-chain/>
+<https://leetcode.com/problems/profitable-schemes/>
+
 Reorder Data in Log Files ⭐⭐⭐ [Experienced]
 Optimal Utilization ⭐⭐⭐ [Experienced]
 Min Cost to Connect Ropes / Min Time to Merge Files ⭐⭐⭐[Experienced]
