@@ -10,5 +10,10 @@ Medium
 using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.problem469 {
-    // {{ MISSING CODE }}
+        public class Solution {
+        public void Init () {
+
+        }
+
+    }
 }

@@ -2,22 +2,22 @@
 
 * Manacher
 
+<https://leetcode.com/problems/maximal-rectangle/> 85
+<https://leetcode.com/problems/number-of-islands/> 200
+
 <https://leetcode.com/explore/interview/card/top-interview-questions-medium/103/array-and-strings/776/>
-<https://leetcode.com/problems/task-scheduler/>
-<https://leetcode.com/problems/maximal-rectangle/>
-<https://leetcode.com/problems/group-anagrams/>
-<https://leetcode.com/problems/longest-valid-parentheses/>
-<https://leetcode.com/problems/knight-probability-in-chessboard/>
-<https://leetcode.com/problems/insert-delete-getrandom-o1-duplicates-allowed/>
+<https://leetcode.com/problems/task-scheduler/> 621
+<https://leetcode.com/problems/group-anagrams/> 49
+<https://leetcode.com/problems/longest-valid-parentheses/> 32
+<https://leetcode.com/problems/knight-probability-in-chessboard/> 688
+<https://leetcode.com/problems/insert-delete-getrandom-o1-duplicates-allowed/> 381
 
-<https://leetcode.com/problems/clone-graph/>
-<https://leetcode.com/problems/course-schedule/>
-<https://leetcode.com/problems/number-of-islands/>
-<https://leetcode.com/problems/pacific-atlantic-water-flow/>
-
-<https://leetcode.com/problems/unique-morse-code-words/>
-<https://leetcode.com/problems/maximum-length-of-pair-chain/>
-<https://leetcode.com/problems/profitable-schemes/>
+<https://leetcode.com/problems/clone-graph/> 133
+<https://leetcode.com/problems/course-schedule/> 207
+<https://leetcode.com/problems/pacific-atlantic-water-flow/> 417
+<https://leetcode.com/problems/unique-morse-code-words/> 804
+<https://leetcode.com/problems/maximum-length-of-pair-chain/> 646
+<https://leetcode.com/problems/profitable-schemes/> 879
 
 Reorder Data in Log Files ⭐⭐⭐ [Experienced]
 Optimal Utilization ⭐⭐⭐ [Experienced]

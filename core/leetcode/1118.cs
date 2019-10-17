@@ -10,5 +10,10 @@ Easy
 using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.problem1118 {
-    // {{ MISSING CODE }}
+        public class Solution {
+        public void Init () {
+
+        }
+
+    }
 }

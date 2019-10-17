@@ -10,5 +10,10 @@ Hard
 using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.problem269 {
-    // {{ MISSING CODE }}
+        public class Solution {
+        public void Init () {
+
+        }
+
+    }
 }
