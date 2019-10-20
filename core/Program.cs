@@ -7,7 +7,7 @@ namespace InterviewPreperationGuide.Core {
             //Algorithms.Search.Dijkstra.Init ();
             //Algorithms.Others.LongestCommonSubstring.Init();
 
-            var lc = new LeetCode.problem1167.Solution ();
+            var lc = new LeetCode.problem96.Solution ();
             lc.Init ();
         }
     }

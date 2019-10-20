@@ -56,7 +56,7 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem236 {
                 return null;
             }
 
-            if (root == p || root == q) {
+            if (root.val == p.val || root.val == q.val) {
                 return root;
             }
 
@@ -65,10 +65,6 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem236 {
 
             if (left != null && right != null) {
                 return root;
-            }
-
-            if (left == null && right == null) {
-                return null;
             }
 
             return (left != null) ? left : right;
