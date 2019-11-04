@@ -106,12 +106,15 @@
 * data could be either build-in type or user defined type
 * Multi dimensional Array
   * has the same number of elements in each row
+
   ```csharp
   int sales[,] = new int[12,30];
   ```
+
 * Jagged Array
   * each row is an array of arrays
   * could have different number of elements in each row.
+
   ```csharp
   int days[][] = new int[12][];
   ```
@@ -295,6 +298,18 @@ public static string ConvertIntToBits (int val, int bitSize) {
 ```
 
 ---
+
+## Dynamic Programming
+
+It has the following properties,
+
+1. Overlapping Subproblems
+1. Optimal Substructure
+
+It can be solved by the following approaches,
+
+1. Top-down approach
+1. Bottom-up approach
 
 ## Regular Expressions
 
