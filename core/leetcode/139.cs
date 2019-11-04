@@ -48,16 +48,24 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem139 {
         }
 
         public bool WordBreak_a (string s, IList<string> wordDict) {
-            return WordBreakHelper (s, wordDict, 0, new List<bool?> (s.Length));
+            List<bool?> memo = new List<bool?> (s.Length);
+
+            for (int i = 0; i < s.Length; i++) {
+                memo.Add (false);
+            }
+
+            return WordBreakHelper (s, wordDict, 0, memo);
         }
 
         private bool WordBreakHelper (String s, IList<String> wordDict, int start, List<bool?> memo) {
             if (start == s.Length) {
                 return true;
             }
+
             if (memo[start] != null) {
                 return (bool) memo[start];
             }
+
             for (int end = start + 1; end <= s.Length; end++) {
                 if (wordDict.Contains (s.Substring (start, end)) && WordBreakHelper (s, wordDict, end, memo)) {
                     memo[start] = true;
@@ -75,7 +83,9 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem139 {
 
             for (int i = 1; i <= s.Length; i++) {
                 for (int j = 0; j < i; j++) {
-                    if (dp[j] && wordDict.Contains (s.Substring (j, i))) {
+                    string str = s.Substring (j, i - j);
+
+                    if (dp[j] && wordDict.Contains (str)) {
                         dp[i] = true;
                         break;
                     }
