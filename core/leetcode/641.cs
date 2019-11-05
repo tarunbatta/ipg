@@ -8,7 +8,6 @@ Design your implementation of the circular double-ended queue (deque).
 
 Your implementation should support following operations:
 
-
 	MyCircularDeque(k): Constructor, set the size of the deque to be k.
 	insertFront(): Adds an item at the front of Deque. Return true if the operation is successful.
 	insertLast(): Adds an item at the rear of Deque. Return true if the operation is successful.
@@ -18,9 +17,6 @@ Your implementation should support following operations:
 	getRear(): Gets the last item from Deque. If the deque is empty, return -1.
 	isEmpty(): Checks whether Deque is empty or not. 
 	isFull(): Checks whether Deque is full or not.
-
-
- 
 
 Example:
 
@@ -35,12 +31,7 @@ circularDeque.deleteLast();			// return true
 circularDeque.insertFront(4);			// return true
 circularDeque.getFront();			// return 4
 
-
- 
-
 Note:
-
-
 	All values will be in the range of [0, 1000].
 	The number of operations will be in the range of [1, 1000].
 	Please do not use the built-in Deque library.

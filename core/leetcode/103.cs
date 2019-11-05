@@ -15,8 +15,6 @@ Given binary tree [3,9,20,null,null,15,7],
     /  \
    15   7
 
-
-
 return its zigzag level order traversal as:
 [
   [3],
@@ -35,7 +33,43 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem103 {
         }
 
         public IList<IList<int>> ZigzagLevelOrder (TreeNode root) {
-            return null;
+            IList<IList<int>> result = new List<IList<int>> ();
+
+            if (root == null) {
+                return result;
+            }            
+
+            Queue<TreeNode> q = new Queue<TreeNode> ();
+            q.Enqueue (root);
+            int size = 1;
+            bool order = true;
+
+            while (q.Count > 0) {
+                List<int> l = new List<int> ();
+
+                for (int i = 0; i < size; i++) {
+                    TreeNode n = q.Dequeue ();
+                    l.Add (n.val);
+
+                    if (n.left != null) {
+                        q.Enqueue (n.left);
+                    }
+
+                    if (n.right != null) {
+                        q.Enqueue (n.right);
+                    }
+                }
+
+                if (!order) {
+                    l.Reverse ();
+                }
+
+                size = q.Count;
+                result.Add (l);
+                order = !order;
+            }
+
+            return result;
         }
     }
 
