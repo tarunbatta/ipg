@@ -64,13 +64,12 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem124 {
                 return 0;
             }
 
-            int left = MaxPathSumUtility (root.left);
-            int right = MaxPathSumUtility (root.right);
+            int left = Math.Max (MaxPathSumUtility (root.left), 0);
+            int right = Math.Max (MaxPathSumUtility (root.right), 0);
 
-            var pathSum = Math.Max (Math.Max (left, right) + root.val, root.val);
-            result = Math.Max (result, Math.Max (pathSum, left + right + root.val));
+            result = Math.Max (result, root.val + left + right);
 
-            return pathSum;
+            return root.val + Math.Max (left, right);
         }
     }
 
