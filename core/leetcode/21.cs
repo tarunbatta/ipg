@@ -59,6 +59,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem21 {
                     node.next = l2;
                     l2 = l2.next;
                 }
+
+                node = node.next;
             }
 
             if (l1 != null) {

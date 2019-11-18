@@ -39,64 +39,67 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem23 {
             lists[2] = l3;
 
             ListNode result = MergeKLists (lists);
-
-            while (result.next != null) {
-                Console.WriteLine (result.val);
-                result = result.next;
-            }
         }
 
         public ListNode MergeKLists (ListNode[] lists) {
-            // if (lists == null || (lists != null && lists.Length == 0)) {
-            //     return null;
-            // }
+            if (lists == null || lists.Length == 0) {
+                return null;
+            }
 
-            // List<KeyValuePair<int, ListNode>> sortedList = new List<KeyValuePair<int, ListNode>> ();
-
-            // foreach (var item in lists) {
-            //     if (item != null) {
-            //         KeyValuePair<int, ListNode> kv = new KeyValuePair<int, ListNode> (item.val, item);
-            //         int index = sortedList.IndexOf (kv);
-
-            //         if (index >= 0) {
-            //             sortedList[index] = kv;
-            //         } else {
-            //             sortedList.Add (kv);
-            //         }
-            //     }
-            // }
-
-            // ListNode head = null;
-            // ListNode result = null;
-
-            // while (sortedList.Count > 0) {
-            //     sortedList = sortedList.OrderBy (x => x.Key).ToList ();
-
-            //     var node = sortedList[0];
-            //     var first = sortedList[0].Value;
-            //     sortedList.Remove (node);
-
-            //     if (first.next != null) {
-            //         sortedList.Add (new KeyValuePair<int, ListNode> (first.next.val, first.next));
-            //     }
-
-            //     if (result == null) {
-            //         first.next = null;
-            //         result = first;
-            //         head = result;
-            //     } else {
-            //         result.next = first;
-            //         first.next = null;
-            //         result = first;
-            //     }
-            // }
-
-            // return head;
-
-            return null;
+            return Helper (lists, 0, lists.Length - 1);
         }
 
-        private class KeyValuePair<T1, T2> { }
+        private ListNode Helper (ListNode[] lists, int left, int right) {
+            if (left == right) {
+                return lists[left];
+            }
+
+            int mid = left + (right - left) / 2;
+
+            var leftListNode = Helper (lists, left, mid);
+            var rightListNode = Helper (lists, mid + 1, right);
+
+            return MergeTwoLists (leftListNode, rightListNode);
+        }
+
+        private ListNode MergeTwoLists (ListNode l1, ListNode l2) {
+            if (l1 == null && l2 == null) {
+                return null;
+            }
+
+            if (l1 == null) {
+                return l2;
+            }
+
+            if (l2 == null) {
+                return l1;
+            }
+
+            ListNode head = new ListNode (0);
+            ListNode node = head;
+
+            while (l1 != null && l2 != null) {
+                if (l1.val < l2.val) {
+                    node.next = l1;
+                    l1 = l1.next;
+                } else {
+                    node.next = l2;
+                    l2 = l2.next;
+                }
+
+                node = node.next;
+            }
+
+            if (l1 != null) {
+                node.next = l1;
+            }
+
+            if (l2 != null) {
+                node.next = l2;
+            }
+
+            return head.next;
+        }
     }
 
     public class ListNode {
