@@ -28,11 +28,39 @@ using System;
 namespace InterviewPreperationGuide.Core.LeetCode.problem75 {
     public class Solution {
         public void Init () {
-            Console.WriteLine ();
+            SortColors (null);
+            SortColors (new int[] { 2, 0, 2, 1, 1, 0 });
         }
 
         public void SortColors (int[] nums) {
+            if (nums == null || nums.Length < 2) {
+                return;
+            }
 
+            int p1 = 0;
+            int p2 = nums.Length - 1;
+            int current = 0;
+
+            while (current <= p2) {
+                if (nums[current] == 0) {
+                    Swap (nums, p1, current);
+                    p1++;
+                    current++;
+                } else if (nums[current] == 2) {
+                    Swap (nums, current, p2);
+                    p2--;
+                } else {
+                    current++;
+                }
+            }
+        }
+
+        private void Swap (int[] nums, int i, int j) {
+            if (i != j) {
+                int temp = nums[i];
+                nums[i] = nums[j];
+                nums[j] = temp;
+            }
         }
     }
 }

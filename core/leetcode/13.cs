@@ -48,6 +48,7 @@ Explanation: M = 1000, CM = 900, XC = 90 and IV = 4.
 */
 
 using System;
+using System.Collections;
 using System.Collections.Generic;
 
 namespace InterviewPreperationGuide.Core.LeetCode.problem13 {
@@ -60,33 +61,35 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem13 {
             Console.WriteLine (RomanToInt ("MDCIL"));
         }
 
-        public static int RomanToInt (string s) {
+        public int RomanToInt (string s) {
             int result = 0;
 
-            if (!string.IsNullOrEmpty (s)) {
-                Dictionary<char, int> dict = new Dictionary<char, int> ();
-                dict.Add ('I', 1);
-                dict.Add ('V', 5);
-                dict.Add ('X', 10);
-                dict.Add ('L', 50);
-                dict.Add ('C', 100);
-                dict.Add ('D', 500);
-                dict.Add ('M', 1000);
+            if (string.IsNullOrEmpty (s)) {
+                return result;
+            }
 
-                for (int i = 0; i < s.Length; i++) {
-                    if (!dict.ContainsKey (s[i])) {
-                        return result;
-                    }
+            Hashtable hash = new Hashtable ();
+            hash.Add ('I', 1);
+            hash.Add ('V', 5);
+            hash.Add ('X', 10);
+            hash.Add ('L', 50);
+            hash.Add ('C', 100);
+            hash.Add ('D', 500);
+            hash.Add ('M', 1000);
+
+            for (int i = 0; i < s.Length; i++) {
+                if (!hash.ContainsKey ((char) s[i])) {
+                    return result;
                 }
+            }
 
-                result = dict[s[s.Length - 1]];
+            result = (int) hash[s[s.Length - 1]];
 
-                for (int i = s.Length - 2; i >= 0; i--) {
-                    if (dict[s[i + 1]] > dict[s[i]]) {
-                        result -= dict[s[i]];
-                    } else {
-                        result += dict[s[i]];
-                    }
+            for (int i = s.Length - 2; i >= 0; i--) {
+                if ((int) hash[s[i + 1]] > (int) hash[s[i]]) {
+                    result -= (int) hash[s[i]];
+                } else {
+                    result += (int) hash[s[i]];
                 }
             }
 
