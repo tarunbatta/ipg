@@ -15,15 +15,50 @@ You must not use any built-in BigInteger library or convert the inputs to intege
 */
 
 using System;
+using System.Text;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem415 {
-    public class Solution {
-        public void Init () {
-            Console.WriteLine ();
+namespace InterviewPreperationGuide.Core.LeetCode.problem415
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            Console.WriteLine();
         }
 
-        public string AddStrings (string num1, string num2) {
-            return null;
+        public string AddStrings(string num1, string num2)
+        {
+            if (string.IsNullOrEmpty(num1))
+            {
+                return num2;
+            }
+
+            if (string.IsNullOrEmpty(num2))
+            {
+                return num1;
+            }
+
+            StringBuilder sb = new StringBuilder();
+            int carry = 0;
+            int i = num1.Length - 1;
+            int j = num2.Length - 1;
+
+            while (i >= 0 || j >= 0 || carry == 1)
+            {
+                int x = i < 0 ? 0 : num1[i] - '0';
+                int y = j < 0 ? 0 : num2[j] - '0';
+
+                int sum = carry + x + y;
+                sb.Append(sum % 10);
+
+                carry = sum / 10;
+                i--;
+                j--;
+            }
+
+            var s = sb.ToString().ToCharArray();
+            Array.Reverse(s);
+            return new string(s);
         }
     }
 }
