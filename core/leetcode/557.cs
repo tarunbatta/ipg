@@ -18,14 +18,56 @@ In the string, each word is separated by single space and there will not be any 
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem557 {
-    public class Solution {
-        public void Init () {
-            Console.WriteLine ();
+namespace InterviewPreperationGuide.Core.LeetCode.problem557
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            Console.WriteLine();
         }
 
-        public string ReverseWords (string s) {
-            return null;
+        public string ReverseWords(string s)
+        {
+            if (string.IsNullOrEmpty(s))
+            {
+                return s;
+            }
+
+            char[] arr = s.ToCharArray();
+            int i = 0;
+            int j = 0;
+
+            while (j < arr.Length)
+            {
+                if (arr[j] == ' ')
+                {
+                    Reverse(arr, i, j - 1);
+                    i = j + 1;
+                }
+
+                j++;
+            }
+
+            if (j == arr.Length)
+            {
+                Reverse(arr, i, j - 1);
+            }
+
+            return new string(arr);
+        }
+
+        private void Reverse(char[] arr, int i, int j)
+        {
+            while (i < j)
+            {
+                char temp = arr[i];
+                arr[i] = arr[j];
+                arr[j] = temp;
+
+                i++;
+                j--;
+            }
         }
     }
 }

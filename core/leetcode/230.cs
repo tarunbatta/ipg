@@ -37,24 +37,73 @@ What if the BST is modified (insert/delete operations) often and you need to fin
 */
 
 using System;
+using System.Collections.Generic;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem230 {
-    public class Solution {
-        public void Init () {
-            Console.WriteLine ();
+namespace InterviewPreperationGuide.Core.LeetCode.problem230
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            Console.WriteLine();
         }
 
-        public int KthSmallest (TreeNode root, int k) {
-            return 0;
+        public int KthSmallest_a(TreeNode root, int k)
+        {
+            if (root == null || k == 0)
+            {
+                return 0;
+            }
+
+            List<int> l = new List<int>();
+            InOrder(root, l);
+
+            return k > l.Count ? 0 : l[k - 1];
+        }
+
+        private void InOrder(TreeNode root, List<int> l)
+        {
+            if (root == null)
+            {
+                return;
+            }
+
+            InOrder(root.left, l);
+            l.Add(root.val);
+            InOrder(root.right, l);
+        }
+
+        public int KthSmallest_b(TreeNode root, int k)
+        {
+            Stack<TreeNode> stack = new Stack<TreeNode>();
+
+            while (true)
+            {
+                while (root != null)
+                {
+                    stack.Push(root);
+                    root = root.left;
+                }
+
+                root = stack.Pop();
+                if (--k == 0)
+                {
+                    return root.val;
+                }
+
+                root = root.right;
+            }
         }
     }
 
-    public class TreeNode {
+    public class TreeNode
+    {
         public int val;
         public TreeNode left;
         public TreeNode right;
 
-        public TreeNode (int x) {
+        public TreeNode(int x)
+        {
             val = x;
         }
     }

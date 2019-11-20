@@ -17,36 +17,77 @@ Output: 6
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem42 {
-    public class Solution {
-        public void Init () {
-            Console.WriteLine (Trap (null));
-            Console.WriteLine (Trap (new int[] { 0, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1 }));
+namespace InterviewPreperationGuide.Core.LeetCode.problem42
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            Console.WriteLine(Trap_a(null));
+            Console.WriteLine(Trap_a(new int[] { 0, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1 }));
+
+            Console.WriteLine(Trap_b(null));
+            Console.WriteLine(Trap_b(new int[] { 0, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1 }));
         }
 
-        public int Trap (int[] height) {
+        public int Trap_a(int[] height)
+        {
             int result = 0;
 
-            if (height != null && height.Length > 2) {
+            if (height != null && height.Length > 2)
+            {
                 int[] left = new int[height.Length];
                 int[] right = new int[height.Length];
 
                 left[0] = height[0];
-                for (int i = 1; i < height.Length; i++) {
-                    left[i] = Math.Max (left[i - 1], height[i]);
+                for (int i = 1; i < height.Length; i++)
+                {
+                    left[i] = Math.Max(left[i - 1], height[i]);
                 }
 
                 right[height.Length - 1] = height[height.Length - 1];
-                for (int i = height.Length - 2; i >= 0; i--) {
-                    right[i] = Math.Max (right[i + 1], height[i]);
+                for (int i = height.Length - 2; i >= 0; i--)
+                {
+                    right[i] = Math.Max(right[i + 1], height[i]);
                 }
 
-                for (int i = 0; i < height.Length; i++) {
-                    result += Math.Min (left[i], right[i]) - height[i];
+                for (int i = 0; i < height.Length; i++)
+                {
+                    result += Math.Min(left[i], right[i]) - height[i];
                 }
             }
 
             return result;
+        }
+
+        public int Trap_b(int[] heights)
+        {
+            var n = heights.Length;
+            if (n == 0) return 0;
+
+            var water = 0;
+            var seaLevel = 0;
+
+            var left = 0;
+            var right = n - 1;
+
+            while (left < right)
+            {
+                seaLevel = Math.Max(seaLevel, Math.Min(heights[left], heights[right]));
+
+                water += Math.Max(0, seaLevel - heights[left]) + Math.Max(0, seaLevel - heights[right]);
+
+                if (heights[left] > heights[right])
+                {
+                    right--;
+                }
+                else
+                {
+                    left++;
+                }
+            }
+
+            return water;
         }
     }
 }

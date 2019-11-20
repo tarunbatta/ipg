@@ -21,6 +21,7 @@ Note:
 */
 
 using System;
+using System.Collections.Generic;
 
 namespace InterviewPreperationGuide.Core.LeetCode.problem138
 {
@@ -31,9 +32,62 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem138
             Console.WriteLine();
         }
 
-        public Node CopyRandomList(Node head)
+        Dictionary<Node, Node> visited = new Dictionary<Node, Node>();
+
+        public Node CopyRandomList_DFS(Node head)
         {
-            return null;
+            if (head == null)
+            {
+                return head;
+            }
+
+            if (visited.ContainsKey(head))
+            {
+                return visited[head];
+            }
+
+            Node node = new Node(head.val, null, null);
+            visited.Add(head, node);
+
+            node.next = CopyRandomList_DFS(head.next);
+            node.random = CopyRandomList_DFS(head.random);
+
+            return node;
+        }
+
+        public Node CopyRandomList_BFS(Node head)
+        {
+            if (head == null)
+            {
+                return head;
+            }
+
+            Queue<Node> q = new Queue<Node>();
+            Dictionary<Node, Node> visited = new Dictionary<Node, Node>();
+            q.Enqueue(head);
+            visited.Add(head, new Node(head.val, null, null));
+
+            while (q.Count > 0)
+            {
+                Node n = q.Dequeue();
+
+                if (n.next != null && !visited.ContainsKey(n.next))
+                {
+                    q.Enqueue(n.next);
+                    visited.Add(n.next, new Node(n.next.val, null, null));
+                }
+
+                if (n.random != null && !visited.ContainsKey(n.random))
+                {
+                    q.Enqueue(n.random);
+                    visited.Add(n.random, new Node(n.random.val, null, null));
+                }
+
+                visited[n].next = n.next == null ? null : visited[n.next];
+                visited[n].random = n.random == null ? null : visited[n.random];
+            }
+
+            return visited[head];
         }
     }
 

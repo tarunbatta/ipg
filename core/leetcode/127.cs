@@ -6,14 +6,10 @@ Medium
 
 Given two words (beginWord and endWord), and a dictionary's word list, find the length of shortest transformation sequence from beginWord to endWord, such that:
 
-
 	Only one letter can be changed at a time.
 	Each transformed word must exist in the word list. Note that beginWord is not a transformed word.
 
-
 Note:
-
-
 	Return 0 if there is no such transformation sequence.
 	All words have the same length.
 	All words contain only lowercase alphabetic characters.
@@ -49,13 +45,73 @@ Explanation: The endWord "cog" is not in wordList, therefore no possible transfo
 using System;
 using System.Collections.Generic;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem127 {
-    public class Solution {
-        public void Init () {
-            Console.WriteLine ();
+namespace InterviewPreperationGuide.Core.LeetCode.problem127
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            Console.WriteLine();
         }
 
-        public int LadderLength (string beginWord, string endWord, IList<string> wordList) {
+        public int LadderLength(string beginWord, string endWord, IList<string> wordList)
+        {
+            HashSet<string> hash = new HashSet<string>();
+            foreach (string item in wordList)
+            {
+                hash.Add(item);
+            }
+
+            if (!hash.Contains(endWord))
+            {
+                return 0;
+            }
+
+            int level = 0;
+            int wordlen = beginWord.Length;
+            Queue<string> q = new Queue<string>();
+            q.Enqueue(beginWord);
+
+            while (q.Count > 0)
+            {
+                ++level;
+
+                int levelItems = q.Count;
+
+                for (int i = 0; i < levelItems; i++)
+                {
+                    string word = q.Dequeue();
+
+                    for (int pos = 0; pos < wordlen; pos++)
+                    {
+                        char[] wordArr = word.ToCharArray();
+                        char originalChar = word[pos];
+
+                        for (char c = 'a'; c <= 'z'; c++)
+                        {
+                            wordArr[pos] = c;
+                            string newWord = wordArr.ToString();
+
+                            if (newWord == endWord)
+                            {
+                                return level + 1;
+                            }
+
+                            if (!hash.Contains(newWord))
+                            {
+                                continue;
+                            }
+
+                            hash.Remove(newWord);
+
+                            q.Enqueue(newWord);
+                        }
+
+                        wordArr[pos] = originalChar;
+                    }
+                }
+            }
+
             return 0;
         }
     }
