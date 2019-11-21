@@ -18,82 +18,96 @@ Output: 7 -> 8 -> 0 -> 7
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem445 {
-    public class Solution {
-        public void Init () {
-            Console.WriteLine ();
+namespace InterviewPreperationGuide.Core.LeetCode.problem445
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            Console.WriteLine();
         }
 
-        public ListNode AddTwoNumbers_b (ListNode l1, ListNode l2) {
-            int n1 = 0;
-            int n2 = 0;
-            int carry = 0;
+        public ListNode AddTwoNumbers_b(ListNode l1, ListNode l2)
+        {
+            int n1 = getListLength(l1);
+            int n2 = getListLength(l2);
 
             ListNode curr1 = l1;
             ListNode curr2 = l2;
             ListNode result = null;
 
-            while (curr1 != null) {
-                curr1 = curr1.next;
-                n1++;
-            }
-            while (curr2 != null) {
-                curr2 = curr2.next;
-                n2++;
-            }
-
-            curr1 = l1;
-            curr2 = l2;
-
-            while (n1 > 0 && n2 > 0) {
+            while (n1 > 0 && n2 > 0)
+            {
                 int sum = 0;
 
-                if (n1 >= n2) {
+                if (n1 >= n2)
+                {
                     sum += curr1.val;
                     curr1 = curr1.next;
                     n1--;
                 }
 
-                if (n2 > n1) {
+                if (n2 > n1)
+                {
                     sum += curr2.val;
                     curr2 = curr2.next;
                     n2--;
                 }
 
-                result = addToFront (sum, result);
+                result = addToFront(sum, result);
             }
 
             curr1 = result;
             result = null;
+            int carry = 0;
 
-            while (curr1 != null) {
+            while (curr1 != null)
+            {
                 curr1.val += carry;
                 carry = curr1.val / 10;
-                result = addToFront (curr1.val % 10, result);
+                result = addToFront(curr1.val % 10, result);
                 curr1 = curr1.next;
             }
 
-            if (carry > 0) {
-                result = addToFront (1, result);
+            if (carry > 0)
+            {
+                result = addToFront(1, result);
             }
 
             return result;
         }
 
-        private ListNode addToFront (int val, ListNode head) {
-            ListNode temp = new ListNode (val);
+        private int getListLength(ListNode head)
+        {
+            int result = 0;
+
+            ListNode current = head;
+            while (current != null)
+            {
+                result++;
+                current = current.next;
+            }
+
+            return result;
+        }
+
+        private ListNode addToFront(int val, ListNode head)
+        {
+            ListNode temp = new ListNode(val);
             temp.next = head;
             return temp;
         }
 
-        public ListNode AddTwoNumbers_a (ListNode l1, ListNode l2) {
-            ListNode a = ReverseList (l1);
-            ListNode b = ReverseList (l2);
-            ListNode n = new ListNode (0);
+        public ListNode AddTwoNumbers_a(ListNode l1, ListNode l2)
+        {
+            ListNode a = ReverseList(l1);
+            ListNode b = ReverseList(l2);
+            ListNode n = new ListNode(0);
             ListNode current = n;
             int carry = 0;
 
-            while (a != null || b != null) {
+            while (a != null || b != null)
+            {
                 int i = a != null ? a.val : 0;
                 int j = b != null ? b.val : 0;
 
@@ -101,30 +115,35 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem445 {
                 carry = sum / 10;
                 sum = sum % 10;
 
-                current.next = new ListNode (sum);
+                current.next = new ListNode(sum);
                 current = current.next;
 
-                if (a != null) {
+                if (a != null)
+                {
                     a = a.next;
                 }
 
-                if (b != null) {
+                if (b != null)
+                {
                     b = b.next;
                 }
             }
 
-            if (carry > 0) {
-                current.next = new ListNode (carry);
+            if (carry > 0)
+            {
+                current.next = new ListNode(carry);
             }
 
-            return ReverseList (n.next);
+            return ReverseList(n.next);
         }
 
-        private ListNode ReverseList (ListNode head) {
+        private ListNode ReverseList(ListNode head)
+        {
             ListNode current = head;
             ListNode prev = null;
 
-            while (current != null) {
+            while (current != null)
+            {
                 ListNode temp = current.next;
                 current.next = prev;
                 prev = current;
@@ -135,11 +154,13 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem445 {
         }
     }
 
-    public class ListNode {
+    public class ListNode
+    {
         public int val;
         public ListNode next;
 
-        public ListNode (int x) {
+        public ListNode(int x)
+        {
             val = x;
         }
     }

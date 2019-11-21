@@ -30,60 +30,75 @@ Output: [1,2,3,4,8,12,11,10,9,5,6,7]
 using System;
 using System.Collections.Generic;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem54 {
-    public class Solution {
-        public void Init () {
-            Console.WriteLine (SpiralOrder (new int[][] {
+namespace InterviewPreperationGuide.Core.LeetCode.problem54
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            Console.WriteLine(SpiralOrder(new int[][] {
                 new int[] { 1, 2, 3, 4 },
                     new int[] { 5, 6, 7, 8 },
                     new int[] { 9, 10, 11, 12 },
                     new int[] { 13, 14, 15, 16 }
             }));
-            Console.WriteLine (SpiralOrder (new int[][] {
+            Console.WriteLine(SpiralOrder(new int[][] {
                 new int[] { 1, 2, 3, 4, 5, 6 },
                     new int[] { 7, 8, 9, 10, 11, 12 },
                     new int[] { 13, 14, 15, 16, 17, 18 }
             }));
         }
 
-        public IList<int> SpiralOrder (int[][] matrix) {
-            // string result = string.Empty;
+        public IList<int> SpiralOrder(int[][] matrix)
+        {
+            var result = new List<int>();
 
-            // int height = matrix.GetLength (0);
-            // int width = matrix.GetLength (1);
+            if (matrix == null || matrix.Length == 0 || matrix[0].Length == 0)
+            {
+                return result;
+            }
+            int height = matrix.Length;
+            int width = matrix[0].Length;
 
-            // int rowStart = 0;
-            // int rowEnd = height;
-            // int colStart = 0;
-            // int colEnd = width;
+            int rowStart = 0;
+            int rowEnd = height;
+            int colStart = 0;
+            int colEnd = width;
 
-            // while ((rowStart < rowEnd) && (colStart < colEnd)) {
-            //     for (int i = colStart; i < colEnd; i++) {
-            //         result += matrix[rowStart, i] + " ";
-            //     }
-            //     rowStart++;
+            while ((rowStart < rowEnd) && (colStart < colEnd))
+            {
+                for (int i = colStart; i < colEnd; i++)
+                {
+                    result.Add(matrix[rowStart][i]);
+                }
+                rowStart++;
 
-            //     for (int i = rowStart; i < rowEnd; i++) {
-            //         result += matrix[i, colEnd - 1] + " ";
-            //     }
-            //     colEnd--;
+                for (int i = rowStart; i < rowEnd; i++)
+                {
+                    result.Add(matrix[i][colEnd - 1]);
+                }
+                colEnd--;
 
-            //     if (rowStart < rowEnd) {
-            //         for (int i = colEnd - 1; i >= colStart; i--) {
-            //             result += matrix[rowEnd - 1, i] + " ";
-            //         }
-            //         rowEnd--;
-            //     }
+                if (rowStart < rowEnd)
+                {
+                    for (int i = colEnd - 1; i >= colStart; i--)
+                    {
+                        result.Add(matrix[rowEnd - 1][i]);
+                    }
+                    rowEnd--;
+                }
 
-            //     if (colStart < colEnd) {
-            //         for (int i = rowEnd - 1; i >= rowStart; i--) {
-            //             result += matrix[i, colStart] + " ";
-            //         }
-            //         colStart++;
-            //     }
-            // }
+                if (colStart < colEnd)
+                {
+                    for (int i = rowEnd - 1; i >= rowStart; i--)
+                    {
+                        result.Add(matrix[i][colStart]);
+                    }
+                    colStart++;
+                }
+            }
 
-            return null;
+            return result;
         }
     }
 }
