@@ -41,13 +41,17 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem1004 {
-    public class Solution {
-        public void Init () {
-            Console.WriteLine ();
+namespace InterviewPreperationGuide.Core.LeetCode.problem1004
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            Console.WriteLine();
         }
 
-        public int LongestOnes (int[] A, int K) {
+        public int LongestOnes(int[] A, int K)
+        {
             return 0;
         }
     }

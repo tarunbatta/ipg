@@ -34,13 +34,17 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem704 {
-    public class Solution {
-        public void Init () {
-            Console.WriteLine ();
+namespace InterviewPreperationGuide.Core.LeetCode.problem704
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            Console.WriteLine();
         }
 
-        public int Search (int[] nums, int target) {
+        public int Search(int[] nums, int target)
+        {
             return 0;
         }
     }

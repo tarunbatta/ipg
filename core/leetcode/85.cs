@@ -20,11 +20,14 @@ Output: 6
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem85 {
-    public class Solution {
-        public void Init () {
-            Console.WriteLine (MaximalRectangle (null));
-            Console.WriteLine (MaximalRectangle (new char[][] {
+namespace InterviewPreperationGuide.Core.LeetCode.problem85
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            Console.WriteLine(MaximalRectangle(null));
+            Console.WriteLine(MaximalRectangle(new char[][] {
                 new char[] { '1', '0', '1', '0', '0' },
                     new char[] { '1', '0', '1', '1', '1' },
                     new char[] { '1', '1', '1', '1', '1' },
@@ -32,7 +35,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem85 {
             }));
         }
 
-        public int MaximalRectangle (char[][] matrix) {
+        public int MaximalRectangle(char[][] matrix)
+        {
             return 0;
         }
     }

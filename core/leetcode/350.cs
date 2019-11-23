@@ -27,34 +27,47 @@ What if elements of nums2 are stored on disk, and the memory is limited such tha
 using System;
 using System.Collections.Generic;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem350 {
-    public class Solution {
-        public void Init () {
-            Console.WriteLine (Intersect (null, null));
-            Console.WriteLine (Intersect (null, new int[] { 2, 2 }));
-            Console.WriteLine (Intersect (new int[] { 1, 2, 2, 1 }, null));
-            Console.WriteLine (Intersect (new int[] { 1, 2, 2, 1 }, new int[] { 2, 2 }));
-            Console.WriteLine (Intersect (new int[] { 4, 9, 5 }, new int[] { 9, 4, 9, 8, 4 }));
+namespace InterviewPreperationGuide.Core.LeetCode.problem350
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            Console.WriteLine(Intersect(null, null));
+            Console.WriteLine(Intersect(null, new int[] { 2, 2 }));
+            Console.WriteLine(Intersect(new int[] { 1, 2, 2, 1 }, null));
+            Console.WriteLine(Intersect(new int[] { 1, 2, 2, 1 }, new int[] { 2, 2 }));
+            Console.WriteLine(Intersect(new int[] { 4, 9, 5 }, new int[] { 9, 4, 9, 8, 4 }));
         }
 
-        public int[] Intersect (int[] nums1, int[] nums2) {
-            var dict = new Dictionary<int, int> ();
-            Array.Sort (nums1);
-            Array.Sort (nums2);
+        public int[] Intersect(int[] nums1, int[] nums2)
+        {
+            var dict = new Dictionary<int, int>();
+            Array.Sort(nums1);
+            Array.Sort(nums2);
             int i = 0;
             int j = 0;
             int count = 0;
-            while (i < nums1.Length && j < nums2.Length) {
-                if (nums1[i] < nums2[j]) {
+            while (i < nums1.Length && j < nums2.Length)
+            {
+                if (nums1[i] < nums2[j])
+                {
                     i++;
-                } else if (nums1[i] > nums2[j]) {
+                }
+                else if (nums1[i] > nums2[j])
+                {
                     j++;
-                } else {
+                }
+                else
+                {
 
-                    if (dict.ContainsKey (nums1[i])) {
+                    if (dict.ContainsKey(nums1[i]))
+                    {
                         dict[nums1[i]] += 1;
-                    } else {
-                        dict.Add (nums1[i], 1);
+                    }
+                    else
+                    {
+                        dict.Add(nums1[i], 1);
                     }
                     count++;
                     i++;
@@ -64,9 +77,11 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem350 {
 
             int k = 0;
             int[] result = new int[count];
-            foreach (var item in dict) {
+            foreach (var item in dict)
+            {
                 int c = item.Value;
-                while (c > 0) {
+                while (c > 0)
+                {
                     result[k] = item.Key;
                     c--;
                     k++;

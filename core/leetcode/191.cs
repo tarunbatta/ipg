@@ -34,26 +34,32 @@ If this function is called many times, how would you optimize it?
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem191 {
-    public class Solution {
-        public void Init () {
-            Console.WriteLine (HammingWeight_a (0));
-            Console.WriteLine (HammingWeight_a (11));
-            Console.WriteLine (HammingWeight_a (128));
-            Console.WriteLine (HammingWeight_a (4294967293));
+namespace InterviewPreperationGuide.Core.LeetCode.problem191
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            Console.WriteLine(HammingWeight_a(0));
+            Console.WriteLine(HammingWeight_a(11));
+            Console.WriteLine(HammingWeight_a(128));
+            Console.WriteLine(HammingWeight_a(4294967293));
 
-            Console.WriteLine (HammingWeight_b (0));
-            Console.WriteLine (HammingWeight_b (11));
-            Console.WriteLine (HammingWeight_b (128));
-            Console.WriteLine (HammingWeight_b (4294967293));
+            Console.WriteLine(HammingWeight_b(0));
+            Console.WriteLine(HammingWeight_b(11));
+            Console.WriteLine(HammingWeight_b(128));
+            Console.WriteLine(HammingWeight_b(4294967293));
         }
 
-        public int HammingWeight_a (uint n) {
+        public int HammingWeight_a(uint n)
+        {
             int bits = 0;
             int mask = 1;
 
-            for (int i = 0; i < 32; i++) {
-                if ((n & mask) != 0) {
+            for (int i = 0; i < 32; i++)
+            {
+                if ((n & mask) != 0)
+                {
                     bits++;
                 }
                 mask <<= 1;
@@ -62,10 +68,12 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem191 {
             return bits;
         }
 
-        public int HammingWeight_b (uint n) {
+        public int HammingWeight_b(uint n)
+        {
             int sum = 0;
 
-            while (n != 0) {
+            while (n != 0)
+            {
                 sum++;
                 n &= (n - 1);
             }

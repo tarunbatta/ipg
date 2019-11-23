@@ -42,13 +42,17 @@ Notes:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem807 {
-    public class Solution {
-        public void Init () {
-            Console.WriteLine ();
+namespace InterviewPreperationGuide.Core.LeetCode.problem807
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            Console.WriteLine();
         }
 
-        public int MaxIncreaseKeepingSkyline (int[][] grid) {
+        public int MaxIncreaseKeepingSkyline(int[][] grid)
+        {
             return 0;
         }
     }

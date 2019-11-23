@@ -39,13 +39,17 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem847 {
-    public class Solution {
-        public void Init () {
-            Console.WriteLine ();
+namespace InterviewPreperationGuide.Core.LeetCode.problem847
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            Console.WriteLine();
         }
 
-        public int ShortestPathLength (int[][] graph) {
+        public int ShortestPathLength(int[][] graph)
+        {
             return 0;
         }
     }

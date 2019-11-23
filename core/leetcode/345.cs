@@ -27,13 +27,17 @@ The vowels does not include the letter "y".
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem345 {
-    public class Solution {
-        public void Init () {
-            Console.WriteLine ();
+namespace InterviewPreperationGuide.Core.LeetCode.problem345
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            Console.WriteLine();
         }
 
-        public string ReverseVowels (string s) {
+        public string ReverseVowels(string s)
+        {
             return null;
         }
     }

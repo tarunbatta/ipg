@@ -31,13 +31,17 @@ s will only consist of "0" or "1" characters.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem696 {
-    public class Solution {
-        public void Init () {
-            Console.WriteLine ();
+namespace InterviewPreperationGuide.Core.LeetCode.problem696
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            Console.WriteLine();
         }
 
-        public int CountBinarySubstrings (string s) {
+        public int CountBinarySubstrings(string s)
+        {
             return 0;
         }
     }

@@ -27,34 +27,42 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem208 {
-    public class Solution {
-        public void Init () {
-            Trie obj = new Trie ();
-            obj.Insert ("apple");
-            bool param_2 = obj.Search ("apple");
-            bool param_3 = obj.StartsWith ("apple");
+namespace InterviewPreperationGuide.Core.LeetCode.problem208
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            Trie obj = new Trie();
+            obj.Insert("apple");
+            bool param_2 = obj.Search("apple");
+            bool param_3 = obj.StartsWith("apple");
         }
     }
 
-    public class Trie {
+    public class Trie
+    {
         // Initialize your data structure here.
-        public Trie () {
+        public Trie()
+        {
 
         }
 
         // Inserts a word into the trie.
-        public void Insert (string word) {
+        public void Insert(string word)
+        {
 
         }
 
         // Returns if the word is in the trie.
-        public bool Search (string word) {
+        public bool Search(string word)
+        {
             return false;
         }
 
         // Returns if there is any word in the trie that starts with the given prefix.
-        public bool StartsWith (string prefix) {
+        public bool StartsWith(string prefix)
+        {
             return false;
         }
     }

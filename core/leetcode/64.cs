@@ -22,13 +22,17 @@ Explanation: Because the path 1→3→1→1→1 minimizes the sum.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem64 {
-    public class Solution {
-        public void Init () {
-            Console.WriteLine ();
+namespace InterviewPreperationGuide.Core.LeetCode.problem64
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            Console.WriteLine();
         }
 
-        public int MinPathSum (int[][] grid) {
+        public int MinPathSum(int[][] grid)
+        {
             return 0;
         }
     }

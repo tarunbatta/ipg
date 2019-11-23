@@ -27,13 +27,17 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem805 {
-    public class Solution {
-        public void Init () {
-            Console.WriteLine ();
+namespace InterviewPreperationGuide.Core.LeetCode.problem805
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            Console.WriteLine();
         }
 
-        public bool SplitArraySameAverage (int[] A) {
+        public bool SplitArraySameAverage(int[] A)
+        {
             return false;
         }
     }

@@ -32,48 +32,59 @@ Output: "1211"
 using System;
 using System.Text;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem38 {
-    public class Solution {
-        public void Init () {
-            Console.WriteLine (CountAndSay (0));
-            Console.WriteLine (CountAndSay (1));
-            Console.WriteLine (CountAndSay (4));
+namespace InterviewPreperationGuide.Core.LeetCode.problem38
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            Console.WriteLine(CountAndSay(0));
+            Console.WriteLine(CountAndSay(1));
+            Console.WriteLine(CountAndSay(4));
         }
 
-        public string CountAndSay (int n) {
-            if (n <= 0 || n > 30) {
+        public string CountAndSay(int n)
+        {
+            if (n <= 0 || n > 30)
+            {
                 return null;
             }
 
             string result = "1";
 
-            for (int i = 1; i < n; i++) {
-                result = countIdx (result);
+            for (int i = 1; i < n; i++)
+            {
+                result = countIdx(result);
             }
 
             return result;
         }
 
-        public String countIdx (String s) {
-            StringBuilder sb = new StringBuilder ();
+        public String countIdx(String s)
+        {
+            StringBuilder sb = new StringBuilder();
             char c = s[0];
             int count = 1;
 
-            for (int i = 1; i < s.Length; i++) {
-                if (s[i] == c) {
+            for (int i = 1; i < s.Length; i++)
+            {
+                if (s[i] == c)
+                {
                     count++;
-                } else {
-                    sb.Append (count);
-                    sb.Append (c);
+                }
+                else
+                {
+                    sb.Append(count);
+                    sb.Append(c);
                     c = s[i];
                     count = 1;
                 }
             }
 
-            sb.Append (count);
-            sb.Append (c);
+            sb.Append(count);
+            sb.Append(c);
 
-            return sb.ToString ();
+            return sb.ToString();
         }
     }
 }

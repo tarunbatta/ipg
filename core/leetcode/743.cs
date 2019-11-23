@@ -33,13 +33,17 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem743 {
-    public class Solution {
-        public void Init () {
-            Console.WriteLine ();
+namespace InterviewPreperationGuide.Core.LeetCode.problem743
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            Console.WriteLine();
         }
 
-        public int NetworkDelayTime (int[][] times, int N, int K) {
+        public int NetworkDelayTime(int[][] times, int N, int K)
+        {
             return 0;
         }
     }

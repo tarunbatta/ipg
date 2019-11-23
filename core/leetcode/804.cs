@@ -37,13 +37,17 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem804 {
-    public class Solution {
-        public void Init () {
-            Console.WriteLine ();
+namespace InterviewPreperationGuide.Core.LeetCode.problem804
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            Console.WriteLine();
         }
 
-        public int UniqueMorseRepresentations (string[] words) {
+        public int UniqueMorseRepresentations(string[] words)
+        {
             return 0;
         }
     }

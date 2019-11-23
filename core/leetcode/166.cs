@@ -27,13 +27,17 @@ Output: "0.(6)"
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem166 {
-    public class Solution {
-        public void Init () {
-            Console.WriteLine ();
+namespace InterviewPreperationGuide.Core.LeetCode.problem166
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            Console.WriteLine();
         }
 
-        public string FractionToDecimal (int numerator, int denominator) {
+        public string FractionToDecimal(int numerator, int denominator)
+        {
             return null;
         }
     }

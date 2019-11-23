@@ -30,13 +30,17 @@ The longest substring is "ababb", as 'a' is repeated 2 times and 'b' is repeated
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem395 {
-    public class Solution {
-        public void Init () {
-            Console.WriteLine ();
+namespace InterviewPreperationGuide.Core.LeetCode.problem395
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            Console.WriteLine();
         }
 
-        public int LongestSubstring (string s, int k) {
+        public int LongestSubstring(string s, int k)
+        {
             return 0;
         }
     }

@@ -27,13 +27,17 @@ The range of n is [1,8].
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem479 {
-    public class Solution {
-        public void Init () {
-            Console.WriteLine ();
+namespace InterviewPreperationGuide.Core.LeetCode.problem479
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            Console.WriteLine();
         }
 
-        public int LargestPalindrome (int n) {
+        public int LargestPalindrome(int n)
+        {
             return 0;
         }
     }

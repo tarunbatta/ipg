@@ -31,13 +31,17 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem820 {
-    public class Solution {
-        public void Init () {
-            Console.WriteLine ();
+namespace InterviewPreperationGuide.Core.LeetCode.problem820
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            Console.WriteLine();
         }
 
-        public int MinimumLengthEncoding (string[] words) {
+        public int MinimumLengthEncoding(string[] words)
+        {
             return 0;
         }
     }

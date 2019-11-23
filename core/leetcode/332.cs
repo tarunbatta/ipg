@@ -31,13 +31,17 @@ Explanation: Another possible reconstruction is ["JFK","SFO","ATL","JFK","ATL","
 using System;
 using System.Collections.Generic;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem332 {
-    public class Solution {
-        public void Init () {
-            Console.WriteLine ();
+namespace InterviewPreperationGuide.Core.LeetCode.problem332
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            Console.WriteLine();
         }
 
-        public IList<string> FindItinerary (IList<IList<string>> tickets) {
+        public IList<string> FindItinerary(IList<IList<string>> tickets)
+        {
             return null;
         }
     }

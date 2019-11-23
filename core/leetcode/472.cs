@@ -27,13 +27,17 @@ The returned elements order does not matter.
 using System;
 using System.Collections.Generic;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem472 {
-    public class Solution {
-        public void Init () {
-            Console.WriteLine ();
+namespace InterviewPreperationGuide.Core.LeetCode.problem472
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            Console.WriteLine();
         }
 
-        public IList<string> FindAllConcatenatedWordsInADict (string[] words) {
+        public IList<string> FindAllConcatenatedWordsInADict(string[] words)
+        {
             return null;
         }
     }

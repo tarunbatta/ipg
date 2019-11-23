@@ -15,13 +15,17 @@ Output: 5
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem434 {
-    public class Solution {
-        public void Init () {
-            Console.WriteLine ();
+namespace InterviewPreperationGuide.Core.LeetCode.problem434
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            Console.WriteLine();
         }
 
-        public int CountSegments (string s) {
+        public int CountSegments(string s)
+        {
             return 0;
         }
     }

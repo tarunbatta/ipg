@@ -69,14 +69,18 @@ Constraints:
 using System;
 using System.Collections.Generic;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem1096 {
-	public class Solution {
-		public void Init () {
+namespace InterviewPreperationGuide.Core.LeetCode.problem1096
+{
+    public class Solution
+    {
+        public void Init()
+        {
 
-		}
+        }
 
-		public IList<string> BraceExpansionII (string expression) {
-			return null;
-		}
-	}
+        public IList<string> BraceExpansionII(string expression)
+        {
+            return null;
+        }
+    }
 }

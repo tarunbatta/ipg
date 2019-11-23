@@ -26,25 +26,32 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem307 {
-    public class Solution {
-        public void Init () {
-            NumArray obj = new NumArray (null);
-            obj.Update (0, 0);
-            int param_2 = obj.SumRange (0, 0);
+namespace InterviewPreperationGuide.Core.LeetCode.problem307
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            NumArray obj = new NumArray(null);
+            obj.Update(0, 0);
+            int param_2 = obj.SumRange(0, 0);
         }
     }
 
-    public class NumArray {
-        public NumArray (int[] nums) {
+    public class NumArray
+    {
+        public NumArray(int[] nums)
+        {
 
         }
 
-        public void Update (int i, int val) {
+        public void Update(int i, int val)
+        {
 
         }
 
-        public int SumRange (int i, int j) {
+        public int SumRange(int i, int j)
+        {
             return 0;
         }
     }

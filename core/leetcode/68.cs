@@ -69,13 +69,17 @@ Output:
 using System;
 using System.Collections.Generic;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem68 {
-    public class Solution {
-        public void Init () {
-            Console.WriteLine ();
+namespace InterviewPreperationGuide.Core.LeetCode.problem68
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            Console.WriteLine();
         }
 
-        public IList<string> FullJustify (string[] words, int maxWidth) {
+        public IList<string> FullJustify(string[] words, int maxWidth)
+        {
             return null;
         }
     }

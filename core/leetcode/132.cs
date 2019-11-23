@@ -17,13 +17,17 @@ Explanation: The palindrome partitioning ["aa","b"] could be produced using 1 cu
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem132 {
-    public class Solution {
-        public void Init () {
-            Console.WriteLine ();
+namespace InterviewPreperationGuide.Core.LeetCode.problem132
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            Console.WriteLine();
         }
 
-        public int MinCut (string s) {
+        public int MinCut(string s)
+        {
             return 0;
         }
     }

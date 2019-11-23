@@ -54,13 +54,17 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem928 {
-    public class Solution {
-        public void Init () {
-            Console.WriteLine ();
+namespace InterviewPreperationGuide.Core.LeetCode.problem928
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            Console.WriteLine();
         }
 
-        public int MinMalwareSpread (int[][] graph, int[] initial) {
+        public int MinMalwareSpread(int[][] graph, int[] initial)
+        {
             return 0;
         }
     }

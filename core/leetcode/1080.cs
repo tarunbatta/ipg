@@ -54,23 +54,29 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem1080 {
-    public class Solution {
-        public void Init () {
-            Console.WriteLine ();
+namespace InterviewPreperationGuide.Core.LeetCode.problem1080
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            Console.WriteLine();
         }
 
-        public TreeNode SufficientSubset (TreeNode root, int limit) {
+        public TreeNode SufficientSubset(TreeNode root, int limit)
+        {
             return null;
         }
     }
 
-    public class TreeNode {
+    public class TreeNode
+    {
         public int val;
         public TreeNode left;
         public TreeNode right;
 
-        public TreeNode (int x) {
+        public TreeNode(int x)
+        {
             val = x;
         }
     }

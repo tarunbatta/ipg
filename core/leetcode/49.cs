@@ -26,13 +26,17 @@ Note:
 using System;
 using System.Collections.Generic;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem49 {
-    public class Solution {
-        public void Init () {
-            Console.WriteLine ();
+namespace InterviewPreperationGuide.Core.LeetCode.problem49
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            Console.WriteLine();
         }
 
-        public IList<IList<string>> GroupAnagrams (string[] strs) {
+        public IList<IList<string>> GroupAnagrams(string[] strs)
+        {
             return null;
         }
     }

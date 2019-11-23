@@ -47,13 +47,17 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem953 {
-    public class Solution {
-        public void Init () {
-            Console.WriteLine ();
+namespace InterviewPreperationGuide.Core.LeetCode.problem953
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            Console.WriteLine();
         }
 
-        public bool IsAlienSorted (string[] words, string order) {
+        public bool IsAlienSorted(string[] words, string order)
+        {
             return false;
         }
     }

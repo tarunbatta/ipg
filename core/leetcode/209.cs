@@ -19,13 +19,17 @@ If you have figured out the O(n) solution, try coding another solution of which 
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem209 {
-    public class Solution {
-        public void Init () {
-            Console.WriteLine ();
+namespace InterviewPreperationGuide.Core.LeetCode.problem209
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            Console.WriteLine();
         }
 
-        public int MinSubArrayLen (int s, int[] nums) {
+        public int MinSubArrayLen(int s, int[] nums)
+        {
             return 0;
         }
     }

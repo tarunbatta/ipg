@@ -21,13 +21,17 @@ Output: "10101"
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem67 {
-    public class Solution {
-        public void Init () {
-            Console.WriteLine ();
+namespace InterviewPreperationGuide.Core.LeetCode.problem67
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            Console.WriteLine();
         }
 
-        public string AddBinary (string a, string b) {
+        public string AddBinary(string a, string b)
+        {
             return null;
         }
     }

@@ -47,13 +47,17 @@ The input string will only contain the character '*' and digits '0' - '9'.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem639 {
-    public class Solution {
-        public void Init () {
-            Console.WriteLine ();
+namespace InterviewPreperationGuide.Core.LeetCode.problem639
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            Console.WriteLine();
         }
 
-        public int NumDecodings (string s) {
+        public int NumDecodings(string s)
+        {
             return 0;
         }
     }

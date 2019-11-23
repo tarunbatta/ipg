@@ -28,13 +28,17 @@ Constraints:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem1109 {
-    public class Solution {
-        public void Init () {
-            Console.WriteLine ();
+namespace InterviewPreperationGuide.Core.LeetCode.problem1109
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            Console.WriteLine();
         }
 
-        public int[] CorpFlightBookings (int[][] bookings, int n) {
+        public int[] CorpFlightBookings(int[][] bookings, int n)
+        {
             return null;
         }
     }

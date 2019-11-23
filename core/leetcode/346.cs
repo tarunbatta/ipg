@@ -18,31 +18,39 @@ m.next(5) = (10 + 3 + 5) / 3
 using System;
 using System.Collections.Generic;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem346 {
-    public class Solution {
-        public void Init () {
-            MovingAverage obj = new MovingAverage (3);
-            double param_1 = obj.Next (1);
+namespace InterviewPreperationGuide.Core.LeetCode.problem346
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            MovingAverage obj = new MovingAverage(3);
+            double param_1 = obj.Next(1);
         }
     }
 
-    public class MovingAverage {
+    public class MovingAverage
+    {
         Queue<int> _queue;
         int _size;
 
-        public MovingAverage (int size) {
+        public MovingAverage(int size)
+        {
             this._size = size;
-            this._queue = new Queue<int> (size);
+            this._queue = new Queue<int>(size);
         }
 
-        public double Next (int val) {
-            if (_queue.Count >= _size) {
-                _queue.Dequeue ();
+        public double Next(int val)
+        {
+            if (_queue.Count >= _size)
+            {
+                _queue.Dequeue();
             }
-            _queue.Enqueue (val);
+            _queue.Enqueue(val);
 
             double result = 0;
-            foreach (var item in _queue) {
+            foreach (var item in _queue)
+            {
                 result += item;
             }
 

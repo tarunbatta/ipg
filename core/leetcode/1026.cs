@@ -36,23 +36,29 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem1026 {
-    public class Solution {
-        public void Init () {
-            Console.WriteLine ();
+namespace InterviewPreperationGuide.Core.LeetCode.problem1026
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            Console.WriteLine();
         }
 
-        public int MaxAncestorDiff (TreeNode root) {
+        public int MaxAncestorDiff(TreeNode root)
+        {
             return 0;
         }
     }
 
-    public class TreeNode {
+    public class TreeNode
+    {
         public int val;
         public TreeNode left;
         public TreeNode right;
 
-        public TreeNode (int x) {
+        public TreeNode(int x)
+        {
             val = x;
         }
     }

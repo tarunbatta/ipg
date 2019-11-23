@@ -47,13 +47,17 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem1053 {
-    public class Solution {
-        public void Init () {
-            Console.WriteLine ();
+namespace InterviewPreperationGuide.Core.LeetCode.problem1053
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            Console.WriteLine();
         }
 
-        public int[] PrevPermOpt1 (int[] A) {
+        public int[] PrevPermOpt1(int[] A)
+        {
             return null;
         }
     }

@@ -34,13 +34,17 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem848 {
-    public class Solution {
-        public void Init () {
-            Console.WriteLine ();
+namespace InterviewPreperationGuide.Core.LeetCode.problem848
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            Console.WriteLine();
         }
 
-        public string ShiftingLetters (string S, int[] shifts) {
+        public string ShiftingLetters(string S, int[] shifts)
+        {
             return null;
         }
     }

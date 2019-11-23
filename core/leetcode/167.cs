@@ -24,13 +24,17 @@ Explanation: The sum of 2 and 7 is 9. Therefore index1 = 1, index2 = 2.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem167 {
-    public class Solution {
-        public void Init () {
-            Console.WriteLine ();
+namespace InterviewPreperationGuide.Core.LeetCode.problem167
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            Console.WriteLine();
         }
 
-        public int[] TwoSum (int[] numbers, int target) {
+        public int[] TwoSum(int[] numbers, int target)
+        {
             return null;
         }
     }

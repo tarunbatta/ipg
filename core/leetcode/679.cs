@@ -29,13 +29,17 @@ You cannot concatenate numbers together.  For example, if the input is [1, 2, 1,
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem679 {
-    public class Solution {
-        public void Init () {
-            Console.WriteLine ();
+namespace InterviewPreperationGuide.Core.LeetCode.problem679
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            Console.WriteLine();
         }
 
-        public bool JudgePoint24 (int[] nums) {
+        public bool JudgePoint24(int[] nums)
+        {
             return false;
         }
     }

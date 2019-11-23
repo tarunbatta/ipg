@@ -35,57 +35,67 @@ Explanation: In this case, no transaction is done, i.e. max profit = 0.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem123 {
-    public class Solution {
-        public void Init () {
-            Console.WriteLine (MaxProfit_a (new int[] { 3, 3, 5, 0, 0, 3, 1, 4 }));
-            Console.WriteLine (MaxProfit_a (new int[] { 1, 2, 3, 4, 5 }));
+namespace InterviewPreperationGuide.Core.LeetCode.problem123
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            Console.WriteLine(MaxProfit_a(new int[] { 3, 3, 5, 0, 0, 3, 1, 4 }));
+            Console.WriteLine(MaxProfit_a(new int[] { 1, 2, 3, 4, 5 }));
 
-            Console.WriteLine (MaxProfit_b (new int[] { 3, 3, 5, 0, 0, 3, 1, 4 }));
-            Console.WriteLine (MaxProfit_b (new int[] { 1, 2, 3, 4, 5 }));
+            Console.WriteLine(MaxProfit_b(new int[] { 3, 3, 5, 0, 0, 3, 1, 4 }));
+            Console.WriteLine(MaxProfit_b(new int[] { 1, 2, 3, 4, 5 }));
         }
 
-        public int MaxProfit_a (int[] prices) {
+        public int MaxProfit_a(int[] prices)
+        {
             int result = 0;
 
-            if (prices != null && prices.Length > 1) {
+            if (prices != null && prices.Length > 1)
+            {
                 int[] left = new int[prices.Length];
                 int[] right = new int[prices.Length];
 
                 left[0] = 0;
                 int min = prices[0];
-                for (int i = 1; i < prices.Length; i++) {
-                    min = Math.Min (min, prices[i]);
-                    left[i] = Math.Max (left[i - 1], prices[i] - min);
+                for (int i = 1; i < prices.Length; i++)
+                {
+                    min = Math.Min(min, prices[i]);
+                    left[i] = Math.Max(left[i - 1], prices[i] - min);
                 }
 
                 right[prices.Length - 1] = 0;
                 int max = prices[prices.Length - 1];
-                for (int i = prices.Length - 2; i >= 0; i--) {
-                    max = Math.Max (max, prices[i]);
-                    right[i] = Math.Max (right[i + 1], max - prices[i]);
+                for (int i = prices.Length - 2; i >= 0; i--)
+                {
+                    max = Math.Max(max, prices[i]);
+                    right[i] = Math.Max(right[i + 1], max - prices[i]);
                 }
 
-                for (int i = 0; i < prices.Length; i++) {
-                    result = Math.Max (result, left[i] + right[i]);
+                for (int i = 0; i < prices.Length; i++)
+                {
+                    result = Math.Max(result, left[i] + right[i]);
                 }
             }
 
             return result;
         }
 
-        public int MaxProfit_b (int[] prices) {
+        public int MaxProfit_b(int[] prices)
+        {
             int oneBuyOneSell = 0;
             int twoBuyTwoSell = 0;
             int oneBuy = Int32.MaxValue;
             int twoBuy = Int32.MaxValue;
 
-            for (int i = 0; i < prices.Length; i++) {
+            for (int i = 0; i < prices.Length; i++)
+            {
                 int p = prices[i];
-                oneBuy = Math.Min (oneBuy, p);
-                oneBuyOneSell = Math.Max (oneBuyOneSell, p - oneBuy);
-                twoBuy = Math.Min (twoBuy, p - oneBuyOneSell);
-                twoBuyTwoSell = Math.Max (twoBuyTwoSell, p - twoBuy);
+                oneBuy = Math.Min(oneBuy, p);
+                oneBuyOneSell = Math.Max(oneBuyOneSell, p - oneBuy);
+                twoBuy = Math.Min(twoBuy, p - oneBuyOneSell);
+                twoBuyTwoSell = Math.Max(twoBuyTwoSell, p - twoBuy);
             }
 
             return twoBuyTwoSell;

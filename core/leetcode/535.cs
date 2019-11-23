@@ -13,23 +13,29 @@ Design the encode and decode methods for the TinyURL service. There is no restri
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem535 {
-    public class Solution {
-        public void Init () {
-            Codec codec = new Codec ();
-            codec.decode (codec.encode (null));
+namespace InterviewPreperationGuide.Core.LeetCode.problem535
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            Codec codec = new Codec();
+            codec.decode(codec.encode(null));
         }
     }
 
-    public class Codec { 
+    public class Codec
+    {
         // Encodes a URL to a shortened URL    
-        public string encode (string longUrl) {   
-            return null;  
+        public string encode(string longUrl)
+        {
+            return null;
         }
 
         // Decodes a shortened URL to its original URL.    
-        public string decode (string shortUrl) {    
-            return null; 
+        public string decode(string shortUrl)
+        {
+            return null;
         }
     }
 }

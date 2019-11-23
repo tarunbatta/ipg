@@ -30,15 +30,98 @@ Output: "One Billion Two Hundred Thirty Four Million Five Hundred Sixty Seven Th
 */
 
 using System;
+using System.Collections.Generic;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem273 {
-    public class Solution {
-        public void Init () {
-            Console.WriteLine ();
+namespace InterviewPreperationGuide.Core.LeetCode.problem273
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            Console.WriteLine();
         }
 
-        public string NumberToWords (int num) {
-            return null;
+        string[] lessThan20 = new string[] { "", "One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine", "Ten", "Eleven", "Twelve", "Thirteen", "Fourteen", "Fifteen", "Sixteen", "Seventeen", "Eighteen", "Nineteen" };
+        string[] tens = new string[] { "", "Ten", "Twenty", "Thirty", "Forty", "Fifty", "Sixty", "Seventy", "Eighty", "Ninety" };
+        string[] thousands = new string[] { "", "Thousand", "Million", "Billion" };
+
+        public string NumberToWords(int num)
+        {
+            if (num == 0)
+            {
+                return "Zero";
+            }
+
+            List<string> result = new List<string>();
+            int count = 0;
+
+            while (num > 0)
+            {
+                var temp = getUnderThousandNum(num % 1000);
+
+                if (temp != "")
+                {
+                    var thousand = thousands[count];
+
+                    if (thousand != "")
+                    {
+                        result.Add(thousand);
+                    }
+
+                    result.Add(temp);
+                }
+
+                num /= 1000;
+                count++;
+            }
+
+            result.Reverse();
+            return string.Join(" ", result);
+        }
+
+        private string getUnderThousandNum(int num)
+        {
+            if (num == 0)
+            {
+                return "";
+            }
+
+            if (num >= 100)
+            {
+                var underHundred = getUnderHundredNum(num % 100);
+
+                if (underHundred == "")
+                {
+                    return $"{lessThan20[num / 100]} Hundred";
+                }
+                else
+                {
+                    return $"{lessThan20[num / 100]} Hundred {underHundred}";
+                }
+            }
+            else
+            {
+                return getUnderHundredNum(num);
+            }
+        }
+
+        private string getUnderHundredNum(int num)
+        {
+            if (num < 20)
+            {
+                return lessThan20[num];
+            }
+            else
+            {
+                if (num % 10 == 0)
+                {
+                    return $"{tens[num / 10]}";
+                }
+                else
+                {
+                    return $"{tens[num / 10]} {lessThan20[num % 10]}";
+                }
+            }
         }
     }
 }

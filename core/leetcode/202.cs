@@ -21,13 +21,17 @@ Explanation:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem202 {
-    public class Solution {
-        public void Init () {
-            Console.WriteLine ();
+namespace InterviewPreperationGuide.Core.LeetCode.problem202
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            Console.WriteLine();
         }
 
-        public bool IsHappy (int n) {
+        public bool IsHappy(int n)
+        {
             return false;
         }
     }

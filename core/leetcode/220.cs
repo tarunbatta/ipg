@@ -29,13 +29,17 @@ Output: false
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem220 {
-    public class Solution {
-        public void Init () {
-            Console.WriteLine ();
+namespace InterviewPreperationGuide.Core.LeetCode.problem220
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            Console.WriteLine();
         }
 
-        public bool ContainsNearbyAlmostDuplicate (int[] nums, int k, int t) {
+        public bool ContainsNearbyAlmostDuplicate(int[] nums, int k, int t)
+        {
             return false;
         }
     }

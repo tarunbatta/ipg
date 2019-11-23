@@ -20,13 +20,17 @@ Output: 0
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem201 {
-    public class Solution {
-        public void Init () {
-            Console.WriteLine ();
+namespace InterviewPreperationGuide.Core.LeetCode.problem201
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            Console.WriteLine();
         }
 
-        public int RangeBitwiseAnd (int m, int n) {
+        public int RangeBitwiseAnd(int m, int n)
+        {
             return 0;
         }
     }

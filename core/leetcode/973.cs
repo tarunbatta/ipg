@@ -44,13 +44,17 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem973 {
-    public class Solution {
-        public void Init () {
-            Console.WriteLine ();
+namespace InterviewPreperationGuide.Core.LeetCode.problem973
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            Console.WriteLine();
         }
 
-        public int[][] KClosest (int[][] points, int K) {
+        public int[][] KClosest(int[][] points, int K)
+        {
             return null;
         }
     }

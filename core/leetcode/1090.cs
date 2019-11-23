@@ -61,13 +61,17 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem1090 {
-    public class Solution {
-        public void Init () {
-            Console.WriteLine ();
+namespace InterviewPreperationGuide.Core.LeetCode.problem1090
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            Console.WriteLine();
         }
 
-        public int LargestValsFromLabels (int[] values, int[] labels, int num_wanted, int use_limit) {
+        public int LargestValsFromLabels(int[] values, int[] labels, int num_wanted, int use_limit)
+        {
             return 0;
         }
     }

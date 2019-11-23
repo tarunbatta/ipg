@@ -59,14 +59,18 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem741 {
-	public class Solution {
-		public void Init () {
+namespace InterviewPreperationGuide.Core.LeetCode.problem741
+{
+    public class Solution
+    {
+        public void Init()
+        {
 
-		}
+        }
 
-		public int CherryPickup (int[][] grid) {
-			return 0;
-		}
-	}
+        public int CherryPickup(int[][] grid)
+        {
+            return 0;
+        }
+    }
 }

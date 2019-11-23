@@ -28,74 +28,89 @@ return its level order traversal as:
 using System;
 using System.Collections.Generic;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem102 {
-    public class Solution {
-        public void Init () {
-            Console.WriteLine ();
+namespace InterviewPreperationGuide.Core.LeetCode.problem102
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            Console.WriteLine();
         }
 
-        public IList<IList<int>> LevelOrder_a (TreeNode root) {
-            var result = new List<IList<int>> ();
-            LevelOrderHelper (root, result, 0);
+        public IList<IList<int>> LevelOrder_a(TreeNode root)
+        {
+            var result = new List<IList<int>>();
+            LevelOrderHelper(root, result, 0);
 
             return result;
         }
 
-        private void LevelOrderHelper (TreeNode root, List<IList<int>> result, int height) {
-            if (root == null) {
+        private void LevelOrderHelper(TreeNode root, List<IList<int>> result, int height)
+        {
+            if (root == null)
+            {
                 return;
             }
 
-            if (height >= result.Count) {
-                result.Add (new List<int> ());
+            if (height >= result.Count)
+            {
+                result.Add(new List<int>());
             }
 
-            result[height].Add (root.val);
+            result[height].Add(root.val);
 
-            LevelOrderHelper (root.left, result, height + 1);
-            LevelOrderHelper (root.right, result, height + 1);
+            LevelOrderHelper(root.left, result, height + 1);
+            LevelOrderHelper(root.right, result, height + 1);
         }
 
-        public IList<IList<int>> LevelOrder_b (TreeNode root) {
-            var result = new List<IList<int>> ();
+        public IList<IList<int>> LevelOrder_b(TreeNode root)
+        {
+            var result = new List<IList<int>>();
 
-            if (root == null) {
+            if (root == null)
+            {
                 return result;
             }
 
-            var queue = new Queue<TreeNode> ();
-            queue.Enqueue (root);
+            var queue = new Queue<TreeNode>();
+            queue.Enqueue(root);
 
-            while (queue.Count != 0) {
+            while (queue.Count != 0)
+            {
                 int height = queue.Count;
 
-                List<int> sublist = new List<int> ();
+                List<int> sublist = new List<int>();
 
-                for (int i = 0; i < height; i++) {
-                    if (queue.Peek ().left != null) {
-                        queue.Enqueue (queue.Peek ().left);
+                for (int i = 0; i < height; i++)
+                {
+                    if (queue.Peek().left != null)
+                    {
+                        queue.Enqueue(queue.Peek().left);
                     }
 
-                    if (queue.Peek ().right != null) {
-                        queue.Enqueue (queue.Peek ().right);
+                    if (queue.Peek().right != null)
+                    {
+                        queue.Enqueue(queue.Peek().right);
                     }
 
-                    sublist.Add (queue.Dequeue ().val);
+                    sublist.Add(queue.Dequeue().val);
                 }
 
-                result.Add (sublist);
+                result.Add(sublist);
             }
 
             return result;
         }
     }
 
-    public class TreeNode {
+    public class TreeNode
+    {
         public int val;
         public TreeNode left;
         public TreeNode right;
 
-        public TreeNode (int x) {
+        public TreeNode(int x)
+        {
             val = x;
         }
     }

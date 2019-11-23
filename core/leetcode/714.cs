@@ -24,13 +24,17 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem714 {
-    public class Solution {
-        public void Init () {
-            Console.WriteLine ();
+namespace InterviewPreperationGuide.Core.LeetCode.problem714
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            Console.WriteLine();
         }
 
-        public int MaxProfit (int[] prices, int fee) {
+        public int MaxProfit(int[] prices, int fee)
+        {
             return 0;
         }
     }

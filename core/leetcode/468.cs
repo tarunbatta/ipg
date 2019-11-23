@@ -62,13 +62,17 @@ Explanation: This is neither a IPv4 address nor a IPv6 address.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem468 {
-    public class Solution {
-        public void Init () {
-            Console.WriteLine ();
+namespace InterviewPreperationGuide.Core.LeetCode.problem468
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            Console.WriteLine();
         }
 
-        public string ValidIPAddress (string IP) {
+        public string ValidIPAddress(string IP)
+        {
             return null;
         }
     }

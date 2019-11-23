@@ -42,13 +42,17 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem929 {
-    public class Solution {
-        public void Init () {
-            Console.WriteLine ();
+namespace InterviewPreperationGuide.Core.LeetCode.problem929
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            Console.WriteLine();
         }
 
-        public int NumUniqueEmails (string[] emails) {
+        public int NumUniqueEmails(string[] emails)
+        {
             return 0;
         }
     }

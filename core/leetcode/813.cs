@@ -32,13 +32,17 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem813 {
-    public class Solution {
-        public void Init () {
-            Console.WriteLine ();
+namespace InterviewPreperationGuide.Core.LeetCode.problem813
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            Console.WriteLine();
         }
 
-        public double LargestSumOfAverages (int[] A, int K) {
+        public double LargestSumOfAverages(int[] A, int K)
+        {
             return 0;
         }
     }

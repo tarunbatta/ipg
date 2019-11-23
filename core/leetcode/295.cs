@@ -40,25 +40,32 @@ Follow up:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem295 {
-    public class Solution {
-        public void Init () {
-            MedianFinder obj = new MedianFinder ();
-            obj.AddNum (1);
-            double param_2 = obj.FindMedian ();
+namespace InterviewPreperationGuide.Core.LeetCode.problem295
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            MedianFinder obj = new MedianFinder();
+            obj.AddNum(1);
+            double param_2 = obj.FindMedian();
         }
     }
 
-    public class MedianFinder {
-        public MedianFinder () {
+    public class MedianFinder
+    {
+        public MedianFinder()
+        {
 
         }
 
-        public void AddNum (int num) {
+        public void AddNum(int num)
+        {
 
         }
 
-        public double FindMedian () {
+        public double FindMedian()
+        {
             return 0;
         }
     }

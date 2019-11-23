@@ -22,13 +22,17 @@ Note: The length of the input array will not exceed 20,000.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem594 {
-    public class Solution {
-        public void Init () {
-            Console.WriteLine ();
+namespace InterviewPreperationGuide.Core.LeetCode.problem594
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            Console.WriteLine();
         }
 
-        public int FindLHS (int[] nums) {
+        public int FindLHS(int[] nums)
+        {
             return 0;
         }
     }

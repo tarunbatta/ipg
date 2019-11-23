@@ -60,13 +60,17 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem980 {
-    public class Solution {
-        public void Init () {
-            Console.WriteLine ();
+namespace InterviewPreperationGuide.Core.LeetCode.problem980
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            Console.WriteLine();
         }
 
-        public int UniquePathsIII (int[][] grid) {
+        public int UniquePathsIII(int[][] grid)
+        {
             return 0;
         }
     }

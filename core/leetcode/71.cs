@@ -53,13 +53,17 @@ Output: "/a/b/c"
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem71 {
-    public class Solution {
-        public void Init () {
-            Console.WriteLine ();
+namespace InterviewPreperationGuide.Core.LeetCode.problem71
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            Console.WriteLine();
         }
 
-        public string SimplifyPath (string path) {
+        public string SimplifyPath(string path)
+        {
             return null;
         }
     }

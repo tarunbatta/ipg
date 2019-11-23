@@ -19,13 +19,17 @@ Output:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem59 {
-    public class Solution {
-        public void Init () {
-            Console.WriteLine ();
+namespace InterviewPreperationGuide.Core.LeetCode.problem59
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            Console.WriteLine();
         }
 
-        public int[][] GenerateMatrix (int n) {
+        public int[][] GenerateMatrix(int n)
+        {
             return null;
         }
     }

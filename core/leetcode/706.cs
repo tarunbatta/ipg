@@ -33,72 +33,88 @@ Please do not use the built-in HashMap library.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem706 {
-    public class Solution {
-        public void Init () {
-            MyHashMap hashMap = new MyHashMap ();
-            hashMap.Put (1, 1);
-            hashMap.Put (2, 2);
-            hashMap.Get (1); // returns 1
-            hashMap.Get (3); // returns -1 (not found)
-            hashMap.Put (2, 1); // update the existing value
-            hashMap.Get (2); // returns 1 
-            hashMap.Remove (2); // remove the mapping for 2
-            hashMap.Get (2); // returns -1 (not found) 
+namespace InterviewPreperationGuide.Core.LeetCode.problem706
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            MyHashMap hashMap = new MyHashMap();
+            hashMap.Put(1, 1);
+            hashMap.Put(2, 2);
+            hashMap.Get(1); // returns 1
+            hashMap.Get(3); // returns -1 (not found)
+            hashMap.Put(2, 1); // update the existing value
+            hashMap.Get(2); // returns 1 
+            hashMap.Remove(2); // remove the mapping for 2
+            hashMap.Get(2); // returns -1 (not found) 
         }
     }
 
-    public class MyHashMap {
+    public class MyHashMap
+    {
         private int capacity = 1000001;
         public ListNode[] nodes;
 
         /** Initialize your data structure here. */
-        public MyHashMap () {
+        public MyHashMap()
+        {
             nodes = new ListNode[capacity];
         }
 
         /** value will always be non-negative. */
-        public void Put (int key, int value) {
-            int index = getIndex (key);
-            ListNode prev = FindElement (index, key);
+        public void Put(int key, int value)
+        {
+            int index = getIndex(key);
+            ListNode prev = FindElement(index, key);
 
-            if (prev.next == null) {
-                prev.next = new ListNode (key, value);
-            } else {
+            if (prev.next == null)
+            {
+                prev.next = new ListNode(key, value);
+            }
+            else
+            {
                 prev.next.value = value;
             }
         }
 
         /** Returns the value to which the specified key is mapped, or -1 if this map contains no mapping for the key */
-        public int Get (int key) {
-            int index = getIndex (key);
-            ListNode prev = FindElement (index, key);
+        public int Get(int key)
+        {
+            int index = getIndex(key);
+            ListNode prev = FindElement(index, key);
 
             return prev.next == null ? -1 : prev.next.value;
         }
 
         /** Removes the mapping of the specified value key if this map contains a mapping for the key */
-        public void Remove (int key) {
-            int index = getIndex (key);
-            ListNode prev = FindElement (index, key);
+        public void Remove(int key)
+        {
+            int index = getIndex(key);
+            ListNode prev = FindElement(index, key);
 
-            if (prev.next != null) {
+            if (prev.next != null)
+            {
                 prev.next = prev.next.next;
             }
         }
 
-        private int getIndex (int key) {
-            return key.GetHashCode () % nodes.Length;
+        private int getIndex(int key)
+        {
+            return key.GetHashCode() % nodes.Length;
         }
 
-        private ListNode FindElement (int index, int key) {
-            if (nodes[index] == null) {
+        private ListNode FindElement(int index, int key)
+        {
+            if (nodes[index] == null)
+            {
                 return null;
             }
 
             ListNode prev = nodes[index];
 
-            while (prev.next != null && prev.next.key != key) {
+            while (prev.next != null && prev.next.key != key)
+            {
                 prev = prev.next;
             }
 
@@ -106,12 +122,14 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem706 {
         }
     }
 
-    public class ListNode {
+    public class ListNode
+    {
         public int key;
         public int value;
         public ListNode next;
 
-        public ListNode (int key, int value) {
+        public ListNode(int key, int value)
+        {
             this.key = key;
             this.value = value;
             this.next = null;

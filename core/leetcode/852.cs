@@ -36,13 +36,17 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem852 {
-    public class Solution {
-        public void Init () {
-            Console.WriteLine ();
+namespace InterviewPreperationGuide.Core.LeetCode.problem852
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            Console.WriteLine();
         }
 
-        public int PeakIndexInMountainArray (int[] A) {
+        public int PeakIndexInMountainArray(int[] A)
+        {
             return 0;
         }
     }

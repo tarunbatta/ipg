@@ -37,13 +37,17 @@ Explanation: There are three 132 patterns in the sequence: [-1, 3, 2], [-1, 3, 0
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem456 {
-    public class Solution {
-        public void Init () {
-            Console.WriteLine ();
+namespace InterviewPreperationGuide.Core.LeetCode.problem456
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            Console.WriteLine();
         }
 
-        public bool Find132pattern (int[] nums) {
+        public bool Find132pattern(int[] nums)
+        {
             return false;
         }
     }

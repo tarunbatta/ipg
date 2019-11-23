@@ -51,13 +51,17 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem908 {
-    public class Solution {
-        public void Init () {
-            Console.WriteLine ();
+namespace InterviewPreperationGuide.Core.LeetCode.problem908
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            Console.WriteLine();
         }
 
-        public int SmallestRangeI (int[] A, int K) {
+        public int SmallestRangeI(int[] A, int K)
+        {
             return 0;
         }
     }

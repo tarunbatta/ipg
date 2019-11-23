@@ -34,51 +34,60 @@ Output: 42
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem124 {
-    public class Solution {
-        public void Init () {
-            TreeNode node = new TreeNode (10);
-            node.left = new TreeNode (2);
-            node.right = new TreeNode (10);
-            node.left.left = new TreeNode (20);
-            node.left.right = new TreeNode (1);
-            node.right.right = new TreeNode (-25);
-            node.right.right.left = new TreeNode (3);
-            node.right.right.right = new TreeNode (4);
+namespace InterviewPreperationGuide.Core.LeetCode.problem124
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            TreeNode node = new TreeNode(10);
+            node.left = new TreeNode(2);
+            node.right = new TreeNode(10);
+            node.left.left = new TreeNode(20);
+            node.left.right = new TreeNode(1);
+            node.right.right = new TreeNode(-25);
+            node.right.right.left = new TreeNode(3);
+            node.right.right.right = new TreeNode(4);
 
-            Console.WriteLine (MaxPathSum (node));
+            Console.WriteLine(MaxPathSum(node));
         }
 
         private int result = int.MinValue;
 
-        public int MaxPathSum (TreeNode root) {
-            if (root != null) {
-                MaxPathSumUtility (root);
+        public int MaxPathSum(TreeNode root)
+        {
+            if (root != null)
+            {
+                MaxPathSumUtility(root);
             }
 
             return result;
         }
 
-        private int MaxPathSumUtility (TreeNode root) {
-            if (root == null) {
+        private int MaxPathSumUtility(TreeNode root)
+        {
+            if (root == null)
+            {
                 return 0;
             }
 
-            int left = Math.Max (MaxPathSumUtility (root.left), 0);
-            int right = Math.Max (MaxPathSumUtility (root.right), 0);
+            int left = Math.Max(MaxPathSumUtility(root.left), 0);
+            int right = Math.Max(MaxPathSumUtility(root.right), 0);
 
-            result = Math.Max (result, root.val + left + right);
+            result = Math.Max(result, root.val + left + right);
 
-            return root.val + Math.Max (left, right);
+            return root.val + Math.Max(left, right);
         }
     }
 
-    public class TreeNode {
+    public class TreeNode
+    {
         public int val;
         public TreeNode left;
         public TreeNode right;
 
-        public TreeNode (int x) {
+        public TreeNode(int x)
+        {
             val = x;
         }
     }

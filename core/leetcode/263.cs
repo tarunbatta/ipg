@@ -35,13 +35,17 @@ Input is within the 32-bit signed integer range: [−231,  231 − 1].
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem263 {
-    public class Solution {
-        public void Init () {
-            Console.WriteLine ();
+namespace InterviewPreperationGuide.Core.LeetCode.problem263
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            Console.WriteLine();
         }
 
-        public bool IsUgly (int num) {
+        public bool IsUgly(int num)
+        {
             return false;
         }
     }

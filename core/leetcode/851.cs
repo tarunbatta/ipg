@@ -50,14 +50,18 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem851 {
-	public class Solution {
-		public void Init () {
+namespace InterviewPreperationGuide.Core.LeetCode.problem851
+{
+    public class Solution
+    {
+        public void Init()
+        {
 
-		}
+        }
 
-		public int[] LoudAndRich (int[][] richer, int[] quiet) {
-			return null;
-		}
-	}
+        public int[] LoudAndRich(int[][] richer, int[] quiet)
+        {
+            return null;
+        }
+    }
 }

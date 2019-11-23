@@ -9,9 +9,12 @@ Medium
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem663 {
-        public class Solution {
-        public void Init () {
+namespace InterviewPreperationGuide.Core.LeetCode.problem663
+{
+    public class Solution
+    {
+        public void Init()
+        {
 
         }
 

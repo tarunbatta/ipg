@@ -33,31 +33,39 @@ The total number of calls to removeRange in a single test case is at most 1000.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem715 {
-    public class Solution {
-        public void Init () {
+namespace InterviewPreperationGuide.Core.LeetCode.problem715
+{
+    public class Solution
+    {
+        public void Init()
+        {
             int left = 0;
             int right = 0;
-            RangeModule obj = new RangeModule ();
-            obj.AddRange (left, right);
-            bool param_2 = obj.QueryRange (left, right);
-            obj.RemoveRange (left, right);
+            RangeModule obj = new RangeModule();
+            obj.AddRange(left, right);
+            bool param_2 = obj.QueryRange(left, right);
+            obj.RemoveRange(left, right);
         }
     }
 
-    public class RangeModule {
-        public RangeModule () {
+    public class RangeModule
+    {
+        public RangeModule()
+        {
 
         }
-        public void AddRange (int left, int right) {
+        public void AddRange(int left, int right)
+        {
 
         }
 
-        public bool QueryRange (int left, int right) {
+        public bool QueryRange(int left, int right)
+        {
             return false;
         }
 
-        public void RemoveRange (int left, int right) {
+        public void RemoveRange(int left, int right)
+        {
 
         }
     }

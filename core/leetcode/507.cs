@@ -17,22 +17,29 @@ Note: The input number n will not exceed 100,000,000. (1e8)
 */
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem507 {
-    public class Solution {
-        public void Init () {
-            Console.WriteLine ();
+namespace InterviewPreperationGuide.Core.LeetCode.problem507
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            Console.WriteLine();
         }
 
-        public bool CheckPerfectNumber (int num) {
-            if (num < 0 || num % 2 != 0) {
+        public bool CheckPerfectNumber(int num)
+        {
+            if (num < 0 || num % 2 != 0)
+            {
                 return false;
             }
 
             int sum = 1;
 
-            for (int i = 2; i * i < num; i++) {
-                if (num % i == 0) {
-                    sum += i + num / i;;
+            for (int i = 2; i * i < num; i++)
+            {
+                if (num % i == 0)
+                {
+                    sum += i + num / i; ;
                 }
             }
 

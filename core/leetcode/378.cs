@@ -28,13 +28,17 @@ You may assume k is always valid, 1 ≤ k ≤ n2.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem378 {
-    public class Solution {
-        public void Init () {
-            Console.WriteLine ();
+namespace InterviewPreperationGuide.Core.LeetCode.problem378
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            Console.WriteLine();
         }
 
-        public int KthSmallest (int[][] matrix, int k) {
+        public int KthSmallest(int[][] matrix, int k)
+        {
             return 0;
         }
     }

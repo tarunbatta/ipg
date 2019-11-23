@@ -76,14 +76,18 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem529 {
-	public class Solution {
-		public void Init () {
+namespace InterviewPreperationGuide.Core.LeetCode.problem529
+{
+    public class Solution
+    {
+        public void Init()
+        {
 
-		}
+        }
 
-		public char[][] UpdateBoard (char[][] board, int[] click) {
-			return null;
-		}
-	}
+        public char[][] UpdateBoard(char[][] board, int[] click)
+        {
+            return null;
+        }
+    }
 }

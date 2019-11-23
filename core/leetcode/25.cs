@@ -28,22 +28,28 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem25 {
-    public class Solution {
-        public void Init () {
-            Console.WriteLine ();
+namespace InterviewPreperationGuide.Core.LeetCode.problem25
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            Console.WriteLine();
         }
 
-        public ListNode ReverseKGroup (ListNode head, int k) {
+        public ListNode ReverseKGroup(ListNode head, int k)
+        {
             return null;
         }
     }
 
-    public class ListNode {
+    public class ListNode
+    {
         public int val;
         public ListNode next;
 
-        public ListNode (int x) {
+        public ListNode(int x)
+        {
             val = x;
         }
     }

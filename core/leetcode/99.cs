@@ -55,50 +55,63 @@ Follow up:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem99 {
-    public class Solution {
+namespace InterviewPreperationGuide.Core.LeetCode.problem99
+{
+    public class Solution
+    {
         private static TreeNode first;
         private static TreeNode second;
         private static TreeNode previous;
 
-        public void Init () {
-            TreeNode node = new TreeNode (40);
-            node.left = new TreeNode (20);
-            node.right = new TreeNode (60);
-            node.left.left = new TreeNode (70);
-            node.left.right = new TreeNode (30);
-            node.right.left = new TreeNode (50);
-            node.right.right = new TreeNode (10);
+        public void Init()
+        {
+            TreeNode node = new TreeNode(40);
+            node.left = new TreeNode(20);
+            node.right = new TreeNode(60);
+            node.left.left = new TreeNode(70);
+            node.left.right = new TreeNode(30);
+            node.right.left = new TreeNode(50);
+            node.right.right = new TreeNode(10);
 
-            RecoverTree (node);
+            RecoverTree(node);
         }
 
-        public void RecoverTree (TreeNode root) {
-            if (root == null) {
+        public void RecoverTree(TreeNode root)
+        {
+            if (root == null)
+            {
                 return;
             }
 
-            RecoverBstInorder (root);
+            RecoverBstInorder(root);
 
-            if (first != null && second != null) {
+            if (first != null && second != null)
+            {
                 int val = second.val;
                 second.val = first.val;
                 first.val = val;
             }
         }
 
-        private void RecoverBstInorder (TreeNode node) {
-            if (node == null) {
+        private void RecoverBstInorder(TreeNode node)
+        {
+            if (node == null)
+            {
                 return;
             }
 
-            RecoverBstInorder (node.left);
+            RecoverBstInorder(node.left);
 
-            if (previous == null) {
+            if (previous == null)
+            {
                 previous = node;
-            } else {
-                if (node.val < previous.val) {
-                    if (first == null) {
+            }
+            else
+            {
+                if (node.val < previous.val)
+                {
+                    if (first == null)
+                    {
                         first = previous;
                     }
 
@@ -108,16 +121,18 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem99 {
                 previous = node;
             }
 
-            RecoverBstInorder (node.right);
+            RecoverBstInorder(node.right);
         }
     }
 
-    public class TreeNode {
+    public class TreeNode
+    {
         public int val;
         public TreeNode left;
         public TreeNode right;
 
-        public TreeNode (int x) {
+        public TreeNode(int x)
+        {
             val = x;
         }
     }

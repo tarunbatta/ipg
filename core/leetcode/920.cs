@@ -53,13 +53,17 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem920 {
-    public class Solution {
-        public void Init () {
-            Console.WriteLine ();
+namespace InterviewPreperationGuide.Core.LeetCode.problem920
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            Console.WriteLine();
         }
 
-        public int NumMusicPlaylists (int N, int L, int K) {
+        public int NumMusicPlaylists(int N, int L, int K)
+        {
             return 0;
         }
     }

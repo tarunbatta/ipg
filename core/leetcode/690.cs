@@ -33,14 +33,18 @@ Note:
 using System;
 using System.Collections.Generic;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem690 {
-    public class Solution {
-        public int getImportance (List<Employee> employees, int id) {
+namespace InterviewPreperationGuide.Core.LeetCode.problem690
+{
+    public class Solution
+    {
+        public int getImportance(List<Employee> employees, int id)
+        {
             return 0;
         }
     }
 
-    public class Employee {
+    public class Employee
+    {
         // It's the unique id of each node;
         // unique id of this employee
         public int id;

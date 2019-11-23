@@ -31,13 +31,17 @@ Output: 0
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem330 {
-    public class Solution {
-        public void Init () {
-            Console.WriteLine ();
+namespace InterviewPreperationGuide.Core.LeetCode.problem330
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            Console.WriteLine();
         }
 
-        public int MinPatches (int[] nums, int n) {
+        public int MinPatches(int[] nums, int n)
+        {
             return 0;
         }
     }

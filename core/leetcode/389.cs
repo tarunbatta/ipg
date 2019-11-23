@@ -24,13 +24,17 @@ Explanation:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem389 {
-    public class Solution {
-        public void Init () {
-            Console.WriteLine ();
+namespace InterviewPreperationGuide.Core.LeetCode.problem389
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            Console.WriteLine();
         }
 
-        public char FindTheDifference (string s, string t) {
+        public char FindTheDifference(string s, string t)
+        {
             return ' ';
         }
     }

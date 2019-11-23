@@ -24,29 +24,35 @@ Your algorithm should run in linear runtime complexity. Could you implement it u
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem268 {
-    public class Solution {
-        public void Init () {
-            Console.WriteLine (MissingNumber_a (null));
-            Console.WriteLine (MissingNumber_a (new int[] { }));
-            Console.WriteLine (MissingNumber_a (new int[] { 3, 0, 1 }));
-            Console.WriteLine (MissingNumber_a (new int[] { 9, 6, 4, 2, 3, 5, 7, 0, 1 }));
+namespace InterviewPreperationGuide.Core.LeetCode.problem268
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            Console.WriteLine(MissingNumber_a(null));
+            Console.WriteLine(MissingNumber_a(new int[] { }));
+            Console.WriteLine(MissingNumber_a(new int[] { 3, 0, 1 }));
+            Console.WriteLine(MissingNumber_a(new int[] { 9, 6, 4, 2, 3, 5, 7, 0, 1 }));
 
-            Console.WriteLine (MissingNumber_b (null));
-            Console.WriteLine (MissingNumber_b (new int[] { }));
-            Console.WriteLine (MissingNumber_b (new int[] { 3, 0, 1 }));
-            Console.WriteLine (MissingNumber_b (new int[] { 9, 6, 4, 2, 3, 5, 7, 0, 1 }));
+            Console.WriteLine(MissingNumber_b(null));
+            Console.WriteLine(MissingNumber_b(new int[] { }));
+            Console.WriteLine(MissingNumber_b(new int[] { 3, 0, 1 }));
+            Console.WriteLine(MissingNumber_b(new int[] { 9, 6, 4, 2, 3, 5, 7, 0, 1 }));
         }
 
-        public int MissingNumber_a (int[] nums) {
-            if (nums == null || nums.Length == 0) {
+        public int MissingNumber_a(int[] nums)
+        {
+            if (nums == null || nums.Length == 0)
+            {
                 return 0;
             }
 
             int result = 0;
             int sum = 0;
 
-            for (int i = 0; i < nums.Length; i++) {
+            for (int i = 0; i < nums.Length; i++)
+            {
                 sum += nums[i];
             }
 
@@ -54,14 +60,17 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem268 {
             return result;
         }
 
-        public int MissingNumber_b (int[] nums) {
-            if (nums == null || nums.Length == 0) {
+        public int MissingNumber_b(int[] nums)
+        {
+            if (nums == null || nums.Length == 0)
+            {
                 return 0;
             }
 
             int result = nums.Length;
 
-            for (int i = 0; i < nums.Length; i++) {
+            for (int i = 0; i < nums.Length; i++)
+            {
                 result ^= i ^ nums[i];
             }
 

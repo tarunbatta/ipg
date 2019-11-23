@@ -35,13 +35,17 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem822 {
-    public class Solution {
-        public void Init () {
-            Console.WriteLine ();
+namespace InterviewPreperationGuide.Core.LeetCode.problem822
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            Console.WriteLine();
         }
 
-        public int Flipgame (int[] fronts, int[] backs) {
+        public int Flipgame(int[] fronts, int[] backs)
+        {
             return 0;
         }
     }

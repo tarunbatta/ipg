@@ -29,8 +29,6 @@ Explanation:
 "aa" is replaced by "a2". "bb" is replaced by "b2". "ccc" is replaced by "c3".
 
 
- 
-
 Example 2:
 
 Input:
@@ -42,8 +40,6 @@ Return 1, and the first 1 characters of the input array should be: ["a"]
 Explanation:
 Nothing is replaced.
 
-
- 
 
 Example 3:
 
@@ -57,26 +53,68 @@ Explanation:
 Since the character "a" does not repeat, it is not compressed. "bbbbbbbbbbbb" is replaced by "b12".
 Notice each digit has it's own entry in the array.
 
-
- 
-
 Note:
-
-
 	All characters have an ASCII value in [35, 126].
 	1 <= len(chars) <= 1000.
 */
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem443 {
-    public class Solution {
-        public void Init () {
-            Console.WriteLine ();
+namespace InterviewPreperationGuide.Core.LeetCode.problem443
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            Console.WriteLine();
         }
 
-        public int Compress (char[] chars) {
-            return 0;
+        public int Compress(char[] chars)
+        {
+            if (chars == null || chars.Length == 0)
+            {
+                return 0;
+            }
+
+            int i = 0;
+            int count = 1;
+            int j = 1;
+            int n = chars.Length;
+            char temp = chars[i];
+
+            for (; j <= n; j++)
+            {
+                if (j < n && chars[j] == chars[j - 1])
+                {
+                    count++;
+                }
+                else
+                {
+                    chars[i] = temp;
+                    i++;
+
+                    string digits = count.ToString();
+
+                    if (count > 1)
+                    {
+                        for (int k = 0; k < digits.Length; k++)
+                        {
+                            chars[i] = digits[k];
+                            i++;
+                        }
+                    }
+
+                    if (j < n)
+                    {
+                        temp = chars[j];
+                    }
+
+                    count = 1;
+                }
+            }
+
+
+            return i;
         }
     }
 }

@@ -49,13 +49,17 @@ Note: n and m both fit in range [0, 1000].
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem672 {
-    public class Solution {
-        public void Init () {
-            Console.WriteLine ();
+namespace InterviewPreperationGuide.Core.LeetCode.problem672
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            Console.WriteLine();
         }
 
-        public int FlipLights (int n, int m) {
+        public int FlipLights(int n, int m)
+        {
             return 0;
         }
     }

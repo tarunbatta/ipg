@@ -22,32 +22,41 @@ Note:
 using System;
 using System.Collections;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem76 {
-    public class Solution {
-        public void Init () {
-            Console.WriteLine (MinWindow ("ADOBECODEBANC", null));
-            Console.WriteLine (MinWindow (null, "ABC"));
-            Console.WriteLine (MinWindow ("ADOBECODEBANC", "ABC"));
-            Console.WriteLine (MinWindow ("dabceabcg", "deg"));
-            Console.WriteLine (MinWindow ("abcdedefg", "deg"));
-            Console.WriteLine (MinWindow ("abcdedefg", "xyz"));
-            Console.WriteLine (MinWindow ("eaebeccdeefeggh", "eee"));
+namespace InterviewPreperationGuide.Core.LeetCode.problem76
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            Console.WriteLine(MinWindow("ADOBECODEBANC", null));
+            Console.WriteLine(MinWindow(null, "ABC"));
+            Console.WriteLine(MinWindow("ADOBECODEBANC", "ABC"));
+            Console.WriteLine(MinWindow("dabceabcg", "deg"));
+            Console.WriteLine(MinWindow("abcdedefg", "deg"));
+            Console.WriteLine(MinWindow("abcdedefg", "xyz"));
+            Console.WriteLine(MinWindow("eaebeccdeefeggh", "eee"));
         }
 
-        public string MinWindow (string s, string t) {
+        public string MinWindow(string s, string t)
+        {
             string result = string.Empty;
 
-            if (!string.IsNullOrEmpty (s) && !string.IsNullOrEmpty (t)) {
-                char[] arrS = s.ToCharArray ();
-                char[] arrT = t.ToCharArray ();
+            if (!string.IsNullOrEmpty(s) && !string.IsNullOrEmpty(t))
+            {
+                char[] arrS = s.ToCharArray();
+                char[] arrT = t.ToCharArray();
 
-                Hashtable hashT = new Hashtable ();
+                Hashtable hashT = new Hashtable();
 
-                for (int i = 0; i < arrT.Length; i++) {
-                    if (!hashT.ContainsKey (arrT[i])) {
-                        hashT.Add (arrT[i], 1);
-                    } else {
-                        hashT[arrT[i]] = (int) hashT[arrT[i]] + 1;
+                for (int i = 0; i < arrT.Length; i++)
+                {
+                    if (!hashT.ContainsKey(arrT[i]))
+                    {
+                        hashT.Add(arrT[i], 1);
+                    }
+                    else
+                    {
+                        hashT[arrT[i]] = (int)hashT[arrT[i]] + 1;
                     }
                 }
 
@@ -55,26 +64,35 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem76 {
                 int minlen = arrS.Length + 1;
                 int match = 0;
 
-                Hashtable hashS = new Hashtable ();
+                Hashtable hashS = new Hashtable();
 
-                for (int i = 0; i < arrS.Length; i++) {
-                    if (hashT.ContainsKey (arrS[i])) {
-                        if (hashS.ContainsKey (arrS[i])) {
-                            if ((int) hashS[arrS[i]] < (int) hashT[arrS[i]]) {
+                for (int i = 0; i < arrS.Length; i++)
+                {
+                    if (hashT.ContainsKey(arrS[i]))
+                    {
+                        if (hashS.ContainsKey(arrS[i]))
+                        {
+                            if ((int)hashS[arrS[i]] < (int)hashT[arrS[i]])
+                            {
                                 match++;
                             }
 
-                            hashS[arrS[i]] = (int) hashS[arrS[i]] + 1;
-                        } else {
-                            hashS.Add (arrS[i], 1);
+                            hashS[arrS[i]] = (int)hashS[arrS[i]] + 1;
+                        }
+                        else
+                        {
+                            hashS.Add(arrS[i], 1);
                             match++;
                         }
                     }
 
-                    if (match == arrT.Length) {
-                        while (!hashS.ContainsKey (arrS[start]) || (int) hashS[arrS[start]] > (int) hashT[arrS[start]]) {
-                            if (hashS.ContainsKey (arrS[start]) && (int) hashS[arrS[start]] > (int) hashT[arrS[start]]) {
-                                hashS[arrS[start]] = (int) hashS[arrS[start]] - 1;
+                    if (match == arrT.Length)
+                    {
+                        while (!hashS.ContainsKey(arrS[start]) || (int)hashS[arrS[start]] > (int)hashT[arrS[start]])
+                        {
+                            if (hashS.ContainsKey(arrS[start]) && (int)hashS[arrS[start]] > (int)hashT[arrS[start]])
+                            {
+                                hashS[arrS[start]] = (int)hashS[arrS[start]] - 1;
                             }
 
                             start++;
@@ -82,8 +100,9 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem76 {
 
                         int end = i + 1 - start;
 
-                        if (end < minlen) {
-                            result = s.Substring (start, end);
+                        if (end < minlen)
+                        {
+                            result = s.Substring(start, end);
                             minlen = end;
                         }
                     }

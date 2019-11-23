@@ -46,13 +46,17 @@ Version strings do not start or end with dots, and they will not be two consecut
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem165 {
-    public class Solution {
-        public void Init () {
-            Console.WriteLine ();
+namespace InterviewPreperationGuide.Core.LeetCode.problem165
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            Console.WriteLine();
         }
 
-        public int CompareVersion (string version1, string version2) {
+        public int CompareVersion(string version1, string version2)
+        {
             return 0;
         }
     }

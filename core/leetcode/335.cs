@@ -41,13 +41,17 @@ Output: true
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem335 {
-    public class Solution {
-        public void Init () {
-            Console.WriteLine ();
+namespace InterviewPreperationGuide.Core.LeetCode.problem335
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            Console.WriteLine();
         }
 
-        public bool IsSelfCrossing (int[] x) {
+        public bool IsSelfCrossing(int[] x)
+        {
             return false;
         }
     }

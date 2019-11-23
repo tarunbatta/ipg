@@ -57,13 +57,17 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem909 {
-    public class Solution {
-        public void Init () {
-            Console.WriteLine ();
+namespace InterviewPreperationGuide.Core.LeetCode.problem909
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            Console.WriteLine();
         }
 
-        public int SnakesAndLadders (int[][] board) {
+        public int SnakesAndLadders(int[][] board)
+        {
             return 0;
         }
     }

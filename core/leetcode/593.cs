@@ -23,36 +23,46 @@ Input points have no order.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem593 {
-    public class Solution {
-        public void Init () {
-            Console.WriteLine (ValidSquare (null, new int[] { 1, 1 }, new int[] { 1, 0 }, new int[] { 0, 1 }));
-            Console.WriteLine (ValidSquare (new int[] { 0, 0 }, new int[] { 1, 1 }, new int[] { 1, 0 }, new int[] { 0, 1 }));
+namespace InterviewPreperationGuide.Core.LeetCode.problem593
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            Console.WriteLine(ValidSquare(null, new int[] { 1, 1 }, new int[] { 1, 0 }, new int[] { 0, 1 }));
+            Console.WriteLine(ValidSquare(new int[] { 0, 0 }, new int[] { 1, 1 }, new int[] { 1, 0 }, new int[] { 0, 1 }));
         }
 
-        public bool ValidSquare (int[] p1, int[] p2, int[] p3, int[] p4) {
+        public bool ValidSquare(int[] p1, int[] p2, int[] p3, int[] p4)
+        {
             bool result = false;
 
-            if (!IsValidPoint (p1) || !IsValidPoint (p2) || !IsValidPoint (p3) || !IsValidPoint (p4)) {
+            if (!IsValidPoint(p1) || !IsValidPoint(p2) || !IsValidPoint(p3) || !IsValidPoint(p4))
+            {
                 return false;
             }
 
-            if (IsSquare (p1, p2, p3, p4) || IsSquare (p1, p2, p4, p3) || IsSquare (p1, p3, p2, p4) || IsSquare (p1, p3, p4, p2)) {
+            if (IsSquare(p1, p2, p3, p4) || IsSquare(p1, p2, p4, p3) || IsSquare(p1, p3, p2, p4) || IsSquare(p1, p3, p4, p2))
+            {
                 result = true;
             }
 
             return result;
         }
 
-        public bool IsValidPoint (int[] p) {
+        public bool IsValidPoint(int[] p)
+        {
             bool result = true;
 
-            if (p == null || p.Length != 2) {
+            if (p == null || p.Length != 2)
+            {
                 return false;
             }
 
-            for (int i = 0; i < p.Length; i++) {
-                if (p[i] < -10000 || p[i] > 10000) {
+            for (int i = 0; i < p.Length; i++)
+            {
+                if (p[i] < -10000 || p[i] > 10000)
+                {
                     result = false;
                     break;
                 }
@@ -61,25 +71,29 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem593 {
             return result;
         }
 
-        public double CalculatePointsDistance (int[] x, int[] y) {
-            return Math.Sqrt (Math.Pow (Math.Abs (x[0] - y[0]), 2) + Math.Pow (Math.Abs (x[1] - y[1]), 2));
+        public double CalculatePointsDistance(int[] x, int[] y)
+        {
+            return Math.Sqrt(Math.Pow(Math.Abs(x[0] - y[0]), 2) + Math.Pow(Math.Abs(x[1] - y[1]), 2));
         }
 
-        public bool IsSquare (int[] p1, int[] p2, int[] p3, int[] p4) {
+        public bool IsSquare(int[] p1, int[] p2, int[] p3, int[] p4)
+        {
             bool result = false;
 
-            double s1 = CalculatePointsDistance (p1, p2);
-            double s2 = CalculatePointsDistance (p2, p3);
-            double s3 = CalculatePointsDistance (p3, p4);
-            double s4 = CalculatePointsDistance (p1, p4);
-            double d1 = CalculatePointsDistance (p1, p3);
-            double d2 = CalculatePointsDistance (p2, p4);
+            double s1 = CalculatePointsDistance(p1, p2);
+            double s2 = CalculatePointsDistance(p2, p3);
+            double s3 = CalculatePointsDistance(p3, p4);
+            double s4 = CalculatePointsDistance(p1, p4);
+            double d1 = CalculatePointsDistance(p1, p3);
+            double d2 = CalculatePointsDistance(p2, p4);
 
-            if (s1 == 0 || s2 == 0 || s3 == 0 || s4 == 0 || d1 == 0 || d2 == 0) {
+            if (s1 == 0 || s2 == 0 || s3 == 0 || s4 == 0 || d1 == 0 || d2 == 0)
+            {
                 return false;
             }
 
-            if (s1 == s2 && s2 == s3 && s3 == s4 && s4 == s1 && d1 == d2) {
+            if (s1 == s2 && s2 == s3 && s3 == s4 && s4 == s1 && d1 == d2)
+            {
                 result = true;
             }
 

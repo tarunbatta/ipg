@@ -46,20 +46,26 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem900 {
-    public class Solution {
-        public void Init () {
-            RLEIterator obj = new RLEIterator (null);
-            int param_1 = obj.Next (0);
+namespace InterviewPreperationGuide.Core.LeetCode.problem900
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            RLEIterator obj = new RLEIterator(null);
+            int param_1 = obj.Next(0);
         }
     }
 
-    public class RLEIterator {
-        public RLEIterator (int[] A) {
+    public class RLEIterator
+    {
+        public RLEIterator(int[] A)
+        {
 
         }
 
-        public int Next (int n) {
+        public int Next(int n)
+        {
             return 0;
         }
     }

@@ -53,13 +53,17 @@ Note:
 using System;
 using System.Collections.Generic;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem756 {
-    public class Solution {
-        public void Init () {
-            Console.WriteLine ();
+namespace InterviewPreperationGuide.Core.LeetCode.problem756
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            Console.WriteLine();
         }
 
-        public bool PyramidTransition (string bottom, IList<string> allowed) {
+        public bool PyramidTransition(string bottom, IList<string> allowed)
+        {
             return false;
         }
     }

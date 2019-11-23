@@ -34,10 +34,12 @@ Return a NestedInteger object containing a nested list with 2 elements:
 using System;
 using System.Collections.Generic;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem385 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem385
+{
     // This is the interface that allows for creating nested lists.
     // You should not implement it, or speculate about its implementation
-    public interface NestedInteger {
+    public interface NestedInteger
+    {
         // Constructor initializes an empty nested list.
         // NestedInteger();
 
@@ -45,29 +47,32 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem385 {
         // NestedInteger(int value);
 
         // @return true if this NestedInteger holds a single integer, rather than a nested list.
-        bool IsInteger ();
+        bool IsInteger();
 
         // @return the single integer that this NestedInteger holds, if it holds a single integer
         // Return null if this NestedInteger holds a nested list
-        int GetInteger ();
+        int GetInteger();
 
         // Set this NestedInteger to hold a single integer.
-        void SetInteger (int value);
+        void SetInteger(int value);
 
         // Set this NestedInteger to hold a nested list and adds a nested integer to it.
-        void Add (NestedInteger ni);
+        void Add(NestedInteger ni);
 
         // @return the nested list that this NestedInteger holds, if it holds a nested list
         // Return null if this NestedInteger holds a single integer
-        IList<NestedInteger> GetList ();
+        IList<NestedInteger> GetList();
     }
 
-    public class Solution {
-        public void Init () {
-            Console.WriteLine ();
+    public class Solution
+    {
+        public void Init()
+        {
+            Console.WriteLine();
         }
 
-        public NestedInteger Deserialize (string s) {
+        public NestedInteger Deserialize(string s)
+        {
             return null;
         }
     }

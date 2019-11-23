@@ -35,13 +35,17 @@ Both numbers with value 2 are both considered as second maximum.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem414 {
-    public class Solution {
-        public void Init () {
-            Console.WriteLine ();
+namespace InterviewPreperationGuide.Core.LeetCode.problem414
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            Console.WriteLine();
         }
 
-        public int ThirdMax (int[] nums) {
+        public int ThirdMax(int[] nums)
+        {
             return 0;
         }
     }

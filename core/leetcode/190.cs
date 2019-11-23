@@ -28,18 +28,23 @@ If this function is called many times, how would you optimize it?
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem190 {
-    public class Solution {
-        public void Init () {
-            Console.WriteLine (reverseBits (0));
-            Console.WriteLine (reverseBits (43261596));
-            Console.WriteLine (reverseBits (4294967293));
+namespace InterviewPreperationGuide.Core.LeetCode.problem190
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            Console.WriteLine(reverseBits(0));
+            Console.WriteLine(reverseBits(43261596));
+            Console.WriteLine(reverseBits(4294967293));
         }
 
-        public uint reverseBits (uint n) {
+        public uint reverseBits(uint n)
+        {
             uint result = 0;
 
-            for (int i = 0; i < 32; i++) {
+            for (int i = 0; i < 32; i++)
+            {
                 result <<= 1;
                 result += (n & 1);
                 n >>= 1;

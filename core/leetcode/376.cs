@@ -35,13 +35,17 @@ Can you do it in O(n) time?
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem376 {
-    public class Solution {
-        public void Init () {
-            Console.WriteLine ();
+namespace InterviewPreperationGuide.Core.LeetCode.problem376
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            Console.WriteLine();
         }
 
-        public int WiggleMaxLength (int[] nums) {
+        public int WiggleMaxLength(int[] nums)
+        {
             return 0;
         }
     }

@@ -35,13 +35,17 @@ You need to output 2.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem455 {
-    public class Solution {
-        public void Init () {
-            Console.WriteLine ();
+namespace InterviewPreperationGuide.Core.LeetCode.problem455
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            Console.WriteLine();
         }
 
-        public int FindContentChildren (int[] g, int[] s) {
+        public int FindContentChildren(int[] g, int[] s)
+        {
             return 0;
         }
     }

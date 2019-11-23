@@ -32,13 +32,17 @@ The length of words[i] will be in the range [1, 30].
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem720 {
-    public class Solution {
-        public void Init () {
-            Console.WriteLine ();
+namespace InterviewPreperationGuide.Core.LeetCode.problem720
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            Console.WriteLine();
         }
 
-        public string LongestWord (string[] words) {
+        public string LongestWord(string[] words)
+        {
             return null;
         }
     }

@@ -26,13 +26,17 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem795 {
-    public class Solution {
-        public void Init () {
-            Console.WriteLine ();
+namespace InterviewPreperationGuide.Core.LeetCode.problem795
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            Console.WriteLine();
         }
 
-        public int NumSubarrayBoundedMax (int[] A, int L, int R) {
+        public int NumSubarrayBoundedMax(int[] A, int L, int R)
+        {
             return 0;
         }
     }

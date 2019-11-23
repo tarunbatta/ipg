@@ -19,36 +19,46 @@ Note: You may assume the string contain only lowercase letters.
 using System;
 using System.Collections;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem387 {
-    public class Solution {
-        public void Init () {
-            Console.WriteLine (FirstUniqChar (null));
-            Console.WriteLine (FirstUniqChar ("leetcode"));
-            Console.WriteLine (FirstUniqChar ("loveleetcode"));
+namespace InterviewPreperationGuide.Core.LeetCode.problem387
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            Console.WriteLine(FirstUniqChar(null));
+            Console.WriteLine(FirstUniqChar("leetcode"));
+            Console.WriteLine(FirstUniqChar("loveleetcode"));
         }
 
-        public int FirstUniqChar (string s) {
+        public int FirstUniqChar(string s)
+        {
             int result = -1;
 
-            if (s == null || s.Length == 0) {
+            if (s == null || s.Length == 0)
+            {
                 return result;
             }
 
-            if (s.Length == 0) {
+            if (s.Length == 0)
+            {
                 return 0;
             }
 
-            Hashtable hash = new Hashtable ();
-            for (int i = 0; i < s.Length; i++) {
-                if (!hash.ContainsKey (s[i])) {
-                    hash.Add (s[i], 0);
+            Hashtable hash = new Hashtable();
+            for (int i = 0; i < s.Length; i++)
+            {
+                if (!hash.ContainsKey(s[i]))
+                {
+                    hash.Add(s[i], 0);
                 }
 
-                hash[s[i]] = (int) hash[s[i]] + 1;
+                hash[s[i]] = (int)hash[s[i]] + 1;
             }
 
-            for (int i = 0; i < s.Length; i++) {
-                if ((int) hash[s[i]] == 1) {
+            for (int i = 0; i < s.Length; i++)
+            {
+                if ((int)hash[s[i]] == 1)
+                {
                     result = i;
                     break;
                 }

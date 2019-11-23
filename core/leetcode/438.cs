@@ -39,13 +39,17 @@ The substring with start index = 2 is "ab", which is an anagram of "ab".
 using System;
 using System.Collections.Generic;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem438 {
-    public class Solution {
-        public void Init () {
-            Console.WriteLine ();
+namespace InterviewPreperationGuide.Core.LeetCode.problem438
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            Console.WriteLine();
         }
 
-        public IList<int> FindAnagrams (string s, string p) {
+        public IList<int> FindAnagrams(string s, string p)
+        {
             return null;
         }
     }

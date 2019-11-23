@@ -49,14 +49,18 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem857 {
-	public class Solution {
-		public void Init () {
+namespace InterviewPreperationGuide.Core.LeetCode.problem857
+{
+    public class Solution
+    {
+        public void Init()
+        {
 
-		}
+        }
 
-		public double MincostToHireWorkers (int[] quality, int[] wage, int K) {
-			return 0;
-		}
-	}
+        public double MincostToHireWorkers(int[] quality, int[] wage, int K)
+        {
+            return 0;
+        }
+    }
 }

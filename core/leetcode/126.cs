@@ -50,13 +50,17 @@ Explanation: The endWord "cog" is not in wordList, therefore no possible transfo
 using System;
 using System.Collections.Generic;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem126 {
-    public class Solution {
-        public void Init () {
-            Console.WriteLine ();
+namespace InterviewPreperationGuide.Core.LeetCode.problem126
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            Console.WriteLine();
         }
 
-        public IList<IList<string>> FindLadders (string beginWord, string endWord, IList<string> wordList) {
+        public IList<IList<string>> FindLadders(string beginWord, string endWord, IList<string> wordList)
+        {
             return null;
         }
     }

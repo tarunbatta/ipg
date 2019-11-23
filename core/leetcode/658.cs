@@ -39,13 +39,17 @@ The arr parameter had been changed to an array of integers (instead of a list of
 using System;
 using System.Collections.Generic;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem658 {
-    public class Solution {
-        public void Init () {
-            Console.WriteLine ();
+namespace InterviewPreperationGuide.Core.LeetCode.problem658
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            Console.WriteLine();
         }
 
-        public IList<int> FindClosestElements (int[] arr, int k, int x) {
+        public IList<int> FindClosestElements(int[] arr, int k, int x)
+        {
             return null;
         }
     }

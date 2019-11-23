@@ -33,13 +33,17 @@ Your solution should be in logarithmic complexity.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem162 {
-    public class Solution {
-        public void Init () {
-            Console.WriteLine ();
+namespace InterviewPreperationGuide.Core.LeetCode.problem162
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            Console.WriteLine();
         }
 
-        public int FindPeakElement (int[] nums) {
+        public int FindPeakElement(int[] nums)
+        {
             return 0;
         }
     }

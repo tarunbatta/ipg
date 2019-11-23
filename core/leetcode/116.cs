@@ -42,28 +42,35 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem116 {
-    public class Solution {
-        public void Init () {
-            Console.WriteLine ();
+namespace InterviewPreperationGuide.Core.LeetCode.problem116
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            Console.WriteLine();
         }
 
-        public Node Connect (Node root) {
+        public Node Connect(Node root)
+        {
             return null;
         }
     }
 
-    public class Node {
+    public class Node
+    {
         public int val;
         public Node left;
         public Node right;
         public Node next;
 
-        public Node () {
+        public Node()
+        {
 
         }
 
-        public Node (int _val, Node _left, Node _right, Node _next) {
+        public Node(int _val, Node _left, Node _right, Node _next)
+        {
             val = _val;
             left = _left;
             right = _right;

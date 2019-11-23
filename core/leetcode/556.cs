@@ -25,13 +25,17 @@ Output: -1
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem556 {
-    public class Solution {
-        public void Init () {
-            Console.WriteLine ();
+namespace InterviewPreperationGuide.Core.LeetCode.problem556
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            Console.WriteLine();
         }
 
-        public int NextGreaterElement (int n) {
+        public int NextGreaterElement(int n)
+        {
             return 0;
         }
     }

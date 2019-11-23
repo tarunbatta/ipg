@@ -60,13 +60,17 @@ Constraints:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem1155 {
-    public class Solution {
-        public void Init () {
-            Console.WriteLine ();
+namespace InterviewPreperationGuide.Core.LeetCode.problem1155
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            Console.WriteLine();
         }
 
-        public int NumRollsToTarget (int d, int f, int target) {
+        public int NumRollsToTarget(int d, int f, int target)
+        {
             return 0;
         }
     }

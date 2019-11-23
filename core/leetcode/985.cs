@@ -40,13 +40,17 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem985 {
-    public class Solution {
-        public void Init () {
-            Console.WriteLine ();
+namespace InterviewPreperationGuide.Core.LeetCode.problem985
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            Console.WriteLine();
         }
 
-        public int[] SumEvenAfterQueries (int[] A, int[][] queries) {
+        public int[] SumEvenAfterQueries(int[] A, int[][] queries)
+        {
             return null;
         }
     }

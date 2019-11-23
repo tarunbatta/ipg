@@ -54,13 +54,17 @@ Follow up:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem844 {
-    public class Solution {
-        public void Init () {
-            Console.WriteLine ();
+namespace InterviewPreperationGuide.Core.LeetCode.problem844
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            Console.WriteLine();
         }
 
-        public bool BackspaceCompare (string S, string T) {
+        public bool BackspaceCompare(string S, string T)
+        {
             return false;
         }
     }

@@ -32,13 +32,17 @@ The length of the given matchstick array will not exceed 15.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem473 {
-    public class Solution {
-        public void Init () {
-            Console.WriteLine ();
+namespace InterviewPreperationGuide.Core.LeetCode.problem473
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            Console.WriteLine();
         }
 
-        public bool Makesquare (int[] nums) {
+        public bool Makesquare(int[] nums)
+        {
             return false;
         }
     }

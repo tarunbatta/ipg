@@ -58,13 +58,17 @@ Note:
 using System;
 using System.Collections.Generic;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem989 {
-    public class Solution {
-        public void Init () {
-            Console.WriteLine ();
+namespace InterviewPreperationGuide.Core.LeetCode.problem989
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            Console.WriteLine();
         }
 
-        public IList<int> AddToArrayForm (int[] A, int K) {
+        public IList<int> AddToArrayForm(int[] A, int K)
+        {
             return null;
         }
     }

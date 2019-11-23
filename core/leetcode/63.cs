@@ -34,13 +34,17 @@ There are two ways to reach the bottom-right corner:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem63 {
-    public class Solution {
-        public void Init () {
-            Console.WriteLine ();
+namespace InterviewPreperationGuide.Core.LeetCode.problem63
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            Console.WriteLine();
         }
 
-        public int UniquePathsWithObstacles (int[][] obstacleGrid) {
+        public int UniquePathsWithObstacles(int[][] obstacleGrid)
+        {
             return 0;
         }
     }

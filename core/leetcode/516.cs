@@ -29,13 +29,17 @@ One possible longest palindromic subsequence is "bb".
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem516 {
-    public class Solution {
-        public void Init () {
-            Console.WriteLine ();
+namespace InterviewPreperationGuide.Core.LeetCode.problem516
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            Console.WriteLine();
         }
 
-        public int LongestPalindromeSubseq (string s) {
+        public int LongestPalindromeSubseq(string s)
+        {
             return 0;
         }
     }

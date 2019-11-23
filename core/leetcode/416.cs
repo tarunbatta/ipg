@@ -40,13 +40,17 @@ Explanation: The array cannot be partitioned into equal sum subsets.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem416 {
-    public class Solution {
-        public void Init () {
-            Console.WriteLine ();
+namespace InterviewPreperationGuide.Core.LeetCode.problem416
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            Console.WriteLine();
         }
 
-        public bool CanPartition (int[] nums) {
+        public bool CanPartition(int[] nums)
+        {
             return false;
         }
     }

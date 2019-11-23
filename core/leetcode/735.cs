@@ -55,13 +55,17 @@ Each asteroid will be a non-zero integer in the range [-1000, 1000]..
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem735 {
-    public class Solution {
-        public void Init () {
-            Console.WriteLine ();
+namespace InterviewPreperationGuide.Core.LeetCode.problem735
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            Console.WriteLine();
         }
 
-        public int[] AsteroidCollision (int[] asteroids) {
+        public int[] AsteroidCollision(int[] asteroids)
+        {
             return null;
         }
     }

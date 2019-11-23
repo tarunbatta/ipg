@@ -24,25 +24,30 @@ Output: "45"
 using System;
 using System.Collections.Generic;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem423 {
-    public class Solution {
-        public void Init () {
-            Console.WriteLine (OriginalDigits_a ("owoztneoer"));
-            Console.WriteLine (OriginalDigits_a ("fviefuro"));
-            Console.WriteLine (OriginalDigits_a ("zeroonetwothreefourfivesixseveneightnine"));
+namespace InterviewPreperationGuide.Core.LeetCode.problem423
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            Console.WriteLine(OriginalDigits_a("owoztneoer"));
+            Console.WriteLine(OriginalDigits_a("fviefuro"));
+            Console.WriteLine(OriginalDigits_a("zeroonetwothreefourfivesixseveneightnine"));
 
-            Console.WriteLine (OriginalDigits_b ("owoztneoer"));
-            Console.WriteLine (OriginalDigits_b ("fviefuro"));
-            Console.WriteLine (OriginalDigits_b ("zeroonetwothreefourfivesixseveneightnine"));
+            Console.WriteLine(OriginalDigits_b("owoztneoer"));
+            Console.WriteLine(OriginalDigits_b("fviefuro"));
+            Console.WriteLine(OriginalDigits_b("zeroonetwothreefourfivesixseveneightnine"));
         }
 
-        public string OriginalDigits_a (string s) {
+        public string OriginalDigits_a(string s)
+        {
             string result = string.Empty;
 
             string[] word = { "zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine" };
 
             int[] count = new int[26];
-            foreach (char c in s) {
+            foreach (char c in s)
+            {
                 count[c - 'a']++;
             }
 
@@ -54,8 +59,10 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem423 {
             res[8] = count['g' - 'a'];
 
             int i = 0;
-            while (i <= 8) {
-                foreach (char item in word[i]) {
+            while (i <= 8)
+            {
+                foreach (char item in word[i])
+                {
                     count[item - 'a'] -= res[i];
                 }
                 i += 2;
@@ -67,8 +74,10 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem423 {
             res[7] = count['s' - 'a'];
 
             i = 1;
-            while (i <= 7) {
-                foreach (char item in word[i]) {
+            while (i <= 7)
+            {
+                foreach (char item in word[i])
+                {
                     count[item - 'a'] -= res[i];
                 }
                 i += 2;
@@ -76,25 +85,30 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem423 {
 
             res[9] = count['i' - 'a'];
 
-            StringBuilder sb = new StringBuilder ();
+            StringBuilder sb = new StringBuilder();
 
-            for (i = 0; i < 10; i++) {
-                for (int j = 0; j < res[i]; j++) {
-                    sb.Append (i);
+            for (i = 0; i < 10; i++)
+            {
+                for (int j = 0; j < res[i]; j++)
+                {
+                    sb.Append(i);
                 }
             }
 
-            result = sb.ToString ();
+            result = sb.ToString();
 
             return result;
         }
 
-        public string OriginalDigits_b (string s) {
-            char[] sc = s.ToCharArray ();
+        public string OriginalDigits_b(string s)
+        {
+            char[] sc = s.ToCharArray();
             int[] count = new int[10];
 
-            foreach (char c in sc) {
-                switch (c) {
+            foreach (char c in sc)
+            {
+                switch (c)
+                {
                     case 'z':
                         count[0]++;
                         break; // zero
@@ -134,14 +148,16 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem423 {
             count[3] = count[3] - count[2] - count[8];
             count[9] = count[9] - count[5] - count[6] - count[8];
 
-            StringBuilder sb = new StringBuilder ();
-            for (int i = 0; i < 10; i++) {
-                for (int j = 0; j < count[i]; j++) {
-                    sb.Append (i);
+            StringBuilder sb = new StringBuilder();
+            for (int i = 0; i < 10; i++)
+            {
+                for (int j = 0; j < count[i]; j++)
+                {
+                    sb.Append(i);
                 }
             }
 
-            return sb.ToString ();
+            return sb.ToString();
         }
     }
 }

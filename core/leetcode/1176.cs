@@ -57,13 +57,17 @@ Constraints:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem1176 {
-    public class Solution {
-        public void Init () {
-            Console.WriteLine ();
+namespace InterviewPreperationGuide.Core.LeetCode.problem1176
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            Console.WriteLine();
         }
 
-        public int DietPlanPerformance (int[] calories, int k, int lower, int upper) {
+        public int DietPlanPerformance(int[] calories, int k, int lower, int upper)
+        {
             return 0;
         }
     }

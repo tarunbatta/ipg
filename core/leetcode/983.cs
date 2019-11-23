@@ -59,14 +59,18 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem983 {
-	public class Solution {
-		public void Init () {
+namespace InterviewPreperationGuide.Core.LeetCode.problem983
+{
+    public class Solution
+    {
+        public void Init()
+        {
 
-		}
+        }
 
-		public int MincostTickets (int[] days, int[] costs) {
-			return 0;
-		}
-	}
+        public int MincostTickets(int[] days, int[] costs)
+        {
+            return 0;
+        }
+    }
 }

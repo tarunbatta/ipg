@@ -36,13 +36,17 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem576 {
-    public class Solution {
-        public void Init () {
-            Console.WriteLine ();
+namespace InterviewPreperationGuide.Core.LeetCode.problem576
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            Console.WriteLine();
         }
 
-        public int FindPaths (int m, int n, int N, int i, int j) {
+        public int FindPaths(int m, int n, int N, int i, int j)
+        {
             return 0;
         }
     }

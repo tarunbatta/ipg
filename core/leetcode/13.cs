@@ -51,45 +51,56 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem13 {
-    public class Solution {
-        public void Init () {
-            Console.WriteLine (RomanToInt (null));
-            Console.WriteLine (RomanToInt ("IX"));
-            Console.WriteLine (RomanToInt ("VI"));
-            Console.WriteLine (RomanToInt ("MDCLIX"));
-            Console.WriteLine (RomanToInt ("MDCIL"));
+namespace InterviewPreperationGuide.Core.LeetCode.problem13
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            Console.WriteLine(RomanToInt(null));
+            Console.WriteLine(RomanToInt("IX"));
+            Console.WriteLine(RomanToInt("VI"));
+            Console.WriteLine(RomanToInt("MDCLIX"));
+            Console.WriteLine(RomanToInt("MDCIL"));
         }
 
-        public int RomanToInt (string s) {
+        public int RomanToInt(string s)
+        {
             int result = 0;
 
-            if (string.IsNullOrEmpty (s)) {
+            if (string.IsNullOrEmpty(s))
+            {
                 return result;
             }
 
-            Hashtable hash = new Hashtable ();
-            hash.Add ('I', 1);
-            hash.Add ('V', 5);
-            hash.Add ('X', 10);
-            hash.Add ('L', 50);
-            hash.Add ('C', 100);
-            hash.Add ('D', 500);
-            hash.Add ('M', 1000);
+            Hashtable hash = new Hashtable();
+            hash.Add('I', 1);
+            hash.Add('V', 5);
+            hash.Add('X', 10);
+            hash.Add('L', 50);
+            hash.Add('C', 100);
+            hash.Add('D', 500);
+            hash.Add('M', 1000);
 
-            for (int i = 0; i < s.Length; i++) {
-                if (!hash.ContainsKey ((char) s[i])) {
+            for (int i = 0; i < s.Length; i++)
+            {
+                if (!hash.ContainsKey((char)s[i]))
+                {
                     return result;
                 }
             }
 
-            result = (int) hash[s[s.Length - 1]];
+            result = (int)hash[s[s.Length - 1]];
 
-            for (int i = s.Length - 2; i >= 0; i--) {
-                if ((int) hash[s[i + 1]] > (int) hash[s[i]]) {
-                    result -= (int) hash[s[i]];
-                } else {
-                    result += (int) hash[s[i]];
+            for (int i = s.Length - 2; i >= 0; i--)
+            {
+                if ((int)hash[s[i + 1]] > (int)hash[s[i]])
+                {
+                    result -= (int)hash[s[i]];
+                }
+                else
+                {
+                    result += (int)hash[s[i]];
                 }
             }
 

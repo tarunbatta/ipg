@@ -26,13 +26,17 @@ The median is (2 + 3)/2 = 2.5
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem4 {
-    public class Solution {
-        public void Init () {
-            Console.WriteLine ();
+namespace InterviewPreperationGuide.Core.LeetCode.problem4
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            Console.WriteLine();
         }
 
-        public double FindMedianSortedArrays (int[] nums1, int[] nums2) {
+        public double FindMedianSortedArrays(int[] nums1, int[] nums2)
+        {
             return 0;
         }
     }

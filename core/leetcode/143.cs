@@ -20,22 +20,28 @@ Given 1->2->3->4->5, reorder it to 1->5->2->4->3.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem143 {
-    public class Solution {
-        public void Init () {
-            Console.WriteLine ();
+namespace InterviewPreperationGuide.Core.LeetCode.problem143
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            Console.WriteLine();
         }
 
-        public void ReorderList (ListNode head) {
+        public void ReorderList(ListNode head)
+        {
 
         }
     }
 
-    public class ListNode {
+    public class ListNode
+    {
         public int val;
         public ListNode next;
 
-        public ListNode (int x) {
+        public ListNode(int x)
+        {
             val = x;
         }
     }

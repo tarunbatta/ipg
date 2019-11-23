@@ -28,13 +28,17 @@ The maximum length of the string is 50000.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem680 {
-    public class Solution {
-        public void Init () {
-            Console.WriteLine ();
+namespace InterviewPreperationGuide.Core.LeetCode.problem680
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            Console.WriteLine();
         }
 
-        public bool ValidPalindrome (string s) {
+        public bool ValidPalindrome(string s)
+        {
             return false;
         }
     }

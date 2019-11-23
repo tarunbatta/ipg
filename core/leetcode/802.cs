@@ -32,13 +32,17 @@ Note:
 using System;
 using System.Collections.Generic;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem802 {
-    public class Solution {
-        public void Init () {
-            Console.WriteLine ();
+namespace InterviewPreperationGuide.Core.LeetCode.problem802
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            Console.WriteLine();
         }
 
-        public IList<int> EventualSafeNodes (int[][] graph) {
+        public IList<int> EventualSafeNodes(int[][] graph)
+        {
             return null;
         }
     }

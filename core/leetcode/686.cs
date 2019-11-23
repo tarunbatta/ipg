@@ -16,13 +16,17 @@ The length of A and B will be between 1 and 10000.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem686 {
-    public class Solution {
-        public void Init () {
-            Console.WriteLine ();
+namespace InterviewPreperationGuide.Core.LeetCode.problem686
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            Console.WriteLine();
         }
 
-        public int RepeatedStringMatch (string A, string B) {
+        public int RepeatedStringMatch(string A, string B)
+        {
             return 0;
         }
     }

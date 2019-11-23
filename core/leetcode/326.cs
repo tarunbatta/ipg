@@ -33,21 +33,27 @@ Could you do it without using any loop / recursion?
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem326 {
-    public class Solution {
-        public void Init () {
-            Console.WriteLine (IsPowerOfThree (27));
-            Console.WriteLine (IsPowerOfThree (0));
-            Console.WriteLine (IsPowerOfThree (9));
-            Console.WriteLine (IsPowerOfThree (45));
+namespace InterviewPreperationGuide.Core.LeetCode.problem326
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            Console.WriteLine(IsPowerOfThree(27));
+            Console.WriteLine(IsPowerOfThree(0));
+            Console.WriteLine(IsPowerOfThree(9));
+            Console.WriteLine(IsPowerOfThree(45));
         }
 
-        public bool IsPowerOfThree (int n) {
-            if (n < 1) {
+        public bool IsPowerOfThree(int n)
+        {
+            if (n < 1)
+            {
                 return false;
             }
 
-            while (n % 3 == 0) {
+            while (n % 3 == 0)
+            {
                 n /= 3;
             }
 

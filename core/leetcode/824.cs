@@ -48,14 +48,18 @@ Notes:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem824 {
-	public class Solution {
-		public void Init () {
+namespace InterviewPreperationGuide.Core.LeetCode.problem824
+{
+    public class Solution
+    {
+        public void Init()
+        {
 
-		}
+        }
 
-		public string ToGoatLatin (string S) {
-			return null;
-		}
-	}
+        public string ToGoatLatin(string S)
+        {
+            return null;
+        }
+    }
 }

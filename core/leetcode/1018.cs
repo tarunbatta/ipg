@@ -46,13 +46,17 @@ Note:
 using System;
 using System.Collections.Generic;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem1018 {
-    public class Solution {
-        public void Init () {
-            Console.WriteLine ();
+namespace InterviewPreperationGuide.Core.LeetCode.problem1018
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            Console.WriteLine();
         }
 
-        public IList<bool> PrefixesDivBy5 (int[] A) {
+        public IList<bool> PrefixesDivBy5(int[] A)
+        {
             return null;
         }
     }

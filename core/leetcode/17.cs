@@ -24,13 +24,17 @@ Although the above answer is in lexicographical order, your answer could be in a
 using System;
 using System.Collections.Generic;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem17 {
-    public class Solution {
-        public void Init () {
-            Console.WriteLine ();
+namespace InterviewPreperationGuide.Core.LeetCode.problem17
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            Console.WriteLine();
         }
 
-        public IList<string> LetterCombinations (string digits) {
+        public IList<string> LetterCombinations(string digits)
+        {
             return null;
         }
     }

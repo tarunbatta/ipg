@@ -35,13 +35,17 @@ The value of n won't exceed 100,000.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem552 {
-    public class Solution {
-        public void Init () {
-            Console.WriteLine ();
+namespace InterviewPreperationGuide.Core.LeetCode.problem552
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            Console.WriteLine();
         }
 
-        public int CheckRecord (int n) {
+        public int CheckRecord(int n)
+        {
             return 0;
         }
     }

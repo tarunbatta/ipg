@@ -64,13 +64,17 @@ Throughout the described process, there is always a contiguous viral region that
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem749 {
-    public class Solution {
-        public void Init () {
-            Console.WriteLine ();
+namespace InterviewPreperationGuide.Core.LeetCode.problem749
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            Console.WriteLine();
         }
 
-        public int ContainVirus (int[][] grid) {
+        public int ContainVirus(int[][] grid)
+        {
             return 0;
         }
     }

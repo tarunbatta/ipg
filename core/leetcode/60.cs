@@ -40,14 +40,18 @@ Output: "2314"
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem60 {
-	public class Solution {
-		public void Init () {
+namespace InterviewPreperationGuide.Core.LeetCode.problem60
+{
+    public class Solution
+    {
+        public void Init()
+        {
 
-		}
+        }
 
-		public string GetPermutation (int n, int k) {
-			return null;
-		}
-	}
+        public string GetPermutation(int n, int k)
+        {
+            return null;
+        }
+    }
 }

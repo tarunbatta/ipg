@@ -38,20 +38,26 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem729 {
-    public class Solution {
-        public void Init () {
-            MyCalendar obj = new MyCalendar ();
-            bool param_1 = obj.Book (0, 0);
+namespace InterviewPreperationGuide.Core.LeetCode.problem729
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            MyCalendar obj = new MyCalendar();
+            bool param_1 = obj.Book(0, 0);
         }
     }
 
-    public class MyCalendar {
-        public MyCalendar () {
+    public class MyCalendar
+    {
+        public MyCalendar()
+        {
 
         }
 
-        public bool Book (int start, int end) {
+        public bool Book(int start, int end)
+        {
             return false;
         }
     }

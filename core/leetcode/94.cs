@@ -22,23 +22,29 @@ Follow up: Recursive solution is trivial, could you do it iteratively?
 
 using System;
 using System.Collections.Generic;
-namespace InterviewPreperationGuide.Core.LeetCode.problem94 {
-    public class Solution {
-        public void Init () {
-            Console.WriteLine ();
+namespace InterviewPreperationGuide.Core.LeetCode.problem94
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            Console.WriteLine();
         }
 
-        public IList<int> InorderTraversal (TreeNode root) {
+        public IList<int> InorderTraversal(TreeNode root)
+        {
             return null;
         }
     }
 
-    public class TreeNode {
+    public class TreeNode
+    {
         public int val;
         public TreeNode left;
         public TreeNode right;
 
-        public TreeNode (int x) {
+        public TreeNode(int x)
+        {
             val = x;
         }
     }

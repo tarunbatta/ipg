@@ -33,42 +33,49 @@ Output: 20
 using System;
 using System.Collections.Generic;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem1167 {
-    public class Solution {
-        public void Init () {
-            Console.WriteLine (connectRopes (null));
-            Console.WriteLine (connectRopes (new int[] { }));
-            Console.WriteLine (connectRopes (new int[] { 20, 4, 8, 2 }));
-            Console.WriteLine (connectRopes (new int[] { 1, 2, 5, 10, 35, 89 }));
-            Console.WriteLine (connectRopes (new int[] { 2, 2, 3, 3 }));
+namespace InterviewPreperationGuide.Core.LeetCode.problem1167
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            Console.WriteLine(connectRopes(null));
+            Console.WriteLine(connectRopes(new int[] { }));
+            Console.WriteLine(connectRopes(new int[] { 20, 4, 8, 2 }));
+            Console.WriteLine(connectRopes(new int[] { 1, 2, 5, 10, 35, 89 }));
+            Console.WriteLine(connectRopes(new int[] { 2, 2, 3, 3 }));
         }
 
-        public int connectRopes (int[] ropes) {
-            if (ropes == null || ropes.Length == 0) {
+        public int connectRopes(int[] ropes)
+        {
+            if (ropes == null || ropes.Length == 0)
+            {
                 return 0;
             }
 
-            List<int> priorityQueue = new List<int> ();
+            List<int> priorityQueue = new List<int>();
 
-            foreach (int rope in ropes) {
-                priorityQueue.Add (rope);
+            foreach (int rope in ropes)
+            {
+                priorityQueue.Add(rope);
             }
 
-            priorityQueue.Sort ();
+            priorityQueue.Sort();
 
             int result = 0;
 
-            while (priorityQueue.Count > 1) {
-                int rope1 = priorityQueue.First ();
-                priorityQueue.Remove (priorityQueue.First ());
-                int rope2 = priorityQueue.First ();
-                priorityQueue.Remove (priorityQueue.First ());
+            while (priorityQueue.Count > 1)
+            {
+                int rope1 = priorityQueue.First();
+                priorityQueue.Remove(priorityQueue.First());
+                int rope2 = priorityQueue.First();
+                priorityQueue.Remove(priorityQueue.First());
 
                 int newRope = rope1 + rope2;
                 result += newRope;
-                priorityQueue.Add (newRope);
+                priorityQueue.Add(newRope);
 
-                priorityQueue.Sort ();
+                priorityQueue.Sort();
             }
 
             return result;

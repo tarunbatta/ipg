@@ -54,13 +54,17 @@ Every string in deadends and the string target will be a string of 4 digits from
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem752 {
-    public class Solution {
-        public void Init () {
-            Console.WriteLine ();
+namespace InterviewPreperationGuide.Core.LeetCode.problem752
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            Console.WriteLine();
         }
 
-        public int OpenLock (string[] deadends, string target) {
+        public int OpenLock(string[] deadends, string target)
+        {
             return 0;
         }
     }

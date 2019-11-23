@@ -50,13 +50,17 @@ You can assume that
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem518 {
-    public class Solution {
-        public void Init () {
-            Console.WriteLine ();
+namespace InterviewPreperationGuide.Core.LeetCode.problem518
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            Console.WriteLine();
         }
 
-        public int Change (int amount, int[] coins) {
+        public int Change(int amount, int[] coins)
+        {
             return 0;
         }
     }

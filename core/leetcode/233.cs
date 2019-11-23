@@ -15,13 +15,17 @@ Explanation: Digit 1 occurred in the following numbers: 1, 10, 11, 12, 13.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem233 {
-    public class Solution {
-        public void Init () {
-            Console.WriteLine ();
+namespace InterviewPreperationGuide.Core.LeetCode.problem233
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            Console.WriteLine();
         }
 
-        public int CountDigitOne (int n) {
+        public int CountDigitOne(int n)
+        {
             return 0;
         }
     }

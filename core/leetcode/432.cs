@@ -21,39 +21,48 @@ Challenge: Perform all these in O(1) time complexity.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem432 {
-    public class Solution {
-        public void Init () {
-            AllOne obj = new AllOne ();
-            obj.Inc (null);
-            obj.Dec (null);
-            string param_3 = obj.GetMaxKey ();
-            string param_4 = obj.GetMinKey ();
+namespace InterviewPreperationGuide.Core.LeetCode.problem432
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            AllOne obj = new AllOne();
+            obj.Inc(null);
+            obj.Dec(null);
+            string param_3 = obj.GetMaxKey();
+            string param_4 = obj.GetMinKey();
         }
     }
 
-    public class AllOne {  
-        public AllOne () {
+    public class AllOne
+    {
+        public AllOne()
+        {
 
-        }    
+        }
 
         // Inserts a new key <Key> with value 1. Or increments an existing key by 1
-        public void Inc (string key) {
+        public void Inc(string key)
+        {
 
-        }    
+        }
 
         // Decrements an existing key by 1. If Key's value is 1, remove it from the data structure
-        public void Dec (string key) {
+        public void Dec(string key)
+        {
 
-        }   
+        }
 
         //  Returns one of the keys with maximal value
-        public string GetMaxKey () {
+        public string GetMaxKey()
+        {
             return null;
-        }   
+        }
 
         //  Returns one of the keys with Minimal value
-        public string GetMinKey () {
+        public string GetMinKey()
+        {
             return null;
         }
     }

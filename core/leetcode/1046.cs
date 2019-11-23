@@ -34,34 +34,42 @@ Note:
 using System;
 using System.Collections.Generic;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem1046 {
-    public class Solution {
-        public void Init () {
-            Console.WriteLine (LastStoneWeight (null));
-            Console.WriteLine (LastStoneWeight (new int[] { 2, 7, 4, 1, 8, 1 }));
+namespace InterviewPreperationGuide.Core.LeetCode.problem1046
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            Console.WriteLine(LastStoneWeight(null));
+            Console.WriteLine(LastStoneWeight(new int[] { 2, 7, 4, 1, 8, 1 }));
         }
 
-        public int LastStoneWeight (int[] stones) {
-            if (stones == null || stones.Length == 0) {
+        public int LastStoneWeight(int[] stones)
+        {
+            if (stones == null || stones.Length == 0)
+            {
                 return 0;
             }
 
-            List<int> list = new List<int> ();
-            Array.Sort (stones, (a, b) => (b - a));
+            List<int> list = new List<int>();
+            Array.Sort(stones, (a, b) => (b - a));
 
-            for (int i = 0; i < stones.Length; i++) {
-                list.Add (stones[i]);
+            for (int i = 0; i < stones.Length; i++)
+            {
+                list.Add(stones[i]);
             }
 
-            while (list.Count > 1) {
+            while (list.Count > 1)
+            {
                 int result = list[0] - list[1];
 
-                list.Remove (list[0]);
-                list.Remove (list[0]);
+                list.Remove(list[0]);
+                list.Remove(list[0]);
 
-                if (result > 0) {
-                    list.Add (result);
-                    list.Sort ((a, b) => (b - a));
+                if (result > 0)
+                {
+                    list.Add(result);
+                    list.Sort((a, b) => (b - a));
                 }
             }
 

@@ -17,13 +17,17 @@ Explanation: The answer should be the total numbers in the range of 0 ≤ x < 10
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem357 {
-    public class Solution {
-        public void Init () {
-            Console.WriteLine ();
+namespace InterviewPreperationGuide.Core.LeetCode.problem357
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            Console.WriteLine();
         }
 
-        public int CountNumbersWithUniqueDigits (int n) {
+        public int CountNumbersWithUniqueDigits(int n)
+        {
             return 0;
         }
     }

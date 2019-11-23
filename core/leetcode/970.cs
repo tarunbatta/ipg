@@ -49,13 +49,17 @@ Note:
 using System;
 using System.Collections.Generic;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem970 {
-    public class Solution {
-        public void Init () {
-            Console.WriteLine ();
+namespace InterviewPreperationGuide.Core.LeetCode.problem970
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            Console.WriteLine();
         }
 
-        public IList<int> PowerfulIntegers (int x, int y, int bound) {
+        public IList<int> PowerfulIntegers(int x, int y, int bound)
+        {
             return null;
         }
     }

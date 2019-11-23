@@ -23,13 +23,17 @@ Output: [-1,-1]
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem34 {
-    public class Solution {
-        public void Init () {
-            Console.WriteLine ();
+namespace InterviewPreperationGuide.Core.LeetCode.problem34
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            Console.WriteLine();
         }
 
-        public int[] SearchRange (int[] nums, int target) {
+        public int[] SearchRange(int[] nums, int target)
+        {
             return null;
         }
     }

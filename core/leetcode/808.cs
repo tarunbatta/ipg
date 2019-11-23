@@ -38,14 +38,18 @@ Notes:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem808 {
-	public class Solution {
-		public void Init () {
+namespace InterviewPreperationGuide.Core.LeetCode.problem808
+{
+    public class Solution
+    {
+        public void Init()
+        {
 
-		}
+        }
 
-		public double SoupServings (int N) {
-			return 0;
-		}
-	}
+        public double SoupServings(int N)
+        {
+            return 0;
+        }
+    }
 }

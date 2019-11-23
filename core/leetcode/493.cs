@@ -26,13 +26,17 @@ All the numbers in the input array are in the range of 32-bit integer.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem493 {
-    public class Solution {
-        public void Init () {
-            Console.WriteLine ();
+namespace InterviewPreperationGuide.Core.LeetCode.problem493
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            Console.WriteLine();
         }
 
-        public int ReversePairs (int[] nums) {
+        public int ReversePairs(int[] nums)
+        {
             return 0;
         }
     }

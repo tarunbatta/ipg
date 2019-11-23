@@ -48,13 +48,17 @@ babgbag
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem115 {
-    public class Solution {
-        public void Init () {
-            Console.WriteLine ();
+namespace InterviewPreperationGuide.Core.LeetCode.problem115
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            Console.WriteLine();
         }
 
-        public int NumDistinct (string s, string t) {
+        public int NumDistinct(string s, string t)
+        {
             return 0;
         }
     }

@@ -39,6 +39,7 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem192 {
-	// # Read from the file words.txt and output the word frequency list to stdout.
+namespace InterviewPreperationGuide.Core.LeetCode.problem192
+{
+    // # Read from the file words.txt and output the word frequency list to stdout.
 }

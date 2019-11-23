@@ -25,13 +25,17 @@ S will consist of lowercase letters ('a' to 'z') only.
 using System;
 using System.Collections.Generic;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem763 {
-    public class Solution {
-        public void Init () {
-            Console.WriteLine ();
+namespace InterviewPreperationGuide.Core.LeetCode.problem763
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            Console.WriteLine();
         }
 
-        public IList<int> PartitionLabels (string S) {
+        public IList<int> PartitionLabels(string S)
+        {
             return null;
         }
     }

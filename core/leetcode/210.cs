@@ -36,13 +36,17 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem210 {
-    public class Solution {
-        public void Init () {
-            Console.WriteLine ();
+namespace InterviewPreperationGuide.Core.LeetCode.problem210
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            Console.WriteLine();
         }
 
-        public int[] FindOrder (int numCourses, int[][] prerequisites) {
+        public int[] FindOrder(int numCourses, int[][] prerequisites)
+        {
             return null;
         }
     }

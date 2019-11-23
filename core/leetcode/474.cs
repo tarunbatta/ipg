@@ -34,13 +34,17 @@ Explanation: You could form "10", but then you'd have nothing left. Better form 
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem474 {
-    public class Solution {
-        public void Init () {
-            Console.WriteLine ();
+namespace InterviewPreperationGuide.Core.LeetCode.problem474
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            Console.WriteLine();
         }
 
-        public int FindMaxForm (string[] strs, int m, int n) {
+        public int FindMaxForm(string[] strs, int m, int n)
+        {
             return 0;
         }
     }

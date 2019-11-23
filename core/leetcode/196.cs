@@ -33,6 +33,7 @@ Your output is the whole Person table after executing your sql. Use delete state
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem196 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem196
+{
     // # Write your MySQL query statement below
 }

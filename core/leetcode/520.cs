@@ -38,13 +38,17 @@ Note: The input will be a non-empty word consisting of uppercase and lowercase l
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem520 {
-    public class Solution {
-        public void Init () {
-            Console.WriteLine ();
+namespace InterviewPreperationGuide.Core.LeetCode.problem520
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            Console.WriteLine();
         }
 
-        public bool DetectCapitalUse (string word) {
+        public bool DetectCapitalUse(string word)
+        {
             return false;
         }
     }

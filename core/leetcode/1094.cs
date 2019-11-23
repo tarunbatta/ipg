@@ -63,13 +63,17 @@ Constraints:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem1094 {
-    public class Solution {
-        public void Init () {
-            Console.WriteLine ();
+namespace InterviewPreperationGuide.Core.LeetCode.problem1094
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            Console.WriteLine();
         }
 
-        public bool CarPooling (int[][] trips, int capacity) {
+        public bool CarPooling(int[][] trips, int capacity)
+        {
             return false;
         }
     }

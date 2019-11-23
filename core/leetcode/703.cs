@@ -27,20 +27,26 @@ You may assume that nums' length ≥ k-1 and k ≥ 1.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem703 {
-    public class Solution {
-        public void Init () {
-            KthLargest obj = new KthLargest (0, null);
-            int param_1 = obj.Add (0);
+namespace InterviewPreperationGuide.Core.LeetCode.problem703
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            KthLargest obj = new KthLargest(0, null);
+            int param_1 = obj.Add(0);
         }
     }
 
-    public class KthLargest {
-        public KthLargest (int k, int[] nums) {
+    public class KthLargest
+    {
+        public KthLargest(int k, int[] nums)
+        {
 
         }
 
-        public int Add (int val) {
+        public int Add(int val)
+        {
             return 0;
         }
     }

@@ -29,13 +29,17 @@ Note:
 using System;
 using System.Collections.Generic;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem797 {
-    public class Solution {
-        public void Init () {
-            Console.WriteLine ();
+namespace InterviewPreperationGuide.Core.LeetCode.problem797
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            Console.WriteLine();
         }
 
-        public IList<IList<int>> AllPathsSourceTarget (int[][] graph) {
+        public IList<IList<int>> AllPathsSourceTarget(int[][] graph)
+        {
             return null;
         }
     }

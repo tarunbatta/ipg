@@ -31,13 +31,17 @@ Your algorithm should run in O(n) time and uses constant extra space.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem41 {
-    public class Solution {
-        public void Init () {
-            Console.WriteLine ();
+namespace InterviewPreperationGuide.Core.LeetCode.problem41
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            Console.WriteLine();
         }
 
-        public int FirstMissingPositive (int[] nums) {
+        public int FirstMissingPositive(int[] nums)
+        {
             return 0;
         }
     }

@@ -34,6 +34,7 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem195 {
+namespace InterviewPreperationGuide.Core.LeetCode.problem195
+{
     // # Read from the file file.txt and output the tenth line to stdout.
 }

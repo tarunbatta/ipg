@@ -45,13 +45,17 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem740 {
-    public class Solution {
-        public void Init () {
-            Console.WriteLine ();
+namespace InterviewPreperationGuide.Core.LeetCode.problem740
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            Console.WriteLine();
         }
 
-        public int DeleteAndEarn (int[] nums) {
+        public int DeleteAndEarn(int[] nums)
+        {
             return 0;
         }
     }

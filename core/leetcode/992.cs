@@ -38,13 +38,17 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem992 {
-    public class Solution {
-        public void Init () {
-            Console.WriteLine ();
+namespace InterviewPreperationGuide.Core.LeetCode.problem992
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            Console.WriteLine();
         }
 
-        public int SubarraysWithKDistinct (int[] A, int K) {
+        public int SubarraysWithKDistinct(int[] A, int K)
+        {
             return 0;
         }
     }

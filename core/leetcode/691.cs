@@ -45,13 +45,17 @@ The time limit may be more challenging than usual.  It is expected that a 50 sti
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem691 {
-    public class Solution {
-        public void Init () {
-            Console.WriteLine ();
+namespace InterviewPreperationGuide.Core.LeetCode.problem691
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            Console.WriteLine();
         }
 
-        public int MinStickers (string[] stickers, string target) {
+        public int MinStickers(string[] stickers, string target)
+        {
             return 0;
         }
     }

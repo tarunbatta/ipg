@@ -18,13 +18,17 @@ Output: ["AAAAACCCCC", "CCCCCAAAAA"]
 using System;
 using System.Collections.Generic;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem187 {
-    public class Solution {
-        public void Init () {
-            Console.WriteLine ();
+namespace InterviewPreperationGuide.Core.LeetCode.problem187
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            Console.WriteLine();
         }
 
-        public IList<string> FindRepeatedDnaSequences (string s) {
+        public IList<string> FindRepeatedDnaSequences(string s)
+        {
             return null;
         }
     }

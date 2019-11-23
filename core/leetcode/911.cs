@@ -38,20 +38,26 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem911 {
-    public class Solution {
-        public void Init () {
-            TopVotedCandidate obj = new TopVotedCandidate (null, null);
-            int param_1 = obj.Q (1);
+namespace InterviewPreperationGuide.Core.LeetCode.problem911
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            TopVotedCandidate obj = new TopVotedCandidate(null, null);
+            int param_1 = obj.Q(1);
         }
     }
 
-    public class TopVotedCandidate {
-        public TopVotedCandidate (int[] persons, int[] times) {
+    public class TopVotedCandidate
+    {
+        public TopVotedCandidate(int[] persons, int[] times)
+        {
 
         }
 
-        public int Q (int t) {
+        public int Q(int t)
+        {
             return 0;
         }
     }

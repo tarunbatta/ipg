@@ -60,13 +60,17 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem1011 {
-    public class Solution {
-        public void Init () {
-            Console.WriteLine ();
+namespace InterviewPreperationGuide.Core.LeetCode.problem1011
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            Console.WriteLine();
         }
 
-        public int ShipWithinDays (int[] weights, int D) {
+        public int ShipWithinDays(int[] weights, int D)
+        {
             return 0;
         }
     }

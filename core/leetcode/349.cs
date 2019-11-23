@@ -31,13 +31,17 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem349 {
-    public class Solution {
-        public void Init () {
-            Console.WriteLine ();
+namespace InterviewPreperationGuide.Core.LeetCode.problem349
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            Console.WriteLine();
         }
 
-        public int[] Intersection (int[] nums1, int[] nums2) {
+        public int[] Intersection(int[] nums1, int[] nums2)
+        {
             return null;
         }
     }

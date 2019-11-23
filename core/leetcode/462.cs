@@ -23,13 +23,17 @@ Only two moves are needed (remember each move increments or decrements one eleme
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem462 {
-    public class Solution {
-        public void Init () {
-            Console.WriteLine ();
+namespace InterviewPreperationGuide.Core.LeetCode.problem462
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            Console.WriteLine();
         }
 
-        public int MinMoves2 (int[] nums) {
+        public int MinMoves2(int[] nums)
+        {
             return 0;
         }
     }

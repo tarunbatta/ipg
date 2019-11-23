@@ -21,13 +21,17 @@ The input time is legal and ranges from 00:00 to 23:59.
 using System;
 using System.Collections.Generic;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem539 {
-    public class Solution {
-        public void Init () {
-            Console.WriteLine ();
+namespace InterviewPreperationGuide.Core.LeetCode.problem539
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            Console.WriteLine();
         }
 
-        public int FindMinDifference (IList<string> timePoints) {
+        public int FindMinDifference(IList<string> timePoints)
+        {
             return 0;
         }
     }

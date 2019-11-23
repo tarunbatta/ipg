@@ -28,35 +28,52 @@ Output: -1
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem33 {
-    public class Solution {
-        public void Init () {
-            Console.WriteLine ();
+namespace InterviewPreperationGuide.Core.LeetCode.problem33
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            Console.WriteLine();
         }
 
-        public int Search (int[] nums, int target) {
-            if (nums == null || nums.Length == 0) {
+        public int Search(int[] nums, int target)
+        {
+            if (nums == null || nums.Length == 0)
+            {
                 return -1;
             }
 
             int start = 0;
             int end = nums.Length - 1;
 
-            while (start <= end) {
+            while (start <= end)
+            {
                 int mid = start + (end - start) / 2;
 
-                if (nums[mid] == target) {
+                if (nums[mid] == target)
+                {
                     return mid;
-                } else if (nums[start] <= nums[mid]) {
-                    if (target >= nums[start] && target <= nums[mid]) {
+                }
+                else if (nums[start] <= nums[mid])
+                {
+                    if (target >= nums[start] && target <= nums[mid])
+                    {
                         end = mid - 1;
-                    } else {
+                    }
+                    else
+                    {
                         start = mid + 1;
                     }
-                } else {
-                    if (target >= nums[mid] && target <= nums[end]) {
+                }
+                else
+                {
+                    if (target >= nums[mid] && target <= nums[end])
+                    {
                         start = mid + 1;
-                    } else {
+                    }
+                    else
+                    {
                         end = mid - 1;
                     }
                 }

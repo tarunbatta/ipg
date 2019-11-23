@@ -36,13 +36,17 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem1078 {
-    public class Solution {
-        public void Init () {
-            Console.WriteLine ();
+namespace InterviewPreperationGuide.Core.LeetCode.problem1078
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            Console.WriteLine();
         }
 
-        public string[] FindOcurrences (string text, string first, string second) {
+        public string[] FindOcurrences(string text, string first, string second)
+        {
             return null;
         }
     }

@@ -51,13 +51,17 @@ formula will only consist of letters, digits, and round parentheses, and is a va
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem726 {
-    public class Solution {
-        public void Init () {
-            Console.WriteLine ();
+namespace InterviewPreperationGuide.Core.LeetCode.problem726
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            Console.WriteLine();
         }
 
-        public string CountOfAtoms (string formula) {
+        public string CountOfAtoms(string formula)
+        {
             return null;
         }
     }

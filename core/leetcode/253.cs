@@ -34,13 +34,17 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem253 {
-    public class Solution {
-        public void Init () {
+namespace InterviewPreperationGuide.Core.LeetCode.problem253
+{
+    public class Solution
+    {
+        public void Init()
+        {
 
         }
 
-        public int SmallestRepunitDivByK (int K) {
+        public int SmallestRepunitDivByK(int K)
+        {
             return 0;
         }
     }

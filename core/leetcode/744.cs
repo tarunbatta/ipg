@@ -51,13 +51,17 @@ target is a lowercase letter.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem744 {
-    public class Solution {
-        public void Init () {
-            Console.WriteLine ();
+namespace InterviewPreperationGuide.Core.LeetCode.problem744
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            Console.WriteLine();
         }
 
-        public char NextGreatestLetter (char[] letters, char target) {
+        public char NextGreatestLetter(char[] letters, char target)
+        {
             return ' ';
         }
     }

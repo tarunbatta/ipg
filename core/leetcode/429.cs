@@ -35,26 +35,33 @@ Note:
 using System;
 using System.Collections.Generic;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem429 {
-    public class Solution {
-        public void Init () {
-            Console.WriteLine ();
+namespace InterviewPreperationGuide.Core.LeetCode.problem429
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            Console.WriteLine();
         }
 
-        public IList<IList<int>> LevelOrder (Node root) {
+        public IList<IList<int>> LevelOrder(Node root)
+        {
             return null;
         }
     }
 
-    public class Node {
+    public class Node
+    {
         public int val;
         public IList<Node> children;
 
-        public Node () {
+        public Node()
+        {
 
         }
 
-        public Node (int _val, IList<Node> _children) {
+        public Node(int _val, IList<Node> _children)
+        {
             val = _val;
             children = _children;
         }

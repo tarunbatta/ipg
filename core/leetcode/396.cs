@@ -34,13 +34,17 @@ So the maximum value of F(0), F(1), F(2), F(3) is F(3) = 26.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem396 {
-    public class Solution {
-        public void Init () {
-            Console.WriteLine ();
+namespace InterviewPreperationGuide.Core.LeetCode.problem396
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            Console.WriteLine();
         }
 
-        public int MaxRotateFunction (int[] A) {
+        public int MaxRotateFunction(int[] A)
+        {
             return 0;
         }
     }

@@ -25,13 +25,17 @@ Explanation: nums = [3,1,5,8] --> [3,5,8] -->   [3,8]   -->  [8]  --> []
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem312 {
-    public class Solution {
-        public void Init () {
-            Console.WriteLine ();
+namespace InterviewPreperationGuide.Core.LeetCode.problem312
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            Console.WriteLine();
         }
 
-        public int MaxCoins (int[] nums) {
+        public int MaxCoins(int[] nums)
+        {
             return 0;
         }
     }

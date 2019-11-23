@@ -36,22 +36,29 @@ Can you solve it using O(1) (i.e. constant) memory?
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem141 {
-    public class Solution {
-        public void Init () {
-            Console.WriteLine ();
+namespace InterviewPreperationGuide.Core.LeetCode.problem141
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            Console.WriteLine();
         }
 
-        public bool HasCycle (ListNode head) {
-            if (head == null || head.next == null) {
+        public bool HasCycle(ListNode head)
+        {
+            if (head == null || head.next == null)
+            {
                 return false;
             }
 
             ListNode slow = head;
             ListNode fast = head.next;
 
-            while (slow != fast) {
-                if (fast == null || fast.next == null) {
+            while (slow != fast)
+            {
+                if (fast == null || fast.next == null)
+                {
                     return false;
                 }
 
@@ -63,11 +70,13 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem141 {
         }
     }
 
-    public class ListNode {
+    public class ListNode
+    {
         public int val;
         public ListNode next;
 
-        public ListNode (int x) {
+        public ListNode(int x)
+        {
             val = x;
         }
     }

@@ -25,45 +25,59 @@ A solution set is:
 using System;
 using System.Collections.Generic;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem18 {
-    public class Solution {
-        public void Init () {
-            Console.WriteLine (FourSum (null, 0));
-            Console.WriteLine (FourSum (new int[] { 1, 0, -1 }, 0));
-            Console.WriteLine (FourSum (new int[] { 1, 0, -1, 0, -2, 2 }, 0));
+namespace InterviewPreperationGuide.Core.LeetCode.problem18
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            Console.WriteLine(FourSum(null, 0));
+            Console.WriteLine(FourSum(new int[] { 1, 0, -1 }, 0));
+            Console.WriteLine(FourSum(new int[] { 1, 0, -1, 0, -2, 2 }, 0));
         }
 
-        public IList<IList<int>> FourSum (int[] nums, int target) {
-            IList<IList<int>> result = new List<IList<int>> ();
+        public IList<IList<int>> FourSum(int[] nums, int target)
+        {
+            IList<IList<int>> result = new List<IList<int>>();
 
-            if (nums != null && nums.Length >= 4) {
-                Array.Sort (nums);
-                Dictionary<string, List<int>> dict = new Dictionary<string, List<int>> ();
+            if (nums != null && nums.Length >= 4)
+            {
+                Array.Sort(nums);
+                Dictionary<string, List<int>> dict = new Dictionary<string, List<int>>();
 
-                for (int i = 0; i < nums.Length - 3; i++) {
-                    for (int j = i + 1; j < nums.Length - 2; j++) {
+                for (int i = 0; i < nums.Length - 3; i++)
+                {
+                    for (int j = i + 1; j < nums.Length - 2; j++)
+                    {
                         int k = j + 1;
                         int l = nums.Length - 1;
 
-                        while (k < l) {
+                        while (k < l)
+                        {
                             int sum = nums[i] + nums[j] + nums[k] + nums[l];
 
-                            if (sum > target) {
+                            if (sum > target)
+                            {
                                 l--;
-                            } else if (sum < target) {
+                            }
+                            else if (sum < target)
+                            {
                                 k++;
-                            } else {
-                                string key = string.Concat (nums[i], ",", nums[j], ",", nums[k], ",", nums[l]);
+                            }
+                            else
+                            {
+                                string key = string.Concat(nums[i], ",", nums[j], ",", nums[k], ",", nums[l]);
 
-                                List<int> val = new List<int> ();
-                                val.Add (nums[i]);
-                                val.Add (nums[j]);
-                                val.Add (nums[k]);
-                                val.Add (nums[l]);
+                                List<int> val = new List<int>();
+                                val.Add(nums[i]);
+                                val.Add(nums[j]);
+                                val.Add(nums[k]);
+                                val.Add(nums[l]);
 
-                                if (!dict.ContainsKey (key)) {
-                                    dict.Add (key, val);
-                                    result.Add (val);
+                                if (!dict.ContainsKey(key))
+                                {
+                                    dict.Add(key, val);
+                                    result.Add(val);
                                 }
 
                                 k++;

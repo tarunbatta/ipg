@@ -26,13 +26,17 @@ Output: False
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem633 {
-    public class Solution {
-        public void Init () {
-            Console.WriteLine ();
+namespace InterviewPreperationGuide.Core.LeetCode.problem633
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            Console.WriteLine();
         }
 
-        public bool JudgeSquareSum (int c) {
+        public bool JudgeSquareSum(int c)
+        {
             return false;
         }
     }

@@ -42,13 +42,17 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem864 {
-    public class Solution {
-        public void Init () {
-            Console.WriteLine ();
+namespace InterviewPreperationGuide.Core.LeetCode.problem864
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            Console.WriteLine();
         }
 
-        public int ShortestPathAllKeys (string[] grid) {
+        public int ShortestPathAllKeys(string[] grid)
+        {
             return 0;
         }
     }

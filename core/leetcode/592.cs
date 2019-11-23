@@ -41,13 +41,17 @@ The numerator and denominator of the final result are guaranteed to be valid and
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem592 {
-    public class Solution {
-        public void Init () {
-            Console.WriteLine ();
+namespace InterviewPreperationGuide.Core.LeetCode.problem592
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            Console.WriteLine();
         }
 
-        public string FractionAddition (string expression) {
+        public string FractionAddition(string expression)
+        {
             return null;
         }
     }

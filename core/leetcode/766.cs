@@ -55,13 +55,17 @@ Follow up:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem766 {
-    public class Solution {
-        public void Init () {
-            Console.WriteLine ();
+namespace InterviewPreperationGuide.Core.LeetCode.problem766
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            Console.WriteLine();
         }
 
-        public bool IsToeplitzMatrix (int[][] matrix) {
+        public bool IsToeplitzMatrix(int[][] matrix)
+        {
             return false;
         }
     }

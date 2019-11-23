@@ -46,13 +46,17 @@ Note:
 using System;
 using System.Collections.Generic;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem841 {
-    public class Solution {
-        public void Init () {
-            Console.WriteLine ();
+namespace InterviewPreperationGuide.Core.LeetCode.problem841
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            Console.WriteLine();
         }
 
-        public bool CanVisitAllRooms (IList<IList<int>> rooms) {
+        public bool CanVisitAllRooms(IList<IList<int>> rooms)
+        {
             return false;
         }
     }

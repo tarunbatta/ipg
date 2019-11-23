@@ -34,33 +34,42 @@ Return:
 using System;
 using System.Collections.Generic;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem412 {
-    public class Solution {
-        public void Init () {
-            Console.WriteLine (FizzBuzz (0));
-            Console.WriteLine (FizzBuzz (15));
+namespace InterviewPreperationGuide.Core.LeetCode.problem412
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            Console.WriteLine(FizzBuzz(0));
+            Console.WriteLine(FizzBuzz(15));
         }
 
-        public IList<string> FizzBuzz (int n) {
-            List<string> result = new List<string> ();
+        public IList<string> FizzBuzz(int n)
+        {
+            List<string> result = new List<string>();
 
-            if (n > 0) {
-                for (int i = 1; i <= n; i++) {
+            if (n > 0)
+            {
+                for (int i = 1; i <= n; i++)
+                {
                     string temp = string.Empty;
 
-                    if (i % 3 == 0) {
+                    if (i % 3 == 0)
+                    {
                         temp += "Fizz";
                     }
 
-                    if (i % 5 == 0) {
+                    if (i % 5 == 0)
+                    {
                         temp += "Buzz";
                     }
 
-                    if (string.IsNullOrEmpty (temp)) {
-                        temp = i.ToString ();
+                    if (string.IsNullOrEmpty(temp))
+                    {
+                        temp = i.ToString();
                     }
 
-                    result.Add (temp);
+                    result.Add(temp);
                 }
             }
 

@@ -29,13 +29,17 @@ Note: 1 <= N <= 10 ^ 9.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem829 {
-    public class Solution {
-        public void Init () {
-            Console.WriteLine ();
+namespace InterviewPreperationGuide.Core.LeetCode.problem829
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            Console.WriteLine();
         }
 
-        public int ConsecutiveNumbersSum (int N) {
+        public int ConsecutiveNumbersSum(int N)
+        {
             return 0;
         }
     }

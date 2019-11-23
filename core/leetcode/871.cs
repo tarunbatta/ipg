@@ -59,13 +59,17 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem871 {
-    public class Solution {
-        public void Init () {
-            Console.WriteLine ();
+namespace InterviewPreperationGuide.Core.LeetCode.problem871
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            Console.WriteLine();
         }
 
-        public int MinRefuelStops (int target, int startFuel, int[][] stations) {
+        public int MinRefuelStops(int target, int startFuel, int[][] stations)
+        {
             return 0;
         }
     }

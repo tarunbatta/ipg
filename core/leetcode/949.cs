@@ -37,13 +37,17 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem949 {
-    public class Solution {
-        public void Init () {
-            Console.WriteLine ();
+namespace InterviewPreperationGuide.Core.LeetCode.problem949
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            Console.WriteLine();
         }
 
-        public string LargestTimeFromDigits (int[] A) {
+        public string LargestTimeFromDigits(int[] A)
+        {
             return null;
         }
     }

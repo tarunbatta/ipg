@@ -38,22 +38,28 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem876 {
-    public class Solution {
-        public void Init () {
-            Console.WriteLine ();
+namespace InterviewPreperationGuide.Core.LeetCode.problem876
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            Console.WriteLine();
         }
 
-        public ListNode MiddleNode (ListNode head) {
+        public ListNode MiddleNode(ListNode head)
+        {
             return null;
         }
     }
 
-    public class ListNode {
+    public class ListNode
+    {
         public int val;
         public ListNode next;
 
-        public ListNode (int x) {
+        public ListNode(int x)
+        {
             val = x;
         }
     }

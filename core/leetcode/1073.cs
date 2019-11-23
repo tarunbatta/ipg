@@ -33,13 +33,17 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem1073 {
-    public class Solution {
-        public void Init () {
-            Console.WriteLine ();
+namespace InterviewPreperationGuide.Core.LeetCode.problem1073
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            Console.WriteLine();
         }
 
-        public int[] AddNegabinary (int[] arr1, int[] arr2) {
+        public int[] AddNegabinary(int[] arr1, int[] arr2)
+        {
             return null;
         }
     }

@@ -60,13 +60,17 @@ return: 3
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem433 {
-    public class Solution {
-        public void Init () {
-            Console.WriteLine ();
+namespace InterviewPreperationGuide.Core.LeetCode.problem433
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            Console.WriteLine();
         }
 
-        public int MinMutation (string start, string end, string[] bank) {
+        public int MinMutation(string start, string end, string[] bank)
+        {
             return 0;
         }
     }

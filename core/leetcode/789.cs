@@ -48,13 +48,17 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem789 {
-    public class Solution {
-        public void Init () {
-            Console.WriteLine ();
+namespace InterviewPreperationGuide.Core.LeetCode.problem789
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            Console.WriteLine();
         }
 
-        public bool EscapeGhosts (int[][] ghosts, int[] target) {
+        public bool EscapeGhosts(int[][] ghosts, int[] target)
+        {
             return false;
         }
     }

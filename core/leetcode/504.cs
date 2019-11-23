@@ -24,13 +24,17 @@ The input will be in range of [-1e7, 1e7].
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem504 {
-    public class Solution {
-        public void Init () {
-            Console.WriteLine ();
+namespace InterviewPreperationGuide.Core.LeetCode.problem504
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            Console.WriteLine();
         }
 
-        public string ConvertToBase7 (int num) {
+        public string ConvertToBase7(int num)
+        {
             return null;
         }
     }

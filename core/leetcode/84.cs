@@ -26,13 +26,17 @@ Output: 10
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem84 {
-    public class Solution {
-        public void Init () {
-            Console.WriteLine ();
+namespace InterviewPreperationGuide.Core.LeetCode.problem84
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            Console.WriteLine();
         }
 
-        public int LargestRectangleArea (int[] heights) {
+        public int LargestRectangleArea(int[] heights)
+        {
             return 0;
         }
     }

@@ -45,13 +45,17 @@ Could you solve it in O(n) time complexity and O(1) extra space complexity?
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem457 {
-    public class Solution {
-        public void Init () {
-            Console.WriteLine ();
+namespace InterviewPreperationGuide.Core.LeetCode.problem457
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            Console.WriteLine();
         }
 
-        public bool CircularArrayLoop (int[] nums) {
+        public bool CircularArrayLoop(int[] nums)
+        {
             return false;
         }
     }

@@ -21,48 +21,58 @@ Follow up: Could you do it in-place without allocating extra space?
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem186 {
-    public class Solution {
-        public void Init () {
-            ReverseWords (null);
-            ReverseWords (new char[] { });
-            ReverseWords (new char[] { 't', 'h', 'e', ' ', 's', 'k', 'y', ' ', 'i', 's', ' ', 'b', 'l', 'u', 'e' });
+namespace InterviewPreperationGuide.Core.LeetCode.problem186
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            ReverseWords(null);
+            ReverseWords(new char[] { });
+            ReverseWords(new char[] { 't', 'h', 'e', ' ', 's', 'k', 'y', ' ', 'i', 's', ' ', 'b', 'l', 'u', 'e' });
         }
 
-        public void ReverseWords (char[] s) {
-            if (s == null || s.Length == 0) {
+        public void ReverseWords(char[] s)
+        {
+            if (s == null || s.Length == 0)
+            {
                 return;
             }
 
             int n = s.Length;
 
-            ReverseString (s, 0, n - 1);
-            ReverseWords (s, n);
-            int end = CleanSpaces (s, n);
+            ReverseString(s, 0, n - 1);
+            ReverseWords(s, n);
+            int end = CleanSpaces(s, n);
         }
 
-        private void ReverseWords (char[] c, int n) {
+        private void ReverseWords(char[] c, int n)
+        {
             int i = 0;
             int j = 0;
 
-            while (i < n) {
+            while (i < n)
+            {
                 while (i < j || i < n && c[i] == ' ') i++;
                 while (j < i || j < n && c[j] != ' ') j++;
 
-                ReverseString (c, i, j - 1);
+                ReverseString(c, i, j - 1);
             }
         }
 
-        private int CleanSpaces (char[] c, int n) {
+        private int CleanSpaces(char[] c, int n)
+        {
             int i = 0;
             int j = 0;
 
-            while (j < n) {
+            while (j < n)
+            {
                 while (j < n && c[j] == ' ') j++;
                 while (j < n && c[j] != ' ') c[i++] = c[j++];
                 while (j < n && c[j] == ' ') j++;
 
-                if (j < n) {
+                if (j < n)
+                {
                     c[i++] = ' ';
                 }
             }
@@ -70,8 +80,10 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem186 {
             return i;
         }
 
-        private void ReverseString (char[] c, int i, int j) {
-            while (i < j) {
+        private void ReverseString(char[] c, int i, int j)
+        {
+            while (i < j)
+            {
                 char t = c[i];
                 c[i++] = c[j];
                 c[j--] = t;

@@ -66,13 +66,17 @@ Hint: size of the given matrix will not exceed 50x50.
 using System;
 using System.Collections.Generic;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem675 {
-    public class Solution {
-        public void Init () {
-            Console.WriteLine ();
+namespace InterviewPreperationGuide.Core.LeetCode.problem675
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            Console.WriteLine();
         }
 
-        public int CutOffTree (IList<IList<int>> forest) {
+        public int CutOffTree(IList<IList<int>> forest)
+        {
             return 0;
         }
     }

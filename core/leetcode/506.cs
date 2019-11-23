@@ -21,13 +21,17 @@ All the scores of athletes are guaranteed to be unique.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem506 {
-    public class Solution {
-        public void Init () {
-            Console.WriteLine ();
+namespace InterviewPreperationGuide.Core.LeetCode.problem506
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            Console.WriteLine();
         }
 
-        public string[] FindRelativeRanks (int[] nums) {
+        public string[] FindRelativeRanks(int[] nums)
+        {
             return null;
         }
     }

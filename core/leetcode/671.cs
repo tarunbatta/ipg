@@ -41,23 +41,29 @@ Explanation: The smallest value is 2, but there isn't any second smallest value.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem671 {
-    public class Solution {
-        public void Init () {
-            Console.WriteLine ();
+namespace InterviewPreperationGuide.Core.LeetCode.problem671
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            Console.WriteLine();
         }
 
-        public int FindSecondMinimumValue (TreeNode root) {
+        public int FindSecondMinimumValue(TreeNode root)
+        {
             return 0;
         }
     }
 
-    public class TreeNode {
+    public class TreeNode
+    {
         public int val;
         public TreeNode left;
         public TreeNode right;
 
-        public TreeNode (int x) {
+        public TreeNode(int x)
+        {
             val = x;
         }
     }

@@ -32,23 +32,29 @@ Note that an empty tree is represented by NULL, therefore you would see the expe
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem700 {
-    public class Solution {
-        public void Init () {
-            Console.WriteLine ();
+namespace InterviewPreperationGuide.Core.LeetCode.problem700
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            Console.WriteLine();
         }
 
-        public TreeNode SearchBST (TreeNode root, int val) {
+        public TreeNode SearchBST(TreeNode root, int val)
+        {
             return null;
         }
     }
 
-    public class TreeNode {
+    public class TreeNode
+    {
         public int val;
         public TreeNode left;
         public TreeNode right;
 
-        public TreeNode (int x) {
+        public TreeNode(int x)
+        {
             val = x;
         }
     }

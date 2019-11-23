@@ -34,13 +34,17 @@ The n and k are in the range 1 <= k < n <= 104.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem667 {
-    public class Solution {
-        public void Init () {
-            Console.WriteLine ();
+namespace InterviewPreperationGuide.Core.LeetCode.problem667
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            Console.WriteLine();
         }
 
-        public int[] ConstructArray (int n, int k) {
+        public int[] ConstructArray(int n, int k)
+        {
             return null;
         }
     }

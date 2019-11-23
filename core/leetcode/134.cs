@@ -55,13 +55,17 @@ Therefore, you can't travel around the circuit once no matter where you start.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem134 {
-    public class Solution {
-        public void Init () {
-            Console.WriteLine ();
+namespace InterviewPreperationGuide.Core.LeetCode.problem134
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            Console.WriteLine();
         }
 
-        public int CanCompleteCircuit (int[] gas, int[] cost) {
+        public int CanCompleteCircuit(int[] gas, int[] cost)
+        {
             return 0;
         }
     }

@@ -23,57 +23,72 @@ Could you do it in O(n) time and O(1) space?
 using System;
 using System.Collections;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem234 {
-    public class Solution {
-        public void Init () {
-            ListNode l1 = new ListNode (1);
-            l1.next = new ListNode (2);
+namespace InterviewPreperationGuide.Core.LeetCode.problem234
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            ListNode l1 = new ListNode(1);
+            l1.next = new ListNode(2);
 
-            ListNode l2 = new ListNode (1);
-            l2.next = new ListNode (2);
-            l2.next.next = new ListNode (2);
-            l2.next.next.next = new ListNode (1);
+            ListNode l2 = new ListNode(1);
+            l2.next = new ListNode(2);
+            l2.next.next = new ListNode(2);
+            l2.next.next.next = new ListNode(1);
 
-            Console.WriteLine (IsPalindrome_a (null));
-            Console.WriteLine (IsPalindrome_a (new ListNode (0)));
-            Console.WriteLine (IsPalindrome_a (l1));
-            Console.WriteLine (IsPalindrome_a (l2));
+            Console.WriteLine(IsPalindrome_a(null));
+            Console.WriteLine(IsPalindrome_a(new ListNode(0)));
+            Console.WriteLine(IsPalindrome_a(l1));
+            Console.WriteLine(IsPalindrome_a(l2));
 
-            Console.WriteLine (IsPalindrome_b (null));
-            Console.WriteLine (IsPalindrome_b (new ListNode (0)));
-            Console.WriteLine (IsPalindrome_b (l1));
-            Console.WriteLine (IsPalindrome_b (l2));
+            Console.WriteLine(IsPalindrome_b(null));
+            Console.WriteLine(IsPalindrome_b(new ListNode(0)));
+            Console.WriteLine(IsPalindrome_b(l1));
+            Console.WriteLine(IsPalindrome_b(l2));
         }
 
-        public static bool IsPalindrome_a (ListNode head) {
+        public static bool IsPalindrome_a(ListNode head)
+        {
             bool result = true;
 
-            if (head == null) {
+            if (head == null)
+            {
                 return true;
-            } else {
-                Stack s = new Stack ();
+            }
+            else
+            {
+                Stack s = new Stack();
                 ListNode node = head;
 
-                while (node != null) {
-                    s.Push (node.val);
+                while (node != null)
+                {
+                    s.Push(node.val);
                     node = node.next;
                 }
 
-                if (s.Count > 0) {
+                if (s.Count > 0)
+                {
                     node = head;
 
-                    while (node.next != null) {
-                        int fromStack = (int) s.Pop ();
+                    while (node.next != null)
+                    {
+                        int fromStack = (int)s.Pop();
 
-                        if (node.val == fromStack) {
+                        if (node.val == fromStack)
+                        {
                             node = node.next;
-                        } else {
+                        }
+                        else
+                        {
                             return false;
                         }
                     }
 
                     result = true;
-                } else {
+                }
+                else
+                {
                     result = false;
                 }
             }
@@ -81,41 +96,53 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem234 {
             return result;
         }
 
-        public static bool IsPalindrome_b (ListNode head) {
+        public static bool IsPalindrome_b(ListNode head)
+        {
             bool result = true;
 
-            if (head == null) {
+            if (head == null)
+            {
                 result = true;
-            } else {
+            }
+            else
+            {
                 int lengthOfList = 0;
                 ListNode node = head;
 
-                while (node != null) {
+                while (node != null)
+                {
                     lengthOfList++;
                     node = node.next;
                 }
 
-                if (lengthOfList == 1) {
+                if (lengthOfList == 1)
+                {
                     result = true;
-                } else {
+                }
+                else
+                {
                     node = head;
 
                     ListNode temp = null;
                     ListNode reverseHead = null;
 
-                    for (int i = 0; i < (lengthOfList / 2); i++) {
+                    for (int i = 0; i < (lengthOfList / 2); i++)
+                    {
                         temp = node;
                         node = node.next;
                         temp.next = reverseHead;
                         reverseHead = temp;
                     }
 
-                    if (lengthOfList % 2 != 0) {
+                    if (lengthOfList % 2 != 0)
+                    {
                         node = node.next;
                     }
 
-                    while (node != null) {
-                        if (reverseHead.val != node.val) {
+                    while (node != null)
+                    {
+                        if (reverseHead.val != node.val)
+                        {
                             return false;
                         }
 
@@ -129,11 +156,13 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem234 {
         }
     }
 
-    public class ListNode {
+    public class ListNode
+    {
         public int val;
         public ListNode next;
 
-        public ListNode (int x) {
+        public ListNode(int x)
+        {
             val = x;
         }
     }

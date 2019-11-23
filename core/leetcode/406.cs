@@ -24,13 +24,17 @@ Output:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem406 {
-    public class Solution {
-        public void Init () {
-            Console.WriteLine ();
+namespace InterviewPreperationGuide.Core.LeetCode.problem406
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            Console.WriteLine();
         }
 
-        public int[][] ReconstructQueue (int[][] people) {
+        public int[][] ReconstructQueue(int[][] people)
+        {
             return null;
         }
     }

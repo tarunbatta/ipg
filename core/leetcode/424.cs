@@ -45,13 +45,17 @@ The substring "BBBB" has the longest repeating letters, which is 4.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem424 {
-    public class Solution {
-        public void Init () {
-            Console.WriteLine ();
+namespace InterviewPreperationGuide.Core.LeetCode.problem424
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            Console.WriteLine();
         }
 
-        public int CharacterReplacement (string s, int k) {
+        public int CharacterReplacement(string s, int k)
+        {
             return 0;
         }
     }

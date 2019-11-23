@@ -47,29 +47,32 @@ rotate the input matrix in-place such that it becomes:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem48 {
-    public class Solution {
-        public void Init () {
-            Rotate_a (null);
-            Rotate_a (new int[][] {
+namespace InterviewPreperationGuide.Core.LeetCode.problem48
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            Rotate_a(null);
+            Rotate_a(new int[][] {
                 new int[] { 1, 2, 3 },
                     new int[] { 4, 5, 6 },
                     new int[] { 7, 8, 9 }
             });
-            Rotate_a (new int[][] {
+            Rotate_a(new int[][] {
                 new int[] { 5, 1, 9, 11 },
                     new int[] { 2, 4, 8, 10 },
                     new int[] { 13, 3, 6, 7 },
                     new int[] { 15, 14, 12, 16 }
             });
 
-            Rotate_b (null);
-            Rotate_b (new int[][] {
+            Rotate_b(null);
+            Rotate_b(new int[][] {
                 new int[] { 1, 2, 3 },
                     new int[] { 4, 5, 6 },
                     new int[] { 7, 8, 9 }
             });
-            Rotate_b (new int[][] {
+            Rotate_b(new int[][] {
                 new int[] { 5, 1, 9, 11 },
                     new int[] { 2, 4, 8, 10 },
                     new int[] { 13, 3, 6, 7 },
@@ -77,17 +80,21 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem48 {
             });
         }
 
-        public void Rotate_a (int[][] matrix) {
+        public void Rotate_a(int[][] matrix)
+        {
             int n = matrix.Length;
-            if (matrix == null || n == 0) {
+            if (matrix == null || n == 0)
+            {
                 return;
             }
 
-            for (int i = 0; i < n / 2; i++) {
+            for (int i = 0; i < n / 2; i++)
+            {
                 int first = i;
                 int last = n - 1 - i;
 
-                for (int j = first; j < last; j++) {
+                for (int j = first; j < last; j++)
+                {
                     int offset = j - first;
                     int top = matrix[first][j];
 
@@ -99,12 +106,15 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem48 {
             }
         }
 
-        public void Rotate_b (int[][] matrix) {
+        public void Rotate_b(int[][] matrix)
+        {
             int n = matrix.Length;
 
             // transpose the matrix
-            for (int i = 0; i < n; i++) {
-                for (int j = i; j < n; j++) {
+            for (int i = 0; i < n; i++)
+            {
+                for (int j = i; j < n; j++)
+                {
                     int temp = 0;
                     temp = matrix[i][j];
                     matrix[i][j] = matrix[j][i];
@@ -113,8 +123,10 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem48 {
             }
 
             // flip it symmetrically
-            for (int i = 0; i < n; i++) {
-                for (int j = 0; j < n / 2; j++) {
+            for (int i = 0; i < n; i++)
+            {
+                for (int j = 0; j < n / 2; j++)
+                {
                     int temp = 0;
                     temp = matrix[i][j];
                     matrix[i][j] = matrix[i][n - 1 - j];

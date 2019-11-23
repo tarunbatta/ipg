@@ -59,13 +59,17 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem1024 {
-    public class Solution {
-        public void Init () {
-            Console.WriteLine ();
+namespace InterviewPreperationGuide.Core.LeetCode.problem1024
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            Console.WriteLine();
         }
 
-        public int VideoStitching (int[][] clips, int T) {
+        public int VideoStitching(int[][] clips, int T)
+        {
             return 0;
         }
     }

@@ -71,14 +71,18 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem997 {
-	public class Solution {
-		public void Init () {
+namespace InterviewPreperationGuide.Core.LeetCode.problem997
+{
+    public class Solution
+    {
+        public void Init()
+        {
 
-		}
+        }
 
-		public int FindJudge (int N, int[][] trust) {
-			return 0;
-		}
-	}
+        public int FindJudge(int N, int[][] trust)
+        {
+            return 0;
+        }
+    }
 }

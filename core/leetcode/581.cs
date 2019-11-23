@@ -23,13 +23,17 @@ The input array may contain duplicates, so ascending order here means <=.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem581 {
-    public class Solution {
-        public void Init () {
-            Console.WriteLine ();
+namespace InterviewPreperationGuide.Core.LeetCode.problem581
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            Console.WriteLine();
         }
 
-        public int FindUnsortedSubarray (int[] nums) {
+        public int FindUnsortedSubarray(int[] nums)
+        {
             return 0;
         }
     }

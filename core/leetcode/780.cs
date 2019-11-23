@@ -33,13 +33,17 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem780 {
-    public class Solution {
-        public void Init () {
-            Console.WriteLine ();
+namespace InterviewPreperationGuide.Core.LeetCode.problem780
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            Console.WriteLine();
         }
 
-        public bool ReachingPoints (int sx, int sy, int tx, int ty) {
+        public bool ReachingPoints(int sx, int sy, int tx, int ty)
+        {
             return false;
         }
     }
