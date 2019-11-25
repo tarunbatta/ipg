@@ -50,35 +50,40 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem240
             Console.WriteLine(SearchMatrix(matrix_b, 13));
         }
 
+        // Time: O(m+n)
+        // Space: O(1)
         public bool SearchMatrix(int[,] matrix, int target)
         {
-            if (matrix != null)
+            bool result = false;
+
+            if (matrix == null || matrix.GetLength(0) == 0 || matrix.GetLength(1) == 0)
             {
-                int rows = matrix.GetLength(0);
-                int cols = matrix.GetLength(1);
+                return result;
+            }
 
-                int row = 0;
-                int col = cols - 1;
+            int m = matrix.GetLength(0);
+            int n = matrix.GetLength(1);
+            int i = 0;
+            int j = n - 1;
 
-                while (row < rows && col >= 0)
+            while (i < m && j >= 0)
+            {
+                if (matrix[i, j] == target)
                 {
-                    if (matrix[row, col] == target)
-                    {
-                        return true;
-                    }
+                    return true;
+                }
 
-                    if (matrix[row, col] > target)
-                    {
-                        col--;
-                    }
-                    else
-                    {
-                        row++;
-                    }
+                if (matrix[i, j] < target)
+                {
+                    i++;
+                }
+                else
+                {
+                    j--;
                 }
             }
 
-            return false;
+            return result;
         }
     }
 }

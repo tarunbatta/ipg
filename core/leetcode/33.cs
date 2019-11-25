@@ -37,6 +37,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem33
             Console.WriteLine();
         }
 
+        // Time: O(log (n))
+        // Space: O(1)
         public int Search(int[] nums, int target)
         {
             if (nums == null || nums.Length == 0)

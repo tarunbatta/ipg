@@ -1,111 +1,11 @@
-// Url:https://leetcode.com/problems/meeting-rooms-ii
-
 /*
-253. Meeting Rooms II
-Medium
 
-Given an array of meeting time intervals consisting of start and end times [[s1,e1],[s2,e2],...] (si < ei), find the minimum number of conference rooms required.
-
-Example 1:
-
-Input: [[0, 30],[5, 10],[15, 20]]
-Output: 2
-Example 2:
-
-Input: [[7,10],[2,4]]
-Output: 1
 */
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem253
+namespace InterviewPreperationGuide.Core.DataStructure.MinHeap
 {
-    public class Solution
-    {
-        public void Init()
-        {
-
-        }
-
-        // Time: O (n log(n))
-        // Space: O (n)
-        public int MinMeetingRooms_a(int[][] intervals)
-        {
-            int minMeetingRooms = 0;
-
-            if (intervals == null || intervals.Length == 0 || intervals[0].Length == 0)
-            {
-                return minMeetingRooms;
-            }
-
-            int n = intervals.Length;
-            int[] startTimes = new int[n];
-            int[] endTimes = new int[n];
-
-            for (int i = 0; i < n; i++)
-            {
-                startTimes[i] = intervals[i][0];
-                endTimes[i] = intervals[i][1];
-            }
-
-            Array.Sort(startTimes);
-            Array.Sort(endTimes);
-
-            int endTimesIterator = 0;
-
-            for (int i = 0; i < n; i++)
-            {
-                // Increment the room for the current meeting that is starting
-                minMeetingRooms++;
-
-                // Check if startTime of current meeting is after endTime of meeting that is suppose to end first
-                if (startTimes[i] >= endTimes[endTimesIterator])
-                {
-                    minMeetingRooms--;
-                    endTimesIterator++;
-                }
-            }
-
-            return minMeetingRooms;
-        }
-
-        // Time: O (n)
-        // Space: O (n)
-        public int MinMeetingRooms_b(int[][] intervals)
-        {
-            int result = 0;
-
-            if (intervals == null || intervals.Length == 0 || intervals[0].Length == 0)
-            {
-                return result;
-            }
-
-            Array.Sort(intervals, (a, b) => a[0] - b[0]);
-
-            MinHeap heap = new MinHeap(intervals.Length);
-            heap.Add(intervals[0][1]);
-            result = 1;
-
-            for (int i = 1; i < intervals.Length; i++)
-            {
-                var currentInteval = intervals[i];
-
-                if (heap.Peek() <= currentInteval[0])
-                {
-                    heap.Pop();
-                }
-                else
-                {
-                    result++;
-                }
-
-                heap.Add(currentInteval[1]);
-            }
-
-            return result;
-        }
-    }
-
     public class MinHeap
     {
         private readonly int[] _elements;

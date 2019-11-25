@@ -22,7 +22,7 @@
             "${2:ProblemStatement}",
             "*/\n",
             "using System;\n",
-            "namespace TechByTarun.InterviewPreperationGuide.Core.LeetCode.Solution$TM_FILENAME {",
+            "namespace InterviewPreperationGuide.Core.LeetCode.problem$TM_FILENAME {",
             "\tpublic class Solution {",
             "\t\tpublic void Init () {\n",
             "\t\t}\n",
@@ -31,5 +31,13 @@
             "}"
         ],
         "description": "LeetCode"
+    },
+    "Time And Space": {
+        "prefix": "timespace",
+        "body": [
+            "// Time: O ()",
+            "// Space: O ()"
+        ],
+        "description": "Time and Space Complexity"
     }
 }
