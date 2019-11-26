@@ -29,6 +29,7 @@ Output: 3
 */
 
 using System;
+using System.Collections.Generic;
 
 namespace InterviewPreperationGuide.Core.LeetCode.problem200
 {
@@ -39,9 +40,82 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem200
             Console.WriteLine();
         }
 
+        // Time: O (m*n)
+        // Space: O (min(m,n))
         public int NumIslands(char[][] grid)
         {
-            return 0;
+            int count = 0;
+
+            if (grid == null || grid.GetUpperBound(0) < 0 || grid[0] == null)
+            {
+                return count;
+            }
+
+            int m = grid.Length;
+            int n = grid[0].Length;
+
+            if (m == 0 || n == 0)
+            {
+                return count;
+            }
+
+            for (int i = 0; i < m; i++)
+            {
+                for (int j = 0; j < n; j++)
+                {
+                    if (grid[i][j] == '1')
+                    {
+                        count++;
+
+                        Queue<Point> q = new Queue<Point>();
+                        q.Enqueue(new Point(i, j));
+                        grid[i][j] = '0';
+
+                        while (q.Count != 0)
+                        {
+                            Point p = q.Dequeue();
+
+                            if (p.x - 1 >= 0 && grid[p.x - 1][p.y] == '1')
+                            {
+                                q.Enqueue(new Point(p.x - 1, p.y));
+                                grid[p.x - 1][p.y] = '0';
+                            }
+
+                            if (p.x + 1 < m && grid[p.x + 1][p.y] == '1')
+                            {
+                                q.Enqueue(new Point(p.x + 1, p.y));
+                                grid[p.x + 1][p.y] = '0';
+                            }
+
+                            if (p.y - 1 >= 0 && grid[p.x][p.y - 1] == '1')
+                            {
+                                q.Enqueue(new Point(p.x, p.y - 1));
+                                grid[p.x][p.y - 1] = '0';
+                            }
+
+                            if (p.y + 1 < n && grid[p.x][p.y + 1] == '1')
+                            {
+                                q.Enqueue(new Point(p.x, p.y + 1));
+                                grid[p.x][p.y + 1] = '0';
+                            }
+                        }
+                    }
+                }
+            }
+
+            return count;
+        }
+    }
+
+    public class Point
+    {
+        public int x;
+        public int y;
+
+        public Point(int _x, int _y)
+        {
+            x = _x;
+            y = _y;
         }
     }
 }

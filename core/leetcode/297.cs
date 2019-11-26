@@ -52,53 +52,53 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem297
 
     public class Codec
     {
-        private String spliter = ",";
-        private String NN = "X";
+        private const string _spliter = ",";
+        private const string _null = "X";
 
         // Encodes a tree to a single string.
         public String serialize(TreeNode root)
         {
             StringBuilder sb = new StringBuilder();
-            buildString(root, sb);
+            serializeHelper(root, sb);
             return sb.ToString();
+        }
+
+        private void serializeHelper(TreeNode node, StringBuilder sb)
+        {
+            if (node == null)
+            {
+                sb.Append(_null).Append(_spliter);
+            }
+            else
+            {
+                sb.Append(node.val).Append(_spliter);
+                serializeHelper(node.left, sb);
+                serializeHelper(node.right, sb);
+            }
         }
 
         // Decodes your encoded data to tree.
         public TreeNode deserialize(String data)
         {
             List<String> nodes = new List<String>();
-            nodes.AddRange(data.Split(spliter));
-            return buildTree(nodes);
+            nodes.AddRange(data.Split(_spliter));
+            return deserializeHelper(nodes);
         }
 
-        private void buildString(TreeNode node, StringBuilder sb)
+        private TreeNode deserializeHelper(List<String> nodes)
         {
-            if (node == null)
-            {
-                sb.Append(NN).Append(spliter);
-            }
-            else
-            {
-                sb.Append(node.val).Append(spliter);
-                buildString(node.left, sb);
-                buildString(node.right, sb);
-            }
-        }
-
-        private TreeNode buildTree(List<String> nodes)
-        {
-            String val = nodes[0];
+            string val = nodes[0];
             nodes.RemoveAt(0);
 
-            if (val == NN)
+            if (val == _null)
             {
                 return null;
             }
             else
             {
                 TreeNode node = new TreeNode(Convert.ToInt32(val));
-                node.left = buildTree(nodes);
-                node.right = buildTree(nodes);
+                node.left = deserializeHelper(nodes);
+                node.right = deserializeHelper(nodes);
                 return node;
             }
         }

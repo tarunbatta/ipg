@@ -54,7 +54,7 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem232
         {
             if (outbox.Count == 0)
             {
-                if (inbox.Count != 0)
+                while (inbox.Count != 0)
                 {
                     outbox.Push(inbox.Pop());
                 }
@@ -68,7 +68,7 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem232
         {
             if (outbox.Count == 0)
             {
-                if (inbox.Count != 0)
+                while (inbox.Count != 0)
                 {
                     outbox.Push(inbox.Pop());
                 }
@@ -80,7 +80,7 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem232
         /** Returns whether the queue is empty. */
         public bool IsEmpty()
         {
-            return inbox.Count == 0 && outbox.Count == 0 ? true : false;
+            return inbox.Count == 0 && outbox.Count == 0;
         }
     }
 }

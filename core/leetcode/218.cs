@@ -25,7 +25,6 @@ There must be no consecutive horizontal lines of equal height in the output skyl
 
 using System;
 using System.Collections.Generic;
-using System.Linq;
 
 namespace InterviewPreperationGuide.Core.LeetCode.problem218
 {
@@ -55,7 +54,7 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem218
                 points.Add(new Point(end, h, false));
             }
 
-            points.Sort();
+            points.Sort((x,y) => x.CompareTo(y));
 
             SortedDictionary<int, int> queue = new SortedDictionary<int, int>();
             queue.Add(0, 0);

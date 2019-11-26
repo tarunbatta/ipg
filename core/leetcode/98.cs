@@ -66,6 +66,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem98
             Console.WriteLine(IsValidBST_b(node1));
         }
 
+        // Time: O (n)
+        // Space: O (n)
         public bool IsValidBST_a(TreeNode root)
         {
             return IsValidBSTHelper(root, long.MinValue, long.MaxValue);
@@ -83,14 +85,11 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem98
                 return false;
             }
 
-            if (!IsValidBSTHelper(node.left, min, node.val) || !IsValidBSTHelper(node.right, node.val, max))
-            {
-                return false;
-            }
-
-            return true;
+            return IsValidBSTHelper(node.left, min, node.val) && IsValidBSTHelper(node.right, node.val, max);
         }
 
+        // Time: O (n)
+        // Space: O (n)
         public bool IsValidBST_b(TreeNode root)
         {
             Stack stack = new Stack();
