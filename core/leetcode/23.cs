@@ -44,6 +44,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem23
             ListNode result = MergeKLists(lists);
         }
 
+        // Time: O (n log (k))
+        // Space: O (1)
         public ListNode MergeKLists(ListNode[] lists)
         {
             if (lists == null || lists.Length == 0)

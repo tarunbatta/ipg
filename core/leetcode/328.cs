@@ -21,8 +21,6 @@ Output: 2->3->6->7->1->5->4->NULL
 
 
 Note:
-
-
 	The relative order inside both the even and odd groups should remain as it was in the input.
 	The first node is considered odd, the second node even and so on ...
 */
@@ -38,9 +36,31 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem328
             Console.WriteLine();
         }
 
+        // Time: O (n)
+        // Space: O (1)
         public ListNode OddEvenList(ListNode head)
         {
-            return null;
+            if (head == null)
+            {
+                return head;
+            }
+
+            ListNode odd = head;
+            ListNode even = head.next;
+            ListNode evenHead = even;
+
+            while (even != null && even.next != null)
+            {
+                odd.next = even.next;
+                odd = odd.next;
+
+                even.next = odd.next;
+                even = even.next;
+            }
+
+            odd.next = evenHead;
+
+            return head;
         }
     }
 

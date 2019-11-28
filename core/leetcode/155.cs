@@ -54,11 +54,7 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem155
         {
             stack.Push(x);
 
-            if (min.Count == 0)
-            {
-                min.Push(x);
-            }
-            else if (min.Peek() >= x)
+            if (min.Count == 0 || x <= min.Peek())
             {
                 min.Push(x);
             }

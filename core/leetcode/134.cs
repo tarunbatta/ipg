@@ -11,8 +11,6 @@ You have a car with an unlimited gas tank and it costs cost[i] of gas to travel 
 Return the starting gas station's index if you can travel around the circuit once in the clockwise direction, otherwise return -1.
 
 Note:
-
-
 	If there exists a solution, it is guaranteed to be unique.
 	Both input arrays are non-empty and have the same length.
 	Each element in the input arrays is a non-negative integer.
@@ -61,12 +59,40 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem134
     {
         public void Init()
         {
-            Console.WriteLine();
+            Console.WriteLine(CanCompleteCircuit(new int[] { 1, 2, 3, 4, 5 }, new int[] { 3, 4, 5, 1, 2 }));
+            Console.WriteLine(CanCompleteCircuit(new int[] { 5, 1, 2, 3, 4 }, new int[] { 4, 4, 1, 5, 1 }));
         }
 
+        // Time: O (n)
+        // Space: O (1)
         public int CanCompleteCircuit(int[] gas, int[] cost)
         {
-            return 0;
+            if (gas == null || cost == null || gas.Length == 0 || cost.Length == 0)
+            {
+                return -1;
+            }
+
+            int n = gas.Length;
+            int total_tank = 0;
+            int curr_tank = 0;
+            int starting_station = 0;
+
+            for (int i = 0; i < n; ++i)
+            {
+                total_tank += gas[i] - cost[i];
+                curr_tank += gas[i] - cost[i];
+
+                // If one couldn't get here,
+                if (curr_tank < 0)
+                {
+                    // Pick up the next station as the starting one.
+                    starting_station = i + 1;
+                    // Start with an empty tank.
+                    curr_tank = 0;
+                }
+            }
+
+            return total_tank >= 0 ? starting_station : -1;
         }
     }
 }

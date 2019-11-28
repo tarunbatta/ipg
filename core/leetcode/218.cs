@@ -25,6 +25,7 @@ There must be no consecutive horizontal lines of equal height in the output skyl
 
 using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace InterviewPreperationGuide.Core.LeetCode.problem218
 {
@@ -36,8 +37,12 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem218
             Console.WriteLine(GetSkyline(new int[][] { new int[] { 2, 9, 10 }, new int[] { 3, 7, 15 }, new int[] { 5, 12, 12 }, new int[] { 15, 20, 10 }, new int[] { 19, 24, 8 } }));
         }
 
+        // Time: O (n log (n))
+        // Space: O (n)
         public IList<IList<int>> GetSkyline(int[][] buildings)
         {
+            IList<IList<int>> result = new List<IList<int>>();
+
             if (buildings == null || buildings.Length == 0 || buildings[0].Length == 0)
             {
                 return null;
@@ -54,37 +59,44 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem218
                 points.Add(new Point(end, h, false));
             }
 
-            points.Sort((x,y) => x.CompareTo(y));
+            points.Sort((x, y) => x.CompareTo(y));
 
-            SortedDictionary<int, int> queue = new SortedDictionary<int, int>();
-            queue.Add(0, 0);
+            Dictionary<int, int> queue = new Dictionary<int, int>();
+            queue.Add(0, 1);
 
-            IList<IList<int>> result = new List<IList<int>>();
+            int previousMaxHeight = 0;
 
-            int prevMaxVal = 0;
             foreach (var point in points)
             {
-                int curMaxVal = queue[0];
-
                 if (point.isStart)
                 {
-                    queue.Add(point.height, 1);
-
-                    if (curMaxVal > prevMaxVal)
+                    if (!queue.ContainsKey(point.height))
                     {
-                        result.Add(new int[] { point.x, point.height });
-                        prevMaxVal = curMaxVal;
+                        queue.Add(point.height, 1);
+                    }
+                    else
+                    {
+                        queue[point.height]++;
                     }
                 }
                 else
                 {
-                    queue.Remove(point.height);
-
-                    if (curMaxVal < prevMaxVal)
+                    if (queue[point.height] == 1)
                     {
-                        result.Add(new int[] { point.x, curMaxVal });
-                        prevMaxVal = curMaxVal;
+                        queue.Remove(point.height);
                     }
+                    else
+                    {
+                        queue[point.height]--;
+                    }
+                }
+
+                int currentMaxHeight = queue.Keys.Max();
+
+                if (previousMaxHeight != currentMaxHeight)
+                {
+                    result.Add(new int[] { point.x, currentMaxHeight });
+                    previousMaxHeight = currentMaxHeight;
                 }
             }
 

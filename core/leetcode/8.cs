@@ -65,6 +65,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem8
             Console.WriteLine(MyAtoi("-91283472332"));
         }
 
+        // Time: O (n)
+        // Space: O (1)
         public int MyAtoi(string str)
         {
             if (str == null || str.Length == 0)

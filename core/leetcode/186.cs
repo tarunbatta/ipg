@@ -32,6 +32,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem186
             ReverseWords(new char[] { 't', 'h', 'e', ' ', 's', 'k', 'y', ' ', 'i', 's', ' ', 'b', 'l', 'u', 'e' });
         }
 
+        // Time: O (n)
+        // Space: O (1)
         public void ReverseWords(char[] s)
         {
             if (s == null || s.Length == 0)

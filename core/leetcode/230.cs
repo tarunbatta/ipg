@@ -48,6 +48,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem230
             Console.WriteLine();
         }
 
+        // Time: O (n)
+        // Space: O (n)
         public int KthSmallest_a(TreeNode root, int k)
         {
             if (root == null || k == 0)
@@ -73,6 +75,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem230
             InOrder(root.right, l);
         }
 
+        // Time: O (log (n) + k)
+        // Space: O (log (n) + k)
         public int KthSmallest_b(TreeNode root, int k)
         {
             Stack<TreeNode> stack = new Stack<TreeNode>();
