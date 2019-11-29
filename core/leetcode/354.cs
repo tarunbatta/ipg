@@ -36,44 +36,43 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem354
             }));
         }
 
+        // Time: O (n log (n))
+        // Space: O (n)
         public int MaxEnvelopes(int[][] envelopes)
         {
             int result = 0;
 
-            if (envelopes != null)
+            if (envelopes == null || envelopes.Length == 0 || envelopes[0].Length == 0)
             {
-                int rows = envelopes.GetLength(0);
-                int cols = envelopes.GetLength(1);
+                return result;
+            }
 
-                if (rows > 0 && cols > 0)
+            int rows = envelopes.GetLength(0);
+            Envelope[] lst = new Envelope[rows];
+
+            for (int i = 0; i < rows; i++)
+            {
+                lst[i] = new Envelope(envelopes[i][0], envelopes[i][1]);
+            }
+
+            Array.Sort(lst);
+
+            int[] dp = new int[rows];
+
+            for (int i = 0; i < rows; i++)
+            {
+                int idx = Array.BinarySearch(dp, 0, result, lst[i].height);
+
+                if (idx < 0)
                 {
-                    DollEnvelope[] env = new DollEnvelope[rows];
+                    idx = -(idx + 1);
+                }
 
-                    for (int i = 0; i < rows; i++)
-                    {
-                        env[i] = new DollEnvelope(envelopes[i][0], envelopes[i][1]);
-                    }
+                dp[idx] = lst[i].height;
 
-                    Array.Sort(env);
-
-                    int[] dp = new int[rows];
-
-                    for (int i = 0; i < rows; i++)
-                    {
-                        int currentIndex = Array.BinarySearch(dp, 0, result, env[i].height);
-
-                        if (currentIndex < 0)
-                        {
-                            currentIndex = ~currentIndex;
-                        }
-
-                        dp[currentIndex] = env[i].height;
-
-                        if (currentIndex == result)
-                        {
-                            result++;
-                        }
-                    }
+                if (idx == result)
+                {
+                    result++;
                 }
             }
 
@@ -81,26 +80,26 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem354
         }
     }
 
-    public class DollEnvelope : IComparable<DollEnvelope>
+    public class Envelope : IComparable<Envelope>
     {
         public int width { get; set; }
         public int height { get; set; }
 
-        public DollEnvelope(int width, int height)
+        public Envelope(int width, int height)
         {
             this.width = width;
             this.height = height;
         }
 
-        public int CompareTo(DollEnvelope de)
+        public int CompareTo(Envelope y)
         {
-            if (this.width == de.width)
+            if (this.width == y.width)
             {
-                return de.height - this.height;
+                return y.height - this.height;
             }
             else
             {
-                return this.width - de.width;
+                return this.width - y.width;
             }
         }
     }
