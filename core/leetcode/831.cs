@@ -88,6 +88,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem831
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public string MaskPII(string S)
         {
             return null;

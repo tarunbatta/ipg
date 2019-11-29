@@ -39,6 +39,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem786
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int[] KthSmallestPrimeFraction(int[] A, int K)
         {
             return null;

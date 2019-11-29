@@ -48,6 +48,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem946
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public bool ValidateStackSequences(int[] pushed, int[] popped)
         {
             return false;

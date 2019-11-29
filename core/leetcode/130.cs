@@ -40,6 +40,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem130
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public void Solve(char[][] board)
         {
 

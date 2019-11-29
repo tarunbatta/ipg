@@ -56,6 +56,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem142
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public ListNode DetectCycle(ListNode head)
         {
             return null;

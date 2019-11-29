@@ -63,6 +63,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem160
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public ListNode GetIntersectionNode(ListNode headA, ListNode headB)
         {
             return null;

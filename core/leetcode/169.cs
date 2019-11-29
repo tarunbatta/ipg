@@ -30,6 +30,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem169
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int MajorityElement(int[] nums)
         {
             return 0;

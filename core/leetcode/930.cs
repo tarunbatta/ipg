@@ -41,6 +41,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem930
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int NumSubarraysWithSum(int[] A, int S)
         {
             return 0;

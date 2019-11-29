@@ -39,6 +39,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem375
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int GetMoneyAmount(int n)
         {
             return 0;

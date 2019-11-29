@@ -44,6 +44,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem552
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int CheckRecord(int n)
         {
             return 0;

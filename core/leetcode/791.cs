@@ -41,6 +41,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem791
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public string CustomSortString(string S, string T)
         {
             return null;

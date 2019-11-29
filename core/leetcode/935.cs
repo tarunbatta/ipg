@@ -63,6 +63,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem935
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int KnightDialer(int N)
         {
             return 0;

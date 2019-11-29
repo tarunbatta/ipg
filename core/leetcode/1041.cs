@@ -63,6 +63,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem1041
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public bool IsRobotBounded(string instructions)
         {
             return false;

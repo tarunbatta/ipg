@@ -52,6 +52,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem833
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public string FindReplaceString(string S, int[] indexes, string[] sources, string[] targets)
         {
             return null;

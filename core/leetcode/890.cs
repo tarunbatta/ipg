@@ -46,6 +46,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem890
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public IList<string> FindAndReplacePattern(string[] words, string pattern)
         {
             return null;

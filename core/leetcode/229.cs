@@ -31,6 +31,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem229
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public IList<int> MajorityElement(int[] nums)
         {
             return null;

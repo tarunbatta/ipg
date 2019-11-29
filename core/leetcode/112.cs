@@ -35,6 +35,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem112
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public bool HasPathSum(TreeNode root, int sum)
         {
 

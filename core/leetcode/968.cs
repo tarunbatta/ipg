@@ -47,6 +47,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem968
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int MinCameraCover(TreeNode root)
         {
             return 0;

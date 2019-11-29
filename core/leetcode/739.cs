@@ -25,6 +25,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem739
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int[] DailyTemperatures(int[] T)
         {
             return null;

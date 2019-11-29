@@ -40,6 +40,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem858
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int MirrorReflection(int p, int q)
         {
             return 0;

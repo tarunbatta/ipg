@@ -31,6 +31,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem64
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int MinPathSum(int[][] grid)
         {
             return 0;

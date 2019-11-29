@@ -63,6 +63,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem879
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int ProfitableSchemes(int G, int P, int[] group, int[] profit)
         {
             return 0;

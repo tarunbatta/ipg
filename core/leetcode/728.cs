@@ -35,6 +35,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem728
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public IList<int> SelfDividingNumbers(int left, int right)
         {
             return null;

@@ -55,6 +55,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem669
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public TreeNode TrimBST(TreeNode root, int L, int R)
         {
             return null;

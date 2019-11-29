@@ -35,6 +35,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem645
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int[] FindErrorNums(int[] nums)
         {
             return null;

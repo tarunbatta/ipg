@@ -51,6 +51,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem129
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int SumNumbers(TreeNode root)
         {
             return 0;

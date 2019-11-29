@@ -49,6 +49,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem1171
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public ListNode RemoveZeroSumSublists(ListNode head)
         {
             return null;

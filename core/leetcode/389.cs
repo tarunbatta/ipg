@@ -33,6 +33,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem389
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public char FindTheDifference(string s, string t)
         {
             return ' ';

@@ -38,6 +38,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem797
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public IList<IList<int>> AllPathsSourceTarget(int[][] graph)
         {
             return null;

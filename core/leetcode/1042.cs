@@ -59,6 +59,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem1042
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int[] GardenNoAdj(int N, int[][] paths)
         {
             return null;

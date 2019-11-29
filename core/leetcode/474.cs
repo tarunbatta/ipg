@@ -43,6 +43,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem474
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int FindMaxForm(string[] strs, int m, int n)
         {
             return 0;

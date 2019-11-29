@@ -34,6 +34,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem792
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int NumMatchingSubseq(string S, string[] words)
         {
             return 0;

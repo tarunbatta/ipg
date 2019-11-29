@@ -54,6 +54,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem691
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int MinStickers(string[] stickers, string target)
         {
             return 0;

@@ -29,6 +29,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem560
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int SubarraySum(int[] nums, int k)
         {
             return 0;

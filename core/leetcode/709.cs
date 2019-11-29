@@ -40,6 +40,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem709
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public string ToLowerCase(string str)
         {
             return null;

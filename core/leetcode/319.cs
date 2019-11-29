@@ -30,6 +30,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem319
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int BulbSwitch(int n)
         {
             return 0;

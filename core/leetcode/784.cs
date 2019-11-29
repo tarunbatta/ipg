@@ -36,6 +36,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem784
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public IList<string> LetterCasePermutation(string S)
         {
             return null;

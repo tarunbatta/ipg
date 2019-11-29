@@ -37,6 +37,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem216
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public IList<IList<int>> CombinationSum3(int k, int n)
         {
             return null;

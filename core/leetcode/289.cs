@@ -53,6 +53,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem289
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public void GameOfLife(int[][] board)
         {
 

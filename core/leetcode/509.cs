@@ -53,6 +53,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem509
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int Fib(int N)
         {
             return 0;

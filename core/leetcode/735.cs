@@ -64,6 +64,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem735
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int[] AsteroidCollision(int[] asteroids)
         {
             return null;

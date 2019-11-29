@@ -49,6 +49,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem599
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public string[] FindRestaurant(string[] list1, string[] list2)
         {
             return null;

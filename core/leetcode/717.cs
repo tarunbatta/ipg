@@ -42,6 +42,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem717
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public bool IsOneBitCharacter(int[] bits)
         {
             return false;

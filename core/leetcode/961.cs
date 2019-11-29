@@ -55,6 +55,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem961
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int RepeatedNTimes(int[] A)
         {
             return 0;

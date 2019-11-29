@@ -41,6 +41,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem114
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public void Flatten(TreeNode root) { }
     }
 

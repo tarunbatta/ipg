@@ -41,6 +41,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem907
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int SumSubarrayMins(int[] A)
         {
             return 0;

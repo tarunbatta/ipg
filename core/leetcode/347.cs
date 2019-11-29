@@ -38,6 +38,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem347
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public IList<int> TopKFrequent(int[] nums, int k)
         {
             return null;

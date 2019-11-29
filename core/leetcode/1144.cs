@@ -48,6 +48,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem1144
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int MovesToMakeZigzag(int[] nums)
         {
             return 0;

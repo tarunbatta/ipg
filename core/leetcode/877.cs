@@ -48,6 +48,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem877
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public bool StoneGame(int[] piles)
         {
             return false;

@@ -36,6 +36,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem643
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public double FindMaxAverage(int[] nums, int k)
         {
             return 0;

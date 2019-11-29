@@ -44,6 +44,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem427
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public Node Construct(int[][] grid)
         {
             return null;

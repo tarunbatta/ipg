@@ -37,6 +37,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem378
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int KthSmallest(int[][] matrix, int k)
         {
             return 0;

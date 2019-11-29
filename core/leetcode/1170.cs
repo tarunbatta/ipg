@@ -44,6 +44,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem1170
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int[] NumSmallerByFrequency(string[] queries, string[] words)
         {
             return null;

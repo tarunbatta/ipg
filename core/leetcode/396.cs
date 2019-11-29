@@ -43,6 +43,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem396
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int MaxRotateFunction(int[] A)
         {
             return 0;

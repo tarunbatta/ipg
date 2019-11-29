@@ -73,6 +73,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem990
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public bool EquationsPossible(string[] equations)
         {
             return false;

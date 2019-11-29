@@ -45,6 +45,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem1137
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int Tribonacci(int n)
         {
             return 0;

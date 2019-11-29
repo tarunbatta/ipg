@@ -57,6 +57,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem481
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int MagicalString(int n)
         {
             return 0;

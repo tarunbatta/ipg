@@ -46,6 +46,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem502
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int FindMaximizedCapital(int k, int W, int[] Profits, int[] Capital)
         {
             return 0;

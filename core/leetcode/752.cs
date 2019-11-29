@@ -63,6 +63,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem752
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int OpenLock(string[] deadends, string target)
         {
             return 0;

@@ -48,6 +48,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem658
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public IList<int> FindClosestElements(int[] arr, int k, int x)
         {
             return null;

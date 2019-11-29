@@ -29,6 +29,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem238
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int[] ProductExceptSelf(int[] nums)
         {
             return null;

@@ -37,6 +37,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem61
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public ListNode RotateRight(ListNode head, int k)
         {
             return null;

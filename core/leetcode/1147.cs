@@ -60,6 +60,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem1147
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int LongestDecomposition(string text)
         {
             return 0;

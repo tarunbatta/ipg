@@ -42,6 +42,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem783
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int MinDiffInBST(TreeNode root)
         {
             return 0;

@@ -30,6 +30,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem448
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public IList<int> FindDisappearedNumbers(int[] nums)
         {
             return null;

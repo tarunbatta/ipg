@@ -46,6 +46,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem931
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int MinFallingPathSum(int[][] A)
         {
             return 0;

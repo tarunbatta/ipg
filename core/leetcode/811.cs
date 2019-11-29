@@ -52,6 +52,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem811
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public IList<string> SubdomainVisits(string[] cpdomains)
         {
             return null;

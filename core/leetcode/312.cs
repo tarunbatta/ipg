@@ -34,6 +34,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem312
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int MaxCoins(int[] nums)
         {
             return 0;

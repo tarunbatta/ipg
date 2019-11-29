@@ -36,6 +36,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem673
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int FindNumberOfLIS(int[] nums)
         {
             return 0;

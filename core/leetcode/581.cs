@@ -32,6 +32,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem581
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int FindUnsortedSubarray(int[] nums)
         {
             return 0;

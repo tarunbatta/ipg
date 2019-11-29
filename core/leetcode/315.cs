@@ -29,6 +29,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem315
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public IList<int> CountSmaller(int[] nums)
         {
             return null;

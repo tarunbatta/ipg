@@ -62,6 +62,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem944
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int MinDeletionSize(string[] A)
         {
             return 0;

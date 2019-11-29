@@ -39,6 +39,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem91
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int NumDecodings(string s)
         {
             return 0;

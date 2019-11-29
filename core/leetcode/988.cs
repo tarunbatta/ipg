@@ -66,6 +66,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem988
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public string SmallestFromLeaf(TreeNode root)
         {
             return null;

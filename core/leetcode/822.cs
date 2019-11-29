@@ -44,6 +44,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem822
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int Flipgame(int[] fronts, int[] backs)
         {
             return 0;

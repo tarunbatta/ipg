@@ -59,6 +59,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem1023
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public IList<bool> CamelMatch(string[] queries, string pattern)
         {
             return null;

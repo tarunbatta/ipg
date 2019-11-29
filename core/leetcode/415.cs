@@ -26,6 +26,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem415
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public string AddStrings(string num1, string num2)
         {
             if (string.IsNullOrEmpty(num1))

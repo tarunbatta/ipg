@@ -45,6 +45,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem891
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int SumSubseqWidths(int[] A)
         {
             return 0;

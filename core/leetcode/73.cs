@@ -57,6 +57,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem73
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public void SetZeroes(int[][] matrix)
         {
 

@@ -38,6 +38,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem974
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int SubarraysDivByK(int[] A, int K)
         {
             return 0;

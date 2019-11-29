@@ -44,6 +44,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem101
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public bool IsSymmetric_a(TreeNode root)
         {
             return IsSymmetricHelper(root, root);

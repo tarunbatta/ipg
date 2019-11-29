@@ -35,6 +35,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem257
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public IList<string> BinaryTreePaths(TreeNode root)
         {
             return null;

@@ -36,6 +36,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem338
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int[] CountBits(int num)
         {
             return null;

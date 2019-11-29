@@ -58,6 +58,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem927
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int[] ThreeEqualParts(int[] A)
         {
             return null;

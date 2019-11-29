@@ -54,6 +54,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem982
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int CountTriplets(int[] A)
         {
             return 0;

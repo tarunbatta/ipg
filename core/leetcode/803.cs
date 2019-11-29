@@ -48,6 +48,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem803
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int[] HitBricks(int[][] grid, int[][] hits)
         {
             return null;

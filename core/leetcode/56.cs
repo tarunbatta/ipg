@@ -33,6 +33,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem56
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int[][] Merge(int[][] intervals)
         {
             return null;

@@ -27,6 +27,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem557
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public string ReverseWords(string s)
         {
             if (string.IsNullOrEmpty(s))

@@ -44,6 +44,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem951
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public bool FlipEquiv(TreeNode root1, TreeNode root2)
         {
             return false;

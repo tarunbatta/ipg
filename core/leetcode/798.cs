@@ -51,6 +51,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem798
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int BestRotation(int[] A)
         {
             return 0;

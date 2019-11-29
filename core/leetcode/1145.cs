@@ -42,6 +42,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem1145
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public bool BtreeGameWinningMove(TreeNode root, int n, int x)
         {
             return false;

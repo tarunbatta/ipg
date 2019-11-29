@@ -40,6 +40,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem696
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int CountBinarySubstrings(string s)
         {
             return 0;

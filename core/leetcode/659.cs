@@ -58,6 +58,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem659
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public bool IsPossible(int[] nums)
         {
             return false;

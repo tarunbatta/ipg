@@ -54,6 +54,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem1013
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public bool CanThreePartsEqualSum(int[] A)
         {
             return false;

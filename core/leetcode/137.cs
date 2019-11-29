@@ -33,6 +33,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem137
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int SingleNumber(int[] nums)
         {
             return 0;

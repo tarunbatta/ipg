@@ -50,6 +50,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem817
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int NumComponents(ListNode head, int[] G)
         {
             return 0;

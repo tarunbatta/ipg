@@ -35,6 +35,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem120
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int MinimumTotal(IList<IList<int>> triangle)
         {
             return 0;

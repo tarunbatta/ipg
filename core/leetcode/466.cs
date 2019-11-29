@@ -30,6 +30,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem466
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int GetMaxRepetitions(string s1, int n1, string s2, int n2)
         {
             return 0;

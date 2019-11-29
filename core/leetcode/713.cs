@@ -32,6 +32,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem713
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int NumSubarrayProductLessThanK(int[] nums, int k)
         {
             return 0;

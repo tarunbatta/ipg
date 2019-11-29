@@ -38,6 +38,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem516
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int LongestPalindromeSubseq(string s)
         {
             return 0;

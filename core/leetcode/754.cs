@@ -45,6 +45,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem754
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int ReachNumber(int target)
         {
             return 0;

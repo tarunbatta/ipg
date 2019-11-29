@@ -59,6 +59,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem518
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int Change(int amount, int[] coins)
         {
             return 0;

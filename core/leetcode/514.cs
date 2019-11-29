@@ -50,6 +50,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem514
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int FindRotateSteps(string ring, string key)
         {
             return 0;

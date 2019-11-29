@@ -44,6 +44,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem455
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int FindContentChildren(int[] g, int[] s)
         {
             return 0;

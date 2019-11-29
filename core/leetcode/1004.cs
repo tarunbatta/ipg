@@ -50,6 +50,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem1004
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int LongestOnes(int[] A, int K)
         {
             return 0;

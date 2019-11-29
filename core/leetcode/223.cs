@@ -31,6 +31,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem223
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int ComputeArea(int A, int B, int C, int D, int E, int F, int G, int H)
         {
             return 0;

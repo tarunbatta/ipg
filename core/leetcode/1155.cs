@@ -69,6 +69,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem1155
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int NumRollsToTarget(int d, int f, int target)
         {
             return 0;

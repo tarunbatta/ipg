@@ -56,6 +56,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem953
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public bool IsAlienSorted(string[] words, string order)
         {
             return false;

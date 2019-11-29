@@ -52,6 +52,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem1036
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public bool IsEscapePossible(int[][] blocked, int[] source, int[] target)
         {
             return false;

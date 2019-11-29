@@ -51,6 +51,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem828
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int UniqueLetterString(string S)
         {
             return 0;

@@ -39,6 +39,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem646
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int FindLongestChain(int[][] pairs)
         {
             return 0;

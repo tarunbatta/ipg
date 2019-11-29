@@ -45,6 +45,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem576
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int FindPaths(int m, int n, int N, int i, int j)
         {
             return 0;

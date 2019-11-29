@@ -43,6 +43,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem35
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int SearchInsert(int[] nums, int target)
         {
             return 0;

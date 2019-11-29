@@ -43,6 +43,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem628
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int MaximumProduct(int[] nums)
         {
             return 0;

@@ -35,6 +35,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem103
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public IList<IList<int>> ZigzagLevelOrder(TreeNode root)
         {
             IList<IList<int>> result = new List<IList<int>>();

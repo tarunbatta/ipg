@@ -54,6 +54,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem724
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int PivotIndex(int[] nums)
         {
             return 0;

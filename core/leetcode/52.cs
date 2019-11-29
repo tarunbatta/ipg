@@ -39,6 +39,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem52
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int TotalNQueens(int n)
         {
             return 0;

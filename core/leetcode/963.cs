@@ -75,6 +75,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem963
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public double MinAreaFreeRect(int[][] points)
         {
             return 0;

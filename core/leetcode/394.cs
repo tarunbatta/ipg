@@ -33,6 +33,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem394
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public string DecodeString(string s)
         {
             return null;

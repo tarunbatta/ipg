@@ -24,6 +24,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem434
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int CountSegments(string s)
         {
             return 0;

@@ -42,6 +42,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem780
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public bool ReachingPoints(int sx, int sy, int tx, int ty)
         {
             return false;

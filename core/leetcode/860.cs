@@ -74,6 +74,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem860
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public bool LemonadeChange(int[] bills)
         {
             return false;

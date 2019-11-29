@@ -54,6 +54,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem969
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public IList<int> PancakeSort(int[] A)
         {
             return null;

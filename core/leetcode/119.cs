@@ -34,6 +34,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem119
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public IList<int> GetRow(int rowIndex)
         {
             return null;

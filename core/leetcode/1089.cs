@@ -46,6 +46,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem1089
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public void DuplicateZeros(int[] arr) { }
     }
 }

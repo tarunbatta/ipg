@@ -51,6 +51,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem117
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public Node Connect(Node root)
         {
             return null;

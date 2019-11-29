@@ -64,6 +64,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem898
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int SubarrayBitwiseORs(int[] A)
         {
             return 0;

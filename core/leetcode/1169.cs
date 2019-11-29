@@ -57,6 +57,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem1169
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public IList<string> InvalidTransactions(string[] transactions)
         {
             return null;

@@ -43,6 +43,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem667
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int[] ConstructArray(int n, int k)
         {
             return null;

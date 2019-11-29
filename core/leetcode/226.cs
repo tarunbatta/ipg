@@ -41,6 +41,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem226
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public TreeNode InvertTree(TreeNode root)
         {
             return null;

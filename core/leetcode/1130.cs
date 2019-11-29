@@ -49,6 +49,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem1130
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int MctFromLeafValues(int[] arr)
         {
             return 0;

@@ -28,6 +28,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem22
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public IList<string> GenerateParenthesis_a(int n)
         {
             List<String> ans = new List<string>();

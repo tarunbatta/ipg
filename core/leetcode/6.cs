@@ -41,6 +41,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem6
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public string Convert(string s, int numRows)
         {
             return null;

@@ -33,6 +33,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem167
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int[] TwoSum(int[] numbers, int target)
         {
             return null;

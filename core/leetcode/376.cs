@@ -44,6 +44,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem376
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int WiggleMaxLength(int[] nums)
         {
             return 0;

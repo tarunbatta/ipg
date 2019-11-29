@@ -49,6 +49,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem149
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int MaxPoints(int[][] points)
         {
             return 0;

@@ -24,6 +24,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem93
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public IList<string> RestoreIpAddresses(string s)
         {
             List<string> result = new List<string>();

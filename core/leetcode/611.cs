@@ -34,6 +34,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem611
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int TriangleNumber(int[] nums)
         {
             return 0;

@@ -32,6 +32,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem77
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public IList<IList<int>> Combine(int n, int k)
         {
             return null;

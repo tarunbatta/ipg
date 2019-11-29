@@ -33,6 +33,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem108
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public TreeNode SortedArrayToBST(int[] nums)
         {
             if (nums == null || nums.Length == 0)

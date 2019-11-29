@@ -40,6 +40,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem330
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int MinPatches(int[] nums, int n)
         {
             return 0;

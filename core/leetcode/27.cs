@@ -58,6 +58,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem27
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int RemoveElement(int[] nums, int val)
         {
             return 0;

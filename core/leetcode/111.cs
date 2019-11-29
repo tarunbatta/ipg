@@ -34,6 +34,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem111
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int MinDepth(TreeNode root)
         {
             return 0;

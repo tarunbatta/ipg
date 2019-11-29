@@ -40,6 +40,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem239
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int[] MaxSlidingWindow(int[] nums, int k)
         {
             return null;

@@ -39,6 +39,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem661
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int[][] ImageSmoother(int[][] M)
         {
             return null;

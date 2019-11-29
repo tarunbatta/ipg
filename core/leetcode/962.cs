@@ -56,6 +56,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem962
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int MaxWidthRamp(int[] A)
         {
             return 0;

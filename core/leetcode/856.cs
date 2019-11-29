@@ -62,6 +62,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem856
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int ScoreOfParentheses(string S)
         {
             return 0;

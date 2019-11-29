@@ -41,6 +41,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem51
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public IList<IList<string>> SolveNQueens(int n)
         {
             return null;

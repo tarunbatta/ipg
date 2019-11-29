@@ -24,6 +24,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem233
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int CountDigitOne(int n)
         {
             return 0;

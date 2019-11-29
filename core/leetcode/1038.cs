@@ -52,6 +52,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem1038
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public TreeNode BstToGst(TreeNode root)
         {
             return null;

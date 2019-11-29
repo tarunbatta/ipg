@@ -36,6 +36,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem166
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public string FractionToDecimal(int numerator, int denominator)
         {
             return null;

@@ -61,6 +61,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem1039
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int MinScoreTriangulation(int[] A)
         {
             return 0;

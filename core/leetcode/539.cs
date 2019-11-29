@@ -30,6 +30,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem539
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int FindMinDifference(IList<string> timePoints)
         {
             return 0;

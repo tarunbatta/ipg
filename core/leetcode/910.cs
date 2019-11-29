@@ -60,6 +60,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem910
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int SmallestRangeII(int[] A, int K)
         {
             return 0;

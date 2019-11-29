@@ -64,6 +64,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem994
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int OrangesRotting(int[][] grid)
         {
             return 0;

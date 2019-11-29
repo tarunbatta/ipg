@@ -46,6 +46,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem501
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int[] FindMode(TreeNode root)
         {
             return null;

@@ -26,6 +26,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem357
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int CountNumbersWithUniqueDigits(int n)
         {
             return 0;

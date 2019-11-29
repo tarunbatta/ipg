@@ -30,6 +30,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem131
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public IList<IList<string>> Partition(string s)
         {
             return null;

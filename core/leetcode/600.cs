@@ -36,6 +36,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem600
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int FindIntegers(int num)
         {
             return 0;

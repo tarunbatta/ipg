@@ -66,6 +66,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem1000
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int MergeStones(int[] stones, int K)
         {
             return 0;

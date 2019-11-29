@@ -72,6 +72,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem764
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int OrderOfLargestPlusSign(int N, int[][] mines)
         {
             return 0;

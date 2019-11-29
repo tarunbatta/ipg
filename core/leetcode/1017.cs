@@ -53,6 +53,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem1017
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public string BaseNeg2(int N)
         {
             return null;

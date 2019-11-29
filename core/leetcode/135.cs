@@ -36,6 +36,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem135
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int Candy(int[] ratings)
         {
             return 0;

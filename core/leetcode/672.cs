@@ -58,6 +58,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem672
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int FlipLights(int n, int m)
         {
             return 0;

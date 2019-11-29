@@ -37,6 +37,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem287
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int FindDuplicate(int[] nums)
         {
             return 0;

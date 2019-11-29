@@ -30,6 +30,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem541
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public string ReverseStr(string s, int k)
         {
             return null;

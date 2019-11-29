@@ -34,6 +34,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem401
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public IList<string> ReadBinaryWatch(int num)
         {
             return null;

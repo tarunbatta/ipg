@@ -54,6 +54,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem457
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public bool CircularArrayLoop(int[] nums)
         {
             return false;

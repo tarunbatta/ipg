@@ -45,6 +45,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem870
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int[] AdvantageCount(int[] A, int[] B)
         {
             return null;

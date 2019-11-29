@@ -25,6 +25,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem686
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int RepeatedStringMatch(string A, string B)
         {
             return 0;

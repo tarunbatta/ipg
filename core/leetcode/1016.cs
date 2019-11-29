@@ -40,6 +40,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem1016
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public bool QueryString(string S, int N)
         {
             return false;

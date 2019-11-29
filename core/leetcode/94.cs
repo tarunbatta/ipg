@@ -31,6 +31,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem94
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public IList<int> InorderTraversal(TreeNode root)
         {
             return null;

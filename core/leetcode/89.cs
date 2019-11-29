@@ -48,6 +48,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem89
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public IList<int> GrayCode(int n)
         {
             return null;

@@ -48,6 +48,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem1049
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int LastStoneWeightII(int[] stones)
         {
             return 0;

@@ -50,6 +50,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem827
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int LargestIsland(int[][] grid)
         {
             return 0;

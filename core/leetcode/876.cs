@@ -47,6 +47,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem876
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public ListNode MiddleNode(ListNode head)
         {
             return null;

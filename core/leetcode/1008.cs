@@ -37,6 +37,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem1008
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public TreeNode BstFromPreorder(int[] preorder)
         {
             return null;

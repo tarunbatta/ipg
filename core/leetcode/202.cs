@@ -30,6 +30,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem202
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public bool IsHappy(int n)
         {
             return false;

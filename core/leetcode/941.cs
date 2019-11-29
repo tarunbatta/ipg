@@ -68,6 +68,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem941
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public bool ValidMountainArray(int[] A)
         {
             return false;

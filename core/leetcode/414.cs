@@ -44,6 +44,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem414
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int ThirdMax(int[] nums)
         {
             return 0;

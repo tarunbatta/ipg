@@ -52,6 +52,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem684
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int[] FindRedundantConnection(int[][] edges)
         {
             return null;

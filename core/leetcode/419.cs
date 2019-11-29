@@ -40,6 +40,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem419
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int CountBattleships(char[][] board)
         {
             return 0;

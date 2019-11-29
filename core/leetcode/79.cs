@@ -33,6 +33,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem79
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public bool Exist(char[][] board, string word)
         {
             return false;

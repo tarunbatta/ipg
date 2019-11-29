@@ -72,6 +72,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem998
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public TreeNode InsertIntoMaxTree(TreeNode root, int val)
         {
             return null;

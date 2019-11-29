@@ -48,6 +48,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem678
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public bool CheckValidString(string s)
         {
             return false;

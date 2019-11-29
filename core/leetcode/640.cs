@@ -57,6 +57,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem640
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public string SolveEquation(string equation)
         {
             return null;

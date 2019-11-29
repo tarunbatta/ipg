@@ -54,6 +54,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem127
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int LadderLength(string beginWord, string endWord, IList<string> wordList)
         {
             HashSet<string> hash = new HashSet<string>();

@@ -44,6 +44,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem867
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int[][] Transpose(int[][] A)
         {
             return null;

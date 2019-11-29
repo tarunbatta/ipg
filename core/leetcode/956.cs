@@ -58,6 +58,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem956
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int TallestBillboard(int[] rods)
         {
             return 0;

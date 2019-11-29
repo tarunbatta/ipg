@@ -62,6 +62,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem978
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int MaxTurbulenceSize(int[] A)
         {
             return 0;

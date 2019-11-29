@@ -34,6 +34,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem763
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public IList<int> PartitionLabels(string S)
         {
             return null;

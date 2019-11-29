@@ -40,6 +40,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem486
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public bool PredictTheWinner(int[] nums)
         {
             return false;

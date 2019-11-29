@@ -39,6 +39,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem1139
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int Largest1BorderedSquare(int[][] grid)
         {
             return 0;

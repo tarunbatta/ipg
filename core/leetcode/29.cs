@@ -37,6 +37,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem29
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int Divide(int dividend, int divisor)
         {
             return 0;

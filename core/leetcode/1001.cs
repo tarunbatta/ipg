@@ -59,6 +59,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem1001
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int[] GridIllumination(int N, int[][] lamps, int[][] queries)
         {
             return null;

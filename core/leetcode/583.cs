@@ -26,6 +26,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem583
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int MinDistance(string word1, string word2)
         {
             return 0;

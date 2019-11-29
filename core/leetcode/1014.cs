@@ -39,6 +39,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem1014
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int MaxScoreSightseeingPair(int[] A)
         {
             return 0;

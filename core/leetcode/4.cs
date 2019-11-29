@@ -35,6 +35,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem4
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public double FindMedianSortedArrays(int[] nums1, int[] nums2)
         {
             return 0;

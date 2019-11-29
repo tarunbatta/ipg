@@ -36,6 +36,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem472
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public IList<string> FindAllConcatenatedWordsInADict(string[] words)
         {
             return null;

@@ -41,6 +41,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem1110
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public IList<TreeNode> DelNodes(TreeNode root, int[] to_delete)
         {
             return null;

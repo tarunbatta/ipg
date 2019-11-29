@@ -28,6 +28,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem59
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int[][] GenerateMatrix(int n)
         {
             return null;

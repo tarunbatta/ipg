@@ -41,6 +41,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem37
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public void SolveSudoku(char[][] board)
         {
 

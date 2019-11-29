@@ -43,6 +43,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem781
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int NumRabbits(int[] answers)
         {
             return 0;

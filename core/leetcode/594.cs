@@ -31,6 +31,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem594
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int FindLHS(int[] nums)
         {
             return 0;

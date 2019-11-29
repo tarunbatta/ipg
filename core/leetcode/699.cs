@@ -63,6 +63,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem699
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public IList<int> FallingSquares(int[][] positions)
         {
             return null;

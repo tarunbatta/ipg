@@ -50,6 +50,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem653
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public bool FindTarget(TreeNode root, int k)
         {
             return false;

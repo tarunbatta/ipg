@@ -45,6 +45,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem1026
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int MaxAncestorDiff(TreeNode root)
         {
             return 0;

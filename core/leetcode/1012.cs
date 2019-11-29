@@ -51,6 +51,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem1012
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int NumDupDigitsAtMostN(int N)
         {
             return 0;

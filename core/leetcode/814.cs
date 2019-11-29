@@ -55,6 +55,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem814
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public TreeNode PruneTree(TreeNode root)
         {
             return null;

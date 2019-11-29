@@ -29,6 +29,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem214
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public string ShortestPalindrome(string s)
         {
             return null;

@@ -32,6 +32,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem264
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int NthUglyNumber(int n)
         {
             return 0;

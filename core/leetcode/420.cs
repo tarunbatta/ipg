@@ -28,6 +28,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem420
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int StrongPasswordChecker(string s)
         {
             return 0;

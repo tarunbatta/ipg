@@ -67,6 +67,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem887
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int SuperEggDrop(int K, int N)
         {
             return 0;

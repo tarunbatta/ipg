@@ -41,6 +41,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem1163
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public string LastSubstring(string s)
         {
             return null;

@@ -40,6 +40,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem820
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int MinimumLengthEncoding(string[] words)
         {
             return 0;

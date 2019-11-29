@@ -60,6 +60,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem952
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int LargestComponentSize(int[] A)
         {
             return 0;

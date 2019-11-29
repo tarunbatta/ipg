@@ -30,6 +30,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem442
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public IList<int> FindDuplicates(int[] nums)
         {
             return null;

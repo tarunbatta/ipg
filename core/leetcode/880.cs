@@ -66,6 +66,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem880
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public string DecodeAtIndex(string S, int K)
         {
             return null;

@@ -34,6 +34,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem43
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public string Multiply(string num1, string num2)
         {
             int[] res = new int[num1.Length + num2.Length];

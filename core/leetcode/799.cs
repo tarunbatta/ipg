@@ -50,6 +50,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem799
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public double ChampagneTower(int poured, int query_row, int query_glass)
         {
             return 0;

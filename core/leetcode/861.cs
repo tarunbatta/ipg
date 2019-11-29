@@ -47,6 +47,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem861
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int MatrixScore(int[][] A)
         {
             return 0;

@@ -58,6 +58,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem995
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int MinKBitFlips(int[] A, int K)
         {
             return 0;

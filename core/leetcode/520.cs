@@ -47,6 +47,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem520
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public bool DetectCapitalUse(string word)
         {
             return false;

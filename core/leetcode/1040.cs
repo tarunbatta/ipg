@@ -69,6 +69,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem1040
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int[] NumMovesStonesII(int[] stones)
         {
             return null;

@@ -41,6 +41,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem802
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public IList<int> EventualSafeNodes(int[][] graph)
         {
             return null;

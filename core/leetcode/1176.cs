@@ -66,6 +66,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem1176
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int DietPlanPerformance(int[] calories, int k, int lower, int upper)
         {
             return 0;

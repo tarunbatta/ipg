@@ -43,6 +43,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem630
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int ScheduleCourse(int[][] courses)
         {
             return 0;

@@ -84,6 +84,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem914
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public bool HasGroupsSizeX(int[] deck)
         {
             return false;

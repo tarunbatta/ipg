@@ -46,6 +46,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem804
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int UniqueMorseRepresentations(string[] words)
         {
             return 0;

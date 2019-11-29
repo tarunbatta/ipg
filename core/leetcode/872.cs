@@ -33,6 +33,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem872
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public bool LeafSimilar(TreeNode root1, TreeNode root2)
         {
             return false;

@@ -33,6 +33,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem821
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int[] ShortestToChar(string S, char C)
         {
             return null;

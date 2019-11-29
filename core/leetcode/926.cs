@@ -56,6 +56,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem926
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int MinFlipsMonoIncr(string S)
         {
             return 0;

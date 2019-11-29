@@ -26,6 +26,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem24
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public ListNode SwapPairs(ListNode head)
         {
             return null;

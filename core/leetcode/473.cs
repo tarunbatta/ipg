@@ -41,6 +41,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem473
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public bool Makesquare(int[] nums)
         {
             return false;

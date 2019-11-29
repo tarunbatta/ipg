@@ -35,6 +35,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem49
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public IList<IList<string>> GroupAnagrams(string[] strs)
         {
             return null;

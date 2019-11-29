@@ -34,6 +34,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem590
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public IList<int> Postorder(Node root)
         {
             return null;

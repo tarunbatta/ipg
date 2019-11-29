@@ -58,6 +58,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem12
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public string IntToRoman(int num)
         {
             return null;

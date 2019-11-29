@@ -30,6 +30,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem58
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int LengthOfLastWord(string s)
         {
             return 0;

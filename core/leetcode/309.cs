@@ -31,6 +31,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem309
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int MaxProfit(int[] prices)
         {
             return 0;

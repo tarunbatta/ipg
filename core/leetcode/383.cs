@@ -31,6 +31,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem383
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public bool CanConstruct(string ransomNote, string magazine)
         {
             return false;

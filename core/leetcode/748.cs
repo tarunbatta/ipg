@@ -49,6 +49,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem748
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public string ShortestCompletingWord(string licensePlate, string[] words)
         {
             return null;

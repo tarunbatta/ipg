@@ -32,6 +32,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem228
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public IList<string> SummaryRanges(int[] nums)
         {
             return null;

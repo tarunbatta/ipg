@@ -34,6 +34,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem57
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int[][] Insert(int[][] intervals, int[] newInterval)
         {
             return null;

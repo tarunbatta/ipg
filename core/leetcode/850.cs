@@ -39,6 +39,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem850
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int RectangleArea(int[][] rectangles)
         {
             return 0;

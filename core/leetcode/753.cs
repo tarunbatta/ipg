@@ -52,6 +52,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem753
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public string CrackSafe(int n, int k)
         {
             return null;

@@ -36,6 +36,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem543
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int DiameterOfBinaryTree(TreeNode root)
         {
             return 0;

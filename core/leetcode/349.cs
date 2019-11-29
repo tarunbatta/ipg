@@ -40,6 +40,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem349
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int[] Intersection(int[] nums1, int[] nums2)
         {
             return null;

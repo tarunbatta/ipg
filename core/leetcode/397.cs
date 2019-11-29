@@ -56,6 +56,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem397
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int IntegerReplacement(int n)
         {
             return 0;

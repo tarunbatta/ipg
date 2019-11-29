@@ -38,6 +38,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem559
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int MaxDepth(Node root)
         {
             return 0;

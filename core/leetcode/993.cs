@@ -64,6 +64,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem993
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public bool IsCousins(TreeNode root, int x, int y)
         {
             return false;

@@ -34,6 +34,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem1108
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public string DefangIPaddr(string address)
         {
             return null;

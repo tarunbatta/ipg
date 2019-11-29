@@ -63,6 +63,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem1035
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int MaxUncrossedLines(int[] A, int[] B)
         {
             return 0;

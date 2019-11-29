@@ -60,6 +60,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem726
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public string CountOfAtoms(string formula)
         {
             return null;

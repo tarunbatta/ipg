@@ -47,6 +47,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem321
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int[] MaxNumber(int[] nums1, int[] nums2, int k)
         {
             return null;

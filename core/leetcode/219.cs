@@ -38,6 +38,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem219
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public bool ContainsNearbyDuplicate(int[] nums, int k)
         {
             return false;

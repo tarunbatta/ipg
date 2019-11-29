@@ -54,6 +54,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem80
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int RemoveDuplicates(int[] nums)
         {
             return 0;

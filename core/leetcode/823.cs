@@ -44,6 +44,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem823
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int NumFactoredBinaryTrees(int[] A)
         {
             return 0;

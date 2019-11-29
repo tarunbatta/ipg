@@ -44,6 +44,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem1104
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public IList<int> PathInZigZagTree(int label)
         {
             return null;

@@ -30,6 +30,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem538
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public TreeNode ConvertBST(TreeNode root)
         {
             return null;

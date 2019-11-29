@@ -35,6 +35,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem698
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public bool CanPartitionKSubsets(int[] nums, int k)
         {
             return false;

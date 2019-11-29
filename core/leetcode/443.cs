@@ -69,6 +69,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem443
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int Compress(char[] chars)
         {
             if (chars == null || chars.Length == 0)

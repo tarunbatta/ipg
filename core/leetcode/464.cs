@@ -42,6 +42,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem464
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public bool CanIWin(int maxChoosableInteger, int desiredTotal)
         {
             return false;

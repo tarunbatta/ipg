@@ -78,6 +78,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem904
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int TotalFruit(int[] tree)
         {
             return 0;

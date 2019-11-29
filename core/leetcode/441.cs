@@ -44,6 +44,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem441
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int ArrangeCoins(int n)
         {
             return 0;

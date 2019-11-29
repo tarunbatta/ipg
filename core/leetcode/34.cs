@@ -32,6 +32,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem34
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int[] SearchRange(int[] nums, int target)
         {
             return null;

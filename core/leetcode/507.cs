@@ -26,6 +26,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem507
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public bool CheckPerfectNumber(int num)
         {
             if (num < 0 || num % 2 != 0)

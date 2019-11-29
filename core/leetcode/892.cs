@@ -76,6 +76,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem892
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int SurfaceArea(int[][] grid)
         {
             return 0;

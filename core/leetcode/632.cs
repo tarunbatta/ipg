@@ -42,6 +42,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem632
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int[] SmallestRange(IList<IList<int>> nums)
         {
             return null;

@@ -26,6 +26,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem132
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int MinCut(string s)
         {
             return 0;

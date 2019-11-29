@@ -40,6 +40,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem1092
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public string ShortestCommonSupersequence(string str1, string str2)
         {
             return null;

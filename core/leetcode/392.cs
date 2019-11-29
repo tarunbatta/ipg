@@ -46,6 +46,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem392
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public bool IsSubsequence(string s, string t)
         {
             return false;

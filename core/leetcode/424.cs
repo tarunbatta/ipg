@@ -54,6 +54,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem424
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int CharacterReplacement(string s, int k)
         {
             return 0;

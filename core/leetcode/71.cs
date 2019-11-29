@@ -62,6 +62,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem71
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public string SimplifyPath(string path)
         {
             return null;

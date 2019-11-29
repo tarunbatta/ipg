@@ -49,6 +49,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem1129
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int[] ShortestAlternatingPaths(int n, int[][] red_edges, int[][] blue_edges)
         {
             return null;

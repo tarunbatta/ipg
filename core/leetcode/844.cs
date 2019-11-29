@@ -63,6 +63,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem844
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public bool BackspaceCompare(string S, string T)
         {
             return false;

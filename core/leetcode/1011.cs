@@ -69,6 +69,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem1011
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int ShipWithinDays(int[] weights, int D)
         {
             return 0;

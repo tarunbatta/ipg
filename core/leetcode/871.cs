@@ -68,6 +68,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem871
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int MinRefuelStops(int target, int startFuel, int[][] stations)
         {
             return 0;

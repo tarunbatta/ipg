@@ -34,6 +34,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem324
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public void WiggleSort(int[] nums) { }
     }
 }

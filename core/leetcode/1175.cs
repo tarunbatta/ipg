@@ -42,6 +42,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem1175
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int NumPrimeArrangements(int n)
         {
             return 0;

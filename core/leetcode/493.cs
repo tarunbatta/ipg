@@ -35,6 +35,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem493
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int ReversePairs(int[] nums)
         {
             return 0;

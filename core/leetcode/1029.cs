@@ -44,6 +44,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem1029
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int TwoCitySchedCost(int[][] costs)
         {
             return 0;

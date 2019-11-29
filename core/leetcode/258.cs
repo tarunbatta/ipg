@@ -29,6 +29,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem258
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int AddDigits(int num)
         {
             return 0;

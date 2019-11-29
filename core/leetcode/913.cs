@@ -63,6 +63,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem913
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int CatMouseGame(int[][] graph)
         {
             return 0;

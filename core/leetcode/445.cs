@@ -27,6 +27,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem445
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public ListNode AddTwoNumbers_b(ListNode l1, ListNode l2)
         {
             int n1 = getListLength(l1);

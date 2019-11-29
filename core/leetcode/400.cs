@@ -41,6 +41,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem400
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int FindNthDigit(int n)
         {
             return 0;

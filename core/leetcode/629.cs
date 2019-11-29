@@ -50,6 +50,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem629
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int KInversePairs(int n, int k)
         {
             return 0;

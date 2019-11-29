@@ -37,6 +37,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem476
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int FindComplement(int num)
         {
             return 0;

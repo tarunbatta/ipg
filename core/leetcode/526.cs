@@ -56,6 +56,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem526
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int CountArrangement(int N)
         {
             return 0;

@@ -47,6 +47,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem430
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public Node Flatten(Node head)
         {
             return null;

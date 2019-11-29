@@ -48,6 +48,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem488
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int FindMinStep(string board, string hand)
         {
             return 0;

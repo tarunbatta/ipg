@@ -60,6 +60,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem517
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int FindMinMoves(int[] machines)
         {
             return 0;

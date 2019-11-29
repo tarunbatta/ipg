@@ -52,6 +52,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem899
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public string OrderlyQueue(string S, int K)
         {
             return null;

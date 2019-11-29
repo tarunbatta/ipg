@@ -37,6 +37,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem815
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int NumBusesToDestination(int[][] routes, int S, int T)
         {
             return 0;

@@ -64,6 +64,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem766
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public bool IsToeplitzMatrix(int[][] matrix)
         {
             return false;

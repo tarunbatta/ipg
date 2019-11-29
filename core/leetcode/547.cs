@@ -50,6 +50,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem547
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int FindCircleNum(int[][] M)
         {
             return 0;

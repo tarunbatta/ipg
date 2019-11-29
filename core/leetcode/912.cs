@@ -43,6 +43,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem912
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int[] SortArray(int[] nums)
         {
             return null;

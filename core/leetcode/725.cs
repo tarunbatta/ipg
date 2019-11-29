@@ -59,6 +59,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem725
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public ListNode[] SplitListToParts(ListNode root, int k)
         {
             return null;

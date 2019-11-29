@@ -39,6 +39,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem826
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int MaxProfitAssignment(int[] difficulty, int[] profit, int[] worker)
         {
             return 0;

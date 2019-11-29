@@ -43,6 +43,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem704
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int Search(int[] nums, int target)
         {
             return 0;

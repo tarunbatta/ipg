@@ -46,6 +46,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem967
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int[] NumsSameConsecDiff(int N, int K)
         {
             return null;

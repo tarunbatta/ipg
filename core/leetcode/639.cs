@@ -56,6 +56,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem639
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int NumDecodings(string s)
         {
             return 0;

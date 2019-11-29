@@ -70,6 +70,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem987
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public IList<IList<int>> VerticalTraversal(TreeNode root)
         {
             return null;

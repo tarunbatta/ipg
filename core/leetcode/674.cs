@@ -37,6 +37,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem674
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int FindLengthOfLCIS(int[] nums)
         {
             return 0;

@@ -53,6 +53,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem1007
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int MinDominoRotations(int[] A, int[] B)
         {
             return 0;

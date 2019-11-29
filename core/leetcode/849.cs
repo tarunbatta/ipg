@@ -50,6 +50,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem849
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int MaxDistToClosest(int[] seats)
         {
             return 0;

@@ -48,6 +48,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem1037
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public bool IsBoomerang(int[][] points)
         {
             return false;

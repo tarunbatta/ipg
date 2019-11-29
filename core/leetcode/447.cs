@@ -34,6 +34,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem447
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int NumberOfBoomerangs(int[][] points)
         {
             return 0;

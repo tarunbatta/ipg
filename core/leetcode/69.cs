@@ -35,6 +35,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem69
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int MySqrt(int x)
         {
             return 0;

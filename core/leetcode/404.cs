@@ -27,6 +27,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem404
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int SumOfLeftLeaves(TreeNode root)
         {
             return 0;

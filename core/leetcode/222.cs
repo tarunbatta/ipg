@@ -34,6 +34,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem222
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int CountNodes(TreeNode root)
         {
             return 0;

@@ -45,6 +45,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem852
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int PeakIndexInMountainArray(int[] A)
         {
             return 0;

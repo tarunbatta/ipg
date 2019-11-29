@@ -39,6 +39,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem95
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public IList<TreeNode> GenerateTrees(int n)
         {
             return null;

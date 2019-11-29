@@ -32,6 +32,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem172
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int TrailingZeroes(int n)
         {
             return 0;

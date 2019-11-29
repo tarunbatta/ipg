@@ -72,6 +72,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem957
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int[] PrisonAfterNDays(int[] cells, int N)
         {
             return null;

@@ -43,6 +43,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem63
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int UniquePathsWithObstacles(int[][] obstacleGrid)
         {
             return 0;

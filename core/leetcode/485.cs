@@ -31,6 +31,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem485
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int FindMaxConsecutiveOnes(int[] nums)
         {
             return 0;

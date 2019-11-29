@@ -42,6 +42,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem437
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int PathSum(TreeNode root, int sum)
         {
             return 0;

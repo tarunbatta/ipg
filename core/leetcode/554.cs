@@ -50,6 +50,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem554
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int LeastBricks(IList<IList<int>> wall)
         {
             return 0;

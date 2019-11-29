@@ -42,6 +42,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem162
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int FindPeakElement(int[] nums)
         {
             return 0;

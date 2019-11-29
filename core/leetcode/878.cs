@@ -46,6 +46,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem878
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int NthMagicalNumber(int N, int A, int B)
         {
             return 0;

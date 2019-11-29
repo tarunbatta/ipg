@@ -38,6 +38,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem829
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int ConsecutiveNumbersSum(int N)
         {
             return 0;

@@ -50,6 +50,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem335
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public bool IsSelfCrossing(int[] x)
         {
             return false;

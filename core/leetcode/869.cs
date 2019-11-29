@@ -67,6 +67,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem869
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public bool ReorderedPowerOf2(int N)
         {
             return false;

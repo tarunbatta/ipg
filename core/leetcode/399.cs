@@ -36,6 +36,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem399
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public double[] CalcEquation(IList<IList<string>> equations, double[] values, IList<IList<string>> queries)
         {
             return null;

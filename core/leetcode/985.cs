@@ -49,6 +49,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem985
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int[] SumEvenAfterQueries(int[] A, int[][] queries)
         {
             return null;

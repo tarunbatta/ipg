@@ -61,6 +61,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem1111
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int[] MaxDepthAfterSplit(string seq)
         {
             return null;

@@ -34,6 +34,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem106
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public TreeNode BuildTree(int[] inorder, int[] postorder)
         {
             return null;

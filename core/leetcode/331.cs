@@ -51,6 +51,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem331
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public bool IsValidSerialization(string preorder)
         {
             return false;

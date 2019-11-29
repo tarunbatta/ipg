@@ -45,6 +45,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem775
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public bool IsIdealPermutation(int[] A)
         {
             return false;

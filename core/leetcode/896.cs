@@ -70,6 +70,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem896
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public bool IsMonotonic(int[] A)
         {
             return false;

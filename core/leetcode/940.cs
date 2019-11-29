@@ -64,6 +64,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem940
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int DistinctSubseqII(string S)
         {
             return 0;

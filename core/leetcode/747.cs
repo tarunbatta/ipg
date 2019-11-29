@@ -50,6 +50,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem747
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int DominantIndex(int[] nums)
         {
             return 0;

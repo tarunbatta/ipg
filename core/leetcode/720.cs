@@ -41,6 +41,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem720
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public string LongestWord(string[] words)
         {
             return null;

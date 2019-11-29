@@ -41,6 +41,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem551
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public bool CheckRecord(string s)
         {
             return false;

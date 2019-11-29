@@ -33,6 +33,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem17
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public IList<string> LetterCombinations(string digits)
         {
             return null;

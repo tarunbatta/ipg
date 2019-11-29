@@ -29,6 +29,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem148
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public ListNode SortList(ListNode head)
         {
             return null;

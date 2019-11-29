@@ -43,6 +43,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem848
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public string ShiftingLetters(string S, int[] shifts)
         {
             return null;

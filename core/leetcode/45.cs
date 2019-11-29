@@ -33,6 +33,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem45
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int Jump(int[] nums)
         {
             return 0;

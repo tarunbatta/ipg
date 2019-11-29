@@ -57,6 +57,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem915
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int PartitionDisjoint(int[] A)
         {
             return 0;

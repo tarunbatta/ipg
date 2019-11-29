@@ -59,6 +59,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem1156
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int MaxRepOpt1(string text)
         {
             return 0;

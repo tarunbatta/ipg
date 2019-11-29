@@ -30,6 +30,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem506
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public string[] FindRelativeRanks(int[] nums)
         {
             return null;

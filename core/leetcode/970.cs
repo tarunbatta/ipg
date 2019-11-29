@@ -58,6 +58,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem970
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public IList<int> PowerfulIntegers(int x, int y, int bound)
         {
             return null;

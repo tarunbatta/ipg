@@ -33,6 +33,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem11
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int MaxArea(int[] height)
         {
             return 0;

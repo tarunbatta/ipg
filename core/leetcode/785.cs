@@ -56,6 +56,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem785
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public bool IsBipartite(int[][] graph)
         {
             return false;

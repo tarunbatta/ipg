@@ -51,6 +51,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem110
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public bool IsBalanced(TreeNode root)
         {
             return false;

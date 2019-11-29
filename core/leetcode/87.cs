@@ -70,6 +70,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem87
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public bool IsScramble(string s1, string s2)
         {
             return false;

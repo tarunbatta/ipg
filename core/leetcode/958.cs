@@ -50,6 +50,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem958
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public bool IsCompleteTree(TreeNode root)
         {
             return false;

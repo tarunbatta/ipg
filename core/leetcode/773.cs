@@ -58,6 +58,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem773
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int SlidingPuzzle(int[][] board)
         {
             return 0;

@@ -40,6 +40,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem154
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int FindMin(int[] nums)
         {
             return 0;

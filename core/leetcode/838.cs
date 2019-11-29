@@ -53,6 +53,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem838
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public string PushDominoes(string dominoes)
         {
             return null;

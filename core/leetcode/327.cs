@@ -28,6 +28,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem327
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int CountRangeSum(int[] nums, int lower, int upper)
         {
             return 0;

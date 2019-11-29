@@ -73,6 +73,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem921
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int MinAddToMakeValid(string S)
         {
             return 0;

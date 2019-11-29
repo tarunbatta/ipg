@@ -34,6 +34,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem556
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int NextGreaterElement(int n)
         {
             return 0;

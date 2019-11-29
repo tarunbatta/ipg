@@ -40,6 +40,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem299
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public string GetHint(string secret, string guess)
         {
             return null;

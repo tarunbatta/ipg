@@ -75,6 +75,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem916
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public IList<string> WordSubsets(string[] A, string[] B)
         {
             return null;

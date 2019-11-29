@@ -58,6 +58,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem934
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int ShortestBridge(int[][] A)
         {
             return 0;

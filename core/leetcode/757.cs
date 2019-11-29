@@ -44,6 +44,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem757
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int IntersectionSizeTwo(int[][] intervals)
         {
             return 0;

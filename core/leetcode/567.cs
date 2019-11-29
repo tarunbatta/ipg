@@ -41,6 +41,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem567
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public bool CheckInclusion(string s1, string s2)
         {
             return false;

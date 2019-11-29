@@ -36,6 +36,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem78
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public IList<IList<int>> Subsets(int[] nums)
         {
             return null;

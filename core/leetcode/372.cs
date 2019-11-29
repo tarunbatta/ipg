@@ -31,6 +31,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem372
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int SuperPow(int a, int[] b)
         {
             return 0;

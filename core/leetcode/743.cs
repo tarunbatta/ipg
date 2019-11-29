@@ -42,6 +42,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem743
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int NetworkDelayTime(int[][] times, int N, int K)
         {
             return 0;

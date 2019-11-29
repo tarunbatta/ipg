@@ -72,6 +72,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem1094
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public bool CarPooling(int[][] trips, int capacity)
         {
             return false;

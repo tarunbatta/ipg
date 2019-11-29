@@ -41,6 +41,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem813
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public double LargestSumOfAverages(int[] A, int K)
         {
             return 0;

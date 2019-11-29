@@ -50,6 +50,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem1074
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int NumSubmatrixSumTarget(int[][] matrix, int target)
         {
             return 0;

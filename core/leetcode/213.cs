@@ -35,6 +35,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem213
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int Rob(int[] nums)
         {
             return 0;

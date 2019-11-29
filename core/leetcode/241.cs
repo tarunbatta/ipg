@@ -38,6 +38,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem241
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public IList<int> DiffWaysToCompute(string input)
         {
             return null;

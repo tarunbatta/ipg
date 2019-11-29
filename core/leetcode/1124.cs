@@ -39,6 +39,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem1124
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int LongestWPI(int[] hours)
         {
             return 0;

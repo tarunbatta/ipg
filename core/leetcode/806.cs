@@ -55,6 +55,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem806
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int[] NumberOfLines(int[] widths, string S)
         {
             return null;

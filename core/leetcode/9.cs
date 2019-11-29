@@ -36,6 +36,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem9
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public bool IsPalindrome(int x)
         {
             return false;

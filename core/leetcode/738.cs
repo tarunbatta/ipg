@@ -42,6 +42,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem738
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int MonotoneIncreasingDigits(int N)
         {
             return 0;

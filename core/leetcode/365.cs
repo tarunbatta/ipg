@@ -39,6 +39,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem365
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public bool CanMeasureWater(int x, int y, int z)
         {
             return false;

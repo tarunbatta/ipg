@@ -53,6 +53,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem881
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int NumRescueBoats(int[] people, int limit)
         {
             return 0;

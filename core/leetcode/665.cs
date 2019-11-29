@@ -40,6 +40,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem665
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public bool CheckPossibility(int[] nums)
         {
             return false;

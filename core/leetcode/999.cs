@@ -63,6 +63,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem999
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int NumRookCaptures(char[][] board)
         {
             return 0;

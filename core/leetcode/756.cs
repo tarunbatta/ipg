@@ -62,6 +62,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem756
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public bool PyramidTransition(string bottom, IList<string> allowed)
         {
             return false;

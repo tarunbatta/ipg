@@ -45,6 +45,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem210
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int[] FindOrder(int numCourses, int[][] prerequisites)
         {
             return null;

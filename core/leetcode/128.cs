@@ -26,6 +26,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem128
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int LongestConsecutive(int[] nums)
         {
             return 0;

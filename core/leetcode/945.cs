@@ -51,6 +51,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem945
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int MinIncrementForUnique(int[] A)
         {
             return 0;

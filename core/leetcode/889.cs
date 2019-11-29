@@ -38,6 +38,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem889
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public TreeNode ConstructFromPrePost(int[] pre, int[] post)
         {
             return null;

@@ -71,6 +71,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem385
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public NestedInteger Deserialize(string s)
         {
             return null;

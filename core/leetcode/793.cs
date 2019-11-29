@@ -36,6 +36,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem793
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int PreimageSizeFZF(int K)
         {
             return 0;

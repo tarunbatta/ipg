@@ -47,6 +47,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem992
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int SubarraysWithKDistinct(int[] A, int K)
         {
             return 0;

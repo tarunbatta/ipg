@@ -39,6 +39,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem275
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int HIndex(int[] citations)
         {
             return 0;

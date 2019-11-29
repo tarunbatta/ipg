@@ -63,6 +63,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem638
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int ShoppingOffers(IList<int> price, IList<IList<int>> special, IList<int> needs)
         {
             return 0;

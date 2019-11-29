@@ -50,6 +50,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem688
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public double KnightProbability(int N, int K, int r, int c)
         {
             return 0;

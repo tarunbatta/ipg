@@ -41,6 +41,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem553
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public string OptimalDivision(int[] nums)
         {
             return null;

@@ -36,6 +36,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem345
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public string ReverseVowels(string s)
         {
             return null;

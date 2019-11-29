@@ -44,6 +44,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem405
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public string ToHex(int num)
         {
             return null;

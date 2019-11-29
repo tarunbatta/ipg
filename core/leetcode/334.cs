@@ -38,6 +38,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem334
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public bool IncreasingTriplet(int[] nums)
         {
             return false;

@@ -46,6 +46,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem779
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int KthGrammar(int N, int K)
         {
             return 0;

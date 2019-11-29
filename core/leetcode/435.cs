@@ -52,6 +52,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem435
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int EraseOverlapIntervals(int[][] intervals)
         {
             return 0;

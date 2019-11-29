@@ -70,6 +70,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem979
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int DistributeCoins(TreeNode root)
         {
             return 0;

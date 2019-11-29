@@ -29,6 +29,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem503
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int[] NextGreaterElements(int[] nums)
         {
             return null;

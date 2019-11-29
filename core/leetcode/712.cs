@@ -41,6 +41,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem712
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int MinimumDeleteSum(string s1, string s2)
         {
             return 0;

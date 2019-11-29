@@ -59,6 +59,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem866
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int PrimePalindrome(int N)
         {
             return 0;

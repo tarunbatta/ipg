@@ -34,6 +34,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem343
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int IntegerBreak(int n)
         {
             return 0;

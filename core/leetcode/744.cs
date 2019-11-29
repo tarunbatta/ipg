@@ -60,6 +60,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem744
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public char NextGreatestLetter(char[] letters, char target)
         {
             return ' ';

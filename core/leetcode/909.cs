@@ -66,6 +66,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem909
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int SnakesAndLadders(int[][] board)
         {
             return 0;

@@ -57,6 +57,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem1027
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int LongestArithSeqLength(int[] A)
         {
             return 0;

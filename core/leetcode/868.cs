@@ -82,6 +82,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem868
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int BinaryGap(int N)
         {
             return 0;

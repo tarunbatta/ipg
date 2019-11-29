@@ -39,6 +39,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem718
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int FindLength(int[] A, int[] B)
         {
             return 0;

@@ -59,6 +59,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem1034
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int[][] ColorBorder(int[][] grid, int r0, int c0, int color)
         {
             return null;

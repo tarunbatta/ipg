@@ -58,6 +58,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem636
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int[] ExclusiveTime(int n, IList<string> logs)
         {
             return null;

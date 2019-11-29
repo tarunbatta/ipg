@@ -39,6 +39,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem395
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int LongestSubstring(string s, int k)
         {
             return 0;

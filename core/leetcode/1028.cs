@@ -64,6 +64,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem1028
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public TreeNode RecoverFromPreorder(string S)
         {
             return null;

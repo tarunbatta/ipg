@@ -32,6 +32,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem462
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int MinMoves2(int[] nums)
         {
             return 0;

@@ -75,6 +75,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem675
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int CutOffTree(IList<IList<int>> forest)
         {
             return 0;

@@ -45,6 +45,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem762
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int CountPrimeSetBits(int L, int R)
         {
             return 0;

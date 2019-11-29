@@ -56,6 +56,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem1053
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int[] PrevPermOpt1(int[] A)
         {
             return null;

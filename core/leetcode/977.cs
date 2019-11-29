@@ -43,6 +43,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem977
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int[] SortedSquares(int[] A)
         {
             return null;

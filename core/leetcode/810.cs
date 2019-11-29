@@ -41,6 +41,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem810
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public bool XorGame(int[] nums)
         {
             return false;

@@ -28,6 +28,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem292
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public bool CanWinNim(int n)
         {
             return false;

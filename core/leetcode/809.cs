@@ -49,6 +49,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem809
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int ExpressiveWords(string S, string[] words)
         {
             return 0;

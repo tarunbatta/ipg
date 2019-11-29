@@ -40,6 +40,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem41
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int FirstMissingPositive(int[] nums)
         {
             return 0;

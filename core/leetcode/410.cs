@@ -40,6 +40,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem410
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int SplitArray(int[] nums, int m)
         {
             return 0;

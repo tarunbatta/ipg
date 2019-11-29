@@ -42,6 +42,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem689
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int[] MaxSumOfThreeSubarrays(int[] nums, int k)
         {
             return null;

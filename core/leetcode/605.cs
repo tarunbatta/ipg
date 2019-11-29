@@ -38,6 +38,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem605
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public bool CanPlaceFlowers(int[] flowerbed, int n)
         {
             return false;

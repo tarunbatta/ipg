@@ -29,6 +29,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem82
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public ListNode DeleteDuplicates(ListNode head)
         {
             return null;

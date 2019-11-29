@@ -73,6 +73,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem893
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int NumSpecialEquivGroups(string[] A)
         {
             return 0;

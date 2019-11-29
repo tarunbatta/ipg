@@ -47,6 +47,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem1054
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int[] RearrangeBarcodes(int[] barcodes)
         {
             return null;

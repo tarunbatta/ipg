@@ -29,6 +29,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem143
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public void ReorderList(ListNode head)
         {
 

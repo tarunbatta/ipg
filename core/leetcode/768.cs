@@ -51,6 +51,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem768
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int MaxChunksToSorted(int[] arr)
         {
             return 0;

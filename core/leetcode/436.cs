@@ -65,6 +65,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem436
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int[] FindRightInterval(int[][] intervals)
         {
             return null;

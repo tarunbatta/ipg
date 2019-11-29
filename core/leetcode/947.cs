@@ -53,6 +53,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem947
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int RemoveStones(int[][] stones)
         {
             return 0;

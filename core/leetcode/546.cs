@@ -40,6 +40,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem546
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int RemoveBoxes(int[] boxes)
         {
             return 0;

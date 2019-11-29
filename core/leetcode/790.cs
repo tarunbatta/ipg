@@ -45,6 +45,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem790
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int NumTilings(int N)
         {
             return 0;

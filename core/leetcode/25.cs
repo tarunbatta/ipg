@@ -37,6 +37,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem25
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public ListNode ReverseKGroup(ListNode head, int k)
         {
             return null;

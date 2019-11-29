@@ -31,6 +31,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem371
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int GetSum(int a, int b)
         {
             return 0;

@@ -44,6 +44,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem606
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public string Tree2str(TreeNode t)
         {
             return null;

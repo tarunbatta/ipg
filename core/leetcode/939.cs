@@ -46,6 +46,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem939
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int MinAreaRect(int[][] points)
         {
             return 0;

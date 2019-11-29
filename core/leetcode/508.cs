@@ -40,6 +40,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem508
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int[] FindFrequentTreeSum(TreeNode root)
         {
             return null;

@@ -37,6 +37,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem492
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int[] ConstructRectangle(int area)
         {
             return null;

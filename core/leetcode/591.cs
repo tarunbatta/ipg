@@ -79,6 +79,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem591
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public bool IsValid(string code)
         {
             return false;

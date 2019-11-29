@@ -58,6 +58,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem1081
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public string SmallestSubsequence(string text)
         {
             return null;

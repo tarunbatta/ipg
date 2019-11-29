@@ -52,6 +52,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem446
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int NumberOfArithmeticSlices(int[] A)
         {
             return 0;

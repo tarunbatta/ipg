@@ -42,6 +42,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem467
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int FindSubstringInWraproundString(string p)
         {
             return 0;

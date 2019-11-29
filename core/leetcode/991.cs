@@ -65,6 +65,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem991
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int BrokenCalc(int X, int Y)
         {
             return 0;

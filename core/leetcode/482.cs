@@ -48,6 +48,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem482
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public string LicenseKeyFormatting(string S, int K)
         {
             return null;

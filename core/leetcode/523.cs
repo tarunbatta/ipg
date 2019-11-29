@@ -42,6 +42,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem523
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public bool CheckSubarraySum(int[] nums, int k)
         {
             return false;

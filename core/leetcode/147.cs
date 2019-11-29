@@ -49,6 +49,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem147
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public ListNode InsertionSortList(ListNode head)
         {
             return null;

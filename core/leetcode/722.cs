@@ -78,6 +78,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem722
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public IList<string> RemoveComments(string[] source)
         {
             return null;

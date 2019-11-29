@@ -40,6 +40,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem721
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public IList<IList<string>> AccountsMerge(IList<IList<string>> accounts)
         {
             return null;

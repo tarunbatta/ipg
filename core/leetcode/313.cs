@@ -35,6 +35,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem313
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int NthSuperUglyNumber(int n, int[] primes)
         {
             return 0;

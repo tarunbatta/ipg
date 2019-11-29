@@ -41,6 +41,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem697
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int FindShortestSubArray(int[] nums)
         {
             return 0;

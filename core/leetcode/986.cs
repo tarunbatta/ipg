@@ -46,6 +46,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem986
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int[][] IntervalIntersection(int[][] A, int[][] B)
         {
             return null;

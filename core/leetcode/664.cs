@@ -45,6 +45,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem664
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int StrangePrinter(string s)
         {
             return 0;

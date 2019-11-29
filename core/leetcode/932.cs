@@ -48,6 +48,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem932
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int[] BeautifulArray(int N)
         {
             return null;

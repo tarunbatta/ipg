@@ -56,6 +56,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem388
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int LengthLongestPath(string input)
         {
             return 0;

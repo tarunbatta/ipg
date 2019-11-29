@@ -44,6 +44,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem922
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int[] SortArrayByParityII(int[] A)
         {
             return null;

@@ -63,6 +63,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem928
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int MinMalwareSpread(int[][] graph, int[] initial)
         {
             return 0;

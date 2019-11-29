@@ -39,6 +39,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem164
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int MaximumGap(int[] nums)
         {
             return 0;

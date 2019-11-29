@@ -52,6 +52,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem1162
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int MaxDistance(int[][] grid)
         {
             return 0;

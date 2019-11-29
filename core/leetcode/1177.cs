@@ -49,6 +49,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem1177
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public IList<bool> CanMakePaliQueries(string s, int[][] queries)
         {
             return null;

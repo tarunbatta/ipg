@@ -44,6 +44,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem996
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int NumSquarefulPerms(int[] A)
         {
             return 0;

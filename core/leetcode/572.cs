@@ -54,6 +54,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem572
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public bool IsSubtree(TreeNode s, TreeNode t)
         {
             return false;

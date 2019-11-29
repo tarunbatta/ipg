@@ -41,6 +41,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem575
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int DistributeCandies(int[] candies)
         {
             return 0;

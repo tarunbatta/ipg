@@ -57,6 +57,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem789
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public bool EscapeGhosts(int[][] ghosts, int[] target)
         {
             return false;

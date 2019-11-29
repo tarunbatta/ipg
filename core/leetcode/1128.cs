@@ -32,6 +32,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem1128
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int NumEquivDominoPairs(int[][] dominoes)
         {
             return 0;

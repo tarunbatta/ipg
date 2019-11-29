@@ -38,6 +38,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem905
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int[] SortArrayByParity(int[] A)
         {
             return null;

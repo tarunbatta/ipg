@@ -55,6 +55,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem1019
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int[] NextLargerNodes(ListNode head)
         {
             return null;

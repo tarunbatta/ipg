@@ -50,6 +50,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem671
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int FindSecondMinimumValue(TreeNode root)
         {
             return 0;

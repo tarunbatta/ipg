@@ -48,6 +48,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem730
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int CountPalindromicSubsequences(string S)
         {
             return 0;

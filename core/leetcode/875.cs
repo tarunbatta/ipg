@@ -59,6 +59,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem875
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int MinEatingSpeed(int[] piles, int H)
         {
             return 0;

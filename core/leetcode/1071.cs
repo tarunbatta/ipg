@@ -49,6 +49,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem1071
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public string GcdOfStrings(string str1, string str2)
         {
             return null;

@@ -54,6 +54,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem740
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int DeleteAndEarn(int[] nums)
         {
             return 0;

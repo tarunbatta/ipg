@@ -35,6 +35,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem788
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int RotatedDigits(int N)
         {
             return 0;

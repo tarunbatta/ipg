@@ -41,6 +41,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem205
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public bool IsIsomorphic(string s, string t)
         {
             return false;

@@ -42,6 +42,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem617
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public TreeNode MergeTrees(TreeNode t1, TreeNode t2)
         {
             return null;

@@ -33,6 +33,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem145
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public IList<int> PostorderTraversal(TreeNode root)
         {
             return null;

@@ -36,6 +36,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem318
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int MaxProduct(string[] words)
         {
             return 0;

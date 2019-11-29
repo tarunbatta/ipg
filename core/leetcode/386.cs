@@ -23,6 +23,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem386
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public IList<int> LexicalOrder(int n)
         {
             return null;

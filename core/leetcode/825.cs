@@ -60,6 +60,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem825
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int NumFriendRequests(int[] ages)
         {
             return 0;

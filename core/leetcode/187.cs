@@ -27,6 +27,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem187
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public IList<string> FindRepeatedDnaSequences(string s)
         {
             return null;

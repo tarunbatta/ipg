@@ -39,6 +39,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem81
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public bool Search(int[] nums, int target)
         {
             return false;

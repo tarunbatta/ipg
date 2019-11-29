@@ -46,6 +46,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem456
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public bool Find132pattern(int[] nums)
         {
             return false;

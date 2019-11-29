@@ -43,6 +43,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem290
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public bool WordPattern(string pattern, string str)
         {
             return false;

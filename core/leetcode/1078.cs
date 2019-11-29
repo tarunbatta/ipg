@@ -45,6 +45,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem1078
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public string[] FindOcurrences(string text, string first, string second)
         {
             return null;

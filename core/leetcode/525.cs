@@ -36,6 +36,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem525
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int FindMaxLength(int[] nums)
         {
             return 0;

@@ -41,6 +41,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem700
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public TreeNode SearchBST(TreeNode root, int val)
         {
             return null;

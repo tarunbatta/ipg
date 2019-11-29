@@ -38,6 +38,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem522
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int FindLUSlength(string[] strs)
         {
             return 0;

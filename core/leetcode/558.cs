@@ -81,6 +81,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem558
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public Node Intersect(Node quadTree1, Node quadTree2)
         {
             return null;

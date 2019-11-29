@@ -58,6 +58,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem1009
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int BitwiseComplement(int N)
         {
             return 0;

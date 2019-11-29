@@ -49,6 +49,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem416
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public bool CanPartition(int[] nums)
         {
             return false;

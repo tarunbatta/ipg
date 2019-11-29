@@ -43,6 +43,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem494
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int FindTargetSumWays(int[] nums, int S)
         {
             return 0;

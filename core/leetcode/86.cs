@@ -25,6 +25,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem86
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public ListNode Partition(ListNode head, int x)
         {
             return null;

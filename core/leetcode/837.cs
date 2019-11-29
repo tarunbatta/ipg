@@ -50,6 +50,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem837
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public double New21Game(int N, int K, int W)
         {
             return 0;

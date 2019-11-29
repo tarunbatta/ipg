@@ -41,6 +41,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem498
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int[] FindDiagonalOrder(int[][] matrix)
         {
             return null;

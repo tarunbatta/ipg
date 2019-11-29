@@ -30,6 +30,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem67
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public string AddBinary(string a, string b)
         {
             return null;

@@ -64,6 +64,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem1031
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int MaxSumTwoNoOverlap(int[] A, int L, int M)
         {
             return 0;

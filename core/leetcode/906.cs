@@ -43,6 +43,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem906
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int SuperpalindromesInRange(string L, string R)
         {
             return 0;

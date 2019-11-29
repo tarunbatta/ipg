@@ -39,6 +39,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem530
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int GetMinimumDifference(TreeNode root)
         {
             return 0;

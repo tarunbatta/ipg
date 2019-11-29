@@ -55,6 +55,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem1018
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public IList<bool> PrefixesDivBy5(int[] A)
         {
             return null;

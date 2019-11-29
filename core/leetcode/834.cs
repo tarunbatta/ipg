@@ -39,6 +39,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem834
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int[] SumOfDistancesInTree(int N, int[][] edges)
         {
             return null;

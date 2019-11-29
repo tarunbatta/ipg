@@ -39,6 +39,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem801
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int MinSwap(int[] A, int[] B)
         {
             return 0;

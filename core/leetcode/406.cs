@@ -33,6 +33,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem406
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int[][] ReconstructQueue(int[][] people)
         {
             return null;

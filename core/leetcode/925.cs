@@ -72,6 +72,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem925
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public bool IsLongPressedName(string name, string typed)
         {
             return false;

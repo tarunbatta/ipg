@@ -66,6 +66,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem886
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public bool PossibleBipartition(int N, int[][] dislikes)
         {
             return false;

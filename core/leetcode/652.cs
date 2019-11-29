@@ -45,6 +45,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem652
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public IList<TreeNode> FindDuplicateSubtrees(TreeNode root)
         {
             return null;

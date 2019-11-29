@@ -36,6 +36,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem55
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public bool CanJump(int[] nums)
         {
             return false;

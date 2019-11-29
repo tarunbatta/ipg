@@ -57,6 +57,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem542
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int[][] UpdateMatrix(int[][] matrix)
         {
             return null;

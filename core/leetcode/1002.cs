@@ -46,6 +46,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem1002
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public IList<string> CommonChars(string[] A)
         {
             return null;

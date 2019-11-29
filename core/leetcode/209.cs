@@ -28,6 +28,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem209
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int MinSubArrayLen(int s, int[] nums)
         {
             return 0;

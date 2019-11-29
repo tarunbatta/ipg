@@ -44,6 +44,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem1105
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int MinHeightShelves(int[][] books, int shelf_width)
         {
             return 0;

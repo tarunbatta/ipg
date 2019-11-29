@@ -55,6 +55,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem841
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public bool CanVisitAllRooms(IList<IList<int>> rooms)
         {
             return false;

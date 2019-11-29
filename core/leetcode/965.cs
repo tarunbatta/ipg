@@ -44,6 +44,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem965
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public bool IsUnivalTree(TreeNode root)
         {
             return false;

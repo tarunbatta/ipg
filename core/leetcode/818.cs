@@ -53,6 +53,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem818
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int Racecar(int target)
         {
             return 0;

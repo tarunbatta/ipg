@@ -67,6 +67,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem649
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public string PredictPartyVictory(string senate)
         {
             return null;

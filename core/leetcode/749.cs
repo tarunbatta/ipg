@@ -73,6 +73,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem749
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int ContainVirus(int[][] grid)
         {
             return 0;

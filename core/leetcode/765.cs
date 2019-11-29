@@ -38,6 +38,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem765
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int MinSwapsCouples(int[] row)
         {
             return 0;

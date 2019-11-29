@@ -40,6 +40,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem695
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int MaxAreaOfIsland(int[][] grid)
         {
             return 0;

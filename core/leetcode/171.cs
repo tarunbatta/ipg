@@ -47,6 +47,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem171
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int TitleToNumber(string s)
         {
             return 0;

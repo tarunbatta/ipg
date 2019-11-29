@@ -49,6 +49,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem1160
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int CountCharacters(string[] words, string chars)
         {
             return 0;

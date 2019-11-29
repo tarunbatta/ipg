@@ -35,6 +35,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem390
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int LastRemaining(int n)
         {
             return 0;

@@ -43,6 +43,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem373
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public IList<IList<int>> KSmallestPairs(int[] nums1, int[] nums2, int k)
         {
             return null;

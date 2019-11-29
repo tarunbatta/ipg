@@ -38,6 +38,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem1051
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int HeightChecker(int[] heights)
         {
             return 0;

@@ -121,6 +121,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem883
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int ProjectionArea(int[][] grid)
         {
             return 0;

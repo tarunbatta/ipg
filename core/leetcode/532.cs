@@ -47,6 +47,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem532
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int FindPairs(int[] nums, int k)
         {
             return 0;

@@ -87,6 +87,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem975
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int OddEvenJumps(int[] A)
         {
             return 0;

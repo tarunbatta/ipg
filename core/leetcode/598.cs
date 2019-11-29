@@ -51,6 +51,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem598
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int MaxCount(int m, int n, int[][] ops)
         {
             return 0;

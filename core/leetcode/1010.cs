@@ -49,6 +49,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem1010
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int NumPairsDivisibleBy60(int[] time)
         {
             return 0;

@@ -44,6 +44,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem207
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public bool CanFinish(int numCourses, int[][] prerequisites)
         {
             return false;

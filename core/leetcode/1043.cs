@@ -36,6 +36,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem1043
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int MaxSumAfterPartitioning(int[] A, int K)
         {
             return 0;

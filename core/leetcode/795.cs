@@ -35,6 +35,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem795
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int NumSubarrayBoundedMax(int[] A, int L, int R)
         {
             return 0;

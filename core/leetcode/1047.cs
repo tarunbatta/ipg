@@ -40,6 +40,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem1047
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public string RemoveDuplicates(string S)
         {
             return null;

@@ -57,6 +57,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem1025
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public bool DivisorGame(int N)
         {
             return false;

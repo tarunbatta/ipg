@@ -36,6 +36,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem231
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public bool IsPowerOfTwo(int n)
         {
             return false;

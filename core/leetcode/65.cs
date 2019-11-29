@@ -48,6 +48,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem65
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public bool IsNumber(string s)
         {
             return false;

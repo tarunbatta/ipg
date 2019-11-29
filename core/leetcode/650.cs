@@ -48,6 +48,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem650
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int MinSteps(int n)
         {
             return 0;

@@ -42,6 +42,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem1044
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public string LongestDupSubstring(string S)
         {
             return null;

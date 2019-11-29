@@ -67,6 +67,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem989
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public IList<int> AddToArrayForm(int[] A, int K)
         {
             return null;

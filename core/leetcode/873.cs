@@ -58,6 +58,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem873
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int LenLongestFibSubseq(int[] A)
         {
             return 0;

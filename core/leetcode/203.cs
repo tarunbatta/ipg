@@ -23,6 +23,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem203
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public ListNode RemoveElements(ListNode head, int val)
         {
 

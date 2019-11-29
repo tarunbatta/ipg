@@ -39,6 +39,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem693
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public bool HasAlternatingBits(int n)
         {
             return false;

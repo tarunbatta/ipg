@@ -44,6 +44,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem263
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public bool IsUgly(int num)
         {
             return false;

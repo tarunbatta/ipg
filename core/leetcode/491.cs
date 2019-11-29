@@ -36,6 +36,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem491
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public IList<IList<int>> FindSubsequences(int[] nums)
         {
             return null;

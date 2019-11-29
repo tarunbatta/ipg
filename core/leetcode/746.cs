@@ -40,6 +40,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem746
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int MinCostClimbingStairs(int[] cost)
         {
             return 0;

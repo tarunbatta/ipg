@@ -50,6 +50,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem513
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int FindBottomLeftValue(TreeNode root)
         {
             return 0;

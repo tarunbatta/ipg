@@ -46,6 +46,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem1048
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int LongestStrChain(string[] words)
         {
             return 0;

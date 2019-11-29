@@ -40,6 +40,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem767
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public string ReorganizeString(string S)
         {
             return null;

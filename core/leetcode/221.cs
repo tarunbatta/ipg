@@ -29,6 +29,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem221
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int MaximalSquare(char[][] matrix)
         {
             return 0;

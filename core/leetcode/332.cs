@@ -40,6 +40,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem332
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public IList<string> FindItinerary(IList<IList<string>> tickets)
         {
             return null;

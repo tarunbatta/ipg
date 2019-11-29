@@ -68,6 +68,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem682
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int CalPoints(string[] ops)
         {
             return 0;

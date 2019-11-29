@@ -29,6 +29,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem201
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int RangeBitwiseAnd(int m, int n)
         {
             return 0;

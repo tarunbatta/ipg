@@ -48,6 +48,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem847
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int ShortestPathLength(int[][] graph)
         {
             return 0;

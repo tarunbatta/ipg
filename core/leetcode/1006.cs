@@ -50,6 +50,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem1006
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int Clumsy(int N)
         {
             return 0;

@@ -42,6 +42,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem733
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int[][] FloodFill(int[][] image, int sr, int sc, int newColor)
         {
             return null;

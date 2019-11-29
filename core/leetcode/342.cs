@@ -33,6 +33,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem342
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public bool IsPowerOfFour(int num)
         {
             return false;

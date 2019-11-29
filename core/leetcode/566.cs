@@ -59,6 +59,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem566
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int[][] MatrixReshape(int[][] nums, int r, int c)
         {
             return null;

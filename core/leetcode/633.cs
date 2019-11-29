@@ -35,6 +35,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem633
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public bool JudgeSquareSum(int c)
         {
             return false;

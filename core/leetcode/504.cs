@@ -33,6 +33,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem504
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public string ConvertToBase7(int num)
         {
             return null;

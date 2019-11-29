@@ -66,6 +66,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem888
             Console.WriteLine();
         }
 
+        // Time: O ()
+        // Space: O ()
         public int[] FairCandySwap(int[] A, int[] B)
         {
             return null;
