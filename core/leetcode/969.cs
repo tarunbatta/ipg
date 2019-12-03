@@ -23,7 +23,6 @@ After 3rd flip (k=4): A = [3, 2, 1, 4]
 After 4th flip (k=3): A = [1, 2, 3, 4], which is sorted. 
 
 
-
 Example 2:
 
 Input: [1,2,3]
@@ -32,12 +31,7 @@ Explanation: The input is already sorted, so there is no need to flip anything.
 Note that other answers, such as [3, 3], would also be accepted.
 
 
- 
-
-
 Note:
-
-
 	1 <= A.length <= 100
 	A[i] is a permutation of [1, 2, ..., A.length]
 */
@@ -51,14 +45,50 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem969
     {
         public void Init()
         {
-            Console.WriteLine();
+            Console.WriteLine(PancakeSort(new int[] { 3, 2, 4, 1 }));
+            Console.WriteLine(PancakeSort(new int[] { 1, 2, 3 }));
+            Console.WriteLine(PancakeSort(new int[] { 5, 4, 3, 2, 1 }));
         }
 
-        // Time: O ()
-        // Space: O ()
+        // Time: O (n^2)
+        // Space: O (n)
         public IList<int> PancakeSort(int[] A)
         {
-            return null;
+            IList<int> result = new List<int>();
+
+            if (A == null || A.Length == 0)
+            {
+                return result;
+            }
+
+            for (var i = A.Length; i >= 0; i--)
+            {
+                var idx = Array.IndexOf(A, i);
+
+                if (idx != i - 1)
+                {
+                    if (idx != 0)
+                    {
+                        Reverse(A, idx + 1);
+                        result.Add(idx + 1);
+                    }
+
+                    Reverse(A, i);
+                    result.Add(i);
+                }
+            }
+
+            return result;
+        }
+
+        private void Reverse(int[] A, int k)
+        {
+            for (var i = 0; i < k / 2; i++)
+            {
+                var temp = A[i];
+                A[i] = A[k - i - 1];
+                A[k - i - 1] = temp;
+            }
         }
     }
 }

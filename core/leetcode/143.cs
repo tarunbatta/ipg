@@ -29,11 +29,60 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem143
             Console.WriteLine();
         }
 
-        // Time: O ()
-        // Space: O ()
+        // Time: O (n)
+        // Space: O (1)
         public void ReorderList(ListNode head)
         {
+            if (head == null)
+            {
+                return;
+            }
 
+            ListNode slow = head;
+            ListNode fast = head.next;
+
+            while (fast != null && fast.next != null)
+            {
+                slow = slow.next;
+                fast = fast.next.next;
+            }
+
+            ListNode middle = slow;
+            ListNode head2 = Reverse(slow.next);
+            slow.next = null;
+
+            while (head != null && head2 != null)
+            {
+                ListNode temp1 = head.next;
+                ListNode temp2 = head2.next;
+
+                head2.next = head.next;
+                head.next = head2;
+
+                head = temp1;
+                head2 = temp2;
+            }
+        }
+
+        private ListNode Reverse(ListNode head)
+        {
+            if (head == null)
+            {
+                return null;
+            }
+
+            ListNode current = head;
+            ListNode prev = null;
+
+            while (current != null)
+            {
+                ListNode temp = current.next;
+                current.next = prev;
+                prev = current;
+                current = temp;
+            }
+
+            return prev;
         }
     }
 

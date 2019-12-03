@@ -35,6 +35,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem92
             Console.WriteLine(ReverseBetween(l, 3, 3));
         }
 
+        // Time: O (n)
+        // Space: O (1)
         public ListNode ReverseBetween(ListNode head, int m, int n)
         {
             if (head == null || m >= n)
@@ -45,21 +47,38 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem92
             ListNode result = new ListNode(0);
             result.next = head;
             ListNode node = result;
-            for (int i = 0; i < m - 1; i++)
+
+            while (m > 1)
             {
                 node = node.next;
+                m--;
+                n--;
             }
 
-            ListNode first = node.next;
-            ListNode next = first.next;
+            ListNode prev = node;
+            ListNode current = node.next;
+            ListNode tail = node.next;
+            ListNode temp = null;
 
-            for (int i = 0; i < n - m; i++)
+            while (n > 0)
             {
-                first.next = next.next;
-                next.next = node.next;
-                node.next = next;
-                next = first.next;
+                temp = current.next;
+                current.next = prev;
+                prev = current;
+                current = temp;
+                n--;
             }
+
+            if (node != null)
+            {
+                node.next = prev;
+            }
+            else
+            {
+                head = prev;
+            }
+
+            tail.next = current;
 
             return result.next;
         }
