@@ -44,6 +44,10 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.problem277
 {
+    /* The Knows API is defined in the parent class Relation.
+        bool Knows(int a, int b); 
+    */
+
     public class Solution
     {
         public void Init()
@@ -51,11 +55,36 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem277
 
         }
 
-        // Time: O ()
-        // Space: O ()
+        // Time: O (n)
+        // Space: O (1)
         public int FindCelebrity(int n)
         {
-            return 0;
+            int result = 0;
+
+            // if candidate knows i, then switch candidate
+            for (int i = 1; i < n; i++)
+            {
+                if (Knows(result, i))
+                {
+                    result = i;
+                }
+            }
+
+            // check whether the candidate is real
+            for (int i = 0; i < n; i++)
+            {
+                if (i != result && (Knows(result, i) || !Knows(i, result)))
+                {
+                    return -1;
+                }
+            }
+
+            return result;
+        }
+
+        private bool Knows(int a, int b)
+        {
+            return false;
         }
     }
 }

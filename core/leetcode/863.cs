@@ -32,6 +32,7 @@ Note:
 
 using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace InterviewPreperationGuide.Core.LeetCode.problem863
 {
@@ -42,11 +43,62 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem863
             Console.WriteLine();
         }
 
-        // Time: O ()
-        // Space: O ()
+        // Time: O (n)
+        // Space: O (n)
         public IList<int> DistanceK(TreeNode root, TreeNode target, int K)
         {
-            return null;
+            var queue = new Queue<int>();
+            var stack = new Stack<TreeNode>();
+            var graph = new Dictionary<int, IList<int>>();
+            var visited = new HashSet<int>();
+
+            stack.Push(root);
+            queue.Enqueue(target.val);
+
+            while (stack.Count > 0)
+            {
+                var node = stack.Pop();
+
+                if (!graph.ContainsKey(node.val)) { graph[node.val] = new List<int>(); }
+                if (node.left != null)
+                {
+                    if (!graph.ContainsKey(node.left.val)) { graph[node.left.val] = new List<int>(); }
+
+                    graph[node.left.val].Add(node.val);
+                    graph[node.val].Add(node.left.val);
+
+                    stack.Push(node.left);
+                }
+                if (node.right != null)
+                {
+                    if (!graph.ContainsKey(node.right.val)) { graph[node.right.val] = new List<int>(); }
+
+                    graph[node.right.val].Add(node.val);
+                    graph[node.val].Add(node.right.val);
+
+                    stack.Push(node.right);
+                }
+            }
+
+            while (K-- > 0)
+            {
+                int size = queue.Count;
+                for (int i = 0; i < size; i++)
+                {
+                    int node = queue.Dequeue();
+
+                    visited.Add(node);
+                    var neighbors = graph[node];
+
+                    foreach (var neighbor in neighbors)
+                    {
+                        if (visited.Contains(neighbor)) { continue; }
+                        queue.Enqueue(neighbor);
+                    }
+                }
+            }
+
+            return queue.ToList();
         }
     }
 

@@ -31,16 +31,12 @@ However, splitting into [2, 1], [3], [4], [4] is the highest number of chunks po
 
 
 Note:
-
-
 	arr will have length in range [1, 2000].
 	arr[i] will be an integer in range [0, 10**8].
-
-
- 
 */
 
 using System;
+using System.Collections.Generic;
 
 namespace InterviewPreperationGuide.Core.LeetCode.problem768
 {
@@ -51,11 +47,36 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem768
             Console.WriteLine();
         }
 
-        // Time: O ()
-        // Space: O ()
+        // Time: O (n log (n))
+        // Space: O (n)
+        // Let arr_sorted be the arr array after being sorted. A "chunk" is an interval [i, j] such that arr[i], ..., arr[j] is just a permutation of arr_sorted[i], ..., arr_sorted[j]. Since each chunk is just a permutation, the sums of these two lists of numbers will be equal.
         public int MaxChunksToSorted(int[] arr)
         {
-            return 0;
+            int result = 0;
+
+            if (arr == null || arr.Length == 0)
+            {
+                return result;
+            }
+
+            int[] expect = (int[])arr.Clone();
+            Array.Sort(expect);
+
+            int sum1 = 0;
+            int sum2 = 0;
+
+            for (int i = 0; i < arr.Length; ++i)
+            {
+                sum1 += expect[i];
+                sum2 += arr[i];
+
+                if (sum1 == sum2)
+                {
+                    result++;
+                }
+            }
+
+            return result;
         }
     }
 }

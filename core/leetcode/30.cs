@@ -36,9 +36,62 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem30
 
         }
 
+        // Time: O (n * m), where m is word length
+        // Space: O (1)
         public IList<int> FindSubstring(string s, string[] words)
         {
-            return null;
+            var result = new List<int>();
+
+            if (string.IsNullOrEmpty(s) || words == null || words.Length == 0)
+            {
+                return result;
+            }
+
+            IDictionary<string, int> wordsWithCount = new Dictionary<string, int>();
+
+            foreach (string w in words)
+            {
+                wordsWithCount[w] = wordsWithCount.ContainsKey(w) ? wordsWithCount[w] + 1 : 1;
+            }
+
+            int wordCount = words[0].Length;
+            IDictionary<string, int> currentWordsWithCount = new Dictionary<string, int>();
+
+            for (int i = 0; i < wordCount; i++)
+            {
+                currentWordsWithCount.Clear();
+
+                for (int left = i, right = i; right + words.Length * wordCount <= s.Length; left += wordCount)
+                {
+                    string word = s.Substring(left, wordCount);
+
+                    if (!wordsWithCount.ContainsKey(word))
+                    {
+                        currentWordsWithCount.Clear();
+                        right = left + wordCount;
+                        continue;
+                    }
+
+                    currentWordsWithCount[word] = currentWordsWithCount.ContainsKey(word) ? currentWordsWithCount[word] + 1 : 1;
+
+                    if (currentWordsWithCount[word] > wordsWithCount[word])
+                    {
+                        while (currentWordsWithCount[word] > wordsWithCount[word])
+                        {
+                            currentWordsWithCount[s.Substring(right, wordCount)]--;
+                            right += wordCount;
+                        }
+                    }
+                    else if ((left - right) / wordCount == words.Length - 1)
+                    {
+                        result.Add(right);
+                        currentWordsWithCount[s.Substring(right, wordCount)]--;
+                        right += wordCount;
+                    }
+                }
+            }
+
+            return result;
         }
     }
 }
