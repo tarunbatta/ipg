@@ -29,11 +29,33 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem238
             Console.WriteLine();
         }
 
-        // Time: O ()
-        // Space: O ()
+        // Time: O (n)
+        // Space: O (1)
         public int[] ProductExceptSelf(int[] nums)
         {
-            return null;
+            if (nums == null || nums.Length == 0)
+            {
+                return nums;
+            }
+
+            int[] result = new int[nums.Length];
+
+            int runningPrefix = 1;
+
+            for (int i = 0; i < nums.Length; i++)
+            {
+                result[i] = runningPrefix;
+                runningPrefix *= nums[i];
+            }
+
+            int runningSuffix = 1;
+            for (int i = nums.Length - 1; i >= 0; i--)
+            {
+                result[i] *= runningSuffix;
+                runningSuffix *= nums[i];
+            }
+
+            return result;
         }
     }
 }

@@ -37,119 +37,64 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem234
             l2.next.next = new ListNode(2);
             l2.next.next.next = new ListNode(1);
 
-            Console.WriteLine(IsPalindrome_a(null));
-            Console.WriteLine(IsPalindrome_a(new ListNode(0)));
-            Console.WriteLine(IsPalindrome_a(l1));
-            Console.WriteLine(IsPalindrome_a(l2));
-
-            Console.WriteLine(IsPalindrome_b(null));
-            Console.WriteLine(IsPalindrome_b(new ListNode(0)));
-            Console.WriteLine(IsPalindrome_b(l1));
-            Console.WriteLine(IsPalindrome_b(l2));
+            Console.WriteLine(IsPalindrome(null));
+            Console.WriteLine(IsPalindrome(new ListNode(0)));
+            Console.WriteLine(IsPalindrome(l1));
+            Console.WriteLine(IsPalindrome(l2));
         }
 
-        public static bool IsPalindrome_a(ListNode head)
+        // Time: O (n)
+        // Space: O (1)
+        public static bool IsPalindrome(ListNode head)
         {
-            bool result = true;
-
             if (head == null)
             {
                 return true;
             }
-            else
-            {
-                Stack s = new Stack();
-                ListNode node = head;
 
-                while (node != null)
-                {
-                    s.Push(node.val);
-                    node = node.next;
-                }
-
-                if (s.Count > 0)
-                {
-                    node = head;
-
-                    while (node.next != null)
-                    {
-                        int fromStack = (int)s.Pop();
-
-                        if (node.val == fromStack)
-                        {
-                            node = node.next;
-                        }
-                        else
-                        {
-                            return false;
-                        }
-                    }
-
-                    result = true;
-                }
-                else
-                {
-                    result = false;
-                }
-            }
-
-            return result;
-        }
-
-        public static bool IsPalindrome_b(ListNode head)
-        {
             bool result = true;
+            int len = 0;
+            ListNode node = head;
 
-            if (head == null)
+            while (node != null)
             {
-                result = true;
+                len++;
+                node = node.next;
             }
-            else
+
+            if (len == 1)
             {
-                int lengthOfList = 0;
-                ListNode node = head;
+                return true;
+            }
 
-                while (node != null)
+            node = head;
+
+            ListNode prev = null;
+
+            for (int i = 0; i < len / 2; i++)
+            {
+                ListNode temp = node.next;
+                node.next = prev;
+                prev = node;
+                node = temp;
+            }
+
+            ListNode reverseHead = prev;
+
+            if (len % 2 != 0)
+            {
+                node = node.next;
+            }
+
+            while (node != null)
+            {
+                if (node.val != reverseHead.val)
                 {
-                    lengthOfList++;
-                    node = node.next;
+                    return false;
                 }
 
-                if (lengthOfList == 1)
-                {
-                    result = true;
-                }
-                else
-                {
-                    node = head;
-
-                    ListNode temp = null;
-                    ListNode reverseHead = null;
-
-                    for (int i = 0; i < (lengthOfList / 2); i++)
-                    {
-                        temp = node;
-                        node = node.next;
-                        temp.next = reverseHead;
-                        reverseHead = temp;
-                    }
-
-                    if (lengthOfList % 2 != 0)
-                    {
-                        node = node.next;
-                    }
-
-                    while (node != null)
-                    {
-                        if (reverseHead.val != node.val)
-                        {
-                            return false;
-                        }
-
-                        node = node.next;
-                        reverseHead = reverseHead.next;
-                    }
-                }
+                node = node.next;
+                reverseHead = reverseHead.next;
             }
 
             return result;

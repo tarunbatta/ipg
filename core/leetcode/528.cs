@@ -37,6 +37,7 @@ The input is two lists: the subroutines called and their arguments. Solution's c
 */
 
 using System;
+using System.Collections.Generic;
 
 namespace InterviewPreperationGuide.Core.LeetCode.problem528
 {
@@ -48,14 +49,33 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem528
             int param_1 = obj.PickIndex();
         }
 
+        List<int> psum = new List<int>();
+        int total = 0;
+        Random rand = new Random();
+
         public Solution(int[] w)
         {
-
+            foreach (int x in w)
+            {
+                total += x;
+                psum.Add(total);
+            }
         }
 
         public int PickIndex()
         {
-            return 0;
+            int targ = rand.Next(total);
+            int lo = 0;
+            int hi = psum.Count - 1;
+
+            while (lo != hi)
+            {
+                int mid = (lo + hi) / 2;
+                if (targ >= psum[mid]) lo = mid + 1;
+                else hi = mid;
+            }
+
+            return lo;
         }
     }
 }
