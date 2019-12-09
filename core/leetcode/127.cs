@@ -51,7 +51,7 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem127
     {
         public void Init()
         {
-            Console.WriteLine();
+            Console.WriteLine(LadderLength("hit", "cog", new List<string>() { "hot", "dot", "dog", "lot", "log", "cog" }));
         }
 
         // Time: O (m * n), where m is length of words
@@ -92,7 +92,7 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem127
                         for (char c = 'a'; c <= 'z'; c++)
                         {
                             wordArr[pos] = c;
-                            string newWord = wordArr.ToString();
+                            string newWord = new string(wordArr);
 
                             if (newWord == endWord)
                             {
