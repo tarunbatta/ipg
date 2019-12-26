@@ -40,6 +40,11 @@ namespace InterviewPreperationGuide.Core.DataStructure.MinHeap
             return _size == 0;
         }
 
+        public int Count()
+        {
+            return _size;
+        }
+
         public int Peek()
         {
             if (_size == 0)

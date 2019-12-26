@@ -31,11 +31,9 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem253
         // Space: O (n)
         public int MinMeetingRooms_a(int[][] intervals)
         {
-            int minMeetingRooms = 0;
-
             if (intervals == null || intervals.Length == 0 || intervals[0].Length == 0)
             {
-                return minMeetingRooms;
+                return 0;
             }
 
             int n = intervals.Length;
@@ -51,6 +49,7 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem253
             Array.Sort(startTimes);
             Array.Sort(endTimes);
 
+            int minMeetingRooms = 0;
             int endTimesIterator = 0;
 
             for (int i = 0; i < n; i++)
@@ -73,18 +72,16 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem253
         // Space: O (n)
         public int MinMeetingRooms_b(int[][] intervals)
         {
-            int result = 0;
-
             if (intervals == null || intervals.Length == 0 || intervals[0].Length == 0)
             {
-                return result;
+                return 0;
             }
 
             Array.Sort(intervals, (a, b) => a[0] - b[0]);
 
             MinHeap heap = new MinHeap(intervals.Length);
             heap.Add(intervals[0][1]);
-            result = 1;
+            int result = 1;
 
             for (int i = 1; i < intervals.Length; i++)
             {
