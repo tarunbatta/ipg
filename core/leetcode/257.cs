@@ -35,11 +35,37 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem257
             Console.WriteLine();
         }
 
-        // Time: O ()
-        // Space: O ()
+        // Time: O (n)
+        // Space: O (h), where h s the height of the tree
         public IList<string> BinaryTreePaths(TreeNode root)
         {
-            return null;
+            IList<string> result = new List<string>();
+
+            if (root == null)
+            {
+                return result;
+            }
+
+            Dfs(root, result, "");
+
+            return result;
+        }
+
+        private void Dfs(TreeNode node, IList<string> result, string path)
+        {
+            path += node.val;
+
+            if (node.left == null && node.right == null)
+            {
+                result.Add(path);
+                return;
+            }
+
+            if (node.left != null)
+                Dfs(node.left, result, path + "->");
+
+            if (node.right != null)
+                Dfs(node.right, result, path + "->");
         }
     }
 
