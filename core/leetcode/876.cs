@@ -38,30 +38,32 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem876
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine();
+namespace InterviewPreperationGuide.Core.LeetCode.problem876 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine ();
         }
 
-        // Time: O ()
-        // Space: O ()
-        public ListNode MiddleNode(ListNode head)
-        {
-            return null;
+        // Time: O (n)
+        // Space: O (1)
+        public ListNode MiddleNode (ListNode head) {
+            ListNode slow = head;
+            ListNode fast = head;
+
+            while (fast != null && fast.next != null) {
+                slow = slow.next;
+                fast = fast.next.next;
+            }
+
+            return slow;
         }
     }
 
-    public class ListNode
-    {
+    public class ListNode {
         public int val;
         public ListNode next;
 
-        public ListNode(int x)
-        {
+        public ListNode (int x) {
             val = x;
         }
     }

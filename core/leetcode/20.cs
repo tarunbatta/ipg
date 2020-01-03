@@ -48,43 +48,36 @@ Output: true
 using System;
 using System.Collections.Generic;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem20
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine(IsValid(null));
-            Console.WriteLine(IsValid(string.Empty));
-            Console.WriteLine(IsValid("()"));
-            Console.WriteLine(IsValid("()[]{}"));
-            Console.WriteLine(IsValid("(]"));
-            Console.WriteLine(IsValid("([)]"));
-            Console.WriteLine(IsValid("{[]}"));
+namespace InterviewPreperationGuide.Core.LeetCode.problem20 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine (IsValid (null));
+            Console.WriteLine (IsValid (string.Empty));
+            Console.WriteLine (IsValid ("()"));
+            Console.WriteLine (IsValid ("()[]{}"));
+            Console.WriteLine (IsValid ("(]"));
+            Console.WriteLine (IsValid ("([)]"));
+            Console.WriteLine (IsValid ("{[]}"));
         }
 
-        public bool IsValid(string s)
-        {
-            if (string.IsNullOrEmpty(s))
-            {
+        // Time: O (n)
+        // Space: O (n)
+        public bool IsValid (string s) {
+            if (string.IsNullOrEmpty (s)) {
                 return true;
             }
 
             bool result = false;
-            Stack<char> stack = new Stack<char>();
+            Stack<char> stack = new Stack<char> ();
 
-            for (int i = 0; i < s.Length; i++)
-            {
+            for (int i = 0; i < s.Length; i++) {
                 if (stack.Count != 0 &&
-                    ((stack.Peek() == '(' && s[i] == ')') ||
-                        (stack.Peek() == '[' && s[i] == ']') ||
-                        (stack.Peek() == '{' && s[i] == '}')))
-                {
-                    stack.Pop();
-                }
-                else
-                {
-                    stack.Push(s[i]);
+                    ((stack.Peek () == '(' && s[i] == ')') ||
+                        (stack.Peek () == '[' && s[i] == ']') ||
+                        (stack.Peek () == '{' && s[i] == '}'))) {
+                    stack.Pop ();
+                } else {
+                    stack.Push (s[i]);
                 }
             }
 

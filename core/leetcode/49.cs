@@ -17,8 +17,6 @@ Output:
 ]
 
 Note:
-
-
 	All inputs will be in lowercase.
 	The order of your output does not matter.
 */
@@ -35,11 +33,34 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem49
             Console.WriteLine();
         }
 
-        // Time: O ()
-        // Space: O ()
+        // Time: O (nk)
+        // Space: O (nk)
         public IList<IList<string>> GroupAnagrams(string[] strs)
         {
-            return null;
+            IList<IList<string>> result = new List<IList<string>>();
+
+            if (strs == null || strs.Length == 0)
+            {
+                return result;
+            }
+
+            Dictionary<string, List<string>> dict = new Dictionary<string, List<string>>();
+
+            foreach (var item in strs)
+            {
+                char[] arr = item.ToCharArray();
+                Array.Sort(arr);
+                string key = new string(arr);
+
+                if (!dict.ContainsKey(key))
+                {
+                    dict.Add(key, new List<string>());
+                }
+
+                dict[key].Add(item);
+            }
+
+            return new List<IList<string>>(dict.Values);
         }
     }
 }

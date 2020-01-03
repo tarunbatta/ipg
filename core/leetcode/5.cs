@@ -21,18 +21,15 @@ Output: "bb"
 using System;
 using System.Text;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem5
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine(LongestPalindrome(null));
-            Console.WriteLine(LongestPalindrome(""));
-            Console.WriteLine(LongestPalindrome("a"));
-            Console.WriteLine(LongestPalindrome("babad"));
-            Console.WriteLine(LongestPalindrome("cbbd"));
-            Console.WriteLine(LongestPalindrome("babcbaabcbaccba"));
+namespace InterviewPreperationGuide.Core.LeetCode.problem5 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine (LongestPalindrome (null));
+            Console.WriteLine (LongestPalindrome (""));
+            Console.WriteLine (LongestPalindrome ("a"));
+            Console.WriteLine (LongestPalindrome ("babad"));
+            Console.WriteLine (LongestPalindrome ("cbbd"));
+            Console.WriteLine (LongestPalindrome ("babcbaabcbaccba"));
 
             // TODO: Manacher's Algorithm
         }
@@ -40,34 +37,33 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem5
         private int start;
         private int end;
 
-        public string LongestPalindrome(string s)
-        {
+        // Time: O (n^2)
+        // Space: O (1)
+        public string LongestPalindrome (string s) {
             int len = s.Length;
 
-            if (len < 2)
-            {
+            if (len < 2) {
                 return s;
             }
 
-            for (int i = 0; i < len - 1; i++)
-            {
-                expandAroundCenter(s, i, i);      //assume odd length, try to extend Palindrome as possible
-                expandAroundCenter(s, i, i + 1);  //assume even length.
+            for (int i = 0; i < len - 1; i++) {
+                //assume odd length, try to extend Palindrome as possible
+                expandAroundCenter (s, i, i);
+
+                //assume even length.
+                expandAroundCenter (s, i, i + 1);
             }
 
-            return s.Substring(start, end);
+            return s.Substring (start, end);
         }
 
-        private void expandAroundCenter(String s, int j, int k)
-        {
-            while (j >= 0 && k < s.Length && s[j] == s[k])
-            {
+        private void expandAroundCenter (String s, int j, int k) {
+            while (j >= 0 && k < s.Length && s[j] == s[k]) {
                 j--;
                 k++;
             }
 
-            if (end < k - j - 1)
-            {
+            if (end < k - j - 1) {
                 start = j + 1;
                 end = k - j - 1;
             }
