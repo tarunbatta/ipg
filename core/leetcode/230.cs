@@ -39,75 +39,89 @@ What if the BST is modified (insert/delete operations) often and you need to fin
 using System;
 using System.Collections.Generic;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem230
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine();
+namespace InterviewPreperationGuide.Core.LeetCode.problem230 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine ();
         }
 
         // Time: O (n)
         // Space: O (n)
-        public int KthSmallest_a(TreeNode root, int k)
-        {
-            if (root == null || k == 0)
-            {
+        public int KthSmallest_a (TreeNode root, int k) {
+            if (root == null || k == 0) {
                 return 0;
             }
 
-            List<int> l = new List<int>();
-            InOrder(root, l);
+            List<int> l = new List<int> ();
+            InOrder (root, l);
 
             return k > l.Count ? 0 : l[k - 1];
         }
 
-        private void InOrder(TreeNode root, List<int> l)
-        {
-            if (root == null)
-            {
+        private void InOrder (TreeNode root, List<int> l) {
+            if (root == null) {
                 return;
             }
 
-            InOrder(root.left, l);
-            l.Add(root.val);
-            InOrder(root.right, l);
+            InOrder (root.left, l);
+            l.Add (root.val);
+            InOrder (root.right, l);
         }
 
         // Time: O (log (n) + k)
         // Space: O (log (n) + k)
-        public int KthSmallest_b(TreeNode root, int k)
-        {
-            Stack<TreeNode> stack = new Stack<TreeNode>();
+        public int KthSmallest_b (TreeNode root, int k) {
+            Stack<TreeNode> stack = new Stack<TreeNode> ();
 
-            while (true)
-            {
-                while (root != null)
-                {
-                    stack.Push(root);
+            while (true) {
+                while (root != null) {
+                    stack.Push (root);
                     root = root.left;
                 }
 
-                root = stack.Pop();
-                if (--k == 0)
-                {
+                root = stack.Pop ();
+                if (--k == 0) {
                     return root.val;
                 }
 
                 root = root.right;
             }
         }
+
+        // Time: O (log (n))
+        // Space: O (1)
+        public int KthSmallest_c (TreeNode root, int k) {
+            if (root == null) {
+                return 0;
+            }
+
+            int[] result = new int[2];
+            InOrder (root, result, k);
+            return result[1];
+        }
+
+        private void InOrder (TreeNode root, int[] nums, int k) {
+            if (root == null) {
+                return;
+            }
+
+            InOrder (root.left, nums, k);
+
+            if (++nums[0] == k) {
+                nums[1] = root.val;
+                return;
+            }
+
+            InOrder (root.right, nums, k);
+        }
     }
 
-    public class TreeNode
-    {
+    public class TreeNode {
         public int val;
         public TreeNode left;
         public TreeNode right;
 
-        public TreeNode(int x)
-        {
+        public TreeNode (int x) {
             val = x;
         }
     }

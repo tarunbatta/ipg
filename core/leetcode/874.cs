@@ -5,8 +5,6 @@
 Easy
 
 A robot on an infinite grid starts at point (0, 0) and faces north.  The robot can receive one of three possible types of commands:
-
-
 	-2: turn left 90 degrees
 	-1: turn right 90 degrees
 	1 <= x <= 9: move forward x units
@@ -20,14 +18,12 @@ If the robot would try to move onto them, the robot stays on the previous grid s
 
 Return the square of the maximum Euclidean distance that the robot will be from the origin.
 
- 
 
 Example 1:
 
 Input: commands = [4,-1,3], obstacles = []
 Output: 25
 Explanation: robot will go to (3, 4)
-
 
 
 Example 2:
@@ -37,12 +33,7 @@ Output: 65
 Explanation: robot will be stuck at (1, 4) before turning left and going to (1, 8)
 
 
-
- 
-
 Note:
-
-
 	0 <= commands.length <= 10000
 	0 <= obstacles.length <= 10000
 	-30000 <= obstacle[i][0] <= 30000
@@ -51,19 +42,54 @@ Note:
 */
 
 using System;
+using System.Collections.Generic;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem874
-{
-    public class Solution
-    {
-        public void Init()
-        {
-
+namespace InterviewPreperationGuide.Core.LeetCode.problem874 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine (RobotSim (new int[] { 4, -1, 3 }, null));
+            Console.WriteLine (RobotSim (new int[] { 4, -1, 4, -2, 4 }, new int[][] { new int[] { 2, 4 } }));
         }
 
-        public int RobotSim(int[] commands, int[][] obstacles)
-        {
-            return 0;
+        // Time: O (m*x), where m is number of commands
+        // Space: O (n), where n is number of obstacles
+        public int RobotSim (int[] commands, int[][] obstacles) {
+            int result = 0;
+
+            if (commands == null || commands.Length == 0) {
+                return result;
+            }
+
+            int[] dx = new int[] { 0, 1, 0, -1 };
+            int[] dy = new int[] { 1, 0, -1, 0 };
+            int x = 0;
+            int y = 0;
+            int direction = 0;
+
+            HashSet<string> set = new HashSet<string> ();
+            if (obstacles != null) {
+                for (int i = 0; i < obstacles.Length; i++) {
+                    set.Add (obstacles[i][0] + " " + obstacles[i][1]);
+                }
+            }
+
+            for (int i = 0; i < commands.Length; i++) {
+                if (commands[i] == -2) {
+                    direction = (direction + 3) % 4;
+                } else if (commands[i] == -1) {
+                    direction = (direction + 1) % 4;
+                } else if (commands[i] >= 1 && commands[i] <= 9) {
+                    int c = commands[i];
+                    while (c-- > 0 && !set.Contains ((x + dx[direction]) + " " + (y + dy[direction]))) {
+                        x += dx[direction];
+                        y += dy[direction];
+                    }
+                }
+
+                result = Math.Max (result, x * x + y * y);
+            }
+
+            return result;
         }
     }
 }
