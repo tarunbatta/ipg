@@ -31,7 +31,6 @@ Output: 20
 */
 
 using System;
-using System.Collections.Generic;
 
 namespace InterviewPreperationGuide.Core.LeetCode.problem1167
 {
@@ -39,46 +38,149 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem1167
     {
         public void Init()
         {
-            Console.WriteLine(connectRopes(null));
-            Console.WriteLine(connectRopes(new int[] { }));
-            Console.WriteLine(connectRopes(new int[] { 20, 4, 8, 2 }));
-            Console.WriteLine(connectRopes(new int[] { 1, 2, 5, 10, 35, 89 }));
-            Console.WriteLine(connectRopes(new int[] { 2, 2, 3, 3 }));
+            Console.WriteLine(ConnectSticks(null));
+            Console.WriteLine(ConnectSticks(new int[] { }));
+            Console.WriteLine(ConnectSticks(new int[] { 20, 4, 8, 2 }));
+            Console.WriteLine(ConnectSticks(new int[] { 1, 2, 5, 10, 35, 89 }));
+            Console.WriteLine(ConnectSticks(new int[] { 2, 2, 3, 3 }));
         }
 
-        public int connectRopes(int[] ropes)
+        // Time: O (n log (n))
+        // Space: O (n)
+        public int ConnectSticks(int[] sticks)
         {
-            if (ropes == null || ropes.Length == 0)
+            if (sticks == null || sticks.Length == 0)
             {
                 return 0;
             }
 
-            List<int> priorityQueue = new List<int>();
-
-            foreach (int rope in ropes)
+            MinHeap heap = new MinHeap(sticks.Length);
+            foreach (var item in sticks)
             {
-                priorityQueue.Add(rope);
+                heap.Add(item);
             }
-
-            priorityQueue.Sort();
 
             int result = 0;
 
-            while (priorityQueue.Count > 1)
+            while (heap.Count() > 1)
             {
-                int rope1 = priorityQueue.First();
-                priorityQueue.Remove(priorityQueue.First());
-                int rope2 = priorityQueue.First();
-                priorityQueue.Remove(priorityQueue.First());
+                int item1 = heap.Pop();
+                int item2 = heap.Pop();
 
-                int newRope = rope1 + rope2;
-                result += newRope;
-                priorityQueue.Add(newRope);
-
-                priorityQueue.Sort();
+                int newItem = item1 + item2;
+                result += newItem;
+                heap.Add(newItem);
             }
 
             return result;
+        }
+    }
+
+    public class MinHeap
+    {
+        private readonly int[] _elements;
+        private int _size;
+
+        public MinHeap(int size)
+        {
+            _elements = new int[size];
+        }
+
+        private int GetLeftChildIndex(int elementIndex) => 2 * elementIndex + 1;
+        private int GetRightChildIndex(int elementIndex) => 2 * elementIndex + 2;
+        private int GetParentIndex(int elementIndex) => (elementIndex - 1) / 2;
+
+        private bool HasLeftChild(int elementIndex) => GetLeftChildIndex(elementIndex) < _size;
+        private bool HasRightChild(int elementIndex) => GetRightChildIndex(elementIndex) < _size;
+        private bool IsRoot(int elementIndex) => elementIndex == 0;
+
+        private int GetLeftChild(int elementIndex) => _elements[GetLeftChildIndex(elementIndex)];
+        private int GetRightChild(int elementIndex) => _elements[GetRightChildIndex(elementIndex)];
+        private int GetParent(int elementIndex) => _elements[GetParentIndex(elementIndex)];
+
+        private void Swap(int firstIndex, int secondIndex)
+        {
+            var temp = _elements[firstIndex];
+            _elements[firstIndex] = _elements[secondIndex];
+            _elements[secondIndex] = temp;
+        }
+
+        public bool IsEmpty()
+        {
+            return _size == 0;
+        }
+
+        public int Count()
+        {
+            return _size;
+        }
+
+        public int Peek()
+        {
+            if (_size == 0)
+                throw new IndexOutOfRangeException();
+
+            return _elements[0];
+        }
+
+        public int Pop()
+        {
+            if (_size == 0)
+                throw new IndexOutOfRangeException();
+
+            var result = _elements[0];
+            _elements[0] = _elements[_size - 1];
+            _size--;
+
+            ReCalculateDown();
+
+            return result;
+        }
+
+        public void Add(int element)
+        {
+            if (_size == _elements.Length)
+                throw new IndexOutOfRangeException();
+
+            _elements[_size] = element;
+            _size++;
+
+            ReCalculateUp();
+        }
+
+        private void ReCalculateDown()
+        {
+            int index = 0;
+
+            while (HasLeftChild(index))
+            {
+                var smallerIndex = GetLeftChildIndex(index);
+
+                if (HasRightChild(index) && GetRightChild(index) < GetLeftChild(index))
+                {
+                    smallerIndex = GetRightChildIndex(index);
+                }
+
+                if (_elements[smallerIndex] >= _elements[index])
+                {
+                    break;
+                }
+
+                Swap(smallerIndex, index);
+                index = smallerIndex;
+            }
+        }
+
+        private void ReCalculateUp()
+        {
+            var index = _size - 1;
+
+            while (!IsRoot(index) && _elements[index] < GetParent(index))
+            {
+                var parentIndex = GetParentIndex(index);
+                Swap(parentIndex, index);
+                index = parentIndex;
+            }
         }
     }
 }

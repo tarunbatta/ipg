@@ -44,8 +44,6 @@ Explanation: The two lists do not intersect, so return null.
  
 
 Notes:
-
-
 	If the two linked lists have no intersection at all, return null.
 	The linked lists must retain their original structure after the function returns.
 	You may assume there are no cycles anywhere in the entire linked structure.
@@ -63,11 +61,51 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem160
             Console.WriteLine();
         }
 
-        // Time: O ()
-        // Space: O ()
+        // Time: O (n)
+        // Space: O (1)
         public ListNode GetIntersectionNode(ListNode headA, ListNode headB)
         {
-            return null;
+            if (headA == null || headB == null)
+            {
+                return null;
+            }
+
+            ListNode nodeA = headA;
+            ListNode nodeB = headB;
+            int lenA = getLength(nodeA);
+            int lenB = getLength(nodeB);
+
+            while (lenA > lenB)
+            {
+                nodeA = nodeA.next;
+                lenA--;
+            }
+            while (lenA < lenB)
+            {
+                nodeB = nodeB.next;
+                lenB--;
+            }
+
+            while (nodeA != nodeB)
+            {
+                nodeA = nodeA.next;
+                nodeB = nodeB.next;
+            }
+
+            return nodeA;
+        }
+
+        private int getLength(ListNode node)
+        {
+            int result = 0;
+
+            while (node != null)
+            {
+                result++;
+                node = node.next;
+            }
+
+            return result;
         }
     }
 
