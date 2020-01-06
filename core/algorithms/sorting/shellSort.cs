@@ -5,6 +5,8 @@
 using System;
 
 namespace InterviewPreperationGuide.Core.Algorithms.Sorting {
+    // Time: O ((n log n)^2)
+    // Space: O (1)
     public class ShellSort {
         public static void Init () {
             Display (_ShellSort (null));

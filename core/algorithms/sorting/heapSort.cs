@@ -5,6 +5,8 @@
 using System;
 
 namespace InterviewPreperationGuide.Core.Algorithms.Sorting {
+    // Time: O (n log n)
+    // Space: O (1)
     public class HeapSort {
         public static void Init () {
             Display (_HeapSort (null));

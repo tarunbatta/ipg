@@ -5,6 +5,8 @@
 using System;
 
 namespace InterviewPreperationGuide.Core.Algorithms.Sorting {
+    // Time: O (n log n)
+    // Space: O (log n)
     public class QuickSort {
         public static void Init () {
             _QuickSort (null);

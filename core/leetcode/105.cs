@@ -25,60 +25,56 @@ Return the following binary tree:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem105
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine();
+namespace InterviewPreperationGuide.Core.LeetCode.problem105 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine ();
         }
 
         // Time: O (n)
         // Space: O (n)
-        public TreeNode BuildTree(int[] preorder, int[] inorder)
-        {
-            return Helper(0, 0, inorder.Length - 1, preorder, inorder);
+        public TreeNode BuildTree (int[] preorder, int[] inorder) {
+            return Helper (0, 0, inorder.Length - 1, preorder, inorder);
         }
 
         // Preorder traversing implies that PRE[0] is the root node.
         // Then we can find this PRE[0] in IN, say it's IN[5].
         // Now we know that IN[5] is root, so we know that IN[0] - IN[4] is on the left side, IN[6] to the end is on the right side.
         // Recursively doing this on subarrays
-        public TreeNode Helper(int preStart, int inStart, int inEnd, int[] preorder, int[] inorder)
-        {
-            if (preStart > preorder.Length - 1 || inStart > inEnd)
-            {
+        private TreeNode Helper (int preStart, int inStart, int inEnd, int[] preorder, int[] inorder) {
+            if (preStart > preorder.Length - 1 || inStart > inEnd) {
                 return null;
             }
 
-            TreeNode root = new TreeNode(preorder[preStart]);
-            int inIndex = 0; // Index of current root in inorder
+            TreeNode root = new TreeNode (preorder[preStart]);
+            int inIndex = GetInOrderIndex (root, inStart, inEnd, inorder);
 
-            for (int i = inStart; i <= inEnd; i++)
-            {
-                if (inorder[i] == root.val)
-                {
-                    inIndex = i;
+            root.left = Helper (preStart + 1, inStart, inIndex - 1, preorder, inorder);
+            root.right = Helper (preStart + inIndex - inStart + 1, inIndex + 1, inEnd, preorder, inorder);
+
+            return root;
+        }
+
+        private int GetInOrderIndex (TreeNode root, int inStart, int inEnd, int[] inorder) {
+            int result = -1;
+
+            for (int i = inStart; i <= inEnd; i++) {
+                if (inorder[i] == root.val) {
+                    result = i;
                     break;
                 }
             }
 
-            root.left = Helper(preStart + 1, inStart, inIndex - 1, preorder, inorder);
-            root.right = Helper(preStart + inIndex - inStart + 1, inIndex + 1, inEnd, preorder, inorder);
-
-            return root;
+            return result;
         }
     }
 
-    public class TreeNode
-    {
+    public class TreeNode {
         public int val;
         public TreeNode left;
         public TreeNode right;
 
-        public TreeNode(int x)
-        {
+        public TreeNode (int x) {
             val = x;
         }
     }

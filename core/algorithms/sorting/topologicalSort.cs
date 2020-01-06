@@ -6,6 +6,8 @@ using System;
 using System.Collections;
 
 namespace InterviewPreperationGuide.Core.Algorithms.Sorting {
+    // Time: O ()
+    // Space: O ()
     public class TopologicalSort {
         public static void Init () {
             Graph theGraph = new Graph (6);

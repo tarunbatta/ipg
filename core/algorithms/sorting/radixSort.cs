@@ -6,6 +6,8 @@ using System;
 using System.Collections;
 
 namespace InterviewPreperationGuide.Core.Algorithms.Sorting {
+    // Time: O (nk)
+    // Space: O (n+k)
     public class RadixSort {
         public enum DigitType {
             ones = 1,

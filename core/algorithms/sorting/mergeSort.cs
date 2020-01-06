@@ -5,6 +5,8 @@
 using System;
 
 namespace InterviewPreperationGuide.Core.Algorithms.Sorting {
+    // Time: O (n log n)
+    // Space: O (n)
     public class MergeSort {
         public static void Init () {
             _MergeSort (null);

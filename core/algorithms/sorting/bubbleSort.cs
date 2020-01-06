@@ -5,6 +5,8 @@
 using System;
 
 namespace InterviewPreperationGuide.Core.Algorithms.Sorting {
+    // Time: O (n^2)
+    // Space: O (1)
     public class BubbleSort {
         public static void Init () {
             Display (_BubbleSort (null));

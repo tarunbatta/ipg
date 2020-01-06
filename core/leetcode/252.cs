@@ -20,18 +20,28 @@ NOTE: input types have been changed on April 15, 2019. Please reset to default c
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem252
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.problem252 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public bool CanAttendMeetings(int[][] intervals)
-        {
-            return false;
+        // Time: O (n log n)
+        // Space: O (1)
+        public bool CanAttendMeetings (int[][] intervals) {
+            if (intervals == null || intervals.Length == 0 || intervals[0].Length == 0) {
+                return true;
+            }
+
+            Array.Sort (intervals, (a, b) => a[0] - b[0]);
+
+            for (int i = 0; i < intervals.Length - 1; i++) {
+                if (intervals[i][1] > intervals[i + 1][0]) {
+                    return false;
+                }
+            }
+
+            return true;
         }
     }
 }

@@ -42,31 +42,60 @@ Return false.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem110
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine();
+namespace InterviewPreperationGuide.Core.LeetCode.problem110 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine ();
         }
 
-        // Time: O ()
-        // Space: O ()
-        public bool IsBalanced(TreeNode root)
-        {
-            return false;
+        // Time: O (n log n)
+        // Space: O (n)
+        public bool IsBalanced_a (TreeNode root) {
+            if (root == null) {
+                return true;
+            }
+
+            return Math.Abs (GetTreeHeight_a (root.left) - GetTreeHeight_a (root.right)) < 2 &&
+                IsBalanced_a (root.left) &&
+                IsBalanced_a (root.right);
+        }
+
+        private int GetTreeHeight_a (TreeNode root) {
+            if (root == null) {
+                return 0;
+            }
+
+            return Math.Max (GetTreeHeight_a (root.left), GetTreeHeight_a (root.right)) + 1;
+        }
+
+        // Time: O (n)
+        // Space: O (n)
+        public bool IsBalanced_b (TreeNode root) {
+            return GetTreeHeight_b (root) != -1;
+        }
+
+        private int GetTreeHeight_b (TreeNode root) {
+            if (root == null) {
+                return 0;
+            }
+
+            int lh = GetTreeHeight_b (root.left);
+            int rh = GetTreeHeight_b (root.right);
+
+            if (lh == -1 || rh == -1 || Math.Abs (lh - rh) > 1) {
+                return -1;
+            }
+
+            return Math.Max (GetTreeHeight_b (root.left), GetTreeHeight_b (root.right)) + 1;
         }
     }
 
-    public class TreeNode
-    {
+    public class TreeNode {
         public int val;
         public TreeNode left;
         public TreeNode right;
 
-        public TreeNode(int x)
-        {
+        public TreeNode (int x) {
             val = x;
         }
     }
