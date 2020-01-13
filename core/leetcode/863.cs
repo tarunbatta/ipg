@@ -47,19 +47,17 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem863
         // Space: O (n)
         public IList<int> DistanceK(TreeNode root, TreeNode target, int K)
         {
-            var queue = new Queue<int>();
             var stack = new Stack<TreeNode>();
             var graph = new Dictionary<int, IList<int>>();
-            var visited = new HashSet<int>();
 
             stack.Push(root);
-            queue.Enqueue(target.val);
 
             while (stack.Count > 0)
             {
                 var node = stack.Pop();
 
                 if (!graph.ContainsKey(node.val)) { graph[node.val] = new List<int>(); }
+
                 if (node.left != null)
                 {
                     if (!graph.ContainsKey(node.left.val)) { graph[node.left.val] = new List<int>(); }
@@ -69,6 +67,7 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem863
 
                     stack.Push(node.left);
                 }
+
                 if (node.right != null)
                 {
                     if (!graph.ContainsKey(node.right.val)) { graph[node.right.val] = new List<int>(); }
@@ -80,9 +79,14 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem863
                 }
             }
 
+            var queue = new Queue<int>();
+            var visited = new HashSet<int>();
+            queue.Enqueue(target.val);
+
             while (K-- > 0)
             {
                 int size = queue.Count;
+
                 for (int i = 0; i < size; i++)
                 {
                     int node = queue.Dequeue();

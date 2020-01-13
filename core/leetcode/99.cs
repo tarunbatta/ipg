@@ -59,69 +59,55 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem99
 {
     public class Solution
     {
-        private static TreeNode first;
-        private static TreeNode second;
-        private static TreeNode previous;
-
         public void Init()
         {
-            TreeNode node = new TreeNode(40);
-            node.left = new TreeNode(20);
-            node.right = new TreeNode(60);
-            node.left.left = new TreeNode(70);
-            node.left.right = new TreeNode(30);
-            node.right.left = new TreeNode(50);
-            node.right.right = new TreeNode(10);
+            TreeNode node = new TreeNode(3);
+            node.left = new TreeNode(1);
+            node.right = new TreeNode(4);
+            node.right.left = new TreeNode(2);
 
             RecoverTree(node);
         }
 
+        TreeNode first = null;
+        TreeNode second = null;
+        TreeNode prev = new TreeNode(Int32.MinValue);
+
+        // Time: O (n)
+        // Space: O (n)
         public void RecoverTree(TreeNode root)
         {
-            if (root == null)
-            {
-                return;
-            }
+            traverse(root);
 
-            RecoverBstInorder(root);
-
-            if (first != null && second != null)
-            {
-                int val = second.val;
-                second.val = first.val;
-                first.val = val;
-            }
+            // Swap the values of the two nodes
+            int temp = first.val;
+            first.val = second.val;
+            second.val = temp;
         }
 
-        private void RecoverBstInorder(TreeNode node)
+        private void traverse(TreeNode node)
         {
             if (node == null)
-            {
                 return;
-            }
 
-            RecoverBstInorder(node.left);
+            traverse(node.left);
 
-            if (previous == null)
+            // Start of "do some business", 
+            // If first element has not been found, assign it to prev 
+            if (first == null && prev.val > node.val)
             {
-                previous = node;
+                first = prev;
             }
-            else
+
+            // If first element is found, assign the second element to the node 
+            if (first != null && prev.val > node.val)
             {
-                if (node.val < previous.val)
-                {
-                    if (first == null)
-                    {
-                        first = previous;
-                    }
-
-                    second = node;
-                }
-
-                previous = node;
+                second = node;
             }
+            prev = node;
+            // End of "do some business"
 
-            RecoverBstInorder(node.right);
+            traverse(node.right);
         }
     }
 

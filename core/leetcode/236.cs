@@ -54,6 +54,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem236
             r2.DisplayNode();
         }
 
+        // Time: O (n)
+        // Space: O (n)
         public static TreeNode LowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q)
         {
             if (root == null)
