@@ -49,28 +49,23 @@ Explanation: The number "-91283472332" is out of the range of a 32-bit signed in
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem8
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine(MyAtoi(null));
-            Console.WriteLine(MyAtoi(""));
-            Console.WriteLine(MyAtoi(" "));
-            Console.WriteLine(MyAtoi("42"));
-            Console.WriteLine(MyAtoi("   -42"));
-            Console.WriteLine(MyAtoi("4193 with words"));
-            Console.WriteLine(MyAtoi("words and 987"));
-            Console.WriteLine(MyAtoi("-91283472332"));
+namespace InterviewPreperationGuide.Core.LeetCode.problem8 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine (MyAtoi (null));
+            Console.WriteLine (MyAtoi (""));
+            Console.WriteLine (MyAtoi (" "));
+            Console.WriteLine (MyAtoi ("42"));
+            Console.WriteLine (MyAtoi ("   -42"));
+            Console.WriteLine (MyAtoi ("4193 with words"));
+            Console.WriteLine (MyAtoi ("words and 987"));
+            Console.WriteLine (MyAtoi ("-91283472332"));
         }
 
         // Time: O (n)
         // Space: O (1)
-        public int MyAtoi(string str)
-        {
-            if (str == null || str.Length == 0)
-            {
+        public int MyAtoi (string str) {
+            if (str == null || str.Length == 0) {
                 return 0;
             }
 
@@ -78,38 +73,31 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem8
             int i = 0;
             int sign = 1;
 
-            while (i < str.Length && str[i] == ' ')
-            {
+            while (i < str.Length && str[i] == ' ') {
                 i++;
             }
 
-            if (i >= str.Length)
-            {
+            if (i >= str.Length) {
                 return result;
             }
 
-            if (str[i] == '+' || str[i] == '-')
-            {
+            if (str[i] == '+' || str[i] == '-') {
                 sign = str[i] == '-' ? -1 : 1;
                 i++;
             }
 
-            if (i >= str.Length)
-            {
+            if (i >= str.Length) {
                 return result;
             }
 
-            while (i < str.Length)
-            {
+            while (i < str.Length) {
                 int digit = str[i] - '0';
 
-                if (digit < 0 || digit > 9)
-                {
+                if (digit < 0 || digit > 9) {
                     break;
                 }
 
-                if ((result > Int32.MaxValue / 10) || (result == Int32.MaxValue / 10 && digit > Int32.MaxValue % 10))
-                {
+                if ((result > Int32.MaxValue / 10) || (result == Int32.MaxValue / 10 && digit > Int32.MaxValue % 10)) {
                     return sign == 1 ? Int32.MaxValue : Int32.MinValue;
                 }
 

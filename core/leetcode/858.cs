@@ -31,19 +31,15 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem858
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine();
+namespace InterviewPreperationGuide.Core.LeetCode.problem858 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine ();
         }
 
         // Time: O ()
         // Space: O ()
-        public int MirrorReflection(int p, int q)
-        {
+        public int MirrorReflection (int p, int q) {
             return 0;
         }
     }

@@ -38,19 +38,15 @@ Output:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem321
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine();
+namespace InterviewPreperationGuide.Core.LeetCode.problem321 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine ();
         }
 
         // Time: O ()
         // Space: O ()
-        public int[] MaxNumber(int[] nums1, int[] nums2, int k)
-        {
+        public int[] MaxNumber (int[] nums1, int[] nums2, int k) {
             return null;
         }
     }

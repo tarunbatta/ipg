@@ -21,85 +21,70 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem23
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            ListNode l1 = new ListNode(3);
-            l1.next = new ListNode(9);
+namespace InterviewPreperationGuide.Core.LeetCode.problem23 {
+    public class Solution {
+        public void Init () {
+            ListNode l1 = new ListNode (3);
+            l1.next = new ListNode (9);
 
-            ListNode l2 = new ListNode(2);
-            l2.next = new ListNode(5);
+            ListNode l2 = new ListNode (2);
+            l2.next = new ListNode (5);
 
-            ListNode l3 = new ListNode(1);
-            l3.next = new ListNode(8);
+            ListNode l3 = new ListNode (1);
+            l3.next = new ListNode (8);
 
             ListNode[] lists = new ListNode[3];
             lists[0] = l1;
             lists[1] = l2;
             lists[2] = l3;
 
-            ListNode result = MergeKLists(lists);
+            ListNode result = MergeKLists (lists);
         }
 
         // Time: O (n log (k))
         // Space: O (1)
-        public ListNode MergeKLists(ListNode[] lists)
-        {
-            if (lists == null || lists.Length == 0)
-            {
+        public ListNode MergeKLists (ListNode[] lists) {
+            if (lists == null || lists.Length == 0) {
                 return null;
             }
 
-            return Helper(lists, 0, lists.Length - 1);
+            return Helper (lists, 0, lists.Length - 1);
         }
 
-        private ListNode Helper(ListNode[] lists, int left, int right)
-        {
-            if (left == right)
-            {
+        private ListNode Helper (ListNode[] lists, int left, int right) {
+            if (left == right) {
                 return lists[left];
             }
 
             int mid = left + (right - left) / 2;
 
-            var leftListNode = Helper(lists, left, mid);
-            var rightListNode = Helper(lists, mid + 1, right);
+            var leftListNode = Helper (lists, left, mid);
+            var rightListNode = Helper (lists, mid + 1, right);
 
-            return MergeTwoLists(leftListNode, rightListNode);
+            return MergeTwoLists (leftListNode, rightListNode);
         }
 
-        private ListNode MergeTwoLists(ListNode l1, ListNode l2)
-        {
-            if (l1 == null && l2 == null)
-            {
+        private ListNode MergeTwoLists (ListNode l1, ListNode l2) {
+            if (l1 == null && l2 == null) {
                 return null;
             }
 
-            if (l1 == null)
-            {
+            if (l1 == null) {
                 return l2;
             }
 
-            if (l2 == null)
-            {
+            if (l2 == null) {
                 return l1;
             }
 
-            ListNode head = new ListNode(0);
+            ListNode head = new ListNode (0);
             ListNode node = head;
 
-            while (l1 != null && l2 != null)
-            {
-                if (l1.val < l2.val)
-                {
+            while (l1 != null && l2 != null) {
+                if (l1.val < l2.val) {
                     node.next = l1;
                     l1 = l1.next;
-                }
-                else
-                {
+                } else {
                     node.next = l2;
                     l2 = l2.next;
                 }
@@ -107,13 +92,11 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem23
                 node = node.next;
             }
 
-            if (l1 != null)
-            {
+            if (l1 != null) {
                 node.next = l1;
             }
 
-            if (l2 != null)
-            {
+            if (l2 != null) {
                 node.next = l2;
             }
 
@@ -121,13 +104,11 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem23
         }
     }
 
-    public class ListNode
-    {
+    public class ListNode {
         public int val;
         public ListNode next;
 
-        public ListNode(int x)
-        {
+        public ListNode (int x) {
             val = x;
         }
     }

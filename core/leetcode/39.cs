@@ -39,20 +39,16 @@ A solution set is:
 using System;
 using System.Collections.Generic;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem39
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine();
-        }
-
-        // Time: O ()
-        // Space: O ()
-        public IList<IList<int>> CombinationSum(int[] candidates, int target)
-        {
-            return null;
-        }
+namespace InterviewPreperationGuide.Core.LeetCode.problem39 {
+  public class Solution {
+    public void Init () {
+      Console.WriteLine ();
     }
+
+    // Time: O ()
+    // Space: O ()
+    public IList<IList<int>> CombinationSum (int[] candidates, int target) {
+      return null;
+    }
+  }
 }

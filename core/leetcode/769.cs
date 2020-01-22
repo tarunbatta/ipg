@@ -38,19 +38,15 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem769
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine();
+namespace InterviewPreperationGuide.Core.LeetCode.problem769 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine ();
         }
 
         // Time: O ()
         // Space: O ()
-        public int MaxChunksToSorted(int[] arr)
-        {
+        public int MaxChunksToSorted (int[] arr) {
             return 0;
         }
     }

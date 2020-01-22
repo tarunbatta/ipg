@@ -29,19 +29,15 @@ Explanation:
 using System;
 using System.Collections.Generic;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem241
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine();
+namespace InterviewPreperationGuide.Core.LeetCode.problem241 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine ();
         }
 
         // Time: O ()
         // Space: O ()
-        public IList<int> DiffWaysToCompute(string input)
-        {
+        public IList<int> DiffWaysToCompute (string input) {
             return null;
         }
     }

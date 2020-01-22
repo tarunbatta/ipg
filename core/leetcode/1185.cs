@@ -33,21 +33,17 @@ The given dates are valid dates between the years 1971 and 2100.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem1185
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.problem1185 {
+    public class Solution {
+        public void Init () {
 
         }
 
         // Time: O (1)
         // Space: O (1)
-        public string DayOfTheWeek(int day, int month, int year)
-        {
-            DateTime dt = new DateTime(year, month, day);
-            return dt.DayOfWeek.ToString();
+        public string DayOfTheWeek (int day, int month, int year) {
+            DateTime dt = new DateTime (year, month, day);
+            return dt.DayOfWeek.ToString ();
         }
     }
 }

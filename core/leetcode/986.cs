@@ -37,19 +37,15 @@ NOTE: input types have been changed on April 15, 2019. Please reset to default c
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem986
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine();
+namespace InterviewPreperationGuide.Core.LeetCode.problem986 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine ();
         }
 
         // Time: O ()
         // Space: O ()
-        public int[][] IntervalIntersection(int[][] A, int[][] B)
-        {
+        public int[][] IntervalIntersection (int[][] A, int[][] B) {
             return null;
         }
     }

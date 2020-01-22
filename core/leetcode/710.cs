@@ -55,23 +55,18 @@ The input is two lists: the subroutines called and their arguments. Solution's c
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem710
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Solution obj = new Solution(1, null);
-            int param_1 = obj.Pick();
+namespace InterviewPreperationGuide.Core.LeetCode.problem710 {
+    public class Solution {
+        public void Init () {
+            Solution obj = new Solution (1, null);
+            int param_1 = obj.Pick ();
         }
 
-        public Solution(int N, int[] blacklist)
-        {
+        public Solution (int N, int[] blacklist) {
 
         }
 
-        public int Pick()
-        {
+        public int Pick () {
             return 0;
         }
     }

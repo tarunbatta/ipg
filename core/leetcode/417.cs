@@ -42,19 +42,15 @@ Return:
 using System;
 using System.Collections.Generic;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem417
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine();
+namespace InterviewPreperationGuide.Core.LeetCode.problem417 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine ();
         }
 
         // Time: O ()
         // Space: O ()
-        public IList<IList<int>> PacificAtlantic(int[][] matrix)
-        {
+        public IList<IList<int>> PacificAtlantic (int[][] matrix) {
             return null;
         }
     }

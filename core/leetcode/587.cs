@@ -40,17 +40,13 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem587
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.problem587 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int[][] OuterTrees(int[][] points)
-        {
+        public int[][] OuterTrees (int[][] points) {
             return null;
         }
     }

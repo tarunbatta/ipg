@@ -27,75 +27,58 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem218
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine(GetSkyline(null));
-            Console.WriteLine(GetSkyline(new int[][] { new int[] { 2, 9, 10 }, new int[] { 3, 7, 15 }, new int[] { 5, 12, 12 }, new int[] { 15, 20, 10 }, new int[] { 19, 24, 8 } }));
+namespace InterviewPreperationGuide.Core.LeetCode.problem218 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine (GetSkyline (null));
+            Console.WriteLine (GetSkyline (new int[][] { new int[] { 2, 9, 10 }, new int[] { 3, 7, 15 }, new int[] { 5, 12, 12 }, new int[] { 15, 20, 10 }, new int[] { 19, 24, 8 } }));
         }
 
         // Time: O (n log (n))
         // Space: O (n)
-        public IList<IList<int>> GetSkyline(int[][] buildings)
-        {
-            IList<IList<int>> result = new List<IList<int>>();
+        public IList<IList<int>> GetSkyline (int[][] buildings) {
+            IList<IList<int>> result = new List<IList<int>> ();
 
-            if (buildings == null || buildings.Length == 0 || buildings[0].Length == 0)
-            {
+            if (buildings == null || buildings.Length == 0 || buildings[0].Length == 0) {
                 return null;
             }
 
-            List<Point> points = new List<Point>();
+            List<Point> points = new List<Point> ();
 
-            foreach (var item in buildings)
-            {
+            foreach (var item in buildings) {
                 int start = item[0];
                 int end = item[1];
                 int h = item[2];
-                points.Add(new Point(start, h, true));
-                points.Add(new Point(end, h, false));
+                points.Add (new Point (start, h, true));
+                points.Add (new Point (end, h, false));
             }
 
-            points.Sort((x, y) => x.CompareTo(y));
+            points.Sort ((x, y) => x.CompareTo (y));
 
-            Dictionary<int, int> queue = new Dictionary<int, int>();
-            queue.Add(0, 1);
+            Dictionary<int, int> queue = new Dictionary<int, int> ();
+            queue.Add (0, 1);
 
             int previousMaxHeight = 0;
 
-            foreach (var point in points)
-            {
-                if (point.isStart)
-                {
-                    if (!queue.ContainsKey(point.height))
-                    {
-                        queue.Add(point.height, 1);
-                    }
-                    else
-                    {
+            foreach (var point in points) {
+                if (point.isStart) {
+                    if (!queue.ContainsKey (point.height)) {
+                        queue.Add (point.height, 1);
+                    } else {
                         queue[point.height]++;
                     }
-                }
-                else
-                {
-                    if (queue[point.height] == 1)
-                    {
-                        queue.Remove(point.height);
-                    }
-                    else
-                    {
+                } else {
+                    if (queue[point.height] == 1) {
+                        queue.Remove (point.height);
+                    } else {
                         queue[point.height]--;
                     }
                 }
 
-                int currentMaxHeight = queue.Keys.Max();
+                int currentMaxHeight = queue.Keys.Max ();
 
-                if (previousMaxHeight != currentMaxHeight)
-                {
-                    result.Add(new int[] { point.x, currentMaxHeight });
+                if (previousMaxHeight != currentMaxHeight) {
+                    result.Add (new int[] { point.x, currentMaxHeight });
                     previousMaxHeight = currentMaxHeight;
                 }
             }
@@ -104,44 +87,34 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem218
         }
     }
 
-    public class Point : IComparer<Point>
-    {
+    public class Point : IComparer<Point> {
         public int x;
         public int height;
 
         public bool isStart;
 
-        public Point(int x, int height, bool isStart)
-        {
+        public Point (int x, int height, bool isStart) {
             this.x = x;
             this.height = height;
             this.isStart = isStart;
         }
 
-        public int Compare(Point x, Point y)
-        {
-            if (x == null || y == null)
-            {
+        public int Compare (Point x, Point y) {
+            if (x == null || y == null) {
                 return 0;
             }
 
-            return x.CompareTo(y);
+            return x.CompareTo (y);
         }
 
-        public int CompareTo(Point p)
-        {
-            if (this.x != p.x)
-            {
+        public int CompareTo (Point p) {
+            if (this.x != p.x) {
                 return this.x - p.x;
-            }
-            else
-            {
-                if (this.isStart && p.isStart)
-                {
+            } else {
+                if (this.isStart && p.isStart) {
                     return p.height - this.height;
                 }
-                if (!this.isStart && !p.isStart)
-                {
+                if (!this.isStart && !p.isStart) {
                     return this.height - p.height;
                 }
                 return this.isStart ? -1 : 1;

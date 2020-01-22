@@ -43,50 +43,40 @@ the gap between the 5th and 6th stone is too large.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem403
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine(CanCross(null));
-            Console.WriteLine(CanCross(new int[] { 0, 1, 3, 5, 6, 8, 12, 17 }));
-            Console.WriteLine(CanCross(new int[] { 0, 1, 2, 3, 4, 8, 9, 11 }));
-            Console.WriteLine(CanCross(new int[] { 0, 1, 3, 4, 5, 7, 9, 10, 12 }));
+namespace InterviewPreperationGuide.Core.LeetCode.problem403 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine (CanCross (null));
+            Console.WriteLine (CanCross (new int[] { 0, 1, 3, 5, 6, 8, 12, 17 }));
+            Console.WriteLine (CanCross (new int[] { 0, 1, 2, 3, 4, 8, 9, 11 }));
+            Console.WriteLine (CanCross (new int[] { 0, 1, 3, 4, 5, 7, 9, 10, 12 }));
         }
 
-        public bool CanCross(int[] stones)
-        {
-            if (stones == null)
-            {
+        public bool CanCross (int[] stones) {
+            if (stones == null) {
                 return false;
             }
 
             int n = stones.Length;
 
-            if (n <= 1)
-            {
+            if (n <= 1) {
                 return true;
             }
-            if (stones[1] != 1)
-            {
+            if (stones[1] != 1) {
                 return false;
             }
 
-            bool[,] dp = new bool[n, n];
+            bool[, ] dp = new bool[n, n];
 
-            return RecursiveCall(stones, dp, 1, 0);
+            return RecursiveCall (stones, dp, 1, 0);
         }
 
-        public bool RecursiveCall(int[] stones, bool[,] dp, int index, int last)
-        {
-            if (index == stones.Length - 1)
-            {
+        public bool RecursiveCall (int[] stones, bool[, ] dp, int index, int last) {
+            if (index == stones.Length - 1) {
                 return true;
             }
 
-            if (dp[index, last])
-            {
+            if (dp[index, last]) {
                 return false;
             }
 
@@ -97,39 +87,29 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem403
             int ed = stones.Length - 1;
             int re = -1;
 
-            while (st <= ed)
-            {
+            while (st <= ed) {
                 int mid = (st + ed) >> 1;
 
-                if (stones[mid] - stones[index] >= dist - 1 && stones[mid] - stones[index] <= dist + 1)
-                {
+                if (stones[mid] - stones[index] >= dist - 1 && stones[mid] - stones[index] <= dist + 1) {
                     re = mid;
                     ed = mid - 1;
-                }
-                else if (stones[mid] - stones[index] < dist - 1)
-                {
+                } else if (stones[mid] - stones[index] < dist - 1) {
                     st = mid + 1;
-                }
-                else
-                {
+                } else {
                     ed = mid - 1;
                 }
             }
 
-            if (re == -1)
-            {
+            if (re == -1) {
                 return false;
             }
 
-            for (int i = re; i < stones.Length; i++)
-            {
-                if (stones[i] - stones[index] > dist + 1)
-                {
+            for (int i = re; i < stones.Length; i++) {
+                if (stones[i] - stones[index] > dist + 1) {
                     break;
                 }
 
-                if (RecursiveCall(stones, dp, i, index))
-                {
+                if (RecursiveCall (stones, dp, i, index)) {
                     return true;
                 }
             }

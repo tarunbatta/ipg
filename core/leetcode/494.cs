@@ -34,19 +34,15 @@ Your output answer is guaranteed to be fitted in a 32-bit integer.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem494
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine();
+namespace InterviewPreperationGuide.Core.LeetCode.problem494 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine ();
         }
 
         // Time: O ()
         // Space: O ()
-        public int FindTargetSumWays(int[] nums, int S)
-        {
+        public int FindTargetSumWays (int[] nums, int S) {
             return 0;
         }
     }

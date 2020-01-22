@@ -61,19 +61,15 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem896
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine();
+namespace InterviewPreperationGuide.Core.LeetCode.problem896 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine ();
         }
 
         // Time: O ()
         // Space: O ()
-        public bool IsMonotonic(int[] A)
-        {
+        public bool IsMonotonic (int[] A) {
             return false;
         }
     }

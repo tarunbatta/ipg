@@ -60,21 +60,16 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem443
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine();
+namespace InterviewPreperationGuide.Core.LeetCode.problem443 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine ();
         }
 
         // Time: O ()
         // Space: O ()
-        public int Compress(char[] chars)
-        {
-            if (chars == null || chars.Length == 0)
-            {
+        public int Compress (char[] chars) {
+            if (chars == null || chars.Length == 0) {
                 return 0;
             }
 
@@ -84,37 +79,29 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem443
             int n = chars.Length;
             char temp = chars[i];
 
-            for (; j <= n; j++)
-            {
-                if (j < n && chars[j] == chars[j - 1])
-                {
+            for (; j <= n; j++) {
+                if (j < n && chars[j] == chars[j - 1]) {
                     count++;
-                }
-                else
-                {
+                } else {
                     chars[i] = temp;
                     i++;
 
-                    string digits = count.ToString();
+                    string digits = count.ToString ();
 
-                    if (count > 1)
-                    {
-                        for (int k = 0; k < digits.Length; k++)
-                        {
+                    if (count > 1) {
+                        for (int k = 0; k < digits.Length; k++) {
                             chars[i] = digits[k];
                             i++;
                         }
                     }
 
-                    if (j < n)
-                    {
+                    if (j < n) {
                         temp = chars[j];
                     }
 
                     count = 1;
                 }
             }
-
 
             return i;
         }

@@ -38,40 +38,33 @@ Note:
 using System;
 using System.Collections.Generic;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem768
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine();
+namespace InterviewPreperationGuide.Core.LeetCode.problem768 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine ();
         }
 
         // Time: O (n log (n))
         // Space: O (n)
         // Let arr_sorted be the arr array after being sorted. A "chunk" is an interval [i, j] such that arr[i], ..., arr[j] is just a permutation of arr_sorted[i], ..., arr_sorted[j]. Since each chunk is just a permutation, the sums of these two lists of numbers will be equal.
-        public int MaxChunksToSorted(int[] arr)
-        {
+        public int MaxChunksToSorted (int[] arr) {
             int result = 0;
 
-            if (arr == null || arr.Length == 0)
-            {
+            if (arr == null || arr.Length == 0) {
                 return result;
             }
 
-            int[] expect = (int[])arr.Clone();
-            Array.Sort(expect);
+            int[] expect = (int[]) arr.Clone ();
+            Array.Sort (expect);
 
             int sum1 = 0;
             int sum2 = 0;
 
-            for (int i = 0; i < arr.Length; ++i)
-            {
+            for (int i = 0; i < arr.Length; ++i) {
                 sum1 += expect[i];
                 sum2 += arr[i];
 
-                if (sum1 == sum2)
-                {
+                if (sum1 == sum2) {
                     result++;
                 }
             }

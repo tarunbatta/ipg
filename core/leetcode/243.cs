@@ -19,17 +19,13 @@ You may assume that word1 does not equal to word2, and word1 and word2 are both 
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem243
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.problem243 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int ShortestDistance(string[] words, string word1, string word2)
-        {
+        public int ShortestDistance (string[] words, string word1, string word2) {
             return 0;
         }
     }

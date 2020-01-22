@@ -35,19 +35,15 @@ Constraints:
 using System;
 using System.Collections.Generic;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem1104
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine();
+namespace InterviewPreperationGuide.Core.LeetCode.problem1104 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine ();
         }
 
         // Time: O ()
         // Space: O ()
-        public IList<int> PathInZigZagTree(int label)
-        {
+        public IList<int> PathInZigZagTree (int label) {
             return null;
         }
     }

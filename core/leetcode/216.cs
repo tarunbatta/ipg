@@ -28,19 +28,15 @@ Output: [[1,2,6], [1,3,5], [2,3,4]]
 using System;
 using System.Collections.Generic;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem216
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine();
+namespace InterviewPreperationGuide.Core.LeetCode.problem216 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine ();
         }
 
         // Time: O ()
         // Space: O ()
-        public IList<IList<int>> CombinationSum3(int k, int n)
-        {
+        public IList<IList<int>> CombinationSum3 (int k, int n) {
             return null;
         }
     }

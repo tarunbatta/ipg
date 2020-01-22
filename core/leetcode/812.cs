@@ -29,19 +29,15 @@ Notes:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem812
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine();
+namespace InterviewPreperationGuide.Core.LeetCode.problem812 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine ();
         }
 
         // Time: O ()
         // Space: O ()
-        public double LargestTriangleArea(int[][] points)
-        {
+        public double LargestTriangleArea (int[][] points) {
             return 0;
         }
     }

@@ -55,31 +55,25 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem993
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine();
+namespace InterviewPreperationGuide.Core.LeetCode.problem993 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine ();
         }
 
         // Time: O ()
         // Space: O ()
-        public bool IsCousins(TreeNode root, int x, int y)
-        {
+        public bool IsCousins (TreeNode root, int x, int y) {
             return false;
         }
     }
 
-    public class TreeNode
-    {
+    public class TreeNode {
         public int val;
         public TreeNode left;
         public TreeNode right;
 
-        public TreeNode(int x)
-        {
+        public TreeNode (int x) {
             val = x;
         }
     }

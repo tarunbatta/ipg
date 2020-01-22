@@ -21,19 +21,15 @@ Output: 2
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem169
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine();
+namespace InterviewPreperationGuide.Core.LeetCode.problem169 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine ();
         }
 
         // Time: O ()
         // Space: O ()
-        public int MajorityElement(int[] nums)
-        {
+        public int MajorityElement (int[] nums) {
             return 0;
         }
     }

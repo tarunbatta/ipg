@@ -51,19 +51,15 @@ Notes:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem825
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine();
+namespace InterviewPreperationGuide.Core.LeetCode.problem825 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine ();
         }
 
         // Time: O ()
         // Space: O ()
-        public int NumFriendRequests(int[] ages)
-        {
+        public int NumFriendRequests (int[] ages) {
             return 0;
         }
     }

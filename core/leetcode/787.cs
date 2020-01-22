@@ -41,64 +41,54 @@ Note:
 using System;
 using System.Collections.Generic;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem787
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine(FindCheapestPrice(3, null, 0, 2, 1));
-            Console.WriteLine(FindCheapestPrice(3, new int[][] { }, 0, 2, 1));
-            Console.WriteLine(FindCheapestPrice(3, new int[][] {
+namespace InterviewPreperationGuide.Core.LeetCode.problem787 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine (FindCheapestPrice (3, null, 0, 2, 1));
+            Console.WriteLine (FindCheapestPrice (3, new int[][] { }, 0, 2, 1));
+            Console.WriteLine (FindCheapestPrice (3, new int[][] {
                 new int[] { 0, 1, 100 },
                     new int[] { 1, 2, 100 },
                     new int[] { 0, 2, 500 }
             }, 0, 2, 1));
-            Console.WriteLine(FindCheapestPrice(3, new int[][] {
+            Console.WriteLine (FindCheapestPrice (3, new int[][] {
                 new int[] { 0, 1, 100 },
                     new int[] { 1, 2, 100 },
                     new int[] { 0, 2, 500 }
             }, 0, 2, 0));
         }
 
-        public int FindCheapestPrice(int n, int[][] flights, int src, int dst, int K)
-        {
-            if (flights == null)
-            {
+        public int FindCheapestPrice (int n, int[][] flights, int src, int dst, int K) {
+            if (flights == null) {
                 return -1;
             }
 
-            List<Flight> flightsList = new List<Flight>();
-            foreach (int[] flight in flights)
-            {
-                flightsList.Add(new Flight(flight[0], flight[1], flight[2]));
+            List<Flight> flightsList = new List<Flight> ();
+            foreach (int[] flight in flights) {
+                flightsList.Add (new Flight (flight[0], flight[1], flight[2]));
             }
 
-            Queue<Destination> destinations = new Queue<Destination>();
-            destinations.Enqueue(new Destination(src, 0, 0));
+            Queue<Destination> destinations = new Queue<Destination> ();
+            destinations.Enqueue (new Destination (src, 0, 0));
 
             int[] tripCosts = new int[n];
-            Array.Fill(tripCosts, -1);
+            Array.Fill (tripCosts, -1);
             tripCosts[src] = 0;
 
-            while (destinations.Count > 0)
-            {
-                Destination d = destinations.Dequeue();
-                List<Flight> f = flightsList.FindAll(x => x.source == d.city);
+            while (destinations.Count > 0) {
+                Destination d = destinations.Dequeue ();
+                List<Flight> f = flightsList.FindAll (x => x.source == d.city);
 
-                if (d.stops > K || f.Count == 0)
-                {
+                if (d.stops > K || f.Count == 0) {
                     continue;
                 }
 
-                foreach (Flight item in f)
-                {
+                foreach (Flight item in f) {
                     int cost = d.cost + item.cost;
 
-                    if (tripCosts[item.destination] == -1 || cost < tripCosts[item.destination])
-                    {
+                    if (tripCosts[item.destination] == -1 || cost < tripCosts[item.destination]) {
                         tripCosts[item.destination] = cost;
-                        destinations.Enqueue(new Destination(item.destination, cost, d.stops + 1));
+                        destinations.Enqueue (new Destination (item.destination, cost, d.stops + 1));
                     }
                 }
             }
@@ -106,28 +96,24 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem787
             return tripCosts[dst];
         }
 
-        public class Flight
-        {
+        public class Flight {
             public int source;
             public int destination;
             public int cost;
 
-            public Flight(int source, int destination, int cost)
-            {
+            public Flight (int source, int destination, int cost) {
                 this.source = source;
                 this.destination = destination;
                 this.cost = cost;
             }
         }
 
-        public class Destination
-        {
+        public class Destination {
             public int city;
             public int cost;
             public int stops;
 
-            public Destination(int city, int cost, int stops)
-            {
+            public Destination (int city, int cost, int stops) {
                 this.city = city;
                 this.cost = cost;
                 this.stops = stops;

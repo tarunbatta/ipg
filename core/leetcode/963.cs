@@ -66,19 +66,15 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem963
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine();
+namespace InterviewPreperationGuide.Core.LeetCode.problem963 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine ();
         }
 
         // Time: O ()
         // Space: O ()
-        public double MinAreaFreeRect(int[][] points)
-        {
+        public double MinAreaFreeRect (int[][] points) {
             return 0;
         }
     }

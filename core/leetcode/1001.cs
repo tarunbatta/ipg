@@ -50,19 +50,15 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem1001
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine();
+namespace InterviewPreperationGuide.Core.LeetCode.problem1001 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine ();
         }
 
         // Time: O ()
         // Space: O ()
-        public int[] GridIllumination(int N, int[][] lamps, int[][] queries)
-        {
+        public int[] GridIllumination (int N, int[][] lamps, int[][] queries) {
             return null;
         }
     }

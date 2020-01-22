@@ -36,19 +36,15 @@ Constraints:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem1137
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine();
+namespace InterviewPreperationGuide.Core.LeetCode.problem1137 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine ();
         }
 
         // Time: O ()
         // Space: O ()
-        public int Tribonacci(int n)
-        {
+        public int Tribonacci (int n) {
             return 0;
         }
     }

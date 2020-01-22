@@ -31,19 +31,15 @@ The n belongs to [1, 10,000].
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem665
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine();
+namespace InterviewPreperationGuide.Core.LeetCode.problem665 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine ();
         }
 
         // Time: O ()
         // Space: O ()
-        public bool CheckPossibility(int[] nums)
-        {
+        public bool CheckPossibility (int[] nums) {
             return false;
         }
     }

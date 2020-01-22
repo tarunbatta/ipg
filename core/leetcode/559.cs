@@ -29,35 +29,28 @@ Note:
 using System;
 using System.Collections.Generic;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem559
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine();
+namespace InterviewPreperationGuide.Core.LeetCode.problem559 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine ();
         }
 
         // Time: O ()
         // Space: O ()
-        public int MaxDepth(Node root)
-        {
+        public int MaxDepth (Node root) {
             return 0;
         }
     }
 
-    public class Node
-    {
+    public class Node {
         public int val;
         public IList<Node> children;
 
-        public Node()
-        {
+        public Node () {
 
         }
 
-        public Node(int _val, IList<Node> _children)
-        {
+        public Node (int _val, IList<Node> _children) {
             val = _val;
             children = _children;
         }

@@ -46,30 +46,24 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem1019
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine();
+namespace InterviewPreperationGuide.Core.LeetCode.problem1019 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine ();
         }
 
         // Time: O ()
         // Space: O ()
-        public int[] NextLargerNodes(ListNode head)
-        {
+        public int[] NextLargerNodes (ListNode head) {
             return null;
         }
     }
 
-    public class ListNode
-    {
+    public class ListNode {
         public int val;
         public ListNode next;
 
-        public ListNode(int x)
-        {
+        public ListNode (int x) {
             val = x;
         }
     }

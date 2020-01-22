@@ -20,21 +20,16 @@ If you have figured out the O(n) solution, try coding another solution using the
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem53
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine(MaxSubArray(null));
-            Console.WriteLine(MaxSubArray(new int[] { }));
-            Console.WriteLine(MaxSubArray(new int[] { -2, 1, -3, 4, -1, 2, 1, -5, 4 }));
+namespace InterviewPreperationGuide.Core.LeetCode.problem53 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine (MaxSubArray (null));
+            Console.WriteLine (MaxSubArray (new int[] { }));
+            Console.WriteLine (MaxSubArray (new int[] {-2, 1, -3, 4, -1, 2, 1, -5, 4 }));
         }
 
-        public int MaxSubArray(int[] nums)
-        {
-            if (nums == null || nums.Length == 0)
-            {
+        public int MaxSubArray (int[] nums) {
+            if (nums == null || nums.Length == 0) {
                 return 0;
             }
 
@@ -42,10 +37,9 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem53
             int currentSum = nums[0];
             int maxSum = nums[0];
 
-            for (int i = 1; i < n; i++)
-            {
-                currentSum = Math.Max(nums[i], currentSum + nums[i]);
-                maxSum = Math.Max(maxSum, currentSum);
+            for (int i = 1; i < n; i++) {
+                currentSum = Math.Max (nums[i], currentSum + nums[i]);
+                maxSum = Math.Max (maxSum, currentSum);
             }
 
             return maxSum;

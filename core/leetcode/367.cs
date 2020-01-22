@@ -20,19 +20,15 @@ Output: false
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem367
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine();
+namespace InterviewPreperationGuide.Core.LeetCode.problem367 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine ();
         }
 
         // Time: O ()
         // Space: O ()
-        public bool IsPerfectSquare(int num)
-        {
+        public bool IsPerfectSquare (int num) {
             return false;
         }
     }

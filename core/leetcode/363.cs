@@ -23,75 +23,65 @@ Note:
 using System;
 using System.Collections.Generic;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem363
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine(MaxSumSubmatrix(new int[][] {
+namespace InterviewPreperationGuide.Core.LeetCode.problem363 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine (MaxSumSubmatrix (new int[][] {
                 new int[] { 1, 0, 1 },
                     new int[] { 0, -2, 3 }
             }, 2));
-            Console.WriteLine(MaxSumSubmatrix(new int[][] {
+            Console.WriteLine (MaxSumSubmatrix (new int[][] {
                 new int[] { 2, 2, -1 }
             }, 3));
-            Console.WriteLine(MaxSumSubmatrix(new int[][] {
+            Console.WriteLine (MaxSumSubmatrix (new int[][] {
                 new int[] { 2, 2, -1 }
             }, 0));
         }
 
-        public int MaxSumSubmatrix(int[][] matrix, int k)
-        {
-            if (matrix == null || matrix.GetLength(0) == 0 || matrix.GetLength(1) == 0)
+        public int MaxSumSubmatrix (int[][] matrix, int k) {
+            if (matrix == null || matrix.GetLength (0) == 0 || matrix.GetLength (1) == 0)
                 return 0;
 
-            int row = matrix.GetLength(0);
-            int col = matrix.GetLength(1);
+            int row = matrix.GetLength (0);
+            int col = matrix.GetLength (1);
 
-            int m = Math.Max(row, col);
-            int n = Math.Min(row, col);
+            int m = Math.Max (row, col);
+            int n = Math.Min (row, col);
             bool isRowLarger = false;
 
-            if (row > col)
-            {
+            if (row > col) {
                 isRowLarger = true;
             }
 
             int result = Int32.MinValue;
 
-            for (int c1 = 0; c1 < n; c1++)
-            {
+            for (int c1 = 0; c1 < n; c1++) {
                 int[] each = new int[m];
 
-                for (int c2 = c1; c2 >= 0; c2--)
-                {
-                    for (int r = 0; r < m; r++)
-                    {
+                for (int c2 = c1; c2 >= 0; c2--) {
+                    for (int r = 0; r < m; r++) {
                         each[r] += isRowLarger ? matrix[r][c2] : matrix[c2][r];
                     }
 
-                    result = Math.Max(result, getLargestSumCloseToK(each, k));
+                    result = Math.Max (result, getLargestSumCloseToK (each, k));
                 }
             }
 
             return result;
         }
 
-        private int getLargestSumCloseToK(int[] arr, int k)
-        {
+        private int getLargestSumCloseToK (int[] arr, int k) {
             int result = Int32.MinValue;
 
-            SortedList<int, int> set = new SortedList<int, int>();
+            SortedList<int, int> set = new SortedList<int, int> ();
             int sum = 0;
 
-            for (int i = 0; i < arr.Length; i++)
-            {
+            for (int i = 0; i < arr.Length; i++) {
                 sum = sum + arr[i];
 
-                result = Math.Max(result, k);
+                result = Math.Max (result, k);
 
-                set.Add(i, sum);
+                set.Add (i, sum);
             }
 
             return result;

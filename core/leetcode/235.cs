@@ -32,59 +32,49 @@ p and q are different and both values will exist in the BST.
 */
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem235
-{
-    public class TreeNode
-    {
+namespace InterviewPreperationGuide.Core.LeetCode.problem235 {
+    public class TreeNode {
         public int val;
         public TreeNode left;
         public TreeNode right;
-        public TreeNode(int x) { val = x; }
+        public TreeNode (int x) { val = x; }
 
-        public void DisplayNode()
-        {
-            if (this != null)
-            {
-                Console.WriteLine(this.val);
+        public void DisplayNode () {
+            if (this != null) {
+                Console.WriteLine (this.val);
             }
         }
     }
 
-    public class Solution
-    {
-        public static void Init()
-        {
-            TreeNode root = new TreeNode(1);
-            root = new TreeNode(20);
-            root.left = new TreeNode(8);
-            root.right = new TreeNode(22);
-            root.left.left = new TreeNode(4);
-            root.left.right = new TreeNode(12);
-            root.left.right.left = new TreeNode(10);
-            root.left.right.right = new TreeNode(14);
+    public class Solution {
+        public static void Init () {
+            TreeNode root = new TreeNode (1);
+            root = new TreeNode (20);
+            root.left = new TreeNode (8);
+            root.right = new TreeNode (22);
+            root.left.left = new TreeNode (4);
+            root.left.right = new TreeNode (12);
+            root.left.right.left = new TreeNode (10);
+            root.left.right.right = new TreeNode (14);
 
-            TreeNode r1 = LowestCommonAncestor(root, new TreeNode(10), new TreeNode(14));
-            r1.DisplayNode();
+            TreeNode r1 = LowestCommonAncestor (root, new TreeNode (10), new TreeNode (14));
+            r1.DisplayNode ();
 
-            TreeNode r2 = LowestCommonAncestor(root, new TreeNode(14), new TreeNode(8));
-            r2.DisplayNode();
+            TreeNode r2 = LowestCommonAncestor (root, new TreeNode (14), new TreeNode (8));
+            r2.DisplayNode ();
         }
 
-        public static TreeNode LowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q)
-        {
-            if (root == null)
-            {
+        public static TreeNode LowestCommonAncestor (TreeNode root, TreeNode p, TreeNode q) {
+            if (root == null) {
                 return null;
             }
 
-            if (root.val > p.val && root.val > q.val)
-            {
-                return LowestCommonAncestor(root.left, p, q);
+            if (root.val > p.val && root.val > q.val) {
+                return LowestCommonAncestor (root.left, p, q);
             }
 
-            if (root.val < p.val && root.val < q.val)
-            {
-                return LowestCommonAncestor(root.right, p, q);
+            if (root.val < p.val && root.val < q.val) {
+                return LowestCommonAncestor (root.right, p, q);
             }
 
             return root;

@@ -20,19 +20,15 @@ Output: "dcbabcd"
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem214
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine();
+namespace InterviewPreperationGuide.Core.LeetCode.problem214 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine ();
         }
 
         // Time: O ()
         // Space: O ()
-        public string ShortestPalindrome(string s)
-        {
+        public string ShortestPalindrome (string s) {
             return null;
         }
     }

@@ -20,21 +20,16 @@ Could you solve it with constant space complexity? (The output array does not co
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem238
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine();
+namespace InterviewPreperationGuide.Core.LeetCode.problem238 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine ();
         }
 
         // Time: O (n)
         // Space: O (1)
-        public int[] ProductExceptSelf(int[] nums)
-        {
-            if (nums == null || nums.Length == 0)
-            {
+        public int[] ProductExceptSelf (int[] nums) {
+            if (nums == null || nums.Length == 0) {
                 return nums;
             }
 
@@ -42,15 +37,13 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem238
 
             int runningPrefix = 1;
 
-            for (int i = 0; i < nums.Length; i++)
-            {
+            for (int i = 0; i < nums.Length; i++) {
                 result[i] = runningPrefix;
                 runningPrefix *= nums[i];
             }
 
             int runningSuffix = 1;
-            for (int i = nums.Length - 1; i >= 0; i--)
-            {
+            for (int i = nums.Length - 1; i >= 0; i--) {
                 result[i] *= runningSuffix;
                 runningSuffix *= nums[i];
             }

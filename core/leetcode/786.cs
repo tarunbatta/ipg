@@ -30,19 +30,15 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem786
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine();
+namespace InterviewPreperationGuide.Core.LeetCode.problem786 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine ();
         }
 
         // Time: O ()
         // Space: O ()
-        public int[] KthSmallestPrimeFraction(int[] A, int K)
-        {
+        public int[] KthSmallestPrimeFraction (int[] A, int K) {
             return null;
         }
     }

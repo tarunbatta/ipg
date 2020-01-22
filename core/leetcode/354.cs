@@ -21,14 +21,11 @@ Explanation: The maximum number of envelopes you can Russian doll is 3 ([2,3] =>
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem354
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine(MaxEnvelopes(null));
-            Console.WriteLine(MaxEnvelopes(new int[][] {
+namespace InterviewPreperationGuide.Core.LeetCode.problem354 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine (MaxEnvelopes (null));
+            Console.WriteLine (MaxEnvelopes (new int[][] {
                 new int[] { 5, 4 },
                     new int[] { 6, 4 },
                     new int[] { 6, 7 },
@@ -38,40 +35,34 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem354
 
         // Time: O (n log (n))
         // Space: O (n)
-        public int MaxEnvelopes(int[][] envelopes)
-        {
+        public int MaxEnvelopes (int[][] envelopes) {
             int result = 0;
 
-            if (envelopes == null || envelopes.Length == 0 || envelopes[0].Length == 0)
-            {
+            if (envelopes == null || envelopes.Length == 0 || envelopes[0].Length == 0) {
                 return result;
             }
 
-            int rows = envelopes.GetLength(0);
+            int rows = envelopes.GetLength (0);
             Envelope[] lst = new Envelope[rows];
 
-            for (int i = 0; i < rows; i++)
-            {
-                lst[i] = new Envelope(envelopes[i][0], envelopes[i][1]);
+            for (int i = 0; i < rows; i++) {
+                lst[i] = new Envelope (envelopes[i][0], envelopes[i][1]);
             }
 
-            Array.Sort(lst);
+            Array.Sort (lst);
 
             int[] dp = new int[rows];
 
-            for (int i = 0; i < rows; i++)
-            {
-                int idx = Array.BinarySearch(dp, 0, result, lst[i].height);
+            for (int i = 0; i < rows; i++) {
+                int idx = Array.BinarySearch (dp, 0, result, lst[i].height);
 
-                if (idx < 0)
-                {
+                if (idx < 0) {
                     idx = -(idx + 1);
                 }
 
                 dp[idx] = lst[i].height;
 
-                if (idx == result)
-                {
+                if (idx == result) {
                     result++;
                 }
             }
@@ -80,25 +71,19 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem354
         }
     }
 
-    public class Envelope : IComparable<Envelope>
-    {
+    public class Envelope : IComparable<Envelope> {
         public int width { get; set; }
         public int height { get; set; }
 
-        public Envelope(int width, int height)
-        {
+        public Envelope (int width, int height) {
             this.width = width;
             this.height = height;
         }
 
-        public int CompareTo(Envelope y)
-        {
-            if (this.width == y.width)
-            {
+        public int CompareTo (Envelope y) {
+            if (this.width == y.width) {
                 return y.height - this.height;
-            }
-            else
-            {
+            } else {
                 return this.width - y.width;
             }
         }

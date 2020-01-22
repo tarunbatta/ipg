@@ -18,44 +18,34 @@ Output: ["AAAAACCCCC", "CCCCCAAAAA"]
 using System;
 using System.Collections.Generic;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem187
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine();
+namespace InterviewPreperationGuide.Core.LeetCode.problem187 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine ();
         }
 
         // Time: O ((n-l)l)
         // Space: O ((n-l)l)
-        public IList<string> FindRepeatedDnaSequences(string s)
-        {
-            IList<string> result = new List<string>();
+        public IList<string> FindRepeatedDnaSequences (string s) {
+            IList<string> result = new List<string> ();
 
-            if (string.IsNullOrEmpty(s))
-            {
+            if (string.IsNullOrEmpty (s)) {
                 return result;
             }
 
             int len = 10;
-            Dictionary<string, int> hash = new Dictionary<string, int>();
-            for (int i = 0; i < s.Length - len + 1; i++)
-            {
-                string str = s.Substring(i, len);
+            Dictionary<string, int> hash = new Dictionary<string, int> ();
+            for (int i = 0; i < s.Length - len + 1; i++) {
+                string str = s.Substring (i, len);
 
-                if (!hash.ContainsKey(str))
-                {
-                    hash.Add(str, 1);
-                }
-                else
-                {
+                if (!hash.ContainsKey (str)) {
+                    hash.Add (str, 1);
+                } else {
                     hash[str]++;
                 }
 
-                if (hash[str] == 2)
-                {
-                    result.Add(str);
+                if (hash[str] == 2) {
+                    result.Add (str);
                 }
             }
 

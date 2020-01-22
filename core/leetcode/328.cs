@@ -27,21 +27,16 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem328
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine();
+namespace InterviewPreperationGuide.Core.LeetCode.problem328 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine ();
         }
 
         // Time: O (n)
         // Space: O (1)
-        public ListNode OddEvenList(ListNode head)
-        {
-            if (head == null)
-            {
+        public ListNode OddEvenList (ListNode head) {
+            if (head == null) {
                 return head;
             }
 
@@ -49,8 +44,7 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem328
             ListNode even = head.next;
             ListNode evenHead = even;
 
-            while (even != null && even.next != null)
-            {
+            while (even != null && even.next != null) {
                 odd.next = even.next;
                 odd = odd.next;
 
@@ -64,13 +58,11 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem328
         }
     }
 
-    public class ListNode
-    {
+    public class ListNode {
         public int val;
         public ListNode next;
 
-        public ListNode(int x)
-        {
+        public ListNode (int x) {
             val = x;
         }
     }

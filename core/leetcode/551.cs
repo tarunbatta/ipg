@@ -32,19 +32,15 @@ Output: False
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem551
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine();
+namespace InterviewPreperationGuide.Core.LeetCode.problem551 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine ();
         }
 
         // Time: O ()
         // Space: O ()
-        public bool CheckRecord(string s)
-        {
+        public bool CheckRecord (string s) {
             return false;
         }
     }

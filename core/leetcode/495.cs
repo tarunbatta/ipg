@@ -45,19 +45,15 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem495
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine();
+namespace InterviewPreperationGuide.Core.LeetCode.problem495 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine ();
         }
 
         // Time: O ()
         // Space: O ()
-        public int FindPoisonedDuration(int[] timeSeries, int duration)
-        {
+        public int FindPoisonedDuration (int[] timeSeries, int duration) {
             return 0;
         }
     }

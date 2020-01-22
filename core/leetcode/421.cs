@@ -24,19 +24,15 @@ Explanation: The maximum result is 5 ^ 25 = 28.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem421
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine();
+namespace InterviewPreperationGuide.Core.LeetCode.problem421 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine ();
         }
 
         // Time: O ()
         // Space: O ()
-        public int FindMaximumXOR(int[] nums)
-        {
+        public int FindMaximumXOR (int[] nums) {
             return 0;
         }
     }

@@ -41,26 +41,20 @@ Constraints:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem1157
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            MajorityChecker obj = new MajorityChecker(null);
-            int param_1 = obj.Query(0, 0, 0);
+namespace InterviewPreperationGuide.Core.LeetCode.problem1157 {
+    public class Solution {
+        public void Init () {
+            MajorityChecker obj = new MajorityChecker (null);
+            int param_1 = obj.Query (0, 0, 0);
         }
     }
 
-    public class MajorityChecker
-    {
-        public MajorityChecker(int[] arr)
-        {
+    public class MajorityChecker {
+        public MajorityChecker (int[] arr) {
 
         }
 
-        public int Query(int left, int right, int threshold)
-        {
+        public int Query (int left, int right, int threshold) {
             return 0;
         }
     }

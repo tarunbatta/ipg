@@ -14,19 +14,15 @@ Please optimize your algorithm to use less time and space. The input size may be
 using System;
 using System.Collections.Generic;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem386
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine();
+namespace InterviewPreperationGuide.Core.LeetCode.problem386 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine ();
         }
 
         // Time: O ()
         // Space: O ()
-        public IList<int> LexicalOrder(int n)
-        {
+        public IList<int> LexicalOrder (int n) {
             return null;
         }
     }

@@ -55,19 +55,15 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem1031
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine();
+namespace InterviewPreperationGuide.Core.LeetCode.problem1031 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine ();
         }
 
         // Time: O ()
         // Space: O ()
-        public int MaxSumTwoNoOverlap(int[] A, int L, int M)
-        {
+        public int MaxSumTwoNoOverlap (int[] A, int L, int M) {
             return 0;
         }
     }

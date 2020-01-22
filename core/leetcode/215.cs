@@ -23,19 +23,15 @@ You may assume k is always valid, 1 ≤ k ≤ array's length.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem215
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine();
+namespace InterviewPreperationGuide.Core.LeetCode.problem215 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine ();
         }
 
         // Time: O ()
         // Space: O ()
-        public int FindKthLargest(int[] nums, int k)
-        {
+        public int FindKthLargest (int[] nums, int k) {
             return 0;
         }
     }

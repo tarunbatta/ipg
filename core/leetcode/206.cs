@@ -19,32 +19,27 @@ A linked list can be reversed either iteratively or recursively. Could you imple
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem206
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            ListNode node = new ListNode(1);
-            node.next = new ListNode(2);
-            node.next.next = new ListNode(3);
-            node.next.next.next = new ListNode(4);
-            node.next.next.next.next = new ListNode(5);
+namespace InterviewPreperationGuide.Core.LeetCode.problem206 {
+    public class Solution {
+        public void Init () {
+            ListNode node = new ListNode (1);
+            node.next = new ListNode (2);
+            node.next.next = new ListNode (3);
+            node.next.next.next = new ListNode (4);
+            node.next.next.next.next = new ListNode (5);
 
-            Console.WriteLine(ReverseList_a(null));
-            Console.WriteLine(ReverseList_a(node));
+            Console.WriteLine (ReverseList_a (null));
+            Console.WriteLine (ReverseList_a (node));
 
-            Console.WriteLine(ReverseList_b(null));
-            Console.WriteLine(ReverseList_b(node));
+            Console.WriteLine (ReverseList_b (null));
+            Console.WriteLine (ReverseList_b (node));
         }
 
-        public ListNode ReverseList_a(ListNode head)
-        {
+        public ListNode ReverseList_a (ListNode head) {
             ListNode current = head;
             ListNode prev = null;
 
-            while (current != null)
-            {
+            while (current != null) {
                 ListNode temp = current.next;
                 current.next = prev;
                 prev = current;
@@ -54,14 +49,12 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem206
             return prev;
         }
 
-        public ListNode ReverseList_b(ListNode head)
-        {
-            if (head == null || head.next == null)
-            {
+        public ListNode ReverseList_b (ListNode head) {
+            if (head == null || head.next == null) {
                 return head;
             }
 
-            ListNode p = ReverseList_b(head.next);
+            ListNode p = ReverseList_b (head.next);
             head.next.next = head;
             head.next = null;
 
@@ -69,13 +62,11 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem206
         }
     }
 
-    public class ListNode
-    {
+    public class ListNode {
         public int val;
         public ListNode next;
 
-        public ListNode(int x)
-        {
+        public ListNode (int x) {
             val = x;
         }
     }

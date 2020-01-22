@@ -26,19 +26,15 @@ Output:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem390
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine();
+namespace InterviewPreperationGuide.Core.LeetCode.problem390 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine ();
         }
 
         // Time: O ()
         // Space: O ()
-        public int LastRemaining(int n)
-        {
+        public int LastRemaining (int n) {
             return 0;
         }
     }

@@ -31,19 +31,15 @@ Could you solve it in linear time?
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem239
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine();
+namespace InterviewPreperationGuide.Core.LeetCode.problem239 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine ();
         }
 
         // Time: O ()
         // Space: O ()
-        public int[] MaxSlidingWindow(int[] nums, int k)
-        {
+        public int[] MaxSlidingWindow (int[] nums, int k) {
             return null;
         }
     }

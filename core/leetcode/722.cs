@@ -70,69 +70,52 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem722
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine();
+namespace InterviewPreperationGuide.Core.LeetCode.problem722 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine ();
         }
 
         // Time: O (s), where s is the total length of the source code
         // Space: O (s)
-        public IList<string> RemoveComments(string[] source)
-        {
-            IList<string> result = new List<string>();
+        public IList<string> RemoveComments (string[] source) {
+            IList<string> result = new List<string> ();
 
-            if (source == null || source.Length == 0)
-            {
+            if (source == null || source.Length == 0) {
                 return result;
             }
 
             bool isComment = false;
-            StringBuilder sb = new StringBuilder();
+            StringBuilder sb = new StringBuilder ();
 
-            foreach (string line in source)
-            {
-                if (string.IsNullOrEmpty(line))
-                {
+            foreach (string line in source) {
+                if (string.IsNullOrEmpty (line)) {
                     continue;
                 }
 
                 int i = 0;
-                if (!isComment)
-                {
-                    sb = new StringBuilder();
+                if (!isComment) {
+                    sb = new StringBuilder ();
                 }
 
-                while (i < line.Length)
-                {
-                    if (!isComment && i + 1 < line.Length && line[i] == '/' && line[i + 1] == '*')
-                    {
+                while (i < line.Length) {
+                    if (!isComment && i + 1 < line.Length && line[i] == '/' && line[i + 1] == '*') {
                         isComment = true;
                         i++;
-                    }
-                    else if (isComment && i + 1 < line.Length && line[i] == '*' && line[i + 1] == '/')
-                    {
+                    } else if (isComment && i + 1 < line.Length && line[i] == '*' && line[i + 1] == '/') {
                         isComment = false;
                         i++;
-                    }
-                    else if (!isComment && i + 1 < line.Length && line[i] == '/' && line[i + 1] == '/')
-                    {
+                    } else if (!isComment && i + 1 < line.Length && line[i] == '/' && line[i + 1] == '/') {
                         break;
-                    }
-                    else if (!isComment)
-                    {
-                        sb.Append(line[i]);
+                    } else if (!isComment) {
+                        sb.Append (line[i]);
                     }
 
                     i++;
                 }
 
-                if (!isComment && sb.Length > 0)
-                {
-                    result.Add(sb.ToString());
+                if (!isComment && sb.Length > 0) {
+                    result.Add (sb.ToString ());
                 }
             }
 

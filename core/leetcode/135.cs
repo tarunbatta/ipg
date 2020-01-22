@@ -27,19 +27,15 @@ Explanation: You can allocate to the first, second and third child with 1, 2, 1 
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem135
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine();
+namespace InterviewPreperationGuide.Core.LeetCode.problem135 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine ();
         }
 
         // Time: O ()
         // Space: O ()
-        public int Candy(int[] ratings)
-        {
+        public int Candy (int[] ratings) {
             return 0;
         }
     }

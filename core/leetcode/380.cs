@@ -41,51 +41,42 @@ randomSet.getRandom();
 using System;
 using System.Collections.Generic;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem380
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            RandomizedSet obj = new RandomizedSet();
-            bool param_1 = obj.Insert(0);
-            bool param_2 = obj.Remove(0);
-            int param_3 = obj.GetRandom();
+namespace InterviewPreperationGuide.Core.LeetCode.problem380 {
+    public class Solution {
+        public void Init () {
+            RandomizedSet obj = new RandomizedSet ();
+            bool param_1 = obj.Insert (0);
+            bool param_2 = obj.Remove (0);
+            int param_3 = obj.GetRandom ();
         }
     }
 
-    public class RandomizedSet
-    {
+    public class RandomizedSet {
         Dictionary<int, int> _dict;
         List<int> _list;
         Random _random;
 
-        public RandomizedSet()
-        {
-            _list = new List<int>();
-            _dict = new Dictionary<int, int>();
-            _random = new Random();
+        public RandomizedSet () {
+            _list = new List<int> ();
+            _dict = new Dictionary<int, int> ();
+            _random = new Random ();
         }
 
         // Inserts a value to the set. Returns true if the set did not already contain the specified element
-        public bool Insert(int val)
-        {
-            if (_dict.ContainsKey(val))
-            {
+        public bool Insert (int val) {
+            if (_dict.ContainsKey (val)) {
                 return false;
             }
 
-            _list.Add(val);
-            _dict.Add(val, _list.Count - 1);
+            _list.Add (val);
+            _dict.Add (val, _list.Count - 1);
 
             return true;
         }
 
         // Removes a value from the set. Returns true if the set contained the specified element
-        public bool Remove(int val)
-        {
-            if (!_dict.ContainsKey(val))
-            {
+        public bool Remove (int val) {
+            if (!_dict.ContainsKey (val)) {
                 return false;
             }
 
@@ -93,16 +84,15 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem380
             _list[index] = _list[_list.Count - 1];
             _dict[_list[index]] = index;
 
-            _list.RemoveAt(_list.Count - 1);
-            _dict.Remove(val);
+            _list.RemoveAt (_list.Count - 1);
+            _dict.Remove (val);
 
             return true;
         }
 
         // Get a random element from the set
-        public int GetRandom()
-        {
-            return _list[_random.Next(_list.Count)];
+        public int GetRandom () {
+            return _list[_random.Next (_list.Count)];
         }
     }
 }

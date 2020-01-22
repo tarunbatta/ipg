@@ -59,19 +59,15 @@ Every integer represented in the list will be between -30000 and 30000.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem682
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine();
+namespace InterviewPreperationGuide.Core.LeetCode.problem682 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine ();
         }
 
         // Time: O ()
         // Space: O ()
-        public int CalPoints(string[] ops)
-        {
+        public int CalPoints (string[] ops) {
             return 0;
         }
     }

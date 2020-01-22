@@ -25,25 +25,19 @@ You must not use any built-in BigInteger library or convert the inputs to intege
 using System;
 using System.Text;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem43
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine();
+namespace InterviewPreperationGuide.Core.LeetCode.problem43 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine ();
         }
 
         // Time: O ()
         // Space: O ()
-        public string Multiply(string num1, string num2)
-        {
+        public string Multiply (string num1, string num2) {
             int[] res = new int[num1.Length + num2.Length];
 
-            for (int i = num1.Length - 1; i >= 0; i--)
-            {
-                for (int j = num2.Length - 1; j >= 0; j--)
-                {
+            for (int i = num1.Length - 1; i >= 0; i--) {
+                for (int j = num2.Length - 1; j >= 0; j--) {
                     //num1[i] * num2[j] will be placed at indices [i + j, i + j + 1]
                     int p1 = i + j;
                     int p2 = i + j + 1;
@@ -56,14 +50,13 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem43
                 }
             }
 
-            StringBuilder ret = new StringBuilder();
-            for (int i = 0; i < res.Length; i++)
-            {
+            StringBuilder ret = new StringBuilder ();
+            for (int i = 0; i < res.Length; i++) {
                 if (ret.Length == 0 && res[i] == 0) continue;
-                ret.Append(res[i]);
+                ret.Append (res[i]);
             }
 
-            return ret.Length == 0 ? "0" : ret.ToString();
+            return ret.Length == 0 ? "0" : ret.ToString ();
         }
     }
 }

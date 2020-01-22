@@ -32,131 +32,109 @@ cache.get(4);       // returns 4
 using System;
 using System.Collections.Generic;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem146
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.problem146 {
+    public class Solution {
+        public void Init () {
             // LRUCache obj = new LRUCache(capacity);
             // int param_1 = obj.Get(key);
             // obj.Put(key, value);
         }
     }
 }
-public class Node
-{
+public class Node {
     public int key;
     public int val;
     public Node prev;
     public Node next;
 
-    public Node(int key, int val)
-    {
+    public Node (int key, int val) {
         this.key = key;
         this.val = val;
     }
 }
 
-public class LRUCache
-{
+public class LRUCache {
     int _capacity;
     Dictionary<int, Node> _cache;
     Node head;
     Node tail;
 
-    public LRUCache(int capacity)
-    {
-        if (capacity <= 0)
-        {
-            throw new Exception();
+    public LRUCache (int capacity) {
+        if (capacity <= 0) {
+            throw new Exception ();
         }
 
         this._capacity = capacity;
-        this._cache = new Dictionary<int, Node>(this._capacity);
+        this._cache = new Dictionary<int, Node> (this._capacity);
         this.head = null;
         this.tail = null;
     }
 
-    public int Get(int key)
-    {
+    public int Get (int key) {
         Node item;
-        if (_cache.TryGetValue(key, out item))
-        {
-            moveToHead(item);
+        if (_cache.TryGetValue (key, out item)) {
+            moveToHead (item);
             return item.val;
         }
 
         return -1;
     }
 
-    public void Put(int key, int value)
-    {
+    public void Put (int key, int value) {
         Node item;
 
-        if (!_cache.TryGetValue(key, out item))
-        {
-            item = new Node(key, value);
+        if (!_cache.TryGetValue (key, out item)) {
+            item = new Node (key, value);
 
-            if (_cache.Count == _capacity)
-            {
-                _cache.Remove(tail.key);
+            if (_cache.Count == _capacity) {
+                _cache.Remove (tail.key);
                 tail = tail.prev;
 
-                if (tail != null)
-                {
+                if (tail != null) {
                     tail.next = null;
                 }
             }
 
-            _cache.Add(key, item);
+            _cache.Add (key, item);
         }
 
         item.val = value;
-        moveToHead(item);
+        moveToHead (item);
 
-        if (head == null)
-        {
+        if (head == null) {
             head = item;
         }
 
-        if (tail == null)
-        {
+        if (tail == null) {
             tail = head;
         }
     }
 
-    private void moveToHead(Node item)
-    {
-        if (item == null || item == head)
-        {
+    private void moveToHead (Node item) {
+        if (item == null || item == head) {
             return;
         }
 
         var next = item.next;
         var prev = item.prev;
 
-        if (next != null)
-        {
+        if (next != null) {
             next.prev = item.prev;
         }
 
-        if (prev != null)
-        {
+        if (prev != null) {
             prev.next = item.next;
         }
 
         item.prev = null;
         item.next = head;
 
-        if (head != null)
-        {
+        if (head != null) {
             head.prev = item;
             head = item;
         }
 
-        if (tail == item)
-        {
+        if (tail == item) {
             tail = prev;
         }
     }

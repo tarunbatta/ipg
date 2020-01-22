@@ -32,31 +32,24 @@ Explanation: In this case, no transaction is done, i.e. max profit = 0.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem122
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine(MaxProfit(null));
-            Console.WriteLine(MaxProfit(new int[] { 7, 1, 5, 3, 6, 4 }));
-            Console.WriteLine(MaxProfit(new int[] { 1, 2, 3, 4, 5 }));
-            Console.WriteLine(MaxProfit(new int[] { 7, 6, 4, 3, 1 }));
+namespace InterviewPreperationGuide.Core.LeetCode.problem122 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine (MaxProfit (null));
+            Console.WriteLine (MaxProfit (new int[] { 7, 1, 5, 3, 6, 4 }));
+            Console.WriteLine (MaxProfit (new int[] { 1, 2, 3, 4, 5 }));
+            Console.WriteLine (MaxProfit (new int[] { 7, 6, 4, 3, 1 }));
         }
 
-        public int MaxProfit(int[] prices)
-        {
+        public int MaxProfit (int[] prices) {
             int result = 0;
 
-            if (prices == null || prices.Length == 0)
-            {
+            if (prices == null || prices.Length == 0) {
                 return result;
             }
 
-            for (int i = 1; i < prices.Length; i++)
-            {
-                if (prices[i] > prices[i - 1])
-                {
+            for (int i = 1; i < prices.Length; i++) {
+                if (prices[i] > prices[i - 1]) {
                     result += prices[i] - prices[i - 1];
                 }
             }

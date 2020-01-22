@@ -36,50 +36,40 @@ Constraints
 using System;
 using System.Collections.Generic;
 
-namespace InterviewPreperationGuide.Core.HackerRank.DamDesign
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.HackerRank.DamDesign {
+    public class Solution {
+        public void Init () {
 
         }
 
         // Time: O ()
         // Space: O ()
-        public int MaxHeight(List<int> wallPositions, List<int> wallHeights)
-        {
+        public int MaxHeight (List<int> wallPositions, List<int> wallHeights) {
             int result = 0;
 
-            if (wallPositions == null || wallPositions.Count == 0 || wallHeights == null || wallHeights.Count == 0 || wallPositions.Count != wallHeights.Count)
-            {
+            if (wallPositions == null || wallPositions.Count == 0 || wallHeights == null || wallHeights.Count == 0 || wallPositions.Count != wallHeights.Count) {
                 return result;
             }
 
             int n = wallPositions.Count;
             int m = wallHeights.Count;
 
-            for (int i = 0; i < n - 1; i++)
-            {
-                if (wallPositions[i] < wallPositions[i + 1] - 1)
-                {
-                    int heightDiff = Math.Abs(wallHeights[i + 1] - wallHeights[i]);
+            for (int i = 0; i < n - 1; i++) {
+                if (wallPositions[i] < wallPositions[i + 1] - 1) {
+                    int heightDiff = Math.Abs (wallHeights[i + 1] - wallHeights[i]);
                     int gapLen = wallPositions[i + 1] - wallPositions[i] - 1;
                     int localMax = 0;
 
-                    if (gapLen > heightDiff)
-                    {
-                        int low = Math.Max(wallHeights[i + 1], wallHeights[i]) + 1;
+                    if (gapLen > heightDiff) {
+                        int low = Math.Max (wallHeights[i + 1], wallHeights[i]) + 1;
                         int remainingGap = gapLen - heightDiff - 1;
                         localMax = low + remainingGap / 2;
 
-                    }
-                    else
-                    {
-                        localMax = Math.Min(wallHeights[i + 1], wallHeights[i]) + gapLen;
+                    } else {
+                        localMax = Math.Min (wallHeights[i + 1], wallHeights[i]) + gapLen;
                     }
 
-                    result = Math.Max(result, localMax);
+                    result = Math.Max (result, localMax);
                 }
             }
 

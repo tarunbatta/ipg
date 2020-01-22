@@ -30,19 +30,15 @@ The two tuples are:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem454
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine();
+namespace InterviewPreperationGuide.Core.LeetCode.problem454 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine ();
         }
 
         // Time: O ()
         // Space: O ()
-        public int FourSumCount(int[] A, int[] B, int[] C, int[] D)
-        {
+        public int FourSumCount (int[] A, int[] B, int[] C, int[] D) {
             return 0;
         }
     }

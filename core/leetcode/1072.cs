@@ -50,19 +50,15 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem1072
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine();
+namespace InterviewPreperationGuide.Core.LeetCode.problem1072 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine ();
         }
 
         // Time: O ()
         // Space: O ()
-        public int MaxEqualRowsAfterFlips(int[][] matrix)
-        {
+        public int MaxEqualRowsAfterFlips (int[][] matrix) {
             return 0;
         }
     }

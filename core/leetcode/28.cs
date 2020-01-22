@@ -24,68 +24,55 @@ For the purpose of this problem, we will return 0 when needle is an empty string
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem28
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine(StrStr_a(null, null));
-            Console.WriteLine(StrStr_a("", ""));
-            Console.WriteLine(StrStr_a("hello", null));
-            Console.WriteLine(StrStr_a(null, "ll"));
-            Console.WriteLine(StrStr_a("a", "a"));
-            Console.WriteLine(StrStr_a("hello", "ll"));
-            Console.WriteLine(StrStr_a("aaaaa", "bba"));
+namespace InterviewPreperationGuide.Core.LeetCode.problem28 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine (StrStr_a (null, null));
+            Console.WriteLine (StrStr_a ("", ""));
+            Console.WriteLine (StrStr_a ("hello", null));
+            Console.WriteLine (StrStr_a (null, "ll"));
+            Console.WriteLine (StrStr_a ("a", "a"));
+            Console.WriteLine (StrStr_a ("hello", "ll"));
+            Console.WriteLine (StrStr_a ("aaaaa", "bba"));
 
-            Console.WriteLine(StrStr_b(null, null));
-            Console.WriteLine(StrStr_b("", ""));
-            Console.WriteLine(StrStr_b("hello", null));
-            Console.WriteLine(StrStr_b(null, "ll"));
-            Console.WriteLine(StrStr_b("hello", "ll"));
-            Console.WriteLine(StrStr_b("aaaaa", "bba"));
+            Console.WriteLine (StrStr_b (null, null));
+            Console.WriteLine (StrStr_b ("", ""));
+            Console.WriteLine (StrStr_b ("hello", null));
+            Console.WriteLine (StrStr_b (null, "ll"));
+            Console.WriteLine (StrStr_b ("hello", "ll"));
+            Console.WriteLine (StrStr_b ("aaaaa", "bba"));
         }
 
-        public int StrStr_a(string haystack, string needle)
-        {
-            if (needle == null)
-            {
+        public int StrStr_a (string haystack, string needle) {
+            if (needle == null) {
                 return -1;
             }
 
-            if (haystack == null)
-            {
+            if (haystack == null) {
                 return -1;
             }
 
             int l1 = haystack.Length;
             int l2 = needle.Length;
 
-            if (l1 < l2)
-            {
+            if (l1 < l2) {
                 return -1;
-            }
-            else if (l2 == 0)
-            {
+            } else if (l2 == 0) {
                 return 0;
             }
 
             int result = -1;
 
-            for (int i = 0; i <= l1 - l2; i++)
-            {
+            for (int i = 0; i <= l1 - l2; i++) {
                 int j = 0;
 
-                for (; j < l2; j++)
-                {
-                    if (haystack[i + j] != needle[j])
-                    {
+                for (; j < l2; j++) {
+                    if (haystack[i + j] != needle[j]) {
                         break;
                     }
                 }
 
-                if (j == l2)
-                {
+                if (j == l2) {
                     return i;
                 }
             }
@@ -93,15 +80,12 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem28
             return result;
         }
 
-        public int StrStr_b(string haystack, string needle)
-        {
-            if ((haystack == null && needle != null) || (haystack != null && needle == null) || (haystack != null && needle != null && haystack.Length < needle.Length))
-            {
+        public int StrStr_b (string haystack, string needle) {
+            if ((haystack == null && needle != null) || (haystack != null && needle == null) || (haystack != null && needle != null && haystack.Length < needle.Length)) {
                 return -1;
             }
 
-            if ((haystack == null && needle == null) || (haystack != null && needle != null && haystack.Length == 0 && needle.Length == 0))
-            {
+            if ((haystack == null && needle == null) || (haystack != null && needle != null && haystack.Length == 0 && needle.Length == 0)) {
                 return 0;
             }
 

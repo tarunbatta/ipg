@@ -20,19 +20,15 @@ The range of numbers in the array is [-1000, 1000] and the range of the integer 
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem560
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine();
+namespace InterviewPreperationGuide.Core.LeetCode.problem560 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine ();
         }
 
         // Time: O ()
         // Space: O ()
-        public int SubarraySum(int[] nums, int k)
-        {
+        public int SubarraySum (int[] nums, int k) {
             return 0;
         }
     }

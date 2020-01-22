@@ -38,32 +38,26 @@ Follow up:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem470
-{
+namespace InterviewPreperationGuide.Core.LeetCode.problem470 {
     // The Rand7() API is already defined in the parent class SolBase. 
     // public int Rand7(); 
     // @return a random integer in the range 1 to 7
-    public class Solution : SolBase
-    {
-        public int Rand10()
-        {
+    public class Solution : SolBase {
+        public int Rand10 () {
             int result = 40;
 
-            while (result >= 40)
-            {
-                result = (7 * (Rand7() - 1)) + (Rand7() - 1);
+            while (result >= 40) {
+                result = (7 * (Rand7 () - 1)) + (Rand7 () - 1);
             }
 
             return (result % 10) + 1;
         }
     }
 
-    public class SolBase
-    {
-        public int Rand7()
-        {
-            Random rand = new Random();
-            return rand.Next(1, 7);
+    public class SolBase {
+        public int Rand7 () {
+            Random rand = new Random ();
+            return rand.Next (1, 7);
         }
     }
 }

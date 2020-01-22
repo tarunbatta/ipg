@@ -31,19 +31,15 @@ Every cost[i] will be an integer in the range [0, 999].
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem746
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine();
+namespace InterviewPreperationGuide.Core.LeetCode.problem746 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine ();
         }
 
         // Time: O ()
         // Space: O ()
-        public int MinCostClimbingStairs(int[] cost)
-        {
+        public int MinCostClimbingStairs (int[] cost) {
             return 0;
         }
     }

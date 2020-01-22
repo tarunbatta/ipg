@@ -32,31 +32,25 @@ Google: 90% of our engineers use the software you wrote (Homebrew), but you canâ
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem226
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine();
+namespace InterviewPreperationGuide.Core.LeetCode.problem226 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine ();
         }
 
         // Time: O ()
         // Space: O ()
-        public TreeNode InvertTree(TreeNode root)
-        {
+        public TreeNode InvertTree (TreeNode root) {
             return null;
         }
     }
 
-    public class TreeNode
-    {
+    public class TreeNode {
         public int val;
         public TreeNode left;
         public TreeNode right;
 
-        public TreeNode(int x)
-        {
+        public TreeNode (int x) {
             val = x;
         }
     }

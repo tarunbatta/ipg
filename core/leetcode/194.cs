@@ -28,7 +28,6 @@ age 21 30
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem194
-{
+namespace InterviewPreperationGuide.Core.LeetCode.problem194 {
     // # Read from the file file.txt and print its transposed content to stdout.
 }

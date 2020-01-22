@@ -27,61 +27,50 @@ Note:
 using System;
 using System.Collections;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem173
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            BSTIterator obj = new BSTIterator(null);
-            int param_1 = obj.Next();
-            bool param_2 = obj.HasNext();
+namespace InterviewPreperationGuide.Core.LeetCode.problem173 {
+    public class Solution {
+        public void Init () {
+            BSTIterator obj = new BSTIterator (null);
+            int param_1 = obj.Next ();
+            bool param_2 = obj.HasNext ();
         }
     }
-    public class BSTIterator
-    {
+    public class BSTIterator {
         ArrayList _sortedNodes;
         int _index;
 
-        public BSTIterator(TreeNode root)
-        {
-            this._sortedNodes = new ArrayList();
+        public BSTIterator (TreeNode root) {
+            this._sortedNodes = new ArrayList ();
             this._index = -1;
-            InOrder(root);
+            InOrder (root);
         }
 
-        private void InOrder(TreeNode root)
-        {
-            if (root == null)
-            {
+        private void InOrder (TreeNode root) {
+            if (root == null) {
                 return;
             }
 
-            InOrder(root.left);
-            this._sortedNodes.Add(root.val);
-            InOrder(root.right);
+            InOrder (root.left);
+            this._sortedNodes.Add (root.val);
+            InOrder (root.right);
         }
 
         // @return the next smallest number
-        public int Next()
-        {
-            return (int)this._sortedNodes[++this._index];
+        public int Next () {
+            return (int) this._sortedNodes[++this._index];
         }
 
         // @return whether we have a next smallest number
-        public bool HasNext()
-        {
+        public bool HasNext () {
             return this._index + 1 < this._sortedNodes.Count;
         }
     }
-    public class TreeNode
-    {
+    public class TreeNode {
         public int val;
         public TreeNode left;
         public TreeNode right;
 
-        public TreeNode(int x)
-        {
+        public TreeNode (int x) {
             val = x;
         }
     }

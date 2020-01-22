@@ -33,26 +33,20 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem745
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            WordFilter obj = new WordFilter(null);
-            int param_1 = obj.F(null, null);
+namespace InterviewPreperationGuide.Core.LeetCode.problem745 {
+    public class Solution {
+        public void Init () {
+            WordFilter obj = new WordFilter (null);
+            int param_1 = obj.F (null, null);
         }
     }
 
-    public class WordFilter
-    {
-        public WordFilter(string[] words)
-        {
+    public class WordFilter {
+        public WordFilter (string[] words) {
 
         }
 
-        public int F(string prefix, string suffix)
-        {
+        public int F (string prefix, string suffix) {
             return 0;
         }
     }

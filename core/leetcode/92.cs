@@ -16,40 +16,34 @@ Output: 1->4->3->2->5->NULL
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem92
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            ListNode l = new ListNode(1);
-            l.next = new ListNode(2);
-            l.next.next = new ListNode(3);
-            l.next.next.next = new ListNode(4);
-            l.next.next.next.next = new ListNode(5);
+namespace InterviewPreperationGuide.Core.LeetCode.problem92 {
+    public class Solution {
+        public void Init () {
+            ListNode l = new ListNode (1);
+            l.next = new ListNode (2);
+            l.next.next = new ListNode (3);
+            l.next.next.next = new ListNode (4);
+            l.next.next.next.next = new ListNode (5);
 
-            Console.WriteLine(ReverseBetween(null, 2, 4));
-            Console.WriteLine(ReverseBetween(null, 3, 3));
-            Console.WriteLine(ReverseBetween(null, 4, 3));
-            Console.WriteLine(ReverseBetween(l, 2, 4));
-            Console.WriteLine(ReverseBetween(l, 3, 3));
+            Console.WriteLine (ReverseBetween (null, 2, 4));
+            Console.WriteLine (ReverseBetween (null, 3, 3));
+            Console.WriteLine (ReverseBetween (null, 4, 3));
+            Console.WriteLine (ReverseBetween (l, 2, 4));
+            Console.WriteLine (ReverseBetween (l, 3, 3));
         }
 
         // Time: O (n)
         // Space: O (1)
-        public ListNode ReverseBetween(ListNode head, int m, int n)
-        {
-            if (head == null || m >= n)
-            {
+        public ListNode ReverseBetween (ListNode head, int m, int n) {
+            if (head == null || m >= n) {
                 return head;
             }
 
-            ListNode result = new ListNode(0);
+            ListNode result = new ListNode (0);
             result.next = head;
             ListNode node = result;
 
-            while (m > 1)
-            {
+            while (m > 1) {
                 node = node.next;
                 m--;
                 n--;
@@ -60,8 +54,7 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem92
             ListNode tail = node.next;
             ListNode temp = null;
 
-            while (n > 0)
-            {
+            while (n > 0) {
                 temp = current.next;
                 current.next = prev;
                 prev = current;
@@ -69,12 +62,9 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem92
                 n--;
             }
 
-            if (node != null)
-            {
+            if (node != null) {
                 node.next = prev;
-            }
-            else
-            {
+            } else {
                 head = prev;
             }
 
@@ -84,10 +74,9 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem92
         }
     }
 
-    public class ListNode
-    {
+    public class ListNode {
         public int val;
         public ListNode next;
-        public ListNode(int x) { val = x; }
+        public ListNode (int x) { val = x; }
     }
 }

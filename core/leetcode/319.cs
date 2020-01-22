@@ -21,19 +21,15 @@ So you should return 1, because there is only one bulb is on.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem319
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine();
+namespace InterviewPreperationGuide.Core.LeetCode.problem319 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine ();
         }
 
         // Time: O ()
         // Space: O ()
-        public int BulbSwitch(int n)
-        {
+        public int BulbSwitch (int n) {
             return 0;
         }
     }

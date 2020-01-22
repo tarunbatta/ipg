@@ -24,19 +24,15 @@ s = "2[abc]3[cd]ef", return "abcabccdcdcdef".
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem394
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine();
+namespace InterviewPreperationGuide.Core.LeetCode.problem394 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine ();
         }
 
         // Time: O ()
         // Space: O ()
-        public string DecodeString(string s)
-        {
+        public string DecodeString (string s) {
             return null;
         }
     }

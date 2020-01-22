@@ -22,19 +22,15 @@ Note: If there are several possible values for h, the maximum one is taken as th
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem274
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine();
+namespace InterviewPreperationGuide.Core.LeetCode.problem274 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine ();
         }
 
         // Time: O ()
         // Space: O ()
-        public int HIndex(int[] citations)
-        {
+        public int HIndex (int[] citations) {
             return 0;
         }
     }

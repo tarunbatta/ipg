@@ -39,19 +39,15 @@ Both input strings will be non-empty and only contain characters 'R','Y','B','G'
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem488
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine();
+namespace InterviewPreperationGuide.Core.LeetCode.problem488 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine ();
         }
 
         // Time: O ()
         // Space: O ()
-        public int FindMinStep(string board, string hand)
-        {
+        public int FindMinStep (string board, string hand) {
             return 0;
         }
     }

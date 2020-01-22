@@ -46,19 +46,15 @@ The height of a rooted tree is the number of edges on the longest downward path 
 using System;
 using System.Collections.Generic;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem310
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine();
+namespace InterviewPreperationGuide.Core.LeetCode.problem310 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine ();
         }
 
         // Time: O ()
         // Space: O ()
-        public IList<int> FindMinHeightTrees(int n, int[][] edges)
-        {
+        public IList<int> FindMinHeightTrees (int n, int[][] edges) {
             return null;
         }
     }

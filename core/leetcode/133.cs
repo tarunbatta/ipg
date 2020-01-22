@@ -56,68 +56,56 @@ Note:
 using System;
 using System.Collections.Generic;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem133
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine(CloneGraph_DFS(null));
+namespace InterviewPreperationGuide.Core.LeetCode.problem133 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine (CloneGraph_DFS (null));
 
-            Console.WriteLine(CloneGraph_BFS(null));
+            Console.WriteLine (CloneGraph_BFS (null));
         }
 
-        Dictionary<Node, Node> visited = new Dictionary<Node, Node>();
+        Dictionary<Node, Node> visited = new Dictionary<Node, Node> ();
 
-        public Node CloneGraph_DFS(Node node)
-        {
-            if (node == null)
-            {
+        public Node CloneGraph_DFS (Node node) {
+            if (node == null) {
                 return node;
             }
 
-            if (visited.ContainsKey(node))
-            {
+            if (visited.ContainsKey (node)) {
                 return visited[node];
             }
 
-            Node clone = new Node(node.val, new List<Node>());
-            visited.Add(node, clone);
+            Node clone = new Node (node.val, new List<Node> ());
+            visited.Add (node, clone);
 
-            foreach (var neighbour in node.neighbors)
-            {
-                clone.neighbors.Add(CloneGraph_DFS(neighbour));
+            foreach (var neighbour in node.neighbors) {
+                clone.neighbors.Add (CloneGraph_DFS (neighbour));
             }
 
             return clone;
         }
 
-        public Node CloneGraph_BFS(Node node)
-        {
-            if (node == null)
-            {
+        public Node CloneGraph_BFS (Node node) {
+            if (node == null) {
                 return node;
             }
 
-            Queue<Node> q = new Queue<Node>();
-            Dictionary<Node, Node> visited = new Dictionary<Node, Node>();
+            Queue<Node> q = new Queue<Node> ();
+            Dictionary<Node, Node> visited = new Dictionary<Node, Node> ();
 
-            q.Enqueue(node);
-            visited.Add(node, new Node(node.val, new List<Node>()));
+            q.Enqueue (node);
+            visited.Add (node, new Node (node.val, new List<Node> ()));
 
-            while (q.Count > 0)
-            {
-                Node t = q.Dequeue();
+            while (q.Count > 0) {
+                Node t = q.Dequeue ();
 
-                foreach (var item in t.neighbors)
-                {
-                    if (!visited.ContainsKey(item))
-                    {
-                        q.Enqueue(item);
-                        visited.Add(item, new Node(item.val, new List<Node>()));
+                foreach (var item in t.neighbors) {
+                    if (!visited.ContainsKey (item)) {
+                        q.Enqueue (item);
+                        visited.Add (item, new Node (item.val, new List<Node> ()));
                     }
 
-                    visited[t].neighbors.Add(visited[item]);
+                    visited[t].neighbors.Add (visited[item]);
                 }
             }
 
@@ -125,18 +113,15 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem133
         }
     }
 
-    public class Node
-    {
+    public class Node {
         public int val;
         public IList<Node> neighbors;
 
-        public Node()
-        {
+        public Node () {
 
         }
 
-        public Node(int _val, IList<Node> _neighbors)
-        {
+        public Node (int _val, IList<Node> _neighbors) {
             val = _val;
             neighbors = _neighbors;
         }

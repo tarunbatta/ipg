@@ -43,19 +43,15 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem435
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine();
+namespace InterviewPreperationGuide.Core.LeetCode.problem435 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine ();
         }
 
         // Time: O ()
         // Space: O ()
-        public int EraseOverlapIntervals(int[][] intervals)
-        {
+        public int EraseOverlapIntervals (int[][] intervals) {
             return 0;
         }
     }

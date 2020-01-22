@@ -30,19 +30,15 @@ Note: 1 <= N <= 10000
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem834
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine();
+namespace InterviewPreperationGuide.Core.LeetCode.problem834 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine ();
         }
 
         // Time: O ()
         // Space: O ()
-        public int[] SumOfDistancesInTree(int N, int[][] edges)
-        {
+        public int[] SumOfDistancesInTree (int N, int[][] edges) {
             return null;
         }
     }

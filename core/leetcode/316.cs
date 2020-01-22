@@ -20,19 +20,15 @@ Output: "acdb"
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem316
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine();
+namespace InterviewPreperationGuide.Core.LeetCode.problem316 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine ();
         }
 
         // Time: O ()
         // Space: O ()
-        public string RemoveDuplicateLetters(string s)
-        {
+        public string RemoveDuplicateLetters (string s) {
             return null;
         }
     }

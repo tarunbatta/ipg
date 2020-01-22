@@ -15,31 +15,24 @@ Explanation: There are 4 prime numbers less than 10, they are 2, 3, 5, 7.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem204
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine(CountPrimes(0));
-            Console.WriteLine(CountPrimes(3));
-            Console.WriteLine(CountPrimes(4));
-            Console.WriteLine(CountPrimes(10));
+namespace InterviewPreperationGuide.Core.LeetCode.problem204 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine (CountPrimes (0));
+            Console.WriteLine (CountPrimes (3));
+            Console.WriteLine (CountPrimes (4));
+            Console.WriteLine (CountPrimes (10));
         }
 
-        public int CountPrimes(int n)
-        {
+        public int CountPrimes (int n) {
             int result = 0;
 
-            if (n < 2)
-            {
+            if (n < 2) {
                 return result;
             }
 
-            for (int i = 2; i < n; i++)
-            {
-                if (IsPrime(i))
-                {
+            for (int i = 2; i < n; i++) {
+                if (IsPrime (i)) {
                     result++;
                 }
             }
@@ -47,17 +40,13 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem204
             return result;
         }
 
-        private bool IsPrime(int n)
-        {
-            if (n < 2)
-            {
+        private bool IsPrime (int n) {
+            if (n < 2) {
                 return false;
             }
 
-            for (int i = 2; i * i <= n; i++)
-            {
-                if (n % i == 0)
-                {
+            for (int i = 2; i * i <= n; i++) {
+                if (n % i == 0) {
                     return false;
                 }
             }

@@ -38,19 +38,15 @@ Try to solve it in O(n log k) time and O(n) extra space.
 using System;
 using System.Collections.Generic;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem692
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine();
+namespace InterviewPreperationGuide.Core.LeetCode.problem692 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine ();
         }
 
         // Time: O ()
         // Space: O ()
-        public IList<string> TopKFrequent(string[] words, int k)
-        {
+        public IList<string> TopKFrequent (string[] words, int k) {
             return null;
         }
     }

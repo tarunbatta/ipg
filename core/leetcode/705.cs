@@ -39,39 +39,31 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem705
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            MyHashSet obj = new MyHashSet();
-            obj.Add(0);
-            obj.Remove(0);
-            bool param_3 = obj.Contains(0);
+namespace InterviewPreperationGuide.Core.LeetCode.problem705 {
+    public class Solution {
+        public void Init () {
+            MyHashSet obj = new MyHashSet ();
+            obj.Add (0);
+            obj.Remove (0);
+            bool param_3 = obj.Contains (0);
         }
     }
 
-    public class MyHashSet
-    {
-        public MyHashSet()
-        {
+    public class MyHashSet {
+        public MyHashSet () {
 
         }
 
-        public void Add(int key)
-        {
+        public void Add (int key) {
 
         }
 
-        public void Remove(int key)
-        {
+        public void Remove (int key) {
 
         }
 
         // Returns true if this set contains the specified element
-        public bool Contains(int key)
-        {
+        public bool Contains (int key) {
             return false;
         }
     }

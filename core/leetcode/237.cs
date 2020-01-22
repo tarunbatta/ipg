@@ -32,38 +32,31 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem237
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            ListNode node = new ListNode(4);
-            node.next = new ListNode(5);
-            node.next.next = new ListNode(1);
-            node.next.next.next = new ListNode(9);
+namespace InterviewPreperationGuide.Core.LeetCode.problem237 {
+    public class Solution {
+        public void Init () {
+            ListNode node = new ListNode (4);
+            node.next = new ListNode (5);
+            node.next.next = new ListNode (1);
+            node.next.next.next = new ListNode (9);
 
-            DeleteNode(null);
-            DeleteNode(node);
+            DeleteNode (null);
+            DeleteNode (node);
         }
 
-        public void DeleteNode(ListNode node)
-        {
-            if (node != null)
-            {
+        public void DeleteNode (ListNode node) {
+            if (node != null) {
                 node.val = node.next.val;
                 node.next = node.next.next;
             }
         }
     }
 
-    public class ListNode
-    {
+    public class ListNode {
         public int val;
         public ListNode next;
 
-        public ListNode(int x)
-        {
+        public ListNode (int x) {
             val = x;
         }
     }

@@ -45,19 +45,15 @@ for (int i = 0; i < len; i++) {
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem80
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine();
+namespace InterviewPreperationGuide.Core.LeetCode.problem80 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine ();
         }
 
         // Time: O ()
         // Space: O ()
-        public int RemoveDuplicates(int[] nums)
-        {
+        public int RemoveDuplicates (int[] nums) {
             return 0;
         }
     }

@@ -52,17 +52,13 @@ Constraints:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem1106
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.problem1106 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public bool ParseBoolExpr(string expression)
-        {
+        public bool ParseBoolExpr (string expression) {
             return false;
         }
     }

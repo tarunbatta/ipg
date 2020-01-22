@@ -31,19 +31,15 @@ Only letters from a ~ z will appear in input strings.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem521
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine();
+namespace InterviewPreperationGuide.Core.LeetCode.problem521 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine ();
         }
 
         // Time: O ()
         // Space: O ()
-        public int FindLUSlength(string a, string b)
-        {
+        public int FindLUSlength (string a, string b) {
             return 0;
         }
     }

@@ -26,22 +26,17 @@ The above arrows point to positions where the corresponding bits are different.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem461
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine(HammingDistance(1, 4));
+namespace InterviewPreperationGuide.Core.LeetCode.problem461 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine (HammingDistance (1, 4));
         }
 
-        public int HammingDistance(int x, int y)
-        {
+        public int HammingDistance (int x, int y) {
             int xor = x ^ y;
             int result = 0;
 
-            for (int i = 0; i < 32; i++)
-            {
+            for (int i = 0; i < 32; i++) {
                 result += (xor >> i) & 1;
             }
 

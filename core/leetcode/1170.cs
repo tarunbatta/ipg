@@ -35,19 +35,15 @@ Constraints:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem1170
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine();
+namespace InterviewPreperationGuide.Core.LeetCode.problem1170 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine ();
         }
 
         // Time: O ()
         // Space: O ()
-        public int[] NumSmallerByFrequency(string[] queries, string[] words)
-        {
+        public int[] NumSmallerByFrequency (string[] queries, string[] words) {
             return null;
         }
     }

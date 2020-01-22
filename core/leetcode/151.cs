@@ -37,63 +37,53 @@ For C programmers, try to solve it in-place in O(1) extra space.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem151
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine(ReverseWords(null));
-            Console.WriteLine(ReverseWords(""));
-            Console.WriteLine(ReverseWords("the sky is blue"));
-            Console.WriteLine(ReverseWords("  hello world!  "));
-            Console.WriteLine(ReverseWords("a good   example"));
+namespace InterviewPreperationGuide.Core.LeetCode.problem151 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine (ReverseWords (null));
+            Console.WriteLine (ReverseWords (""));
+            Console.WriteLine (ReverseWords ("the sky is blue"));
+            Console.WriteLine (ReverseWords ("  hello world!  "));
+            Console.WriteLine (ReverseWords ("a good   example"));
         }
 
-        public string ReverseWords(string s)
-        {
-            if (string.IsNullOrEmpty(s))
-            {
+        public string ReverseWords (string s) {
+            if (string.IsNullOrEmpty (s)) {
                 return s;
             }
 
-            char[] c = s.ToCharArray();
+            char[] c = s.ToCharArray ();
             int n = s.Length;
 
-            ReverseString(c, 0, n - 1);
-            ReverseWords(c, n);
-            int end = CleanSpaces(c, n);
+            ReverseString (c, 0, n - 1);
+            ReverseWords (c, n);
+            int end = CleanSpaces (c, n);
 
-            return new string(c, 0, end);
+            return new string (c, 0, end);
         }
 
-        private void ReverseWords(char[] c, int n)
-        {
+        private void ReverseWords (char[] c, int n) {
             int i = 0;
             int j = 0;
 
-            while (i < n)
-            {
+            while (i < n) {
                 while (i < j || i < n && c[i] == ' ') i++;
                 while (j < i || j < n && c[j] != ' ') j++;
 
-                ReverseString(c, i, j - 1);
+                ReverseString (c, i, j - 1);
             }
         }
 
-        private int CleanSpaces(char[] c, int n)
-        {
+        private int CleanSpaces (char[] c, int n) {
             int i = 0;
             int j = 0;
 
-            while (j < n)
-            {
+            while (j < n) {
                 while (j < n && c[j] == ' ') j++;
                 while (j < n && c[j] != ' ') c[i++] = c[j++];
                 while (j < n && c[j] == ' ') j++;
 
-                if (j < n)
-                {
+                if (j < n) {
                     c[i++] = ' ';
                 }
             }
@@ -101,10 +91,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem151
             return i;
         }
 
-        private void ReverseString(char[] c, int i, int j)
-        {
-            while (i < j)
-            {
+        private void ReverseString (char[] c, int i, int j) {
+            while (i < j) {
                 char t = c[i];
                 c[i++] = c[j];
                 c[j--] = t;

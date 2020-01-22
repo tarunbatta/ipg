@@ -29,19 +29,15 @@ Output: [""]
 using System;
 using System.Collections.Generic;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem301
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine();
+namespace InterviewPreperationGuide.Core.LeetCode.problem301 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine ();
         }
 
         // Time: O ()
         // Space: O ()
-        public IList<string> RemoveInvalidParentheses(string s)
-        {
+        public IList<string> RemoveInvalidParentheses (string s) {
             return null;
         }
     }

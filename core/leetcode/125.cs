@@ -20,23 +20,18 @@ Output: false
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem125
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine(IsPalindrome(null));
-            Console.WriteLine(IsPalindrome(""));
-            Console.WriteLine(IsPalindrome("madam"));
-            Console.WriteLine(IsPalindrome("A man, a plan, a canal: Panama"));
-            Console.WriteLine(IsPalindrome("race a car"));
+namespace InterviewPreperationGuide.Core.LeetCode.problem125 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine (IsPalindrome (null));
+            Console.WriteLine (IsPalindrome (""));
+            Console.WriteLine (IsPalindrome ("madam"));
+            Console.WriteLine (IsPalindrome ("A man, a plan, a canal: Panama"));
+            Console.WriteLine (IsPalindrome ("race a car"));
         }
 
-        public bool IsPalindrome(string s)
-        {
-            if (s == null || s.Length <= 1)
-            {
+        public bool IsPalindrome (string s) {
+            if (s == null || s.Length <= 1) {
                 return true;
             }
 
@@ -44,20 +39,13 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem125
             int i = 0;
             int j = s.Length - 1;
 
-            while (i < j)
-            {
-                if (!char.IsLetterOrDigit(s[i]))
-                {
+            while (i < j) {
+                if (!char.IsLetterOrDigit (s[i])) {
                     i++;
-                }
-                else if (!char.IsLetterOrDigit(s[j]))
-                {
+                } else if (!char.IsLetterOrDigit (s[j])) {
                     j--;
-                }
-                else
-                {
-                    if (char.ToLower(s[i]) != char.ToLower(s[j]))
-                    {
+                } else {
+                    if (char.ToLower (s[i]) != char.ToLower (s[j])) {
                         return false;
                     }
 

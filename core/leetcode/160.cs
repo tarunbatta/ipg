@@ -52,42 +52,34 @@ Notes:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem160
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine();
+namespace InterviewPreperationGuide.Core.LeetCode.problem160 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine ();
         }
 
         // Time: O (n)
         // Space: O (1)
-        public ListNode GetIntersectionNode(ListNode headA, ListNode headB)
-        {
-            if (headA == null || headB == null)
-            {
+        public ListNode GetIntersectionNode (ListNode headA, ListNode headB) {
+            if (headA == null || headB == null) {
                 return null;
             }
 
             ListNode nodeA = headA;
             ListNode nodeB = headB;
-            int lenA = getLength(nodeA);
-            int lenB = getLength(nodeB);
+            int lenA = getLength (nodeA);
+            int lenB = getLength (nodeB);
 
-            while (lenA > lenB)
-            {
+            while (lenA > lenB) {
                 nodeA = nodeA.next;
                 lenA--;
             }
-            while (lenA < lenB)
-            {
+            while (lenA < lenB) {
                 nodeB = nodeB.next;
                 lenB--;
             }
 
-            while (nodeA != nodeB)
-            {
+            while (nodeA != nodeB) {
                 nodeA = nodeA.next;
                 nodeB = nodeB.next;
             }
@@ -95,12 +87,10 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem160
             return nodeA;
         }
 
-        private int getLength(ListNode node)
-        {
+        private int getLength (ListNode node) {
             int result = 0;
 
-            while (node != null)
-            {
+            while (node != null) {
                 result++;
                 node = node.next;
             }
@@ -109,13 +99,11 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem160
         }
     }
 
-    public class ListNode
-    {
+    public class ListNode {
         public int val;
         public ListNode next;
 
-        public ListNode(int x)
-        {
+        public ListNode (int x) {
             val = x;
         }
     }

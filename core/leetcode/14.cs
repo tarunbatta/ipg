@@ -24,39 +24,30 @@ All given inputs are in lowercase letters a-z.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem14
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine(LongestCommonPrefix(null));
-            Console.WriteLine(LongestCommonPrefix(new string[] { "flower", "flow", "flight" }));
-            Console.WriteLine(LongestCommonPrefix(new string[] { "dog", "racecar", "car" }));
+namespace InterviewPreperationGuide.Core.LeetCode.problem14 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine (LongestCommonPrefix (null));
+            Console.WriteLine (LongestCommonPrefix (new string[] { "flower", "flow", "flight" }));
+            Console.WriteLine (LongestCommonPrefix (new string[] { "dog", "racecar", "car" }));
         }
 
-        public string LongestCommonPrefix(string[] strs)
-        {
-            if (strs == null || strs.Length == 0)
-            {
+        public string LongestCommonPrefix (string[] strs) {
+            if (strs == null || strs.Length == 0) {
                 return string.Empty;
             }
 
-            if (strs.Length == 1)
-            {
+            if (strs.Length == 1) {
                 return strs[0];
             }
 
             String prefix = strs[0];
 
-            for (int i = 1; i < strs.Length; i++)
-            {
-                while (strs[i].IndexOf(prefix) != 0)
-                {
-                    prefix = prefix.Substring(0, prefix.Length - 1);
+            for (int i = 1; i < strs.Length; i++) {
+                while (strs[i].IndexOf (prefix) != 0) {
+                    prefix = prefix.Substring (0, prefix.Length - 1);
 
-                    if (string.IsNullOrEmpty(prefix))
-                    {
+                    if (string.IsNullOrEmpty (prefix)) {
                         return string.Empty;
                     }
                 }

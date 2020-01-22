@@ -31,19 +31,15 @@ Surrounded regions shouldn’t be on the border, which means that any 'O' on the
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem130
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine();
+namespace InterviewPreperationGuide.Core.LeetCode.problem130 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine ();
         }
 
         // Time: O ()
         // Space: O ()
-        public void Solve(char[][] board)
-        {
+        public void Solve (char[][] board) {
 
         }
     }

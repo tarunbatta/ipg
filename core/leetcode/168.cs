@@ -38,19 +38,15 @@ Output: "ZY"
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem168
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine();
+namespace InterviewPreperationGuide.Core.LeetCode.problem168 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine ();
         }
 
         // Time: O ()
         // Space: O ()
-        public string ConvertToTitle(int n)
-        {
+        public string ConvertToTitle (int n) {
             return null;
         }
     }

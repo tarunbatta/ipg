@@ -26,59 +26,50 @@ Constraints:
 using System;
 using System.Collections.Generic;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem1110
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine();
+namespace InterviewPreperationGuide.Core.LeetCode.problem1110 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine ();
         }
 
         // Time: O (n)
         // Space: O (h + n), where h is height of tree
-        public IList<TreeNode> DelNodes(TreeNode root, int[] to_delete)
-        {
-            IList<TreeNode> result = new List<TreeNode>();
+        public IList<TreeNode> DelNodes (TreeNode root, int[] to_delete) {
+            IList<TreeNode> result = new List<TreeNode> ();
 
-            List<int> toBeDeleted = new List<int>();
-            toBeDeleted.AddRange(to_delete);
+            List<int> toBeDeleted = new List<int> ();
+            toBeDeleted.AddRange (to_delete);
 
-            Helper(root, result, toBeDeleted, true);
+            Helper (root, result, toBeDeleted, true);
 
             return result;
         }
 
         // If a node is root (has no parent) and isn't deleted, when will we add it to the result.
-        private TreeNode Helper(TreeNode node, IList<TreeNode> result, List<int> toBeDeleted, bool isRoot)
-        {
-            if (node == null)
-            {
+        private TreeNode Helper (TreeNode node, IList<TreeNode> result, List<int> toBeDeleted, bool isRoot) {
+            if (node == null) {
                 return null;
             }
 
-            bool deleted = toBeDeleted.Contains(node.val);
+            bool deleted = toBeDeleted.Contains (node.val);
 
-            if (isRoot && !deleted)
-            {
-                result.Add(node);
+            if (isRoot && !deleted) {
+                result.Add (node);
             }
 
-            node.left = Helper(node.left, result, toBeDeleted, deleted);
-            node.right = Helper(node.right, result, toBeDeleted, deleted);
+            node.left = Helper (node.left, result, toBeDeleted, deleted);
+            node.right = Helper (node.right, result, toBeDeleted, deleted);
 
             return deleted ? null : node;
         }
     }
 
-    public class TreeNode
-    {
+    public class TreeNode {
         public int val;
         public TreeNode left;
         public TreeNode right;
 
-        public TreeNode(int x)
-        {
+        public TreeNode (int x) {
             val = x;
         }
     }

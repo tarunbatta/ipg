@@ -41,19 +41,15 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem688
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine();
+namespace InterviewPreperationGuide.Core.LeetCode.problem688 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine ();
         }
 
         // Time: O ()
         // Space: O ()
-        public double KnightProbability(int N, int K, int r, int c)
-        {
+        public double KnightProbability (int N, int K, int r, int c) {
             return 0;
         }
     }

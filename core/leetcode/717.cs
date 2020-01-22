@@ -33,19 +33,15 @@ bits[i] is always 0 or 1.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem717
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine();
+namespace InterviewPreperationGuide.Core.LeetCode.problem717 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine ();
         }
 
         // Time: O ()
         // Space: O ()
-        public bool IsOneBitCharacter(int[] bits)
-        {
+        public bool IsOneBitCharacter (int[] bits) {
             return false;
         }
     }

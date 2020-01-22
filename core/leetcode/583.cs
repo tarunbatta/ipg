@@ -17,19 +17,15 @@ Characters in given words can only be lower-case letters.
 */
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem583
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine();
+namespace InterviewPreperationGuide.Core.LeetCode.problem583 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine ();
         }
 
         // Time: O ()
         // Space: O ()
-        public int MinDistance(string word1, string word2)
-        {
+        public int MinDistance (string word1, string word2) {
             return 0;
         }
     }

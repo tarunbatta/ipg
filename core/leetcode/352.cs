@@ -24,32 +24,25 @@ What if there are lots of merges and the number of disjoint intervals are small 
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem352
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            SummaryRanges obj = new SummaryRanges();
-            obj.AddNum(0);
-            int[][] param_2 = obj.GetIntervals();
+namespace InterviewPreperationGuide.Core.LeetCode.problem352 {
+    public class Solution {
+        public void Init () {
+            SummaryRanges obj = new SummaryRanges ();
+            obj.AddNum (0);
+            int[][] param_2 = obj.GetIntervals ();
         }
     }
 
-    public class SummaryRanges
-    {
-        public SummaryRanges()
-        {
+    public class SummaryRanges {
+        public SummaryRanges () {
 
         }
 
-        public void AddNum(int val)
-        {
+        public void AddNum (int val) {
 
         }
 
-        public int[][] GetIntervals()
-        {
+        public int[][] GetIntervals () {
             return null;
         }
     }

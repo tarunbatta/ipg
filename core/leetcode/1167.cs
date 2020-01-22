@@ -32,153 +32,132 @@ Output: 20
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem1167
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine(ConnectSticks(null));
-            Console.WriteLine(ConnectSticks(new int[] { }));
-            Console.WriteLine(ConnectSticks(new int[] { 20, 4, 8, 2 }));
-            Console.WriteLine(ConnectSticks(new int[] { 1, 2, 5, 10, 35, 89 }));
-            Console.WriteLine(ConnectSticks(new int[] { 2, 2, 3, 3 }));
+namespace InterviewPreperationGuide.Core.LeetCode.problem1167 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine (ConnectSticks (null));
+            Console.WriteLine (ConnectSticks (new int[] { }));
+            Console.WriteLine (ConnectSticks (new int[] { 20, 4, 8, 2 }));
+            Console.WriteLine (ConnectSticks (new int[] { 1, 2, 5, 10, 35, 89 }));
+            Console.WriteLine (ConnectSticks (new int[] { 2, 2, 3, 3 }));
         }
 
         // Time: O (n log (n))
         // Space: O (n)
-        public int ConnectSticks(int[] sticks)
-        {
-            if (sticks == null || sticks.Length == 0)
-            {
+        public int ConnectSticks (int[] sticks) {
+            if (sticks == null || sticks.Length == 0) {
                 return 0;
             }
 
-            MinHeap heap = new MinHeap(sticks.Length);
-            foreach (var item in sticks)
-            {
-                heap.Add(item);
+            MinHeap heap = new MinHeap (sticks.Length);
+            foreach (var item in sticks) {
+                heap.Add (item);
             }
 
             int result = 0;
 
-            while (heap.Count() > 1)
-            {
-                int item1 = heap.Pop();
-                int item2 = heap.Pop();
+            while (heap.Count () > 1) {
+                int item1 = heap.Pop ();
+                int item2 = heap.Pop ();
 
                 int newItem = item1 + item2;
                 result += newItem;
-                heap.Add(newItem);
+                heap.Add (newItem);
             }
 
             return result;
         }
     }
 
-    public class MinHeap
-    {
+    public class MinHeap {
         private readonly int[] _elements;
         private int _size;
 
-        public MinHeap(int size)
-        {
+        public MinHeap (int size) {
             _elements = new int[size];
         }
 
-        private int GetLeftChildIndex(int elementIndex) => 2 * elementIndex + 1;
-        private int GetRightChildIndex(int elementIndex) => 2 * elementIndex + 2;
-        private int GetParentIndex(int elementIndex) => (elementIndex - 1) / 2;
+        private int GetLeftChildIndex (int elementIndex) => 2 * elementIndex + 1;
+        private int GetRightChildIndex (int elementIndex) => 2 * elementIndex + 2;
+        private int GetParentIndex (int elementIndex) => (elementIndex - 1) / 2;
 
-        private bool HasLeftChild(int elementIndex) => GetLeftChildIndex(elementIndex) < _size;
-        private bool HasRightChild(int elementIndex) => GetRightChildIndex(elementIndex) < _size;
-        private bool IsRoot(int elementIndex) => elementIndex == 0;
+        private bool HasLeftChild (int elementIndex) => GetLeftChildIndex (elementIndex) < _size;
+        private bool HasRightChild (int elementIndex) => GetRightChildIndex (elementIndex) < _size;
+        private bool IsRoot (int elementIndex) => elementIndex == 0;
 
-        private int GetLeftChild(int elementIndex) => _elements[GetLeftChildIndex(elementIndex)];
-        private int GetRightChild(int elementIndex) => _elements[GetRightChildIndex(elementIndex)];
-        private int GetParent(int elementIndex) => _elements[GetParentIndex(elementIndex)];
+        private int GetLeftChild (int elementIndex) => _elements[GetLeftChildIndex (elementIndex)];
+        private int GetRightChild (int elementIndex) => _elements[GetRightChildIndex (elementIndex)];
+        private int GetParent (int elementIndex) => _elements[GetParentIndex (elementIndex)];
 
-        private void Swap(int firstIndex, int secondIndex)
-        {
+        private void Swap (int firstIndex, int secondIndex) {
             var temp = _elements[firstIndex];
             _elements[firstIndex] = _elements[secondIndex];
             _elements[secondIndex] = temp;
         }
 
-        public bool IsEmpty()
-        {
+        public bool IsEmpty () {
             return _size == 0;
         }
 
-        public int Count()
-        {
+        public int Count () {
             return _size;
         }
 
-        public int Peek()
-        {
+        public int Peek () {
             if (_size == 0)
-                throw new IndexOutOfRangeException();
+                throw new IndexOutOfRangeException ();
 
             return _elements[0];
         }
 
-        public int Pop()
-        {
+        public int Pop () {
             if (_size == 0)
-                throw new IndexOutOfRangeException();
+                throw new IndexOutOfRangeException ();
 
             var result = _elements[0];
             _elements[0] = _elements[_size - 1];
             _size--;
 
-            ReCalculateDown();
+            ReCalculateDown ();
 
             return result;
         }
 
-        public void Add(int element)
-        {
+        public void Add (int element) {
             if (_size == _elements.Length)
-                throw new IndexOutOfRangeException();
+                throw new IndexOutOfRangeException ();
 
             _elements[_size] = element;
             _size++;
 
-            ReCalculateUp();
+            ReCalculateUp ();
         }
 
-        private void ReCalculateDown()
-        {
+        private void ReCalculateDown () {
             int index = 0;
 
-            while (HasLeftChild(index))
-            {
-                var smallerIndex = GetLeftChildIndex(index);
+            while (HasLeftChild (index)) {
+                var smallerIndex = GetLeftChildIndex (index);
 
-                if (HasRightChild(index) && GetRightChild(index) < GetLeftChild(index))
-                {
-                    smallerIndex = GetRightChildIndex(index);
+                if (HasRightChild (index) && GetRightChild (index) < GetLeftChild (index)) {
+                    smallerIndex = GetRightChildIndex (index);
                 }
 
-                if (_elements[smallerIndex] >= _elements[index])
-                {
+                if (_elements[smallerIndex] >= _elements[index]) {
                     break;
                 }
 
-                Swap(smallerIndex, index);
+                Swap (smallerIndex, index);
                 index = smallerIndex;
             }
         }
 
-        private void ReCalculateUp()
-        {
+        private void ReCalculateUp () {
             var index = _size - 1;
 
-            while (!IsRoot(index) && _elements[index] < GetParent(index))
-            {
-                var parentIndex = GetParentIndex(index);
-                Swap(parentIndex, index);
+            while (!IsRoot (index) && _elements[index] < GetParent (index)) {
+                var parentIndex = GetParentIndex (index);
+                Swap (parentIndex, index);
                 index = parentIndex;
             }
         }

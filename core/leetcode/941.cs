@@ -40,41 +40,32 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem941
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine();
+namespace InterviewPreperationGuide.Core.LeetCode.problem941 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine ();
         }
 
         // Time: O ()
         // Space: O ()
-        public bool ValidMountainArray(int[] A)
-        {
-            if (A == null || A.Length < 3)
-            {
+        public bool ValidMountainArray (int[] A) {
+            if (A == null || A.Length < 3) {
                 return false;
             }
 
             int i = 0;
             int n = A.Length;
 
-            while (i < n && i + 1 < n && A[i] < A[i + 1])
-            {
+            while (i < n && i + 1 < n && A[i] < A[i + 1]) {
                 i++;
             }
 
-            if (i == 0 || i + 1 >= n)
-            {
+            if (i == 0 || i + 1 >= n) {
                 return false;
             }
 
-            while (i < n && i + 1 < n)
-            {
-                if (A[i] <= A[i + 1])
-                {
+            while (i < n && i + 1 < n) {
+                if (A[i] <= A[i + 1]) {
                     return false;
                 }
 

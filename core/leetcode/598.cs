@@ -42,19 +42,15 @@ The range of operations size won't exceed 10,000.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem598
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine();
+namespace InterviewPreperationGuide.Core.LeetCode.problem598 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine ();
         }
 
         // Time: O ()
         // Space: O ()
-        public int MaxCount(int m, int n, int[][] ops)
-        {
+        public int MaxCount (int m, int n, int[][] ops) {
             return 0;
         }
     }

@@ -51,19 +51,15 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem885
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine();
+namespace InterviewPreperationGuide.Core.LeetCode.problem885 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine ();
         }
 
         // Time: O ()
         // Space: O ()
-        public int[][] SpiralMatrixIII(int R, int C, int r0, int c0)
-        {
+        public int[][] SpiralMatrixIII (int R, int C, int r0, int c0) {
             return null;
         }
     }

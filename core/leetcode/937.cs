@@ -34,70 +34,57 @@ Constraints:
 using System;
 using System.Collections.Generic;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem937
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine(ReorderLogFiles(null));
-            Console.WriteLine(ReorderLogFiles(new string[] { }));
-            Console.WriteLine(ReorderLogFiles(new string[] { "dig1 8 1 5 1", "let1 art can", "dig2 3 6", "let2 own kit dig", "let3 art zero" }));
+namespace InterviewPreperationGuide.Core.LeetCode.problem937 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine (ReorderLogFiles (null));
+            Console.WriteLine (ReorderLogFiles (new string[] { }));
+            Console.WriteLine (ReorderLogFiles (new string[] { "dig1 8 1 5 1", "let1 art can", "dig2 3 6", "let2 own kit dig", "let3 art zero" }));
         }
 
-        public string[] ReorderLogFiles(string[] logs)
-        {
-            if (logs == null || logs.Length == 0)
-            {
+        public string[] ReorderLogFiles (string[] logs) {
+            if (logs == null || logs.Length == 0) {
                 return logs;
             }
 
-            List<string> letters = new List<string>();
-            List<string> digits = new List<string>();
+            List<string> letters = new List<string> ();
+            List<string> digits = new List<string> ();
 
-            foreach (string log in logs)
-            {
-                string[] words = log.Split(' ');
-                bool isDigit = char.IsDigit(words[1][0]);
+            foreach (string log in logs) {
+                string[] words = log.Split (' ');
+                bool isDigit = char.IsDigit (words[1][0]);
 
-                if (isDigit)
-                {
-                    digits.Add(log);
-                }
-                else
-                {
-                    letters.Add(log);
+                if (isDigit) {
+                    digits.Add (log);
+                } else {
+                    letters.Add (log);
                 }
             }
 
-            letters.Sort(new LetterLogComparer());
+            letters.Sort (new LetterLogComparer ());
 
-            letters.AddRange(digits);
+            letters.AddRange (digits);
 
-            return letters.ToArray();
+            return letters.ToArray ();
         }
     }
 
-    public class LetterLogComparer : IComparer<string>
-    {
-        public int Compare(string one, string two)
-        {
-            var oneWithoutIdentifier = RemoveIdentifier(one);
-            var twoWithoutIdentifier = RemoveIdentifier(two);
+    public class LetterLogComparer : IComparer<string> {
+        public int Compare (string one, string two) {
+            var oneWithoutIdentifier = RemoveIdentifier (one);
+            var twoWithoutIdentifier = RemoveIdentifier (two);
 
-            if (oneWithoutIdentifier.Equals(twoWithoutIdentifier))
-            {
+            if (oneWithoutIdentifier.Equals (twoWithoutIdentifier)) {
                 // a match was found, so compare the original strings with the identifier included
-                return string.Compare(one, two);
+                return string.Compare (one, two);
             }
 
-            return string.Compare(oneWithoutIdentifier, twoWithoutIdentifier);
+            return string.Compare (oneWithoutIdentifier, twoWithoutIdentifier);
         }
 
-        private string RemoveIdentifier(string str)
-        {
-            var firstSpace = str.IndexOf(" ");
-            return str.Substring(firstSpace + 1, str.Length - firstSpace - 1);
+        private string RemoveIdentifier (string str) {
+            var firstSpace = str.IndexOf (" ");
+            return str.Substring (firstSpace + 1, str.Length - firstSpace - 1);
         }
     }
 }

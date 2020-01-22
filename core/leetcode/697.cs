@@ -32,19 +32,15 @@ nums[i] will be an integer between 0 and 49,999.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem697
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine();
+namespace InterviewPreperationGuide.Core.LeetCode.problem697 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine ();
         }
 
         // Time: O ()
         // Space: O ()
-        public int FindShortestSubArray(int[] nums)
-        {
+        public int FindShortestSubArray (int[] nums) {
             return 0;
         }
     }

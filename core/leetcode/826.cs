@@ -30,19 +30,15 @@ Notes:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem826
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine();
+namespace InterviewPreperationGuide.Core.LeetCode.problem826 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine ();
         }
 
         // Time: O ()
         // Space: O ()
-        public int MaxProfitAssignment(int[] difficulty, int[] profit, int[] worker)
-        {
+        public int MaxProfitAssignment (int[] difficulty, int[] profit, int[] worker) {
             return 0;
         }
     }

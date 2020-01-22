@@ -27,19 +27,15 @@ The input is always valid. You may assume that evaluating the queries will resul
 using System;
 using System.Collections.Generic;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem399
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine();
+namespace InterviewPreperationGuide.Core.LeetCode.problem399 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine ();
         }
 
         // Time: O ()
         // Space: O ()
-        public double[] CalcEquation(IList<IList<string>> equations, double[] values, IList<IList<string>> queries)
-        {
+        public double[] CalcEquation (IList<IList<string>> equations, double[] values, IList<IList<string>> queries) {
             return null;
         }
     }

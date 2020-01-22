@@ -35,19 +35,15 @@ Note:
 using System;
 using System.Collections.Generic;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem648
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine();
+namespace InterviewPreperationGuide.Core.LeetCode.problem648 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine ();
         }
 
         // Time: O ()
         // Space: O ()
-        public string ReplaceWords(IList<string> dict, string sentence)
-        {
+        public string ReplaceWords (IList<string> dict, string sentence) {
             return null;
         }
     }

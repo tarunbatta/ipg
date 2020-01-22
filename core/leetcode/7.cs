@@ -24,24 +24,19 @@ Assume we are dealing with an environment which could only store integers within
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem7
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine(Reverse(0));
-            Console.WriteLine(Reverse(123));
-            Console.WriteLine(Reverse(-321));
-            Console.WriteLine(Reverse(120));
+namespace InterviewPreperationGuide.Core.LeetCode.problem7 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine (Reverse (0));
+            Console.WriteLine (Reverse (123));
+            Console.WriteLine (Reverse (-321));
+            Console.WriteLine (Reverse (120));
         }
 
-        public int Reverse(int x)
-        {
+        public int Reverse (int x) {
             int result = 0;
 
-            while (x != 0)
-            {
+            while (x != 0) {
                 int pop = x % 10;
                 x /= 10;
 

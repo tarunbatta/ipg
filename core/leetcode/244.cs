@@ -19,27 +19,21 @@ You may assume that word1 does not equal to word2, and word1 and word2 are both 
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem244
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            WordDistance obj = new WordDistance(new string[] { "practice", "makes", "perfect", "coding", "makes" });
-            int param_1 = obj.Shortest("“coding”", "“practice”");
+namespace InterviewPreperationGuide.Core.LeetCode.problem244 {
+    public class Solution {
+        public void Init () {
+            WordDistance obj = new WordDistance (new string[] { "practice", "makes", "perfect", "coding", "makes" });
+            int param_1 = obj.Shortest ("“coding”", "“practice”");
         }
     }
 
-    public class WordDistance
-    {
+    public class WordDistance {
 
-        public WordDistance(string[] words)
-        {
+        public WordDistance (string[] words) {
 
         }
 
-        public int Shortest(string word1, string word2)
-        {
+        public int Shortest (string word1, string word2) {
             return 0;
         }
     }

@@ -35,19 +35,15 @@ intervals[i][j] will be an integer in [0, 10^8].
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem757
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine();
+namespace InterviewPreperationGuide.Core.LeetCode.problem757 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine ();
         }
 
         // Time: O ()
         // Space: O ()
-        public int IntersectionSizeTwo(int[][] intervals)
-        {
+        public int IntersectionSizeTwo (int[][] intervals) {
             return 0;
         }
     }

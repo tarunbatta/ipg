@@ -45,68 +45,56 @@ Explanation: The endWord "cog" is not in wordList, therefore no possible transfo
 using System;
 using System.Collections.Generic;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem127
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine(LadderLength("hit", "cog", new List<string>() { "hot", "dot", "dog", "lot", "log", "cog" }));
+namespace InterviewPreperationGuide.Core.LeetCode.problem127 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine (LadderLength ("hit", "cog", new List<string> () { "hot", "dot", "dog", "lot", "log", "cog" }));
         }
 
         // Time: O (m * n), where m is length of words
         // Space: O (m * n), where n is total number of words in input list
-        public int LadderLength(string beginWord, string endWord, IList<string> wordList)
-        {
-            HashSet<string> hash = new HashSet<string>();
-            foreach (string item in wordList)
-            {
-                hash.Add(item);
+        public int LadderLength (string beginWord, string endWord, IList<string> wordList) {
+            HashSet<string> hash = new HashSet<string> ();
+            foreach (string item in wordList) {
+                hash.Add (item);
             }
 
-            if (!hash.Contains(endWord))
-            {
+            if (!hash.Contains (endWord)) {
                 return 0;
             }
 
             int level = 0;
             int wordlen = beginWord.Length;
-            Queue<string> q = new Queue<string>();
-            q.Enqueue(beginWord);
+            Queue<string> q = new Queue<string> ();
+            q.Enqueue (beginWord);
 
-            while (q.Count > 0)
-            {
+            while (q.Count > 0) {
                 ++level;
 
                 int levelItems = q.Count;
 
-                for (int i = 0; i < levelItems; i++)
-                {
-                    string word = q.Dequeue();
+                for (int i = 0; i < levelItems; i++) {
+                    string word = q.Dequeue ();
 
-                    for (int pos = 0; pos < wordlen; pos++)
-                    {
-                        char[] wordArr = word.ToCharArray();
+                    for (int pos = 0; pos < wordlen; pos++) {
+                        char[] wordArr = word.ToCharArray ();
                         char originalChar = word[pos];
 
-                        for (char c = 'a'; c <= 'z'; c++)
-                        {
+                        for (char c = 'a'; c <= 'z'; c++) {
                             wordArr[pos] = c;
-                            string newWord = new string(wordArr);
+                            string newWord = new string (wordArr);
 
-                            if (newWord == endWord)
-                            {
+                            if (newWord == endWord) {
                                 return level + 1;
                             }
 
-                            if (!hash.Contains(newWord))
-                            {
+                            if (!hash.Contains (newWord)) {
                                 continue;
                             }
 
-                            hash.Remove(newWord);
+                            hash.Remove (newWord);
 
-                            q.Enqueue(newWord);
+                            q.Enqueue (newWord);
                         }
 
                         wordArr[pos] = originalChar;

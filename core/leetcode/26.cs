@@ -42,42 +42,34 @@ for (int i = 0; i < len; i++) {
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem26
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine(RemoveDuplicates(null));
-            Console.WriteLine(RemoveDuplicates(new int[] { 0 }));
-            Console.WriteLine(RemoveDuplicates(new int[] { 1, 1, 2 }));
-            Console.WriteLine(RemoveDuplicates(new int[] { 1, 2, 3 }));
-            Console.WriteLine(RemoveDuplicates(new int[] { 0, 0, 1, 1, 1, 2, 2, 3, 3, 4 }));
+namespace InterviewPreperationGuide.Core.LeetCode.problem26 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine (RemoveDuplicates (null));
+            Console.WriteLine (RemoveDuplicates (new int[] { 0 }));
+            Console.WriteLine (RemoveDuplicates (new int[] { 1, 1, 2 }));
+            Console.WriteLine (RemoveDuplicates (new int[] { 1, 2, 3 }));
+            Console.WriteLine (RemoveDuplicates (new int[] { 0, 0, 1, 1, 1, 2, 2, 3, 3, 4 }));
         }
 
-        public int RemoveDuplicates(int[] nums)
-        {
+        public int RemoveDuplicates (int[] nums) {
             int result = 0;
 
-            if (nums == null || nums.Length == 0)
-            {
+            if (nums == null || nums.Length == 0) {
                 return result;
             }
 
             result++;
 
-            if (nums.Length == 1)
-            {
+            if (nums.Length == 1) {
                 return result;
             }
 
             int i = 1;
             int j = 0;
 
-            while (i < nums.Length)
-            {
-                if (nums[i] != nums[j])
-                {
+            while (i < nums.Length) {
+                if (nums[i] != nums[j]) {
                     result++;
                     j++;
                     nums[j] = nums[i];

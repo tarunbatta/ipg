@@ -51,19 +51,15 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem1030
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine();
+namespace InterviewPreperationGuide.Core.LeetCode.problem1030 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine ();
         }
 
         // Time: O ()
         // Space: O ()
-        public int[][] AllCellsDistOrder(int R, int C, int r0, int c0)
-        {
+        public int[][] AllCellsDistOrder (int R, int C, int r0, int c0) {
             return null;
         }
     }

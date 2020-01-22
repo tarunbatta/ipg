@@ -32,19 +32,15 @@ You may assume both s and t have the same length.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem205
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine();
+namespace InterviewPreperationGuide.Core.LeetCode.problem205 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine ();
         }
 
         // Time: O ()
         // Space: O ()
-        public bool IsIsomorphic(string s, string t)
-        {
+        public bool IsIsomorphic (string s, string t) {
             return false;
         }
     }

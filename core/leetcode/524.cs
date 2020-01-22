@@ -35,19 +35,15 @@ The length of all the strings in the input won't exceed 1,000.
 using System;
 using System.Collections.Generic;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem524
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine();
+namespace InterviewPreperationGuide.Core.LeetCode.problem524 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine ();
         }
 
         // Time: O ()
         // Space: O ()
-        public string FindLongestWord(string s, IList<string> d)
-        {
+        public string FindLongestWord (string s, IList<string> d) {
             return null;
         }
     }

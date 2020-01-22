@@ -22,19 +22,15 @@ Output: [1,2]
 using System;
 using System.Collections.Generic;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem229
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine();
+namespace InterviewPreperationGuide.Core.LeetCode.problem229 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine ();
         }
 
         // Time: O ()
         // Space: O ()
-        public IList<int> MajorityElement(int[] nums)
-        {
+        public IList<int> MajorityElement (int[] nums) {
             return null;
         }
     }

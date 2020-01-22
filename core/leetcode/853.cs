@@ -45,19 +45,15 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem853
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine();
+namespace InterviewPreperationGuide.Core.LeetCode.problem853 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine ();
         }
 
         // Time: O ()
         // Space: O ()
-        public int CarFleet(int target, int[] position, int[] speed)
-        {
+        public int CarFleet (int target, int[] position, int[] speed) {
             return 0;
         }
     }

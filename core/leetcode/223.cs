@@ -22,19 +22,15 @@ Assume that the total area is never beyond the maximum possible value of int.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem223
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine();
+namespace InterviewPreperationGuide.Core.LeetCode.problem223 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine ();
         }
 
         // Time: O ()
         // Space: O ()
-        public int ComputeArea(int A, int B, int C, int D, int E, int F, int G, int H)
-        {
+        public int ComputeArea (int A, int B, int C, int D, int E, int F, int G, int H) {
             return 0;
         }
     }

@@ -70,19 +70,15 @@ For simplicity, you could assume the input code (including the any characters me
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem591
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine();
+namespace InterviewPreperationGuide.Core.LeetCode.problem591 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine ();
         }
 
         // Time: O ()
         // Space: O ()
-        public bool IsValid(string code)
-        {
+        public bool IsValid (string code) {
             return false;
         }
     }

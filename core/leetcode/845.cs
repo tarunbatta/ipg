@@ -47,17 +47,13 @@ Follow up:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem845
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.problem845 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int LongestMountain(int[] A)
-        {
+        public int LongestMountain (int[] A) {
             return 0;
         }
     }

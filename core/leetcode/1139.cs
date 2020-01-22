@@ -30,19 +30,15 @@ Constraints:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem1139
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine();
+namespace InterviewPreperationGuide.Core.LeetCode.problem1139 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine ();
         }
 
         // Time: O ()
         // Space: O ()
-        public int Largest1BorderedSquare(int[][] grid)
-        {
+        public int Largest1BorderedSquare (int[][] grid) {
             return 0;
         }
     }

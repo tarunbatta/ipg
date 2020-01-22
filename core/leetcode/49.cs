@@ -24,43 +24,36 @@ Note:
 using System;
 using System.Collections.Generic;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem49
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine();
+namespace InterviewPreperationGuide.Core.LeetCode.problem49 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine ();
         }
 
         // Time: O (nk)
         // Space: O (nk)
-        public IList<IList<string>> GroupAnagrams(string[] strs)
-        {
-            IList<IList<string>> result = new List<IList<string>>();
+        public IList<IList<string>> GroupAnagrams (string[] strs) {
+            IList<IList<string>> result = new List<IList<string>> ();
 
-            if (strs == null || strs.Length == 0)
-            {
+            if (strs == null || strs.Length == 0) {
                 return result;
             }
 
-            Dictionary<string, List<string>> dict = new Dictionary<string, List<string>>();
+            Dictionary<string, List<string>> dict = new Dictionary<string, List<string>> ();
 
-            foreach (var item in strs)
-            {
-                char[] arr = item.ToCharArray();
-                Array.Sort(arr);
-                string key = new string(arr);
+            foreach (var item in strs) {
+                char[] arr = item.ToCharArray ();
+                Array.Sort (arr);
+                string key = new string (arr);
 
-                if (!dict.ContainsKey(key))
-                {
-                    dict.Add(key, new List<string>());
+                if (!dict.ContainsKey (key)) {
+                    dict.Add (key, new List<string> ());
                 }
 
-                dict[key].Add(item);
+                dict[key].Add (item);
             }
 
-            return new List<IList<string>>(dict.Values);
+            return new List<IList<string>> (dict.Values);
         }
     }
 }

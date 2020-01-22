@@ -54,19 +54,15 @@ You are not allowed to buy more items than you want, even if that would lower th
 using System;
 using System.Collections.Generic;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem638
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine();
+namespace InterviewPreperationGuide.Core.LeetCode.problem638 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine ();
         }
 
         // Time: O ()
         // Space: O ()
-        public int ShoppingOffers(IList<int> price, IList<IList<int>> special, IList<int> needs)
-        {
+        public int ShoppingOffers (IList<int> price, IList<IList<int>> special, IList<int> needs) {
             return 0;
         }
     }

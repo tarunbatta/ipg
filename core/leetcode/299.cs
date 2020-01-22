@@ -31,19 +31,15 @@ Note: You may assume that the secret number and your friend's guess only contain
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem299
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine();
+namespace InterviewPreperationGuide.Core.LeetCode.problem299 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine ();
         }
 
         // Time: O ()
         // Space: O ()
-        public string GetHint(string secret, string guess)
-        {
+        public string GetHint (string secret, string guess) {
             return null;
         }
     }

@@ -41,31 +41,25 @@ Output: False
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem653
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine();
+namespace InterviewPreperationGuide.Core.LeetCode.problem653 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine ();
         }
 
         // Time: O ()
         // Space: O ()
-        public bool FindTarget(TreeNode root, int k)
-        {
+        public bool FindTarget (TreeNode root, int k) {
             return false;
         }
     }
 
-    public class TreeNode
-    {
+    public class TreeNode {
         public int val;
         public TreeNode left;
         public TreeNode right;
 
-        public TreeNode(int x)
-        {
+        public TreeNode (int x) {
             val = x;
         }
     }

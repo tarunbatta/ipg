@@ -26,58 +26,48 @@ return its zigzag level order traversal as:
 using System;
 using System.Collections.Generic;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem103
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine();
+namespace InterviewPreperationGuide.Core.LeetCode.problem103 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine ();
         }
 
         // Time: O (n)
         // Space: O (n)
-        public IList<IList<int>> ZigzagLevelOrder(TreeNode root)
-        {
-            IList<IList<int>> result = new List<IList<int>>();
+        public IList<IList<int>> ZigzagLevelOrder (TreeNode root) {
+            IList<IList<int>> result = new List<IList<int>> ();
 
-            if (root == null)
-            {
+            if (root == null) {
                 return result;
             }
 
-            Queue<TreeNode> q = new Queue<TreeNode>();
-            q.Enqueue(root);
+            Queue<TreeNode> q = new Queue<TreeNode> ();
+            q.Enqueue (root);
             int size = 1;
             bool order = true;
 
-            while (q.Count > 0)
-            {
-                List<int> l = new List<int>();
+            while (q.Count > 0) {
+                List<int> l = new List<int> ();
 
-                for (int i = 0; i < size; i++)
-                {
-                    TreeNode n = q.Dequeue();
-                    l.Add(n.val);
+                for (int i = 0; i < size; i++) {
+                    TreeNode n = q.Dequeue ();
+                    l.Add (n.val);
 
-                    if (n.left != null)
-                    {
-                        q.Enqueue(n.left);
+                    if (n.left != null) {
+                        q.Enqueue (n.left);
                     }
 
-                    if (n.right != null)
-                    {
-                        q.Enqueue(n.right);
+                    if (n.right != null) {
+                        q.Enqueue (n.right);
                     }
                 }
 
-                if (!order)
-                {
-                    l.Reverse();
+                if (!order) {
+                    l.Reverse ();
                 }
 
                 size = q.Count;
-                result.Add(l);
+                result.Add (l);
                 order = !order;
             }
 
@@ -85,14 +75,12 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem103
         }
     }
 
-    public class TreeNode
-    {
+    public class TreeNode {
         public int val;
         public TreeNode left;
         public TreeNode right;
 
-        public TreeNode(int x)
-        {
+        public TreeNode (int x) {
             val = x;
         }
     }

@@ -44,20 +44,16 @@ Follow up:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem289
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine();
-        }
-
-        // Time: O ()
-        // Space: O ()
-        public void GameOfLife(int[][] board)
-        {
-
-        }
+namespace InterviewPreperationGuide.Core.LeetCode.problem289 {
+  public class Solution {
+    public void Init () {
+      Console.WriteLine ();
     }
+
+    // Time: O ()
+    // Space: O ()
+    public void GameOfLife (int[][] board) {
+
+    }
+  }
 }

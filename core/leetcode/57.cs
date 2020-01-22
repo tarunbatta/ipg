@@ -25,19 +25,15 @@ NOTE: input types have been changed on April 15, 2019. Please reset to default c
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem57
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine();
+namespace InterviewPreperationGuide.Core.LeetCode.problem57 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine ();
         }
 
         // Time: O ()
         // Space: O ()
-        public int[][] Insert(int[][] intervals, int[] newInterval)
-        {
+        public int[][] Insert (int[][] intervals, int[] newInterval) {
             return null;
         }
     }

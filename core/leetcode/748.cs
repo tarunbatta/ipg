@@ -40,19 +40,15 @@ Every words[i] will consist of lowercase letters, and have length in range [1, 1
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem748
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine();
+namespace InterviewPreperationGuide.Core.LeetCode.problem748 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine ();
         }
 
         // Time: O ()
         // Space: O ()
-        public string ShortestCompletingWord(string licensePlate, string[] words)
-        {
+        public string ShortestCompletingWord (string licensePlate, string[] words) {
             return null;
         }
     }

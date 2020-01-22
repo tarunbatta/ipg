@@ -63,19 +63,15 @@ mines[i] will be length 2 and consist of integers in the range [0, N-1].
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem764
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine();
+namespace InterviewPreperationGuide.Core.LeetCode.problem764 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine ();
         }
 
         // Time: O ()
         // Space: O ()
-        public int OrderOfLargestPlusSign(int N, int[][] mines)
-        {
+        public int OrderOfLargestPlusSign (int N, int[][] mines) {
             return 0;
         }
     }

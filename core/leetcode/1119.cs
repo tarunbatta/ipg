@@ -26,42 +26,35 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem1119
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.problem1119 {
+    public class Solution {
+        public void Init () {
 
         }
 
         // Time: O (n)
         // Space: O (1)
-        public string RemoveVowels(string S)
-        {
-            if (string.IsNullOrEmpty(S))
-            {
+        public string RemoveVowels (string S) {
+            if (string.IsNullOrEmpty (S)) {
                 return S;
             }
 
-            HashSet<char> hash = new HashSet<char>();
-            hash.Add('a');
-            hash.Add('e');
-            hash.Add('i');
-            hash.Add('o');
-            hash.Add('u');
+            HashSet<char> hash = new HashSet<char> ();
+            hash.Add ('a');
+            hash.Add ('e');
+            hash.Add ('i');
+            hash.Add ('o');
+            hash.Add ('u');
 
-            StringBuilder sb = new StringBuilder();
+            StringBuilder sb = new StringBuilder ();
 
-            foreach (var item in S)
-            {
-                if (!hash.Contains(item))
-                {
-                    sb.Append(item);
+            foreach (var item in S) {
+                if (!hash.Contains (item)) {
+                    sb.Append (item);
                 }
             }
 
-            return sb.ToString();
+            return sb.ToString ();
         }
     }
 }

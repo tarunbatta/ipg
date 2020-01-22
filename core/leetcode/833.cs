@@ -43,19 +43,15 @@ Notes:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem833
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine();
+namespace InterviewPreperationGuide.Core.LeetCode.problem833 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine ();
         }
 
         // Time: O ()
         // Space: O ()
-        public string FindReplaceString(string S, int[] indexes, string[] sources, string[] targets)
-        {
+        public string FindReplaceString (string S, int[] indexes, string[] sources, string[] targets) {
             return null;
         }
     }

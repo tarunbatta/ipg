@@ -39,19 +39,15 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem946
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine();
+namespace InterviewPreperationGuide.Core.LeetCode.problem946 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine ();
         }
 
         // Time: O ()
         // Space: O ()
-        public bool ValidateStackSequences(int[] pushed, int[] popped)
-        {
+        public bool ValidateStackSequences (int[] pushed, int[] popped) {
             return false;
         }
     }

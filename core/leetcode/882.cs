@@ -57,17 +57,13 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem882
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.problem882 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public int ReachableNodes(int[][] edges, int M, int N)
-        {
+        public int ReachableNodes (int[][] edges, int M, int N) {
             return 0;
         }
     }

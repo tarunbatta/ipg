@@ -25,59 +25,48 @@ minStack.getMin();   --> Returns -2.
 using System;
 using System.Collections.Generic;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem155
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            MinStack obj = new MinStack();
-            obj.Push(1);
-            obj.Pop();
-            int param_3 = obj.Top();
-            int param_4 = obj.GetMin();
+namespace InterviewPreperationGuide.Core.LeetCode.problem155 {
+    public class Solution {
+        public void Init () {
+            MinStack obj = new MinStack ();
+            obj.Push (1);
+            obj.Pop ();
+            int param_3 = obj.Top ();
+            int param_4 = obj.GetMin ();
         }
     }
 
-    public class MinStack
-    {
+    public class MinStack {
         private Stack<int> stack;
         private Stack<int> min;
 
-        public MinStack()
-        {
-            stack = new Stack<int>();
-            min = new Stack<int>();
+        public MinStack () {
+            stack = new Stack<int> ();
+            min = new Stack<int> ();
         }
 
-        public void Push(int x)
-        {
-            stack.Push(x);
+        public void Push (int x) {
+            stack.Push (x);
 
-            if (min.Count == 0 || x <= min.Peek())
-            {
-                min.Push(x);
+            if (min.Count == 0 || x <= min.Peek ()) {
+                min.Push (x);
             }
         }
 
-        public void Pop()
-        {
-            int peek = stack.Pop();
+        public void Pop () {
+            int peek = stack.Pop ();
 
-            if (min.Count != 0 && peek == min.Peek())
-            {
-                min.Pop();
+            if (min.Count != 0 && peek == min.Peek ()) {
+                min.Pop ();
             }
         }
 
-        public int Top()
-        {
-            return stack.Peek();
+        public int Top () {
+            return stack.Peek ();
         }
 
-        public int GetMin()
-        {
-            return min.Peek();
+        public int GetMin () {
+            return min.Peek ();
         }
     }
 }

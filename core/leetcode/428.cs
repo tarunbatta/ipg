@@ -34,100 +34,83 @@ Do not use class member/global/static variables to store states. Your encode and
 using System;
 using System.Collections.Generic;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem428
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.problem428 {
+    public class Solution {
+        public void Init () {
             Node root = null;
-            Codec codec = new Codec();
-            codec.deserialize(codec.serialize(root));
+            Codec codec = new Codec ();
+            codec.deserialize (codec.serialize (root));
         }
 
     }
 
-    public class Codec
-    {
+    public class Codec {
         // Encodes a tree to a single string.
-        public string serialize(Node root)
-        {
-            List<int> list = new List<int>();
-            serializeHelper(root, list);
-            return string.Join(",", list);
+        public string serialize (Node root) {
+            List<int> list = new List<int> ();
+            serializeHelper (root, list);
+            return string.Join (",", list);
         }
 
-        private void serializeHelper(Node root, List<int> list)
-        {
-            if (root == null)
-            {
+        private void serializeHelper (Node root, List<int> list) {
+            if (root == null) {
                 return;
             }
 
-            list.Add(root.val);
-            list.Add(root.children.Count);
+            list.Add (root.val);
+            list.Add (root.children.Count);
 
-            foreach (var item in root.children)
-            {
-                serializeHelper(item, list);
+            foreach (var item in root.children) {
+                serializeHelper (item, list);
             }
         }
 
         // Decodes your encoded data to tree.
-        public Node deserialize(string data)
-        {
-            if (string.IsNullOrEmpty(data))
-            {
+        public Node deserialize (string data) {
+            if (string.IsNullOrEmpty (data)) {
                 return null;
             }
 
-            string[] strs = data.Split(",");
-            Queue<string> q = new Queue<string>();
+            string[] strs = data.Split (",");
+            Queue<string> q = new Queue<string> ();
 
-            foreach (var item in strs)
-            {
-                q.Enqueue(item);
+            foreach (var item in strs) {
+                q.Enqueue (item);
             }
 
-            return deserializeHelper(q);
+            return deserializeHelper (q);
         }
 
-        private Node deserializeHelper(Queue<string> q)
-        {
-            if (q.Count == 0)
-            {
+        private Node deserializeHelper (Queue<string> q) {
+            if (q.Count == 0) {
                 return null;
             }
 
-            Node root = new Node();
-            root.val = Convert.ToInt32(q.Dequeue());
-            root.children = new List<Node>();
+            Node root = new Node ();
+            root.val = Convert.ToInt32 (q.Dequeue ());
+            root.children = new List<Node> ();
 
-            int size = Convert.ToInt32(q.Dequeue());
+            int size = Convert.ToInt32 (q.Dequeue ());
 
-            for (int i = 0; i < size; i++)
-            {
-                root.children.Add(deserializeHelper(q));
+            for (int i = 0; i < size; i++) {
+                root.children.Add (deserializeHelper (q));
             }
 
             return root;
         }
     }
 
-    public class Node
-    {
+    public class Node {
         public int val;
         public IList<Node> children;
 
-        public Node() { }
+        public Node () { }
 
-        public Node(int _val)
-        {
+        public Node (int _val) {
             val = _val;
         }
 
-        public Node(int _val, IList<Node> _children)
-        {
+        public Node (int _val, IList<Node> _children) {
             val = _val;
             children = _children;
         }

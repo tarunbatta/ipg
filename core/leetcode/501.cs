@@ -37,31 +37,25 @@ Follow up: Could you do that without using any extra space? (Assume that the imp
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem501
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine();
+namespace InterviewPreperationGuide.Core.LeetCode.problem501 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine ();
         }
 
         // Time: O ()
         // Space: O ()
-        public int[] FindMode(TreeNode root)
-        {
+        public int[] FindMode (TreeNode root) {
             return null;
         }
     }
 
-    public class TreeNode
-    {
+    public class TreeNode {
         public int val;
         public TreeNode left;
         public TreeNode right;
 
-        public TreeNode(int x)
-        {
+        public TreeNode (int x) {
             val = x;
         }
     }

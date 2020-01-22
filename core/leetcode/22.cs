@@ -19,80 +19,62 @@ For example, given n = 3, a solution set is:
 using System;
 using System.Collections.Generic;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem22
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine();
+namespace InterviewPreperationGuide.Core.LeetCode.problem22 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine ();
         }
 
         // Time: O ()
         // Space: O ()
-        public IList<string> GenerateParenthesis_a(int n)
-        {
-            List<String> ans = new List<string>();
-            backtrack(ans, "", 0, 0, n);
+        public IList<string> GenerateParenthesis_a (int n) {
+            List<String> ans = new List<string> ();
+            backtrack (ans, "", 0, 0, n);
             return ans;
         }
 
-        private void backtrack(List<String> ans, String cur, int open, int close, int max)
-        {
-            if (cur.Length == max * 2)
-            {
-                ans.Add(cur);
+        private void backtrack (List<String> ans, String cur, int open, int close, int max) {
+            if (cur.Length == max * 2) {
+                ans.Add (cur);
                 return;
             }
 
             if (open < max)
-                backtrack(ans, cur + "(", open + 1, close, max);
+                backtrack (ans, cur + "(", open + 1, close, max);
             if (close < open)
-                backtrack(ans, cur + ")", open, close + 1, max);
+                backtrack (ans, cur + ")", open, close + 1, max);
         }
 
-        public IList<string> GenerateParenthesis_b(int n)
-        {
-            var result = new List<string>();
-            generateAll(new char[2 * n], 0, result);
+        public IList<string> GenerateParenthesis_b (int n) {
+            var result = new List<string> ();
+            generateAll (new char[2 * n], 0, result);
             return result;
         }
 
-        private void generateAll(char[] arr, int pos, List<string> result)
-        {
-            if (pos == arr.Length)
-            {
-                if (valid(arr))
-                {
-                    result.Add(new string(arr));
+        private void generateAll (char[] arr, int pos, List<string> result) {
+            if (pos == arr.Length) {
+                if (valid (arr)) {
+                    result.Add (new string (arr));
                 }
-            }
-            else
-            {
+            } else {
                 arr[pos] = '(';
-                generateAll(arr, pos + 1, result);
+                generateAll (arr, pos + 1, result);
                 arr[pos] = ')';
-                generateAll(arr, pos + 1, result);
+                generateAll (arr, pos + 1, result);
             }
         }
 
-        private bool valid(char[] current)
-        {
+        private bool valid (char[] current) {
             int count = 0;
 
-            foreach (char c in current)
-            {
-                if (c == '(')
-                {
+            foreach (char c in current) {
+                if (c == '(') {
                     count++;
-                }
-                else
-                {
+                } else {
                     count--;
                 }
 
-                if (count < 0)
-                {
+                if (count < 0) {
                     return false;
                 }
             }

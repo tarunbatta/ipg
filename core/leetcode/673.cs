@@ -27,19 +27,15 @@ Length of the given array will be not exceed 2000 and the answer is guaranteed t
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem673
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine();
+namespace InterviewPreperationGuide.Core.LeetCode.problem673 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine ();
         }
 
         // Time: O ()
         // Space: O ()
-        public int FindNumberOfLIS(int[] nums)
-        {
+        public int FindNumberOfLIS (int[] nums) {
             return 0;
         }
     }

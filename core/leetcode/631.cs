@@ -9,12 +9,9 @@ Hard
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem631
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.problem631 {
+    public class Solution {
+        public void Init () {
 
         }
 

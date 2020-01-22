@@ -28,19 +28,15 @@ Assume we are dealing with an environment which could only store integers within
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem29
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine();
+namespace InterviewPreperationGuide.Core.LeetCode.problem29 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine ();
         }
 
         // Time: O ()
         // Space: O ()
-        public int Divide(int dividend, int divisor)
-        {
+        public int Divide (int dividend, int divisor) {
             return 0;
         }
     }

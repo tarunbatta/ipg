@@ -24,41 +24,32 @@ Explanation: Rob house 1 (money = 2), rob house 3 (money = 9) and rob house 5 (m
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem198
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine(Rob(null));
-            Console.WriteLine(Rob(new int[] { }));
-            Console.WriteLine(Rob(new int[] { 1, 2, 3, 1 }));
-            Console.WriteLine(Rob(new int[] { 2, 7, 9, 3, 1 }));
+namespace InterviewPreperationGuide.Core.LeetCode.problem198 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine (Rob (null));
+            Console.WriteLine (Rob (new int[] { }));
+            Console.WriteLine (Rob (new int[] { 1, 2, 3, 1 }));
+            Console.WriteLine (Rob (new int[] { 2, 7, 9, 3, 1 }));
         }
 
-        public int Rob(int[] nums)
-        {
-            if (nums == null || nums.Length == 0)
-            {
+        public int Rob (int[] nums) {
+            if (nums == null || nums.Length == 0) {
                 return 0;
             }
 
             int a = 0;
             int b = 0;
 
-            for (int i = 0; i < nums.Length; i++)
-            {
-                if (i % 2 == 0)
-                {
-                    a = Math.Max(a + nums[i], b);
-                }
-                else
-                {
-                    b = Math.Max(a, b + nums[i]);
+            for (int i = 0; i < nums.Length; i++) {
+                if (i % 2 == 0) {
+                    a = Math.Max (a + nums[i], b);
+                } else {
+                    b = Math.Max (a, b + nums[i]);
                 }
             }
 
-            return Math.Max(a, b);
+            return Math.Max (a, b);
         }
     }
 }

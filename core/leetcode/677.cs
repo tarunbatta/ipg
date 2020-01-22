@@ -24,32 +24,25 @@ Input: sum("ap"), Output: 5
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem677
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            MapSum obj = new MapSum();
-            obj.Insert(null, 0);
-            int param_2 = obj.Sum(null);
+namespace InterviewPreperationGuide.Core.LeetCode.problem677 {
+    public class Solution {
+        public void Init () {
+            MapSum obj = new MapSum ();
+            obj.Insert (null, 0);
+            int param_2 = obj.Sum (null);
         }
     }
 
-    public class MapSum
-    {
-        public MapSum()
-        {
+    public class MapSum {
+        public MapSum () {
 
         }
 
-        public void Insert(string key, int val)
-        {
+        public void Insert (string key, int val) {
 
         }
 
-        public int Sum(string prefix)
-        {
+        public int Sum (string prefix) {
             return 0;
         }
     }

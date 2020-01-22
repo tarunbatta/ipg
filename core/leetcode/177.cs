@@ -26,7 +26,6 @@ For example, given the above Employee table, the nth highest salary where n = 2 
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem177
-{
+namespace InterviewPreperationGuide.Core.LeetCode.problem177 {
     // CREATE FUNCTION getNthHighestSalary(N INT) RETURNS INTBEGIN RETURN(      # Write your MySQL query statement below.        );EN
 }

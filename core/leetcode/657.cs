@@ -28,19 +28,15 @@ Explanation: The robot moves left twice. It ends up two "moves" to the left of t
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem657
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine();
+namespace InterviewPreperationGuide.Core.LeetCode.problem657 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine ();
         }
 
         // Time: O ()
         // Space: O ()
-        public bool JudgeCircle(string moves)
-        {
+        public bool JudgeCircle (string moves) {
             return false;
         }
     }

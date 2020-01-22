@@ -35,36 +35,29 @@ Output: false
 using System;
 using System.Collections.Generic;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem139
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine(WordBreak_a("leetcode", new List<string>() { "leet", "code" }));
-            Console.WriteLine(WordBreak_a("applepenapple", new List<string>() { "apple", "pen" }));
-            Console.WriteLine(WordBreak_a("catsandog", new List<string>() { "cats", "dog", "sand", "and", "cat" }));
+namespace InterviewPreperationGuide.Core.LeetCode.problem139 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine (WordBreak_a ("leetcode", new List<string> () { "leet", "code" }));
+            Console.WriteLine (WordBreak_a ("applepenapple", new List<string> () { "apple", "pen" }));
+            Console.WriteLine (WordBreak_a ("catsandog", new List<string> () { "cats", "dog", "sand", "and", "cat" }));
 
-            Console.WriteLine(WordBreak_b("leetcode", new List<string>() { "leet", "code" }));
-            Console.WriteLine(WordBreak_b("applepenapple", new List<string>() { "apple", "pen" }));
-            Console.WriteLine(WordBreak_b("catsandog", new List<string>() { "cats", "dog", "sand", "and", "cat" }));
+            Console.WriteLine (WordBreak_b ("leetcode", new List<string> () { "leet", "code" }));
+            Console.WriteLine (WordBreak_b ("applepenapple", new List<string> () { "apple", "pen" }));
+            Console.WriteLine (WordBreak_b ("catsandog", new List<string> () { "cats", "dog", "sand", "and", "cat" }));
         }
 
         // Time: O (n^2)
         // Space: O (n)
-        public bool WordBreak_a(String s, IList<String> wordDict)
-        {
+        public bool WordBreak_a (String s, IList<String> wordDict) {
             bool[] dp = new bool[s.Length + 1];
             dp[0] = true;
 
-            for (int i = 1; i <= s.Length; i++)
-            {
-                for (int j = 0; j < i; j++)
-                {
-                    string str = s.Substring(j, i - j);
+            for (int i = 1; i <= s.Length; i++) {
+                for (int j = 0; j < i; j++) {
+                    string str = s.Substring (j, i - j);
 
-                    if (dp[j] && wordDict.Contains(str))
-                    {
+                    if (dp[j] && wordDict.Contains (str)) {
                         dp[i] = true;
                         break;
                     }
@@ -76,41 +69,34 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem139
 
         // Time: O (n^2)
         // Space: O (n)
-        public bool WordBreak_b(string s, IList<string> wordDict)
-        {
-            List<bool?> memo = new List<bool?>(s.Length);
+        public bool WordBreak_b (string s, IList<string> wordDict) {
+            List<bool?> memo = new List<bool?> (s.Length);
 
-            for (int i = 0; i < s.Length; i++)
-            {
-                memo.Add(null);
+            for (int i = 0; i < s.Length; i++) {
+                memo.Add (null);
             }
 
-            return WordBreakHelper(s, wordDict, 0, memo);
+            return WordBreakHelper (s, wordDict, 0, memo);
         }
 
-        private bool WordBreakHelper(String s, IList<String> wordDict, int start, List<bool?> memo)
-        {
-            if (start == s.Length)
-            {
+        private bool WordBreakHelper (String s, IList<String> wordDict, int start, List<bool?> memo) {
+            if (start == s.Length) {
                 return true;
             }
 
-            if (memo[start] != null)
-            {
-                return (bool)memo[start];
+            if (memo[start] != null) {
+                return (bool) memo[start];
             }
 
-            for (int end = start + 1; end <= s.Length; end++)
-            {
-                if (wordDict.Contains(s.Substring(start, end - start)) && WordBreakHelper(s, wordDict, end, memo))
-                {
+            for (int end = start + 1; end <= s.Length; end++) {
+                if (wordDict.Contains (s.Substring (start, end - start)) && WordBreakHelper (s, wordDict, end, memo)) {
                     memo[start] = true;
-                    return (bool)memo[start];
+                    return (bool) memo[start];
                 }
             }
 
             memo[start] = false;
-            return (bool)memo[start];
+            return (bool) memo[start];
         }
     }
 }

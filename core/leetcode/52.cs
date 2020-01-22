@@ -30,19 +30,15 @@ Explanation: There are two distinct solutions to the 4-queens puzzle as shown be
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem52
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine();
+namespace InterviewPreperationGuide.Core.LeetCode.problem52 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine ();
         }
 
         // Time: O ()
         // Space: O ()
-        public int TotalNQueens(int n)
-        {
+        public int TotalNQueens (int n) {
             return 0;
         }
     }

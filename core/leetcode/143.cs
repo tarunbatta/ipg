@@ -20,39 +20,32 @@ Given 1->2->3->4->5, reorder it to 1->5->2->4->3.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem143
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine();
+namespace InterviewPreperationGuide.Core.LeetCode.problem143 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine ();
         }
 
         // Time: O (n)
         // Space: O (1)
-        public void ReorderList(ListNode head)
-        {
-            if (head == null)
-            {
+        public void ReorderList (ListNode head) {
+            if (head == null) {
                 return;
             }
 
             ListNode slow = head;
             ListNode fast = head.next;
 
-            while (fast != null && fast.next != null)
-            {
+            while (fast != null && fast.next != null) {
                 slow = slow.next;
                 fast = fast.next.next;
             }
 
             ListNode middle = slow;
-            ListNode head2 = Reverse(slow.next);
+            ListNode head2 = Reverse (slow.next);
             slow.next = null;
 
-            while (head != null && head2 != null)
-            {
+            while (head != null && head2 != null) {
                 ListNode temp1 = head.next;
                 ListNode temp2 = head2.next;
 
@@ -64,18 +57,15 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem143
             }
         }
 
-        private ListNode Reverse(ListNode head)
-        {
-            if (head == null)
-            {
+        private ListNode Reverse (ListNode head) {
+            if (head == null) {
                 return null;
             }
 
             ListNode current = head;
             ListNode prev = null;
 
-            while (current != null)
-            {
+            while (current != null) {
                 ListNode temp = current.next;
                 current.next = prev;
                 prev = current;
@@ -86,13 +76,11 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem143
         }
     }
 
-    public class ListNode
-    {
+    public class ListNode {
         public int val;
         public ListNode next;
 
-        public ListNode(int x)
-        {
+        public ListNode (int x) {
             val = x;
         }
     }

@@ -36,19 +36,15 @@ R - L will be at most 10000.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem762
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine();
+namespace InterviewPreperationGuide.Core.LeetCode.problem762 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine ();
         }
 
         // Time: O ()
         // Space: O ()
-        public int CountPrimeSetBits(int L, int R)
-        {
+        public int CountPrimeSetBits (int L, int R) {
             return 0;
         }
     }

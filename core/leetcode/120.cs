@@ -26,19 +26,15 @@ Bonus point if you are able to do this using only O(n) extra space, where n is t
 using System;
 using System.Collections.Generic;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem120
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine();
+namespace InterviewPreperationGuide.Core.LeetCode.problem120 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine ();
         }
 
         // Time: O ()
         // Space: O ()
-        public int MinimumTotal(IList<IList<int>> triangle)
-        {
+        public int MinimumTotal (IList<IList<int>> triangle) {
             return 0;
         }
     }

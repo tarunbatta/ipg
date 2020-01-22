@@ -27,19 +27,15 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem1043
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine();
+namespace InterviewPreperationGuide.Core.LeetCode.problem1043 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine ();
         }
 
         // Time: O ()
         // Space: O ()
-        public int MaxSumAfterPartitioning(int[] A, int K)
-        {
+        public int MaxSumAfterPartitioning (int[] A, int K) {
             return 0;
         }
     }

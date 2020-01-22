@@ -24,19 +24,15 @@ You can assume that you can always reach the last index.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem45
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine();
+namespace InterviewPreperationGuide.Core.LeetCode.problem45 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine ();
         }
 
         // Time: O ()
         // Space: O ()
-        public int Jump(int[] nums)
-        {
+        public int Jump (int[] nums) {
             return 0;
         }
     }

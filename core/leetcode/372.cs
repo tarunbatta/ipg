@@ -22,19 +22,15 @@ Output: 1024
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem372
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine();
+namespace InterviewPreperationGuide.Core.LeetCode.problem372 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine ();
         }
 
         // Time: O ()
         // Space: O ()
-        public int SuperPow(int a, int[] b)
-        {
+        public int SuperPow (int a, int[] b) {
             return 0;
         }
     }

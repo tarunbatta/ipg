@@ -28,28 +28,21 @@ Length of the array will not exceed 10^4.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem477
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine(TotalHammingDistance(null));
-            Console.WriteLine(TotalHammingDistance(new int[] { 4, 14, 2 }));
+namespace InterviewPreperationGuide.Core.LeetCode.problem477 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine (TotalHammingDistance (null));
+            Console.WriteLine (TotalHammingDistance (new int[] { 4, 14, 2 }));
         }
 
-        public int TotalHammingDistance(int[] nums)
-        {
+        public int TotalHammingDistance (int[] nums) {
             int result = 0;
 
-            if (nums != null && nums.Length > 0)
-            {
-                for (int i = 0; i < 32; i++)
-                {
+            if (nums != null && nums.Length > 0) {
+                for (int i = 0; i < 32; i++) {
                     int bitCount = 0;
 
-                    for (int j = 0; j < nums.Length; j++)
-                    {
+                    for (int j = 0; j < nums.Length; j++) {
                         bitCount += (nums[j] >> i) & 1;
                     }
 

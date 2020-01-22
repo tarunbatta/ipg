@@ -24,41 +24,32 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem25
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine();
+namespace InterviewPreperationGuide.Core.LeetCode.problem25 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine ();
         }
 
         // Time: O (n)
         // Space: O (1)
-        public ListNode ReverseKGroup(ListNode head, int k)
-        {
-            if (head == null || head.next == null || k == 1)
-            {
+        public ListNode ReverseKGroup (ListNode head, int k) {
+            if (head == null || head.next == null || k == 1) {
                 return head;
             }
 
             ListNode begin = null;
-            ListNode dummyhead = new ListNode(-1);
+            ListNode dummyhead = new ListNode (-1);
             dummyhead.next = head;
             begin = dummyhead;
             int i = 0;
 
-            while (head != null)
-            {
+            while (head != null) {
                 i++;
 
-                if (i % k == 0)
-                {
-                    begin = reverse(begin, head.next);
+                if (i % k == 0) {
+                    begin = reverse (begin, head.next);
                     head = begin.next;
-                }
-                else
-                {
+                } else {
                     head = head.next;
                 }
             }
@@ -66,15 +57,13 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem25
             return dummyhead.next;
         }
 
-        private ListNode reverse(ListNode begin, ListNode end)
-        {
+        private ListNode reverse (ListNode begin, ListNode end) {
             ListNode curr = begin.next;
             ListNode next, first;
             ListNode prev = begin;
             first = curr;
 
-            while (curr != end)
-            {
+            while (curr != end) {
                 next = curr.next;
                 curr.next = prev;
                 prev = curr;
@@ -88,13 +77,11 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem25
         }
     }
 
-    public class ListNode
-    {
+    public class ListNode {
         public int val;
         public ListNode next;
 
-        public ListNode(int x)
-        {
+        public ListNode (int x) {
             val = x;
         }
     }

@@ -27,19 +27,15 @@ The length of the given binary array will not exceed 50,000.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem525
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine();
+namespace InterviewPreperationGuide.Core.LeetCode.problem525 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine ();
         }
 
         // Time: O ()
         // Space: O ()
-        public int FindMaxLength(int[] nums)
-        {
+        public int FindMaxLength (int[] nums) {
             return 0;
         }
     }

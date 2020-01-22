@@ -50,25 +50,19 @@ Constraints:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem1117
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine();
+namespace InterviewPreperationGuide.Core.LeetCode.problem1117 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine ();
         }
     }
 
-    public class H2O
-    {
-        public H2O()
-        {
+    public class H2O {
+        public H2O () {
 
         }
 
-        public void Hydrogen(Action releaseHydrogen)
-        {
+        public void Hydrogen (Action releaseHydrogen) {
             // releaseHydrogen() outputs "H". Do not change or remove this line.        releaseHydrogen();    }​    public void Oxygen(Action releaseOxygen) {                // releaseOxygen() outputs "O". Do not change or remove this line.        releaseOxygen();    }}
         }
     }

@@ -46,19 +46,15 @@ The k will be in the range [1, m * n]
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem668
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine();
+namespace InterviewPreperationGuide.Core.LeetCode.problem668 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine ();
         }
 
         // Time: O ()
         // Space: O ()
-        public int FindKthNumber(int m, int n, int k)
-        {
+        public int FindKthNumber (int m, int n, int k) {
             return 0;
         }
     }

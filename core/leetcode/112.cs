@@ -26,32 +26,26 @@ return true, as there exist a root-to-leaf path 5->4->11->2 which sum is 22.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem112
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine();
+namespace InterviewPreperationGuide.Core.LeetCode.problem112 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine ();
         }
 
         // Time: O ()
         // Space: O ()
-        public bool HasPathSum(TreeNode root, int sum)
-        {
+        public bool HasPathSum (TreeNode root, int sum) {
 
             return false;
         }
     }
 
-    public class TreeNode
-    {
+    public class TreeNode {
         public int val;
         public TreeNode left;
         public TreeNode right;
 
-        public TreeNode(int x)
-        {
+        public TreeNode (int x) {
             val = x;
         }
     }

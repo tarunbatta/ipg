@@ -53,19 +53,15 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem948
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine();
+namespace InterviewPreperationGuide.Core.LeetCode.problem948 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine ();
         }
 
         // Time: O ()
         // Space: O ()
-        public int BagOfTokensScore(int[] tokens, int P)
-        {
+        public int BagOfTokensScore (int[] tokens, int P) {
             return 0;
         }
     }

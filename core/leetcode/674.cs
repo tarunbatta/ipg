@@ -28,19 +28,15 @@ Length of the array will not exceed 10,000.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem674
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine();
+namespace InterviewPreperationGuide.Core.LeetCode.problem674 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine ();
         }
 
         // Time: O ()
         // Space: O ()
-        public int FindLengthOfLCIS(int[] nums)
-        {
+        public int FindLengthOfLCIS (int[] nums) {
             return 0;
         }
     }

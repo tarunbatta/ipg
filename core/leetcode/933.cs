@@ -37,26 +37,20 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem933
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            RecentCounter obj = new RecentCounter();
-            int param_1 = obj.Ping(0);
+namespace InterviewPreperationGuide.Core.LeetCode.problem933 {
+    public class Solution {
+        public void Init () {
+            RecentCounter obj = new RecentCounter ();
+            int param_1 = obj.Ping (0);
         }
     }
 
-    public class RecentCounter
-    {
-        public RecentCounter()
-        {
+    public class RecentCounter {
+        public RecentCounter () {
 
         }
 
-        public int Ping(int t)
-        {
+        public int Ping (int t) {
             return 0;
         }
     }

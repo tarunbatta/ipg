@@ -20,19 +20,15 @@ Output: 4
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem221
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine();
+namespace InterviewPreperationGuide.Core.LeetCode.problem221 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine ();
         }
 
         // Time: O ()
         // Space: O ()
-        public int MaximalSquare(char[][] matrix)
-        {
+        public int MaximalSquare (char[][] matrix) {
             return 0;
         }
     }

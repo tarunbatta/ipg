@@ -19,19 +19,15 @@ Insertion, deletion or replace of any one character are all considered as one ch
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem420
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine();
+namespace InterviewPreperationGuide.Core.LeetCode.problem420 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine ();
         }
 
         // Time: O ()
         // Space: O ()
-        public int StrongPasswordChecker(string s)
-        {
+        public int StrongPasswordChecker (string s) {
             return 0;
         }
     }

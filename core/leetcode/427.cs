@@ -35,25 +35,20 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem427
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine();
+namespace InterviewPreperationGuide.Core.LeetCode.problem427 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine ();
         }
 
         // Time: O ()
         // Space: O ()
-        public Node Construct(int[][] grid)
-        {
+        public Node Construct (int[][] grid) {
             return null;
         }
     }
 
-    public class Node
-    {
+    public class Node {
         public bool val;
         public bool isLeaf;
         public Node topLeft;
@@ -61,13 +56,11 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem427
         public Node bottomLeft;
         public Node bottomRight;
 
-        public Node()
-        {
+        public Node () {
 
         }
 
-        public Node(bool _val, bool _isLeaf, Node _topLeft, Node _topRight, Node _bottomLeft, Node _bottomRight)
-        {
+        public Node (bool _val, bool _isLeaf, Node _topLeft, Node _topRight, Node _bottomLeft, Node _bottomRight) {
             val = _val;
             isLeaf = _isLeaf;
             topLeft = _topLeft;

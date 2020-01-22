@@ -39,52 +39,42 @@ Note:
 using System;
 using System.Collections.Generic;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem969
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine(PancakeSort(new int[] { 3, 2, 4, 1 }));
-            Console.WriteLine(PancakeSort(new int[] { 1, 2, 3 }));
-            Console.WriteLine(PancakeSort(new int[] { 5, 4, 3, 2, 1 }));
+namespace InterviewPreperationGuide.Core.LeetCode.problem969 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine (PancakeSort (new int[] { 3, 2, 4, 1 }));
+            Console.WriteLine (PancakeSort (new int[] { 1, 2, 3 }));
+            Console.WriteLine (PancakeSort (new int[] { 5, 4, 3, 2, 1 }));
         }
 
         // Time: O (n^2)
         // Space: O (n)
-        public IList<int> PancakeSort(int[] A)
-        {
-            IList<int> result = new List<int>();
+        public IList<int> PancakeSort (int[] A) {
+            IList<int> result = new List<int> ();
 
-            if (A == null || A.Length == 0)
-            {
+            if (A == null || A.Length == 0) {
                 return result;
             }
 
-            for (var i = A.Length; i >= 0; i--)
-            {
-                var idx = Array.IndexOf(A, i);
+            for (var i = A.Length; i >= 0; i--) {
+                var idx = Array.IndexOf (A, i);
 
-                if (idx != i - 1)
-                {
-                    if (idx != 0)
-                    {
-                        Reverse(A, idx + 1);
-                        result.Add(idx + 1);
+                if (idx != i - 1) {
+                    if (idx != 0) {
+                        Reverse (A, idx + 1);
+                        result.Add (idx + 1);
                     }
 
-                    Reverse(A, i);
-                    result.Add(i);
+                    Reverse (A, i);
+                    result.Add (i);
                 }
             }
 
             return result;
         }
 
-        private void Reverse(int[] A, int k)
-        {
-            for (var i = 0; i < k / 2; i++)
-            {
+        private void Reverse (int[] A, int k) {
+            for (var i = 0; i < k / 2; i++) {
                 var temp = A[i];
                 A[i] = A[k - i - 1];
                 A[k - i - 1] = temp;

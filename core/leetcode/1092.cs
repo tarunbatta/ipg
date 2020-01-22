@@ -31,19 +31,15 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem1092
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine();
+namespace InterviewPreperationGuide.Core.LeetCode.problem1092 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine ();
         }
 
         // Time: O ()
         // Space: O ()
-        public string ShortestCommonSupersequence(string str1, string str2)
-        {
+        public string ShortestCommonSupersequence (string str1, string str2) {
             return null;
         }
     }

@@ -37,19 +37,15 @@ Note:
 using System;
 using System.Collections.Generic;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem890
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine();
+namespace InterviewPreperationGuide.Core.LeetCode.problem890 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine ();
         }
 
         // Time: O ()
         // Space: O ()
-        public IList<string> FindAndReplacePattern(string[] words, string pattern)
-        {
+        public IList<string> FindAndReplacePattern (string[] words, string pattern) {
             return null;
         }
     }

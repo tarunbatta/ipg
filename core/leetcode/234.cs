@@ -23,32 +23,27 @@ Could you do it in O(n) time and O(1) space?
 using System;
 using System.Collections;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem234
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            ListNode l1 = new ListNode(1);
-            l1.next = new ListNode(2);
+namespace InterviewPreperationGuide.Core.LeetCode.problem234 {
+    public class Solution {
+        public void Init () {
+            ListNode l1 = new ListNode (1);
+            l1.next = new ListNode (2);
 
-            ListNode l2 = new ListNode(1);
-            l2.next = new ListNode(2);
-            l2.next.next = new ListNode(2);
-            l2.next.next.next = new ListNode(1);
+            ListNode l2 = new ListNode (1);
+            l2.next = new ListNode (2);
+            l2.next.next = new ListNode (2);
+            l2.next.next.next = new ListNode (1);
 
-            Console.WriteLine(IsPalindrome(null));
-            Console.WriteLine(IsPalindrome(new ListNode(0)));
-            Console.WriteLine(IsPalindrome(l1));
-            Console.WriteLine(IsPalindrome(l2));
+            Console.WriteLine (IsPalindrome (null));
+            Console.WriteLine (IsPalindrome (new ListNode (0)));
+            Console.WriteLine (IsPalindrome (l1));
+            Console.WriteLine (IsPalindrome (l2));
         }
 
         // Time: O (n)
         // Space: O (1)
-        public static bool IsPalindrome(ListNode head)
-        {
-            if (head == null)
-            {
+        public static bool IsPalindrome (ListNode head) {
+            if (head == null) {
                 return true;
             }
 
@@ -56,14 +51,12 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem234
             int len = 0;
             ListNode node = head;
 
-            while (node != null)
-            {
+            while (node != null) {
                 len++;
                 node = node.next;
             }
 
-            if (len == 1)
-            {
+            if (len == 1) {
                 return true;
             }
 
@@ -71,8 +64,7 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem234
 
             ListNode prev = null;
 
-            for (int i = 0; i < len / 2; i++)
-            {
+            for (int i = 0; i < len / 2; i++) {
                 ListNode temp = node.next;
                 node.next = prev;
                 prev = node;
@@ -81,15 +73,12 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem234
 
             ListNode reverseHead = prev;
 
-            if (len % 2 != 0)
-            {
+            if (len % 2 != 0) {
                 node = node.next;
             }
 
-            while (node != null)
-            {
-                if (node.val != reverseHead.val)
-                {
+            while (node != null) {
+                if (node.val != reverseHead.val) {
                     return false;
                 }
 
@@ -101,13 +90,11 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem234
         }
     }
 
-    public class ListNode
-    {
+    public class ListNode {
         public int val;
         public ListNode next;
 
-        public ListNode(int x)
-        {
+        public ListNode (int x) {
             val = x;
         }
     }

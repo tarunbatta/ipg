@@ -44,26 +44,20 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem732
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            MyCalendarThree obj = new MyCalendarThree();
-            int param_1 = obj.Book(0, 0);
+namespace InterviewPreperationGuide.Core.LeetCode.problem732 {
+    public class Solution {
+        public void Init () {
+            MyCalendarThree obj = new MyCalendarThree ();
+            int param_1 = obj.Book (0, 0);
         }
     }
 
-    public class MyCalendarThree
-    {
-        public MyCalendarThree()
-        {
+    public class MyCalendarThree {
+        public MyCalendarThree () {
 
         }
 
-        public int Book(int start, int end)
-        {
+        public int Book (int start, int end) {
             return 0;
         }
     }

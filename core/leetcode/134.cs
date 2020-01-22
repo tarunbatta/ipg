@@ -53,22 +53,17 @@ Therefore, you can't travel around the circuit once no matter where you start.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem134
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine(CanCompleteCircuit(new int[] { 1, 2, 3, 4, 5 }, new int[] { 3, 4, 5, 1, 2 }));
-            Console.WriteLine(CanCompleteCircuit(new int[] { 5, 1, 2, 3, 4 }, new int[] { 4, 4, 1, 5, 1 }));
+namespace InterviewPreperationGuide.Core.LeetCode.problem134 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine (CanCompleteCircuit (new int[] { 1, 2, 3, 4, 5 }, new int[] { 3, 4, 5, 1, 2 }));
+            Console.WriteLine (CanCompleteCircuit (new int[] { 5, 1, 2, 3, 4 }, new int[] { 4, 4, 1, 5, 1 }));
         }
 
         // Time: O (n)
         // Space: O (1)
-        public int CanCompleteCircuit(int[] gas, int[] cost)
-        {
-            if (gas == null || cost == null || gas.Length == 0 || cost.Length == 0)
-            {
+        public int CanCompleteCircuit (int[] gas, int[] cost) {
+            if (gas == null || cost == null || gas.Length == 0 || cost.Length == 0) {
                 return -1;
             }
 
@@ -77,14 +72,12 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem134
             int curr_tank = 0;
             int starting_station = 0;
 
-            for (int i = 0; i < n; ++i)
-            {
+            for (int i = 0; i < n; ++i) {
                 total_tank += gas[i] - cost[i];
                 curr_tank += gas[i] - cost[i];
 
                 // If one couldn't get here,
-                if (curr_tank < 0)
-                {
+                if (curr_tank < 0) {
                     // Pick up the next station as the starting one.
                     starting_station = i + 1;
                     // Start with an empty tank.

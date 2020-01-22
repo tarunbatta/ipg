@@ -28,19 +28,15 @@ Explanation: Buy on day 2 (price = 2) and sell on day 3 (price = 6), profit = 6-
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem188
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine();
+namespace InterviewPreperationGuide.Core.LeetCode.problem188 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine ();
         }
 
         // Time: O ()
         // Space: O ()
-        public int MaxProfit(int k, int[] prices)
-        {
+        public int MaxProfit (int k, int[] prices) {
             return 0;
         }
     }

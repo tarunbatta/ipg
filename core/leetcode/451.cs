@@ -46,19 +46,15 @@ Note that 'A' and 'a' are treated as two different characters.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem451
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine();
+namespace InterviewPreperationGuide.Core.LeetCode.problem451 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine ();
         }
 
         // Time: O ()
         // Space: O ()
-        public string FrequencySort(string s)
-        {
+        public string FrequencySort (string s) {
             return null;
         }
     }

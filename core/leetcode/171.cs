@@ -38,19 +38,15 @@ Output: 701
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem171
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine();
+namespace InterviewPreperationGuide.Core.LeetCode.problem171 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine ();
         }
 
         // Time: O ()
         // Space: O ()
-        public int TitleToNumber(string s)
-        {
+        public int TitleToNumber (string s) {
             return 0;
         }
     }

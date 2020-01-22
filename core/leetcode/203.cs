@@ -14,31 +14,25 @@ Output: 1->2->3->4->5
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem203
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine();
+namespace InterviewPreperationGuide.Core.LeetCode.problem203 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine ();
         }
 
         // Time: O ()
         // Space: O ()
-        public ListNode RemoveElements(ListNode head, int val)
-        {
+        public ListNode RemoveElements (ListNode head, int val) {
 
             return null;
         }
     }
 
-    public class ListNode
-    {
+    public class ListNode {
         public int val;
         public ListNode next;
 
-        public ListNode(int x)
-        {
+        public ListNode (int x) {
             val = x;
         }
     }

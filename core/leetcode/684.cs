@@ -43,19 +43,15 @@ We have overhauled the problem description + test cases and specified clearly th
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem684
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine();
+namespace InterviewPreperationGuide.Core.LeetCode.problem684 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine ();
         }
 
         // Time: O ()
         // Space: O ()
-        public int[] FindRedundantConnection(int[][] edges)
-        {
+        public int[] FindRedundantConnection (int[][] edges) {
             return null;
         }
     }

@@ -67,19 +67,15 @@ The answer and all intermediate calculations of that answer are guaranteed to fi
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem736
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine();
+namespace InterviewPreperationGuide.Core.LeetCode.problem736 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine ();
         }
 
         // Time: O ()
         // Space: O ()
-        public int Evaluate(string expression)
-        {
+        public int Evaluate (string expression) {
             return 0;
         }
     }

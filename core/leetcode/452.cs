@@ -25,19 +25,15 @@ One way is to shoot one arrow for example at x = 6 (bursting the balloons [2,8] 
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem452
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine();
+namespace InterviewPreperationGuide.Core.LeetCode.problem452 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine ();
         }
 
         // Time: O ()
         // Space: O ()
-        public int FindMinArrowShots(int[][] points)
-        {
+        public int FindMinArrowShots (int[][] points) {
             return 0;
         }
     }

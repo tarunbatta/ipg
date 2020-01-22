@@ -48,20 +48,16 @@ Follow up:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem73
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine();
-        }
-
-        // Time: O ()
-        // Space: O ()
-        public void SetZeroes(int[][] matrix)
-        {
-
-        }
+namespace InterviewPreperationGuide.Core.LeetCode.problem73 {
+  public class Solution {
+    public void Init () {
+      Console.WriteLine ();
     }
+
+    // Time: O ()
+    // Space: O ()
+    public void SetZeroes (int[][] matrix) {
+
+    }
+  }
 }

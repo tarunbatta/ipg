@@ -39,70 +39,57 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem641
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine();
+namespace InterviewPreperationGuide.Core.LeetCode.problem641 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine ();
         }
     }
 
-    public class MyCircularDeque
-    {
+    public class MyCircularDeque {
         /** Initialize your data structure here. Set the size of the deque to be k. */
 
-        public MyCircularDeque(int k)
-        {
+        public MyCircularDeque (int k) {
 
         }
 
         /** Adds an item at the front of Deque. Return true if the operation is successful. */
-        public bool InsertFront(int value)
-        {
+        public bool InsertFront (int value) {
             return false;
         }
 
         /** Adds an item at the rear of Deque. Return true if the operation is successful. */
-        public bool InsertLast(int value)
-        {
+        public bool InsertLast (int value) {
             return false;
         }
 
         /** Deletes an item from the front of Deque. Return true if the operation is successful. */
-        public bool DeleteFront()
-        {
+        public bool DeleteFront () {
             return false;
         }
 
         /** Deletes an item from the rear of Deque. Return true if the operation is successful. */
-        public bool DeleteLast()
-        {
+        public bool DeleteLast () {
             return false;
         }
 
         /** Get the front item from the deque. */
-        public int GetFront()
-        {
+        public int GetFront () {
             return 0;
         }
 
         /** Get the last item from the deque. */
-        public int GetRear()
-        {
+        public int GetRear () {
             return 0;
         }
 
         /** Checks whether the circular deque is empty or not. */
-        public bool IsEmpty()
-        {
+        public bool IsEmpty () {
             return false;
         }
 
         /** Checks whether the circular deque is full or not. */
-        public bool IsFull()
-        {
+        public bool IsFull () {
             return false;
         }
     }

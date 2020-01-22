@@ -35,19 +35,15 @@ Because the 4th row is incomplete, we return 3.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem441
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine();
+namespace InterviewPreperationGuide.Core.LeetCode.problem441 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine ();
         }
 
         // Time: O ()
         // Space: O ()
-        public int ArrangeCoins(int n)
-        {
+        public int ArrangeCoins (int n) {
             return 0;
         }
     }

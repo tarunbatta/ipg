@@ -29,19 +29,15 @@ n is a non-negative integer which won't exceed the input array size.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem605
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine();
+namespace InterviewPreperationGuide.Core.LeetCode.problem605 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine ();
         }
 
         // Time: O ()
         // Space: O ()
-        public bool CanPlaceFlowers(int[] flowerbed, int n)
-        {
+        public bool CanPlaceFlowers (int[] flowerbed, int n) {
             return false;
         }
     }

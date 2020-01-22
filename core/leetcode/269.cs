@@ -52,41 +52,33 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem269
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine(AlienOrder(new string[] { "wrt", "wrf", "er", "ett", "rftt" }));
-            Console.WriteLine(AlienOrder(new string[] { "z", "x" }));
-            Console.WriteLine(AlienOrder(new string[] { "z", "x", "z" }));
-            Console.WriteLine(AlienOrder(new string[] { "a", "b", "ca", "cc" }));
+namespace InterviewPreperationGuide.Core.LeetCode.problem269 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine (AlienOrder (new string[] { "wrt", "wrf", "er", "ett", "rftt" }));
+            Console.WriteLine (AlienOrder (new string[] { "z", "x" }));
+            Console.WriteLine (AlienOrder (new string[] { "z", "x", "z" }));
+            Console.WriteLine (AlienOrder (new string[] { "a", "b", "ca", "cc" }));
         }
 
         // Time: O (n + m), where n represents all vertices, m represents all edges
         // Space: O (n + m)
-        public string AlienOrder(string[] words)
-        {
+        public string AlienOrder (string[] words) {
             string result = "";
 
-            if (words == null || words.Length == 0)
-            {
+            if (words == null || words.Length == 0) {
                 return result;
             }
 
-            Dictionary<char, HashSet<char>> graph = new Dictionary<char, HashSet<char>>();
-            Dictionary<char, int> inDegreeMap = new Dictionary<char, int>();
+            Dictionary<char, HashSet<char>> graph = new Dictionary<char, HashSet<char>> ();
+            Dictionary<char, int> inDegreeMap = new Dictionary<char, int> ();
 
             // MUST initialize the map, to avoid null exception for those character that will have zero inDegrees 
             // (i.e. starting characters)
-            foreach (String s in words)
-            {
-                foreach (char c in s.ToCharArray())
-                {
-                    if (!inDegreeMap.ContainsKey(c))
-                    {
-                        inDegreeMap.Add(c, 0);
+            foreach (String s in words) {
+                foreach (char c in s.ToCharArray ()) {
+                    if (!inDegreeMap.ContainsKey (c)) {
+                        inDegreeMap.Add (c, 0);
                     }
                 }
             }
@@ -94,32 +86,27 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem269
             // build the graph by comparing the adjacent words, the first character that is different 
             // between two adjacent words reflect the lexicographical order
             // as well as fill out inDegree map for every character
-            for (int i = 0; i < words.Length - 1; i++)
-            {
+            for (int i = 0; i < words.Length - 1; i++) {
                 String cur = words[i];
                 String next = words[i + 1];
-                int length = Math.Min(cur.Length, next.Length);
+                int length = Math.Min (cur.Length, next.Length);
 
                 /* according to given dictionary with specified order, traverse every pair of words,
                 then put each pair into graph map to build the graph, and then update inDegree map
                 for every "nextChar" (increase their inDegree by 1 every time) */
-                for (int j = 0; j < length; j++)
-                {
+                for (int j = 0; j < length; j++) {
                     char c1 = cur[j];
                     char c2 = next[j];
 
-                    if (c1 != c2)
-                    {
-                        HashSet<char> set = new HashSet<char>();
+                    if (c1 != c2) {
+                        HashSet<char> set = new HashSet<char> ();
 
-                        if (graph.ContainsKey(c1))
-                        {
+                        if (graph.ContainsKey (c1)) {
                             set = graph[c1];
                         }
 
-                        if (!set.Contains(c2))
-                        {
-                            set.Add(c2);
+                        if (!set.Contains (c2)) {
+                            set.Add (c2);
                             graph[c1] = set;
 
                             // update inDegree map
@@ -133,49 +120,40 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem269
                 }
             }
 
-            Queue<char> q = new Queue<char>();
+            Queue<char> q = new Queue<char> ();
 
             // put all starting node into queue, which means put all nodes that have inDegree = 0
-            foreach (char c in inDegreeMap.Keys)
-            {
-                if (inDegreeMap[c] == 0)
-                {
-                    q.Enqueue(c);
+            foreach (char c in inDegreeMap.Keys) {
+                if (inDegreeMap[c] == 0) {
+                    q.Enqueue (c);
                 }
             }
 
-            StringBuilder sb = new StringBuilder();
+            StringBuilder sb = new StringBuilder ();
 
             // BFS traversal to build result string
-            while (q.Count != 0)
-            {
-                char c = q.Dequeue();
-                sb.Append(c);
+            while (q.Count != 0) {
+                char c = q.Dequeue ();
+                sb.Append (c);
 
                 // traverse all next node of current node in graph, 
                 // update inDegree value then put all nodes with zero inDegree into queue 
-                if (graph.ContainsKey(c))
-                {
-                    foreach (char c2 in graph[c])
-                    {
+                if (graph.ContainsKey (c)) {
+                    foreach (char c2 in graph[c]) {
                         inDegreeMap[c2] = inDegreeMap[c2] - 1;
 
-                        if (inDegreeMap[c2] == 0)
-                        {
-                            q.Enqueue(c2);
+                        if (inDegreeMap[c2] == 0) {
+                            q.Enqueue (c2);
                         }
                     }
                 }
             }
 
             // check if input order is valid
-            if (sb.ToString().Length != inDegreeMap.Count)
-            {
+            if (sb.ToString ().Length != inDegreeMap.Count) {
                 return "";
-            }
-            else
-            {
-                result = sb.ToString();
+            } else {
+                result = sb.ToString ();
             }
 
             return result;

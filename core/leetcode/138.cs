@@ -23,64 +23,53 @@ Note:
 using System;
 using System.Collections.Generic;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem138
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine();
+namespace InterviewPreperationGuide.Core.LeetCode.problem138 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine ();
         }
 
-        Dictionary<Node, Node> visited = new Dictionary<Node, Node>();
+        Dictionary<Node, Node> visited = new Dictionary<Node, Node> ();
 
-        public Node CopyRandomList_DFS(Node head)
-        {
-            if (head == null)
-            {
+        public Node CopyRandomList_DFS (Node head) {
+            if (head == null) {
                 return head;
             }
 
-            if (visited.ContainsKey(head))
-            {
+            if (visited.ContainsKey (head)) {
                 return visited[head];
             }
 
-            Node node = new Node(head.val, null, null);
-            visited.Add(head, node);
+            Node node = new Node (head.val, null, null);
+            visited.Add (head, node);
 
-            node.next = CopyRandomList_DFS(head.next);
-            node.random = CopyRandomList_DFS(head.random);
+            node.next = CopyRandomList_DFS (head.next);
+            node.random = CopyRandomList_DFS (head.random);
 
             return node;
         }
 
-        public Node CopyRandomList_BFS(Node head)
-        {
-            if (head == null)
-            {
+        public Node CopyRandomList_BFS (Node head) {
+            if (head == null) {
                 return head;
             }
 
-            Queue<Node> q = new Queue<Node>();
-            Dictionary<Node, Node> visited = new Dictionary<Node, Node>();
-            q.Enqueue(head);
-            visited.Add(head, new Node(head.val, null, null));
+            Queue<Node> q = new Queue<Node> ();
+            Dictionary<Node, Node> visited = new Dictionary<Node, Node> ();
+            q.Enqueue (head);
+            visited.Add (head, new Node (head.val, null, null));
 
-            while (q.Count > 0)
-            {
-                Node n = q.Dequeue();
+            while (q.Count > 0) {
+                Node n = q.Dequeue ();
 
-                if (n.next != null && !visited.ContainsKey(n.next))
-                {
-                    q.Enqueue(n.next);
-                    visited.Add(n.next, new Node(n.next.val, null, null));
+                if (n.next != null && !visited.ContainsKey (n.next)) {
+                    q.Enqueue (n.next);
+                    visited.Add (n.next, new Node (n.next.val, null, null));
                 }
 
-                if (n.random != null && !visited.ContainsKey(n.random))
-                {
-                    q.Enqueue(n.random);
-                    visited.Add(n.random, new Node(n.random.val, null, null));
+                if (n.random != null && !visited.ContainsKey (n.random)) {
+                    q.Enqueue (n.random);
+                    visited.Add (n.random, new Node (n.random.val, null, null));
                 }
 
                 visited[n].next = n.next == null ? null : visited[n.next];
@@ -91,19 +80,16 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem138
         }
     }
 
-    public class Node
-    {
+    public class Node {
         public int val;
         public Node next;
         public Node random;
 
-        public Node()
-        {
+        public Node () {
 
         }
 
-        public Node(int _val, Node _next, Node _random)
-        {
+        public Node (int _val, Node _next, Node _random) {
             val = _val;
             next = _next;
             random = _random;

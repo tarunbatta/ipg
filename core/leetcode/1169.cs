@@ -48,19 +48,15 @@ Constraints:
 using System;
 using System.Collections.Generic;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem1169
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine();
+namespace InterviewPreperationGuide.Core.LeetCode.problem1169 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine ();
         }
 
         // Time: O ()
         // Space: O ()
-        public IList<string> InvalidTransactions(string[] transactions)
-        {
+        public IList<string> InvalidTransactions (string[] transactions) {
             return null;
         }
     }

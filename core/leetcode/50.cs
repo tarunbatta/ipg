@@ -33,19 +33,15 @@ n is a 32-bit signed integer, within the range [−231, 231 − 1]
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem50
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine();
+namespace InterviewPreperationGuide.Core.LeetCode.problem50 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine ();
         }
 
         // Time: O ()
         // Space: O ()
-        public double MyPow(double x, int n)
-        {
+        public double MyPow (double x, int n) {
             return 0;
         }
     }

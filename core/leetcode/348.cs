@@ -56,18 +56,14 @@ Could you do better than O(n2) per move() operation?
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem348
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.problem348 {
+    public class Solution {
+        public void Init () {
 
         }
     }
 
-    public class TicTacToe_a
-    {
+    public class TicTacToe_a {
         int diagonal = 0;
         int antidiagonal = 0;
         int[] rows;
@@ -75,8 +71,7 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem348
         int n;
 
         /** Initialize your data structure here. */
-        public TicTacToe_a(int n)
-        {
+        public TicTacToe_a (int n) {
             this.n = n;
             rows = new int[n];
             cols = new int[n];
@@ -90,49 +85,38 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem348
                     0: No one wins.
                     1: Player 1 wins.
                     2: Player 2 wins. */
-        public int Move(int row, int col, int player)
-        {
+        public int Move (int row, int col, int player) {
             var num = 1;
-            if (player == 2)
-            {
+            if (player == 2) {
                 num = -1;
             }
             rows[col] += num;
             cols[row] += num;
 
-            if (row == col)
-            {
+            if (row == col) {
                 diagonal += num;
             }
 
-            if (row == n - col - 1)
-            {
+            if (row == n - col - 1) {
                 antidiagonal += num;
             }
 
-            if (rows[col] == n || cols[row] == n || diagonal == n || antidiagonal == n)
-            {
+            if (rows[col] == n || cols[row] == n || diagonal == n || antidiagonal == n) {
                 return 1;
-            }
-            else if (rows[col] == -n || cols[row] == -n || diagonal == -n || antidiagonal == -n)
-            {
+            } else if (rows[col] == -n || cols[row] == -n || diagonal == -n || antidiagonal == -n) {
                 return 2;
-            }
-            else
-            {
+            } else {
                 return 0;
             }
         }
     }
 
-    public class TicTacToe_b
-    {
-        private int[,] board;
+    public class TicTacToe_b {
+        private int[, ] board;
         private int n;
 
         /** Initialize your data structure here. */
-        public TicTacToe_b(int n)
-        {
+        public TicTacToe_b (int n) {
             board = new int[n, n];
             this.n = n;
         }
@@ -145,24 +129,20 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem348
                     0: No one wins.
                     1: Player 1 wins.
                     2: Player 2 wins. */
-        public int Move(int row, int col, int player)
-        {
+        public int Move (int row, int col, int player) {
             board[row, col] = player;
 
-            return (CheckHorizontal(row, player) ||
-                    CheckVertical(col, player) ||
-                    CheckRightDiag(player) ||
-                    CheckLeftDiag(player)) ?
+            return (CheckHorizontal (row, player) ||
+                    CheckVertical (col, player) ||
+                    CheckRightDiag (player) ||
+                    CheckLeftDiag (player)) ?
                 player :
                 0;
         }
 
-        private bool CheckHorizontal(int row, int player)
-        {
-            for (int i = 0; i < n; i++)
-            {
-                if (board[row, i] != player)
-                {
+        private bool CheckHorizontal (int row, int player) {
+            for (int i = 0; i < n; i++) {
+                if (board[row, i] != player) {
                     return false;
                 }
             }
@@ -170,12 +150,9 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem348
             return true;
         }
 
-        private bool CheckVertical(int col, int player)
-        {
-            for (int i = 0; i < n; i++)
-            {
-                if (board[i, col] != player)
-                {
+        private bool CheckVertical (int col, int player) {
+            for (int i = 0; i < n; i++) {
+                if (board[i, col] != player) {
                     return false;
                 }
             }
@@ -183,13 +160,10 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem348
             return true;
         }
 
-        private bool CheckRightDiag(int player)
-        {
+        private bool CheckRightDiag (int player) {
             int j = 0;
-            for (int i = n - 1; i >= 0; i--)
-            {
-                if (board[i, j++] != player)
-                {
+            for (int i = n - 1; i >= 0; i--) {
+                if (board[i, j++] != player) {
                     return false;
                 }
             }
@@ -197,12 +171,9 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem348
             return true;
         }
 
-        private bool CheckLeftDiag(int player)
-        {
-            for (int i = 0; i < n; i++)
-            {
-                if (board[i, i] != player)
-                {
+        private bool CheckLeftDiag (int player) {
+            for (int i = 0; i < n; i++) {
+                if (board[i, i] != player) {
                     return false;
                 }
             }

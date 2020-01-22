@@ -29,76 +29,61 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem297
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.problem297 {
+    public class Solution {
+        public void Init () {
             TreeNode root = null;
 
-            Codec codec = new Codec();
-            codec.deserialize(codec.serialize(root));
+            Codec codec = new Codec ();
+            codec.deserialize (codec.serialize (root));
         }
     }
 
-    public class TreeNode
-    {
+    public class TreeNode {
         public int val;
         public TreeNode left;
         public TreeNode right;
-        public TreeNode(int x) { val = x; }
+        public TreeNode (int x) { val = x; }
     }
 
-    public class Codec
-    {
+    public class Codec {
         private const string _spliter = ",";
         private const string _null = "X";
 
         // Encodes a tree to a single string.
-        public String serialize(TreeNode root)
-        {
-            StringBuilder sb = new StringBuilder();
-            serializeHelper(root, sb);
-            return sb.ToString();
+        public String serialize (TreeNode root) {
+            StringBuilder sb = new StringBuilder ();
+            serializeHelper (root, sb);
+            return sb.ToString ();
         }
 
-        private void serializeHelper(TreeNode node, StringBuilder sb)
-        {
-            if (node == null)
-            {
-                sb.Append(_null).Append(_spliter);
-            }
-            else
-            {
-                sb.Append(node.val).Append(_spliter);
-                serializeHelper(node.left, sb);
-                serializeHelper(node.right, sb);
+        private void serializeHelper (TreeNode node, StringBuilder sb) {
+            if (node == null) {
+                sb.Append (_null).Append (_spliter);
+            } else {
+                sb.Append (node.val).Append (_spliter);
+                serializeHelper (node.left, sb);
+                serializeHelper (node.right, sb);
             }
         }
 
         // Decodes your encoded data to tree.
-        public TreeNode deserialize(String data)
-        {
-            List<String> nodes = new List<String>();
-            nodes.AddRange(data.Split(_spliter));
-            return deserializeHelper(nodes);
+        public TreeNode deserialize (String data) {
+            List<String> nodes = new List<String> ();
+            nodes.AddRange (data.Split (_spliter));
+            return deserializeHelper (nodes);
         }
 
-        private TreeNode deserializeHelper(List<String> nodes)
-        {
+        private TreeNode deserializeHelper (List<String> nodes) {
             string val = nodes[0];
-            nodes.RemoveAt(0);
+            nodes.RemoveAt (0);
 
-            if (val == _null)
-            {
+            if (val == _null) {
                 return null;
-            }
-            else
-            {
-                TreeNode node = new TreeNode(Convert.ToInt32(val));
-                node.left = deserializeHelper(nodes);
-                node.right = deserializeHelper(nodes);
+            } else {
+                TreeNode node = new TreeNode (Convert.ToInt32 (val));
+                node.left = deserializeHelper (nodes);
+                node.right = deserializeHelper (nodes);
                 return node;
             }
         }

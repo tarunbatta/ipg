@@ -24,52 +24,43 @@ One possible answer is: [0,-3,9,-10,null,5], which represents the following heig
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem108
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine();
+namespace InterviewPreperationGuide.Core.LeetCode.problem108 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine ();
         }
 
         // Time: O ()
         // Space: O ()
-        public TreeNode SortedArrayToBST(int[] nums)
-        {
-            if (nums == null || nums.Length == 0)
-            {
+        public TreeNode SortedArrayToBST (int[] nums) {
+            if (nums == null || nums.Length == 0) {
                 return null;
             }
 
-            return SortedArrayToBSTHelper(nums, 0, nums.Length - 1);
+            return SortedArrayToBSTHelper (nums, 0, nums.Length - 1);
         }
 
-        private TreeNode SortedArrayToBSTHelper(int[] nums, int low, int high)
-        {
-            if (low > high)
-            {
+        private TreeNode SortedArrayToBSTHelper (int[] nums, int low, int high) {
+            if (low > high) {
                 return null;
             }
 
             int mid = low + (high - low) / 2;
 
-            TreeNode node = new TreeNode(nums[mid]);
-            node.left = SortedArrayToBSTHelper(nums, low, mid - 1);
-            node.right = SortedArrayToBSTHelper(nums, mid + 1, high);
+            TreeNode node = new TreeNode (nums[mid]);
+            node.left = SortedArrayToBSTHelper (nums, low, mid - 1);
+            node.right = SortedArrayToBSTHelper (nums, mid + 1, high);
 
             return node;
         }
     }
 
-    public class TreeNode
-    {
+    public class TreeNode {
         public int val;
         public TreeNode left;
         public TreeNode right;
 
-        public TreeNode(int x)
-        {
+        public TreeNode (int x) {
             val = x;
         }
     }

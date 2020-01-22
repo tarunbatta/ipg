@@ -70,38 +70,30 @@ Constraints:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem1172
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            DinnerPlates obj = new DinnerPlates(0);
-            obj.Push(0);
-            int param_2 = obj.Pop();
-            int param_3 = obj.PopAtStack(0);
+namespace InterviewPreperationGuide.Core.LeetCode.problem1172 {
+    public class Solution {
+        public void Init () {
+            DinnerPlates obj = new DinnerPlates (0);
+            obj.Push (0);
+            int param_2 = obj.Pop ();
+            int param_3 = obj.PopAtStack (0);
         }
     }
 
-    public class DinnerPlates
-    {
-        public DinnerPlates(int capacity)
-        {
+    public class DinnerPlates {
+        public DinnerPlates (int capacity) {
 
         }
 
-        public void Push(int val)
-        {
+        public void Push (int val) {
 
         }
 
-        public int Pop()
-        {
+        public int Pop () {
             return 0;
         }
 
-        public int PopAtStack(int index)
-        {
+        public int PopAtStack (int index) {
             return 0;
         }
     }

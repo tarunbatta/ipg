@@ -41,19 +41,15 @@ If M[i][j] = 1, then M[j][i] = 1.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem547
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine();
+namespace InterviewPreperationGuide.Core.LeetCode.problem547 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine ();
         }
 
         // Time: O ()
         // Space: O ()
-        public int FindCircleNum(int[][] M)
-        {
+        public int FindCircleNum (int[][] M) {
             return 0;
         }
     }

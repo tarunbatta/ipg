@@ -39,19 +39,15 @@ The signature of the C++ function had been updated. If you still see your functi
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem65
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine();
+namespace InterviewPreperationGuide.Core.LeetCode.problem65 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine ();
         }
 
         // Time: O ()
         // Space: O ()
-        public bool IsNumber(string s)
-        {
+        public bool IsNumber (string s) {
             return false;
         }
     }

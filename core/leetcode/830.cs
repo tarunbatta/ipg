@@ -41,40 +41,32 @@ Note:  1 <= S.length <= 1000
 using System;
 using System.Collections.Generic;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem830
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine(LargeGroupPositions(null));
-            Console.WriteLine(LargeGroupPositions(string.Empty));
-            Console.WriteLine(LargeGroupPositions("abbxxxxzzy"));
-            Console.WriteLine(LargeGroupPositions("abc"));
-            Console.WriteLine(LargeGroupPositions("aaa"));
-            Console.WriteLine(LargeGroupPositions("aaab"));
-            Console.WriteLine(LargeGroupPositions("abcdddeeeeaabbbcd"));
+namespace InterviewPreperationGuide.Core.LeetCode.problem830 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine (LargeGroupPositions (null));
+            Console.WriteLine (LargeGroupPositions (string.Empty));
+            Console.WriteLine (LargeGroupPositions ("abbxxxxzzy"));
+            Console.WriteLine (LargeGroupPositions ("abc"));
+            Console.WriteLine (LargeGroupPositions ("aaa"));
+            Console.WriteLine (LargeGroupPositions ("aaab"));
+            Console.WriteLine (LargeGroupPositions ("abcdddeeeeaabbbcd"));
         }
 
-        public IList<IList<int>> LargeGroupPositions(string S)
-        {
-            List<IList<int>> result = new List<IList<int>>();
+        public IList<IList<int>> LargeGroupPositions (string S) {
+            List<IList<int>> result = new List<IList<int>> ();
 
-            if (string.IsNullOrEmpty(S))
-            {
+            if (string.IsNullOrEmpty (S)) {
                 return result;
             }
 
             int start = 0;
             int end = 1;
 
-            while (end < S.Length)
-            {
-                if (S[end - 1] != S[end])
-                {
-                    if (end - start >= 3)
-                    {
-                        result.Add(new List<int>() { start, end - 1 });
+            while (end < S.Length) {
+                if (S[end - 1] != S[end]) {
+                    if (end - start >= 3) {
+                        result.Add (new List<int> () { start, end - 1 });
                     }
 
                     start = end;
@@ -83,9 +75,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem830
                 end++;
             }
 
-            if (end - start >= 3)
-            {
-                result.Add(new List<int>() { start, end - 1 });
+            if (end - start >= 3) {
+                result.Add (new List<int> () { start, end - 1 });
             }
 
             return result;

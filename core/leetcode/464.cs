@@ -33,19 +33,15 @@ Same with other integers chosen by the first player, the second player will alwa
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem464
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine();
+namespace InterviewPreperationGuide.Core.LeetCode.problem464 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine ();
         }
 
         // Time: O ()
         // Space: O ()
-        public bool CanIWin(int maxChoosableInteger, int desiredTotal)
-        {
+        public bool CanIWin (int maxChoosableInteger, int desiredTotal) {
             return false;
         }
     }

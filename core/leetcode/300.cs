@@ -21,21 +21,16 @@ Follow up: Could you improve it to O(n log n) time complexity?
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem300
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine();
+namespace InterviewPreperationGuide.Core.LeetCode.problem300 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine ();
         }
 
         // Time: O (n^2)
         // Space: O (n)
-        public int LengthOfLIS_a(int[] nums)
-        {
-            if (nums.Length == 0)
-            {
+        public int LengthOfLIS_a (int[] nums) {
+            if (nums.Length == 0) {
                 return 0;
             }
 
@@ -43,20 +38,17 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem300
             dp[0] = 1;
             int maxans = 1;
 
-            for (int i = 1; i < dp.Length; i++)
-            {
+            for (int i = 1; i < dp.Length; i++) {
                 int maxval = 0;
 
-                for (int j = 0; j < i; j++)
-                {
-                    if (nums[i] > nums[j])
-                    {
-                        maxval = Math.Max(maxval, dp[j]);
+                for (int j = 0; j < i; j++) {
+                    if (nums[i] > nums[j]) {
+                        maxval = Math.Max (maxval, dp[j]);
                     }
                 }
 
                 dp[i] = maxval + 1;
-                maxans = Math.Max(maxans, dp[i]);
+                maxans = Math.Max (maxans, dp[i]);
             }
 
             return maxans;
@@ -64,29 +56,24 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem300
 
         // Time: O (n log (n))
         // Space: O (n)
-        public int LengthOfLIS_b(int[] nums)
-        {
-            if (nums == null || nums.Length == 0)
-            {
+        public int LengthOfLIS_b (int[] nums) {
+            if (nums == null || nums.Length == 0) {
                 return 0;
             }
 
             int[] dp = new int[nums.Length];
             int len = 0;
 
-            foreach (int num in nums)
-            {
-                int i = Array.BinarySearch(dp, 0, len, num);
+            foreach (int num in nums) {
+                int i = Array.BinarySearch (dp, 0, len, num);
 
-                if (i < 0)
-                {
+                if (i < 0) {
                     i = -(i + 1);
                 }
 
                 dp[i] = num;
 
-                if (i == len)
-                {
+                if (i == len) {
                     len++;
                 }
             }

@@ -9,12 +9,9 @@ Easy
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem1021
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.problem1021 {
+    public class Solution {
+        public void Init () {
 
         }
 

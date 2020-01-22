@@ -23,23 +23,18 @@ There are many calls to sumRange function.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem303
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            NumArray obj = new NumArray(null);
-            int param_1 = obj.SumRange(0, 0);
+namespace InterviewPreperationGuide.Core.LeetCode.problem303 {
+    public class Solution {
+        public void Init () {
+            NumArray obj = new NumArray (null);
+            int param_1 = obj.SumRange (0, 0);
         }
     }
 
-    public class NumArray
-    {
-        public NumArray(int[] nums) { }
+    public class NumArray {
+        public NumArray (int[] nums) { }
 
-        public int SumRange(int i, int j)
-        {
+        public int SumRange (int i, int j) {
             return 0;
         }
     }

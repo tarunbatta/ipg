@@ -33,48 +33,38 @@ Note:
 using System;
 using System.Collections.Generic;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem117
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine();
+namespace InterviewPreperationGuide.Core.LeetCode.problem117 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine ();
         }
 
         // Time: O (n)
         // Space: O (n)
-        public Node Connect_a(Node root)
-        {
-            if (root == null)
-            {
+        public Node Connect_a (Node root) {
+            if (root == null) {
                 return root;
             }
 
-            Queue<Node> q = new Queue<Node>();
-            q.Enqueue(root);
+            Queue<Node> q = new Queue<Node> ();
+            q.Enqueue (root);
 
-            while (q.Count > 0)
-            {
+            while (q.Count > 0) {
                 int count = q.Count;
 
-                for (int i = 0; i < count; i++)
-                {
-                    Node node = q.Dequeue();
+                for (int i = 0; i < count; i++) {
+                    Node node = q.Dequeue ();
 
-                    if (i < count - 1)
-                    {
-                        node.next = q.Peek();
+                    if (i < count - 1) {
+                        node.next = q.Peek ();
                     }
 
-                    if (node.left != null)
-                    {
-                        q.Enqueue(node.left);
+                    if (node.left != null) {
+                        q.Enqueue (node.left);
                     }
 
-                    if (node.right != null)
-                    {
-                        q.Enqueue(node.right);
+                    if (node.right != null) {
+                        q.Enqueue (node.right);
                     }
                 }
             }
@@ -84,27 +74,22 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem117
 
         // Time: O (n)
         // Space: O (1)
-        public Node Connect_b(Node root)
-        {
-            if (root == null)
-            {
+        public Node Connect_b (Node root) {
+            if (root == null) {
                 return root;
             }
 
-            Node head = root;   //The left most node in the lower level
-            Node prev = null;   //The previous node in the lower level
-            Node curr = null;   //The current node in the upper level
+            Node head = root; //The left most node in the lower level
+            Node prev = null; //The previous node in the lower level
+            Node curr = null; //The current node in the upper level
 
-            while (head != null)
-            {
+            while (head != null) {
                 curr = head;
                 prev = null;
                 head = null;
 
-                while (curr != null)
-                {
-                    if (curr.left != null)
-                    {
+                while (curr != null) {
+                    if (curr.left != null) {
                         if (prev != null)
                             prev.next = curr.left;
                         else
@@ -112,8 +97,7 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem117
                         prev = curr.left;
                     }
 
-                    if (curr.right != null)
-                    {
+                    if (curr.right != null) {
                         if (prev != null)
                             prev.next = curr.right;
                         else
@@ -128,21 +112,17 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem117
             return root;
         }
 
-        public class Node
-        {
+        public class Node {
             public int val;
             public Node left;
             public Node right;
             public Node next;
 
-
-            public Node()
-            {
+            public Node () {
 
             }
 
-            public Node(int _val, Node _left, Node _right, Node _next)
-            {
+            public Node (int _val, Node _left, Node _right, Node _next) {
                 val = _val;
                 left = _left;
                 right = _right;

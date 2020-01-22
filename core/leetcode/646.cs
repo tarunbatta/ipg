@@ -30,19 +30,15 @@ The number of given pairs will be in the range [1, 1000].
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem646
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine();
+namespace InterviewPreperationGuide.Core.LeetCode.problem646 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine ();
         }
 
         // Time: O ()
         // Space: O ()
-        public int FindLongestChain(int[][] pairs)
-        {
+        public int FindLongestChain (int[][] pairs) {
             return 0;
         }
     }

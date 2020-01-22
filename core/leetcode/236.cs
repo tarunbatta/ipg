@@ -33,44 +33,37 @@ p and q are different and both values will exist in the binary tree.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem236
-{
-    public class Solution
-    {
-        public static void Init()
-        {
-            TreeNode root = new TreeNode(1);
-            root.left = new TreeNode(2);
-            root.right = new TreeNode(3);
-            root.left.left = new TreeNode(4);
-            root.left.right = new TreeNode(5);
-            root.right.left = new TreeNode(6);
-            root.right.right = new TreeNode(7);
+namespace InterviewPreperationGuide.Core.LeetCode.problem236 {
+    public class Solution {
+        public static void Init () {
+            TreeNode root = new TreeNode (1);
+            root.left = new TreeNode (2);
+            root.right = new TreeNode (3);
+            root.left.left = new TreeNode (4);
+            root.left.right = new TreeNode (5);
+            root.right.left = new TreeNode (6);
+            root.right.right = new TreeNode (7);
 
-            TreeNode r1 = LowestCommonAncestor(root, new TreeNode(4), new TreeNode(5));
-            r1.DisplayNode();
+            TreeNode r1 = LowestCommonAncestor (root, new TreeNode (4), new TreeNode (5));
+            r1.DisplayNode ();
 
-            TreeNode r2 = LowestCommonAncestor(root, new TreeNode(4), new TreeNode(6));
-            r2.DisplayNode();
+            TreeNode r2 = LowestCommonAncestor (root, new TreeNode (4), new TreeNode (6));
+            r2.DisplayNode ();
         }
 
-        public static TreeNode LowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q)
-        {
-            if (root == null)
-            {
+        public static TreeNode LowestCommonAncestor (TreeNode root, TreeNode p, TreeNode q) {
+            if (root == null) {
                 return null;
             }
 
-            if (root.val == p.val || root.val == q.val)
-            {
+            if (root.val == p.val || root.val == q.val) {
                 return root;
             }
 
-            TreeNode left = LowestCommonAncestor(root.left, p, q);
-            TreeNode right = LowestCommonAncestor(root.right, p, q);
+            TreeNode left = LowestCommonAncestor (root.left, p, q);
+            TreeNode right = LowestCommonAncestor (root.right, p, q);
 
-            if (left != null && right != null)
-            {
+            if (left != null && right != null) {
                 return root;
             }
 
@@ -78,18 +71,15 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem236
         }
     }
 
-    public class TreeNode
-    {
+    public class TreeNode {
         public int val;
         public TreeNode left;
         public TreeNode right;
-        public TreeNode(int x) { val = x; }
+        public TreeNode (int x) { val = x; }
 
-        public void DisplayNode()
-        {
-            if (this != null)
-            {
-                Console.WriteLine(this.val);
+        public void DisplayNode () {
+            if (this != null) {
+                Console.WriteLine (this.val);
             }
         }
     }

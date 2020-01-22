@@ -28,46 +28,37 @@ Note:
 using System;
 using System.Collections.Generic;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem938
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine();
+namespace InterviewPreperationGuide.Core.LeetCode.problem938 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine ();
         }
 
         // Time: O (n)
         // Space: O (n)
-        public int RangeSumBST(TreeNode root, int L, int R)
-        {
+        public int RangeSumBST (TreeNode root, int L, int R) {
             int result = 0;
 
-            if (root == null)
-            {
+            if (root == null) {
                 return result;
             }
 
-            Queue<TreeNode> q = new Queue<TreeNode>();
-            q.Enqueue(root);
+            Queue<TreeNode> q = new Queue<TreeNode> ();
+            q.Enqueue (root);
 
-            while (q.Count > 0)
-            {
-                TreeNode current = q.Dequeue();
+            while (q.Count > 0) {
+                TreeNode current = q.Dequeue ();
 
-                if (current.val >= L && current.val <= R)
-                {
+                if (current.val >= L && current.val <= R) {
                     result += current.val;
                 }
 
-                if (current.left != null && current.val > L)
-                {
-                    q.Enqueue(current.left);
+                if (current.left != null && current.val > L) {
+                    q.Enqueue (current.left);
                 }
 
-                if (current.right != null && current.val < R)
-                {
-                    q.Enqueue(current.right);
+                if (current.right != null && current.val < R) {
+                    q.Enqueue (current.right);
                 }
             }
 
@@ -75,14 +66,12 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem938
         }
     }
 
-    public class TreeNode
-    {
+    public class TreeNode {
         public int val;
         public TreeNode left;
         public TreeNode right;
 
-        public TreeNode(int x)
-        {
+        public TreeNode (int x) {
             val = x;
         }
     }

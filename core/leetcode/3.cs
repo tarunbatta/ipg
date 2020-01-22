@@ -27,45 +27,36 @@ Explanation: The answer is "wke", with the length of 3.
 using System;
 using System.Collections;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem3
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine(LengthOfLongestSubstring(null));
-            Console.WriteLine(LengthOfLongestSubstring("abcabcbb"));
-            Console.WriteLine(LengthOfLongestSubstring("bbbbb"));
-            Console.WriteLine(LengthOfLongestSubstring("pwwkew"));
-            Console.WriteLine(LengthOfLongestSubstring("dvdf"));
+namespace InterviewPreperationGuide.Core.LeetCode.problem3 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine (LengthOfLongestSubstring (null));
+            Console.WriteLine (LengthOfLongestSubstring ("abcabcbb"));
+            Console.WriteLine (LengthOfLongestSubstring ("bbbbb"));
+            Console.WriteLine (LengthOfLongestSubstring ("pwwkew"));
+            Console.WriteLine (LengthOfLongestSubstring ("dvdf"));
         }
 
         // Time: O (n)
         // Space: O (min (m,n))
-        public int LengthOfLongestSubstring(String s)
-        {
+        public int LengthOfLongestSubstring (String s) {
             int result = 0;
 
-            if (string.IsNullOrEmpty(s))
-            {
+            if (string.IsNullOrEmpty (s)) {
                 return result;
             }
 
-            Hashtable hash = new Hashtable();
+            Hashtable hash = new Hashtable ();
 
-            for (int i = 0, j = 0; i < s.Length; i++)
-            {
-                if (hash.ContainsKey(s[i]))
-                {
-                    j = Math.Max(j, (int)hash[s[i]] + 1);
+            for (int i = 0, j = 0; i < s.Length; i++) {
+                if (hash.ContainsKey (s[i])) {
+                    j = Math.Max (j, (int) hash[s[i]] + 1);
                     hash[s[i]] = i;
-                }
-                else
-                {
-                    hash.Add(s[i], i);
+                } else {
+                    hash.Add (s[i], i);
                 }
 
-                result = Math.Max(result, i - j + 1);
+                result = Math.Max (result, i - j + 1);
             }
 
             return result;

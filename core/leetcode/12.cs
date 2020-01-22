@@ -49,19 +49,15 @@ Explanation: M = 1000, CM = 900, XC = 90 and IV = 4.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem12
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine();
+namespace InterviewPreperationGuide.Core.LeetCode.problem12 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine ();
         }
 
         // Time: O ()
         // Space: O ()
-        public string IntToRoman(int num)
-        {
+        public string IntToRoman (int num) {
             return null;
         }
     }

@@ -28,30 +28,24 @@ rotate 4 steps to the right: 2->0->1->NULL
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem61
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine();
+namespace InterviewPreperationGuide.Core.LeetCode.problem61 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine ();
         }
 
         // Time: O ()
         // Space: O ()
-        public ListNode RotateRight(ListNode head, int k)
-        {
+        public ListNode RotateRight (ListNode head, int k) {
             return null;
         }
     }
 
-    public class ListNode
-    {
+    public class ListNode {
         public int val;
         public ListNode next;
 
-        public ListNode(int x)
-        {
+        public ListNode (int x) {
             val = x;
         }
     }

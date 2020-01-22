@@ -50,19 +50,15 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem1034
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine();
+namespace InterviewPreperationGuide.Core.LeetCode.problem1034 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine ();
         }
 
         // Time: O ()
         // Space: O ()
-        public int[][] ColorBorder(int[][] grid, int r0, int c0, int color)
-        {
+        public int[][] ColorBorder (int[][] grid, int r0, int c0, int color) {
             return null;
         }
     }

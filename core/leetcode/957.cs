@@ -63,19 +63,15 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem957
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine();
+namespace InterviewPreperationGuide.Core.LeetCode.problem957 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine ();
         }
 
         // Time: O ()
         // Space: O ()
-        public int[] PrisonAfterNDays(int[] cells, int N)
-        {
+        public int[] PrisonAfterNDays (int[] cells, int N) {
             return null;
         }
     }

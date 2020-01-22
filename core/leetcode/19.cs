@@ -24,76 +24,64 @@ Could you do this in one pass?
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem19
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            ListNode node = new ListNode(1);
-            node.next = new ListNode(2);
-            node.next.next = new ListNode(3);
-            node.next.next.next = new ListNode(4);
-            node.next.next.next.next = new ListNode(5);
+namespace InterviewPreperationGuide.Core.LeetCode.problem19 {
+    public class Solution {
+        public void Init () {
+            ListNode node = new ListNode (1);
+            node.next = new ListNode (2);
+            node.next.next = new ListNode (3);
+            node.next.next.next = new ListNode (4);
+            node.next.next.next.next = new ListNode (5);
 
-            Console.WriteLine(RemoveNthFromEnd_a(node, 2));
+            Console.WriteLine (RemoveNthFromEnd_a (node, 2));
 
-            Console.WriteLine(RemoveNthFromEnd_b(node, 2));
+            Console.WriteLine (RemoveNthFromEnd_b (node, 2));
         }
 
-        public ListNode RemoveNthFromEnd_a(ListNode head, int n)
-        {
-            if (n <= 0)
-            {
+        public ListNode RemoveNthFromEnd_a (ListNode head, int n) {
+            if (n <= 0) {
                 return head;
             }
 
             int len = 0;
             ListNode current = head;
 
-            while (current.next != null)
-            {
+            while (current.next != null) {
                 len++;
                 current = current.next;
             }
 
-            ListNode dummy = new ListNode(0);
+            ListNode dummy = new ListNode (0);
             dummy.next = head;
             current = dummy;
 
-            for (int i = 0; i < len - n + 1; i++)
-            {
+            for (int i = 0; i < len - n + 1; i++) {
                 current = current.next;
             }
 
-            if (current.next != null)
-            {
+            if (current.next != null) {
                 current.next = current.next.next;
             }
 
             return dummy.next;
         }
 
-        public ListNode RemoveNthFromEnd_b(ListNode head, int n)
-        {
-            if (n <= 0)
-            {
+        public ListNode RemoveNthFromEnd_b (ListNode head, int n) {
+            if (n <= 0) {
                 return head;
             }
 
-            ListNode dummy = new ListNode(0);
+            ListNode dummy = new ListNode (0);
             dummy.next = head;
 
             ListNode first = dummy;
             ListNode second = dummy;
 
-            for (int i = 1; i <= n + 1; i++)
-            {
+            for (int i = 1; i <= n + 1; i++) {
                 first = first.next;
             }
 
-            while (first != null)
-            {
+            while (first != null) {
                 first = first.next;
                 second = second.next;
             }
@@ -104,13 +92,11 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem19
         }
     }
 
-    public class ListNode
-    {
+    public class ListNode {
         public int val;
         public ListNode next;
 
-        public ListNode(int x)
-        {
+        public ListNode (int x) {
             val = x;
         }
     }

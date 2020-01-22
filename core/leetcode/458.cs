@@ -26,19 +26,15 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem458
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine();
+namespace InterviewPreperationGuide.Core.LeetCode.problem458 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine ();
         }
 
         // Time: O ()
         // Space: O ()
-        public int PoorPigs(int buckets, int minutesToDie, int minutesToTest)
-        {
+        public int PoorPigs (int buckets, int minutesToDie, int minutesToTest) {
             return 0;
         }
     }

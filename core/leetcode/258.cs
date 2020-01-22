@@ -20,19 +20,15 @@ Could you do it without any loop/recursion in O(1) runtime?
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem258
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine();
+namespace InterviewPreperationGuide.Core.LeetCode.problem258 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine ();
         }
 
         // Time: O ()
         // Space: O ()
-        public int AddDigits(int num)
-        {
+        public int AddDigits (int num) {
             return 0;
         }
     }

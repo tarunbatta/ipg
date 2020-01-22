@@ -34,19 +34,15 @@ Explanation: All possible pairs are returned from the sequence: [1,3],[2,3]
 using System;
 using System.Collections.Generic;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem373
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine();
+namespace InterviewPreperationGuide.Core.LeetCode.problem373 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine ();
         }
 
         // Time: O ()
         // Space: O ()
-        public IList<IList<int>> KSmallestPairs(int[] nums1, int[] nums2, int k)
-        {
+        public IList<IList<int>> KSmallestPairs (int[] nums1, int[] nums2, int k) {
             return null;
         }
     }

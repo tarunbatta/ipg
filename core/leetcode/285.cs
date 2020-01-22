@@ -25,17 +25,13 @@ It's guaranteed that the values of the tree are unique.
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem285
-{
-    public class Solution
-    {
-        public void Init()
-        {
+namespace InterviewPreperationGuide.Core.LeetCode.problem285 {
+    public class Solution {
+        public void Init () {
 
         }
 
-        public TreeNode InorderSuccessor(TreeNode root, TreeNode p)
-        {
+        public TreeNode InorderSuccessor (TreeNode root, TreeNode p) {
             if (root == null)
                 return null;
 
@@ -43,25 +39,16 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem285
             // save state in temp when going left instead of right
             TreeNode temp = null;
 
-            while (c != null)
-            {
-                if (p.val > c.val)
-                {
+            while (c != null) {
+                if (p.val > c.val) {
                     c = c.right;
-                }
-                else if (p.val < c.val)
-                {
+                } else if (p.val < c.val) {
                     temp = c;
                     c = c.left;
-                }
-                else if (c.val == p.val)
-                {
-                    if (c.right != null)
-                    {
-                        return GetMin(c.right);
-                    }
-                    else
-                    {
+                } else if (c.val == p.val) {
+                    if (c.right != null) {
+                        return GetMin (c.right);
+                    } else {
                         return temp;
                     }
                 }
@@ -70,27 +57,21 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem285
             return null;
         }
 
-        private TreeNode GetMin(TreeNode root)
-        {
-            if (root.left == null)
-            {
+        private TreeNode GetMin (TreeNode root) {
+            if (root.left == null) {
                 return root;
-            }
-            else
-            {
-                return GetMin(root.left);
+            } else {
+                return GetMin (root.left);
             }
 
         }
     }
 
-    public class TreeNode
-    {
+    public class TreeNode {
         public int val;
         public TreeNode left;
         public TreeNode right;
-        public TreeNode(int x)
-        {
+        public TreeNode (int x) {
             val = x;
         }
     }

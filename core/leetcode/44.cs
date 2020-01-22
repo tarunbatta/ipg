@@ -63,46 +63,38 @@ Output: false
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem44
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine(IsMatch("aa", "a"));
-            Console.WriteLine(IsMatch("aa", "*"));
-            Console.WriteLine(IsMatch("cb", "?a"));
-            Console.WriteLine(IsMatch("adceb", "*a*b"));
-            Console.WriteLine(IsMatch("acdcb", "a*c?b"));
+namespace InterviewPreperationGuide.Core.LeetCode.problem44 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine (IsMatch ("aa", "a"));
+            Console.WriteLine (IsMatch ("aa", "*"));
+            Console.WriteLine (IsMatch ("cb", "?a"));
+            Console.WriteLine (IsMatch ("adceb", "*a*b"));
+            Console.WriteLine (IsMatch ("acdcb", "a*c?b"));
         }
 
         // Time: O (n)
         // Space: O (1)
-        public bool IsMatch(string s, string p)
-        {
+        public bool IsMatch (string s, string p) {
             int i = 0;
             int j = 0;
             int match = 0;
             int starIdx = -1;
 
-            while (i < s.Length)
-            {
+            while (i < s.Length) {
                 // advancing both pointers
-                if (j < p.Length && (p[j] == '?' || s[i] == p[j]))
-                {
+                if (j < p.Length && (p[j] == '?' || s[i] == p[j])) {
                     i++;
                     j++;
                 }
                 // * found, only advancing pattern pointer
-                else if (j < p.Length && p[j] == '*')
-                {
+                else if (j < p.Length && p[j] == '*') {
                     starIdx = j;
                     match = i;
                     j++;
                 }
                 // last pattern pointer was *, advancing string pointer
-                else if (starIdx != -1)
-                {
+                else if (starIdx != -1) {
                     j = starIdx + 1;
                     match++;
                     i = match;

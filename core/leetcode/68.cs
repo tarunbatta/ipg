@@ -69,23 +69,18 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem68
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine(FullJustify_a(new string[] { "This", "is", "an", "example", "of", "text", "justification." }, 16));
-            Console.WriteLine(FullJustify_a(new string[] { "What", "must", "be", "acknowledgment", "shall", "be" }, 16));
-            Console.WriteLine(FullJustify_a(new string[] { "Science", "is", "what", "we", "understand", "well", "enough", "to", "explain", "to", "a", "computer.", "Art", "is", "everything", "else", "we", "do" }, 20));
+namespace InterviewPreperationGuide.Core.LeetCode.problem68 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine (FullJustify_a (new string[] { "This", "is", "an", "example", "of", "text", "justification." }, 16));
+            Console.WriteLine (FullJustify_a (new string[] { "What", "must", "be", "acknowledgment", "shall", "be" }, 16));
+            Console.WriteLine (FullJustify_a (new string[] { "Science", "is", "what", "we", "understand", "well", "enough", "to", "explain", "to", "a", "computer.", "Art", "is", "everything", "else", "we", "do" }, 20));
         }
 
-        public IList<string> FullJustify_a(string[] words, int maxWidth)
-        {
-            IList<string> result = new List<string>();
+        public IList<string> FullJustify_a (string[] words, int maxWidth) {
+            IList<string> result = new List<string> ();
 
-            if (words == null || words.Length == 0)
-            {
+            if (words == null || words.Length == 0) {
                 return result;
             }
 
@@ -93,164 +88,141 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem68
             int end = 0;
             int currentWidth = words[0].Length;
 
-            for (int i = 1; i < words.Length; i++)
-            {
-                if (currentWidth + (end - start) + words[i].Length <= maxWidth)
-                {
+            for (int i = 1; i < words.Length; i++) {
+                if (currentWidth + (end - start) + words[i].Length <= maxWidth) {
                     end = i;
                     currentWidth += words[i].Length;
-                }
-                else
-                {
+                } else {
                     int numberOfItems = end - start == 0 ? 1 : end - start;
                     currentWidth += end - start;
                     int additionalSpaces = (maxWidth - currentWidth) / numberOfItems;
                     int unevenSpaces = (maxWidth - currentWidth) % numberOfItems;
-                    StringBuilder line = new StringBuilder();
+                    StringBuilder line = new StringBuilder ();
 
-                    for (int j = start; j <= end; j++)
-                    {
+                    for (int j = start; j <= end; j++) {
                         int spacesCount = additionalSpaces + (end == start ? 0 : 1);
 
-                        if (unevenSpaces > 0)
-                        {
+                        if (unevenSpaces > 0) {
                             spacesCount++;
                             unevenSpaces--;
                         }
 
-                        if (j == end && start != end)
-                        {
+                        if (j == end && start != end) {
                             spacesCount = 0;
                         }
 
-                        line.Append(words[j]);
+                        line.Append (words[j]);
 
-                        for (int k = 1; k <= spacesCount; k++)
-                        {
-                            line.Append(' ');
+                        for (int k = 1; k <= spacesCount; k++) {
+                            line.Append (' ');
                         }
                     }
 
-                    result.Add(line.ToString());
+                    result.Add (line.ToString ());
                     start = i;
                     end = i;
                     currentWidth = words[i].Length;
                 }
             }
 
-            if (currentWidth > 0)
-            {
-                StringBuilder line = new StringBuilder();
+            if (currentWidth > 0) {
+                StringBuilder line = new StringBuilder ();
 
-                for (int j = start; j <= end; j++)
-                {
-                    line.Append(words[j]);
+                for (int j = start; j <= end; j++) {
+                    line.Append (words[j]);
 
-                    if (line.Length < maxWidth)
-                    {
-                        line.Append(' ');
+                    if (line.Length < maxWidth) {
+                        line.Append (' ');
                     }
                 }
 
-                while (line.Length < maxWidth)
-                {
-                    line.Append(' ');
+                while (line.Length < maxWidth) {
+                    line.Append (' ');
                 }
 
-                result.Add(line.ToString());
+                result.Add (line.ToString ());
             }
 
             return result;
         }
 
-        public IList<string> FullJustify_b(string[] words, int maxWidth)
-        {
-            var result = new List<string>();
+        public IList<string> FullJustify_b (string[] words, int maxWidth) {
+            var result = new List<string> ();
 
             var left = 0;
             var right = 0;
             var curLength = 0;
-            
-            while (right < words.Length)
-            {
+
+            while (right < words.Length) {
                 curLength += words[right].Length;
 
-                if (curLength > maxWidth)
-                {
+                if (curLength > maxWidth) {
                     right--;
 
-                    result.Add(FillLine(words, left, right, maxWidth));
+                    result.Add (FillLine (words, left, right, maxWidth));
 
                     left = right + 1;
 
                     curLength = 0;
-                }
-                else
-                {
+                } else {
                     curLength += 1;
                 }
 
                 right++;
             }
 
-            result.Add(FillLastLine(words, left, maxWidth));
+            result.Add (FillLastLine (words, left, maxWidth));
 
             return result;
         }
 
-        private string FillLine(string[] words, int startIndex, int endIndex, int maxWidth)
-        {
-            if (endIndex - startIndex == 0)
-            {
+        private string FillLine (string[] words, int startIndex, int endIndex, int maxWidth) {
+            if (endIndex - startIndex == 0) {
                 return $"{words[startIndex]}{new string(' ', maxWidth - words[startIndex].Length)}";
             }
 
             var wordsLength = 0;
-            for (int i = startIndex; i <= endIndex; i++)
-            {
+            for (int i = startIndex; i <= endIndex; i++) {
                 wordsLength += words[i].Length;
             }
 
             var restSpace = maxWidth - wordsLength;
             var spaceCount = endIndex - startIndex + 1 - 1;
 
-            var oneResult = new List<string>();
+            var oneResult = new List<string> ();
 
-            for (int i = endIndex; i > startIndex; i--)
-            {
-                oneResult.Add(words[i]);
-                oneResult.Add(new string(' ', restSpace / spaceCount));
+            for (int i = endIndex; i > startIndex; i--) {
+                oneResult.Add (words[i]);
+                oneResult.Add (new string (' ', restSpace / spaceCount));
 
                 restSpace -= restSpace / spaceCount;
                 spaceCount--;
             }
 
-            oneResult.Add(words[startIndex]);
-            oneResult.Reverse();
+            oneResult.Add (words[startIndex]);
+            oneResult.Reverse ();
 
-            return string.Join("", oneResult);
+            return string.Join ("", oneResult);
         }
 
-        private string FillLastLine(string[] words, int startIndex, int maxWidth)
-        {
+        private string FillLastLine (string[] words, int startIndex, int maxWidth) {
             var restSpace = maxWidth;
-            var result = new List<string>();
-            for (int i = startIndex; i < words.Length - 1; i++)
-            {
-                result.Add(words[i]);
-                result.Add(" ");
+            var result = new List<string> ();
+            for (int i = startIndex; i < words.Length - 1; i++) {
+                result.Add (words[i]);
+                result.Add (" ");
 
                 restSpace -= words[i].Length;
                 restSpace -= 1;
             }
 
-            result.Add(words[words.Length - 1]);
+            result.Add (words[words.Length - 1]);
 
             restSpace -= words[words.Length - 1].Length;
 
-            result.Add(new string(' ', restSpace));
+            result.Add (new string (' ', restSpace));
 
-            return string.Join("", result);
+            return string.Join ("", result);
         }
     }
 }

@@ -50,19 +50,15 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem1091
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine();
+namespace InterviewPreperationGuide.Core.LeetCode.problem1091 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine ();
         }
 
         // Time: O ()
         // Space: O ()
-        public int ShortestPathBinaryMatrix(int[][] grid)
-        {
+        public int ShortestPathBinaryMatrix (int[][] grid) {
             return 0;
         }
     }

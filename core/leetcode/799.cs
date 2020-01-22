@@ -41,19 +41,15 @@ Note:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem799
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine();
+namespace InterviewPreperationGuide.Core.LeetCode.problem799 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine ();
         }
 
         // Time: O ()
         // Space: O ()
-        public double ChampagneTower(int poured, int query_row, int query_glass)
-        {
+        public double ChampagneTower (int poured, int query_row, int query_glass) {
             return 0;
         }
     }
