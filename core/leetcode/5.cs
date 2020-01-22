@@ -57,7 +57,7 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem5 {
             return s.Substring (start, end);
         }
 
-        private void expandAroundCenter (String s, int j, int k) {
+        private void expandAroundCenter (string s, int j, int k) {
             while (j >= 0 && k < s.Length && s[j] == s[k]) {
                 j--;
                 k++;

@@ -25,39 +25,31 @@ while the minimum difference in this tree is 1, it occurs between node 1 and nod
 
 
 Note:
-
-
 	The size of the BST will be between 2 and 100.
 	The BST is always valid, each node's value is an integer, and each node's value is different.
 */
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem783
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine();
+namespace InterviewPreperationGuide.Core.LeetCode.problem783 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine ();
         }
 
         // Time: O ()
         // Space: O ()
-        public int MinDiffInBST(TreeNode root)
-        {
+        public int MinDiffInBST (TreeNode root) {
             return 0;
         }
     }
 
-    public class TreeNode
-    {
+    public class TreeNode {
         public int val;
         public TreeNode left;
         public TreeNode right;
 
-        public TreeNode(int x)
-        {
+        public TreeNode (int x) {
             val = x;
         }
     }

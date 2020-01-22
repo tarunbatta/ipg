@@ -27,36 +27,28 @@ If there are lots of incoming S, say S1, S2, ... , Sk where k >= 1B, and you wan
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem392
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine(IsSubsequence("abc", "ahbgdc"));
-            Console.WriteLine(IsSubsequence("axc", "ahbgdc"));
+namespace InterviewPreperationGuide.Core.LeetCode.problem392 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine (IsSubsequence ("abc", "ahbgdc"));
+            Console.WriteLine (IsSubsequence ("axc", "ahbgdc"));
         }
 
         // Time: O (n)
         // Space: O (1)
-        public bool IsSubsequence(string s, string t)
-        {
-            if (string.IsNullOrEmpty(s))
-            {
+        public bool IsSubsequence (string s, string t) {
+            if (string.IsNullOrEmpty (s)) {
                 return true;
             }
 
             int idx = 0;
 
-            for (int i = 0; i < t.Length; i++)
-            {
-                if (s[idx] == t[i])
-                {
+            for (int i = 0; i < t.Length; i++) {
+                if (s[idx] == t[i]) {
                     idx++;
                 }
 
-                if (idx >= s.Length)
-                {
+                if (idx >= s.Length) {
                     return true;
                 }
             }

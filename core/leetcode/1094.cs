@@ -39,21 +39,8 @@ Input: trips = [[3,2,7],[3,7,9],[8,3,9]], capacity = 11
 Output: true
 
 
-
-
-
-
-
-
- 
-
-
-
-
  
 Constraints:
-
-
 	trips.length <= 1000
 	trips[i].length == 3
 	1 <= trips[i][0] <= 100
@@ -63,19 +50,15 @@ Constraints:
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem1094
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine();
+namespace InterviewPreperationGuide.Core.LeetCode.problem1094 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine ();
         }
 
         // Time: O ()
         // Space: O ()
-        public bool CarPooling(int[][] trips, int capacity)
-        {
+        public bool CarPooling (int[][] trips, int capacity) {
             return false;
         }
     }

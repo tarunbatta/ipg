@@ -15,8 +15,6 @@ Output: 3
 Explanation: Three palindromic strings: "a", "b", "c".
 
 
- 
-
 Example 2:
 
 Input: "aaa"
@@ -24,33 +22,44 @@ Output: 6
 Explanation: Six palindromic strings: "a", "a", "a", "aa", "aa", "aaa".
 
 
- 
-
 Note:
-
-
 	The input string length won't exceed 1000.
-
-
- 
 */
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem647
-{
-    public class Solution
-    {
-        public void Init()
-        {
-            Console.WriteLine();
+namespace InterviewPreperationGuide.Core.LeetCode.problem647 {
+    public class Solution {
+        public void Init () {
+            Console.WriteLine ();
         }
 
-        // Time: O ()
-        // Space: O ()
-        public int CountSubstrings(string s)
-        {
-            return 0;
+        int count = 0;
+
+        // Time: O (n^2)
+        // Space: O (1)
+        public int CountSubstrings (string s) {
+            if (string.IsNullOrEmpty (s)) {
+                return count;
+            }
+
+            for (int i = 0; i < s.Length; i++) {
+                //assume odd length, try to extend Palindrome as possible
+                expandAroundCenter (s, i, i);
+
+                //assume even length.
+                expandAroundCenter (s, i, i + 1);
+            }
+
+            return count;
+        }
+
+        private void expandAroundCenter (string s, int j, int k) {
+            while (j >= 0 && k < s.Length && s[j] == s[k]) {
+                count++;
+                j--;
+                k++;
+            }
         }
     }
 }
