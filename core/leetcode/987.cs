@@ -15,11 +15,7 @@ If two nodes have the same position, then the value of the node that is reported
 Return an list of non-empty reports in order of X coordinate.  Every report will have a list of values of nodes.
 
  
-
 Example 1:
-
-
-
 
 Input: [3,9,20,null,null,15,7]
 Output: [[9],[3,15],[20],[7]]
@@ -34,8 +30,6 @@ The node with value 7 occurs at position (2, -2).
 
 Example 2:
 
-
-
 Input: [1,2,3,4,5,6,7]
 Output: [[4],[2],[1,5,6],[3],[7]]
 Explanation: 
@@ -43,19 +37,9 @@ The node with value 5 and the node with value 6 have the same position according
 However, in the report "[1,5,6]", the node value of 5 comes first since 5 is smaller than 6.
 
 
- 
-
-
 Note:
-
-
 	The tree will have between 1 and 1000 nodes.
 	Each node's value will be between 0 and 1000.
-
-
-
-
- 
 */
 
 using System;

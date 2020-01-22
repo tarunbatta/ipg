@@ -11,8 +11,6 @@ The left subtree is the maximum tree constructed from left part subarray divided
 The right subtree is the maximum tree constructed from right part subarray divided by the maximum number. 
 
 
-
-
 Construct the maximum tree by the given array and output the root node of this tree.
 
 

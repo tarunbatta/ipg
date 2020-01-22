@@ -47,8 +47,6 @@ Output: [2,1,4,null,null,3]
 
 
 Follow up:
-
-
 	A solution using O(n) space is pretty straight forward.
 	Could you devise a constant space solution?
 */
@@ -57,58 +55,49 @@ using System;
 
 namespace InterviewPreperationGuide.Core.LeetCode.problem99 {
     public class Solution {
-        private static TreeNode first;
-        private static TreeNode second;
-        private static TreeNode previous;
-
         public void Init () {
-            TreeNode node = new TreeNode (40);
-            node.left = new TreeNode (20);
-            node.right = new TreeNode (60);
-            node.left.left = new TreeNode (70);
-            node.left.right = new TreeNode (30);
-            node.right.left = new TreeNode (50);
-            node.right.right = new TreeNode (10);
+            TreeNode node = new TreeNode (3);
+            node.left = new TreeNode (1);
+            node.right = new TreeNode (4);
+            node.right.left = new TreeNode (2);
 
             RecoverTree (node);
         }
 
+        TreeNode first = null;
+        TreeNode second = null;
+        TreeNode prev = new TreeNode (Int32.MinValue);
+
+        // Time: O (n)
+        // Space: O (n)
         public void RecoverTree (TreeNode root) {
-            if (root == null) {
-                return;
-            }
+            traverse (root);
 
-            RecoverBstInorder (root);
-
-            if (first != null && second != null) {
-                int val = second.val;
-                second.val = first.val;
-                first.val = val;
-            }
+            // Swap the values of the two nodes
+            int temp = first.val;
+            first.val = second.val;
+            second.val = temp;
         }
 
-        private void RecoverBstInorder (TreeNode node) {
-            if (node == null) {
+        private void traverse (TreeNode node) {
+            if (node == null)
                 return;
+
+            traverse (node.left);
+
+            // Start of "do some business", 
+            // If first element has not been found, assign it to prev 
+            if (first == null && prev.val > node.val) {
+                first = prev;
             }
 
-            RecoverBstInorder (node.left);
-
-            if (previous == null) {
-                previous = node;
-            } else {
-                if (node.val < previous.val) {
-                    if (first == null) {
-                        first = previous;
-                    }
-
-                    second = node;
-                }
-
-                previous = node;
+            // If first element is found, assign the second element to the node 
+            if (first != null && prev.val > node.val) {
+                second = node;
             }
-
-            RecoverBstInorder (node.right);
+            prev = node;
+            // End of "do some business"
+            traverse (node.right);
         }
     }
 

@@ -11,8 +11,6 @@ According to the definition of LCA on Wikipedia: “The lowest common ancestor i
 Given the following binary tree:  root = [3,5,1,6,2,0,8,null,null,7,4]
 
 
- 
-
 Example 1:
 
 Input: root = [3,5,1,6,2,0,8,null,null,7,4], p = 5, q = 1
@@ -51,6 +49,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem236 {
             r2.DisplayNode ();
         }
 
+        // Time: O (n)
+        // Space: O (n)
         public static TreeNode LowestCommonAncestor (TreeNode root, TreeNode p, TreeNode q) {
             if (root == null) {
                 return null;

@@ -51,11 +51,10 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem124 {
 
         private int result = int.MinValue;
 
+        // Time: O (n)
+        // Space: O (log n)
         public int MaxPathSum (TreeNode root) {
-            if (root != null) {
-                MaxPathSumUtility (root);
-            }
-
+            MaxPathSumUtility (root);
             return result;
         }
 
