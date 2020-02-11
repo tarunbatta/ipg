@@ -1,4 +1,4 @@
-// Url:https://leetcode.com/problems/maximum-binary-tree
+// Url: https://leetcode.com/problems/maximum-binary-tree
 
 /*
 654. Maximum Binary Tree
@@ -29,31 +29,65 @@ Output: return the tree root node representing the following tree:
 
 
 Note:
-
 The size of the given array will be in the range [1,1000].
 */
 
 using System;
 
-namespace InterviewPreperationGuide.Core.LeetCode.problem654 {
-    public class Solution {
-        public void Init () {
-            Console.WriteLine ();
+namespace InterviewPreperationGuide.Core.LeetCode.problem654
+{
+    public class Solution
+    {
+        public void Init()
+        {
+            Console.WriteLine();
         }
 
-        // Time: O ()
-        // Space: O ()
-        public TreeNode ConstructMaximumBinaryTree (int[] nums) {
-            return null;
+        // Time: O (n^2)
+        // Space: O (n)
+        public TreeNode ConstructMaximumBinaryTree(int[] nums)
+        {
+            return ConstructTree(nums, 0, nums.Length);
+        }
+
+        private TreeNode ConstructTree(int[] nums, int l, int r)
+        {
+            if (l == r)
+            {
+                return null;
+            }
+
+            int max_idx = GetMaxIndex(nums, l, r);
+            TreeNode root = new TreeNode(nums[max_idx]);
+            root.left = ConstructTree(nums, l, max_idx);
+            root.right = ConstructTree(nums, max_idx + 1, r);
+            return root;
+        }
+
+        private int GetMaxIndex(int[] nums, int l, int r)
+        {
+            int result = l;
+
+            for (int i = l; i < r; i++)
+            {
+                if (nums[i] > nums[result])
+                {
+                    result = i;
+                }
+            }
+
+            return result;
         }
     }
 
-    public class TreeNode {
+    public class TreeNode
+    {
         public int val;
         public TreeNode left;
         public TreeNode right;
 
-        public TreeNode (int x) {
+        public TreeNode(int x)
+        {
             val = x;
         }
     }
