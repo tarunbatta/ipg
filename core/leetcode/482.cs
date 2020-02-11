@@ -1,3 +1,4 @@
+using System.Linq;
 // Url:https://leetcode.com/problems/license-key-formatting
 
 /*
@@ -38,17 +39,38 @@ String S is non-empty.
 */
 
 using System;
+using System.Text;
 
 namespace InterviewPreperationGuide.Core.LeetCode.problem482 {
     public class Solution {
         public void Init () {
-            Console.WriteLine ();
+            Console.WriteLine (LicenseKeyFormatting (null, 0));
+            Console.WriteLine (LicenseKeyFormatting ("5F3Z-2e-9-w", 4));
+            Console.WriteLine (LicenseKeyFormatting ("2-5g-3-J", 2));
         }
 
-        // Time: O ()
-        // Space: O ()
+        // Time: O (n)
+        // Space: O (n)
         public string LicenseKeyFormatting (string S, int K) {
-            return null;
+            if (string.IsNullOrEmpty (S) || K == 0) {
+                return S;
+            }
+
+            StringBuilder sb = new StringBuilder ();
+
+            for (int i = S.Length - 1; i >= 0; i--) {
+                if (S[i] != '-') {
+                    if (sb.Length % (K + 1) == K) {
+                        sb.Append ('-');
+                    }
+                    sb.Append (S[i]);
+                }
+            }
+
+            char[] arr = sb.ToString ().ToCharArray ();
+            Array.Reverse (arr);
+
+            return new string (arr).ToUpper ();
         }
     }
 }

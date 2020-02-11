@@ -34,6 +34,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem76 {
             Console.WriteLine (MinWindow ("eaebeccdeefeggh", "eee"));
         }
 
+        // Time: O (s+t)
+        // Space: O (s+t)
         public string MinWindow (string s, string t) {
             string result = string.Empty;
 

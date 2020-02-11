@@ -1,4 +1,4 @@
-// Url:https://leetcode.com/problems/happy-number
+// Url: https://leetcode.com/problems/happy-number
 
 /*
 202. Happy Number
@@ -20,6 +20,7 @@ Explanation:
 */
 
 using System;
+using System.Collections.Generic;
 
 namespace InterviewPreperationGuide.Core.LeetCode.problem202 {
     public class Solution {
@@ -27,10 +28,33 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem202 {
             Console.WriteLine ();
         }
 
-        // Time: O ()
-        // Space: O ()
+        // Time: O (log n)
+        // Space: O (log n)
         public bool IsHappy (int n) {
+            HashSet<int> found = new HashSet<int> ();
+            int ss = GetSquareSum (n);
+
+            while (ss != 1 && !found.Contains (ss)) {
+                found.Add (ss);
+                ss = GetSquareSum (ss);
+            }
+
+            if (ss == 1) return true;
+
             return false;
+        }
+
+        public int GetSquareSum (int n) {
+            if (0 == n) return 0;
+            int squareSum = 0;
+
+            while (n > 0) {
+                int digit = n % 10;
+                n = n / 10;
+                squareSum += (digit * digit);
+            }
+
+            return squareSum;
         }
     }
 }

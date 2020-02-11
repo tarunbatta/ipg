@@ -47,6 +47,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem151 {
             Console.WriteLine (ReverseWords ("a good   example"));
         }
 
+        // Time: O (n)
+        // Space: O (n)
         public string ReverseWords (string s) {
             if (string.IsNullOrEmpty (s)) {
                 return s;

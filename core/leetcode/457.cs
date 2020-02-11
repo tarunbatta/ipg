@@ -1,4 +1,4 @@
-// Url:https://leetcode.com/problems/circular-array-loop
+// Url: https://leetcode.com/problems/circular-array-loop
 
 /*
 457. Circular Array Loop
@@ -51,10 +51,59 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem457 {
             Console.WriteLine ();
         }
 
-        // Time: O ()
-        // Space: O ()
+        // Time: O (n)
+        // Space: O (1)
         public bool CircularArrayLoop (int[] nums) {
+            bool result = false;
+
+            if (nums == null || nums.Length < 2) {
+                return result;
+            }
+
+            int n = nums.Length;
+
+            for (int i = 0; i < n; i++) {
+                if (nums[i] == 0) {
+                    continue;
+                }
+
+                // slow/fast pointer
+                int slow = i;
+                int fast = getIndex (i, nums);
+
+                while (nums[fast] * nums[i] > 0 && nums[getIndex (fast, nums)] * nums[i] > 0) {
+                    if (slow == fast) {
+                        // check for loop with only one element
+                        if (slow == getIndex (slow, nums)) {
+                            break;
+                        }
+
+                        return true;
+                    }
+
+                    slow = getIndex (slow, nums);
+                    fast = getIndex (getIndex (fast, nums), nums);
+                }
+
+                // loop not found, set all element along the way to 0
+                slow = i;
+                int val = nums[i];
+
+                while (nums[slow] * val > 0) {
+                    int next = getIndex (slow, nums);
+                    nums[slow] = 0;
+                    slow = next;
+                }
+            }
+
             return false;
+        }
+
+        public int getIndex (int i, int[] nums) {
+            int n = nums.Length;
+            int nexttIdx = i + nums[i];
+
+            return nexttIdx >= 0 ? (nexttIdx) % n : n + ((nexttIdx) % n);
         }
     }
 }

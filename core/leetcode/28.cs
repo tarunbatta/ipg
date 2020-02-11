@@ -43,6 +43,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem28 {
             Console.WriteLine (StrStr_b ("aaaaa", "bba"));
         }
 
+        // Time: O ((n-l)l), where n is length of haystack, and l is length of needle
+        // Space: O (1)
         public int StrStr_a (string haystack, string needle) {
             if (needle == null) {
                 return -1;
@@ -80,6 +82,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem28 {
             return result;
         }
 
+        // Time: O ()
+        // Space: O ()
         public int StrStr_b (string haystack, string needle) {
             if ((haystack == null && needle != null) || (haystack != null && needle == null) || (haystack != null && needle != null && haystack.Length < needle.Length)) {
                 return -1;

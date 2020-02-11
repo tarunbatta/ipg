@@ -16,6 +16,7 @@ Explanation: The longest consecutive elements sequence is [1, 2, 3, 4]. Therefor
 */
 
 using System;
+using System.Collections.Generic;
 
 namespace InterviewPreperationGuide.Core.LeetCode.problem128 {
     public class Solution {
@@ -23,10 +24,36 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem128 {
             Console.WriteLine ();
         }
 
-        // Time: O ()
-        // Space: O ()
+        // Time: O (n)
+        // Space: O (n)
         public int LongestConsecutive (int[] nums) {
-            return 0;
+            int result = 0;
+
+            if (nums == null || nums.Length == 0) {
+                return result;
+            }
+
+            HashSet<int> hash = new HashSet<int> ();
+            foreach (var item in nums) {
+                if (!hash.Contains (item)) {
+                    hash.Add (item);
+                }
+            }
+
+            for (int i = 0; i < nums.Length; i++) {
+                if (!hash.Contains (nums[i] - 1)) {
+                    int currentMax = 1;
+                    int currentNum = nums[i];
+                    while (hash.Contains (currentNum + 1)) {
+                        currentMax++;
+                        currentNum++;
+                    }
+
+                    result = Math.Max (result, currentMax);
+                }
+            }
+
+            return result;
         }
     }
 }

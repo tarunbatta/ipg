@@ -25,15 +25,15 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem22 {
             Console.WriteLine ();
         }
 
-        // Time: O ()
-        // Space: O ()
+        // Time: O (4^n/sqrt(n))
+        // Space: O (4^n/sqrt(n))
         public IList<string> GenerateParenthesis_a (int n) {
-            List<String> ans = new List<string> ();
+            List<string> ans = new List<string> ();
             backtrack (ans, "", 0, 0, n);
             return ans;
         }
 
-        private void backtrack (List<String> ans, String cur, int open, int close, int max) {
+        private void backtrack (List<string> ans, string cur, int open, int close, int max) {
             if (cur.Length == max * 2) {
                 ans.Add (cur);
                 return;
@@ -45,6 +45,8 @@ namespace InterviewPreperationGuide.Core.LeetCode.problem22 {
                 backtrack (ans, cur + ")", open, close + 1, max);
         }
 
+        // Time: O (4^n/sqrt(n))
+        // Space: O (4^n/sqrt(n))
         public IList<string> GenerateParenthesis_b (int n) {
             var result = new List<string> ();
             generateAll (new char[2 * n], 0, result);
